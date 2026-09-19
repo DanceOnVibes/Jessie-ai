@@ -1,16 +1,23 @@
-export default function Home() {
+export default function HomePage() {
   return (
     <main>
       <section
         style={{
           textAlign: "center",
-          marginBottom: "3rem",
+          marginBottom: "4rem",
         }}
       >
-        <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>Jessie’s World</h1>
+        <h1
+          style={{
+            fontSize: "3.2rem",
+            marginBottom: "1rem",
+          }}
+        >
+          Jessie’s World
+        </h1>
         <p
           style={{
-            maxWidth: "700px",
+            maxWidth: "760px",
             margin: "0 auto",
             fontSize: "1.1rem",
             lineHeight: "1.8",
@@ -27,19 +34,19 @@ export default function Home() {
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
           gap: "1.5rem",
-          marginBottom: "3rem",
+          marginBottom: "4rem",
         }}
       >
         <div
           style={{
             background: "#fff",
-            padding: "1.5rem",
+            padding: "1.75rem",
             borderRadius: "20px",
             boxShadow: "0 4px 20px rgba(0,0,0,0.05)",
           }}
         >
-          <h2>About Jessie</h2>
-          <p>
+          <h2 style={{ marginBottom: "1rem" }}>About Jessie</h2>
+          <p style={{ lineHeight: "1.8", margin: 0 }}>
             Jessie’s World is a cozy and creative corner of the internet — a
             place for dreamy colors, treasured memories, sweet personality, and
             all the gentle little details that make life feel magical.
@@ -49,13 +56,13 @@ export default function Home() {
         <div
           style={{
             background: "#fff",
-            padding: "1.5rem",
+            padding: "1.75rem",
             borderRadius: "20px",
             boxShadow: "0 4px 20px rgba(0,0,0,0.05)",
           }}
         >
-          <h2>Little Lovely Things</h2>
-          <ul style={{ paddingLeft: "1.2rem", margin: 0 }}>
+          <h2 style={{ marginBottom: "1rem" }}>Little Lovely Things</h2>
+          <ul style={{ paddingLeft: "1.2rem", margin: 0, lineHeight: "1.8" }}>
             <li>Sunsets, soft skies, and golden light</li>
             <li>Warm memories full of love and laughter</li>
             <li>Creativity, comfort, and beautiful details</li>
@@ -66,13 +73,13 @@ export default function Home() {
       <section
         style={{
           textAlign: "center",
-          marginBottom: "3rem",
+          marginBottom: "4rem",
         }}
       >
         <h2 style={{ marginBottom: "1rem" }}>Featured Memory</h2>
         <p
           style={{
-            maxWidth: "700px",
+            maxWidth: "720px",
             margin: "0 auto 2rem",
             lineHeight: "1.8",
           }}
@@ -84,18 +91,22 @@ export default function Home() {
         <div
           style={{
             width: "100%",
-            maxWidth: "430px",
+            maxWidth: "460px",
             margin: "0 auto",
+            background: "#fff",
+            padding: "1rem",
+            borderRadius: "22px",
+            boxShadow: "0 4px 20px rgba(0,0,0,0.05)",
           }}
         >
           <img
-            src="/jessie.jpg"
+            src="/jessie-main.jpg"
             alt="Featured memory"
             style={{
               width: "100%",
               height: "auto",
-              borderRadius: "20px",
-              boxShadow: "0 6px 24px rgba(0,0,0,0.08)",
+              borderRadius: "16px",
+              display: "block",
             }}
           />
         </div>
@@ -106,22 +117,27 @@ export default function Home() {
           marginBottom: "3rem",
         }}
       >
-        <h2 style={{ textAlign: "center", marginBottom: "1.5rem" }}>
-          More Memories
+        <h2
+          style={{
+            textAlign: "center",
+            marginBottom: "1.5rem",
+          }}
+        >
+          Gentle Highlights
         </h2>
 
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
             gap: "1.5rem",
           }}
         >
           {[
-            "A quiet and lovely afternoon",
-            "A warm little moment to treasure",
-            "Something soft, sweet, and unforgettable",
-          ].map((text, index) => (
+            "Soft memories worth keeping forever",
+            "Tiny beautiful moments that feel magical",
+            "A warm space filled with creativity and heart",
+          ].map((item, index) => (
             <div
               key={index}
               style={{
@@ -129,9 +145,10 @@ export default function Home() {
                 padding: "1.5rem",
                 borderRadius: "18px",
                 boxShadow: "0 4px 20px rgba(0,0,0,0.05)",
+                textAlign: "center",
               }}
             >
-              <p style={{ margin: 0 }}>{text}</p>
+              <p style={{ margin: 0, lineHeight: "1.7" }}>{item}</p>
             </div>
           ))}
         </div>
