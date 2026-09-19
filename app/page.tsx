@@ -94,7 +94,7 @@ export default function HomePage() {
             borderRadius: "28px",
             padding: "1rem",
             boxShadow: "0 8px 30px rgba(0,0,0,0.05)",
-            maxWidth: "760px",
+            maxWidth: "520px",
             margin: "0 auto",
           }}
         >
