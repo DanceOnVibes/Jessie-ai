@@ -216,14 +216,21 @@ export default function Home() {
               alt="Jessie"
               style={{
                 width: "100%",
-                maxHeight: "520px",
-                objectFit: "cover",
+                maxHeight: "700px",
+                objectFit: "contain",
                 display: "block",
+                background: "#fff6fa",
               }}
             />
 
             <div style={{ padding: "24px" }}>
-              <h3 style={{ margin: "0 0 12px", fontSize: "1.5rem", color: "#7a435b" }}>
+              <h3
+                style={{
+                  margin: "0 0 12px",
+                  fontSize: "1.5rem",
+                  color: "#7a435b",
+                }}
+              >
                 Jessie
               </h3>
               <p style={{ margin: 0, lineHeight: 1.8, color: "#6b5560" }}>
