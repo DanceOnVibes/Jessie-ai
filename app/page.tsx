@@ -509,6 +509,44 @@ export default function Home() {
           ))}
         </section>
 
+        <section
+          style={{
+            marginTop: "30px",
+            background: "linear-gradient(135deg, #fff6fa, #fffafc)",
+            borderRadius: "28px",
+            padding: "40px 28px",
+            border: "1px solid #f4d8e5",
+            boxShadow: "0 8px 24px rgba(230, 186, 205, 0.12)",
+            textAlign: "center",
+          }}
+        >
+          <h2
+            style={{
+              marginTop: 0,
+              marginBottom: "14px",
+              fontSize: "1.9rem",
+              color: "#7a435b",
+            }}
+          >
+            Thank You for Visiting Jessie’s World 🌷
+          </h2>
+
+          <p
+            style={{
+              margin: 0,
+              maxWidth: "760px",
+              marginInline: "auto",
+              lineHeight: 1.9,
+              color: "#6b5560",
+              fontSize: "1.05rem",
+            }}
+          >
+            May these little memories leave behind something warm — a smile, a soft
+            feeling, or a gentle reminder that beautiful moments deserve to be held
+            close.
+          </p>
+        </section>
+
         <footer
           style={{
             textAlign: "center",
