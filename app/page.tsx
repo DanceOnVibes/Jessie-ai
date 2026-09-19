@@ -169,7 +169,7 @@ export default function HomePage() {
         <h2 style={{ marginTop: 0, marginBottom: "1rem" }}>Featured Memory</h2>
         <p
           style={{
-            maxWidth: "700px",
+            maxWidth: "520px",
             margin: "0 auto",
             lineHeight: "1.9",
             fontSize: "1.08rem",
