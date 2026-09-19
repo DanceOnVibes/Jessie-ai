@@ -267,6 +267,31 @@ export default function Home() {
         <section
           style={{
             marginTop: "30px",
+            background: "linear-gradient(135deg, #fff7fb, #fff0f6)",
+            borderRadius: "26px",
+            padding: "36px 28px",
+            border: "1px solid #f6dce7",
+            boxShadow: "0 8px 24px rgba(230, 186, 205, 0.12)",
+            textAlign: "center",
+          }}
+        >
+          <p
+            style={{
+              margin: 0,
+              fontSize: "clamp(1.4rem, 3vw, 2rem)",
+              lineHeight: 1.7,
+              color: "#7a435b",
+              fontWeight: 600,
+              fontStyle: "italic",
+            }}
+          >
+            “The smallest memories can hold the greatest beauty.” ✨
+          </p>
+        </section>
+
+        <section
+          style={{
+            marginTop: "30px",
             background: "rgba(255,255,255,0.92)",
             borderRadius: "26px",
             padding: "32px",
