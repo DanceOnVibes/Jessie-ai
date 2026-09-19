@@ -100,7 +100,7 @@ export default function HomePage() {
             style={{
               position: "relative",
               width: "100%",
-              aspectRatio: "4 / 3",
+              aspectRatio: "3 / 4",
               overflow: "hidden",
               borderRadius: "22px",
             }}
@@ -109,7 +109,10 @@ export default function HomePage() {
               src="/jessie-main.jpg"
               alt="Featured memory of Jessie"
               fill
-              style={{ objectFit: "cover" }}
+              style={{ 
+               objectFit: "cover",
+               objectPosition: "center top",
+              }}
               priority
             />
           </div>
