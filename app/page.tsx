@@ -311,6 +311,44 @@ export default function Home() {
             padding: "32px",
             border: "1px solid #f6dce7",
             boxShadow: "0 8px 24px rgba(230, 186, 205, 0.12)",
+            textAlign: "center",
+          }}
+        >
+          <h2
+            style={{
+              marginTop: 0,
+              marginBottom: "14px",
+              fontSize: "1.7rem",
+              color: "#7a435b",
+            }}
+          >
+            A Little Note 💌
+          </h2>
+
+          <p
+            style={{
+              margin: 0,
+              maxWidth: "760px",
+              marginInline: "auto",
+              lineHeight: 1.9,
+              color: "#6b5560",
+              fontSize: "1.05rem",
+            }}
+          >
+            Jessie’s World is made of gentle memories, soft colors, beautiful feeling,
+            and little sparks of joy that stay in the heart. Every photo here carries
+            warmth, personality, and the quiet magic of moments worth keeping.
+          </p>
+        </section>
+
+        <section
+          style={{
+            marginTop: "30px",
+            background: "rgba(255,255,255,0.92)",
+            borderRadius: "26px",
+            padding: "32px",
+            border: "1px solid #f6dce7",
+            boxShadow: "0 8px 24px rgba(230, 186, 205, 0.12)",
           }}
         >
           <h2 style={{ marginTop: 0, fontSize: "1.8rem", color: "#7a435b" }}>
