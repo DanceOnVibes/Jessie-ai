@@ -212,14 +212,12 @@ export default function Home() {
             }}
           >
             <img
-              src="/jessie.jpg"
+              src="/jessie-main.jpg"
               alt="Jessie"
               style={{
                 width: "100%",
-                maxHeight: "700px",
-                objectFit: "contain",
+                height: "auto",
                 display: "block",
-                background: "#fff6fa",
               }}
             />
 
