@@ -39,7 +39,7 @@ export default function Home() {
         background:
           "linear-gradient(180deg, #fff8fc 0%, #fff3f8 35%, #fef6fb 65%, #fffdfd 100%)",
         color: "#3d2b35",
-        padding: "40px 20px 60px",
+        padding: "20px 20px 60px",
         fontFamily: "Arial, sans-serif",
       }}
     >
@@ -49,7 +49,77 @@ export default function Home() {
           margin: "0 auto",
         }}
       >
+        <nav
+          style={{
+            position: "sticky",
+            top: "12px",
+            zIndex: 20,
+            marginBottom: "24px",
+            background: "rgba(255,255,255,0.78)",
+            border: "1px solid #f4d8e5",
+            borderRadius: "999px",
+            padding: "14px 22px",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            gap: "16px",
+            boxShadow: "0 10px 28px rgba(232, 163, 192, 0.14)",
+            backdropFilter: "blur(12px)",
+            flexWrap: "wrap",
+          }}
+        >
+          <div
+            style={{
+              fontWeight: 700,
+              color: "#7a435b",
+              fontSize: "1rem",
+            }}
+          >
+            Jessie’s World ✨
+          </div>
+
+          <div
+            style={{
+              display: "flex",
+              gap: "16px",
+              flexWrap: "wrap",
+            }}
+          >
+            <a
+              href="#top"
+              style={{
+                textDecoration: "none",
+                color: "#7a435b",
+                fontWeight: 600,
+              }}
+            >
+              Home
+            </a>
+            <a
+              href="#about"
+              style={{
+                textDecoration: "none",
+                color: "#7a435b",
+                fontWeight: 600,
+              }}
+            >
+              About
+            </a>
+            <a
+              href="#memories"
+              style={{
+                textDecoration: "none",
+                color: "#7a435b",
+                fontWeight: 600,
+              }}
+            >
+              Memories
+            </a>
+          </div>
+        </nav>
+
         <div
+          id="top"
           style={{
             background: "rgba(255,255,255,0.72)",
             border: "1px solid #f7d7e6",
