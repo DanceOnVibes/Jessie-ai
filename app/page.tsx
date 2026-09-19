@@ -1,14 +1,28 @@
 export default function Home() {
+  const memoryCards = [
+    {
+      title: "Sweet Day",
+      text: "A happy little moment that deserves to stay forever.",
+      emoji: "🌸",
+    },
+    {
+      title: "Golden Memory",
+      text: "A beautiful snapshot of laughter, warmth, and love.",
+      emoji: "☀️",
+    },
+    {
+      title: "Dream Note",
+      text: "A tiny reminder that soft dreams can become real things.",
+      emoji: "✨",
+    },
+  ];
+
   return (
     <main
       style={{
         minHeight: "100vh",
-        background:
-          "linear-gradient(to bottom right, #fff7fb, #ffeaf4, #fffafc)",
         color: "#3d2b35",
-        fontFamily:
-          'Arial, Helvetica, sans-serif',
-        padding: "40px 20px",
+        padding: "40px 20px 60px",
       }}
     >
       <section
@@ -22,7 +36,7 @@ export default function Home() {
             background: "rgba(255,255,255,0.78)",
             border: "1px solid #f7d7e6",
             borderRadius: "28px",
-            padding: "60px 28px",
+            padding: "64px 28px",
             textAlign: "center",
             boxShadow: "0 10px 30px rgba(232, 163, 192, 0.18)",
             backdropFilter: "blur(8px)",
@@ -43,7 +57,7 @@ export default function Home() {
 
           <h1
             style={{
-              fontSize: "clamp(2.4rem, 6vw, 4.8rem)",
+              fontSize: "clamp(2.6rem, 6vw, 5rem)",
               margin: 0,
               lineHeight: 1.05,
             }}
@@ -53,7 +67,7 @@ export default function Home() {
 
           <p
             style={{
-              maxWidth: "700px",
+              maxWidth: "720px",
               margin: "20px auto 0",
               fontSize: "1.08rem",
               lineHeight: 1.8,
@@ -61,7 +75,7 @@ export default function Home() {
             }}
           >
             A dreamy little place on the internet made with love, imagination,
-            and a sprinkle of AI magic.
+            soft memories, and a sprinkle of AI magic.
           </p>
 
           <div
@@ -181,11 +195,7 @@ export default function Home() {
               marginTop: "20px",
             }}
           >
-            {[
-              "A lovely moment worth remembering",
-              "A small joy that made the day brighter",
-              "A future photo or note can live here",
-            ].map((text, index) => (
+            {memoryCards.map((card, index) => (
               <div
                 key={index}
                 style={{
@@ -193,16 +203,51 @@ export default function Home() {
                   border: "1px solid #f6d7e5",
                   borderRadius: "20px",
                   padding: "20px",
-                  minHeight: "120px",
-                  display: "flex",
-                  alignItems: "center",
+                  minHeight: "160px",
                   color: "#7a5f69",
+                  boxShadow: "0 4px 14px rgba(235, 188, 208, 0.16)",
                 }}
               >
-                {text}
+                <div style={{ fontSize: "1.8rem", marginBottom: "10px" }}>
+                  {card.emoji}
+                </div>
+                <h3 style={{ margin: "0 0 10px", fontSize: "1.1rem" }}>
+                  {card.title}
+                </h3>
+                <p style={{ margin: 0, lineHeight: 1.7 }}>{card.text}</p>
               </div>
             ))}
           </div>
+        </section>
+
+        <section
+          style={{
+            marginTop: "28px",
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+            gap: "18px",
+          }}
+        >
+          {[
+            "Made with softness and care",
+            "A peaceful place for lovely memories",
+            "Dreamy, warm, and uniquely Jessie",
+          ].map((text, index) => (
+            <div
+              key={index}
+              style={{
+                background: "rgba(255,255,255,0.8)",
+                border: "1px solid #f4d8e5",
+                borderRadius: "22px",
+                padding: "22px",
+                textAlign: "center",
+                color: "#7a5f69",
+                fontWeight: 600,
+              }}
+            >
+              {text}
+            </div>
+          ))}
         </section>
 
         <footer
