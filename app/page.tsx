@@ -34,6 +34,7 @@ export default function Home() {
 
   return (
     <main
+      className="page-shell"
       style={{
         minHeight: "100vh",
         background:
@@ -99,11 +100,11 @@ export default function Home() {
 
         <div
           id="top"
+          className="hero-card"
           style={{
             background: "rgba(255,255,255,0.72)",
             border: "1px solid #f7d7e6",
             borderRadius: "32px",
-            padding: "72px 30px",
             textAlign: "center",
             boxShadow: "0 12px 40px rgba(232, 163, 192, 0.16)",
             backdropFilter: "blur(10px)",
@@ -200,10 +201,10 @@ export default function Home() {
           }}
         >
           <div
+            className="section-card mobile-center"
             style={{
               background: "rgba(255,255,255,0.9)",
               borderRadius: "26px",
-              padding: "30px",
               border: "1px solid #f6dce7",
               boxShadow: "0 8px 24px rgba(230, 186, 205, 0.12)",
             }}
@@ -219,10 +220,10 @@ export default function Home() {
           </div>
 
           <div
+            className="section-card mobile-center"
             style={{
               background: "rgba(255,255,255,0.9)",
               borderRadius: "26px",
-              padding: "30px",
               border: "1px solid #f6dce7",
               boxShadow: "0 8px 24px rgba(230, 186, 205, 0.12)",
             }}
@@ -236,6 +237,8 @@ export default function Home() {
                 margin: 0,
                 lineHeight: 2,
                 color: "#6b5560",
+                textAlign: "left",
+                display: "inline-block",
               }}
             >
               <li>Sunsets, soft skies, and golden light</li>
@@ -247,11 +250,11 @@ export default function Home() {
 
         <section
           id="memories"
+          className="section-card"
           style={{
             marginTop: "30px",
             background: "rgba(255,255,255,0.92)",
             borderRadius: "26px",
-            padding: "32px",
             border: "1px solid #f6dce7",
             boxShadow: "0 8px 24px rgba(230, 186, 205, 0.12)",
           }}
@@ -286,6 +289,7 @@ export default function Home() {
               <img
                 src="/jessie-main.jpg"
                 alt="Jessie"
+                className="featured-image"
                 style={{
                   width: "100%",
                   maxWidth: "420px",
@@ -330,11 +334,11 @@ export default function Home() {
         </section>
 
         <section
+          className="section-card"
           style={{
             marginTop: "30px",
             background: "linear-gradient(135deg, #fff7fb, #fff0f6)",
             borderRadius: "26px",
-            padding: "42px 28px",
             border: "1px solid #f6dce7",
             boxShadow: "0 8px 24px rgba(230, 186, 205, 0.12)",
             textAlign: "center",
@@ -355,11 +359,11 @@ export default function Home() {
         </section>
 
         <section
+          className="section-card"
           style={{
             marginTop: "30px",
             background: "rgba(255,255,255,0.92)",
             borderRadius: "26px",
-            padding: "32px",
             border: "1px solid #f6dce7",
             boxShadow: "0 8px 24px rgba(230, 186, 205, 0.12)",
             textAlign: "center",
@@ -393,11 +397,11 @@ export default function Home() {
         </section>
 
         <section
+          className="section-card"
           style={{
             marginTop: "30px",
             background: "rgba(255,255,255,0.92)",
             borderRadius: "26px",
-            padding: "32px",
             border: "1px solid #f6dce7",
             boxShadow: "0 8px 24px rgba(230, 186, 205, 0.12)",
           }}
@@ -492,11 +496,11 @@ export default function Home() {
         </section>
 
         <section
+          className="closing-card"
           style={{
             marginTop: "30px",
             background: "linear-gradient(135deg, #fff6fa, #fffafc)",
             borderRadius: "28px",
-            padding: "40px 28px",
             border: "1px solid #f4d8e5",
             boxShadow: "0 8px 24px rgba(230, 186, 205, 0.12)",
             textAlign: "center",

@@ -11,6 +11,21 @@ body {
   box-sizing: border-box;
 }
 
+.page-shell {
+  animation: fadeInPage 0.8s ease;
+}
+
+@keyframes fadeInPage {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .nav-link {
   text-decoration: none;
   color: #7a435b;
@@ -57,4 +72,38 @@ body {
 .info-pill:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 24px rgba(235, 188, 208, 0.18);
+}
+
+.hero-card {
+  padding: 72px 30px;
+}
+
+.section-card {
+  padding: 32px;
+}
+
+.closing-card {
+  padding: 40px 28px;
+}
+
+@media (max-width: 768px) {
+  .hero-card {
+    padding: 52px 22px;
+  }
+
+  .section-card {
+    padding: 24px;
+  }
+
+  .closing-card {
+    padding: 30px 22px;
+  }
+
+  .mobile-center {
+    text-align: center;
+  }
+
+  .featured-image {
+    max-width: 100% !important;
+  }
 }
