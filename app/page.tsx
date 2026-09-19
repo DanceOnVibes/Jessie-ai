@@ -223,15 +223,28 @@ export default function Home() {
               boxShadow: "0 10px 28px rgba(235, 188, 208, 0.16)",
             }}
           >
-            <img
-              src="/jessie-main.jpg"
-              alt="Jessie"
+            <div
               style={{
-                width: "100%",
-                height: "auto",
-                display: "block",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                background: "#fff6fa",
+                padding: "20px",
               }}
-            />
+            >
+              <img
+                src="/jessie-main.jpg"
+                alt="Jessie"
+                style={{
+                  width: "100%",
+                  maxWidth: "700px",
+                  maxHeight: "80vh",
+                  objectFit: "contain",
+                  display: "block",
+                  borderRadius: "18px",
+                }}
+              />
+            </div>
 
             <div style={{ padding: "26px" }}>
               <h3
