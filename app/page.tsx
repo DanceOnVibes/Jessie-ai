@@ -1,9 +1,10 @@
 export default function Home() {
   const memoryCards = [
     {
-      title: "Sweet Day",
-      text: "A happy little moment that deserves to stay forever.",
-      emoji: "🌸",
+      title: "Jessie",
+      text: "A beautiful memory saved in Jessie’s World.",
+      emoji: "📸",
+      image: "/jessie.jpg",
     },
     {
       title: "Golden Memory",
@@ -202,19 +203,39 @@ export default function Home() {
                   background: "#fff6fa",
                   border: "1px solid #f6d7e5",
                   borderRadius: "20px",
-                  padding: "20px",
-                  minHeight: "160px",
+                  overflow: "hidden",
                   color: "#7a5f69",
                   boxShadow: "0 4px 14px rgba(235, 188, 208, 0.16)",
                 }}
               >
-                <div style={{ fontSize: "1.8rem", marginBottom: "10px" }}>
-                  {card.emoji}
+                {card.image ? (
+                  <img
+                    src={card.image}
+                    alt={card.title}
+                    style={{
+                      width: "100%",
+                      height: "240px",
+                      objectFit: "cover",
+                      display: "block",
+                    }}
+                  />
+                ) : (
+                  <div
+                    style={{
+                      fontSize: "2rem",
+                      padding: "24px 20px 0",
+                    }}
+                  >
+                    {card.emoji}
+                  </div>
+                )}
+
+                <div style={{ padding: "20px" }}>
+                  <h3 style={{ margin: "0 0 10px", fontSize: "1.1rem" }}>
+                    {card.title}
+                  </h3>
+                  <p style={{ margin: 0, lineHeight: 1.7 }}>{card.text}</p>
                 </div>
-                <h3 style={{ margin: "0 0 10px", fontSize: "1.1rem" }}>
-                  {card.title}
-                </h3>
-                <p style={{ margin: 0, lineHeight: 1.7 }}>{card.text}</p>
               </div>
             ))}
           </div>
