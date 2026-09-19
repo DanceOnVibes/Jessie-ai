@@ -101,8 +101,8 @@ export default function HomePage() {
           <Image
             src="/jessie-main.jpg"
             alt="Featured memory of Jessie"
-            width={900}
-            height={1100}
+            width={700}
+            height={900}
             priority
             style={{
               width: "100%",
