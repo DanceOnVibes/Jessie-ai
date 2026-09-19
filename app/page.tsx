@@ -85,34 +85,13 @@ export default function Home() {
               flexWrap: "wrap",
             }}
           >
-            <a
-              href="#top"
-              style={{
-                textDecoration: "none",
-                color: "#7a435b",
-                fontWeight: 600,
-              }}
-            >
+            <a href="#top" className="nav-link">
               Home
             </a>
-            <a
-              href="#about"
-              style={{
-                textDecoration: "none",
-                color: "#7a435b",
-                fontWeight: 600,
-              }}
-            >
+            <a href="#about" className="nav-link">
               About
             </a>
-            <a
-              href="#memories"
-              style={{
-                textDecoration: "none",
-                color: "#7a435b",
-                fontWeight: 600,
-              }}
-            >
+            <a href="#memories" className="nav-link">
               Memories
             </a>
           </div>
@@ -179,6 +158,7 @@ export default function Home() {
           >
             <a
               href="#about"
+              className="primary-button"
               style={{
                 background: "linear-gradient(135deg, #f45b93, #ff8ab2)",
                 color: "white",
@@ -194,6 +174,7 @@ export default function Home() {
 
             <a
               href="#memories"
+              className="secondary-button"
               style={{
                 background: "white",
                 color: "#d14e84",
@@ -439,6 +420,7 @@ export default function Home() {
             {memoryCards.map((card, index) => (
               <div
                 key={index}
+                className="memory-card"
                 style={{
                   background: "#fff6fa",
                   border: "1px solid #f6d7e5",
@@ -446,7 +428,6 @@ export default function Home() {
                   overflow: "hidden",
                   color: "#7a5f69",
                   boxShadow: "0 8px 24px rgba(235, 188, 208, 0.16)",
-                  transition: "transform 0.25s ease, box-shadow 0.25s ease",
                   cursor: "pointer",
                 }}
               >
@@ -493,6 +474,7 @@ export default function Home() {
           ].map((text, index) => (
             <div
               key={index}
+              className="info-pill"
               style={{
                 background: "rgba(255,255,255,0.82)",
                 border: "1px solid #f4d8e5",

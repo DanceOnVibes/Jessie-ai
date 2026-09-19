@@ -1,28 +1,60 @@
-* {
-  box-sizing: border-box;
-}
-
 html {
   scroll-behavior: smooth;
 }
 
-html,
 body {
   margin: 0;
-  padding: 0;
+  background: #fff8fc;
 }
 
-body {
-  background: linear-gradient(to bottom right, #fff7fb, #ffeaf4, #fffafc);
-  color: #3d2b35;
-  font-family: Arial, Helvetica, sans-serif;
+* {
+  box-sizing: border-box;
 }
 
-a {
-  color: inherit;
+.nav-link {
+  text-decoration: none;
+  color: #7a435b;
+  font-weight: 600;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
-img {
-  max-width: 100%;
-  display: block;
+.nav-link:hover {
+  color: #d14e84;
+  transform: translateY(-1px);
+}
+
+.primary-button,
+.secondary-button {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+.primary-button:hover,
+.secondary-button:hover {
+  transform: translateY(-2px);
+}
+
+.primary-button:hover {
+  box-shadow: 0 14px 28px rgba(244, 91, 147, 0.32);
+}
+
+.secondary-button:hover {
+  box-shadow: 0 10px 22px rgba(209, 78, 132, 0.12);
+}
+
+.memory-card {
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+}
+
+.memory-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(235, 188, 208, 0.24);
+}
+
+.info-pill {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.info-pill:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(235, 188, 208, 0.18);
 }
