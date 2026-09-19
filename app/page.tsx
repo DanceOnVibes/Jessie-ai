@@ -3,18 +3,37 @@ export default function Home() {
     {
       title: "Jessie",
       text: "A beautiful memory saved in Jessie’s World.",
-      emoji: "📸",
       image: "/jessie.jpg",
     },
     {
-      title: "Golden Memory",
-      text: "A beautiful snapshot of laughter, warmth, and love.",
-      emoji: "☀️",
+      title: "Little Sunshine",
+      text: "Bright beach days and tiny footsteps full of joy.",
+      image: "/jessie2.jpg",
     },
     {
-      title: "Dream Note",
-      text: "A tiny reminder that soft dreams can become real things.",
-      emoji: "✨",
+      title: "Golden Evening",
+      text: "A soft sunset memory by the water.",
+      image: "/jessie3.jpg",
+    },
+    {
+      title: "Sweet Moment",
+      text: "A quiet and beautiful little memory to hold onto.",
+      image: "/jessie4.jpg",
+    },
+    {
+      title: "Harbor Day",
+      text: "A charming little scene filled with color and wonder.",
+      image: "/jessie5.jpg",
+    },
+    {
+      title: "Beach Baby",
+      text: "A playful memory under sunny skies.",
+      image: "/jessie6.jpg",
+    },
+    {
+      title: "Birthday Joy",
+      text: "A magical celebration filled with smiles and love.",
+      image: "/jessie7.jpg",
     },
   ];
 
@@ -208,27 +227,16 @@ export default function Home() {
                   boxShadow: "0 4px 14px rgba(235, 188, 208, 0.16)",
                 }}
               >
-                {card.image ? (
-                  <img
-                    src={card.image}
-                    alt={card.title}
-                    style={{
-                      width: "100%",
-                      height: "240px",
-                      objectFit: "cover",
-                      display: "block",
-                    }}
-                  />
-                ) : (
-                  <div
-                    style={{
-                      fontSize: "2rem",
-                      padding: "24px 20px 0",
-                    }}
-                  >
-                    {card.emoji}
-                  </div>
-                )}
+                <img
+                  src={card.image}
+                  alt={card.title}
+                  style={{
+                    width: "100%",
+                    height: "240px",
+                    objectFit: "cover",
+                    display: "block",
+                  }}
+                />
 
                 <div style={{ padding: "20px" }}>
                   <h3 style={{ margin: "0 0 10px", fontSize: "1.1rem" }}>
