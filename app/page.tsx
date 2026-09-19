@@ -61,6 +61,7 @@ export default function HomePage() {
               padding: "0.9rem 1.4rem",
               borderRadius: "999px",
               fontWeight: 600,
+              textDecoration: "none",
             }}
           >
             About Jessie
@@ -74,6 +75,7 @@ export default function HomePage() {
               padding: "0.9rem 1.4rem",
               borderRadius: "999px",
               fontWeight: 600,
+              textDecoration: "none",
             }}
           >
             Explore Memories
@@ -96,26 +98,19 @@ export default function HomePage() {
             margin: "0 auto",
           }}
         >
-          <div
+          <Image
+            src="/jessie-main.jpg"
+            alt="Featured memory of Jessie"
+            width={900}
+            height={1100}
+            priority
             style={{
-              position: "relative",
               width: "100%",
-              aspectRatio: "3 / 4",
-              overflow: "hidden",
+              height: "auto",
+              display: "block",
               borderRadius: "22px",
             }}
-          >
-            <Image
-              src="/jessie-main.jpg"
-              alt="Featured memory of Jessie"
-              fill
-              style={{ 
-               objectFit: "cover",
-               objectPosition: "center top",
-              }}
-              priority
-            />
-          </div>
+          />
         </div>
       </section>
 
