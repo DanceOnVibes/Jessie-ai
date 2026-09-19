@@ -208,7 +208,7 @@ export default function Home() {
           <h2 style={{ marginTop: 0, fontSize: "1.8rem", color: "#7a435b" }}>
             Featured Memory
           </h2>
-          <p style={{ color: "#6b5560", lineHeight: 1.85 }}>
+          <p style={{ color: "#6b5560", lineHeight: 1.85, marginBottom: "18px" }}>
             The heart of Jessie’s World — a beautiful moment held gently in the center
             of this little dream space.
           </p>
@@ -228,8 +228,8 @@ export default function Home() {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                background: "#fff6fa",
-                padding: "20px",
+                background: "linear-gradient(180deg, #fff8fc 0%, #fff6fa 100%)",
+                padding: "28px 20px 12px",
               }}
             >
               <img
@@ -237,26 +237,40 @@ export default function Home() {
                 alt="Jessie"
                 style={{
                   width: "100%",
-                  maxWidth: "700px",
-                  maxHeight: "80vh",
+                  maxWidth: "420px",
+                  maxHeight: "75vh",
                   objectFit: "contain",
                   display: "block",
                   borderRadius: "18px",
+                  boxShadow: "0 10px 24px rgba(122, 67, 91, 0.12)",
                 }}
               />
             </div>
 
-            <div style={{ padding: "26px" }}>
+            <div
+              style={{
+                padding: "18px 26px 26px",
+                textAlign: "center",
+              }}
+            >
               <h3
                 style={{
-                  margin: "0 0 12px",
-                  fontSize: "1.6rem",
+                  margin: "0 0 10px",
+                  fontSize: "1.7rem",
                   color: "#7a435b",
                 }}
               >
                 Jessie 🌸
               </h3>
-              <p style={{ margin: 0, lineHeight: 1.85, color: "#6b5560" }}>
+              <p
+                style={{
+                  margin: 0,
+                  lineHeight: 1.85,
+                  color: "#6b5560",
+                  maxWidth: "760px",
+                  marginInline: "auto",
+                }}
+              >
                 A treasured portrait at the center of this world — warm, gentle,
                 creative, and full of the kind of beauty that makes a memory last forever.
               </p>
@@ -269,7 +283,7 @@ export default function Home() {
             marginTop: "30px",
             background: "linear-gradient(135deg, #fff7fb, #fff0f6)",
             borderRadius: "26px",
-            padding: "36px 28px",
+            padding: "42px 28px",
             border: "1px solid #f6dce7",
             boxShadow: "0 8px 24px rgba(230, 186, 205, 0.12)",
             textAlign: "center",
@@ -281,7 +295,7 @@ export default function Home() {
               fontSize: "clamp(1.4rem, 3vw, 2rem)",
               lineHeight: 1.7,
               color: "#7a435b",
-              fontWeight: 600,
+              fontWeight: 700,
               fontStyle: "italic",
             }}
           >
@@ -324,6 +338,8 @@ export default function Home() {
                   overflow: "hidden",
                   color: "#7a5f69",
                   boxShadow: "0 8px 24px rgba(235, 188, 208, 0.16)",
+                  transition: "transform 0.25s ease, box-shadow 0.25s ease",
+                  cursor: "pointer",
                 }}
               >
                 <img
