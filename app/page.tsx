@@ -1,11 +1,6 @@
 export default function Home() {
   const memoryCards = [
     {
-      title: "Jessie",
-      text: "A beautiful memory saved in Jessie’s World.",
-      image: "/jessie.jpg",
-    },
-    {
       title: "Little Sunshine",
       text: "Bright beach days and tiny footsteps full of joy.",
       image: "/jessie2.jpg",
@@ -201,17 +196,64 @@ export default function Home() {
             boxShadow: "0 6px 20px rgba(230, 186, 205, 0.14)",
           }}
         >
-          <h2 style={{ marginTop: 0, fontSize: "1.7rem" }}>Memory Wall</h2>
+          <h2 style={{ marginTop: 0, fontSize: "1.7rem" }}>Featured Memory</h2>
           <p style={{ color: "#6b5560", lineHeight: 1.8 }}>
-            A place to collect sweet notes, beautiful snapshots, favorite days,
-            and moments worth keeping forever.
+            The heart of Jessie’s World — a special memory held front and center.
+          </p>
+
+          <div
+            style={{
+              marginTop: "20px",
+              background: "#fff6fa",
+              border: "1px solid #f6d7e5",
+              borderRadius: "24px",
+              overflow: "hidden",
+              boxShadow: "0 8px 24px rgba(235, 188, 208, 0.18)",
+            }}
+          >
+            <img
+              src="/jessie.jpg"
+              alt="Jessie"
+              style={{
+                width: "100%",
+                maxHeight: "520px",
+                objectFit: "cover",
+                display: "block",
+              }}
+            />
+
+            <div style={{ padding: "24px" }}>
+              <h3 style={{ margin: "0 0 12px", fontSize: "1.5rem", color: "#7a435b" }}>
+                Jessie
+              </h3>
+              <p style={{ margin: 0, lineHeight: 1.8, color: "#6b5560" }}>
+                A beautiful memory saved in Jessie’s World — the main heart of this
+                little space, filled with warmth, love, and moments worth keeping forever.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section
+          style={{
+            marginTop: "28px",
+            background: "white",
+            borderRadius: "24px",
+            padding: "30px",
+            border: "1px solid #f6dce7",
+            boxShadow: "0 6px 20px rgba(230, 186, 205, 0.14)",
+          }}
+        >
+          <h2 style={{ marginTop: 0, fontSize: "1.7rem" }}>More Memories</h2>
+          <p style={{ color: "#6b5560", lineHeight: 1.8 }}>
+            More little moments that make Jessie’s World feel beautiful, soft, and full of life.
           </p>
 
           <div
             style={{
               display: "grid",
               gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-              gap: "16px",
+              gap: "18px",
               marginTop: "20px",
             }}
           >
@@ -221,10 +263,10 @@ export default function Home() {
                 style={{
                   background: "#fff6fa",
                   border: "1px solid #f6d7e5",
-                  borderRadius: "20px",
+                  borderRadius: "22px",
                   overflow: "hidden",
                   color: "#7a5f69",
-                  boxShadow: "0 4px 14px rgba(235, 188, 208, 0.16)",
+                  boxShadow: "0 8px 24px rgba(235, 188, 208, 0.18)",
                 }}
               >
                 <img
