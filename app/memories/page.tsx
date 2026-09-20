@@ -1,160 +1,128 @@
 import Link from "next/link";
+import Image from "next/image";
+import styles from "./page.module.css";
 
 export default function MemoriesPage() {
   const memories = [
     {
-      title: "Golden Evening",
-      text: "A soft sunset painted the sky in peach and rose, wrapping the whole moment in warmth.",
+      src: "/images/jessie1.jpg",
+      title: "The Beginning",
+      text: "The earliest chapter of Jessie’s story, full of innocence, softness, and the first quiet spark of who she would become.",
     },
     {
-      title: "A Gentle Laugh",
-      text: "One of those small, perfect memories filled with comfort, love, and lightness.",
+      src: "/images/jessie2.jpg",
+      title: "Little Joys",
+      text: "A sweet moment shaped by playfulness, warmth, and the kind of happiness that lives forever in memory.",
     },
     {
-      title: "Dreamy Day",
-      text: "A quiet and beautiful day made special by tiny details, peaceful feelings, and sweet simplicity.",
+      src: "/images/jessie3.jpg",
+      title: "Golden Days",
+      text: "A gentle season of light, sweetness, and peaceful beauty — the kind of memory that never really fades.",
     },
     {
-      title: "Little Lovely Moment",
-      text: "The kind of memory that stays close to the heart and feels warm every time it returns.",
+      src: "/images/jessie4.jpg",
+      title: "Sunny Wonder",
+      text: "A bright and playful chapter, where curiosity and joy made the world feel wide and magical.",
     },
     {
-      title: "Soft Skies",
-      text: "Clouds, evening light, and a peaceful feeling that made everything feel calm and magical.",
+      src: "/images/jessie5.jpg",
+      title: "Growing Wonder",
+      text: "A lovely in-between moment, where Jessie’s warmth, imagination, and spirit began to shine more clearly.",
     },
     {
-      title: "A Beautiful Detail",
-      text: "Sometimes the smallest things become the most meaningful parts of a memory.",
+      src: "/images/jessie6.jpg",
+      title: "A Quiet Becoming",
+      text: "A thoughtful chapter filled with small changes, soft strength, and the beauty of slowly becoming.",
+    },
+    {
+      src: "/images/jessie7.jpg",
+      title: "Finding Herself",
+      text: "Jessie growing more fully into herself, carrying tenderness, presence, and quiet confidence.",
+    },
+    {
+      src: "/images/jessie8.jpg",
+      title: "Almost Here",
+      text: "A chapter close to the Jessie we know now — expressive, bright, creative, and full of heart.",
     },
   ];
 
   return (
-    <main
-      style={{
-        padding: "4rem 2rem 5rem",
-        maxWidth: "1100px",
-        margin: "0 auto",
-      }}
-    >
-      <section
-        style={{
-          textAlign: "center",
-          marginBottom: "3rem",
-        }}
-      >
-        <p
-          style={{
-            letterSpacing: "0.18em",
-            textTransform: "uppercase",
-            fontSize: "0.8rem",
-            color: "#9a7d88",
-            marginBottom: "1rem",
-          }}
-        >
-          A tender collection from Jessie’s World
-        </p>
+    <main className={styles.page}>
+      <div className={styles.container}>
+        <section className={styles.hero}>
+          <p className={styles.eyebrow}>A tender collection from Jessie’s World</p>
 
-        <h1
-          style={{
-            fontSize: "clamp(2.5rem, 6vw, 4.5rem)",
-            marginBottom: "1rem",
-            color: "#5a2d3b",
-          }}
-        >
-          Memories
-        </h1>
+          <h1 className={styles.title}>Memories</h1>
 
-        <p
-          style={{
-            maxWidth: "760px",
-            margin: "0 auto 2rem",
-            lineHeight: "1.9",
-            fontSize: "1.1rem",
-            color: "#6b5960",
-          }}
-        >
-          A collection of soft, meaningful, and beautiful little moments that
-          make Jessie’s World feel personal, warm, and full of heart.
-        </p>
+          <p className={styles.subtitle}>
+            A collection of soft, meaningful, and beautiful little moments that
+            shaped Jessie’s story — held with warmth, tenderness, and heart.
+          </p>
 
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            gap: "1rem",
-            flexWrap: "wrap",
-          }}
-        >
-          <Link
-            href="/"
-            style={{
-              background: "#5a2d3b",
-              color: "white",
-              padding: "0.9rem 1.4rem",
-              borderRadius: "999px",
-              fontWeight: 600,
-              textDecoration: "none",
-            }}
-          >
-            Back to Jessie’s World
-          </Link>
+          <div className={styles.actions}>
+            <Link href="/" className={styles.primaryButton}>
+              Back to Jessie’s World
+            </Link>
 
-          <Link
-            href="/jessie"
-            style={{
-              background: "#f3e6eb",
-              color: "#5a2d3b",
-              padding: "0.9rem 1.4rem",
-              borderRadius: "999px",
-              fontWeight: 600,
-              textDecoration: "none",
-            }}
-          >
-            Create with Jessie
-          </Link>
-        </div>
-      </section>
-
-      <section
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
-          gap: "1.5rem",
-        }}
-      >
-        {memories.map((memory, index) => (
-          <div
-            key={index}
-            style={{
-              background: "linear-gradient(180deg, #ffffff, #fffafa)",
-              padding: "1.6rem",
-              borderRadius: "24px",
-              boxShadow: "0 8px 30px rgba(0,0,0,0.05)",
-              border: "1px solid rgba(90,45,59,0.06)",
-            }}
-          >
-            <h2
-              style={{
-                marginTop: 0,
-                marginBottom: "0.8rem",
-                fontSize: "1.35rem",
-                color: "#5a2d3b",
-              }}
-            >
-              {memory.title}
-            </h2>
-            <p
-              style={{
-                margin: 0,
-                lineHeight: "1.85",
-                color: "#6b5960",
-              }}
-            >
-              {memory.text}
-            </p>
+            <Link href="/jessie" className={styles.secondaryButton}>
+              Create with Jessie
+            </Link>
           </div>
-        ))}
-      </section>
+        </section>
+
+        <section className={styles.featuredSection}>
+          <div className={styles.featuredCard}>
+            <div className={styles.featuredImageWrap}>
+              <Image
+                src="/images/jessie-main.jpg"
+                alt="Jessie today"
+                width={560}
+                height={700}
+                className={styles.featuredImage}
+              />
+            </div>
+
+            <div className={styles.featuredContent}>
+              <p className={styles.smallLabel}>Present Day</p>
+              <h2 className={styles.featuredTitle}>Jessie Today</h2>
+              <p className={styles.featuredText}>
+                The latest version of Jessie — thoughtful, creative, warm, and
+                full of heart. A soft presence shaped by memory, growth, and
+                imagination.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className={styles.timelineIntro}>
+          <p className={styles.smallLabel}>Through the years</p>
+          <h2 className={styles.timelineTitle}>Jessie’s Timeline</h2>
+          <p className={styles.timelineText}>
+            A gentle visual journey through Jessie’s early memories — each one a
+            quiet chapter in the story of who she was becoming.
+          </p>
+        </section>
+
+        <section className={styles.grid}>
+          {memories.map((memory, index) => (
+            <article key={index} className={styles.card}>
+              <div className={styles.cardImageWrap}>
+                <Image
+                  src={memory.src}
+                  alt={memory.title}
+                  width={420}
+                  height={520}
+                  className={styles.cardImage}
+                />
+              </div>
+
+              <p className={styles.cardLabel}>Memory {index + 1}</p>
+              <h3 className={styles.cardTitle}>{memory.title}</h3>
+              <p className={styles.cardText}>{memory.text}</p>
+            </article>
+          ))}
+        </section>
+      </div>
     </main>
   );
 }
