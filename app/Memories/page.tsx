@@ -27,7 +27,7 @@ export default function MemoriesPage() {
   ];
 
   return (
-    <main>
+    <main style={{ padding: "4rem 2rem", maxWidth: "1100px", margin: "0 auto" }}>
       <section
         style={{
           textAlign: "center",
