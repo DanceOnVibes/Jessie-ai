@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { useJessie } from "./useJessie";
 
@@ -57,15 +58,24 @@ export default function JessiePage() {
           <div className="hero-glow glow-3" />
 
           <div className="hero-content">
-            <div className="hero-pill">Jessie Prompt Studio</div>
+            <div className="hero-pill">From Jessie’s World</div>
             <h1>
               Build a dreamy
               <span>prompt that feels magical</span>
             </h1>
             <p>
-              Describe your idea and Jessie will shape it into a cleaner,
-              stronger final prompt with a soft, elegant creative touch.
+              Step into Jessie’s studio to shape ideas into a cleaner, stronger
+              final prompt with a soft, elegant creative touch.
             </p>
+
+            <div className="hero-links">
+              <Link href="/" className="hero-link-primary">
+                Back to Jessie’s World
+              </Link>
+              <Link href="/memories" className="hero-link-secondary">
+                Explore Memories
+              </Link>
+            </div>
 
             <div className="hero-tags">
               <span>Dreamy UI</span>
@@ -542,6 +552,48 @@ export default function JessiePage() {
           font-size: 1.08rem;
           line-height: 1.85;
           color: #715b65;
+        }
+
+        .hero-links {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 12px;
+          margin-top: 20px;
+        }
+
+        .hero-link-primary,
+        .hero-link-secondary {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          padding: 12px 16px;
+          border-radius: 999px;
+          text-decoration: none;
+          font-size: 0.95rem;
+          font-weight: 800;
+          transition: all 0.25s ease;
+        }
+
+        .hero-link-primary {
+          background: #5a2d3b;
+          color: white;
+          box-shadow: 0 12px 24px rgba(90, 45, 59, 0.18);
+        }
+
+        .hero-link-primary:hover {
+          transform: translateY(-2px);
+          background: #6b3748;
+        }
+
+        .hero-link-secondary {
+          background: rgba(255, 255, 255, 0.82);
+          color: #5a2d3b;
+          border: 1px solid rgba(140, 106, 113, 0.14);
+        }
+
+        .hero-link-secondary:hover {
+          transform: translateY(-2px);
+          background: rgba(255, 250, 252, 0.96);
         }
 
         .hero-tags {

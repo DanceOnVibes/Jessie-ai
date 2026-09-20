@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HomePage() {
   return (
@@ -53,8 +54,8 @@ export default function HomePage() {
             flexWrap: "wrap",
           }}
         >
-          <a
-            href="/about"
+          <Link
+            href="/jessie"
             style={{
               background: "#5a2d3b",
               color: "white",
@@ -64,10 +65,10 @@ export default function HomePage() {
               textDecoration: "none",
             }}
           >
-            About Jessie
-          </a>
+            Create with Jessie
+          </Link>
 
-          <a
+          <Link
             href="/memories"
             style={{
               background: "#f3e6eb",
@@ -79,7 +80,7 @@ export default function HomePage() {
             }}
           >
             Explore Memories
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -130,11 +131,12 @@ export default function HomePage() {
             boxShadow: "0 4px 20px rgba(0,0,0,0.05)",
           }}
         >
-          <h2 style={{ marginTop: 0, marginBottom: "1rem" }}>About Jessie</h2>
+          <h2 style={{ marginTop: 0, marginBottom: "1rem" }}>
+            Create with Jessie
+          </h2>
           <p style={{ margin: 0, lineHeight: "1.8" }}>
-            Jessie’s World is a cozy and creative corner of the internet — a
-            place for dreamy colors, treasured memories, sweet personality, and
-            all the gentle little details that make life feel magical.
+            Step into Jessie’s studio to shape ideas into polished prompts with
+            soft guidance, creative structure, and a dreamy little spark.
           </p>
         </div>
 
