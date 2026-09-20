@@ -1,11 +1,16 @@
-import type { JessieMode, JessiePage } from "./types";
+import type { JessieCapability } from "./types";
 
-export function detectJessieMode(userInput: string, page: JessiePage): JessieMode {
-  const input = userInput.toLowerCase();
+export type JessieMode = "create" | "biology" | "calm" | "blended";
 
-  if (page === "create") return "create";
-  if (page === "biology") return "biology";
-  if (page === "calm") return "calm";
+export function detectJessieMode(
+  message: string,
+  capability: JessieCapability
+): JessieMode {
+  const input = message.toLowerCase();
+
+  if (capability === "art") return "create";
+  if (capability === "biology") return "biology";
+  if (capability === "companion" || capability === "trust") return "calm";
 
   const biologyKeywords = [
     "biology",
@@ -66,5 +71,5 @@ export function detectJessieMode(userInput: string, page: JessiePage): JessieMod
   if (hasCalm) return "calm";
   if (hasCreate) return "create";
 
-  return "create";
+  return capability === "biology" ? "biology" : "create";
 }

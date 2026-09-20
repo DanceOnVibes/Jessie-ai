@@ -7,15 +7,15 @@ import {
   JESSIE_PREMIUM_PROMPT,
 } from "./prompts";
 
-import { detectJessieMode } from "./routing";
-import type { JessieRequest, JessieResponse } from "./types";
+import { detectJessieMode, type JessieMode } from "./routing";
+import type { JessieRequest } from "./types";
 
 function buildSystemPrompt(req: JessieRequest) {
-  const mode = detectJessieMode(req.user_input, req.page);
+  const mode: JessieMode = detectJessieMode(req.message, req.capability);
 
   const parts = [JESSIE_CORE_PROMPT];
 
-  if (req.page === "homepage") {
+  if (req.capability === "companion") {
     parts.push(JESSIE_HOMEPAGE_PROMPT);
   }
 
@@ -31,7 +31,7 @@ function buildSystemPrompt(req: JessieRequest) {
     parts.push(JESSIE_CALM_PROMPT);
   }
 
-  if (req.premium) {
+  if (req.allowMemory) {
     parts.push(JESSIE_PREMIUM_PROMPT);
   }
 
@@ -41,20 +41,18 @@ function buildSystemPrompt(req: JessieRequest) {
   };
 }
 
-export function generateJessiePromptPack(req: JessieRequest): JessieResponse {
-  const { mode } = buildSystemPrompt(req);
+export function generateJessiePromptPack(req: JessieRequest) {
+  const { mode, systemPrompt } = buildSystemPrompt(req);
 
   return {
     mode,
-    title: "Jessie Concept",
-    summary: `Generated for: ${req.user_input}`,
-    final_prompt: req.user_input,
-    alternate_prompts: [],
-    negative_prompt: "",
-    caption: "",
-    why_this_works: "Base Jessie prompt pack created.",
-    tags: [mode, req.page],
-    safety_notes: [],
+    capability: req.capability,
+    message: req.message,
+    systemPrompt,
+    reply: `Generated for: ${req.message}`,
+    biologyDepth: req.biologyDepth ?? null,
+    allowMemory: req.allowMemory ?? false,
+    tags: [mode, req.capability],
   };
 }
 

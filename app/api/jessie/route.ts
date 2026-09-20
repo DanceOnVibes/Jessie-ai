@@ -7,26 +7,24 @@ import {
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { user_input, page, premium } = body;
+    const { capability, message, biologyDepth, allowMemory } = body;
 
-    if (!user_input || !page) {
+    if (!capability || !message) {
       return NextResponse.json(
-        { error: "Missing user_input or page" },
+        { error: "Missing capability or message" },
         { status: 400 }
       );
     }
 
-    const system = getJessieSystemPrompt({
-      user_input,
-      page,
-      premium,
-    });
+    const requestData = {
+      capability,
+      message,
+      biologyDepth,
+      allowMemory,
+    };
 
-    const result = generateJessiePromptPack({
-      user_input,
-      page,
-      premium,
-    });
+    const system = getJessieSystemPrompt(requestData);
+    const result = generateJessiePromptPack(requestData);
 
     return NextResponse.json({
       success: true,
