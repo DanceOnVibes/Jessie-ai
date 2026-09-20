@@ -1,5 +1,8 @@
 import { NextResponse } from "next/server";
-import { generateJessiePromptPack, getJessieSystemPrompt } from "@/app/library/jessie/generate";
+import {
+  generateJessiePromptPack,
+  getJessieSystemPrompt,
+} from "@/lib/jessie-core/generate";
 
 export async function POST(req: Request) {
   try {
