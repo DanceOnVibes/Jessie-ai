@@ -39,7 +39,7 @@ export function MemoryCard({ item }: MemoryCardProps) {
           {item.content}
         </p>
 
-        {item.tags.length > 0 && (
+        {item.tags?.length > 0 && (
           <div className="mt-6 flex flex-wrap gap-2.5">
             {item.tags.map((tag) => (
               <span
