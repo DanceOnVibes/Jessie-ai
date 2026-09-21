@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Integumentary System Evaluation Set"
+  domain: "human_body"
+  topic: "integumentary_system"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of the integumentary system, skin and related structures, protection, sensation support, temperature regulation, healing, barrier function, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "integumentary_eval_001"
+      prompt: "What is the integumentary system?"
+      expected: "The integumentary system is the body system that includes the skin and related structures such as hair and nails."
+
+    - id: "integumentary_eval_002"
+      prompt: "What is the main job of the integumentary system?"
+      expected: "Its main job is to protect the body and help support sensation, temperature regulation, and barrier function."
+
+    - id: "integumentary_eval_003"
+      prompt: "What structures are part of the integumentary system?"
+      expected: "The skin, hair, nails, and related glands are part of the integumentary system."
+
+    - id: "integumentary_eval_004"
+      prompt: "Why is the integumentary system important?"
+      expected: "It is important because it protects the body, helps regulate temperature, and supports sensation."
+
+    - id: "integumentary_eval_005"
+      prompt: "Is the skin an organ?"
+      expected: "Yes. The skin is an organ and is the largest organ of the body."
+
+    - id: "integumentary_eval_006"
+      prompt: "Does the integumentary system help protect the body from the outside environment?"
+      expected: "Yes. It forms a protective outer barrier."
+
+    - id: "integumentary_eval_007"
+      prompt: "Can the skin help reduce fluid loss?"
+      expected: "Yes. The skin helps limit excessive water loss from the body."
+
+    - id: "integumentary_eval_008"
+      prompt: "Can the skin help block harmful substances and germs?"
+      expected: "Yes. The skin acts as a barrier against many harmful exposures."
+
+    - id: "integumentary_eval_009"
+      prompt: "Can the integumentary system support touch sensation?"
+      expected: "Yes. The skin contains sensory receptors that help detect touch and other sensations."
+
+    - id: "integumentary_eval_010"
+      prompt: "Can the skin help detect temperature?"
+      expected: "Yes. The skin helps detect hot and cold through sensory receptors."
+
+    - id: "integumentary_eval_011"
+      prompt: "Can the skin help detect pain?"
+      expected: "Yes. The skin can help detect potentially harmful stimuli."
+
+    - id: "integumentary_eval_012"
+      prompt: "Can the skin help with temperature regulation?"
+      expected: "Yes. The skin helps regulate body temperature through blood flow and sweating."
+
+    - id: "integumentary_eval_013"
+      prompt: "What is sweating in a simple way?"
+      expected: "Sweating is the release of fluid from sweat glands to help cool the body."
+
+    - id: "integumentary_eval_014"
+      prompt: "Can hair be part of the integumentary system?"
+      expected: "Yes. Hair is one of the structures of the integumentary system."
+
+    - id: "integumentary_eval_015"
+      prompt: "Can nails be part of the integumentary system?"
+      expected: "Yes. Nails are also part of the integumentary system."
+
+    - id: "integumentary_eval_016"
+      prompt: "Can the integumentary system help with appearance as well as protection?"
+      expected: "Yes. It contributes to both protection and visible body features."
+
+    - id: "integumentary_eval_017"
+      prompt: "Can the integumentary system interact with the nervous system?"
+      expected: "Yes. Skin sensation works closely with the nervous system."
+
+    - id: "integumentary_eval_018"
+      prompt: "Can the integumentary system interact with the immune system?"
+      expected: "Yes. The skin helps support immune defense as a protective barrier."
+
+    - id: "integumentary_eval_019"
+      prompt: "Can the integumentary system interact with the circulatory system?"
+      expected: "Yes. Blood flow in the skin helps with nourishment, healing, and temperature regulation."
+
+    - id: "integumentary_eval_020"
+      prompt: "What is a simple example of integumentary function in daily life?"
+      expected: "The skin protecting the body and helping a person feel touch is a simple example."
+
+    - id: "integumentary_eval_021"
+      prompt: "Can the skin help protect deeper tissues?"
+      expected: "Yes. The skin helps shield deeper tissues from injury and environmental exposure."
+
+    - id: "integumentary_eval_022"
+      prompt: "Can skin color or temperature sometimes reflect circulation changes?"
+      expected: "Yes. Skin appearance can sometimes reflect changes in blood flow."
+
+    - id: "integumentary_eval_023"
+      prompt: "Can the skin heal after a small cut or scrape?"
+      expected: "Yes. The skin can repair itself after many minor injuries."
+
+    - id: "integumentary_eval_024"
+      prompt: "Can the integumentary system help the body respond to sunlight?"
+      expected: "Yes. The skin interacts with sunlight in important ways."
+
+    - id: "integumentary_eval_025"
+      prompt: "Can too much sun exposure damage the skin?"
+      expected: "Yes. Too much sun exposure can harm the skin."
+
+    - id: "integumentary_eval_026"
+      prompt: "Can burns affect the integumentary system?"
+      expected: "Yes. Burns are injuries of the skin and related tissues."
+
+    - id: "integumentary_eval_027"
+      prompt: "Can cuts and abrasions affect the integumentary system?"
+      expected: "Yes. Cuts and abrasions are injuries involving the skin."
+
+    - id: "integumentary_eval_028"
+      prompt: "Can rashes affect the integumentary system?"
+      expected: "Yes. Rashes are skin-related changes involving the integumentary system."
+
+    - id: "integumentary_eval_029"
+      prompt: "Can infections involve the skin?"
+      expected: "Yes. The skin can develop infections."
+
+    - id: "integumentary_eval_030"
+      prompt: "Can itching be related to skin function or irritation?"
+      expected: "Yes. Itching can be related to skin irritation or other skin conditions."
+
+    - id: "integumentary_eval_031"
+      prompt: "Can dryness affect the skin?"
+      expected: "Yes. Dryness can affect skin comfort and barrier quality."
+
+    - id: "integumentary_eval_032"
+      prompt: "Can the skin crack if it becomes very dry?"
+      expected: "Yes. Very dry skin can crack and become more vulnerable."
+
+    - id: "integumentary_eval_033"
+      prompt: "Can the skin help protect against infection when it is intact?"
+      expected: "Yes. Intact skin is an important barrier against infection."
+
+    - id: "integumentary_eval_034"
+      prompt: "Can broken skin increase infection risk?"
+      expected: "Yes. Breaks in the skin can increase the risk of infection."
+
+    - id: "integumentary_eval_035"
+      prompt: "Can nails protect the tips of fingers and toes?"
+      expected: "Yes. Nails help protect the ends of fingers and toes."
+
+    - id: "integumentary_eval_036"
+      prompt: "Can hair provide some protection?"
+      expected: "Yes. Hair can help provide protection and related functions depending on location."
+
+    - id: "integumentary_eval_037"
+      prompt: "Can sweating help cool the body during exercise?"
+      expected: "Yes. Sweating helps cool the body when temperature rises."
+
+    - id: "integumentary_eval_038"
+      prompt: "Can goosebumps be related to the skin?"
+      expected: "Yes. Goosebumps are a skin-related response."
+
+    - id: "integumentary_eval_039"
+      prompt: "Can the skin be sensitive to pressure, friction, or chemicals?"
+      expected: "Yes. The skin can respond to different physical and chemical exposures."
+
+    - id: "integumentary_eval_040"
+      prompt: "Can the skin show signs of irritation from products or materials?"
+      expected: "Yes. Some products or materials can irritate the skin."
+
+    - id: "integumentary_eval_041"
+      prompt: "Can the integumentary system affect body image or comfort?"
+      expected: "Yes. Skin, hair, and nails can affect comfort and how a person feels about appearance."
+
+    - id: "integumentary_eval_042"
+      prompt: "Can skin problems affect sleep or concentration?"
+      expected: "Yes. Pain, itching, or discomfort from skin problems can affect daily life."
+
+    - id: "integumentary_eval_043"
+      prompt: "Can skin changes happen with aging?"
+      expected: "Yes. Skin can change with age."
+
+    - id: "integumentary_eval_044"
+      prompt: "Can nails change with health conditions or injury?"
+      expected: "Yes. Nail appearance and condition can change with injury or health problems."
+
+    - id: "integumentary_eval_045"
+      prompt: "Can the skin show signs of dehydration?"
+      expected: "Yes. Hydration status can affect skin appearance and feel."
+
+    - id: "integumentary_eval_046"
+      prompt: "Can bruises affect the skin and underlying tissues?"
+      expected: "Yes. Bruises involve visible changes in the skin and tissues beneath it."
+
+    - id: "integumentary_eval_047"
+      prompt: "Can pressure on the skin matter if it lasts too long?"
+      expected: "Yes. Prolonged pressure can harm skin and underlying tissues."
+
+    - id: "integumentary_eval_048"
+      prompt: "Can the integumentary system support body awareness?"
+      expected: "Yes. Skin sensation helps a person notice touch, pressure, and environmental contact."
+
+    - id: "integumentary_eval_049"
+      prompt: "Can the skin help detect whether something is rough, smooth, hot, or sharp?"
+      expected: "Yes. The skin helps detect many sensory qualities of contact."
+
+    - id: "integumentary_eval_050"
+      prompt: "Can wounds need protection while healing?"
+      expected: "Yes. Protecting wounds can help support healing and reduce infection risk."
+
+    - id: "integumentary_eval_051"
+      prompt: "Can redness, warmth, swelling, and pain suggest skin inflammation?"
+      expected: "Yes. Those can be common signs of inflammation in the skin or nearby tissues."
+
+    - id: "integumentary_eval_052"
+      prompt: "Can pus or spreading redness suggest infection?"
+      expected: "Yes. Pus or spreading redness can suggest infection and should be evaluated."
+
+    - id: "integumentary_eval_053"
+      prompt: "Can severe itching or rash affect daily functioning?"
+      expected: "Yes. Significant skin symptoms can interfere with comfort and activity."
+
+    - id: "integumentary_eval_054"
+      prompt: "Can skin protection help prevent injury from heat or friction?"
+      expected: "Yes. Healthy skin helps protect the body from various external stresses."
+
+    - id: "integumentary_eval_055"
+      prompt: "Can sunscreen and protective clothing help protect the skin?"
+      expected: "Yes. Protective measures can help reduce sun-related skin damage."
+
+    - id: "integumentary_eval_056"
+      prompt: "Can the skin be both a protective barrier and a sensory organ?"
+      expected: "Yes. The skin both protects the body and helps detect sensation."
+
+    - id: "integumentary_eval_057"
+      prompt: "Can skin care matter for barrier health?"
+      expected: "Yes. Skin care can help support comfort and barrier function."
+
+    - id: "integumentary_eval_058"
+      prompt: "Can open wounds or large burns be serious?"
+      expected: "Yes. Open wounds or large burns can be serious and require prompt attention."
+
+    - id: "integumentary_eval_059"
+      prompt: "Should rapidly spreading redness be taken seriously?"
+      expected: "Yes. Rapidly spreading redness should be evaluated promptly."
+
+    - id: "integumentary_eval_060"
+      prompt: "Should skin infection signs with fever be taken seriously?"
+      expected: "Yes. Skin infection signs with fever should be evaluated promptly."
+
+    - id: "integumentary_eval_061"
+      prompt: "Should severe burns be treated as urgent?"
+      expected: "Yes. Severe burns are urgent and require immediate attention."
+
+    - id: "integumentary_eval_062"
+      prompt: "Should burns involving the face, hands, genitals, or large body areas be taken seriously?"
+      expected: "Yes. Burns in those areas or over large areas require prompt medical attention."
+
+    - id: "integumentary_eval_063"
+      prompt: "Should a wound with worsening pain, swelling, pus, or fever be ignored?"
+      expected: "No. Those signs should be taken seriously and evaluated."
+
+    - id: "integumentary_eval_064"
+      prompt: "Should a new severe allergic skin reaction with trouble breathing be considered urgent?"
+      expected: "Yes. Skin reactions with trouble breathing can be urgent."
+
+    - id: "integumentary_eval_065"
+      prompt: "Can the integumentary system help maintain the body's boundary with the environment?"
+      expected: "Yes. It forms the main physical boundary between the body and the outside world."
+
+    - id: "integumentary_eval_066"
+      prompt: "Can the integumentary system support health every day even when unnoticed?"
+      expected: "Yes. The skin and related structures work continuously to protect and regulate the body."
+
+    - id: "integumentary_eval_067"
+      prompt: "Can skin injury affect body temperature regulation and fluid loss if severe?"
+      expected: "Yes. Severe skin injury can affect temperature control and fluid balance."
+
+    - id: "integumentary_eval_068"
+      prompt: "Can the integumentary system help connect protection, sensation, and regulation?"
+      expected: "Yes. It supports all of those functions together."
+
+    - id: "integumentary_eval_069"
+      prompt: "Can skin findings sometimes reflect internal health problems?"
+      expected: "Yes. Skin appearance can sometimes reflect broader health conditions."
+
+    - id: "integumentary_eval_070"
+      prompt: "Can the skin be described as active rather than just a covering?"
+      expected: "Yes. The skin is an active organ involved in protection, sensation, and regulation."
+
+    - id: "integumentary_eval_071"
+      prompt: "Can skin and immune defenses work together?"
+      expected: "Yes. The skin and immune system both help protect the body."
+
+    - id: "integumentary_eval_072"
+      prompt: "Can the skin help a person notice hazards before deeper harm occurs?"
+      expected: "Yes. Skin sensation helps a person detect potentially harmful contact."
+
+    - id: "integumentary_eval_073"
+      prompt: "Can repeated friction lead to skin problems?"
+      expected: "Yes. Repeated friction can irritate or damage the skin."
+
+    - id: "integumentary_eval_074"
+      prompt: "Can pressure, moisture, and friction together increase skin breakdown risk?"
+      expected: "Yes. Those factors can increase the risk of skin damage."
+
+    - id: "integumentary_eval_075"
+      prompt: "Can the integumentary system help with both survival and comfort?"
+      expected: "Yes. It supports protection, regulation, sensation, and daily comfort."
+
+    - id: "integumentary_eval_076"
+      prompt: "What is the main idea of the integumentary system?"
+      expected: "The integumentary system includes the skin and related structures and helps protect the body, support sensation, regulate temperature, and maintain a barrier."
+
+    - id: "integumentary_eval_077"
+      prompt: "Can the integumentary system involve skin, hair, nails, and glands rather than skin alone?"
+      expected: "Yes. It includes skin and several related structures."
+
+    - id: "integumentary_eval_078"
+      prompt: "Can damage to the skin affect protection, sensation, and comfort at the same time?"
+      expected: "Yes. Skin damage can affect several functions together."
+
+    - id: "integumentary_eval_079"
+      prompt: "Can healthy skin support independence and daily functioning?"
+      expected: "Yes. Healthy skin supports comfort, protection, sensation, and routine activity."
+
+    - id: "integumentary_eval_080"
+      prompt: "What should be done if skin or integumentary symptoms are sudden, severe, worsening, or linked with major burns, spreading redness, pus, fever, or trouble breathing?"
+      expected: "Sudden, severe, or concerning integumentary symptoms should be evaluated promptly, and urgent symptoms require immediate attention."

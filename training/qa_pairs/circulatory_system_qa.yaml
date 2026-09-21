@@ -1,0 +1,282 @@
+```yaml
+metadata:
+  file_name: "circulatory_system_qa.yaml"
+  title: "Jessie Circulatory System QA Pairs"
+  domain: "body_systems"
+  topic: "circulatory_system"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain the circulatory system clearly, warmly, and safely with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain the circulatory system as the body system that moves blood through the body to deliver oxygen, nutrients, hormones, and other important substances while helping carry away wastes. Jessie should explain the roles of the heart, blood, arteries, veins, and capillaries in simple language. The set also supports broader biology and image-generation-informed teaching by including circulation pathways, structure-function relationships, comparisons, and practical safety boundaries. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for chest pain, stroke-like symptoms, or other serious circulation concerns."
+  training_goals:
+    - "Explain the circulatory system in simple, beginner-friendly language"
+    - "Teach the roles of the heart, blood, arteries, veins, and capillaries"
+    - "Show how the circulatory and respiratory systems work together"
+    - "Clarify basic blood components and what they do"
+    - "Support broader biology and visual explanation retrieval with structure and flow concepts"
+    - "Use practical examples such as oxygen delivery and waste removal"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for concerning heart and circulation symptoms"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach the circulatory system as a transport system"
+    - "Explain blood flow and vessel roles simply"
+    - "Connect structure to function in a clear beginner-friendly way"
+    - "Support both basic biology teaching and visual explanation of circulation"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose heart disease, circulation problems, stroke, blood disorders, or chest pain causes."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general circulatory concepts, blood flow, and warning signs."
+  safety_escalation:
+    - "Urgent guidance is appropriate for chest pain, stroke-like symptoms, sudden severe shortness of breath, sudden weakness or numbness, or signs of severe illness."
+
+pairs:
+  - id: "circulatory_system_qa_001"
+    category: "foundational_definition"
+    question: "What is the main job of the circulatory system?"
+    answer: "The main job of the circulatory system is to move blood through the body to deliver oxygen, nutrients, and other important substances while carrying away wastes."
+
+  - id: "circulatory_system_qa_002"
+    category: "foundational_definition"
+    question: "What is the circulatory system?"
+    answer: "The circulatory system is the body system that moves blood through the heart and blood vessels."
+
+  - id: "circulatory_system_qa_003"
+    category: "foundational_definition"
+    question: "Why is the circulatory system important?"
+    answer: "It is important because body cells need a steady supply of oxygen and nutrients, and wastes need to be carried away."
+
+  - id: "circulatory_system_qa_004"
+    category: "foundational_definition"
+    question: "What does the circulatory system help the body do?"
+    answer: "It helps the body transport useful substances to cells and carry away waste materials."
+
+  - id: "circulatory_system_qa_005"
+    category: "system_roles"
+    question: "What does the heart do?"
+    answer: "The heart is a muscular organ that pumps blood through the body."
+
+  - id: "circulatory_system_qa_006"
+    category: "system_roles"
+    question: "What is blood for?"
+    answer: "Blood carries oxygen, nutrients, hormones, immune components, and waste materials through the body."
+
+  - id: "circulatory_system_qa_007"
+    category: "system_roles"
+    question: "What are arteries?"
+    answer: "Arteries are blood vessels that carry blood away from the heart."
+
+  - id: "circulatory_system_qa_008"
+    category: "system_roles"
+    question: "What are veins?"
+    answer: "Veins are blood vessels that carry blood back toward the heart."
+
+  - id: "circulatory_system_qa_009"
+    category: "system_roles"
+    question: "What are capillaries?"
+    answer: "Capillaries are tiny blood vessels where substances such as oxygen, nutrients, and wastes are exchanged with body tissues."
+
+  - id: "circulatory_system_qa_010"
+    category: "system_roles"
+    question: "What are red blood cells?"
+    answer: "Red blood cells are blood cells that carry oxygen using a substance called hemoglobin."
+
+  - id: "circulatory_system_qa_011"
+    category: "system_roles"
+    question: "What are white blood cells?"
+    answer: "White blood cells help defend the body against infection."
+
+  - id: "circulatory_system_qa_012"
+    category: "system_roles"
+    question: "What are platelets?"
+    answer: "Platelets are blood components that help with clotting."
+
+  - id: "circulatory_system_qa_013"
+    category: "system_roles"
+    question: "What is plasma?"
+    answer: "Plasma is the liquid part of blood that carries blood cells and dissolved substances."
+
+  - id: "circulatory_system_qa_014"
+    category: "process"
+    question: "How does the circulatory system work?"
+    answer: "The heart pumps blood through blood vessels so oxygen, nutrients, and other substances can move through the body."
+
+  - id: "circulatory_system_qa_015"
+    category: "process"
+    question: "How does the circulatory system work with the respiratory system?"
+    answer: "The respiratory system adds oxygen to the blood in the lungs, and the circulatory system transports that oxygen-rich blood to the rest of the body."
+
+  - id: "circulatory_system_qa_016"
+    category: "process"
+    question: "Why do cells need the circulatory system?"
+    answer: "Cells need it because they rely on blood to bring oxygen and nutrients and remove wastes."
+
+  - id: "circulatory_system_qa_017"
+    category: "process"
+    question: "Why are capillaries important?"
+    answer: "Capillaries are important because they are the tiny vessels where exchange with body tissues happens."
+
+  - id: "circulatory_system_qa_018"
+    category: "process"
+    question: "Why does the heart need to keep pumping?"
+    answer: "The heart needs to keep pumping so blood keeps moving and body cells keep getting what they need."
+
+  - id: "circulatory_system_qa_019"
+    category: "term_clarification"
+    question: "What is the difference between arteries and veins?"
+    answer: "Arteries carry blood away from the heart, while veins carry blood back toward the heart."
+
+  - id: "circulatory_system_qa_020"
+    category: "term_clarification"
+    question: "What is the difference between blood and plasma?"
+    answer: "Blood is the full fluid tissue, while plasma is the liquid part that carries cells and dissolved substances."
+
+  - id: "circulatory_system_qa_021"
+    category: "term_clarification"
+    question: "What is the difference between red blood cells and white blood cells?"
+    answer: "Red blood cells mainly carry oxygen, while white blood cells help defend the body."
+
+  - id: "circulatory_system_qa_022"
+    category: "term_clarification"
+    question: "What is the difference between platelets and red blood cells?"
+    answer: "Platelets help with clotting, while red blood cells mainly carry oxygen."
+
+  - id: "circulatory_system_qa_023"
+    category: "misconception"
+    question: "Does blood only carry oxygen?"
+    answer: "No. Blood carries many things, including nutrients, hormones, immune cells, and waste products."
+
+  - id: "circulatory_system_qa_024"
+    category: "misconception"
+    question: "Is the heart the whole circulatory system?"
+    answer: "No. The heart is one major part, but the circulatory system also includes blood and blood vessels."
+
+  - id: "circulatory_system_qa_025"
+    category: "misconception"
+    question: "Are all blood vessels the same?"
+    answer: "No. Arteries, veins, and capillaries have different roles in moving blood."
+
+  - id: "circulatory_system_qa_026"
+    category: "misconception"
+    question: "Do veins carry blood away from the heart?"
+    answer: "No. Veins carry blood back toward the heart."
+
+  - id: "circulatory_system_qa_027"
+    category: "misconception"
+    question: "Is circulation only about the heart?"
+    answer: "No. Circulation depends on the heart, blood, and blood vessels working together."
+
+  - id: "circulatory_system_qa_028"
+    category: "everyday_example"
+    question: "Why does the body need blood moving all the time?"
+    answer: "The body needs constant blood flow so cells can keep getting oxygen and nutrients."
+
+  - id: "circulatory_system_qa_029"
+    category: "everyday_example"
+    question: "Why does exercise make the heart beat faster?"
+    answer: "Exercise makes body tissues need more oxygen and nutrients, so the heart pumps faster to move more blood."
+
+  - id: "circulatory_system_qa_030"
+    category: "everyday_example"
+    question: "Why can a cut bleed?"
+    answer: "A cut can bleed because blood travels through many vessels close to body tissues."
+
+  - id: "circulatory_system_qa_031"
+    category: "everyday_example"
+    question: "Why is clotting helpful?"
+    answer: "Clotting is helpful because it helps reduce blood loss after injury."
+
+  - id: "circulatory_system_qa_032"
+    category: "everyday_example"
+    question: "Why does blood flow matter for healing?"
+    answer: "Blood flow matters for healing because it helps deliver oxygen, nutrients, and immune support to tissues."
+
+  - id: "circulatory_system_qa_033"
+    category: "visual_art_support"
+    question: "Why is the circulatory system useful to understand in medical or anatomy art?"
+    answer: "It helps show how the heart, major vessels, and blood flow connect structure with function."
+
+  - id: "circulatory_system_qa_034"
+    category: "visual_art_support"
+    question: "What should an artist know about arteries and veins?"
+    answer: "An artist should know that arteries carry blood away from the heart and veins return it toward the heart."
+
+  - id: "circulatory_system_qa_035"
+    category: "visual_art_support"
+    question: "Why does flow direction matter in educational diagrams of circulation?"
+    answer: "Flow direction matters because it helps show how blood moves through the heart, lungs, and body."
+
+  - id: "circulatory_system_qa_036"
+    category: "visual_art_support"
+    question: "Why are capillaries important in biology illustrations?"
+    answer: "They are important because they show where exchange happens between blood and tissues."
+
+  - id: "circulatory_system_qa_037"
+    category: "boundary"
+    question: "Can you diagnose why I have chest pain?"
+    answer: "No. I can't diagnose the cause of chest pain from limited information, but I can explain circulatory concepts and point out warning signs."
+
+  - id: "circulatory_system_qa_038"
+    category: "boundary"
+    question: "Can you tell me exactly what is wrong if my heart feels strange?"
+    answer: "No. I can't determine the exact cause from a brief description, but I can explain general circulatory concepts and when urgent care may be important."
+
+  - id: "circulatory_system_qa_039"
+    category: "boundary"
+    question: "Does chest discomfort always mean a heart attack?"
+    answer: "No. Chest discomfort can have different causes, so I can't assume the reason from that alone."
+
+  - id: "circulatory_system_qa_040"
+    category: "safety_supportive_urgent"
+    question: "What should someone do if they have chest pain or signs of a stroke?"
+    answer: "Chest pain or stroke-like symptoms can be emergencies, so the person should seek immediate emergency medical help."
+
+  - id: "circulatory_system_qa_041"
+    category: "safety_supportive_urgent"
+    question: "Should sudden chest pain be taken seriously?"
+    answer: "Yes. Sudden chest pain should be taken seriously and medically checked right away."
+
+  - id: "circulatory_system_qa_042"
+    category: "safety_supportive_urgent"
+    question: "Should sudden weakness on one side of the body be treated urgently?"
+    answer: "Yes. Sudden one-sided weakness can be serious and needs emergency medical attention."
+
+  - id: "circulatory_system_qa_043"
+    category: "safety_supportive_urgent"
+    question: "Should trouble speaking with a drooping face be treated urgently?"
+    answer: "Yes. Trouble speaking with a drooping face can be a stroke warning sign and needs emergency medical attention."
+
+  - id: "circulatory_system_qa_044"
+    category: "safety_supportive_urgent"
+    question: "Should sudden severe shortness of breath be ignored?"
+    answer: "No. Sudden severe shortness of breath can be serious and should be medically checked right away."
+
+  - id: "circulatory_system_qa_045"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about the circulatory system?"
+    answer: "The main thing to remember is that the circulatory system moves blood so the body can deliver useful substances and carry away wastes."
+
+quality_checks:
+  - "The file contains 45 QA pairs with ids circulatory_system_qa_001 through circulatory_system_qa_045."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "The circulatory system is consistently explained as a transport system."
+  - "The set includes support for biology teaching, structure-function learning, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

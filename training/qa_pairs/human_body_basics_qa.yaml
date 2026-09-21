@@ -1,0 +1,297 @@
+```yaml
+metadata:
+  file_name: "human_body_basics_qa.yaml"
+  title: "Jessie Human Body Basics QA Pairs"
+  domain: "human_biology"
+  topic: "human_body_basics"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain core human body knowledge clearly, warmly, and safely with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain the human body as an integrated living system built from cells, tissues, organs, and organ systems. Jessie should explain basic anatomy and physiology in clear beginner-friendly language, connect structure and function whenever possible, and show how major body systems work together to support life. The set also supports broader biology and image-generation-informed teaching by including organization levels, major organs, body systems, homeostasis, metabolism, and system connections. Jessie should remain warm, direct, educational, and non-diagnosing, while keeping clear safety boundaries when users ask for diagnosis or describe serious symptoms."
+  training_goals:
+    - "Explain the basic levels of body organization from cells to organ systems"
+    - "Teach the major human body systems in simple language"
+    - "Show the basic jobs of key organs such as the heart, lungs, brain, kidneys, and skin"
+    - "Explain homeostasis, metabolism, oxygen use, and nutrient use at a beginner level"
+    - "Teach that the human body is an integrated system rather than separate independent parts"
+    - "Support broader biology and visual explanation retrieval with structure-function thinking"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries around diagnosis and serious symptom discussions"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach the body from simple building blocks to whole-system integration"
+    - "Connect anatomy with function whenever possible"
+    - "Use clear, concrete explanations over heavy technical detail"
+    - "Support both biology teaching and visual or diagram-oriented understanding"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose disease, interpret symptoms as a medical condition, or provide treatment plans."
+    - "Jessie should not claim certainty from brief health descriptions."
+    - "Jessie can explain general anatomy, physiology, system roles, and when medical care may be important."
+  safety_escalation:
+    - "If a user describes serious symptoms, Jessie should encourage prompt medical care or emergency help when appropriate."
+
+pairs:
+  - id: "human_body_basics_qa_001"
+    category: "foundational_definition"
+    question: "What is the basic unit of life?"
+    answer: "The cell is the basic unit of life."
+
+  - id: "human_body_basics_qa_002"
+    category: "foundational_definition"
+    question: "What is a tissue?"
+    answer: "A tissue is a group of similar cells working together to perform a specific function."
+
+  - id: "human_body_basics_qa_003"
+    category: "foundational_definition"
+    question: "What is an organ?"
+    answer: "An organ is a structure made of different tissues working together to carry out a specific job."
+
+  - id: "human_body_basics_qa_004"
+    category: "foundational_definition"
+    question: "What is an organ system?"
+    answer: "An organ system is a group of organs that work together to perform major functions in the body."
+
+  - id: "human_body_basics_qa_005"
+    category: "foundational_definition"
+    question: "How is the body organized from small to large parts?"
+    answer: "The body is organized from cells to tissues, from tissues to organs, and from organs to organ systems."
+
+  - id: "human_body_basics_qa_006"
+    category: "foundational_definition"
+    question: "What are the main systems of the human body?"
+    answer: "The main systems include nervous, circulatory or cardiovascular, respiratory, digestive, muscular, skeletal, endocrine, immune or lymphatic, urinary, integumentary, and reproductive systems."
+
+  - id: "human_body_basics_qa_007"
+    category: "system_roles"
+    question: "What does the nervous system do?"
+    answer: "The nervous system controls communication, sensation, coordination, and rapid responses in the body."
+
+  - id: "human_body_basics_qa_008"
+    category: "system_roles"
+    question: "What does the cardiovascular system do?"
+    answer: "The cardiovascular system transports blood, oxygen, nutrients, hormones, and waste products through the body."
+
+  - id: "human_body_basics_qa_009"
+    category: "system_roles"
+    question: "What does the respiratory system do?"
+    answer: "The respiratory system brings oxygen into the body and removes carbon dioxide."
+
+  - id: "human_body_basics_qa_010"
+    category: "system_roles"
+    question: "What does the digestive system do?"
+    answer: "The digestive system breaks down food, absorbs nutrients, and removes solid waste."
+
+  - id: "human_body_basics_qa_011"
+    category: "system_roles"
+    question: "What does the muscular system do?"
+    answer: "The muscular system helps the body move, maintain posture, and produce heat."
+
+  - id: "human_body_basics_qa_012"
+    category: "system_roles"
+    question: "What does the skeletal system do?"
+    answer: "The skeletal system supports the body, protects organs, stores minerals, and works with muscles to allow movement."
+
+  - id: "human_body_basics_qa_013"
+    category: "system_roles"
+    question: "What does the endocrine system do?"
+    answer: "The endocrine system regulates body processes through hormones."
+
+  - id: "human_body_basics_qa_014"
+    category: "system_roles"
+    question: "What does the immune system do?"
+    answer: "The immune system helps defend the body against infection and other threats."
+
+  - id: "human_body_basics_qa_015"
+    category: "system_roles"
+    question: "What does the urinary system do?"
+    answer: "The urinary system filters waste from the blood and helps regulate fluid and chemical balance."
+
+  - id: "human_body_basics_qa_016"
+    category: "system_roles"
+    question: "What does the integumentary system do?"
+    answer: "The integumentary system protects the body and helps regulate temperature."
+
+  - id: "human_body_basics_qa_017"
+    category: "system_roles"
+    question: "What does the reproductive system do?"
+    answer: "The reproductive system produces reproductive cells and supports reproduction."
+
+  - id: "human_body_basics_qa_018"
+    category: "physiology"
+    question: "What is homeostasis?"
+    answer: "Homeostasis is the body's ability to maintain stable internal conditions."
+
+  - id: "human_body_basics_qa_019"
+    category: "physiology"
+    question: "Why is homeostasis important?"
+    answer: "Homeostasis is important because body cells work best when internal conditions such as temperature, fluid balance, and blood sugar stay within healthy ranges."
+
+  - id: "human_body_basics_qa_020"
+    category: "physiology"
+    question: "What is metabolism?"
+    answer: "Metabolism is the sum of the chemical reactions in the body that maintain life."
+
+  - id: "human_body_basics_qa_021"
+    category: "physiology"
+    question: "Why does the body need oxygen?"
+    answer: "The body needs oxygen because cells use it to help produce energy."
+
+  - id: "human_body_basics_qa_022"
+    category: "physiology"
+    question: "Why does the body need nutrients?"
+    answer: "The body needs nutrients for energy, growth, repair, and normal function."
+
+  - id: "human_body_basics_qa_023"
+    category: "organs"
+    question: "What does the heart do?"
+    answer: "The heart is a muscle that pumps blood through the body."
+
+  - id: "human_body_basics_qa_024"
+    category: "organs"
+    question: "What do the lungs do?"
+    answer: "The lungs help exchange oxygen and carbon dioxide."
+
+  - id: "human_body_basics_qa_025"
+    category: "organs"
+    question: "What does the brain do?"
+    answer: "The brain helps control thought, memory, movement, sensation, and many body functions."
+
+  - id: "human_body_basics_qa_026"
+    category: "organs"
+    question: "What do the kidneys do?"
+    answer: "The kidneys filter waste from the blood and help regulate water, salts, and other chemical levels."
+
+  - id: "human_body_basics_qa_027"
+    category: "organs"
+    question: "What is the largest organ of the human body?"
+    answer: "The skin is the body's largest organ."
+
+  - id: "human_body_basics_qa_028"
+    category: "system_connections"
+    question: "How do the lungs and heart work together?"
+    answer: "The lungs bring oxygen into the body, and the heart pumps oxygen-rich blood to tissues."
+
+  - id: "human_body_basics_qa_029"
+    category: "system_connections"
+    question: "How do the digestive and cardiovascular systems work together?"
+    answer: "The digestive system absorbs nutrients from food, and the cardiovascular system carries those nutrients through the body."
+
+  - id: "human_body_basics_qa_030"
+    category: "system_connections"
+    question: "How do the muscles and bones work together?"
+    answer: "Muscles pull on bones to create movement."
+
+  - id: "human_body_basics_qa_031"
+    category: "system_connections"
+    question: "Does the body work as separate independent parts?"
+    answer: "No. The body is an integrated system, and its parts depend on each other."
+
+  - id: "human_body_basics_qa_032"
+    category: "term_clarification"
+    question: "What is the difference between a cell and a tissue?"
+    answer: "A cell is a basic living unit, while a tissue is a group of similar cells working together."
+
+  - id: "human_body_basics_qa_033"
+    category: "term_clarification"
+    question: "What is the difference between a tissue and an organ?"
+    answer: "A tissue is a group of similar cells, while an organ is made of different tissues working together."
+
+  - id: "human_body_basics_qa_034"
+    category: "term_clarification"
+    question: "What is the difference between an organ and an organ system?"
+    answer: "An organ does a specific job, while an organ system is a group of organs working together."
+
+  - id: "human_body_basics_qa_035"
+    category: "misconception"
+    question: "Is the body just a collection of separate parts?"
+    answer: "No. The body works as an integrated whole, with systems depending on one another."
+
+  - id: "human_body_basics_qa_036"
+    category: "misconception"
+    question: "Do all organs do the same kind of work?"
+    answer: "No. Different organs have different structures and different jobs."
+
+  - id: "human_body_basics_qa_037"
+    category: "misconception"
+    question: "Is oxygen only important for breathing?"
+    answer: "No. Oxygen is important because body cells use it to help produce energy."
+
+  - id: "human_body_basics_qa_038"
+    category: "misconception"
+    question: "Are body systems completely independent from one another?"
+    answer: "No. Body systems constantly interact and support each other."
+
+  - id: "human_body_basics_qa_039"
+    category: "everyday_example"
+    question: "Why does the body need energy?"
+    answer: "The body needs energy for movement, growth, repair, and normal cell function."
+
+  - id: "human_body_basics_qa_040"
+    category: "everyday_example"
+    question: "Why do humans need food and water?"
+    answer: "Humans need food and water to support energy, growth, repair, balance, and survival."
+
+  - id: "human_body_basics_qa_041"
+    category: "everyday_example"
+    question: "Why do humans need body systems working together?"
+    answer: "Humans need systems working together because no single system can support life alone."
+
+  - id: "human_body_basics_qa_042"
+    category: "visual_art_support"
+    question: "Why is structure and function important in anatomy illustration?"
+    answer: "It is important because body structures make more sense when their jobs are understood."
+
+  - id: "human_body_basics_qa_043"
+    category: "visual_art_support"
+    question: "What should an artist know about body systems in educational illustration?"
+    answer: "An artist should know the main systems, major organs, and how structure supports function."
+
+  - id: "human_body_basics_qa_044"
+    category: "visual_art_support"
+    question: "Why is the body often taught in levels of organization?"
+    answer: "It is often taught that way because it helps show how small living units build into larger working systems."
+
+  - id: "human_body_basics_qa_045"
+    category: "boundary"
+    question: "Can Jessie give medical diagnosis from this knowledge?"
+    answer: "No. This knowledge supports education only and should not be used as personal medical diagnosis or treatment."
+
+  - id: "human_body_basics_qa_046"
+    category: "boundary"
+    question: "Can you tell me exactly what disease I have from basic body information?"
+    answer: "No. I can explain general anatomy and physiology, but I cannot diagnose disease from limited information."
+
+  - id: "human_body_basics_qa_047"
+    category: "safety_supportive_urgent"
+    question: "What should Jessie do if a user describes serious symptoms?"
+    answer: "Jessie should encourage the user to seek help from a qualified medical professional or emergency services when appropriate."
+
+  - id: "human_body_basics_qa_048"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about the human body?"
+    answer: "The main thing to remember is that the human body is an integrated system built from cells, tissues, organs, and organ systems working together."
+
+quality_checks:
+  - "The file contains 48 QA pairs with ids human_body_basics_qa_001 through human_body_basics_qa_048."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "The human body is consistently explained as an integrated system."
+  - "The set includes support for biology teaching, structure-function learning, and visual explanation retrieval."
+  - "Safety and boundary items remain clear and appropriate."
+```

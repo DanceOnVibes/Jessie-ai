@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Walking Evaluation Set"
+  domain: "body_awareness"
+  topic: "walking"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of walking, gait, mobility, balance interaction, strength and coordination needs, walking-related symptoms, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "walking_eval_001"
+      prompt: "What is walking?"
+      expected: "Walking is a coordinated form of movement that allows a person to move from place to place while maintaining balance."
+
+    - id: "walking_eval_002"
+      prompt: "Why is walking important?"
+      expected: "Walking is important because it supports mobility, independence, daily function, and physical activity."
+
+    - id: "walking_eval_003"
+      prompt: "Does walking depend on muscles, bones, nerves, and balance?"
+      expected: "Yes. Walking depends on multiple body systems working together."
+
+    - id: "walking_eval_004"
+      prompt: "Does walking depend on coordination?"
+      expected: "Yes. Walking requires coordinated movement and timing."
+
+    - id: "walking_eval_005"
+      prompt: "Does walking depend on balance?"
+      expected: "Yes. Balance is essential for safe walking."
+
+    - id: "walking_eval_006"
+      prompt: "Can vision help with walking?"
+      expected: "Yes. Vision helps guide movement and avoid obstacles."
+
+    - id: "walking_eval_007"
+      prompt: "Can the vestibular system help with walking?"
+      expected: "Yes. Vestibular function helps with balance and orientation during walking."
+
+    - id: "walking_eval_008"
+      prompt: "Can sensation in the feet help with walking?"
+      expected: "Yes. Foot sensation helps the body detect the ground and maintain stability."
+
+    - id: "walking_eval_009"
+      prompt: "Can strength affect walking?"
+      expected: "Yes. Leg and core strength are important for walking."
+
+    - id: "walking_eval_010"
+      prompt: "Can joint problems affect walking?"
+      expected: "Yes. Joint pain or stiffness can affect gait and comfort."
+
+    - id: "walking_eval_011"
+      prompt: "What is gait in a simple way?"
+      expected: "Gait is the pattern of how a person walks."
+
+    - id: "walking_eval_012"
+      prompt: "Can walking patterns differ between people?"
+      expected: "Yes. People can have different normal walking patterns."
+
+    - id: "walking_eval_013"
+      prompt: "Can pain change the way a person walks?"
+      expected: "Yes. Pain can cause limping or altered walking."
+
+    - id: "walking_eval_014"
+      prompt: "Can fatigue affect walking?"
+      expected: "Yes. Fatigue can make walking slower, less steady, or harder."
+
+    - id: "walking_eval_015"
+      prompt: "Can dizziness affect walking safety?"
+      expected: "Yes. Dizziness can make walking unsafe."
+
+    - id: "walking_eval_016"
+      prompt: "Can walking be affected by neurological problems?"
+      expected: "Yes. Nerve, brain, or spinal problems can affect walking."
+
+    - id: "walking_eval_017"
+      prompt: "Can walking be affected by injury?"
+      expected: "Yes. Injury can affect strength, balance, or pain and change walking."
+
+    - id: "walking_eval_018"
+      prompt: "Can walking be affected by fear of falling?"
+      expected: "Yes. Fear of falling can change walking confidence and pattern."
+
+    - id: "walking_eval_019"
+      prompt: "Can walking support health and exercise?"
+      expected: "Yes. Walking is an important form of physical activity."
+
+    - id: "walking_eval_020"
+      prompt: "Can walking support independence?"
+      expected: "Yes. Walking is a major part of independence and daily function."
+
+    - id: "walking_eval_021"
+      prompt: "Can a limp suggest pain or weakness?"
+      expected: "Yes. A limp can happen with pain, weakness, or injury."
+
+    - id: "walking_eval_022"
+      prompt: "Can unsteadiness while walking be an important symptom?"
+      expected: "Yes. Unsteadiness can be an important mobility symptom."
+
+    - id: "walking_eval_023"
+      prompt: "Can shuffling or dragging a foot be important?"
+      expected: "Yes. Changes like shuffling or foot dragging can be important."
+
+    - id: "walking_eval_024"
+      prompt: "Can walking speed change with health or fitness?"
+      expected: "Yes. Walking speed can change for many reasons."
+
+    - id: "walking_eval_025"
+      prompt: "Can walking problems affect work or school?"
+      expected: "Yes. Mobility problems can affect daily responsibilities."
+
+    - id: "walking_eval_026"
+      prompt: "Can walking problems affect quality of life?"
+      expected: "Yes. Difficulty walking can affect independence, confidence, and daily life."
+
+    - id: "walking_eval_027"
+      prompt: "Can safe walking depend on the environment too?"
+      expected: "Yes. Surfaces, lighting, obstacles, and footwear can affect walking safety."
+
+    - id: "walking_eval_028"
+      prompt: "Can footwear influence walking comfort and stability?"
+      expected: "Yes. Footwear can affect comfort, support, and balance."
+
+    - id: "walking_eval_029"
+      prompt: "Can walking feel harder on stairs or uneven ground?"
+      expected: "Yes. More challenging surfaces can make walking difficulties more noticeable."
+
+    - id: "walking_eval_030"
+      prompt: "Can a person walk normally at one time and have trouble later if symptoms change?"
+      expected: "Yes. Walking ability can change with pain, fatigue, illness, or injury."
+
+    - id: "walking_eval_031"
+      prompt: "Can shortness of breath affect walking tolerance?"
+      expected: "Yes. Breathing problems can limit walking ability."
+
+    - id: "walking_eval_032"
+      prompt: "Can chest pain affect safe walking or exertion?"
+      expected: "Yes. Chest pain with exertion can be important."
+
+    - id: "walking_eval_033"
+      prompt: "Can walking problems come from muscles, joints, nerves, balance, vision, or heart and lung issues?"
+      expected: "Yes. Walking depends on many systems and can be affected by many causes."
+
+    - id: "walking_eval_034"
+      prompt: "Can walking difficulty happen suddenly or gradually?"
+      expected: "Yes. Walking difficulty can begin suddenly or develop gradually."
+
+    - id: "walking_eval_035"
+      prompt: "Can foot pain affect gait?"
+      expected: "Yes. Foot pain can change how a person walks."
+
+    - id: "walking_eval_036"
+      prompt: "Can knee, hip, or back pain affect walking?"
+      expected: "Yes. Pain in those areas can affect gait and walking tolerance."
+
+    - id: "walking_eval_037"
+      prompt: "Can numbness in the feet affect walking?"
+      expected: "Yes. Reduced foot sensation can affect balance and walking."
+
+    - id: "walking_eval_038"
+      prompt: "Can weakness in one leg affect walking?"
+      expected: "Yes. One-sided weakness can significantly affect walking."
+
+    - id: "walking_eval_039"
+      prompt: "Can walking be harder in the dark if balance or sensation is reduced?"
+      expected: "Yes. Reduced visual input can make walking harder when other systems are affected."
+
+    - id: "walking_eval_040"
+      prompt: "Can a person need support devices for walking in some situations?"
+      expected: "Yes. Some people may need assistive devices for safer walking."
+
+    - id: "walking_eval_041"
+      prompt: "Can walking problems increase fall risk?"
+      expected: "Yes. Difficulty walking can increase fall risk."
+
+    - id: "walking_eval_042"
+      prompt: "Can walking patterns be affected by pain avoidance?"
+      expected: "Yes. People often change gait to avoid pain."
+
+    - id: "walking_eval_043"
+      prompt: "Can walking matter throughout life?"
+      expected: "Yes. Walking is important at all ages."
+
+    - id: "walking_eval_044"
+      prompt: "Can older adults be especially affected by walking problems?"
+      expected: "Yes. Walking problems can strongly affect independence and fall risk in older adults."
+
+    - id: "walking_eval_045"
+      prompt: "Can children also have gait concerns?"
+      expected: "Yes. Walking concerns can occur in children as well as adults."
+
+    - id: "walking_eval_046"
+      prompt: "Can a person be able to stand but still have trouble walking?"
+      expected: "Yes. Standing and walking can be affected differently."
+
+    - id: "walking_eval_047"
+      prompt: "Can walking require rhythm, strength, sensory input, and coordination together?"
+      expected: "Yes. All of those contribute to walking."
+
+    - id: "walking_eval_048"
+      prompt: "Can walking problems affect exercise, errands, and self-care?"
+      expected: "Yes. Walking difficulties can affect many daily activities."
+
+    - id: "walking_eval_049"
+      prompt: "Can severe pain with inability to bear weight be urgent?"
+      expected: "Yes. That can indicate a serious injury and needs prompt evaluation."
+
+    - id: "walking_eval_050"
+      prompt: "Can sudden inability to walk be serious?"
+      expected: "Yes. Sudden inability to walk is serious and requires prompt attention."
+
+    - id: "walking_eval_051"
+      prompt: "Can walking difficulty with one-sided weakness or facial droop be an emergency?"
+      expected: "Yes. That pattern can indicate an emergency and requires immediate attention."
+
+    - id: "walking_eval_052"
+      prompt: "Can loss of balance with chest pain or fainting be urgent?"
+      expected: "Yes. That combination can be urgent."
+
+    - id: "walking_eval_053"
+      prompt: "Can new inability to bear weight after trauma be important?"
+      expected: "Yes. Inability to bear weight after injury should be evaluated promptly."
+
+    - id: "walking_eval_054"
+      prompt: "Can walking trouble after head, neck, or back injury be serious?"
+      expected: "Yes. Walking changes after trauma should be taken seriously."
+
+    - id: "walking_eval_055"
+      prompt: "Can weakness, numbness, and bladder changes with walking trouble be urgent?"
+      expected: "Yes. That combination can suggest a serious neurological problem."
+
+    - id: "walking_eval_056"
+      prompt: "Can severe dizziness with inability to walk safely need prompt care?"
+      expected: "Yes. Severe dizziness affecting walking requires prompt attention."
+
+    - id: "walking_eval_057"
+      prompt: "Should a person keep walking normally on a severely injured leg just to test it?"
+      expected: "No. Severe injury symptoms should not be ignored."
+
+    - id: "walking_eval_058"
+      prompt: "Should sudden collapse while walking be treated seriously?"
+      expected: "Yes. Collapse is an emergency and requires immediate help."
+
+    - id: "walking_eval_059"
+      prompt: "Should walking trouble with severe shortness of breath be considered urgent?"
+      expected: "Yes. Severe breathing trouble with walking difficulty is urgent."
+
+    - id: "walking_eval_060"
+      prompt: "Should repeated falls be ignored?"
+      expected: "No. Repeated falls should be evaluated."
+
+    - id: "walking_eval_061"
+      prompt: "Can walking rely on healthy muscles, joints, nerves, balance systems, and circulation?"
+      expected: "Yes. Walking depends on many body systems working together."
+
+    - id: "walking_eval_062"
+      prompt: "Can walking problems overlap with orthopedic, neurological, vestibular, or cardiovascular issues?"
+      expected: "Yes. Walking difficulty can come from many types of conditions."
+
+    - id: "walking_eval_063"
+      prompt: "Can walking ability affect independence and safety together?"
+      expected: "Yes. Walking strongly affects both independence and safety."
+
+    - id: "walking_eval_064"
+      prompt: "Can walking symptoms matter even if they begin gradually?"
+      expected: "Yes. Gradual walking problems can still be important."
+
+    - id: "walking_eval_065"
+      prompt: "Can normal walking support exercise, mobility, social life, and self-care?"
+      expected: "Yes. Walking supports all of those functions."
+
+    - id: "walking_eval_066"
+      prompt: "Can walking difficulty still be important even if pain is not the main symptom?"
+      expected: "Yes. Weakness, numbness, balance problems, or dizziness can also be important."
+
+    - id: "walking_eval_067"
+      prompt: "Can walking changes affect confidence and mental well-being?"
+      expected: "Yes. Mobility problems can affect confidence and emotional well-being."
+
+    - id: "walking_eval_068"
+      prompt: "Can gait changes be a clue that something in the body has changed?"
+      expected: "Yes. A change in gait can be an important sign."
+
+    - id: "walking_eval_069"
+      prompt: "Can walking be described as a coordinated whole-body task?"
+      expected: "Yes. Walking requires coordinated whole-body function."
+
+    - id: "walking_eval_070"
+      prompt: "Can walking health involve strength, balance, sensation, endurance, coordination, and safety together?"
+      expected: "Yes. All of those are important for walking."
+
+    - id: "walking_eval_071"
+      prompt: "Can walking problems matter even if a person tries to push through them?"
+      expected: "Yes. Significant walking problems can still indicate important health issues."
+
+    - id: "walking_eval_072"
+      prompt: "Can a limp, shuffling, dragging a foot, repeated stumbling, or major unsteadiness all be important gait changes?"
+      expected: "Yes. Those are important gait changes."
+
+    - id: "walking_eval_073"
+      prompt: "Can walking trouble increase risk for injury, isolation, and loss of independence?"
+      expected: "Yes. Walking difficulties can have major life impact."
+
+    - id: "walking_eval_074"
+      prompt: "Can pain, weakness, dizziness, numbness, and shortness of breath all affect walking differently?"
+      expected: "Yes. Different symptoms can affect walking in different ways."
+
+    - id: "walking_eval_075"
+      prompt: "Can walking problems deserve attention even if they seem embarrassing or frustrating to mention?"
+      expected: "Yes. Walking problems can be medically important and should not be ignored."
+
+    - id: "walking_eval_076"
+      prompt: "What is the main idea of walking?"
+      expected: "Walking is a coordinated movement activity that depends on strength, balance, sensation, joints, nerves, and endurance to support mobility and independence."
+
+    - id: "walking_eval_077"
+      prompt: "Can walking involve muscles, bones, joints, nerves, sensation, balance, vision, and cardiovascular support together?"
+      expected: "Yes. Walking depends on all of those systems together."
+
+    - id: "walking_eval_078"
+      prompt: "Can walking-related symptoms matter even if the main complaint is limping or feeling unsteady rather than pain?"
+      expected: "Yes. Limping or unsteadiness can still be important."
+
+    - id: "walking_eval_079"
+      prompt: "Can urgent walking-related concerns include sudden inability to walk, one-sided weakness, facial droop, collapse, chest pain, fainting, severe shortness of breath, or inability to bear weight after trauma?"
+      expected: "Yes. Those situations can require urgent or immediate attention."
+
+    - id: "walking_eval_080"
+      prompt: "What should be done if walking-related symptoms are sudden, severe, worsening, or linked with inability to walk, one-sided weakness, facial droop, collapse, fainting, chest pain, severe shortness of breath, or inability to bear weight after injury?"
+      expected: "Sudden, severe, or concerning walking-related symptoms should be evaluated promptly, and urgent symptoms require immediate attention."

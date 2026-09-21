@@ -1,0 +1,227 @@
+```yaml
+metadata:
+  file_name: "urinary_system_qa.yaml"
+  title: "Jessie Urinary System QA Pairs"
+  domain: "body_systems"
+  topic: "urinary_system"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain the urinary system clearly, warmly, and safely with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain the urinary system as the body system that filters blood, removes liquid waste, makes urine, and helps regulate fluid balance. Jessie should explain core beginner concepts such as the kidneys, ureters, bladder, urethra, urine formation, and urine flow in simple language. The set also supports broader biology and visual explanation use by including structure-function relationships, differences from digestive waste removal, common misconceptions, and practical safety boundaries. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for inability to urinate, severe side or back pain, or blood in the urine."
+  training_goals:
+    - "Explain the urinary system in simple, beginner-friendly language"
+    - "Teach the roles of kidneys, ureters, bladder, and urethra"
+    - "Show where urine is made and how it moves through the body"
+    - "Clarify how urinary waste differs from digestive waste"
+    - "Support broader biology and visual explanation retrieval with structure-function concepts"
+    - "Correct common misconceptions about urine production and storage"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for severe urinary symptoms"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach the urinary system as a filtering, liquid-waste, and fluid-balance system"
+    - "Explain organ roles and urine flow simply"
+    - "Connect structure to function in a clear beginner-friendly way"
+    - "Support both basic biology teaching and visual explanation of urine pathway"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose urinary tract infection, kidney stones, kidney failure, bladder problems, or causes of blood in urine, pain, or urination difficulty."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general urinary concepts, anatomy, urine flow, and warning signs."
+  safety_escalation:
+    - "Urgent guidance is appropriate for inability to urinate, severe side or back pain, blood in urine, or other serious sudden urinary symptoms."
+
+pairs:
+  - id: "urinary_system_qa_001"
+    category: "foundational_definition"
+    question: "What does the urinary system do?"
+    answer: "The urinary system filters blood, removes liquid waste, makes urine, and helps regulate fluid balance."
+
+  - id: "urinary_system_qa_002"
+    category: "foundational_definition"
+    question: "Why is the urinary system important?"
+    answer: "It is important because it helps remove waste from the blood, maintain fluid balance, and support normal body function."
+
+  - id: "urinary_system_qa_003"
+    category: "system_roles"
+    question: "What organs are in the urinary system?"
+    answer: "The main organs are the kidneys, ureters, bladder, and urethra."
+
+  - id: "urinary_system_qa_004"
+    category: "system_roles"
+    question: "Where is urine made?"
+    answer: "Urine is made in the kidneys."
+
+  - id: "urinary_system_qa_005"
+    category: "system_roles"
+    question: "What do the kidneys do?"
+    answer: "The kidneys filter blood, remove liquid waste, produce urine, and help regulate fluid balance."
+
+  - id: "urinary_system_qa_006"
+    category: "system_roles"
+    question: "What do the ureters do?"
+    answer: "The ureters carry urine from the kidneys to the bladder."
+
+  - id: "urinary_system_qa_007"
+    category: "system_roles"
+    question: "What does the bladder do?"
+    answer: "The bladder stores urine until it leaves the body."
+
+  - id: "urinary_system_qa_008"
+    category: "system_roles"
+    question: "What does the urethra do?"
+    answer: "The urethra carries urine out of the body."
+
+  - id: "urinary_system_qa_009"
+    category: "term_clarification"
+    question: "What is urine?"
+    answer: "Urine is a liquid waste product made by the kidneys."
+
+  - id: "urinary_system_qa_010"
+    category: "process"
+    question: "How does urine move through the urinary system?"
+    answer: "Urine is made in the kidneys, travels through the ureters, is stored in the bladder, and leaves through the urethra."
+
+  - id: "urinary_system_qa_011"
+    category: "process"
+    question: "How does the urinary system work in simple terms?"
+    answer: "The kidneys make urine from filtered blood, the ureters carry it, the bladder stores it, and the urethra lets it leave the body."
+
+  - id: "urinary_system_qa_012"
+    category: "term_clarification"
+    question: "How is urinary waste different from digestive waste?"
+    answer: "The urinary system removes liquid waste, while the digestive system removes solid waste."
+
+  - id: "urinary_system_qa_013"
+    category: "term_clarification"
+    question: "Do the kidneys and bladder do the same job?"
+    answer: "No. The kidneys make urine, while the bladder stores it."
+
+  - id: "urinary_system_qa_014"
+    category: "misconception"
+    question: "Does the bladder make urine?"
+    answer: "No. The kidneys make urine, and the bladder stores it."
+
+  - id: "urinary_system_qa_015"
+    category: "misconception"
+    question: "Does urine go straight out from the kidneys?"
+    answer: "No. Urine normally travels from the kidneys through the ureters to the bladder before leaving through the urethra."
+
+  - id: "urinary_system_qa_016"
+    category: "misconception"
+    question: "Is urine the same as digestive waste?"
+    answer: "No. Urine is liquid waste made by the kidneys, while digestive waste is handled by the digestive system."
+
+  - id: "urinary_system_qa_017"
+    category: "misconception"
+    question: "Does the urinary system only store waste and do nothing else?"
+    answer: "No. It also filters blood and helps regulate fluid balance."
+
+  - id: "urinary_system_qa_018"
+    category: "everyday_example"
+    question: "Why is it useful to know the path urine takes through the body?"
+    answer: "It helps explain how the kidneys, ureters, bladder, and urethra work together."
+
+  - id: "urinary_system_qa_019"
+    category: "everyday_example"
+    question: "Why does the bladder matter in daily life?"
+    answer: "It matters because it stores urine until the body is ready to release it."
+
+  - id: "urinary_system_qa_020"
+    category: "everyday_example"
+    question: "Why do the kidneys matter in daily life?"
+    answer: "They matter because they help clean the blood and regulate fluid balance."
+
+  - id: "urinary_system_qa_021"
+    category: "system_connection"
+    question: "How is the urinary system connected to the blood?"
+    answer: "It is connected because the kidneys filter the blood to remove liquid waste."
+
+  - id: "urinary_system_qa_022"
+    category: "system_connection"
+    question: "How is the urinary system connected to body balance?"
+    answer: "It is connected because the kidneys help regulate fluid balance."
+
+  - id: "urinary_system_qa_023"
+    category: "visual_art_support"
+    question: "Why is the urinary system useful to understand in biology illustration?"
+    answer: "It helps show how liquid waste is filtered, transported, stored, and released."
+
+  - id: "urinary_system_qa_024"
+    category: "visual_art_support"
+    question: "What should an artist or educator know about urinary system diagrams?"
+    answer: "They should know the main organs, their basic functions, and the path urine follows through the body."
+
+  - id: "urinary_system_qa_025"
+    category: "visual_art_support"
+    question: "Why does structure-function thinking matter in urinary system diagrams?"
+    answer: "It matters because the organs are easier to understand when their roles in urine flow are shown clearly."
+
+  - id: "urinary_system_qa_026"
+    category: "boundary"
+    question: "Can you diagnose why I have pain when urinating or blood in my urine?"
+    answer: "No. I can't diagnose the cause from limited information, but I can explain urinary concepts and point out warning signs."
+
+  - id: "urinary_system_qa_027"
+    category: "boundary"
+    question: "Can you tell me exactly if I have a kidney stone or infection?"
+    answer: "No. I can't determine the exact cause from a brief description, but I can explain general urinary concepts and when urgent care may be important."
+
+  - id: "urinary_system_qa_028"
+    category: "boundary"
+    question: "Does blood in urine always mean the same thing?"
+    answer: "No. Blood in urine can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "urinary_system_qa_029"
+    category: "boundary"
+    question: "Does trouble urinating always mean a bladder problem?"
+    answer: "No. Trouble urinating can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "urinary_system_qa_030"
+    category: "safety_supportive_urgent"
+    question: "What should someone do if they cannot urinate, have severe side or back pain, or see blood in their urine?"
+    answer: "Inability to urinate, severe side or back pain, or blood in the urine can be serious, so prompt medical care is important and urgent evaluation may be needed."
+
+  - id: "urinary_system_qa_031"
+    category: "safety_supportive_urgent"
+    question: "Should inability to urinate be ignored?"
+    answer: "No. Inability to urinate should be treated as urgent and medically checked right away."
+
+  - id: "urinary_system_qa_032"
+    category: "safety_supportive_urgent"
+    question: "Should severe side or back pain with urinary symptoms be treated seriously?"
+    answer: "Yes. Severe side or back pain with urinary symptoms should be medically checked promptly."
+
+  - id: "urinary_system_qa_033"
+    category: "safety_supportive_urgent"
+    question: "Should blood in the urine be medically checked?"
+    answer: "Yes. Blood in the urine should be medically checked promptly."
+
+  - id: "urinary_system_qa_034"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about the urinary system?"
+    answer: "The main thing to remember is that the urinary system filters blood, makes urine, removes liquid waste, and helps regulate fluid balance."
+
+quality_checks:
+  - "The file contains 34 QA pairs with ids urinary_system_qa_001 through urinary_system_qa_034."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "The urinary system is consistently explained as a filtering, liquid-waste, and fluid-balance system."
+  - "The set includes support for biology teaching, structure-function learning, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

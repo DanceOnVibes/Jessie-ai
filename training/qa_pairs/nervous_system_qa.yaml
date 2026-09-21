@@ -1,0 +1,267 @@
+```yaml
+metadata:
+  file_name: "nervous_system_qa.yaml"
+  title: "Jessie Nervous System QA Pairs"
+  domain: "body_systems"
+  topic: "nervous_system"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain the nervous system clearly, warmly, and safely with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain the nervous system as the body system that senses information, processes it, and helps the body respond. Jessie should explain core beginner concepts such as the brain, spinal cord, nerves, reflexes, stimuli, sensation, movement control, and automatic functions in simple language. The set also supports broader biology and visual explanation use by including structure-function relationships, system connections, misconceptions, and practical safety boundaries. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for sudden facial drooping, confusion, or trouble moving one side of the body."
+  training_goals:
+    - "Explain the nervous system in simple, beginner-friendly language"
+    - "Teach the roles of the brain, spinal cord, and nerves"
+    - "Show how the nervous system helps with sensation, movement, reflexes, and automatic body functions"
+    - "Clarify the meanings of stimulus and reflex"
+    - "Support broader biology and visual explanation retrieval with structure-function and signal concepts"
+    - "Correct common misconceptions about the nervous system"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for concerning neurological symptoms"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach the nervous system as a sensing, processing, and response system"
+    - "Explain major parts and signal flow simply"
+    - "Connect structure to function in a clear beginner-friendly way"
+    - "Support both basic biology teaching and visual explanation of body signaling and control"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose stroke, seizure, nerve injury, spinal cord injury, paralysis, or causes of weakness, confusion, or numbness."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general nervous system concepts, signal roles, and warning signs."
+  safety_escalation:
+    - "Urgent guidance is appropriate for sudden facial drooping, confusion, one-sided weakness, sudden numbness, or other severe sudden neurological symptoms."
+
+pairs:
+  - id: "nervous_system_qa_001"
+    category: "foundational_definition"
+    question: "What does the nervous system do?"
+    answer: "The nervous system helps the body sense information, process it, and respond."
+
+  - id: "nervous_system_qa_002"
+    category: "foundational_definition"
+    question: "Why is the nervous system important?"
+    answer: "It is important because it helps the body sense the environment, control actions, coordinate body parts, and respond to changes."
+
+  - id: "nervous_system_qa_003"
+    category: "foundational_definition"
+    question: "What are the main parts of the nervous system?"
+    answer: "The main parts are the brain, spinal cord, and nerves."
+
+  - id: "nervous_system_qa_004"
+    category: "foundational_definition"
+    question: "What is a stimulus?"
+    answer: "A stimulus is a change or signal that can be detected by the body."
+
+  - id: "nervous_system_qa_005"
+    category: "foundational_definition"
+    question: "What is a reflex?"
+    answer: "A reflex is a fast automatic response to a stimulus."
+
+  - id: "nervous_system_qa_006"
+    category: "system_roles"
+    question: "What is the brain?"
+    answer: "The brain is the main control center that processes information and helps direct body functions."
+
+  - id: "nervous_system_qa_007"
+    category: "system_roles"
+    question: "What does the spinal cord do?"
+    answer: "The spinal cord carries signals between the brain and the body and also helps with reflexes."
+
+  - id: "nervous_system_qa_008"
+    category: "system_roles"
+    question: "What are nerves?"
+    answer: "Nerves are structures that carry signals through the body."
+
+  - id: "nervous_system_qa_009"
+    category: "system_roles"
+    question: "What does the nervous system do automatically?"
+    answer: "It helps regulate automatic functions such as reflexes, breathing patterns, heart rate control, and other body responses."
+
+  - id: "nervous_system_qa_010"
+    category: "process"
+    question: "How does the nervous system work in simple terms?"
+    answer: "It detects information, processes it, and sends signals that help the body respond."
+
+  - id: "nervous_system_qa_011"
+    category: "process"
+    question: "How does the nervous system help muscles move?"
+    answer: "The nervous system sends signals that tell muscles when to contract."
+
+  - id: "nervous_system_qa_012"
+    category: "process"
+    question: "How does the nervous system work with the senses?"
+    answer: "Sense organs and sensory receptors detect information, and the nervous system processes it and helps the body respond."
+
+  - id: "nervous_system_qa_013"
+    category: "process"
+    question: "Why are nerves important?"
+    answer: "Nerves are important because they carry signals between the brain, spinal cord, and body."
+
+  - id: "nervous_system_qa_014"
+    category: "process"
+    question: "Why are reflexes useful?"
+    answer: "Reflexes are useful because they allow fast automatic responses."
+
+  - id: "nervous_system_qa_015"
+    category: "process"
+    question: "Why does the brain matter in the nervous system?"
+    answer: "The brain matters because it helps process information and direct responses."
+
+  - id: "nervous_system_qa_016"
+    category: "term_clarification"
+    question: "What is the difference between the brain and nerves?"
+    answer: "The brain processes information, while nerves carry signals between the brain, spinal cord, and body."
+
+  - id: "nervous_system_qa_017"
+    category: "term_clarification"
+    question: "What is the difference between the brain and spinal cord?"
+    answer: "The brain is the main control center, while the spinal cord carries signals and supports reflexes."
+
+  - id: "nervous_system_qa_018"
+    category: "term_clarification"
+    question: "What is the difference between a stimulus and a response?"
+    answer: "A stimulus is something the body detects, while a response is how the body reacts."
+
+  - id: "nervous_system_qa_019"
+    category: "term_clarification"
+    question: "What is the difference between automatic actions and voluntary actions?"
+    answer: "Automatic actions happen without conscious effort, while voluntary actions are intentionally controlled."
+
+  - id: "nervous_system_qa_020"
+    category: "misconception"
+    question: "Does the nervous system only help us think?"
+    answer: "No. It also helps with movement, sensation, reflexes, and automatic body functions."
+
+  - id: "nervous_system_qa_021"
+    category: "misconception"
+    question: "Is the spinal cord part of the brain?"
+    answer: "No. The spinal cord is connected to the brain, but it is a separate structure."
+
+  - id: "nervous_system_qa_022"
+    category: "misconception"
+    question: "Do nerves think like the brain does?"
+    answer: "No. Nerves mainly carry signals, while the brain does most of the main processing."
+
+  - id: "nervous_system_qa_023"
+    category: "misconception"
+    question: "Are reflexes always conscious choices?"
+    answer: "No. Reflexes are fast automatic responses."
+
+  - id: "nervous_system_qa_024"
+    category: "misconception"
+    question: "Does the nervous system work alone without other body systems?"
+    answer: "No. It works closely with muscles, sense organs, glands, and other body systems."
+
+  - id: "nervous_system_qa_025"
+    category: "everyday_example"
+    question: "Why do you pull your hand away from something very hot?"
+    answer: "You pull it away because the nervous system helps create a fast protective response."
+
+  - id: "nervous_system_qa_026"
+    category: "everyday_example"
+    question: "Why can you feel a touch on your skin?"
+    answer: "You can feel it because sensory receptors detect the touch and the nervous system processes the signal."
+
+  - id: "nervous_system_qa_027"
+    category: "everyday_example"
+    question: "Why can you move your arm when you decide to?"
+    answer: "You can move it because the nervous system sends signals to muscles."
+
+  - id: "nervous_system_qa_028"
+    category: "everyday_example"
+    question: "Why can breathing continue without thinking about every breath?"
+    answer: "Breathing can continue because the nervous system helps regulate automatic body functions."
+
+  - id: "nervous_system_qa_029"
+    category: "everyday_example"
+    question: "Why do reflexes help protect the body?"
+    answer: "They help protect the body by allowing very fast responses to certain stimuli."
+
+  - id: "nervous_system_qa_030"
+    category: "visual_art_support"
+    question: "Why is the nervous system useful to understand in biology illustration?"
+    answer: "It helps show how the body detects information, sends signals, and coordinates responses."
+
+  - id: "nervous_system_qa_031"
+    category: "visual_art_support"
+    question: "What should an artist know about nervous system diagrams?"
+    answer: "An artist should know the main parts such as the brain, spinal cord, and nerves, and the basic idea that they carry and process signals."
+
+  - id: "nervous_system_qa_032"
+    category: "visual_art_support"
+    question: "Why does structure-function thinking matter in nervous system visuals?"
+    answer: "It matters because the arrangement of the brain, spinal cord, and nerves helps explain body control and communication."
+
+  - id: "nervous_system_qa_033"
+    category: "visual_art_support"
+    question: "Why are reflex pathways useful in teaching diagrams?"
+    answer: "They are useful because they show how the body can respond quickly to certain stimuli."
+
+  - id: "nervous_system_qa_034"
+    category: "boundary"
+    question: "Can you diagnose why I feel numb or weak?"
+    answer: "No. I can't diagnose the cause from limited information, but I can explain nervous system concepts and point out warning signs."
+
+  - id: "nervous_system_qa_035"
+    category: "boundary"
+    question: "Can you tell me exactly what part of my nervous system is injured?"
+    answer: "No. I can't determine the exact problem from a brief description, but I can explain general nervous system concepts and when medical care may be important."
+
+  - id: "nervous_system_qa_036"
+    category: "boundary"
+    question: "Does confusion always mean a brain emergency?"
+    answer: "No. Confusion can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "nervous_system_qa_037"
+    category: "boundary"
+    question: "Does numbness always mean nerve damage?"
+    answer: "No. Numbness can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "nervous_system_qa_038"
+    category: "safety_supportive_urgent"
+    question: "What should someone do if they suddenly have facial drooping, confusion, or trouble moving one side of the body?"
+    answer: "Sudden facial drooping, confusion, or one-sided weakness can be emergency warning signs, so immediate emergency medical help is important."
+
+  - id: "nervous_system_qa_039"
+    category: "safety_supportive_urgent"
+    question: "Should sudden facial drooping be treated as an emergency?"
+    answer: "Yes. Sudden facial drooping should be treated as an emergency."
+
+  - id: "nervous_system_qa_040"
+    category: "safety_supportive_urgent"
+    question: "Should sudden one-sided weakness be ignored?"
+    answer: "No. Sudden one-sided weakness should be treated as an emergency."
+
+  - id: "nervous_system_qa_041"
+    category: "safety_supportive_urgent"
+    question: "Should sudden confusion with weakness be taken seriously?"
+    answer: "Yes. Sudden confusion with weakness can be serious and needs immediate medical attention."
+
+  - id: "nervous_system_qa_042"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about the nervous system?"
+    answer: "The main thing to remember is that the nervous system helps the body sense information, process it, and respond."
+
+quality_checks:
+  - "The file contains 42 QA pairs with ids nervous_system_qa_001 through nervous_system_qa_042."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "The nervous system is consistently explained as a sensing, processing, and response system."
+  - "The set includes support for biology teaching, structure-function learning, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

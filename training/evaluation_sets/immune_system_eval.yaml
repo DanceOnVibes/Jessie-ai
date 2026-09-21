@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Immune System Evaluation Set"
+  domain: "human_body"
+  topic: "immune_system"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of the immune system, body defense, infection response, immune recognition, healing support, system interactions, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "immune_eval_001"
+      prompt: "What is the immune system?"
+      expected: "The immune system is the body system that helps defend the body against harmful threats such as infections."
+
+    - id: "immune_eval_002"
+      prompt: "What is the main job of the immune system?"
+      expected: "Its main job is to recognize and respond to harmful invaders and support protection and recovery."
+
+    - id: "immune_eval_003"
+      prompt: "Why is the immune system important?"
+      expected: "It is important because it helps protect the body from infection and other harmful threats."
+
+    - id: "immune_eval_004"
+      prompt: "Does the immune system help defend against germs?"
+      expected: "Yes. The immune system helps defend the body against germs and infections."
+
+    - id: "immune_eval_005"
+      prompt: "Does the immune system only respond when a person feels sick?"
+      expected: "No. The immune system works continuously, including before symptoms are noticed."
+
+    - id: "immune_eval_006"
+      prompt: "Can the immune system help the body recognize harmful invaders?"
+      expected: "Yes. The immune system helps recognize and respond to harmful invaders."
+
+    - id: "immune_eval_007"
+      prompt: "Can the immune system help with recovery from infection?"
+      expected: "Yes. It helps the body respond to infection and support recovery."
+
+    - id: "immune_eval_008"
+      prompt: "Is the immune system only one organ?"
+      expected: "No. The immune system involves many cells, tissues, and organs working together."
+
+    - id: "immune_eval_009"
+      prompt: "Can white blood cells be part of the immune system?"
+      expected: "Yes. White blood cells are important parts of immune defense."
+
+    - id: "immune_eval_010"
+      prompt: "Can the lymphatic system support the immune system?"
+      expected: "Yes. The lymphatic system is closely involved in immune function."
+
+    - id: "immune_eval_011"
+      prompt: "Can the skin help the immune system?"
+      expected: "Yes. The skin acts as a protective barrier against harmful threats."
+
+    - id: "immune_eval_012"
+      prompt: "Can mucus and other barriers help protect the body?"
+      expected: "Yes. Protective barriers help prevent harmful substances and organisms from entering."
+
+    - id: "immune_eval_013"
+      prompt: "Can the immune system interact with the circulatory system?"
+      expected: "Yes. Immune cells and signals travel through the blood."
+
+    - id: "immune_eval_014"
+      prompt: "Can the immune system interact with the lymphatic system?"
+      expected: "Yes. The lymphatic system helps move immune cells and support immune responses."
+
+    - id: "immune_eval_015"
+      prompt: "Can the immune system interact with the integumentary system?"
+      expected: "Yes. The skin helps protect the body as part of overall defense."
+
+    - id: "immune_eval_016"
+      prompt: "Can the immune system interact with the respiratory system?"
+      expected: "Yes. Immune defenses help protect the airways and lungs from infection."
+
+    - id: "immune_eval_017"
+      prompt: "Can the immune system interact with the digestive system?"
+      expected: "Yes. The digestive tract has important immune protective roles."
+
+    - id: "immune_eval_018"
+      prompt: "What is a simple example of the immune system at work?"
+      expected: "Fighting off a cold or helping recover from an infection is a simple example of immune system activity."
+
+    - id: "immune_eval_019"
+      prompt: "Can the immune system help with healing?"
+      expected: "Yes. Immune responses help protect injured tissue and support healing."
+
+    - id: "immune_eval_020"
+      prompt: "Can inflammation be part of immune activity?"
+      expected: "Yes. Inflammation can be part of the body's immune response."
+
+    - id: "immune_eval_021"
+      prompt: "Is inflammation always harmful?"
+      expected: "No. Inflammation can be a protective response, though excessive or ongoing inflammation can be a problem."
+
+    - id: "immune_eval_022"
+      prompt: "Can fever be related to immune response?"
+      expected: "Yes. Fever can be part of the body's response to infection or inflammation."
+
+    - id: "immune_eval_023"
+      prompt: "Can swelling, redness, warmth, and pain occur with immune-related inflammation?"
+      expected: "Yes. Those can be common signs of inflammation."
+
+    - id: "immune_eval_024"
+      prompt: "Can the immune system remember past exposure in some cases?"
+      expected: "Yes. The immune system can develop memory responses to some threats."
+
+    - id: "immune_eval_025"
+      prompt: "Can vaccines work with the immune system?"
+      expected: "Yes. Vaccines help train the immune system to respond to specific threats."
+
+    - id: "immune_eval_026"
+      prompt: "Does the immune system only fight bacteria?"
+      expected: "No. It can respond to many kinds of harmful threats, including viruses, bacteria, fungi, and other challenges."
+
+    - id: "immune_eval_027"
+      prompt: "Can the immune system help notice abnormal cells?"
+      expected: "Yes. The immune system can help recognize some abnormal cells."
+
+    - id: "immune_eval_028"
+      prompt: "Can poor immune function increase infection risk?"
+      expected: "Yes. Reduced immune function can make infection more likely."
+
+    - id: "immune_eval_029"
+      prompt: "Can the immune system become overactive in some situations?"
+      expected: "Yes. Immune activity can sometimes be excessive or misdirected."
+
+    - id: "immune_eval_030"
+      prompt: "Can allergies involve the immune system?"
+      expected: "Yes. Allergies involve immune responses to substances that are not usually harmful."
+
+    - id: "immune_eval_031"
+      prompt: "Can autoimmune problems involve the immune system reacting inappropriately?"
+      expected: "Yes. Autoimmune problems involve the immune system reacting against the body's own tissues."
+
+    - id: "immune_eval_032"
+      prompt: "Does the immune system work alone?"
+      expected: "No. It works with many other systems, including the circulatory, lymphatic, integumentary, and nervous systems."
+
+    - id: "immune_eval_033"
+      prompt: "Can nutrition affect immune function?"
+      expected: "Yes. Good nutrition helps support normal immune function."
+
+    - id: "immune_eval_034"
+      prompt: "Can sleep affect immune function?"
+      expected: "Yes. Sleep helps support immune health and recovery."
+
+    - id: "immune_eval_035"
+      prompt: "Can stress affect immune function?"
+      expected: "Yes. Stress can influence immune responses."
+
+    - id: "immune_eval_036"
+      prompt: "Can hydration and general health affect immune support?"
+      expected: "Yes. General health habits can influence immune function and recovery."
+
+    - id: "immune_eval_037"
+      prompt: "Can immune responses help contain infections?"
+      expected: "Yes. Immune responses help limit and fight infections."
+
+    - id: "immune_eval_038"
+      prompt: "Can immune cells travel to areas of injury or infection?"
+      expected: "Yes. Immune cells can move to where they are needed."
+
+    - id: "immune_eval_039"
+      prompt: "Can lymph nodes be involved in immune activity?"
+      expected: "Yes. Lymph nodes are important parts of the immune system."
+
+    - id: "immune_eval_040"
+      prompt: "Can swollen lymph nodes sometimes happen during infection?"
+      expected: "Yes. Lymph nodes can become swollen during immune responses."
+
+    - id: "immune_eval_041"
+      prompt: "Can the spleen be involved in immune function?"
+      expected: "Yes. The spleen supports immune and blood-related functions."
+
+    - id: "immune_eval_042"
+      prompt: "Can the bone marrow be involved in immune cell production?"
+      expected: "Yes. Bone marrow helps produce blood cells, including immune cells."
+
+    - id: "immune_eval_043"
+      prompt: "Can the immune system support protection even before a person notices symptoms?"
+      expected: "Yes. Immune defenses often begin working before symptoms become obvious."
+
+    - id: "immune_eval_044"
+      prompt: "Can coughing or sneezing sometimes be part of protective responses?"
+      expected: "Yes. Some body responses help protect against irritants or infection."
+
+    - id: "immune_eval_045"
+      prompt: "Can the immune system help clean up damaged tissue during healing?"
+      expected: "Yes. Immune activity can help remove damaged material and support repair."
+
+    - id: "immune_eval_046"
+      prompt: "Can repeated infections sometimes be important?"
+      expected: "Yes. Repeated infections can suggest an issue that should be evaluated."
+
+    - id: "immune_eval_047"
+      prompt: "Can a fever with infection-like symptoms reflect immune activity?"
+      expected: "Yes. Fever may reflect the body's response to infection or inflammation."
+
+    - id: "immune_eval_048"
+      prompt: "Can immune problems affect daily life?"
+      expected: "Yes. Immune problems can affect health, recovery, energy, and daily functioning."
+
+    - id: "immune_eval_049"
+      prompt: "Can the immune system help protect wounds from infection?"
+      expected: "Yes. Immune responses help defend injured tissue."
+
+    - id: "immune_eval_050"
+      prompt: "Can redness around a wound sometimes signal inflammation or infection?"
+      expected: "Yes. Redness can be a sign of inflammation and sometimes infection."
+
+    - id: "immune_eval_051"
+      prompt: "Can pus be related to infection or immune response?"
+      expected: "Yes. Pus can be associated with infection and immune activity."
+
+    - id: "immune_eval_052"
+      prompt: "Can the immune system affect how quickly a person recovers from illness?"
+      expected: "Yes. Immune function influences recovery and resistance to infection."
+
+    - id: "immune_eval_053"
+      prompt: "Can immune responses involve signaling chemicals as well as cells?"
+      expected: "Yes. Immune responses involve cells and chemical signaling."
+
+    - id: "immune_eval_054"
+      prompt: "Can the body defend itself without any immune system?"
+      expected: "No. The immune system is essential for defense and protection."
+
+    - id: "immune_eval_055"
+      prompt: "Can protective barriers be considered part of body defense even before infection starts?"
+      expected: "Yes. Protective barriers help prevent infection before it begins."
+
+    - id: "immune_eval_056"
+      prompt: "Can the immune system support health every day, not just during sickness?"
+      expected: "Yes. The immune system helps protect the body continuously."
+
+    - id: "immune_eval_057"
+      prompt: "Can infection and inflammation be related but not identical?"
+      expected: "Yes. Infection can trigger inflammation, but inflammation can also happen for other reasons."
+
+    - id: "immune_eval_058"
+      prompt: "Can severe allergic reactions be urgent?"
+      expected: "Yes. Severe allergic reactions can be urgent and require immediate attention."
+
+    - id: "immune_eval_059"
+      prompt: "Should trouble breathing during an allergic reaction be treated as urgent?"
+      expected: "Yes. Trouble breathing during an allergic reaction is urgent."
+
+    - id: "immune_eval_060"
+      prompt: "Should swelling of the face, lips, or throat during a reaction be considered serious?"
+      expected: "Yes. Swelling of the face, lips, or throat can be serious and requires prompt attention."
+
+    - id: "immune_eval_061"
+      prompt: "Should high fever with severe illness symptoms be taken seriously?"
+      expected: "Yes. High fever with severe symptoms should be evaluated promptly."
+
+    - id: "immune_eval_062"
+      prompt: "Should spreading redness, worsening wound pain, or pus be taken seriously?"
+      expected: "Yes. Those signs can suggest infection and should be evaluated."
+
+    - id: "immune_eval_063"
+      prompt: "Should repeated serious infections be ignored?"
+      expected: "No. Repeated serious infections should be taken seriously."
+
+    - id: "immune_eval_064"
+      prompt: "Should confusion, dehydration, or breathing difficulty with infection-like symptoms be considered urgent?"
+      expected: "Yes. Those symptoms can indicate a serious condition and require prompt attention."
+
+    - id: "immune_eval_065"
+      prompt: "Can the immune system and endocrine system interact?"
+      expected: "Yes. Hormones can influence immune function and immune responses."
+
+    - id: "immune_eval_066"
+      prompt: "Can the immune system and nervous system interact?"
+      expected: "Yes. The nervous system and immune system influence each other."
+
+    - id: "immune_eval_067"
+      prompt: "Can age affect immune function?"
+      expected: "Yes. Immune function can vary with age."
+
+    - id: "immune_eval_068"
+      prompt: "Can immune health matter for recovery after surgery or injury?"
+      expected: "Yes. Immune function is important for recovery and healing."
+
+    - id: "immune_eval_069"
+      prompt: "Can the immune system help distinguish self from harmful non-self in many situations?"
+      expected: "Yes. A major role of the immune system is recognizing what belongs in the body and what may be harmful."
+
+    - id: "immune_eval_070"
+      prompt: "Can immune responses sometimes cause symptoms while protecting the body?"
+      expected: "Yes. Some symptoms can result from the body's protective immune response."
+
+    - id: "immune_eval_071"
+      prompt: "Can immune function affect fatigue during illness?"
+      expected: "Yes. Immune activity and illness can contribute to fatigue."
+
+    - id: "immune_eval_072"
+      prompt: "Can ongoing inflammation affect body comfort and function?"
+      expected: "Yes. Ongoing inflammation can affect comfort and normal function."
+
+    - id: "immune_eval_073"
+      prompt: "Can the immune system be important in everyday exposure to germs?"
+      expected: "Yes. The immune system helps protect the body during daily exposure to germs."
+
+    - id: "immune_eval_074"
+      prompt: "Can handwashing and hygiene support the immune system indirectly?"
+      expected: "Yes. Hygiene helps reduce exposure to harmful organisms and supports overall protection."
+
+    - id: "immune_eval_075"
+      prompt: "Can the immune system work with healing, barriers, and internal defense all at once?"
+      expected: "Yes. Immune protection involves barriers, cellular defense, and support for recovery."
+
+    - id: "immune_eval_076"
+      prompt: "What is the main idea of the immune system?"
+      expected: "The immune system helps protect the body by recognizing threats, responding to infection, and supporting recovery."
+
+    - id: "immune_eval_077"
+      prompt: "Can immune function support both defense and repair?"
+      expected: "Yes. The immune system helps defend the body and support healing."
+
+    - id: "immune_eval_078"
+      prompt: "Can immune problems be important even if they appear gradually?"
+      expected: "Yes. Immune-related issues can still matter even when they develop over time."
+
+    - id: "immune_eval_079"
+      prompt: "Can the immune system involve organs, cells, tissues, and signals rather than one single part?"
+      expected: "Yes. The immune system is a coordinated network of many components."
+
+    - id: "immune_eval_080"
+      prompt: "What should be done if immune-related symptoms are sudden, severe, worsening, or linked with trouble breathing, facial or throat swelling, high fever, spreading infection signs, or major illness?"
+      expected: "Sudden, severe, or concerning immune-related symptoms should be evaluated promptly, and urgent symptoms require immediate attention."

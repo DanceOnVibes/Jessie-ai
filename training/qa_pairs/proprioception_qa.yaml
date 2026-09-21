@@ -1,0 +1,242 @@
+```yaml
+metadata:
+  file_name: "proprioception_qa.yaml"
+  title: "Jessie Proprioception QA Pairs"
+  domain: "body_awareness"
+  topic: "proprioception"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain proprioception, body position sense, movement awareness, coordination, and simple safety boundaries with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain proprioception as the body's sense of position and movement. Jessie should explain that signals from muscles, joints, and related body structures help the brain understand where body parts are and how they are moving, even without vision. The set also supports broader biology teaching by including coordination, posture, walking, balance support, movement accuracy, and differences between proprioception and touch in simple language. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for sudden trouble sensing limb position, sudden major coordination changes, or other serious body-awareness changes."
+  training_goals:
+    - "Explain proprioception in simple, beginner-friendly language"
+    - "Teach that proprioception is the body's sense of position and movement"
+    - "Show that muscles, joints, and the brain help support body position awareness"
+    - "Clarify differences between proprioception and touch"
+    - "Support broader biology retrieval with coordination, posture, walking, and balance concepts"
+    - "Use practical examples such as hand position, walking, and eyes-closed movement"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for concerning sudden body-awareness changes"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach proprioception as body position and movement awareness"
+    - "Explain the roles of muscles, joints, and the brain simply"
+    - "Connect proprioception to coordination, posture, walking, and balance"
+    - "Support both basic biology teaching and simple movement-awareness explanation"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose nerve injury, brain disorders, joint disorders, vestibular disorders, or causes of poor coordination or balance changes."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general proprioception concepts, movement awareness, and warning signs."
+  safety_escalation:
+    - "Urgent guidance is appropriate for sudden trouble sensing limb position, sudden major coordination changes, sudden balance loss, or other severe sudden neurological or body-awareness symptoms."
+
+pairs:
+  - id: "proprioception_qa_001"
+    category: "foundational_definition"
+    question: "What is proprioception?"
+    answer: "Proprioception is the body's sense of position and movement."
+
+  - id: "proprioception_qa_002"
+    category: "foundational_definition"
+    question: "Why is proprioception useful?"
+    answer: "It helps with coordination, posture, movement, and balance."
+
+  - id: "proprioception_qa_003"
+    category: "foundational_definition"
+    question: "Does proprioception matter in everyday life?"
+    answer: "Yes. It is important for movement, coordination, and safe daily activity."
+
+  - id: "proprioception_qa_004"
+    category: "foundational_definition"
+    question: "What does proprioception help the body do?"
+    answer: "It helps the body track position and movement without needing to rely only on vision."
+
+  - id: "proprioception_qa_005"
+    category: "process"
+    question: "How can a person know where a hand is without looking?"
+    answer: "Signals from the body help the brain track position without needing vision."
+
+  - id: "proprioception_qa_006"
+    category: "process"
+    question: "Do muscles and joints help provide proprioceptive information?"
+    answer: "Yes. Signals from muscles and joints help the brain understand body position."
+
+  - id: "proprioception_qa_007"
+    category: "process"
+    question: "Why might someone struggle to move accurately with eyes closed?"
+    answer: "Without clear proprioceptive information, the brain has less guidance about body position."
+
+  - id: "proprioception_qa_008"
+    category: "process"
+    question: "Does proprioception help with balance?"
+    answer: "Yes. It works with other systems to support balance."
+
+  - id: "proprioception_qa_009"
+    category: "process"
+    question: "How does proprioception work in simple terms?"
+    answer: "The body sends position and movement signals, and the brain uses them to guide action."
+
+  - id: "proprioception_qa_010"
+    category: "process"
+    question: "Why is the brain important for proprioception?"
+    answer: "The brain is important because it helps interpret body-position signals and guide movement."
+
+  - id: "proprioception_qa_011"
+    category: "term_clarification"
+    question: "Is proprioception the same as touch?"
+    answer: "No. Proprioception is about body position and movement, while touch is about contact and pressure."
+
+  - id: "proprioception_qa_012"
+    category: "term_clarification"
+    question: "What is the difference between proprioception and balance?"
+    answer: "Proprioception is body position sense, while balance is the ability to stay steady using several systems together."
+
+  - id: "proprioception_qa_013"
+    category: "term_clarification"
+    question: "What is the difference between proprioception and vision?"
+    answer: "Proprioception helps the body sense position internally, while vision provides visual information from the outside world."
+
+  - id: "proprioception_qa_014"
+    category: "term_clarification"
+    question: "What is the difference between movement and movement awareness?"
+    answer: "Movement is the action itself, while movement awareness is the body's sense of how the movement is happening."
+
+  - id: "proprioception_qa_015"
+    category: "misconception"
+    question: "Does body position awareness come only from the eyes?"
+    answer: "No. The body also uses proprioceptive signals from muscles and joints."
+
+  - id: "proprioception_qa_016"
+    category: "misconception"
+    question: "Is proprioception only important for athletes?"
+    answer: "No. It is important for everyday actions like standing, reaching, walking, and turning."
+
+  - id: "proprioception_qa_017"
+    category: "misconception"
+    question: "If a person can move, does that always mean proprioception is normal?"
+    answer: "No. A person can still move even if body-position awareness is reduced."
+
+  - id: "proprioception_qa_018"
+    category: "misconception"
+    question: "Does proprioception work by itself without brain help?"
+    answer: "No. The brain helps interpret position and movement signals."
+
+  - id: "proprioception_qa_019"
+    category: "everyday_example"
+    question: "Why can a person touch their nose with eyes closed?"
+    answer: "They can do that because proprioception helps track body position without needing to see it."
+
+  - id: "proprioception_qa_020"
+    category: "everyday_example"
+    question: "Why can reduced proprioception affect walking?"
+    answer: "Reduced body position awareness can make walking less steady or less accurate."
+
+  - id: "proprioception_qa_021"
+    category: "everyday_example"
+    question: "Why does posture depend on proprioception?"
+    answer: "Posture depends on proprioception because the body needs position information to stay aligned."
+
+  - id: "proprioception_qa_022"
+    category: "everyday_example"
+    question: "Why can reaching in the dark still be possible?"
+    answer: "Reaching in the dark can still be possible because the body can use proprioceptive signals to guide movement."
+
+  - id: "proprioception_qa_023"
+    category: "everyday_example"
+    question: "Why does accurate movement depend on body awareness?"
+    answer: "Accurate movement depends on body awareness because the brain needs position information to guide the action."
+
+  - id: "proprioception_qa_024"
+    category: "system_connection"
+    question: "How is proprioception connected to the nervous system?"
+    answer: "It is connected because the nervous system carries body-position signals and the brain interprets them."
+
+  - id: "proprioception_qa_025"
+    category: "system_connection"
+    question: "How is proprioception connected to muscles and joints?"
+    answer: "It is connected because muscles and joints provide information that helps the brain track body position."
+
+  - id: "proprioception_qa_026"
+    category: "system_connection"
+    question: "How is proprioception connected to balance?"
+    answer: "It is connected because body-position awareness helps the body stay steady."
+
+  - id: "proprioception_qa_027"
+    category: "visual_art_support"
+    question: "Why is proprioception useful to understand in biology teaching?"
+    answer: "It helps explain how the body knows where its parts are during movement."
+
+  - id: "proprioception_qa_028"
+    category: "visual_art_support"
+    question: "What should an educator or artist know about proprioception diagrams?"
+    answer: "They should know that body-position signals come from the body and are interpreted by the brain."
+
+  - id: "proprioception_qa_029"
+    category: "visual_art_support"
+    question: "Why do movement-guidance visuals help explain proprioception?"
+    answer: "They help because proprioception is about position signals guiding movement."
+
+  - id: "proprioception_qa_030"
+    category: "boundary"
+    question: "Can you diagnose why I feel clumsy or off balance?"
+    answer: "No. I can't diagnose the cause from limited information, but I can explain proprioception concepts and point out warning signs."
+
+  - id: "proprioception_qa_031"
+    category: "boundary"
+    question: "Can you tell me exactly why I cannot sense my limb well?"
+    answer: "No. I can't determine the exact cause from a brief description, but I can explain general body-awareness concepts and when urgent care may be important."
+
+  - id: "proprioception_qa_032"
+    category: "boundary"
+    question: "Does poor coordination always mean a muscle problem?"
+    answer: "No. Poor coordination can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "proprioception_qa_033"
+    category: "boundary"
+    question: "Does balance trouble always mean the same thing?"
+    answer: "No. Balance trouble can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "proprioception_qa_034"
+    category: "safety_supportive_urgent"
+    question: "Should sudden trouble sensing limb position be ignored?"
+    answer: "No. Sudden changes in body awareness should be taken seriously and checked right away."
+
+  - id: "proprioception_qa_035"
+    category: "safety_supportive_urgent"
+    question: "Should sudden major coordination changes be treated seriously?"
+    answer: "Yes. Sudden major coordination changes should be medically checked promptly."
+
+  - id: "proprioception_qa_036"
+    category: "safety_supportive_urgent"
+    question: "Should sudden balance loss be treated urgently?"
+    answer: "Yes. Sudden balance loss can be serious and should be medically checked right away."
+
+  - id: "proprioception_qa_037"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about proprioception?"
+    answer: "The main thing to remember is that proprioception helps the body sense position and movement so actions can be guided more accurately."
+
+quality_checks:
+  - "The file contains 37 QA pairs with ids proprioception_qa_001 through proprioception_qa_037."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "Proprioception is consistently explained as the body's sense of position and movement."
+  - "The set includes support for biology teaching, coordination concepts, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

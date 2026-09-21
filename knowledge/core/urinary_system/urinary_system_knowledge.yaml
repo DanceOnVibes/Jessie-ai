@@ -1,0 +1,320 @@
+```yaml
+knowledge_pack:
+  file_name: "urinary_system_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about the urinary system, including blood filtering, urine formation, urine flow, fluid balance, bladder function, internal regulation, and safety-aware educational framing."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "urinary_system"
+    category: "kidneys, urine formation, liquid waste removal, and fluid balance"
+    domain: "human body and health"
+
+  overview:
+    summary: "The urinary system helps remove liquid waste from the blood, make urine, and regulate fluid balance in the body. Its main organs are the kidneys, ureters, bladder, and urethra. The kidneys filter the blood and produce urine, the ureters carry urine to the bladder, the bladder stores urine, and the urethra carries urine out of the body. The urinary system also helps regulate electrolytes, acid-base balance, and blood pressure, and it works closely with the circulatory and nervous systems."
+    why_it_matters:
+      - "The body needs to remove certain wastes from the blood."
+      - "Fluid and electrolyte balance are important for normal body function."
+      - "The urinary system helps regulate water, dissolved substances, and internal balance."
+      - "The bladder allows urine storage and controlled release."
+      - "Urinary symptoms can sometimes signal urgent medical problems."
+
+  core_definitions:
+    - term: "urinary_system"
+      definition: "The body system that filters blood, removes liquid waste, produces urine, stores urine, and helps regulate internal fluid conditions."
+    - term: "urine"
+      definition: "A liquid waste product made by the kidneys."
+    - term: "kidney"
+      definition: "An organ that filters blood, helps remove wastes, and produces urine."
+    - term: "ureter"
+      definition: "A tube that carries urine from a kidney to the bladder."
+    - term: "bladder"
+      definition: "A hollow organ that stores urine."
+    - term: "urethra"
+      definition: "A tube that carries urine out of the body."
+    - term: "fluid_balance"
+      definition: "The regulation of body water and related internal balance."
+    - term: "electrolytes"
+      definition: "Dissolved substances such as sodium and potassium that help the body function normally."
+    - term: "acid_base_balance"
+      definition: "The regulation of chemical balance that helps keep body fluids within a healthy range."
+
+  foundational_principle:
+    summary: "The urinary system filters blood, removes liquid waste, helps regulate water and dissolved substances, stores urine temporarily, and releases it from the body."
+    key_points:
+      - "The kidneys make urine."
+      - "The ureters carry urine to the bladder."
+      - "The bladder stores urine."
+      - "The urethra carries urine out of the body."
+      - "The urinary system helps maintain internal balance, not just remove waste."
+
+  major_functions:
+    blood_filtering:
+      summary: "The kidneys filter the blood."
+      beginner_points:
+        - "They remove certain wastes from the blood."
+        - "They help manage extra water."
+    urine_production:
+      summary: "The urinary system produces urine as a liquid waste product."
+      beginner_points:
+        - "Urine forms in the kidneys."
+        - "Urine contains water and dissolved waste materials."
+    fluid_balance:
+      summary: "The urinary system helps regulate the amount of water in the body."
+      beginner_points:
+        - "This helps support stable internal conditions."
+        - "Balanced body fluids are important for normal function."
+    electrolyte_balance:
+      summary: "The kidneys help regulate dissolved substances such as sodium and potassium."
+      beginner_points:
+        - "These substances help nerves, muscles, and cells work properly."
+        - "Keeping them balanced is an important kidney function."
+    acid_base_balance:
+      summary: "The urinary system helps the body maintain chemical balance."
+      beginner_points:
+        - "This helps body systems function in a stable way."
+        - "It is one reason the kidneys are important beyond urine production."
+    blood_pressure_support:
+      summary: "The kidneys help influence blood pressure regulation."
+      beginner_points:
+        - "This connects the urinary system to broader body balance."
+    waste_removal:
+      summary: "The urinary system removes liquid waste from the body."
+      beginner_points:
+        - "It removes wastes through urine."
+        - "This differs from digestive removal of solid waste."
+    urine_storage_and_release:
+      summary: "The bladder stores urine until it leaves the body."
+      beginner_points:
+        - "Urine is not normally released as soon as it is made."
+        - "Storage allows controlled urination."
+
+  main_structures:
+    kidneys:
+      role: "Filter blood, remove liquid waste, produce urine, and help regulate fluid, electrolyte, and acid-base balance."
+      importance: "They are the main organs that form urine and support internal balance."
+    ureters:
+      role: "Carry urine from the kidneys to the bladder."
+      importance: "They connect urine production to urine storage."
+    bladder:
+      role: "Stores urine until it leaves the body."
+      importance: "It temporarily holds urine before urination."
+    urethra:
+      role: "Carries urine out of the body."
+      importance: "It is the final pathway for urine removal."
+
+  how_the_urinary_system_works:
+    urine_path:
+      - "Blood is filtered by the kidneys."
+      - "Waste and extra water form urine."
+      - "Urine travels through the ureters to the bladder."
+      - "The bladder stores urine."
+      - "Urine leaves the body through the urethra."
+
+  urine_formation_explained:
+    summary: "Urine is formed when the kidneys filter the blood and remove certain wastes and extra water."
+    key_points:
+      - "The kidneys are the organs that make urine."
+      - "Urine is not made in the bladder."
+      - "Filtering helps clean the blood."
+      - "Useful substances and much of the needed water are kept in the body."
+      - "The remaining liquid waste becomes urine."
+
+  internal_kidney_process_simplified:
+    summary: "The kidneys do more than strain fluid. They filter blood, keep needed substances, and remove excess wastes and water."
+    steps:
+      - "Blood enters the kidneys."
+      - "Small filtering structures remove water and dissolved substances from the blood."
+      - "The body takes back much of what it still needs."
+      - "Extra wastes and extra water remain in the forming urine."
+      - "Urine then moves onward toward the bladder."
+
+  bladder_function_explained:
+    summary: "The bladder stores urine and releases it at an appropriate time."
+    key_points:
+      - "As the bladder fills, stretch signals help create the urge to urinate."
+      - "The nervous system helps coordinate storage and release."
+      - "Urination is usually under voluntary control once development is mature."
+      - "This is why bladder function depends partly on nervous system control."
+
+  urinary_system_and_other_body_systems:
+    circulatory_system:
+      relationship: "The kidneys filter waste and extra fluid from the blood."
+    digestive_system:
+      relationship: "The urinary system removes liquid waste, while the digestive system removes solid waste."
+    nervous_system:
+      relationship: "The nervous system helps regulate bladder control and urination."
+    endocrine_and_homeostasis_connection:
+      relationship: "The urinary system contributes to internal balance by helping regulate fluid conditions, electrolyte levels, and acid-base balance."
+    cardiovascular_connection:
+      relationship: "Kidney function helps influence blood pressure and overall circulatory balance."
+    reproductive_system:
+      relationship: "The urinary and reproductive systems are separate systems, though some structures are anatomically related, especially in males."
+
+  important_distinctions:
+    - name: "kidneys_vs_bladder"
+      explanation: "The kidneys make urine, while the bladder stores urine."
+    - name: "ureters_vs_urethra"
+      explanation: "Ureters carry urine from the kidneys to the bladder, while the urethra carries urine out of the body."
+    - name: "urinary_waste_vs_digestive_waste"
+      explanation: "The urinary system removes liquid waste, while the digestive system removes solid waste."
+    - name: "urine_production_vs_urine_storage"
+      explanation: "Urine is produced in the kidneys and stored in the bladder."
+    - name: "urinary_system_vs_kidneys_alone"
+      explanation: "The kidneys are major organs of the urinary system, but the urinary system also includes the ureters, bladder, and urethra."
+    - name: "educational_explanation_vs_diagnosis"
+      explanation: "Explaining urine flow and urinary organs is different from diagnosing infection, kidney stones, urinary retention, or kidney failure from symptoms alone."
+
+  common_changes_people_notice:
+    - name: "frequent_urination"
+      explanation: "A person may feel the need to urinate more often than usual."
+    - name: "painful_urination"
+      explanation: "Urination may feel uncomfortable or painful."
+    - name: "blood_in_urine"
+      explanation: "Urine may appear pink, red, or brownish and can be medically important."
+    - name: "flank_pain"
+      explanation: "Pain may be felt in the side or back near the kidneys."
+    - name: "difficulty_urinating"
+      explanation: "A person may have trouble starting or passing urine."
+    - name: "low_urine_output"
+      explanation: "A person may notice much less urine than expected."
+    - name: "urgency"
+      explanation: "A person may feel a sudden strong need to urinate."
+    - name: "incontinence"
+      explanation: "A person may have difficulty controlling urine release."
+
+  common_factors_that_can_affect_urinary_function:
+    hydration_related:
+      - "low fluid intake"
+      - "high fluid intake"
+    infection_related:
+      - "urinary tract infection"
+      - "kidney infection"
+    blockage_or_flow_problems:
+      - "kidney stones"
+      - "urinary retention"
+      - "obstruction"
+    kidney_related:
+      - "reduced kidney function"
+      - "kidney injury"
+    nervous_system_related:
+      - "problems affecting bladder control"
+    medication_or_systemic_factors:
+      - "medication effects"
+      - "severe illness affecting kidney function"
+
+  age_related_considerations:
+    children:
+      - "Urinary control develops over time."
+    adults:
+      - "The urinary system supports daily fluid and waste balance."
+    older_adults:
+      - "Bladder control and kidney function may change with age."
+      - "Urinary symptoms may need closer attention."
+
+  common_questions_jessie_should_handle:
+    - "What does the urinary system do?"
+    - "What organs are in the urinary system?"
+    - "Where is urine made?"
+    - "What does the bladder do?"
+    - "What is the difference between the ureter and urethra?"
+    - "How does urine leave the body?"
+    - "Why do we need kidneys?"
+    - "Is urine stored in the kidneys?"
+    - "Why do I pee more when I drink more water?"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "temporary increase in urination after drinking more fluids"
+      - "mild short-term urinary changes with no other symptoms"
+    should_be_monitored:
+      - "ongoing urinary frequency"
+      - "mild burning with urination"
+      - "recurrent urinary discomfort"
+      - "changes in urine pattern that continue"
+    more_concerning:
+      - "blood in urine"
+      - "fever with urinary symptoms"
+      - "severe flank pain"
+      - "significant pain with urination"
+      - "markedly reduced urine output"
+      - "difficulty passing urine"
+    emergency_patterns:
+      - "inability to urinate"
+      - "severe flank pain with vomiting or severe illness"
+      - "signs of sepsis or severe infection"
+      - "confusion with severe illness"
+      - "heavy bleeding or severe pain"
+      - "rapid worsening with weakness or collapse"
+
+  red_flags:
+    immediate_attention:
+      - "inability to urinate"
+      - "severe flank pain"
+      - "blood in urine"
+      - "fever with urinary symptoms"
+      - "signs of severe illness"
+      - "confusion"
+      - "collapse"
+
+  safety_relevance:
+    key_points:
+      - "Jessie may explain basic urinary system structure and function in educational terms."
+      - "Jessie should not diagnose kidney infection, kidney stones, urinary retention, or kidney failure from limited symptom descriptions."
+      - "Inability to urinate, severe flank pain, blood in urine, fever with urinary symptoms, or signs of severe illness require prompt medical care or urgent evaluation."
+      - "Urinary symptoms can range from mild to urgent, so safety framing matters."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Start with blood filtering, urine formation, storage, and removal."
+      - "Use the urine pathway as the main beginner framework."
+      - "Differentiate kidneys from bladder clearly."
+      - "Explain urinary versus digestive waste removal simply."
+      - "Clarify ureter versus urethra."
+      - "Add that kidneys also help regulate electrolytes and acid-base balance when the learner is ready."
+    style_notes:
+      - "Use simple structure-and-function teaching first."
+      - "Avoid unnecessary technical detail unless requested."
+      - "Use the kidneys-to-ureters-to-bladder-to-urethra pathway repeatedly."
+      - "Connect urine production to fluid balance."
+      - "Keep symptom discussion educational unless urgent safety guidance is needed."
+    teaching_sequence:
+      - "Define the urinary system."
+      - "Explain the kidneys and urine formation."
+      - "Explain the ureters."
+      - "Explain bladder storage."
+      - "Explain urine leaving through the urethra."
+      - "Differentiate urinary and digestive waste removal."
+      - "Add the idea of internal balance regulation."
+      - "Maintain strong safety boundaries around severe urinary symptoms."
+
+  cross_system_links:
+    - "The kidneys filter the blood, linking the urinary and circulatory systems."
+    - "The urinary system removes liquid waste, while the digestive system removes solid waste."
+    - "The nervous system helps regulate bladder control and urination."
+    - "The urinary and reproductive systems are separate but partly related anatomically in some cases."
+    - "Kidney function also contributes to electrolyte and acid-base balance."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "The urinary system filters blood, removes liquid waste, makes urine, and helps regulate fluid balance."
+      - "The kidneys make urine, the ureters carry it, the bladder stores it, and the urethra carries it out."
+      - "The bladder does not make urine. It stores urine."
+      - "The urinary system removes liquid waste, while the digestive system removes solid waste."
+      - "The kidneys also help keep water, salts, and chemical balance under control."
+    caution_examples:
+      - "I can explain urinary system structure and function, but I cannot diagnose a urinary condition from symptoms alone."
+      - "Inability to urinate, severe flank pain, blood in urine, fever with urinary symptoms, or severe illness should be checked promptly."
+
+  final_summary:
+    summary_points:
+      - "The urinary system filters blood and makes urine."
+      - "The main organs are the kidneys, ureters, bladder, and urethra."
+      - "The kidneys make urine."
+      - "The bladder stores urine."
+      - "The urinary system helps remove liquid waste and regulate fluid balance."
+      - "The kidneys also help regulate electrolytes and acid-base balance."
+      - "Jessie should teach this system clearly while keeping strong safety boundaries around severe urinary symptoms."
+```

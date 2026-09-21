@@ -1,0 +1,297 @@
+```yaml
+metadata:
+  file_name: "balance_qa.yaml"
+  title: "Jessie Balance QA Pairs"
+  domain: "special_senses"
+  topic: "balance"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain balance, vestibular function, coordination, posture, movement, and simple safety boundaries with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain balance as the ability to stay steady and sense body position during movement and rest. Jessie should explain that balance depends on the inner ear, eyes, brain, muscles, and joints working together. The set also supports broader biology and art-informed teaching by including posture, coordination, motion, orientation, and visual-spatial concepts in simple language. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for sudden severe dizziness, major balance trouble, or balance changes after head injury."
+  training_goals:
+    - "Explain balance in simple, beginner-friendly language"
+    - "Teach that balance depends on multiple systems working together"
+    - "Show the roles of the inner ear, eyes, brain, muscles, and joints"
+    - "Clarify balance, posture, coordination, and dizziness as related but different ideas"
+    - "Support broader biology and art-oriented retrieval with spatial and movement-aware questions"
+    - "Use practical examples such as spinning, standing, walking, and closing the eyes"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for concerning balance symptoms"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach balance as a whole-body function"
+    - "Explain the vestibular role of the inner ear simply"
+    - "Connect balance to posture, movement, steadiness, and orientation"
+    - "Support both basic biology teaching and visual-art-oriented description"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose the cause of dizziness, vertigo, imbalance, faintness, or post-injury symptoms."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general balance concepts, body coordination, and warning signs."
+  safety_escalation:
+    - "Urgent guidance is appropriate for sudden severe dizziness, sudden major balance trouble, balance changes after head injury, or balance problems with confusion, weakness, trouble speaking, fainting, or other serious symptoms."
+
+pairs:
+  - id: "balance_qa_001"
+    category: "foundational_definition"
+    question: "What is balance?"
+    answer: "Balance is the ability to stay steady and sense body position during movement and rest."
+
+  - id: "balance_qa_002"
+    category: "foundational_definition"
+    question: "Why is balance important?"
+    answer: "Balance is important because it helps the body stay upright, move safely, and control posture."
+
+  - id: "balance_qa_003"
+    category: "foundational_definition"
+    question: "What does balance help the body do?"
+    answer: "Balance helps the body stay steady, adjust position, and move without falling easily."
+
+  - id: "balance_qa_004"
+    category: "foundational_definition"
+    question: "Is balance part of everyday life?"
+    answer: "Yes. Balance is used when standing, walking, turning, reaching, and changing position."
+
+  - id: "balance_qa_005"
+    category: "system_roles"
+    question: "What systems help with balance?"
+    answer: "Balance depends on the inner ear, eyes, brain, muscles, and joints working together."
+
+  - id: "balance_qa_006"
+    category: "system_roles"
+    question: "What does the inner ear do for balance?"
+    answer: "The inner ear helps detect head movement and position changes."
+
+  - id: "balance_qa_007"
+    category: "system_roles"
+    question: "What does the brain do for balance?"
+    answer: "The brain combines signals from different body systems to help keep the body steady."
+
+  - id: "balance_qa_008"
+    category: "system_roles"
+    question: "Do the eyes help with balance?"
+    answer: "Yes. Vision gives the brain helpful information that supports balance."
+
+  - id: "balance_qa_009"
+    category: "system_roles"
+    question: "How do muscles help with balance?"
+    answer: "Muscles help by making small body adjustments that keep a person steady."
+
+  - id: "balance_qa_010"
+    category: "system_roles"
+    question: "How do joints help with balance?"
+    answer: "Joints help provide information about body position and support controlled movement."
+
+  - id: "balance_qa_011"
+    category: "system_roles"
+    question: "What are vestibular structures?"
+    answer: "Vestibular structures are parts of the inner ear that help detect movement and position changes."
+
+  - id: "balance_qa_012"
+    category: "system_roles"
+    question: "Is balance only controlled by the ears?"
+    answer: "No. Balance depends on several body systems working together, not just the ears."
+
+  - id: "balance_qa_013"
+    category: "process"
+    question: "How does balance work?"
+    answer: "Balance works by combining information from the inner ear, eyes, muscles, and joints so the brain can help the body stay steady."
+
+  - id: "balance_qa_014"
+    category: "process"
+    question: "Why does the brain matter so much for balance?"
+    answer: "The brain matters because it helps organize and respond to the body signals involved in staying steady."
+
+  - id: "balance_qa_015"
+    category: "process"
+    question: "Why do several systems need to work together for balance?"
+    answer: "Several systems are needed because balance depends on movement signals, body position signals, and visual information all working together."
+
+  - id: "balance_qa_016"
+    category: "process"
+    question: "What happens when balance is working well?"
+    answer: "When balance is working well, the body can stay upright, adjust posture, and move more smoothly."
+
+  - id: "balance_qa_017"
+    category: "term_clarification"
+    question: "Are dizziness and balance exactly the same thing?"
+    answer: "No. Dizziness is a feeling, while balance is the body function that helps keep a person steady."
+
+  - id: "balance_qa_018"
+    category: "term_clarification"
+    question: "What is the difference between balance and coordination?"
+    answer: "Balance is about staying steady, while coordination is about controlling body movements smoothly."
+
+  - id: "balance_qa_019"
+    category: "term_clarification"
+    question: "What is the difference between balance and posture?"
+    answer: "Balance helps keep you steady, while posture refers to how the body is held or aligned."
+
+  - id: "balance_qa_020"
+    category: "term_clarification"
+    question: "What is the difference between balance and motion?"
+    answer: "Motion is movement, while balance helps control the body during movement and while staying still."
+
+  - id: "balance_qa_021"
+    category: "term_clarification"
+    question: "What is the difference between balance and orientation?"
+    answer: "Orientation is knowing body position in space, while balance helps the body stay steady in that position."
+
+  - id: "balance_qa_022"
+    category: "misconception"
+    question: "Is balance just standing still?"
+    answer: "No. Balance is needed both when standing still and when moving."
+
+  - id: "balance_qa_023"
+    category: "misconception"
+    question: "Does good balance mean a person never feels dizzy?"
+    answer: "No. A person can feel dizzy at times, and dizziness is not exactly the same thing as balance itself."
+
+  - id: "balance_qa_024"
+    category: "misconception"
+    question: "Is balance only about the feet?"
+    answer: "No. The feet help, but balance depends on the whole body working together."
+
+  - id: "balance_qa_025"
+    category: "misconception"
+    question: "If someone stumbles once, does that always mean their balance system is damaged?"
+    answer: "No. A single stumble does not automatically show damage. Balance can be affected by many simple or temporary factors."
+
+  - id: "balance_qa_026"
+    category: "misconception"
+    question: "Is dizziness always the same as vertigo?"
+    answer: "No. People sometimes use those words loosely, but they are not always exactly the same experience."
+
+  - id: "balance_qa_027"
+    category: "everyday_example"
+    question: "Why can spinning make a person dizzy?"
+    answer: "Spinning strongly stimulates the balance system, and the brain may need time to sort out the movement signals afterward."
+
+  - id: "balance_qa_028"
+    category: "everyday_example"
+    question: "Why does closing the eyes make balancing harder?"
+    answer: "Closing the eyes removes helpful visual information, so balancing can become harder."
+
+  - id: "balance_qa_029"
+    category: "everyday_example"
+    question: "Why can standing on one foot be hard?"
+    answer: "It is harder because the body has a smaller base of support and must make more careful balance adjustments."
+
+  - id: "balance_qa_030"
+    category: "everyday_example"
+    question: "Why do people sway a little when standing still?"
+    answer: "The body often makes small natural adjustments to help maintain balance."
+
+  - id: "balance_qa_031"
+    category: "everyday_example"
+    question: "Why can uneven ground make balance harder?"
+    answer: "Uneven ground changes body position and requires more adjustment from the balance system."
+
+  - id: "balance_qa_032"
+    category: "everyday_example"
+    question: "Why does turning quickly sometimes feel unsteady?"
+    answer: "Quick turning can rapidly change movement signals, and the body may need a moment to adjust."
+
+  - id: "balance_qa_033"
+    category: "everyday_example"
+    question: "Why is balance important when walking?"
+    answer: "Balance helps keep the body upright and controlled while weight shifts from step to step."
+
+  - id: "balance_qa_034"
+    category: "everyday_example"
+    question: "Why is balance important in sports or dancing?"
+    answer: "Balance helps with controlled movement, posture, turning, landing, and staying steady during action."
+
+  - id: "balance_qa_035"
+    category: "visual_art_support"
+    question: "Why does balance matter when drawing a standing person?"
+    answer: "Balance matters because body position needs to look steady and supported, especially over the base of support."
+
+  - id: "balance_qa_036"
+    category: "visual_art_support"
+    question: "What should an artist know about balance in body poses?"
+    answer: "An artist should know that balanced poses usually look supported, stable, and aligned with how weight is carried."
+
+  - id: "balance_qa_037"
+    category: "visual_art_support"
+    question: "Why can an unbalanced pose look unnatural in art?"
+    answer: "It can look unnatural if the body's weight and support do not seem to match."
+
+  - id: "balance_qa_038"
+    category: "visual_art_support"
+    question: "How does balance relate to posture in figure drawing?"
+    answer: "Balance and posture work together because posture affects whether a pose looks steady, relaxed, tense, or unstable."
+
+  - id: "balance_qa_039"
+    category: "visual_art_support"
+    question: "Why does body alignment matter for balance in visual design?"
+    answer: "Alignment matters because it helps show whether a figure appears steady, leaning, moving, or about to fall."
+
+  - id: "balance_qa_040"
+    category: "boundary"
+    question: "Can you diagnose why I feel dizzy?"
+    answer: "No. I can't diagnose the cause of dizziness from limited information, but I can explain balance in general and point out warning signs."
+
+  - id: "balance_qa_041"
+    category: "boundary"
+    question: "Can you tell me exactly what is wrong if I feel off balance?"
+    answer: "No. I can't determine the exact cause from a brief description, but I can explain balance concepts and when medical care is important."
+
+  - id: "balance_qa_042"
+    category: "boundary"
+    question: "Does dizziness always mean an inner ear problem?"
+    answer: "No. Dizziness can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "balance_qa_043"
+    category: "safety_supportive_urgent"
+    question: "Should sudden severe dizziness be ignored?"
+    answer: "No. Sudden severe dizziness or sudden major balance trouble should be taken seriously and checked right away."
+
+  - id: "balance_qa_044"
+    category: "safety_supportive_urgent"
+    question: "Are balance changes after head injury important?"
+    answer: "Yes. Balance changes after a head injury should be taken seriously and checked quickly."
+
+  - id: "balance_qa_045"
+    category: "safety_supportive_urgent"
+    question: "Is sudden inability to stand steadily important?"
+    answer: "Yes. Sudden major trouble standing or walking steadily should be taken seriously and checked right away."
+
+  - id: "balance_qa_046"
+    category: "safety_supportive_urgent"
+    question: "Should dizziness with weakness or trouble speaking be treated seriously?"
+    answer: "Yes. Dizziness or balance trouble with weakness or trouble speaking can be serious and needs urgent medical attention."
+
+  - id: "balance_qa_047"
+    category: "safety_supportive_urgent"
+    question: "Should fainting with balance trouble be ignored?"
+    answer: "No. Fainting or near-fainting with balance problems should be medically checked right away."
+
+  - id: "balance_qa_048"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about balance?"
+    answer: "The main thing to remember is that balance depends on the inner ear, eyes, brain, muscles, and joints working together."
+
+quality_checks:
+  - "The file contains 48 QA pairs with ids balance_qa_001 through balance_qa_048."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "Balance is consistently explained as a multi-system function."
+  - "The set includes support for biology teaching, movement understanding, and visual art-oriented retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

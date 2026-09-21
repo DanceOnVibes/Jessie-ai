@@ -1,0 +1,267 @@
+```yaml
+metadata:
+  file_name: "lymphatic_system_qa.yaml"
+  title: "Jessie Lymphatic System QA Pairs"
+  domain: "body_systems"
+  topic: "lymphatic_system"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain the lymphatic system clearly, warmly, and safely with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain the lymphatic system as the body system that helps maintain fluid balance and supports immune defense. Jessie should explain core beginner concepts such as lymph, lymph vessels, lymph nodes, spleen, thymus, tonsils, and the connection between the lymphatic and circulatory systems in simple language. The set also supports broader biology and visual explanation use by including structure-function relationships, fluid return, immune support, misconceptions, and practical safety boundaries. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for trouble breathing, rapidly worsening swelling, severe infection symptoms, or unexplained persistent lumps."
+  training_goals:
+    - "Explain the lymphatic system in simple, beginner-friendly language"
+    - "Teach the roles of lymph, lymph vessels, lymph nodes, spleen, thymus, and tonsils"
+    - "Show how the lymphatic system helps maintain fluid balance"
+    - "Explain the close connection between the lymphatic and immune systems"
+    - "Support broader biology and visual explanation retrieval with fluid and defense concepts"
+    - "Correct common misconceptions about lymph, blood, and lymph nodes"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for concerning swelling, lumps, and infection symptoms"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach the lymphatic system as a fluid-balance and immune-support system"
+    - "Explain lymph, vessels, nodes, and related organs simply"
+    - "Connect structure to function in a clear beginner-friendly way"
+    - "Support both basic biology teaching and visual explanation of body fluid return and defense"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose causes of swollen lymph nodes, edema, infection, cancer, persistent lumps, or breathing problems."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general lymphatic concepts, fluid-balance roles, immune connections, and warning signs."
+  safety_escalation:
+    - "Urgent guidance is appropriate for trouble breathing, rapidly worsening swelling, severe infection symptoms, or unexplained persistent lumps."
+
+pairs:
+  - id: "lymphatic_system_qa_001"
+    category: "foundational_definition"
+    question: "What does the lymphatic system do?"
+    answer: "The lymphatic system helps maintain fluid balance and supports immune defense."
+
+  - id: "lymphatic_system_qa_002"
+    category: "foundational_definition"
+    question: "What is the lymphatic system?"
+    answer: "The lymphatic system is the body system that moves lymph, helps return extra tissue fluid to the bloodstream, and supports immune defense."
+
+  - id: "lymphatic_system_qa_003"
+    category: "foundational_definition"
+    question: "Why is the lymphatic system important?"
+    answer: "It is important because it helps return extra tissue fluid to the bloodstream and supports the body's defenses."
+
+  - id: "lymphatic_system_qa_004"
+    category: "foundational_definition"
+    question: "What is lymph?"
+    answer: "Lymph is a clear fluid that moves through the lymphatic system."
+
+  - id: "lymphatic_system_qa_005"
+    category: "system_roles"
+    question: "What do lymph vessels do?"
+    answer: "Lymph vessels carry lymph through the body."
+
+  - id: "lymphatic_system_qa_006"
+    category: "system_roles"
+    question: "What do lymph nodes do?"
+    answer: "Lymph nodes help filter lymph and support immune responses."
+
+  - id: "lymphatic_system_qa_007"
+    category: "system_roles"
+    question: "What does the spleen do in the lymphatic system?"
+    answer: "The spleen supports immune defense and helps filter blood."
+
+  - id: "lymphatic_system_qa_008"
+    category: "system_roles"
+    question: "What does the thymus do?"
+    answer: "The thymus helps certain immune cells mature."
+
+  - id: "lymphatic_system_qa_009"
+    category: "system_roles"
+    question: "What do the tonsils do?"
+    answer: "The tonsils help support immune defense."
+
+  - id: "lymphatic_system_qa_010"
+    category: "system_roles"
+    question: "Does the lymphatic system help with fluid balance?"
+    answer: "Yes. The lymphatic system helps return excess tissue fluid to the bloodstream."
+
+  - id: "lymphatic_system_qa_011"
+    category: "process"
+    question: "How does the lymphatic system work in simple terms?"
+    answer: "It collects extra tissue fluid, moves it as lymph through lymph vessels and nodes, and helps return it to the bloodstream."
+
+  - id: "lymphatic_system_qa_012"
+    category: "process"
+    question: "How is the lymphatic system connected to the circulatory system?"
+    answer: "The lymphatic system helps return excess tissue fluid to the bloodstream."
+
+  - id: "lymphatic_system_qa_013"
+    category: "process"
+    question: "How does the lymphatic system support the immune system?"
+    answer: "It supports immune responses through structures such as lymph nodes and other lymphatic organs."
+
+  - id: "lymphatic_system_qa_014"
+    category: "process"
+    question: "Why are lymph nodes important?"
+    answer: "They are important because they help filter lymph and support immune responses."
+
+  - id: "lymphatic_system_qa_015"
+    category: "process"
+    question: "Why does the body need the lymphatic system?"
+    answer: "The body needs it to help control fluid balance and support defense against harmful germs."
+
+  - id: "lymphatic_system_qa_016"
+    category: "term_clarification"
+    question: "Is the lymphatic system the same as the immune system?"
+    answer: "No. They are closely connected, but the lymphatic system also helps with fluid balance."
+
+  - id: "lymphatic_system_qa_017"
+    category: "term_clarification"
+    question: "Is lymph the same as blood?"
+    answer: "No. Lymph and blood are different fluids, although both move through body vessels."
+
+  - id: "lymphatic_system_qa_018"
+    category: "term_clarification"
+    question: "What is the difference between lymph vessels and blood vessels?"
+    answer: "Lymph vessels carry lymph, while blood vessels carry blood."
+
+  - id: "lymphatic_system_qa_019"
+    category: "term_clarification"
+    question: "What is the difference between lymph nodes and lymph vessels?"
+    answer: "Lymph vessels move lymph, while lymph nodes help filter it and support immune responses."
+
+  - id: "lymphatic_system_qa_020"
+    category: "misconception"
+    question: "Are lymph nodes only important when they are swollen?"
+    answer: "No. Lymph nodes help support immune defense all the time, even when you do not notice them."
+
+  - id: "lymphatic_system_qa_021"
+    category: "misconception"
+    question: "Does the lymphatic system only matter during infection?"
+    answer: "No. It also helps with everyday fluid balance."
+
+  - id: "lymphatic_system_qa_022"
+    category: "misconception"
+    question: "Is lymph just another name for blood?"
+    answer: "No. Lymph is a different body fluid."
+
+  - id: "lymphatic_system_qa_023"
+    category: "misconception"
+    question: "Do all lymphatic structures do the same job?"
+    answer: "No. Different lymphatic structures help in different ways."
+
+  - id: "lymphatic_system_qa_024"
+    category: "misconception"
+    question: "Is the lymphatic system separate from the circulatory system?"
+    answer: "No. It is closely connected because it helps return extra tissue fluid to the bloodstream."
+
+  - id: "lymphatic_system_qa_025"
+    category: "everyday_example"
+    question: "Why does the body need extra tissue fluid returned to the bloodstream?"
+    answer: "The body needs that fluid returned to help maintain normal fluid balance."
+
+  - id: "lymphatic_system_qa_026"
+    category: "everyday_example"
+    question: "Why can lymph nodes become more noticeable during infection?"
+    answer: "They can become more noticeable because they are involved in immune responses."
+
+  - id: "lymphatic_system_qa_027"
+    category: "everyday_example"
+    question: "Why does the body need lymph vessels?"
+    answer: "The body needs lymph vessels to move lymph and help return extra fluid."
+
+  - id: "lymphatic_system_qa_028"
+    category: "everyday_example"
+    question: "Why are the tonsils part of body defense?"
+    answer: "They are part of body defense because they help support immune responses."
+
+  - id: "lymphatic_system_qa_029"
+    category: "everyday_example"
+    question: "Why is the spleen important?"
+    answer: "It is important because it helps support immune defense and filter blood."
+
+  - id: "lymphatic_system_qa_030"
+    category: "visual_art_support"
+    question: "Why is the lymphatic system useful to understand in biology illustration?"
+    answer: "It helps show how the body manages fluid return and supports immune defense."
+
+  - id: "lymphatic_system_qa_031"
+    category: "visual_art_support"
+    question: "What should an artist know about lymphatic system diagrams?"
+    answer: "An artist should know the main structures such as lymph vessels, lymph nodes, spleen, thymus, and tonsils, along with their basic roles."
+
+  - id: "lymphatic_system_qa_032"
+    category: "visual_art_support"
+    question: "Why does structure-function thinking matter in lymphatic diagrams?"
+    answer: "It matters because the arrangement of vessels and organs helps explain fluid return and immune support."
+
+  - id: "lymphatic_system_qa_033"
+    category: "visual_art_support"
+    question: "Why do lymph nodes matter in teaching visuals?"
+    answer: "They matter because they are key structures for filtering lymph and supporting immune responses."
+
+  - id: "lymphatic_system_qa_034"
+    category: "boundary"
+    question: "Can you diagnose why my lymph nodes are swollen?"
+    answer: "No. I can't diagnose the cause from limited information, but I can explain lymphatic concepts and point out warning signs."
+
+  - id: "lymphatic_system_qa_035"
+    category: "boundary"
+    question: "Can you tell me exactly what a lump means?"
+    answer: "No. I can't determine the exact cause from a brief description, but I can explain general lymphatic concepts and when medical care may be important."
+
+  - id: "lymphatic_system_qa_036"
+    category: "boundary"
+    question: "Does swelling always mean an infection?"
+    answer: "No. Swelling can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "lymphatic_system_qa_037"
+    category: "boundary"
+    question: "Does every lump mean cancer?"
+    answer: "No. Lumps can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "lymphatic_system_qa_038"
+    category: "safety_supportive_urgent"
+    question: "What should someone do if they have trouble breathing, rapidly worsening swelling, severe infection symptoms, or unexplained persistent lumps?"
+    answer: "Those can be serious symptoms, so prompt medical evaluation is important."
+
+  - id: "lymphatic_system_qa_039"
+    category: "safety_supportive_urgent"
+    question: "Should trouble breathing with swelling be treated urgently?"
+    answer: "Yes. Trouble breathing with swelling can be serious and needs urgent medical care."
+
+  - id: "lymphatic_system_qa_040"
+    category: "safety_supportive_urgent"
+    question: "Should rapidly worsening swelling be ignored?"
+    answer: "No. Rapidly worsening swelling should be medically checked right away."
+
+  - id: "lymphatic_system_qa_041"
+    category: "safety_supportive_urgent"
+    question: "Should unexplained persistent lumps be medically checked?"
+    answer: "Yes. Unexplained persistent lumps should be medically evaluated."
+
+  - id: "lymphatic_system_qa_042"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about the lymphatic system?"
+    answer: "The main thing to remember is that the lymphatic system helps manage fluid balance and supports immune defense."
+
+quality_checks:
+  - "The file contains 42 QA pairs with ids lymphatic_system_qa_001 through lymphatic_system_qa_042."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "The lymphatic system is consistently explained as a fluid-balance and immune-support system."
+  - "The set includes support for biology teaching, structure-function learning, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

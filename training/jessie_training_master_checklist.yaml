@@ -1,0 +1,492 @@
+training_master_checklist:
+  file_name: "jessie_training_master_checklist.yaml"
+  version: "1.0"
+  last_updated: "2026-09-21"
+  purpose: "Master review checklist for Jessie AI training assets across evaluation sets, QA pairs, conversation examples, knowledge packs, and style/system files."
+  audience: "Jessie AI family development workflow"
+  source_type: "assistant-generated project checklist"
+
+  review_workflow:
+    status_key:
+      - "present"
+      - "generated"
+      - "needs_review"
+      - "needs_creation"
+      - "needs_alignment"
+      - "unknown"
+    recommended_order:
+      - "1_style_guides"
+      - "2_system_rules"
+      - "3_evaluation_sets"
+      - "4_qa_pairs"
+      - "5_conversation_examples"
+      - "6_knowledge_pack"
+      - "7_cross_dataset_alignment"
+      - "8_final_quality_audit"
+
+  1_style_guides:
+    items:
+      - name: "jessie_teaching_style.yaml"
+        path: "training/style_guides/jessie_teaching_style.yaml"
+        status: "generated"
+        notes: "Master teaching and tone guide upgraded to higher standard. Needs final real-folder verification."
+
+      - name: "qa_pair_style_guide.yaml"
+        path: "training/style_guides/qa_pair_style_guide.yaml"
+        status: "needs_creation"
+        notes: "Recommended to define answer length, directness, canonical phrasing, and safety style for QA assets."
+
+      - name: "conversation_example_style_guide.yaml"
+        path: "training/style_guides/conversation_example_style_guide.yaml"
+        status: "needs_creation"
+        notes: "Recommended to define empathy, pacing, clarification, escalation behavior, and dialogue realism."
+
+      - name: "knowledge_pack_style_guide.yaml"
+        path: "training/style_guides/knowledge_pack_style_guide.yaml"
+        status: "needs_creation"
+        notes: "Recommended to define factual density, structure, concept linking, and warning-sign framing."
+
+      - name: "evaluation_style_guide.yaml"
+        path: "training/style_guides/evaluation_style_guide.yaml"
+        status: "needs_creation"
+        notes: "Recommended to standardize prompt phrasing, expected answer style, and safety wording."
+
+  2_system_rules:
+    items:
+      - name: "global_escalation_framework"
+        path: "training/system_rules/global_escalation_framework.yaml"
+        status: "needs_creation"
+        notes: "Recommended. Should define monitor / prompt / urgent / emergency language and response rules."
+
+      - name: "safety_response_rules"
+        path: "training/system_rules/safety_response_rules.yaml"
+        status: "needs_creation"
+        notes: "Recommended. Should define how Jessie handles red flags, emergencies, and action-first situations."
+
+      - name: "body_system_teaching_rules"
+        path: "training/system_rules/body_system_teaching_rules.yaml"
+        status: "needs_creation"
+        notes: "Recommended. Should define standard teaching format for organs, systems, and functions."
+
+      - name: "symptom_response_rules"
+        path: "training/system_rules/symptom_response_rules.yaml"
+        status: "needs_creation"
+        notes: "Recommended. Should define distinction between general education and symptom escalation."
+
+      - name: "clarifying_question_rules"
+        path: "training/system_rules/clarifying_question_rules.yaml"
+        status: "needs_creation"
+        notes: "Recommended. Should define when Jessie asks follow-up questions versus when Jessie escalates immediately."
+
+  3_evaluation_sets:
+    items:
+      - name: "smell_eval.yaml"
+        path: "training/evaluation_sets/smell_eval.yaml"
+        status: "generated"
+        notes: "Generated in conversation. Review folder presence and wording consistency."
+
+      - name: "taste_eval.yaml"
+        path: "training/evaluation_sets/taste_eval.yaml"
+        status: "generated"
+        notes: "Generated in conversation. Review folder presence and wording consistency."
+
+      - name: "temperature_regulation_eval.yaml"
+        path: "training/evaluation_sets/temperature_regulation_eval.yaml"
+        status: "generated"
+        notes: "Generated in conversation. Review folder presence and wording consistency."
+
+      - name: "touch_eval.yaml"
+        path: "training/evaluation_sets/touch_eval.yaml"
+        status: "generated"
+        notes: "Generated in conversation. Review folder presence and wording consistency."
+
+      - name: "urinary_system_eval.yaml"
+        path: "training/evaluation_sets/urinary_system_eval.yaml"
+        status: "generated"
+        notes: "Generated in conversation. Review folder presence and wording consistency."
+
+      - name: "vision_eval.yaml"
+        path: "training/evaluation_sets/vision_eval.yaml"
+        status: "generated"
+        notes: "Generated in conversation. Review folder presence and wording consistency."
+
+      - name: "vestibular_eval.yaml"
+        path: "training/evaluation_sets/vestibular_eval.yaml"
+        status: "generated"
+        notes: "Generated in conversation. Review folder presence and wording consistency."
+
+      - name: "voice_eval.yaml"
+        path: "training/evaluation_sets/voice_eval.yaml"
+        status: "generated"
+        notes: "Generated in conversation. Review folder presence and wording consistency."
+
+      - name: "walking_eval.yaml"
+        path: "training/evaluation_sets/walking_eval.yaml"
+        status: "generated"
+        notes: "Generated in conversation. Review folder presence and wording consistency."
+
+    likely_existing_or_expected_related_eval_topics_to_check:
+      - name: "balance_eval.yaml"
+        status: "unknown"
+        notes: "Check whether this already exists separately from vestibular and walking."
+
+      - name: "breathing_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+      - name: "circulation_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+      - name: "digestion_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+      - name: "hearing_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+      - name: "pain_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+      - name: "sleep_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+      - name: "speech_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+      - name: "movement_eval.yaml"
+        status: "unknown"
+        notes: "May overlap with walking; verify scope."
+
+      - name: "nervous_system_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+      - name: "muscular_system_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+      - name: "skeletal_system_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+      - name: "cardiovascular_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+      - name: "respiratory_system_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+      - name: "reproductive_system_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+      - name: "endocrine_system_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+      - name: "immune_system_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+      - name: "integumentary_system_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+      - name: "lymphatic_system_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+      - name: "proprioception_eval.yaml"
+        status: "unknown"
+        notes: "Check folder."
+
+  4_qa_pairs:
+    required_parallel_files_for_generated_topics:
+      - topic: "smell"
+        file: "training/qa_pairs/smell_qa.yaml"
+        status: "needs_creation"
+        notes: "Should mirror key concepts from smell_eval but in more natural QA style."
+
+      - topic: "taste"
+        file: "training/qa_pairs/taste_qa.yaml"
+        status: "needs_creation"
+        notes: "Needs canonical direct answers and symptom distinction patterns."
+
+      - topic: "temperature_regulation"
+        file: "training/qa_pairs/temperature_regulation_qa.yaml"
+        status: "needs_creation"
+        notes: "Should include everyday explanation plus warning sign framing."
+
+      - topic: "touch"
+        file: "training/qa_pairs/touch_qa.yaml"
+        status: "needs_creation"
+        notes: "Needs sensory education and symptom-related QA coverage."
+
+      - topic: "urinary_system"
+        file: "training/qa_pairs/urinary_system_qa.yaml"
+        status: "needs_creation"
+        notes: "Needs body system + symptom + escalation canonical QA."
+
+      - topic: "vision"
+        file: "training/qa_pairs/vision_qa.yaml"
+        status: "needs_creation"
+        notes: "Needs direct educational answers and visual warning sign distinctions."
+
+      - topic: "vestibular"
+        file: "training/qa_pairs/vestibular_qa.yaml"
+        status: "needs_creation"
+        notes: "Needs dizziness vs vertigo distinction and safety QA."
+
+      - topic: "voice"
+        file: "training/qa_pairs/voice_qa.yaml"
+        status: "needs_creation"
+        notes: "Needs hoarseness, vocal use, airway-related warning signs."
+
+      - topic: "walking"
+        file: "training/qa_pairs/walking_qa.yaml"
+        status: "needs_creation"
+        notes: "Needs gait, mobility, and urgent walking-change QA."
+
+    qa_folder_review_questions:
+      - "Do existing QA files follow Jessie’s upgraded style?"
+      - "Do QA answers lead with the answer?"
+      - "Are urgent answers direct enough?"
+      - "Are explanations too robotic or too repetitive?"
+      - "Are there missing contrast pairs such as dizziness vs vertigo or smell vs taste?"
+      - "Do QA files cover normal variation, concern, and urgency?"
+
+  5_conversation_examples:
+    required_parallel_files_for_generated_topics:
+      - topic: "smell"
+        file: "training/conversation_examples/smell_conversations.yaml"
+        status: "needs_creation"
+        notes: "Should show basic learning, smell loss, distorted smell, and hazard escalation."
+
+      - topic: "taste"
+        file: "training/conversation_examples/taste_conversations.yaml"
+        status: "needs_creation"
+        notes: "Should show bland food complaint, metallic taste, mouth dryness, and escalation examples."
+
+      - topic: "temperature_regulation"
+        file: "training/conversation_examples/temperature_regulation_conversations.yaml"
+        status: "needs_creation"
+        notes: "Should show overheating, chills, fever education, and heat/cold emergency tone."
+
+      - topic: "touch"
+        file: "training/conversation_examples/touch_conversations.yaml"
+        status: "needs_creation"
+        notes: "Should show numbness, tingling, one-sided symptoms, gradual sensory change."
+
+      - topic: "urinary_system"
+        file: "training/conversation_examples/urinary_system_conversations.yaml"
+        status: "needs_creation"
+        notes: "Should show burning urination, urgency, blood in urine, urinary retention, flank pain."
+
+      - topic: "vision"
+        file: "training/conversation_examples/vision_conversations.yaml"
+        status: "needs_creation"
+        notes: "Should show blur, floaters, eye irritation, sudden loss, stroke-like visual emergency patterns."
+
+      - topic: "vestibular"
+        file: "training/conversation_examples/vestibular_conversations.yaml"
+        status: "needs_creation"
+        notes: "Should show dizziness clarification, vertigo, nausea, fall concern, urgent neuro patterns."
+
+      - topic: "voice"
+        file: "training/conversation_examples/voice_conversations.yaml"
+        status: "needs_creation"
+        notes: "Should show hoarseness, vocal strain, persistent change, breathing-linked voice change."
+
+      - topic: "walking"
+        file: "training/conversation_examples/walking_conversations.yaml"
+        status: "needs_creation"
+        notes: "Should show limp, gradual gait change, weakness, dizziness while walking, post-injury walking trouble."
+
+    conversation_quality_requirements:
+      - "Examples should feel human and varied."
+      - "Examples should teach empathy and clarification."
+      - "Examples should include both simple education and safety escalation."
+      - "Examples should show Jessie asking better follow-up questions."
+      - "Examples should not all sound like templated medical bots."
+      - "Examples should include embarrassed, anxious, vague, and urgent user styles."
+
+  6_knowledge_pack:
+    required_parallel_files_for_generated_topics:
+      - topic: "smell"
+        file: "training/knowledge_pack/smell_knowledge.yaml"
+        status: "needs_creation"
+        notes: "Should include definition, function, smell-taste interaction, causes of change, safety red flags."
+
+      - topic: "taste"
+        file: "training/knowledge_pack/taste_knowledge.yaml"
+        status: "needs_creation"
+        notes: "Should include taste qualities, flavor interaction, oral factors, common changes, warning signs."
+
+      - topic: "temperature_regulation"
+        file: "training/knowledge_pack/temperature_regulation_knowledge.yaml"
+        status: "needs_creation"
+        notes: "Should include heat balance, sweating, shivering, fever, dehydration, heat/cold illness."
+
+      - topic: "touch"
+        file: "training/knowledge_pack/touch_knowledge.yaml"
+        status: "needs_creation"
+        notes: "Should include skin sensation, receptors, protective function, common sensory changes, warning patterns."
+
+      - topic: "urinary_system"
+        file: "training/knowledge_pack/urinary_system_knowledge.yaml"
+        status: "needs_creation"
+        notes: "Should include organs, urine formation, fluid balance, common symptoms, red flags."
+
+      - topic: "vision"
+        file: "training/knowledge_pack/vision_knowledge.yaml"
+        status: "needs_creation"
+        notes: "Should include eye function, visual processing, common symptom categories, urgent signs."
+
+      - topic: "vestibular"
+        file: "training/knowledge_pack/vestibular_knowledge.yaml"
+        status: "needs_creation"
+        notes: "Should include inner ear role, gaze stabilization, vertigo vs dizziness, red flags."
+
+      - topic: "voice"
+        file: "training/knowledge_pack/voice_knowledge.yaml"
+        status: "needs_creation"
+        notes: "Should include voice production, airflow, larynx, hoarseness causes, airway warning signs."
+
+      - topic: "walking"
+        file: "training/knowledge_pack/walking_knowledge.yaml"
+        status: "needs_creation"
+        notes: "Should include gait basics, systems required for walking, common changes, urgent mobility concerns."
+
+    knowledge_pack_review_questions:
+      - "Does each knowledge pack explain what it is, why it matters, how it works, and warning signs?"
+      - "Does each file distinguish normal variation from concerning patterns?"
+      - "Are cross-system relationships included?"
+      - "Are files too shallow, too dense, or just right?"
+      - "Are red flags included without making the whole file alarm-heavy?"
+
+  7_cross_dataset_alignment:
+    topic_alignment_targets:
+      - topic: "smell"
+        evaluation_set: "generated"
+        qa_pairs: "needs_creation"
+        conversation_examples: "needs_creation"
+        knowledge_pack: "needs_creation"
+
+      - topic: "taste"
+        evaluation_set: "generated"
+        qa_pairs: "needs_creation"
+        conversation_examples: "needs_creation"
+        knowledge_pack: "needs_creation"
+
+      - topic: "temperature_regulation"
+        evaluation_set: "generated"
+        qa_pairs: "needs_creation"
+        conversation_examples: "needs_creation"
+        knowledge_pack: "needs_creation"
+
+      - topic: "touch"
+        evaluation_set: "generated"
+        qa_pairs: "needs_creation"
+        conversation_examples: "needs_creation"
+        knowledge_pack: "needs_creation"
+
+      - topic: "urinary_system"
+        evaluation_set: "generated"
+        qa_pairs: "needs_creation"
+        conversation_examples: "needs_creation"
+        knowledge_pack: "needs_creation"
+
+      - topic: "vision"
+        evaluation_set: "generated"
+        qa_pairs: "needs_creation"
+        conversation_examples: "needs_creation"
+        knowledge_pack: "needs_creation"
+
+      - topic: "vestibular"
+        evaluation_set: "generated"
+        qa_pairs: "needs_creation"
+        conversation_examples: "needs_creation"
+        knowledge_pack: "needs_creation"
+
+      - topic: "voice"
+        evaluation_set: "generated"
+        qa_pairs: "needs_creation"
+        conversation_examples: "needs_creation"
+        knowledge_pack: "needs_creation"
+
+      - topic: "walking"
+        evaluation_set: "generated"
+        qa_pairs: "needs_creation"
+        conversation_examples: "needs_creation"
+        knowledge_pack: "needs_creation"
+
+    alignment_checks:
+      - "Each eval topic should have a matching QA file."
+      - "Each eval topic should have a matching conversation example file."
+      - "Each eval topic should have a matching knowledge pack file."
+      - "Terminology should match across all asset types."
+      - "Safety wording should remain consistent."
+      - "Topics should use compatible domain and topic naming."
+      - "Urgency logic should not conflict between files."
+      - "Knowledge packs should be richer than QA pairs."
+      - "Conversation examples should be more human than QA pairs."
+      - "Eval answers should be more standardized than all other asset types."
+
+  8_final_quality_audit:
+    style_checks:
+      - "Does Jessie sound warm, clear, and grounded?"
+      - "Does Jessie avoid generic bot phrasing?"
+      - "Does Jessie explain without sounding textbook-heavy?"
+      - "Does Jessie handle vulnerable situations with appropriate tone?"
+      - "Does Jessie avoid repetitive 'Yes. X can be important.' phrasing outside evals?"
+    safety_checks:
+      - "Are emergencies escalated clearly?"
+      - "Are prompt-evaluation situations distinguished from emergencies?"
+      - "Is false reassurance avoided?"
+      - "Is over-alarming avoided for mild situations?"
+    dataset_checks:
+      - "Are all major topics represented across all dataset types?"
+      - "Are file names and versions consistent?"
+      - "Are domains and topics normalized?"
+      - "Are generated files actually saved in the intended folders?"
+      - "Are duplicates or overlaps identified and cleaned up?"
+    polish_checks:
+      - "Would this feel like a premium family-built AI system?"
+      - "Would a real user feel helped, not just answered?"
+      - "Would the training data create consistency instead of fragmentation?"
+      - "Is Jessie’s voice recognizable across the system?"
+
+  next_recommended_build_order:
+    - "1. Verify all generated evaluation files are saved in the correct folder."
+    - "2. Verify upgraded jessie_teaching_style.yaml is saved."
+    - "3. Build qa_pair_style_guide.yaml"
+    - "4. Build conversation_example_style_guide.yaml"
+    - "5. Build knowledge_pack_style_guide.yaml"
+    - "6. Build global_escalation_framework.yaml"
+    - "7. Build matching QA files for generated eval topics."
+    - "8. Build matching knowledge pack files for generated eval topics."
+    - "9. Build matching conversation example files for generated eval topics."
+    - "10. Run cross-dataset alignment review."
+
+  priority_after_break:
+    highest_priority:
+      - "Verify files saved"
+      - "Audit actual existing folders"
+      - "List missing companion files"
+      - "Start with QA or knowledge packs in topic order"
+    suggested_topic_order:
+      - "smell"
+      - "taste"
+      - "temperature_regulation"
+      - "touch"
+      - "urinary_system"
+      - "vision"
+      - "vestibular"
+      - "voice"
+      - "walking"

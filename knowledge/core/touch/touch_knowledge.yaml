@@ -1,0 +1,299 @@
+knowledge_pack:
+  file_name: "touch_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about touch sensation, somatosensory input, skin receptors, tactile perception, protective sensation, body awareness, common sensory changes, and safety escalation."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "touch"
+    category: "somatosensory sensation and body awareness"
+    domain: "human body and health"
+
+  overview:
+    summary: "Touch is one of the body's major sensory systems. It allows people to detect contact, pressure, vibration, texture, movement across the skin, and other physical interactions with the environment. Touch helps protect the body, guides movement, supports emotional and social interaction, and contributes to body awareness and coordination."
+    why_it_matters:
+      - "Touch helps people detect the external world through the skin and deeper tissues."
+      - "It helps protect the body from harmful contact and injury."
+      - "Touch supports grip, movement control, body awareness, and object handling."
+      - "Changes in touch sensation can affect safety, coordination, comfort, and function."
+
+  core_definitions:
+    - term: "touch"
+      definition: "The sensory ability to detect physical contact and mechanical stimulation."
+    - term: "somatosensation"
+      definition: "The body's broad sensory system for touch, pressure, vibration, temperature, pain, and body position."
+    - term: "tactile sensation"
+      definition: "Perception of touch-related stimuli, especially contact and surface features."
+    - term: "protective sensation"
+      definition: "The ability to detect potentially harmful contact or pressure that could cause injury."
+    - term: "light touch"
+      definition: "Gentle contact sensed on the skin."
+    - term: "deep pressure"
+      definition: "A firmer pressure sensation involving deeper tissues."
+    - term: "vibration sense"
+      definition: "The ability to detect oscillating or vibrating contact."
+    - term: "sensory perception"
+      definition: "How the nervous system interprets sensory input from the body."
+
+  foundational_principle:
+    summary: "Touch depends on receptors in the body detecting stimuli and the nervous system interpreting those signals."
+    key_points:
+      - "The skin contains specialized sensory receptors."
+      - "Signals travel through sensory nerves to the spinal cord and brain."
+      - "The brain identifies what was touched, where, how strong it was, and whether it may be important or dangerous."
+      - "Touch is closely linked with pain, temperature, body awareness, and movement."
+
+  major_systems_involved:
+    integumentary_system:
+      role: "The skin is the main interface for touch sensation."
+      importance: "Skin contains specialized receptors that detect contact and pressure."
+    nervous_system:
+      role: "Carries and processes touch signals."
+      importance: "Touch depends on intact nerves, spinal pathways, and brain interpretation."
+    musculoskeletal_system:
+      role: "Touch feedback helps coordinate movement and object handling."
+      importance: "Hands, feet, joints, and muscles use touch input during posture and movement."
+    circulatory_system:
+      role: "Healthy blood flow supports tissue and nerve function."
+      importance: "Poor circulation can contribute to altered sensation in some situations."
+
+  key_receptors_and_sensory_sources:
+    - name: "mechanoreceptors"
+      explanation: "These receptors detect physical deformation such as pressure, stretch, vibration, and movement across the skin."
+    - name: "light-touch receptors"
+      explanation: "These help detect gentle surface contact."
+    - name: "pressure receptors"
+      explanation: "These respond to firmer contact or sustained pressure."
+    - name: "vibration-sensitive receptors"
+      explanation: "These help detect vibration and rapid changes in contact."
+    - name: "stretch-related receptors"
+      explanation: "These help detect skin stretch and movement of surfaces over the body."
+
+  how_touch_works:
+    detection_phase:
+      - "Something contacts, presses, moves across, or vibrates against the skin."
+      - "Specialized receptors detect the physical change."
+    transmission_phase:
+      - "Signals travel through sensory nerves toward the spinal cord."
+      - "The signals are relayed upward to the brain."
+    interpretation_phase:
+      - "The brain identifies location, intensity, pattern, and meaning."
+      - "The brain helps distinguish soft, rough, sharp, moving, light, or firm contact."
+    response_phase:
+      - "The body may ignore harmless contact, attend to it, adjust grip, pull away, or protect itself."
+      - "Touch information often guides fast movement correction."
+
+  what_touch_allows_people_to_do:
+    - "feel clothing on the skin"
+    - "detect an object in the hand"
+    - "sense pressure under the feet while standing"
+    - "recognize texture"
+    - "adjust grip strength"
+    - "notice harmful pressure or rubbing"
+    - "respond to contact from the environment"
+    - "support fine motor control"
+
+  common_features_of_touch_perception:
+    location_detection:
+      - "Touch can often be localized to a particular area."
+    intensity_detection:
+      - "The nervous system can detect stronger versus lighter contact."
+    texture_and_pattern_detection:
+      - "Touch helps distinguish roughness, smoothness, edges, and shape features."
+    motion_detection:
+      - "The skin can sense movement across its surface."
+    social_and_emotional_context:
+      - "Touch can also carry emotional meaning, comfort, warning, or social significance."
+
+  touch_and_body_function:
+    protection:
+      - "Touch helps detect pressure, friction, and contact before tissue damage occurs."
+    movement:
+      - "Touch feedback improves hand function, balance, and foot placement."
+    posture:
+      - "Pressure through the feet and body helps guide postural control."
+    object_interaction:
+      - "Touch supports grip adjustment and tool use."
+    learning_and_awareness:
+      - "Touch contributes to exploration and body awareness."
+
+  relationship_to_other_senses:
+    touch_vs_pain:
+      explanation: "Touch is the detection of contact and mechanical stimulation, while pain is an unpleasant protective experience often linked to potential or actual harm."
+    touch_vs_temperature:
+      explanation: "Touch detects contact and pressure, while temperature sensation detects heat and cold."
+    touch_vs_proprioception:
+      explanation: "Touch is sensation from contact and surface stimulation, while proprioception is the body's sense of position and movement."
+    touch_vs_vibration:
+      explanation: "Vibration is often considered a specialized type of touch sensation."
+    integration_point:
+      - "The brain often combines touch with pain, temperature, proprioception, and vision to interpret the environment."
+
+  common_changes_in_touch_sensation:
+    - name: "reduced sensation"
+      explanation: "A person may feel less touch than expected."
+    - name: "numbness"
+      explanation: "An area may feel absent, dull, or lacking normal sensation."
+    - name: "tingling"
+      explanation: "A pins-and-needles sensation can occur when sensory nerves are affected or recovering."
+    - name: "hypersensitivity"
+      explanation: "Normal contact may feel unusually strong or uncomfortable."
+    - name: "altered texture perception"
+      explanation: "A person may have difficulty distinguishing surface characteristics."
+    - name: "poor protective sensation"
+      explanation: "Reduced awareness of pressure or contact can increase injury risk."
+
+  functional_examples_of_touch_changes:
+    - "not noticing a shoe rubbing the foot"
+    - "dropping objects because contact is not sensed clearly"
+    - "difficulty buttoning clothing due to reduced finger sensation"
+    - "feeling unusually bothered by normal fabrics or light touch"
+    - "missing a minor skin injury because it was not felt well"
+
+  common_factors_that_can_affect_touch:
+    local_or_tissue_related:
+      - "skin injury"
+      - "swelling"
+      - "pressure on a nerve"
+      - "scar tissue"
+    neurologic:
+      - "peripheral nerve problems"
+      - "spinal cord problems"
+      - "brain sensory pathway dysfunction"
+    circulatory_or_systemic:
+      - "poor circulation"
+      - "metabolic problems"
+      - "systemic illness affecting nerves"
+    situational:
+      - "cold exposure"
+      - "prolonged pressure on a limb"
+      - "repetitive stress"
+    age_or_function_related:
+      - "aging-related sensory changes"
+      - "reduced skin sensitivity in some areas"
+
+  protective_sensation_and_safety:
+    summary: "Touch is important for safety because it helps detect harmful pressure, friction, and contact."
+    key_points:
+      - "Reduced touch can increase risk of unnoticed injuries."
+      - "Reduced foot sensation can increase fall risk and skin injury risk."
+      - "Reduced hand sensation can impair grip and object control."
+      - "Protective sensation matters especially in daily living and mobility."
+
+  touch_in_hands_and_feet:
+    hands:
+      - "Hand touch sensation supports fine motor tasks, grip, and object recognition."
+    feet:
+      - "Foot touch sensation supports balance, walking, and pressure awareness."
+    teaching_point:
+      - "Changes in touch sensation in the hands or feet can strongly affect function."
+
+  age_related_considerations:
+    children:
+      - "Touch contributes to development, learning, exploration, and comfort."
+    adults:
+      - "Touch supports daily tasks, movement control, and injury prevention."
+    older_adults:
+      - "Changes in sensation, skin quality, circulation, or nerve function may affect touch."
+      - "Reduced touch can contribute to balance and safety problems."
+
+  important_distinctions:
+    - name: "touch loss vs weakness"
+      explanation: "A person may have reduced sensation without actual muscle weakness, though the two can occur together."
+    - name: "numbness vs pain"
+      explanation: "Numbness means reduced or altered sensation, while pain is an unpleasant warning experience."
+    - name: "tingling vs normal touch"
+      explanation: "Tingling is an altered sensory experience, not the same as normal touch perception."
+    - name: "touch sensitivity vs emotional discomfort"
+      explanation: "Touch hypersensitivity can be sensory, while dislike of contact can also involve emotional or contextual factors."
+    - name: "surface touch vs proprioceptive awareness"
+      explanation: "Touch detects contact at or near the surface, while proprioception helps detect body position and movement."
+
+  common_questions_jessie_should_handle:
+    - "How does touch work?"
+    - "Why can I feel pressure but not light touch well?"
+    - "What is the difference between touch and pain?"
+    - "Why does numbness affect function?"
+    - "How does touch help balance?"
+    - "Why do my fingers feel tingly?"
+    - "Why is reduced foot sensation a safety problem?"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "brief tingling after mild pressure on a limb"
+      - "temporary altered sensation after leaning on an arm awkwardly"
+      - "short-lived increased sensitivity after minor skin irritation"
+    should_be_monitored:
+      - "persistent numbness"
+      - "recurrent tingling"
+      - "reduced touch affecting hand function"
+      - "reduced foot sensation affecting walking"
+      - "worsening sensory changes over time"
+    more_concerning:
+      - "new numbness with weakness"
+      - "widespread progressive sensory loss"
+      - "touch loss after injury"
+      - "reduced sensation with repeated unnoticed injuries"
+      - "major functional difficulty from sensory loss"
+    emergency_patterns:
+      - "sudden numbness with one-sided weakness"
+      - "sudden sensory loss with slurred speech"
+      - "sudden sensory loss with facial droop"
+      - "rapid neurologic deterioration"
+      - "loss of consciousness"
+
+  red_flags:
+    immediate_attention:
+      - "sudden major sensory loss"
+      - "touch changes with stroke-like symptoms"
+      - "new numbness with severe weakness"
+      - "rapidly worsening neurologic symptoms"
+      - "loss of consciousness"
+      - "major injury with sensory loss"
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Explain touch as a core body sense in simple language."
+      - "Connect touch to skin receptors, nerves, and brain interpretation."
+      - "Show how touch supports safety, movement, and object handling."
+      - "Differentiate touch from pain, temperature, and proprioception."
+      - "Escalate appropriately when sensory loss is sudden, severe, or neurologically concerning."
+    style_notes:
+      - "Avoid making touch sound separate from the nervous system."
+      - "Do not minimize persistent numbness or functional sensory loss."
+      - "Use practical examples involving hands, feet, and daily function."
+      - "Emphasize safety when protective sensation is reduced."
+    teaching_sequence:
+      - "Define touch."
+      - "Explain where touch signals come from."
+      - "Describe how the brain interprets them."
+      - "Connect touch to daily tasks and safety."
+      - "Differentiate common sensory symptoms from red flags."
+
+  cross_system_links:
+    - "Touch depends on the integumentary system and nervous system working together."
+    - "Touch supports balance and movement through pressure feedback from the feet and body."
+    - "Touch works alongside pain, temperature, and proprioception as part of somatosensation."
+    - "Changes in circulation, nerve health, or tissue condition can affect touch sensation."
+    - "Touch contributes to protection, coordination, and functional independence."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "Touch is your body's ability to detect contact, pressure, texture, and movement across the skin."
+      - "Specialized receptors in the skin send information through nerves to the brain, which interprets what is being felt."
+      - "Touch is important not only for comfort and awareness, but also for grip, balance, and protection from injury."
+      - "Reduced touch sensation can affect function because the body loses important feedback."
+    caution_examples:
+      - "Brief tingling after pressure on a limb can happen, but persistent numbness or new sensory loss with weakness needs more attention."
+      - "Sudden sensory changes with stroke-like symptoms are an emergency."
+
+  final_summary:
+    summary_points:
+      - "Touch is a major sensory system that detects contact, pressure, texture, vibration, and surface movement."
+      - "It depends on receptors in the skin and signals traveling through the nervous system to the brain."
+      - "Touch supports protection, movement control, balance, grip, and body awareness."
+      - "Reduced touch sensation can impair safety and daily function, especially in the hands and feet."
+      - "Persistent numbness, worsening sensory loss, or sensory changes with neurologic symptoms are more concerning."
+      - "Jessie should explain touch clearly, link it to function and safety, and escalate urgent red flags appropriately."

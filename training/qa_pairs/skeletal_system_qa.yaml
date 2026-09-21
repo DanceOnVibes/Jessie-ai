@@ -1,0 +1,257 @@
+```yaml
+metadata:
+  file_name: "skeletal_system_qa.yaml"
+  title: "Jessie Skeletal System QA Pairs"
+  domain: "body_systems"
+  topic: "skeletal_system"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain the skeletal system clearly, warmly, and safely with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain the skeletal system as the body system that provides support, protects organs, helps with movement, stores minerals, and contains marrow that helps produce blood cells. Jessie should explain core beginner concepts such as bones, joints, cartilage, ligaments, bone marrow, skull, rib cage, spine, and calcium in simple language. The set also supports broader biology and visual explanation use by including structure-function relationships, movement support, protection roles, misconceptions, and practical safety boundaries. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for possible broken bones or severe injuries."
+  training_goals:
+    - "Explain the skeletal system in simple, beginner-friendly language"
+    - "Teach the roles of bones, joints, cartilage, ligaments, and bone marrow"
+    - "Show how the skeletal system supports movement and organ protection"
+    - "Explain mineral storage and blood-cell production simply"
+    - "Support broader biology and visual explanation retrieval with structure-function concepts"
+    - "Correct common misconceptions about bones and joints"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for severe injury or possible fractures"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach the skeletal system as a support, protection, and movement-helping system"
+    - "Explain bones, joints, and related structures simply"
+    - "Connect structure to function in a clear beginner-friendly way"
+    - "Support both basic biology teaching and visual explanation of body framework and movement"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose fractures, sprains, spinal injuries, joint disorders, or causes of bone pain or swelling."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general skeletal concepts, structure-function roles, and warning signs."
+  safety_escalation:
+    - "Urgent guidance is appropriate for possible broken bones, severe injury, deformity, inability to bear weight after injury, or other serious trauma symptoms."
+
+pairs:
+  - id: "skeletal_system_qa_001"
+    category: "foundational_definition"
+    question: "What is the main job of the skeletal system?"
+    answer: "The skeletal system gives the body support, protects organs, helps with movement, stores minerals, and helps produce blood cells."
+
+  - id: "skeletal_system_qa_002"
+    category: "foundational_definition"
+    question: "Why is the skeletal system important?"
+    answer: "It is important because it supports the body, protects important organs, and works with muscles to help movement."
+
+  - id: "skeletal_system_qa_003"
+    category: "system_roles"
+    question: "What do bones do?"
+    answer: "Bones give the body shape and support, protect organs, and work with muscles to help the body move."
+
+  - id: "skeletal_system_qa_004"
+    category: "system_roles"
+    question: "What are joints?"
+    answer: "Joints are places where two or more bones meet."
+
+  - id: "skeletal_system_qa_005"
+    category: "system_roles"
+    question: "Why are joints important?"
+    answer: "Joints are important because they allow movement or provide stability between bones."
+
+  - id: "skeletal_system_qa_006"
+    category: "system_roles"
+    question: "What does cartilage do?"
+    answer: "Cartilage provides cushioning and support and helps reduce friction at joints."
+
+  - id: "skeletal_system_qa_007"
+    category: "system_roles"
+    question: "What do ligaments do?"
+    answer: "Ligaments connect bone to bone and help stabilize joints."
+
+  - id: "skeletal_system_qa_008"
+    category: "system_roles"
+    question: "What is bone marrow?"
+    answer: "Bone marrow is soft tissue inside certain bones that helps produce blood cells."
+
+  - id: "skeletal_system_qa_009"
+    category: "process"
+    question: "How does the skeletal system help protect the body?"
+    answer: "The skeletal system protects the body by surrounding important organs, such as the skull protecting the brain and the rib cage protecting the heart and lungs."
+
+  - id: "skeletal_system_qa_010"
+    category: "process"
+    question: "Does the skeletal system help with movement?"
+    answer: "Yes. Bones work with muscles and joints to help the body move."
+
+  - id: "skeletal_system_qa_011"
+    category: "process"
+    question: "Why is calcium important for bones?"
+    answer: "Calcium is important because bones store it, and it helps support bone strength."
+
+  - id: "skeletal_system_qa_012"
+    category: "process"
+    question: "How does the skeletal system work in simple terms?"
+    answer: "It provides a strong framework for the body, protects organs, and works with muscles and joints to support movement."
+
+  - id: "skeletal_system_qa_013"
+    category: "system_roles"
+    question: "What does the skull do?"
+    answer: "The skull protects the brain."
+
+  - id: "skeletal_system_qa_014"
+    category: "system_roles"
+    question: "What does the rib cage do?"
+    answer: "The rib cage helps protect the heart and lungs."
+
+  - id: "skeletal_system_qa_015"
+    category: "system_roles"
+    question: "What does the spine do?"
+    answer: "The spine supports the body and helps protect the spinal cord."
+
+  - id: "skeletal_system_qa_016"
+    category: "term_clarification"
+    question: "Do bones only hold the body up?"
+    answer: "No. Bones also protect organs, store minerals, and contain marrow that helps produce blood cells."
+
+  - id: "skeletal_system_qa_017"
+    category: "term_clarification"
+    question: "What is the difference between cartilage and bone?"
+    answer: "Bone is harder and forms most of the body's framework, while cartilage is more flexible and helps cushion and support certain areas."
+
+  - id: "skeletal_system_qa_018"
+    category: "term_clarification"
+    question: "What is the difference between ligaments and tendons?"
+    answer: "Ligaments connect bone to bone, while tendons connect muscle to bone."
+
+  - id: "skeletal_system_qa_019"
+    category: "term_clarification"
+    question: "What is the difference between joints and bones?"
+    answer: "Bones are the hard structures of the skeleton, while joints are places where bones meet."
+
+  - id: "skeletal_system_qa_020"
+    category: "misconception"
+    question: "Are bones just hard sticks with no living tissue inside?"
+    answer: "No. Bones are living structures and can contain marrow inside."
+
+  - id: "skeletal_system_qa_021"
+    category: "misconception"
+    question: "Do joints only help with movement and not stability?"
+    answer: "No. Joints can help with movement, stability, or both."
+
+  - id: "skeletal_system_qa_022"
+    category: "misconception"
+    question: "Is the skeleton separate from movement?"
+    answer: "No. The skeleton works with muscles and joints to help the body move."
+
+  - id: "skeletal_system_qa_023"
+    category: "misconception"
+    question: "Does the skeletal system only protect the outside of the body?"
+    answer: "No. It helps protect important organs inside the body."
+
+  - id: "skeletal_system_qa_024"
+    category: "everyday_example"
+    question: "Why can you bend your elbow?"
+    answer: "You can bend your elbow because joints allow movement between bones."
+
+  - id: "skeletal_system_qa_025"
+    category: "everyday_example"
+    question: "Why does the skull matter in daily life?"
+    answer: "It matters because it helps protect the brain."
+
+  - id: "skeletal_system_qa_026"
+    category: "everyday_example"
+    question: "Why does the rib cage matter in daily life?"
+    answer: "It matters because it helps protect the heart and lungs."
+
+  - id: "skeletal_system_qa_027"
+    category: "everyday_example"
+    question: "Why do bones and muscles need each other for movement?"
+    answer: "They need each other because bones provide the framework and muscles pull on bones to create movement."
+
+  - id: "skeletal_system_qa_028"
+    category: "everyday_example"
+    question: "Why does the spine matter for posture?"
+    answer: "The spine matters for posture because it supports the body and helps keep it aligned."
+
+  - id: "skeletal_system_qa_029"
+    category: "visual_art_support"
+    question: "Why is the skeletal system useful to understand in anatomy or figure drawing?"
+    answer: "It helps show the body's framework, proportions, support, and joint-based movement."
+
+  - id: "skeletal_system_qa_030"
+    category: "visual_art_support"
+    question: "What should an artist know about skeleton diagrams?"
+    answer: "An artist should know the major bones, key joints, and the idea that the skeleton provides structure and supports movement."
+
+  - id: "skeletal_system_qa_031"
+    category: "visual_art_support"
+    question: "Why does structure-function thinking matter in skeletal diagrams?"
+    answer: "It matters because bone shape, joint placement, and protective structures help explain how the skeleton works."
+
+  - id: "skeletal_system_qa_032"
+    category: "visual_art_support"
+    question: "Why are joints important in movement visuals?"
+    answer: "They are important because joints are the places where movement or stability between bones happens."
+
+  - id: "skeletal_system_qa_033"
+    category: "boundary"
+    question: "Can you diagnose whether my bone is broken or my joint is injured?"
+    answer: "No. I can't diagnose the cause from limited information, but I can explain skeletal concepts and point out warning signs."
+
+  - id: "skeletal_system_qa_034"
+    category: "boundary"
+    question: "Can you tell me exactly what part of my skeleton is damaged?"
+    answer: "No. I can't determine the exact injury from a brief description, but I can explain general skeletal concepts and when medical care may be important."
+
+  - id: "skeletal_system_qa_035"
+    category: "boundary"
+    question: "Does swelling after injury always mean a fracture?"
+    answer: "No. Swelling can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "skeletal_system_qa_036"
+    category: "boundary"
+    question: "Does bone pain always mean the same problem?"
+    answer: "No. Bone pain can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "skeletal_system_qa_037"
+    category: "safety_supportive_urgent"
+    question: "What should someone do if they may have a broken bone or severe injury?"
+    answer: "A possible broken bone or severe injury should be evaluated by a medical professional right away, and emergency help may be needed if the injury is severe."
+
+  - id: "skeletal_system_qa_038"
+    category: "safety_supportive_urgent"
+    question: "Should a possible broken bone be ignored?"
+    answer: "No. A possible broken bone should be medically checked promptly."
+
+  - id: "skeletal_system_qa_039"
+    category: "safety_supportive_urgent"
+    question: "Should severe injury with deformity or inability to bear weight be treated seriously?"
+    answer: "Yes. Severe injury with deformity or inability to bear weight should be medically evaluated right away."
+
+  - id: "skeletal_system_qa_040"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about the skeletal system?"
+    answer: "The main thing to remember is that the skeletal system supports the body, protects organs, and works with muscles to help movement."
+
+quality_checks:
+  - "The file contains 40 QA pairs with ids skeletal_system_qa_001 through skeletal_system_qa_040."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "The skeletal system is consistently explained as a support, protection, and movement-helping system."
+  - "The set includes support for biology teaching, structure-function learning, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

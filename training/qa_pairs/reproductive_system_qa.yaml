@@ -1,0 +1,259 @@
+```yaml
+metadata:
+  file_name: "reproductive_system_qa.yaml"
+  title: "Jessie Reproductive System QA Pairs"
+  domain: "body_systems"
+  topic: "reproductive_system"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain the reproductive system clearly, respectfully, and safely with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain the reproductive system as the body system that helps produce sex cells, supports reproduction, and makes some hormones related to reproductive function. Jessie should explain core beginner concepts such as eggs, sperm, ovaries, testes, uterus, fallopian tubes, epididymis, vas deferens, and semen in respectful and simple language. The set also supports broader biology and visual explanation use by including structure-function relationships, hormone connections, comparisons with the urinary system, misconceptions, and practical safety boundaries. Jessie should remain warm, direct, beginner-friendly, respectful, and non-diagnosing, while giving calm safety-first guidance for severe pelvic pain, heavy bleeding, possible sexual assault, or pregnancy emergency symptoms."
+  training_goals:
+    - "Explain the reproductive system in simple, beginner-friendly, respectful language"
+    - "Teach the roles of sex cells and major reproductive structures"
+    - "Show that some reproductive organs also make hormones"
+    - "Clarify differences between reproductive and urinary functions"
+    - "Support broader biology and visual explanation retrieval with structure-function concepts"
+    - "Correct common misconceptions about reproduction and reproductive organs"
+    - "Maintain a warm, direct, educational, and respectful tone"
+    - "Use safe boundaries for urgent reproductive and pregnancy-related concerns"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach the reproductive system as a sex-cell, hormone, and reproduction-support system"
+    - "Explain structures and functions simply and respectfully"
+    - "Connect anatomy to function in a clear beginner-friendly way"
+    - "Support both basic biology teaching and visual explanation of reproductive anatomy"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+    - "Respectful"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over unnecessary technical language."
+    - "Keep retrieval answers compact and reusable."
+    - "Use respectful, non-graphic wording."
+  boundaries:
+    - "Jessie should not diagnose pregnancy complications, infertility, sexually transmitted infections, causes of bleeding, pelvic pain, testicular pain, or sexual health symptoms."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general reproductive concepts, anatomy, hormone roles, and warning signs."
+  safety_escalation:
+    - "Urgent guidance is appropriate for severe pelvic pain, heavy bleeding, possible sexual assault, or pregnancy emergency symptoms."
+
+pairs:
+  - id: "reproductive_system_qa_001"
+    category: "foundational_definition"
+    question: "What does the reproductive system do?"
+    answer: "The reproductive system helps produce sex cells, supports reproduction, and makes some hormones related to reproductive function."
+
+  - id: "reproductive_system_qa_002"
+    category: "foundational_definition"
+    question: "Why is the reproductive system important?"
+    answer: "It is important because it helps produce sex cells, supports reproduction, and contributes to reproductive hormone function."
+
+  - id: "reproductive_system_qa_003"
+    category: "foundational_definition"
+    question: "What are sex cells?"
+    answer: "Sex cells are reproductive cells. In humans, sperm are male sex cells and eggs are female sex cells."
+
+  - id: "reproductive_system_qa_004"
+    category: "foundational_definition"
+    question: "Is the reproductive system only about pregnancy?"
+    answer: "No. It is also involved in producing sex cells and making reproductive hormones."
+
+  - id: "reproductive_system_qa_005"
+    category: "system_roles"
+    question: "What do the ovaries do?"
+    answer: "The ovaries produce eggs and hormones involved in reproductive function."
+
+  - id: "reproductive_system_qa_006"
+    category: "system_roles"
+    question: "What do the testes do?"
+    answer: "The testes produce sperm and hormones involved in reproductive function."
+
+  - id: "reproductive_system_qa_007"
+    category: "system_roles"
+    question: "What does the uterus do?"
+    answer: "The uterus can support the development of a pregnancy."
+
+  - id: "reproductive_system_qa_008"
+    category: "system_roles"
+    question: "What do the fallopian tubes do?"
+    answer: "The fallopian tubes carry the egg from the ovary toward the uterus."
+
+  - id: "reproductive_system_qa_009"
+    category: "system_roles"
+    question: "What does the epididymis do?"
+    answer: "The epididymis stores sperm and helps them mature."
+
+  - id: "reproductive_system_qa_010"
+    category: "system_roles"
+    question: "What does the vas deferens do?"
+    answer: "The vas deferens carries sperm from storage areas toward the urethra."
+
+  - id: "reproductive_system_qa_011"
+    category: "system_roles"
+    question: "What is semen?"
+    answer: "Semen is a fluid that contains sperm and other substances from the male reproductive system."
+
+  - id: "reproductive_system_qa_012"
+    category: "system_roles"
+    question: "Do reproductive organs also make hormones?"
+    answer: "Yes. Some reproductive organs, such as the ovaries and testes, also make hormones involved in reproductive function."
+
+  - id: "reproductive_system_qa_013"
+    category: "process"
+    question: "How does the reproductive system work in simple terms?"
+    answer: "It works by producing reproductive cells, supporting reproductive functions, and helping make certain hormones."
+
+  - id: "reproductive_system_qa_014"
+    category: "process"
+    question: "Why are eggs and sperm important?"
+    answer: "They are important because they are the reproductive cells involved in human reproduction."
+
+  - id: "reproductive_system_qa_015"
+    category: "process"
+    question: "Why do some reproductive organs also make hormones?"
+    answer: "They make hormones because reproduction is closely connected with body regulation and development."
+
+  - id: "reproductive_system_qa_016"
+    category: "term_clarification"
+    question: "Are the urinary system and reproductive system the same thing?"
+    answer: "No. They are different systems, although some structures are related, especially in males."
+
+  - id: "reproductive_system_qa_017"
+    category: "term_clarification"
+    question: "What is the difference between sperm and semen?"
+    answer: "Sperm are the reproductive cells, while semen is the fluid that contains sperm and other substances."
+
+  - id: "reproductive_system_qa_018"
+    category: "term_clarification"
+    question: "What is the difference between ovaries and testes?"
+    answer: "Ovaries produce eggs and certain reproductive hormones, while testes produce sperm and certain reproductive hormones."
+
+  - id: "reproductive_system_qa_019"
+    category: "term_clarification"
+    question: "Do male and female reproductive systems have the same structures?"
+    answer: "No. They have different structures and roles, although both support reproduction."
+
+  - id: "reproductive_system_qa_020"
+    category: "misconception"
+    question: "Is the reproductive system only important if someone wants children?"
+    answer: "No. It also has roles in producing reproductive cells and hormones."
+
+  - id: "reproductive_system_qa_021"
+    category: "misconception"
+    question: "Are eggs and sperm the same thing?"
+    answer: "No. They are different types of reproductive cells."
+
+  - id: "reproductive_system_qa_022"
+    category: "misconception"
+    question: "Does the uterus do the same job as the ovaries?"
+    answer: "No. The uterus and ovaries have different roles."
+
+  - id: "reproductive_system_qa_023"
+    category: "misconception"
+    question: "Is the reproductive system completely separate from hormones?"
+    answer: "No. Hormones are an important part of reproductive function."
+
+  - id: "reproductive_system_qa_024"
+    category: "misconception"
+    question: "Does the reproductive system only include external structures?"
+    answer: "No. It includes both internal and, in some cases, external structures."
+
+  - id: "reproductive_system_qa_025"
+    category: "everyday_example"
+    question: "Why is the reproductive system taught in basic biology?"
+    answer: "It is taught because it helps explain human reproduction, reproductive cells, and hormone-related body functions."
+
+  - id: "reproductive_system_qa_026"
+    category: "everyday_example"
+    question: "Why is respectful language important when teaching reproductive anatomy?"
+    answer: "Respectful language helps make learning clear, accurate, and supportive."
+
+  - id: "reproductive_system_qa_027"
+    category: "everyday_example"
+    question: "Why is it helpful to distinguish the urinary and reproductive systems?"
+    answer: "It is helpful because they have different main jobs, even when some structures are related."
+
+  - id: "reproductive_system_qa_028"
+    category: "visual_art_support"
+    question: "Why is the reproductive system useful to understand in biology illustration?"
+    answer: "It helps show how reproductive structures support sex-cell production, hormone roles, and reproduction."
+
+  - id: "reproductive_system_qa_029"
+    category: "visual_art_support"
+    question: "What should an artist or educator know about reproductive system diagrams?"
+    answer: "They should know the major structures, their basic functions, and the importance of respectful, accurate labeling."
+
+  - id: "reproductive_system_qa_030"
+    category: "visual_art_support"
+    question: "Why does structure-function thinking matter in reproductive anatomy diagrams?"
+    answer: "It matters because reproductive structures are easier to understand when their roles are shown clearly."
+
+  - id: "reproductive_system_qa_031"
+    category: "boundary"
+    question: "Can you diagnose the cause of pelvic pain, bleeding, or fertility problems?"
+    answer: "No. I can't diagnose the cause from limited information, but I can explain reproductive concepts and point out warning signs."
+
+  - id: "reproductive_system_qa_032"
+    category: "boundary"
+    question: "Can you tell me exactly if a reproductive symptom means an infection or pregnancy problem?"
+    answer: "No. I can't determine the exact cause from a brief description, but I can explain general reproductive concepts and when urgent care may be important."
+
+  - id: "reproductive_system_qa_033"
+    category: "boundary"
+    question: "Does bleeding always mean the same thing?"
+    answer: "No. Bleeding can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "reproductive_system_qa_034"
+    category: "boundary"
+    question: "Does pelvic pain always mean one specific problem?"
+    answer: "No. Pelvic pain can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "reproductive_system_qa_035"
+    category: "safety_supportive_urgent"
+    question: "What should someone do if they have severe pelvic pain, heavy bleeding, possible sexual assault, or pregnancy emergency symptoms?"
+    answer: "These can be serious or urgent situations, so prompt medical care or emergency help may be needed depending on the symptoms and situation."
+
+  - id: "reproductive_system_qa_036"
+    category: "safety_supportive_urgent"
+    question: "Should heavy bleeding be medically checked promptly?"
+    answer: "Yes. Heavy bleeding should be medically checked promptly."
+
+  - id: "reproductive_system_qa_037"
+    category: "safety_supportive_urgent"
+    question: "Should severe pelvic pain be ignored?"
+    answer: "No. Severe pelvic pain should be medically evaluated promptly."
+
+  - id: "reproductive_system_qa_038"
+    category: "safety_supportive_urgent"
+    question: "What should someone do after possible sexual assault?"
+    answer: "Possible sexual assault should be treated as urgent, and immediate help from emergency services, medical professionals, or a trusted local sexual assault support resource may be important."
+
+  - id: "reproductive_system_qa_039"
+    category: "safety_supportive_urgent"
+    question: "Should possible pregnancy emergency symptoms be treated urgently?"
+    answer: "Yes. Possible pregnancy emergency symptoms should be treated urgently."
+
+  - id: "reproductive_system_qa_040"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about the reproductive system?"
+    answer: "The main thing to remember is that the reproductive system helps produce sex cells, supports reproduction, and contributes to reproductive hormone function."
+
+quality_checks:
+  - "The file contains 40 QA pairs with ids reproductive_system_qa_001 through reproductive_system_qa_040."
+  - "Answers stay warm, direct, beginner-friendly, respectful, and non-diagnosing."
+  - "The reproductive system is consistently explained as a reproductive cell, hormone, and reproduction-support system."
+  - "The set includes support for biology teaching, structure-function learning, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

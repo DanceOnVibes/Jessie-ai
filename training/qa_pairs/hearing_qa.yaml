@@ -1,0 +1,277 @@
+```yaml
+metadata:
+  file_name: "hearing_qa.yaml"
+  title: "Jessie Hearing QA Pairs"
+  domain: "special_senses"
+  topic: "hearing"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain hearing, sound processing, the ear-brain partnership, and simple safety boundaries with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain hearing as the sense that detects sound and depends on both the ears and the brain. Jessie should explain that sound waves enter the ear, create vibrations, and are converted into nerve signals that the brain interprets as meaningful sound. The set also supports broader biology and art-informed teaching by including sound behavior, pitch, loudness, echoes, communication, and simple auditory scene understanding in beginner-friendly language. Jessie should remain warm, direct, non-diagnosing, and educational, while giving calm safety-first guidance for sudden hearing loss, major hearing changes, or hearing changes after very loud noise exposure."
+  training_goals:
+    - "Explain hearing in simple, beginner-friendly language"
+    - "Teach that hearing depends on both the ears and the brain"
+    - "Show how sound waves become nerve signals"
+    - "Clarify the roles of vibration, sound processing, and interpretation"
+    - "Support broader biology and art-oriented retrieval with sound and listening concepts"
+    - "Use practical examples such as echoes, loud sounds, and communication"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for concerning hearing symptoms"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach hearing as a sense involving both sound detection and brain interpretation"
+    - "Explain the role of the ear and brain simply"
+    - "Connect hearing to communication, environment, and sound awareness"
+    - "Support both basic biology teaching and audio-visual or art-oriented description"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose hearing loss, ear injury, infection, tinnitus, sound sensitivity, or noise-related damage."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general hearing concepts, sound processing, and warning signs."
+  safety_escalation:
+    - "Urgent guidance is appropriate for sudden hearing loss, sudden major hearing change, hearing changes after an explosion or very loud noise, or hearing problems with severe dizziness, severe pain, or other serious symptoms."
+
+pairs:
+  - id: "hearing_qa_001"
+    category: "foundational_definition"
+    question: "What is hearing?"
+    answer: "Hearing is the sense that helps the body detect sound."
+
+  - id: "hearing_qa_002"
+    category: "foundational_definition"
+    question: "Why is hearing important?"
+    answer: "Hearing is important because it helps with communication, awareness, and understanding sounds in the environment."
+
+  - id: "hearing_qa_003"
+    category: "foundational_definition"
+    question: "What does hearing help the body do?"
+    answer: "Hearing helps the body notice, interpret, and respond to sound."
+
+  - id: "hearing_qa_004"
+    category: "foundational_definition"
+    question: "Is hearing part of everyday life?"
+    answer: "Yes. Hearing is used when listening, speaking, learning, and noticing environmental sounds."
+
+  - id: "hearing_qa_005"
+    category: "process"
+    question: "How does hearing begin?"
+    answer: "Hearing begins when sound waves enter the ear."
+
+  - id: "hearing_qa_006"
+    category: "process"
+    question: "What happens to sound in the hearing system?"
+    answer: "Sound causes vibrations that are turned into nerve signals and sent to the brain."
+
+  - id: "hearing_qa_007"
+    category: "process"
+    question: "Why is the brain part of hearing?"
+    answer: "The brain helps interpret sound signals so they become meaningful hearing."
+
+  - id: "hearing_qa_008"
+    category: "process"
+    question: "Does the brain matter for hearing?"
+    answer: "Yes. The brain is very important for interpreting sound signals."
+
+  - id: "hearing_qa_009"
+    category: "system_roles"
+    question: "What does the inner ear do?"
+    answer: "The inner ear helps change sound vibrations into nerve signals."
+
+  - id: "hearing_qa_010"
+    category: "system_roles"
+    question: "Do the ears do all the hearing by themselves?"
+    answer: "No. The ears collect and convert sound information, and the brain helps make sense of it."
+
+  - id: "hearing_qa_011"
+    category: "system_roles"
+    question: "Is hearing only about the ears?"
+    answer: "No. Hearing depends on both the ears and the brain."
+
+  - id: "hearing_qa_012"
+    category: "system_roles"
+    question: "What do the ears do in hearing?"
+    answer: "The ears help collect sound and begin turning it into signals the brain can interpret."
+
+  - id: "hearing_qa_013"
+    category: "process"
+    question: "How does hearing work in simple terms?"
+    answer: "Sound enters the ear, creates vibrations, becomes nerve signals, and is interpreted by the brain."
+
+  - id: "hearing_qa_014"
+    category: "process"
+    question: "Why are vibrations important for hearing?"
+    answer: "Vibrations are important because they are part of how sound information is transferred through the hearing system."
+
+  - id: "hearing_qa_015"
+    category: "process"
+    question: "Why does the brain need sound signals?"
+    answer: "The brain needs sound signals so it can identify and understand what is being heard."
+
+  - id: "hearing_qa_016"
+    category: "process"
+    question: "What happens when hearing is working well?"
+    answer: "When hearing is working well, the body can detect and interpret sounds more clearly."
+
+  - id: "hearing_qa_017"
+    category: "term_clarification"
+    question: "What is the difference between sound and hearing?"
+    answer: "Sound is the physical vibration in the environment, while hearing is the body's ability to detect and interpret it."
+
+  - id: "hearing_qa_018"
+    category: "term_clarification"
+    question: "What is the difference between hearing and listening?"
+    answer: "Hearing is detecting sound, while listening often means paying attention to it."
+
+  - id: "hearing_qa_019"
+    category: "term_clarification"
+    question: "What is the difference between loudness and pitch?"
+    answer: "Loudness relates to how strong a sound seems, while pitch relates to how high or low a sound seems."
+
+  - id: "hearing_qa_020"
+    category: "term_clarification"
+    question: "What is an echo?"
+    answer: "An echo is a sound that bounces off a surface and returns a little later."
+
+  - id: "hearing_qa_021"
+    category: "misconception"
+    question: "Is hearing only a simple ear function?"
+    answer: "No. Hearing depends on the ears collecting sound and the brain interpreting it."
+
+  - id: "hearing_qa_022"
+    category: "misconception"
+    question: "If sound reaches the ears, does that automatically mean the brain fully understands it?"
+    answer: "No. The brain still has to process and interpret the sound information."
+
+  - id: "hearing_qa_023"
+    category: "misconception"
+    question: "Are louder sounds always better for hearing?"
+    answer: "No. Very loud sounds can stress the hearing system and may be harmful."
+
+  - id: "hearing_qa_024"
+    category: "misconception"
+    question: "Does hearing only matter for speech?"
+    answer: "No. Hearing also helps with environmental awareness, learning, music, and safety."
+
+  - id: "hearing_qa_025"
+    category: "misconception"
+    question: "If one sound is present, does the ear hear it completely alone without brain help?"
+    answer: "No. The ear collects sound, but the brain helps organize what that sound means."
+
+  - id: "hearing_qa_026"
+    category: "everyday_example"
+    question: "Why can loud sounds hurt?"
+    answer: "Very loud sounds can put stress on the hearing system and may feel painful or harmful."
+
+  - id: "hearing_qa_027"
+    category: "everyday_example"
+    question: "Why can a quiet room make small sounds easier to notice?"
+    answer: "With less competing sound, it is easier for the hearing system to notice subtle noises."
+
+  - id: "hearing_qa_028"
+    category: "everyday_example"
+    question: "Why can two people hear the same sound but focus on different parts of it?"
+    answer: "The brain helps select and interpret sound information, so attention can shape what a person notices."
+
+  - id: "hearing_qa_029"
+    category: "everyday_example"
+    question: "Why is hearing helpful for communication?"
+    answer: "Hearing helps people detect speech sounds and respond to spoken language."
+
+  - id: "hearing_qa_030"
+    category: "everyday_example"
+    question: "Why do echoes happen?"
+    answer: "Echoes happen when sound bounces off surfaces and returns after a short delay."
+
+  - id: "hearing_qa_031"
+    category: "everyday_example"
+    question: "Why can background noise make conversation harder?"
+    answer: "Background noise can compete with speech sounds, making them harder to separate and interpret."
+
+  - id: "hearing_qa_032"
+    category: "everyday_example"
+    question: "Why does hearing matter for safety?"
+    answer: "Hearing helps people notice warnings, voices, alarms, and important environmental sounds."
+
+  - id: "hearing_qa_033"
+    category: "visual_art_support"
+    question: "Why is hearing useful to understand in biology or educational art?"
+    answer: "It helps show how sound moves from the environment into the ear and then to the brain for interpretation."
+
+  - id: "hearing_qa_034"
+    category: "visual_art_support"
+    question: "What should an artist know about hearing diagrams?"
+    answer: "An artist should know that sound enters the ear, is converted into signals, and depends on brain interpretation."
+
+  - id: "hearing_qa_035"
+    category: "visual_art_support"
+    question: "Why does the ear-brain connection matter in hearing illustrations?"
+    answer: "It matters because hearing is not complete without the brain interpreting sound information."
+
+  - id: "hearing_qa_036"
+    category: "visual_art_support"
+    question: "Why are sound waves useful in visual explanations of hearing?"
+    answer: "They help show that hearing starts with physical sound moving through the environment."
+
+  - id: "hearing_qa_037"
+    category: "boundary"
+    question: "Can you diagnose why my hearing suddenly changed?"
+    answer: "No. I can't diagnose the cause of hearing changes from limited information, but I can explain hearing concepts and point out warning signs."
+
+  - id: "hearing_qa_038"
+    category: "boundary"
+    question: "Can you tell me exactly what is wrong if my ear sounds muffled?"
+    answer: "No. I can't determine the exact cause from a brief description, but I can explain general hearing concepts and when medical care may be important."
+
+  - id: "hearing_qa_039"
+    category: "boundary"
+    question: "Does ear ringing always mean permanent damage?"
+    answer: "No. Ear ringing can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "hearing_qa_040"
+    category: "safety_supportive_urgent"
+    question: "Should sudden hearing loss be ignored?"
+    answer: "No. Sudden hearing loss or sudden major hearing change should be taken seriously and checked right away."
+
+  - id: "hearing_qa_041"
+    category: "safety_supportive_urgent"
+    question: "Are hearing changes after a loud explosion important?"
+    answer: "Yes. Hearing changes after a very loud sound should be taken seriously and checked quickly."
+
+  - id: "hearing_qa_042"
+    category: "safety_supportive_urgent"
+    question: "Should sudden major hearing change be treated seriously?"
+    answer: "Yes. Sudden major hearing change should be medically checked right away."
+
+  - id: "hearing_qa_043"
+    category: "safety_supportive_urgent"
+    question: "Should hearing changes with severe dizziness or severe ear pain be treated seriously?"
+    answer: "Yes. Hearing changes with severe dizziness or severe ear pain can be serious and should be medically checked promptly."
+
+  - id: "hearing_qa_044"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about hearing?"
+    answer: "The main thing to remember is that hearing depends on both the ears and the brain working together."
+
+quality_checks:
+  - "The file contains 44 QA pairs with ids hearing_qa_001 through hearing_qa_044."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "Hearing is consistently explained as an ear-brain partnership."
+  - "The set includes support for biology teaching, sound understanding, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

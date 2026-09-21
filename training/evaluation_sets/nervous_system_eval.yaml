@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Nervous System Evaluation Set"
+  domain: "human_body"
+  topic: "nervous_system"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of the nervous system, brain and nerve function, communication and control, sensation, movement coordination, automatic regulation, system interactions, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "nervous_eval_001"
+      prompt: "What is the nervous system?"
+      expected: "The nervous system is the body system that helps control, coordinate, and communicate throughout the body."
+
+    - id: "nervous_eval_002"
+      prompt: "What is the main job of the nervous system?"
+      expected: "Its main job is to receive information, process it, and send signals that guide body functions and behavior."
+
+    - id: "nervous_eval_003"
+      prompt: "Why is the nervous system important?"
+      expected: "It is important because it helps the body sense, think, move, regulate, and respond."
+
+    - id: "nervous_eval_004"
+      prompt: "What structures are central to the nervous system?"
+      expected: "The brain, spinal cord, and nerves are central parts of the nervous system."
+
+    - id: "nervous_eval_005"
+      prompt: "What does the brain do in a simple way?"
+      expected: "The brain helps process information, coordinate actions, and support thought, memory, and behavior."
+
+    - id: "nervous_eval_006"
+      prompt: "What does the spinal cord do in a simple way?"
+      expected: "The spinal cord helps carry signals between the brain and the rest of the body."
+
+    - id: "nervous_eval_007"
+      prompt: "What do nerves do in a simple way?"
+      expected: "Nerves carry signals between the brain, spinal cord, and body."
+
+    - id: "nervous_eval_008"
+      prompt: "Can the nervous system help the body sense the environment?"
+      expected: "Yes. It helps detect touch, temperature, pain, sound, light, and other information."
+
+    - id: "nervous_eval_009"
+      prompt: "Can the nervous system help control movement?"
+      expected: "Yes. It helps plan, coordinate, and carry out movement."
+
+    - id: "nervous_eval_010"
+      prompt: "Can the nervous system help with thought and memory?"
+      expected: "Yes. The nervous system supports thinking, learning, memory, and decision-making."
+
+    - id: "nervous_eval_011"
+      prompt: "Can the nervous system help with emotion?"
+      expected: "Yes. The nervous system helps support emotion and behavior."
+
+    - id: "nervous_eval_012"
+      prompt: "Can the nervous system help with balance and coordination?"
+      expected: "Yes. It helps the body maintain balance and coordinated movement."
+
+    - id: "nervous_eval_013"
+      prompt: "Does the nervous system only control voluntary movement?"
+      expected: "No. It also helps regulate automatic functions such as breathing, heart rate, and reflexes."
+
+    - id: "nervous_eval_014"
+      prompt: "What is a reflex in a simple way?"
+      expected: "A reflex is a rapid automatic response to a stimulus."
+
+    - id: "nervous_eval_015"
+      prompt: "Can the nervous system produce reflexes?"
+      expected: "Yes. The nervous system helps produce quick automatic responses."
+
+    - id: "nervous_eval_016"
+      prompt: "Can the nervous system interact with the muscular system?"
+      expected: "Yes. Nerves help control muscle activity and movement."
+
+    - id: "nervous_eval_017"
+      prompt: "Can the nervous system interact with the endocrine system?"
+      expected: "Yes. The nervous and endocrine systems work together to regulate body functions."
+
+    - id: "nervous_eval_018"
+      prompt: "Can the nervous system interact with the circulatory system?"
+      expected: "Yes. It helps regulate circulation-related functions such as heart rate and vessel tone."
+
+    - id: "nervous_eval_019"
+      prompt: "Can the nervous system interact with the respiratory system?"
+      expected: "Yes. It helps regulate breathing patterns and respiratory control."
+
+    - id: "nervous_eval_020"
+      prompt: "Can the nervous system interact with the digestive system?"
+      expected: "Yes. It helps regulate digestive activity and related sensations."
+
+    - id: "nervous_eval_021"
+      prompt: "Can the nervous system help the body respond to danger?"
+      expected: "Yes. It helps detect threats and coordinate protective responses."
+
+    - id: "nervous_eval_022"
+      prompt: "Can the nervous system help control posture?"
+      expected: "Yes. It helps maintain posture and body position."
+
+    - id: "nervous_eval_023"
+      prompt: "Can the nervous system help with speech?"
+      expected: "Yes. It helps control language, voice, and speech-related movement."
+
+    - id: "nervous_eval_024"
+      prompt: "Can the nervous system help with swallowing?"
+      expected: "Yes. It helps coordinate swallowing."
+
+    - id: "nervous_eval_025"
+      prompt: "Can the nervous system help the body notice pain?"
+      expected: "Yes. It helps detect and process pain signals."
+
+    - id: "nervous_eval_026"
+      prompt: "Can the nervous system help the body notice temperature?"
+      expected: "Yes. It helps detect temperature-related sensations."
+
+    - id: "nervous_eval_027"
+      prompt: "Can the nervous system help the body notice touch and pressure?"
+      expected: "Yes. It helps detect touch, pressure, and related sensations."
+
+    - id: "nervous_eval_028"
+      prompt: "Can the nervous system help a person know where their body parts are?"
+      expected: "Yes. It helps support body position awareness."
+
+    - id: "nervous_eval_029"
+      prompt: "Can the nervous system help with vision, hearing, taste, and smell processing?"
+      expected: "Yes. It helps process sensory information from multiple senses."
+
+    - id: "nervous_eval_030"
+      prompt: "Can the nervous system support sleep and wakefulness?"
+      expected: "Yes. It helps regulate sleep, alertness, and daily rhythms."
+
+    - id: "nervous_eval_031"
+      prompt: "Can the nervous system support attention and concentration?"
+      expected: "Yes. It is important for focus and mental processing."
+
+    - id: "nervous_eval_032"
+      prompt: "Can the nervous system support learning?"
+      expected: "Yes. Learning depends on nervous system function."
+
+    - id: "nervous_eval_033"
+      prompt: "Can the nervous system help form memories?"
+      expected: "Yes. Memory formation and recall depend on nervous system activity."
+
+    - id: "nervous_eval_034"
+      prompt: "Can the nervous system affect mood or behavior?"
+      expected: "Yes. Nervous system function influences mood, emotion, and behavior."
+
+    - id: "nervous_eval_035"
+      prompt: "Can the nervous system support automatic body regulation?"
+      expected: "Yes. It helps regulate automatic processes such as heart rate, breathing, and digestion."
+
+    - id: "nervous_eval_036"
+      prompt: "Can the nervous system respond quickly compared with some other body systems?"
+      expected: "Yes. The nervous system can send rapid signals throughout the body."
+
+    - id: "nervous_eval_037"
+      prompt: "Can nerves carry signals to muscles and from sensory organs?"
+      expected: "Yes. Some nerves carry sensory input and others carry motor commands."
+
+    - id: "nervous_eval_038"
+      prompt: "Can the nervous system matter during exercise?"
+      expected: "Yes. It helps coordinate movement, balance, breathing, and circulation changes during activity."
+
+    - id: "nervous_eval_039"
+      prompt: "Can the nervous system matter during rest?"
+      expected: "Yes. It continues to regulate sensation, internal function, and sleep-related processes."
+
+    - id: "nervous_eval_040"
+      prompt: "Can the nervous system be active even when a person is not consciously thinking about it?"
+      expected: "Yes. Many nervous system functions happen automatically."
+
+    - id: "nervous_eval_041"
+      prompt: "Can injury to nerves affect sensation?"
+      expected: "Yes. Nerve problems can affect feeling, movement, or both."
+
+    - id: "nervous_eval_042"
+      prompt: "Can nerve problems affect muscle control?"
+      expected: "Yes. Nerve problems can affect muscle activation and coordination."
+
+    - id: "nervous_eval_043"
+      prompt: "Can numbness or tingling relate to the nervous system?"
+      expected: "Yes. Numbness or tingling can relate to nerve or nervous system issues."
+
+    - id: "nervous_eval_044"
+      prompt: "Can weakness sometimes relate to nervous system problems?"
+      expected: "Yes. Weakness can sometimes be caused by nervous system dysfunction."
+
+    - id: "nervous_eval_045"
+      prompt: "Can dizziness or balance problems sometimes involve the nervous system?"
+      expected: "Yes. Balance and orientation involve nervous system function."
+
+    - id: "nervous_eval_046"
+      prompt: "Can headaches relate to nervous system function?"
+      expected: "Yes. Headaches can involve nervous system and related processes."
+
+    - id: "nervous_eval_047"
+      prompt: "Can confusion reflect nervous system problems?"
+      expected: "Yes. Confusion can reflect serious nervous system or other medical issues."
+
+    - id: "nervous_eval_048"
+      prompt: "Can seizures involve the nervous system?"
+      expected: "Yes. Seizures are nervous system events and should be taken seriously."
+
+    - id: "nervous_eval_049"
+      prompt: "Can loss of consciousness be serious?"
+      expected: "Yes. Loss of consciousness is serious and requires prompt attention."
+
+    - id: "nervous_eval_050"
+      prompt: "Can the nervous system help coordinate both large and small movements?"
+      expected: "Yes. It supports both gross and fine motor control."
+
+    - id: "nervous_eval_051"
+      prompt: "Can the nervous system help with handwriting or precise hand movements?"
+      expected: "Yes. Fine motor tasks depend on nervous system control."
+
+    - id: "nervous_eval_052"
+      prompt: "Can the nervous system help with facial movements?"
+      expected: "Yes. Facial expression and facial movement depend on nervous system control."
+
+    - id: "nervous_eval_053"
+      prompt: "Can nervous system changes affect one side of the body?"
+      expected: "Yes. Some nervous system problems can affect one side more than the other."
+
+    - id: "nervous_eval_054"
+      prompt: "Can sudden trouble speaking be important?"
+      expected: "Yes. Sudden trouble speaking should be taken seriously and evaluated promptly."
+
+    - id: "nervous_eval_055"
+      prompt: "Can sudden facial droop be important?"
+      expected: "Yes. Sudden facial droop should be taken seriously and evaluated promptly."
+
+    - id: "nervous_eval_056"
+      prompt: "Can sudden arm or leg weakness be important?"
+      expected: "Yes. Sudden weakness should be taken seriously and evaluated promptly."
+
+    - id: "nervous_eval_057"
+      prompt: "Can sudden severe headache be important?"
+      expected: "Yes. A sudden severe headache can be serious and should be evaluated promptly."
+
+    - id: "nervous_eval_058"
+      prompt: "Should a seizure be taken seriously?"
+      expected: "Yes. A seizure should be taken seriously and evaluated promptly."
+
+    - id: "nervous_eval_059"
+      prompt: "Should new confusion or sudden major behavior change be taken seriously?"
+      expected: "Yes. New confusion or sudden major behavior change should be evaluated promptly."
+
+    - id: "nervous_eval_060"
+      prompt: "Should sudden numbness on one side of the body be taken seriously?"
+      expected: "Yes. Sudden one-sided numbness should be evaluated promptly."
+
+    - id: "nervous_eval_061"
+      prompt: "Should trouble walking with sudden neurological symptoms be considered urgent?"
+      expected: "Yes. Trouble walking with sudden neurological symptoms can be urgent."
+
+    - id: "nervous_eval_062"
+      prompt: "Should loss of consciousness or fainting with neurological symptoms be considered serious?"
+      expected: "Yes. Those symptoms are serious and require prompt attention."
+
+    - id: "nervous_eval_063"
+      prompt: "Can the nervous system help the body adapt quickly to changing situations?"
+      expected: "Yes. It helps the body sense change and respond rapidly."
+
+    - id: "nervous_eval_064"
+      prompt: "Can the nervous system help a person pull away from something painful?"
+      expected: "Yes. Protective reflexes can help the body respond quickly to danger."
+
+    - id: "nervous_eval_065"
+      prompt: "Can the nervous system influence heart rate during stress?"
+      expected: "Yes. It helps regulate body responses during stress."
+
+    - id: "nervous_eval_066"
+      prompt: "Can the nervous system influence digestion during stress or rest?"
+      expected: "Yes. Nervous system regulation affects digestive activity in different states."
+
+    - id: "nervous_eval_067"
+      prompt: "Can the nervous system be described as an information and control network?"
+      expected: "Yes. It is a body-wide communication and control network."
+
+    - id: "nervous_eval_068"
+      prompt: "Can nervous system health affect independence and daily life?"
+      expected: "Yes. Nervous system function is essential for communication, mobility, thinking, and safety."
+
+    - id: "nervous_eval_069"
+      prompt: "Can nervous system problems affect work, school, or relationships?"
+      expected: "Yes. Changes in thinking, mood, movement, or sensation can affect many parts of life."
+
+    - id: "nervous_eval_070"
+      prompt: "Can the nervous system support both conscious and unconscious body functions?"
+      expected: "Yes. It supports both voluntary actions and automatic regulation."
+
+    - id: "nervous_eval_071"
+      prompt: "Can the nervous system help connect sensation, movement, thought, and emotion?"
+      expected: "Yes. It links those functions together as part of overall regulation."
+
+    - id: "nervous_eval_072"
+      prompt: "Can the nervous system matter throughout the entire lifespan?"
+      expected: "Yes. Nervous system function is important from early development through older age."
+
+    - id: "nervous_eval_073"
+      prompt: "Can the nervous system and endocrine system both help the body respond to stress?"
+      expected: "Yes. They work together to help regulate stress responses."
+
+    - id: "nervous_eval_074"
+      prompt: "Can sleep problems affect nervous system function during the day?"
+      expected: "Yes. Poor sleep can affect attention, mood, and cognitive performance."
+
+    - id: "nervous_eval_075"
+      prompt: "Can the nervous system influence how pain is experienced?"
+      expected: "Yes. The nervous system detects, carries, and processes pain signals."
+
+    - id: "nervous_eval_076"
+      prompt: "What is the main idea of the nervous system?"
+      expected: "The nervous system receives information, processes it, and sends signals that help control sensation, movement, thought, behavior, and automatic body functions."
+
+    - id: "nervous_eval_077"
+      prompt: "Can the nervous system involve the brain, spinal cord, nerves, and body-wide signaling together?"
+      expected: "Yes. It includes central and peripheral structures working together."
+
+    - id: "nervous_eval_078"
+      prompt: "Can nervous system symptoms be important even if they appear briefly?"
+      expected: "Yes. Brief sudden neurological symptoms can still be serious and should be evaluated."
+
+    - id: "nervous_eval_079"
+      prompt: "Can the nervous system coordinate sensory input, motor output, and internal regulation at the same time?"
+      expected: "Yes. It handles all of those functions together."
+
+    - id: "nervous_eval_080"
+      prompt: "What should be done if nervous system symptoms are sudden, severe, worsening, or linked with facial droop, one-sided weakness, trouble speaking, seizure, loss of consciousness, or severe confusion?"
+      expected: "Sudden, severe, or concerning nervous system symptoms should be evaluated promptly, and urgent symptoms require immediate attention."

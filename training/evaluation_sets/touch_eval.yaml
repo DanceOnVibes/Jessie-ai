@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Touch Evaluation Set"
+  domain: "body_awareness"
+  topic: "touch"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of touch, skin sensation, pressure and texture awareness, protective sensation, sensory function impact, common touch changes, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "touch_eval_001"
+      prompt: "What is the sense of touch?"
+      expected: "The sense of touch is the ability to feel contact, pressure, texture, vibration, and related sensations through the body."
+
+    - id: "touch_eval_002"
+      prompt: "Why is touch important?"
+      expected: "Touch is important because it helps with body awareness, object handling, social interaction, and protection from harm."
+
+    - id: "touch_eval_003"
+      prompt: "Does touch help with safety?"
+      expected: "Yes. Touch helps detect pressure, heat, cold, pain, and other sensations that can warn of danger."
+
+    - id: "touch_eval_004"
+      prompt: "Does touch depend on the skin and nervous system?"
+      expected: "Yes. Touch depends on sensory receptors in the body and nervous system processing."
+
+    - id: "touch_eval_005"
+      prompt: "Can touch help a person feel texture?"
+      expected: "Yes. Touch helps detect texture and surface differences."
+
+    - id: "touch_eval_006"
+      prompt: "Can touch help a person feel pressure?"
+      expected: "Yes. Touch helps detect pressure and contact."
+
+    - id: "touch_eval_007"
+      prompt: "Can touch help a person feel vibration?"
+      expected: "Yes. Touch can include vibration sensation."
+
+    - id: "touch_eval_008"
+      prompt: "Can touch help with body awareness?"
+      expected: "Yes. Touch contributes to body awareness and interaction with the environment."
+
+    - id: "touch_eval_009"
+      prompt: "Can touch work together with proprioception?"
+      expected: "Yes. Touch and proprioception work together to guide body awareness and movement."
+
+    - id: "touch_eval_010"
+      prompt: "Can touch matter when holding or using objects?"
+      expected: "Yes. Touch helps control grip and object handling."
+
+    - id: "touch_eval_011"
+      prompt: "Can touch help with balance in some ways?"
+      expected: "Yes. Sensory feedback from the body can help support stability and movement."
+
+    - id: "touch_eval_012"
+      prompt: "Can reduced touch sensation affect daily tasks?"
+      expected: "Yes. Reduced touch can make handling objects and noticing injury harder."
+
+    - id: "touch_eval_013"
+      prompt: "Can numbness reduce touch sensation?"
+      expected: "Yes. Numbness can reduce or block normal touch sensation."
+
+    - id: "touch_eval_014"
+      prompt: "Can tingling be related to altered touch sensation?"
+      expected: "Yes. Tingling can reflect altered sensory function."
+
+    - id: "touch_eval_015"
+      prompt: "Can the hands be especially important for touch?"
+      expected: "Yes. The hands are especially important for fine touch and object interaction."
+
+    - id: "touch_eval_016"
+      prompt: "Can the feet be important for touch during standing and walking?"
+      expected: "Yes. Sensation in the feet helps with balance, walking, and awareness of the ground."
+
+    - id: "touch_eval_017"
+      prompt: "Can touch help a person notice injury?"
+      expected: "Yes. Touch helps a person notice pressure, pain, temperature, and other signs of injury."
+
+    - id: "touch_eval_018"
+      prompt: "What is a simple example of touch at work?"
+      expected: "Feeling the texture of fabric or noticing pressure from holding a cup is a simple example of touch."
+
+    - id: "touch_eval_019"
+      prompt: "Can touch include light touch and deeper pressure?"
+      expected: "Yes. Touch includes different kinds of sensory input."
+
+    - id: "touch_eval_020"
+      prompt: "Can skin condition affect touch sensation?"
+      expected: "Yes. Skin problems can affect comfort and sensory experience."
+
+    - id: "touch_eval_021"
+      prompt: "Can nerve problems affect touch?"
+      expected: "Yes. Nerve problems can reduce or alter touch sensation."
+
+    - id: "touch_eval_022"
+      prompt: "Can circulation problems sometimes affect sensation?"
+      expected: "Yes. Reduced circulation can sometimes affect sensation and comfort."
+
+    - id: "touch_eval_023"
+      prompt: "Can touch changes happen gradually or suddenly?"
+      expected: "Yes. Touch changes can happen gradually or suddenly."
+
+    - id: "touch_eval_024"
+      prompt: "Can touch sensitivity be increased in some conditions?"
+      expected: "Yes. Some people become unusually sensitive to touch."
+
+    - id: "touch_eval_025"
+      prompt: "Can touch sensitivity be decreased in some conditions?"
+      expected: "Yes. Some people have reduced touch sensation."
+
+    - id: "touch_eval_026"
+      prompt: "Can touch help a person recognize if something is rough or smooth?"
+      expected: "Yes. Touch helps detect surface qualities."
+
+    - id: "touch_eval_027"
+      prompt: "Can touch help a person notice whether clothing, objects, or surfaces are comfortable?"
+      expected: "Yes. Touch helps assess comfort and contact with objects or surfaces."
+
+    - id: "touch_eval_028"
+      prompt: "Can touch help protect the body from pressure injury or burns?"
+      expected: "Yes. Normal sensation helps a person notice harmful pressure or temperature."
+
+    - id: "touch_eval_029"
+      prompt: "Can loss of touch sensation increase injury risk?"
+      expected: "Yes. Reduced sensation can make it harder to notice harm."
+
+    - id: "touch_eval_030"
+      prompt: "Can touch matter during sports or exercise?"
+      expected: "Yes. Touch helps with grip, body awareness, and interaction with surfaces."
+
+    - id: "touch_eval_031"
+      prompt: "Can touch contribute to fine motor skills?"
+      expected: "Yes. Touch helps guide precise hand use and object control."
+
+    - id: "touch_eval_032"
+      prompt: "Can touch support social interaction?"
+      expected: "Yes. Touch can play a role in comfort, connection, and social communication."
+
+    - id: "touch_eval_033"
+      prompt: "Can altered touch sensation affect mood or confidence?"
+      expected: "Yes. Ongoing sensory changes can affect comfort and confidence."
+
+    - id: "touch_eval_034"
+      prompt: "Can pain and touch be related but not identical?"
+      expected: "Yes. Pain and touch are related sensory systems but are not the same."
+
+    - id: "touch_eval_035"
+      prompt: "Can temperature sensation be related to touch?"
+      expected: "Yes. Temperature sensation is closely related to overall body sensation."
+
+    - id: "touch_eval_036"
+      prompt: "Can touch help a person use the right grip force?"
+      expected: "Yes. Touch feedback helps guide grip and object handling."
+
+    - id: "touch_eval_037"
+      prompt: "Can altered touch in the feet make walking feel less secure?"
+      expected: "Yes. Reduced sensation in the feet can affect balance and walking confidence."
+
+    - id: "touch_eval_038"
+      prompt: "Can touch changes affect writing, buttoning clothes, or using tools?"
+      expected: "Yes. Fine tasks can be harder with altered sensation."
+
+    - id: "touch_eval_039"
+      prompt: "Can touch changes affect sleep or comfort?"
+      expected: "Yes. Sensory discomfort can interfere with rest and comfort."
+
+    - id: "touch_eval_040"
+      prompt: "Can touch changes affect independence?"
+      expected: "Yes. Significant touch changes can affect daily tasks and safety."
+
+    - id: "touch_eval_041"
+      prompt: "Can one side of the body have reduced touch sensation in some conditions?"
+      expected: "Yes. Some conditions can affect sensation on one side more than the other."
+
+    - id: "touch_eval_042"
+      prompt: "Can a person still move a limb even if touch sensation is reduced?"
+      expected: "Yes. Movement and touch are related but can be affected differently."
+
+    - id: "touch_eval_043"
+      prompt: "Can severe swelling or injury affect sensation temporarily?"
+      expected: "Yes. Swelling or injury can change sensation."
+
+    - id: "touch_eval_044"
+      prompt: "Can cold exposure affect touch sensation?"
+      expected: "Yes. Cold can reduce sensation or make touch feel different."
+
+    - id: "touch_eval_045"
+      prompt: "Can touch help detect vibration from tools or devices?"
+      expected: "Yes. Vibration is part of sensory touch experience."
+
+    - id: "touch_eval_046"
+      prompt: "Can touch sensation matter across the lifespan?"
+      expected: "Yes. Touch is important from infancy through older age."
+
+    - id: "touch_eval_047"
+      prompt: "Can touch changes happen after injury or surgery?"
+      expected: "Yes. Injury or surgery can sometimes affect sensation."
+
+    - id: "touch_eval_048"
+      prompt: "Can touch problems occur with skin, nerve, spinal, or brain-related causes?"
+      expected: "Yes. Touch changes can come from multiple levels of the sensory system."
+
+    - id: "touch_eval_049"
+      prompt: "Can increased touch sensitivity make clothing or contact uncomfortable?"
+      expected: "Yes. Increased sensitivity can make normal contact feel unpleasant."
+
+    - id: "touch_eval_050"
+      prompt: "Can reduced touch make burns or pressure injuries easier to miss?"
+      expected: "Yes. Reduced touch can make injuries harder to detect."
+
+    - id: "touch_eval_051"
+      prompt: "Can sudden numbness be important?"
+      expected: "Yes. Sudden numbness can be important and should be evaluated."
+
+    - id: "touch_eval_052"
+      prompt: "Can sudden loss of sensation on one side of the body be serious?"
+      expected: "Yes. One-sided sudden sensory loss can be serious and requires prompt attention."
+
+    - id: "touch_eval_053"
+      prompt: "Can touch changes with weakness or facial droop be urgent?"
+      expected: "Yes. That combination can be urgent and should be evaluated immediately."
+
+    - id: "touch_eval_054"
+      prompt: "Can touch loss after head, neck, or back injury be important?"
+      expected: "Yes. Sensory changes after trauma should be taken seriously."
+
+    - id: "touch_eval_055"
+      prompt: "Can numbness in a limb with severe pain, color change, or coldness be serious?"
+      expected: "Yes. That combination can suggest a serious problem and requires prompt evaluation."
+
+    - id: "touch_eval_056"
+      prompt: "Can progressive numbness in the feet affect fall risk?"
+      expected: "Yes. Worsening foot numbness can increase fall risk and needs attention."
+
+    - id: "touch_eval_057"
+      prompt: "Should complete loss of feeling in an area be ignored?"
+      expected: "No. Complete loss of sensation should be evaluated."
+
+    - id: "touch_eval_058"
+      prompt: "Should touch changes with trouble speaking, confusion, or vision changes be considered urgent?"
+      expected: "Yes. Those symptoms together can indicate an emergency."
+
+    - id: "touch_eval_059"
+      prompt: "Can reduced touch sensation make wound care or skin monitoring more important?"
+      expected: "Yes. Reduced sensation can make careful skin awareness more important."
+
+    - id: "touch_eval_060"
+      prompt: "Can touch function depend on healthy receptors, nerves, spinal pathways, and brain processing?"
+      expected: "Yes. Normal touch depends on all of those parts working together."
+
+    - id: "touch_eval_061"
+      prompt: "Can touch help the body interact with tools, devices, and the environment?"
+      expected: "Yes. Touch helps guide safe and effective interaction with the world."
+
+    - id: "touch_eval_062"
+      prompt: "Can touch be important even when a person is not moving?"
+      expected: "Yes. Touch helps the body sense contact and pressure even at rest."
+
+    - id: "touch_eval_063"
+      prompt: "Can touch changes affect both safety and comfort?"
+      expected: "Yes. Altered touch can affect injury detection and comfort."
+
+    - id: "touch_eval_064"
+      prompt: "Can touch problems matter even if pain is not the main symptom?"
+      expected: "Yes. Numbness or sensory change alone can still be important."
+
+    - id: "touch_eval_065"
+      prompt: "Can sensory feedback from touch help prevent dropping objects?"
+      expected: "Yes. Touch helps guide grip and object stability."
+
+    - id: "touch_eval_066"
+      prompt: "Can touch and movement coordination work together in daily activities?"
+      expected: "Yes. Touch feedback supports controlled movement."
+
+    - id: "touch_eval_067"
+      prompt: "Can altered sensation affect confidence during walking or tool use?"
+      expected: "Yes. Reduced sensation can make movement or handling tasks feel less secure."
+
+    - id: "touch_eval_068"
+      prompt: "Can touch changes deserve attention even if they begin gradually?"
+      expected: "Yes. Gradual changes can still affect function and safety."
+
+    - id: "touch_eval_069"
+      prompt: "Can touch be part of both protective sensation and fine discrimination?"
+      expected: "Yes. Touch helps detect danger and also distinguish details."
+
+    - id: "touch_eval_070"
+      prompt: "Can touch support awareness of texture, pressure, contact, vibration, and position-related information together?"
+      expected: "Yes. Touch contributes to multiple forms of sensory awareness."
+
+    - id: "touch_eval_071"
+      prompt: "Can touch changes affect work, sports, or self-care?"
+      expected: "Yes. Sensory changes can affect many daily and physical activities."
+
+    - id: "touch_eval_072"
+      prompt: "Can severe sensory changes after trauma require prompt medical evaluation?"
+      expected: "Yes. Serious sensory changes after trauma should be evaluated promptly."
+
+    - id: "touch_eval_073"
+      prompt: "Can touch loss in the feet make it harder to notice injury from shoes or hot surfaces?"
+      expected: "Yes. Reduced foot sensation can make injury easier to miss."
+
+    - id: "touch_eval_074"
+      prompt: "Can touch changes overlap with temperature, pain, or proprioception changes?"
+      expected: "Yes. Sensory systems often overlap in body awareness complaints."
+
+    - id: "touch_eval_075"
+      prompt: "Can normal touch support both independence and injury prevention?"
+      expected: "Yes. Touch helps with safe function, comfort, and daily tasks."
+
+    - id: "touch_eval_076"
+      prompt: "What is the main idea of touch?"
+      expected: "Touch is a sensory system that helps detect contact, pressure, texture, vibration, and protective sensations, supporting safety, movement, and daily function."
+
+    - id: "touch_eval_077"
+      prompt: "Can touch involve skin sensation, nerve signaling, protective awareness, fine object handling, and body interaction together?"
+      expected: "Yes. Touch contributes to all of those roles."
+
+    - id: "touch_eval_078"
+      prompt: "Can touch-related symptoms matter even if the main complaint is numbness rather than pain?"
+      expected: "Yes. Numbness can still be an important sensory symptom."
+
+    - id: "touch_eval_079"
+      prompt: "Can urgent touch-related concerns include sudden one-sided numbness, sensory loss with weakness, facial droop, confusion, speech changes, or sensory loss after trauma?"
+      expected: "Yes. Those situations can require urgent or immediate attention."
+
+    - id: "touch_eval_080"
+      prompt: "What should be done if touch-related symptoms are sudden, severe, worsening, or linked with one-sided numbness, weakness, facial droop, trouble speaking, confusion, severe pain with color change, or recent head, neck, or back trauma?"
+      expected: "Sudden, severe, or concerning touch-related symptoms should be evaluated promptly, and urgent symptoms require immediate attention."

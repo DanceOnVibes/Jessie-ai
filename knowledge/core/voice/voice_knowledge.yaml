@@ -1,0 +1,282 @@
+knowledge_pack:
+  file_name: "voice_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about voice production, vocal function, speech sound generation, airway relationships, common voice changes, strain patterns, and safety escalation."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "voice"
+    category: "communication and vocal function"
+    domain: "human body and health"
+
+  overview:
+    summary: "Voice is the sound produced when air from the lungs passes through the larynx and causes the vocal folds to vibrate. Voice is essential for speaking, calling, singing, emotional expression, and communication. Healthy voice production depends on breathing support, laryngeal function, vocal fold vibration, resonance, articulation support, hydration, and coordinated nervous system control."
+    why_it_matters:
+      - "Voice is central to communication and social interaction."
+      - "Voice depends on the coordinated work of the respiratory system, larynx, throat, mouth, and nervous system."
+      - "Voice changes can reflect temporary irritation, overuse, infection, reflux, airway problems, or neurologic dysfunction."
+      - "Understanding voice helps Jessie explain hoarseness, strain, loss of voice, and when symptoms are concerning."
+
+  core_definitions:
+    - term: "voice"
+      definition: "Sound produced by vibration of the vocal folds as air passes through the larynx."
+    - term: "larynx"
+      definition: "The voice box, a structure in the throat that contains the vocal folds."
+    - term: "vocal folds"
+      definition: "Bands of tissue in the larynx that vibrate to create sound."
+    - term: "phonation"
+      definition: "The process of producing voice."
+    - term: "hoarseness"
+      definition: "A rough, raspy, breathy, or strained change in voice quality."
+    - term: "resonance"
+      definition: "The shaping and amplification of sound as it travels through the throat, mouth, and nasal spaces."
+    - term: "pitch"
+      definition: "How high or low a voice sounds."
+    - term: "volume"
+      definition: "How loud or soft a voice sounds."
+
+  foundational_principle:
+    summary: "Voice requires airflow, vocal fold vibration, and sound shaping."
+    key_points:
+      - "Air from the lungs provides the power source."
+      - "The vocal folds create sound by vibrating."
+      - "The throat, mouth, and nose shape the sound."
+      - "Voice quality changes when any part of this system is irritated, strained, swollen, weak, or poorly coordinated."
+
+  major_systems_involved:
+    respiratory_system:
+      role: "Provides the airflow that powers voice."
+      importance: "Without adequate airflow and breath support, voice production is weak or difficult."
+    laryngeal_structure:
+      role: "The larynx houses the vocal folds and controls phonation."
+      importance: "It is the main sound-generating structure."
+    vocal_folds:
+      role: "Open, close, and vibrate to create voiced sound."
+      importance: "Their condition strongly affects voice quality."
+    resonating_structures:
+      role: "The throat, oral cavity, and nasal passages shape sound quality."
+      importance: "These structures influence tone, fullness, and clarity."
+    nervous_system:
+      role: "Coordinates breathing, vocal fold movement, timing, and muscle control."
+      importance: "Voice depends on precise motor control."
+    muscular_system:
+      role: "Supports posture, breath control, and laryngeal movement."
+      importance: "Muscle tension or weakness can change voice quality."
+
+  how_voice_is_produced:
+    airflow_phase:
+      - "The lungs push air upward through the airway."
+    phonation_phase:
+      - "As air passes through the larynx, the vocal folds come together and vibrate."
+      - "This vibration creates the basic sound source."
+    resonance_phase:
+      - "The sound is shaped by the throat, mouth, and nasal spaces."
+    articulation_phase:
+      - "The tongue, lips, jaw, and palate help turn sound into speech."
+    control_phase:
+      - "The brain continuously adjusts pitch, loudness, timing, and effort."
+
+  what_affects_voice_quality:
+    healthy_factors:
+      - "adequate hydration"
+      - "good breath support"
+      - "coordinated vocal fold movement"
+      - "balanced muscle use"
+      - "healthy laryngeal tissues"
+    disruptive_factors:
+      - "swelling"
+      - "irritation"
+      - "infection"
+      - "overuse"
+      - "dryness"
+      - "reflux"
+      - "smoke exposure"
+      - "muscle tension"
+      - "nerve dysfunction"
+
+  common_voice_characteristics:
+    - name: "pitch"
+      explanation: "The perceived highness or lowness of the voice."
+    - name: "loudness"
+      explanation: "The volume or intensity of the voice."
+    - name: "quality"
+      explanation: "How the voice sounds, such as clear, breathy, rough, or strained."
+    - name: "stability"
+      explanation: "How steady or shaky the voice sounds."
+    - name: "endurance"
+      explanation: "How well the voice holds up over time without fatigue."
+
+  common_voice_changes:
+    - name: "hoarseness"
+      explanation: "Voice sounds rough, raspy, weak, or breathy."
+    - name: "vocal fatigue"
+      explanation: "The voice becomes tired or harder to use with continued speaking."
+    - name: "voice strain"
+      explanation: "Speaking feels effortful or tight."
+    - name: "reduced volume"
+      explanation: "The voice sounds unusually soft or weak."
+    - name: "voice loss"
+      explanation: "The ability to produce normal voice is partially or completely reduced."
+    - name: "pitch change"
+      explanation: "The voice becomes unusually high, low, or unstable."
+    - name: "voice breaks"
+      explanation: "The voice cuts out, cracks, or shifts unexpectedly."
+
+  common_factors_that_can_affect_voice:
+    short_term_or_common:
+      - "upper respiratory infection"
+      - "shouting"
+      - "heavy voice use"
+      - "dry air"
+      - "dehydration"
+      - "temporary throat irritation"
+    ongoing_or_recurrent:
+      - "chronic voice overuse"
+      - "acid reflux"
+      - "smoking or irritant exposure"
+      - "persistent muscle tension"
+      - "allergic or inflammatory irritation"
+    structural_or_neurologic:
+      - "vocal fold lesions"
+      - "vocal fold weakness"
+      - "nerve dysfunction affecting laryngeal control"
+
+  voice_and_breathing_relationship:
+    summary: "Voice depends directly on breathing."
+    key_points:
+      - "Breath provides the energy source for phonation."
+      - "Shortness of breath can affect speaking ability."
+      - "Airway or breathing problems can change voice quality or make voice use difficult."
+      - "A severe breathing problem always takes priority over voice quality concerns."
+
+  voice_and_swallowing_relationship:
+    summary: "Voice and swallowing involve nearby structures and overlapping control."
+    key_points:
+      - "The larynx helps protect the airway during swallowing."
+      - "Some conditions can affect both voice and swallowing."
+      - "Hoarseness with choking, coughing while swallowing, or aspiration concerns is more significant."
+
+  voice_and_emotion:
+    summary: "Voice carries emotional and social meaning."
+    key_points:
+      - "Stress or emotion can alter voice quality and muscle tension."
+      - "The voice may sound shaky, tight, weak, or strained during distress."
+      - "Emotional factors can influence voice without meaning the symptoms are imaginary."
+
+  important_distinctions:
+    - name: "voice vs speech"
+      explanation: "Voice is the sound source produced at the larynx, while speech includes articulation, language expression, and clarity of spoken words."
+    - name: "hoarseness vs sore throat"
+      explanation: "Hoarseness is a change in sound quality, while sore throat is pain or irritation in the throat."
+    - name: "voice fatigue vs shortness of breath"
+      explanation: "Voice fatigue means the voice tires with use, while shortness of breath is difficulty moving enough air."
+    - name: "temporary voice change vs persistent dysphonia"
+      explanation: "A short-lived voice change is common during irritation or illness, while persistent voice change deserves more attention."
+    - name: "voice problem vs airway emergency"
+      explanation: "Most voice changes are not emergencies, but voice change with breathing difficulty, airway swelling, or severe distress is urgent."
+
+  normal_vs_contributing_contexts:
+    - "A temporary hoarse voice after shouting can be understandable."
+    - "A mildly rough voice during a cold is common."
+    - "Dry air and dehydration can make the voice feel strained."
+    - "Heavy voice use can reduce vocal endurance."
+    - "Repeated strain can turn a temporary voice issue into a more persistent one."
+
+  common_questions_jessie_should_handle:
+    - "How is voice produced?"
+    - "What causes hoarseness?"
+    - "Why does my voice get tired after talking?"
+    - "What is the difference between voice and speech?"
+    - "Why does dehydration affect voice?"
+    - "Why does breathing matter for voice?"
+    - "When is a voice change concerning?"
+
+  functional_impact_of_voice_problems:
+    - "difficulty speaking for long periods"
+    - "reduced communication effectiveness"
+    - "social withdrawal"
+    - "increased speaking effort"
+    - "inability to project the voice"
+    - "frustration or occupational difficulty"
+    - "voice loss during illness or overuse"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "temporary hoarseness after shouting"
+      - "brief rough voice during a minor cold"
+      - "mild temporary vocal fatigue after prolonged talking"
+    should_be_monitored:
+      - "recurrent hoarseness"
+      - "voice strain that keeps returning"
+      - "voice fatigue with ordinary speaking"
+      - "persistent roughness after illness"
+      - "ongoing weak or breathy voice"
+    more_concerning:
+      - "voice change lasting a long time"
+      - "voice problems with swallowing trouble"
+      - "voice change with neck mass or major throat symptoms"
+      - "progressively worsening voice"
+      - "voice problems with neurologic changes"
+    emergency_patterns:
+      - "voice change with severe breathing difficulty"
+      - "stridor or noisy breathing"
+      - "sudden airway swelling"
+      - "inability to speak because of respiratory distress"
+      - "severe allergic reaction signs"
+
+  red_flags:
+    immediate_attention:
+      - "trouble breathing with voice change"
+      - "stridor"
+      - "rapidly worsening airway symptoms"
+      - "voice change with severe allergic symptoms"
+      - "inability to speak due to respiratory distress"
+      - "sudden severe neurologic symptoms affecting speaking"
+      - "loss of consciousness"
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Explain voice as the result of airflow plus vocal fold vibration."
+      - "Differentiate voice problems from broader speech problems."
+      - "Connect hoarseness and strain to common causes like irritation, overuse, and hydration."
+      - "Emphasize the airway relationship when relevant."
+      - "Escalate clearly for breathing-related red flags."
+    style_notes:
+      - "Avoid treating all hoarseness as serious."
+      - "Do not ignore persistent or progressive voice changes."
+      - "Use simple explanations about airflow, vocal folds, and sound shaping."
+      - "Prioritize airway safety over voice quality concerns."
+    teaching_sequence:
+      - "Define voice and phonation."
+      - "Explain how voice is produced."
+      - "Clarify the type of voice change."
+      - "Describe common causes and functional impact."
+      - "Differentiate routine changes from red flags."
+
+  cross_system_links:
+    - "Voice depends on the respiratory system for airflow."
+    - "Voice depends on laryngeal and vocal fold function for sound generation."
+    - "Voice is shaped by the throat, mouth, and nasal structures."
+    - "Voice depends on the nervous system for motor control."
+    - "Voice issues can overlap with breathing and swallowing concerns."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "Voice is produced when air from the lungs passes through the larynx and makes the vocal folds vibrate."
+      - "The sound is then shaped by the throat, mouth, and nose."
+      - "Hoarseness can happen when the vocal folds are irritated, swollen, dry, strained, or not moving normally."
+      - "Voice and speech are related, but they are not the same thing. Voice is the sound source, while speech includes how words are formed and expressed."
+    caution_examples:
+      - "A temporary hoarse voice after illness or shouting can happen, but persistent or worsening voice change deserves more attention."
+      - "If a voice change comes with trouble breathing, noisy breathing, or airway swelling, that is urgent."
+
+  final_summary:
+    summary_points:
+      - "Voice is produced by airflow through the larynx causing the vocal folds to vibrate."
+      - "Healthy voice depends on breath support, vocal fold function, resonance, hydration, and nervous system coordination."
+      - "Common voice changes include hoarseness, strain, fatigue, weak voice, and voice loss."
+      - "Many voice changes are temporary, but persistent or progressive changes are more concerning."
+      - "Breathing difficulty with voice change is an urgent safety issue."
+      - "Jessie should explain voice clearly, distinguish voice from speech, and escalate airway-related red flags immediately."

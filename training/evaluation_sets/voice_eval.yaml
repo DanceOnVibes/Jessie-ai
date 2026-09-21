@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Voice Evaluation Set"
+  domain: "body_awareness"
+  topic: "voice"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of voice, vocal function, speech support, airway interaction, common voice changes, daily function impact, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "voice_eval_001"
+      prompt: "What is the voice?"
+      expected: "The voice is the sound produced when airflow passes through the vocal structures and is shaped for speech and communication."
+
+    - id: "voice_eval_002"
+      prompt: "Why is voice important?"
+      expected: "Voice is important because it helps with speaking, communication, expression, and social interaction."
+
+    - id: "voice_eval_003"
+      prompt: "Does voice depend on breathing?"
+      expected: "Yes. Voice depends on airflow from breathing."
+
+    - id: "voice_eval_004"
+      prompt: "Does voice depend on the throat and vocal structures?"
+      expected: "Yes. Voice depends on structures in the throat working with airflow."
+
+    - id: "voice_eval_005"
+      prompt: "Can the nervous system affect voice?"
+      expected: "Yes. The nervous system helps control the muscles involved in voice production."
+
+    - id: "voice_eval_006"
+      prompt: "Can voice quality change with illness?"
+      expected: "Yes. Illness can change voice quality."
+
+    - id: "voice_eval_007"
+      prompt: "What is hoarseness in a simple way?"
+      expected: "Hoarseness means the voice sounds rough, weak, strained, or different than usual."
+
+    - id: "voice_eval_008"
+      prompt: "Can the voice become temporarily hoarse after shouting or overuse?"
+      expected: "Yes. Voice overuse can temporarily cause hoarseness."
+
+    - id: "voice_eval_009"
+      prompt: "Can dehydration affect the voice?"
+      expected: "Yes. Dehydration can make voice production less comfortable and affect voice quality."
+
+    - id: "voice_eval_010"
+      prompt: "Can coughing affect the voice?"
+      expected: "Yes. Frequent coughing can irritate the voice."
+
+    - id: "voice_eval_011"
+      prompt: "Can a sore throat affect speaking?"
+      expected: "Yes. A sore throat can make speaking uncomfortable or change the voice."
+
+    - id: "voice_eval_012"
+      prompt: "Can reflux sometimes affect the voice?"
+      expected: "Yes. Reflux can sometimes irritate the throat and affect voice quality."
+
+    - id: "voice_eval_013"
+      prompt: "Can allergies or postnasal drip affect the voice?"
+      expected: "Yes. They can irritate the throat and affect voice quality."
+
+    - id: "voice_eval_014"
+      prompt: "Can smoking affect the voice?"
+      expected: "Yes. Smoking can irritate and damage the voice over time."
+
+    - id: "voice_eval_015"
+      prompt: "Can voice changes happen gradually or suddenly?"
+      expected: "Yes. Voice changes can happen gradually or suddenly."
+
+    - id: "voice_eval_016"
+      prompt: "Can the voice sound weak even if a person is trying hard to speak?"
+      expected: "Yes. Voice can sound weak for different reasons."
+
+    - id: "voice_eval_017"
+      prompt: "Can voice problems affect work or school?"
+      expected: "Yes. Voice problems can affect communication and daily function."
+
+    - id: "voice_eval_018"
+      prompt: "Can voice problems affect emotional well-being?"
+      expected: "Yes. Ongoing voice problems can affect confidence and social comfort."
+
+    - id: "voice_eval_019"
+      prompt: "Can pain when speaking be an important symptom?"
+      expected: "Yes. Pain with speaking can be an important symptom."
+
+    - id: "voice_eval_020"
+      prompt: "Can loss of voice happen temporarily?"
+      expected: "Yes. Temporary voice loss can happen with illness, irritation, or overuse."
+
+    - id: "voice_eval_021"
+      prompt: "Can whispering still strain the voice in some cases?"
+      expected: "Yes. Whispering can still strain the voice."
+
+    - id: "voice_eval_022"
+      prompt: "Can the voice be affected by stress or emotion?"
+      expected: "Yes. Stress and emotion can affect voice quality and control."
+
+    - id: "voice_eval_023"
+      prompt: "Can the voice help with social communication and identity?"
+      expected: "Yes. Voice is important in communication and personal expression."
+
+    - id: "voice_eval_024"
+      prompt: "Can voice changes affect singing as well as speaking?"
+      expected: "Yes. Voice problems can affect both singing and speaking."
+
+    - id: "voice_eval_025"
+      prompt: "Can the larynx be important for voice production?"
+      expected: "Yes. The larynx is central to voice production."
+
+    - id: "voice_eval_026"
+      prompt: "Can vocal cord or vocal fold problems affect the voice?"
+      expected: "Yes. Problems involving the vocal folds can affect voice quality."
+
+    - id: "voice_eval_027"
+      prompt: "Can a respiratory infection affect the voice?"
+      expected: "Yes. Respiratory infections often affect the voice."
+
+    - id: "voice_eval_028"
+      prompt: "Can the voice matter throughout life?"
+      expected: "Yes. Voice is important across the lifespan."
+
+    - id: "voice_eval_029"
+      prompt: "Can aging affect the voice?"
+      expected: "Yes. Voice quality can change with aging."
+
+    - id: "voice_eval_030"
+      prompt: "Can hormones influence the voice?"
+      expected: "Yes. Hormonal changes can influence voice characteristics."
+
+    - id: "voice_eval_031"
+      prompt: "Can dryness in the throat make the voice feel strained?"
+      expected: "Yes. Throat dryness can affect comfort and voice quality."
+
+    - id: "voice_eval_032"
+      prompt: "Can voice problems overlap with breathing problems?"
+      expected: "Yes. Some throat and airway problems can affect both voice and breathing."
+
+    - id: "voice_eval_033"
+      prompt: "Can the voice become rough or breathy?"
+      expected: "Yes. Voice changes can include roughness or breathiness."
+
+    - id: "voice_eval_034"
+      prompt: "Can a person lose range or projection in the voice?"
+      expected: "Yes. Voice problems can reduce range, volume, or projection."
+
+    - id: "voice_eval_035"
+      prompt: "Can frequent throat clearing affect the voice?"
+      expected: "Yes. Repeated throat clearing can irritate the voice."
+
+    - id: "voice_eval_036"
+      prompt: "Can hydration and voice care matter for vocal comfort?"
+      expected: "Yes. Good hydration and voice care can support vocal comfort."
+
+    - id: "voice_eval_037"
+      prompt: "Can prolonged hoarseness deserve evaluation?"
+      expected: "Yes. Persistent hoarseness should be evaluated."
+
+    - id: "voice_eval_038"
+      prompt: "Can speaking for long periods increase vocal strain?"
+      expected: "Yes. Heavy voice use can increase strain."
+
+    - id: "voice_eval_039"
+      prompt: "Can a person have normal breathing but still have voice problems?"
+      expected: "Yes. Voice problems can happen even if breathing is otherwise normal."
+
+    - id: "voice_eval_040"
+      prompt: "Can voice changes happen with neurological problems?"
+      expected: "Yes. Some neurological conditions can affect voice control."
+
+    - id: "voice_eval_041"
+      prompt: "Can voice changes affect relationships or job demands?"
+      expected: "Yes. Communication difficulties can affect relationships and work."
+
+    - id: "voice_eval_042"
+      prompt: "Can voice fatigue happen after extended speaking?"
+      expected: "Yes. Some people experience voice fatigue with prolonged talking."
+
+    - id: "voice_eval_043"
+      prompt: "Can hoarseness after a cold improve over time?"
+      expected: "Yes. Temporary hoarseness after illness may improve as recovery occurs."
+
+    - id: "voice_eval_044"
+      prompt: "Can neck or throat discomfort accompany voice changes?"
+      expected: "Yes. Some voice problems can occur with throat or neck discomfort."
+
+    - id: "voice_eval_045"
+      prompt: "Can the voice help indicate airway health in some situations?"
+      expected: "Yes. Voice changes can sometimes reflect throat or airway irritation."
+
+    - id: "voice_eval_046"
+      prompt: "Can sudden voice change happen after irritation or inhalation exposure?"
+      expected: "Yes. Irritation or exposure can sometimes cause sudden voice change."
+
+    - id: "voice_eval_047"
+      prompt: "Can difficulty projecting the voice affect classroom or public speaking performance?"
+      expected: "Yes. Reduced vocal strength can affect communication demands."
+
+    - id: "voice_eval_048"
+      prompt: "Can pain, strain, and hoarseness all be voice-related symptoms?"
+      expected: "Yes. Those can all be voice-related symptoms."
+
+    - id: "voice_eval_049"
+      prompt: "Can voice changes matter even if they are not painful?"
+      expected: "Yes. Voice changes can still be medically important without pain."
+
+    - id: "voice_eval_050"
+      prompt: "Can the voice be described as a function of airflow, throat structures, and neuromuscular control?"
+      expected: "Yes. Voice depends on all of those factors."
+
+    - id: "voice_eval_051"
+      prompt: "Can sudden hoarseness with trouble breathing be urgent?"
+      expected: "Yes. That combination can be urgent and requires immediate attention."
+
+    - id: "voice_eval_052"
+      prompt: "Can voice change with facial swelling or throat swelling be serious?"
+      expected: "Yes. That pattern can indicate a dangerous airway problem."
+
+    - id: "voice_eval_053"
+      prompt: "Can inability to speak normally after inhalation injury be important?"
+      expected: "Yes. Voice changes after inhalation injury should be evaluated urgently."
+
+    - id: "voice_eval_054"
+      prompt: "Can severe throat pain with drooling and muffled voice be urgent?"
+      expected: "Yes. That combination can suggest a serious throat problem."
+
+    - id: "voice_eval_055"
+      prompt: "Can sudden voice change after neck trauma be serious?"
+      expected: "Yes. Voice change after neck trauma needs prompt evaluation."
+
+    - id: "voice_eval_056"
+      prompt: "Can hoarseness with coughing up blood require prompt attention?"
+      expected: "Yes. That combination should be evaluated promptly."
+
+    - id: "voice_eval_057"
+      prompt: "Can progressive hoarseness in a smoker deserve medical evaluation?"
+      expected: "Yes. Persistent or progressive hoarseness should be evaluated."
+
+    - id: "voice_eval_058"
+      prompt: "Should a person ignore voice change with trouble swallowing?"
+      expected: "No. Voice change with swallowing difficulty should be evaluated."
+
+    - id: "voice_eval_059"
+      prompt: "Should voice change with severe breathing difficulty be considered an emergency?"
+      expected: "Yes. Breathing difficulty with voice change is an emergency."
+
+    - id: "voice_eval_060"
+      prompt: "Should a person keep using their voice heavily when severe pain or sudden loss of voice occurs?"
+      expected: "No. Severe symptoms should not be ignored and may need evaluation."
+
+    - id: "voice_eval_061"
+      prompt: "Can voice depend on airflow from the lungs and shaping by the mouth?"
+      expected: "Yes. Airflow and shaping by the vocal tract are essential to voice."
+
+    - id: "voice_eval_062"
+      prompt: "Can voice problems overlap with throat, airway, respiratory, or neurological issues?"
+      expected: "Yes. Voice changes can involve several body systems."
+
+    - id: "voice_eval_063"
+      prompt: "Can voice problems affect quality of life?"
+      expected: "Yes. Voice problems can affect communication, work, and emotional well-being."
+
+    - id: "voice_eval_064"
+      prompt: "Can a person communicate even if voice is reduced, though with more difficulty?"
+      expected: "Yes. Communication may still be possible, but voice problems can make it harder."
+
+    - id: "voice_eval_065"
+      prompt: "Can voice symptoms matter even if they begin gradually?"
+      expected: "Yes. Gradual voice changes can still be important."
+
+    - id: "voice_eval_066"
+      prompt: "Can normal voice function support speech, expression, singing, and social connection?"
+      expected: "Yes. Voice supports all of those functions."
+
+    - id: "voice_eval_067"
+      prompt: "Can persistent hoarseness, pain when speaking, weak voice, and loss of voice all deserve attention depending on severity and duration?"
+      expected: "Yes. Those can all be important voice symptoms."
+
+    - id: "voice_eval_068"
+      prompt: "Can vocal health matter for teachers, singers, speakers, and anyone who uses their voice often?"
+      expected: "Yes. Voice demands can make vocal health especially important."
+
+    - id: "voice_eval_069"
+      prompt: "Can voice symptoms affect confidence and social participation?"
+      expected: "Yes. Voice problems can affect both confidence and participation."
+
+    - id: "voice_eval_070"
+      prompt: "Can the voice change because of inflammation, irritation, overuse, nerve problems, or structural issues?"
+      expected: "Yes. Many different factors can affect the voice."
+
+    - id: "voice_eval_071"
+      prompt: "Can voice changes matter even if the main complaint is only that the voice sounds different?"
+      expected: "Yes. A noticeable voice change can still be important."
+
+    - id: "voice_eval_072"
+      prompt: "Can airway warning signs with voice change include throat swelling, stridor, muffled voice, drooling, or trouble breathing?"
+      expected: "Yes. Those are important warning signs."
+
+    - id: "voice_eval_073"
+      prompt: "Can voice problems sometimes improve with rest and recovery depending on the cause?"
+      expected: "Yes. Some temporary voice problems can improve."
+
+    - id: "voice_eval_074"
+      prompt: "Can voice issues affect both comfort and communication function?"
+      expected: "Yes. Voice problems can affect both."
+
+    - id: "voice_eval_075"
+      prompt: "Can the voice be important even outside formal speaking or singing?"
+      expected: "Yes. Voice is important for everyday communication."
+
+    - id: "voice_eval_076"
+      prompt: "What is the main idea of voice?"
+      expected: "Voice is the sound produced through airflow and vocal structures that supports communication, expression, and speech."
+
+    - id: "voice_eval_077"
+      prompt: "Can voice involve breathing, throat structures, nervous system control, resonance, and communication together?"
+      expected: "Yes. Voice depends on all of those working together."
+
+    - id: "voice_eval_078"
+      prompt: "Can voice-related symptoms matter even if the main complaint is hoarseness or weakness rather than pain?"
+      expected: "Yes. Hoarseness or weakness can still be important."
+
+    - id: "voice_eval_079"
+      prompt: "Can urgent voice-related concerns include voice change with trouble breathing, throat swelling, drooling, muffled voice, inhalation injury, neck trauma, or coughing up blood?"
+      expected: "Yes. Those situations can require urgent or immediate attention."
+
+    - id: "voice_eval_080"
+      prompt: "What should be done if voice-related symptoms are sudden, severe, worsening, or linked with trouble breathing, throat swelling, muffled voice, drooling, inhalation exposure, neck trauma, trouble swallowing, or coughing up blood?"
+      expected: "Sudden, severe, or concerning voice-related symptoms should be evaluated promptly, and urgent symptoms require immediate attention."

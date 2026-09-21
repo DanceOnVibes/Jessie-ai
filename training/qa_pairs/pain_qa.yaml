@@ -1,0 +1,252 @@
+```yaml
+metadata:
+  file_name: "pain_qa.yaml"
+  title: "Jessie Pain QA Pairs"
+  domain: "special_senses"
+  topic: "pain"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain pain as a protective signal, nervous system communication, and simple safety boundaries with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain pain as the body's warning signal that something may be wrong or causing harm. Jessie should explain that certain nerve endings detect possible harm, signals travel through the nervous system, and the brain helps interpret those signals as pain. The set also supports broader biology teaching by including common pain sources, protective responses, soreness, differences between pain and injury, and practical safety boundaries in simple language. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for sudden severe chest pain, severe abdominal pain with repeated vomiting, or other severe warning symptoms."
+  training_goals:
+    - "Explain pain in simple, beginner-friendly language"
+    - "Teach that pain is often a protective warning signal"
+    - "Show that pain depends on both the nervous system and the brain"
+    - "Clarify that pain can come from many body tissues, not only the skin"
+    - "Support broader biology retrieval with body protection and signal interpretation concepts"
+    - "Use practical examples such as heat, injury, soreness, and rest"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for concerning pain symptoms"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach pain as a warning and protection system"
+    - "Explain the roles of nerve endings, the nervous system, and the brain simply"
+    - "Connect pain to body protection, behavior, and self-care"
+    - "Support both basic biology teaching and simple body-signal explanation"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose causes of chest pain, abdominal pain, injury pain, nerve pain, muscle pain, or other symptom patterns."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general pain concepts, warning roles, and warning signs."
+  safety_escalation:
+    - "Urgent guidance is appropriate for sudden severe chest pain, severe stomach pain with repeated vomiting, or other severe sudden pain symptoms."
+
+pairs:
+  - id: "pain_qa_001"
+    category: "foundational_definition"
+    question: "What is pain?"
+    answer: "Pain is the body's warning signal that something may be wrong or causing harm."
+
+  - id: "pain_qa_002"
+    category: "foundational_definition"
+    question: "Why does pain matter?"
+    answer: "Pain matters because it helps protect the body by drawing attention to possible injury or danger."
+
+  - id: "pain_qa_003"
+    category: "foundational_definition"
+    question: "Does pain help protect the body?"
+    answer: "Yes. Pain can encourage a person to stop, move away, rest, or get help."
+
+  - id: "pain_qa_004"
+    category: "foundational_definition"
+    question: "Is pain always a useful signal?"
+    answer: "Pain is often protective, but it can be complex and should be taken seriously when severe, unusual, or persistent."
+
+  - id: "pain_qa_005"
+    category: "process"
+    question: "How do pain signals work?"
+    answer: "Certain nerve endings detect possible harm, and those signals travel through the nervous system to the brain."
+
+  - id: "pain_qa_006"
+    category: "process"
+    question: "Is the brain important for pain?"
+    answer: "Yes. The brain helps interpret warning signals as pain."
+
+  - id: "pain_qa_007"
+    category: "process"
+    question: "What kinds of things can trigger pain signals?"
+    answer: "Possible tissue damage, extreme heat, pressure, or injury can trigger pain signals."
+
+  - id: "pain_qa_008"
+    category: "process"
+    question: "How does pain work in simple terms?"
+    answer: "The body detects possible harm, sends warning signals through the nervous system, and the brain helps interpret them as pain."
+
+  - id: "pain_qa_009"
+    category: "process"
+    question: "Why can touching something hot hurt?"
+    answer: "Heat can damage tissue, so the body sends warning signals to help you pull away."
+
+  - id: "pain_qa_010"
+    category: "process"
+    question: "Why can a person feel sore after hard exercise?"
+    answer: "Hard exercise can stress muscles and tissues, which may lead to soreness."
+
+  - id: "pain_qa_011"
+    category: "term_clarification"
+    question: "Can pain come from only the skin?"
+    answer: "No. Pain can come from skin, muscles, joints, and internal organs."
+
+  - id: "pain_qa_012"
+    category: "term_clarification"
+    question: "What is the difference between pain and injury?"
+    answer: "Pain is a warning experience, while injury is physical harm to body tissue."
+
+  - id: "pain_qa_013"
+    category: "term_clarification"
+    question: "What is the difference between soreness and sudden sharp pain?"
+    answer: "Soreness is often a more gradual aching feeling, while sudden sharp pain can feel more sudden and intense."
+
+  - id: "pain_qa_014"
+    category: "term_clarification"
+    question: "What is the difference between pain and touch?"
+    answer: "Touch is general sensory detection, while pain is a warning signal related to possible harm."
+
+  - id: "pain_qa_015"
+    category: "misconception"
+    question: "Is pain only in the injured body part and not connected to the brain?"
+    answer: "No. Pain depends on both body signals and brain interpretation."
+
+  - id: "pain_qa_016"
+    category: "misconception"
+    question: "Does all pain mean the same thing?"
+    answer: "No. Pain can happen for different reasons, and its meaning is not always the same."
+
+  - id: "pain_qa_017"
+    category: "misconception"
+    question: "If pain is protective, does that mean it should always be ignored once you understand it?"
+    answer: "No. Pain should not be ignored when it is severe, unusual, or persistent."
+
+  - id: "pain_qa_018"
+    category: "misconception"
+    question: "Can internal organs be a source of pain?"
+    answer: "Yes. Pain can come from inside the body as well as from the body surface."
+
+  - id: "pain_qa_019"
+    category: "misconception"
+    question: "Does soreness after activity always mean serious damage?"
+    answer: "No. Soreness after activity can happen for different reasons and does not always mean serious damage."
+
+  - id: "pain_qa_020"
+    category: "everyday_example"
+    question: "Why do people pull away from something painful?"
+    answer: "People pull away because pain helps warn the body about possible harm."
+
+  - id: "pain_qa_021"
+    category: "everyday_example"
+    question: "Why can resting help after painful strain?"
+    answer: "Resting can help because pain may signal that stressed tissues need less demand."
+
+  - id: "pain_qa_022"
+    category: "everyday_example"
+    question: "Why can a bruise feel tender?"
+    answer: "A bruise can feel tender because the area has been stressed or injured."
+
+  - id: "pain_qa_023"
+    category: "everyday_example"
+    question: "Why can a headache affect attention?"
+    answer: "A headache can affect attention because pain can draw mental focus toward the body's warning signal."
+
+  - id: "pain_qa_024"
+    category: "everyday_example"
+    question: "Why can pain change how a person moves?"
+    answer: "Pain can change movement because people may try to protect a sore or injured area."
+
+  - id: "pain_qa_025"
+    category: "system_connection"
+    question: "How is pain connected to the nervous system?"
+    answer: "Pain is connected to the nervous system because warning signals travel through nerves and are interpreted by the brain."
+
+  - id: "pain_qa_026"
+    category: "system_connection"
+    question: "How is pain connected to behavior?"
+    answer: "Pain is connected to behavior because it can encourage stopping, avoiding harm, resting, or seeking help."
+
+  - id: "pain_qa_027"
+    category: "system_connection"
+    question: "How is pain connected to self-protection?"
+    answer: "It is connected because pain helps alert the body to possible danger or injury."
+
+  - id: "pain_qa_028"
+    category: "visual_art_support"
+    question: "Why is pain useful to understand in biology teaching?"
+    answer: "It helps explain how the body detects possible harm and responds protectively."
+
+  - id: "pain_qa_029"
+    category: "visual_art_support"
+    question: "What should an educator or artist know about pain diagrams?"
+    answer: "They should know that pain involves possible harm being detected, signals traveling through the nervous system, and brain interpretation."
+
+  - id: "pain_qa_030"
+    category: "visual_art_support"
+    question: "Why do signal-flow visuals help explain pain?"
+    answer: "They help because pain involves detection, signal travel, and interpretation."
+
+  - id: "pain_qa_031"
+    category: "boundary"
+    question: "Can you diagnose why I have pain?"
+    answer: "No. I can't diagnose the cause from limited information, but I can explain general pain concepts and point out warning signs."
+
+  - id: "pain_qa_032"
+    category: "boundary"
+    question: "Can you tell me exactly whether my pain is serious?"
+    answer: "No. I can't determine the exact cause or seriousness from a brief description, but I can explain warning patterns and when urgent care may be important."
+
+  - id: "pain_qa_033"
+    category: "boundary"
+    question: "Does chest pain always mean the same thing?"
+    answer: "No. Chest pain can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "pain_qa_034"
+    category: "boundary"
+    question: "Does stomach pain always mean one specific problem?"
+    answer: "No. Stomach pain can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "pain_qa_035"
+    category: "safety_supportive_urgent"
+    question: "Should sudden severe chest pain be ignored?"
+    answer: "No. Sudden severe chest pain should be treated as urgent and checked right away."
+
+  - id: "pain_qa_036"
+    category: "safety_supportive_urgent"
+    question: "Is severe stomach pain with repeated vomiting important?"
+    answer: "Yes. Severe stomach pain with repeated vomiting should be taken seriously and checked quickly."
+
+  - id: "pain_qa_037"
+    category: "safety_supportive_urgent"
+    question: "Should sudden severe pain with trouble breathing be treated urgently?"
+    answer: "Yes. Sudden severe pain with trouble breathing needs urgent medical attention."
+
+  - id: "pain_qa_038"
+    category: "safety_supportive_urgent"
+    question: "Should severe pain that is rapidly worsening be ignored?"
+    answer: "No. Rapidly worsening severe pain should be medically checked promptly."
+
+  - id: "pain_qa_039"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about pain?"
+    answer: "The main thing to remember is that pain is often the body's warning signal that helps protect against harm."
+
+quality_checks:
+  - "The file contains 39 QA pairs with ids pain_qa_001 through pain_qa_039."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "Pain is consistently explained as a protective warning signal."
+  - "The set includes support for biology teaching, body-signal concepts, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

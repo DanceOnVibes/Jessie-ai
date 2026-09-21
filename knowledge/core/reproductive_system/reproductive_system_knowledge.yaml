@@ -1,0 +1,298 @@
+knowledge_pack:
+  file_name: "reproductive_system_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about the human reproductive system in a respectful, educational, non-graphic, and safety-aware way, including reproductive structures, sex cells, hormones, basic reproductive roles, system relationships, and strong safety boundaries around sexual and reproductive health concerns."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "reproductive_system"
+    category: "reproduction, reproductive anatomy, and reproductive hormones"
+    domain: "human body and health"
+
+  overview:
+    summary: "The reproductive system includes organs and structures involved in producing sex cells, supporting reproduction, and making hormones related to sexual development and reproductive function. In humans, the system includes male and female reproductive structures with different roles. Jessie should teach this topic accurately, respectfully, and non-graphically, with clear distinctions between educational anatomy and sensitive medical or sexual situations."
+    why_it_matters:
+      - "The reproductive system is important for producing sex cells and supporting reproduction."
+      - "Some reproductive organs also make hormones that affect development and body function."
+      - "This system connects closely with the endocrine, urinary, and nervous systems."
+      - "Teaching must remain respectful, age-appropriate, and medically safe."
+
+  core_definitions:
+    - term: "reproductive system"
+      definition: "The body system involved in producing sex cells, supporting reproduction, and making some reproductive hormones."
+    - term: "sex cells"
+      definition: "Reproductive cells. In humans, sperm are male sex cells and eggs are female sex cells."
+    - term: "sperm"
+      definition: "The male sex cell."
+    - term: "egg"
+      definition: "The female sex cell."
+    - term: "ovary"
+      definition: "A female reproductive organ that produces eggs and hormones."
+    - term: "testis"
+      definition: "A male reproductive organ that produces sperm and hormones."
+    - term: "uterus"
+      definition: "A reproductive organ that can support pregnancy."
+    - term: "semen"
+      definition: "A fluid that contains sperm and other substances from the male reproductive system."
+    - term: "reproductive hormones"
+      definition: "Hormones involved in sexual development and reproductive function."
+
+  foundational_principle:
+    summary: "The reproductive system helps produce sex cells, supports reproduction, and contributes to hormone-related reproductive function."
+    key_points:
+      - "Male and female reproductive systems have different structures."
+      - "Both systems are involved in reproduction, but they do not do the same jobs."
+      - "Some reproductive organs also act as hormone-producing organs."
+      - "Teaching about this system should be respectful, clear, and non-graphic."
+
+  major_functions:
+    sex_cell_production:
+      summary: "The reproductive system produces reproductive cells."
+      beginner_points:
+        - "Ovaries produce eggs."
+        - "Testes produce sperm."
+    reproductive_support:
+      summary: "The system includes structures that support reproduction."
+      beginner_points:
+        - "Female reproductive structures can support egg movement and pregnancy."
+        - "Male reproductive structures help produce, store, and transport sperm."
+    hormone_production:
+      summary: "Some reproductive organs also make hormones."
+      beginner_points:
+        - "Ovaries and testes help produce hormones involved in reproductive function."
+        - "This connects the reproductive system to the endocrine system."
+    developmental_role:
+      summary: "Reproductive hormones contribute to sexual development and reproductive function."
+      beginner_points:
+        - "The reproductive system is not only about pregnancy."
+        - "It also affects maturation and reproductive biology more broadly."
+
+  female_reproductive_structures:
+    ovaries:
+      role: "Produce eggs and hormones involved in reproductive function."
+      importance: "They are key female reproductive organs."
+    fallopian_tubes:
+      role: "Carry the egg from the ovary toward the uterus."
+      importance: "They connect egg release with the uterus."
+    uterus:
+      role: "Can support the development of a pregnancy."
+      importance: "It is central to pregnancy support."
+    cervix:
+      role: "The lower part of the uterus that connects to the vagina."
+      importance: "It links the uterus and the vaginal canal."
+    vagina:
+      role: "A canal connecting the cervix to the outside of the body."
+      importance: "It is an internal reproductive passageway."
+
+  male_reproductive_structures:
+    testes:
+      role: "Produce sperm and hormones involved in reproductive function."
+      importance: "They are key male reproductive organs."
+    epididymis:
+      role: "Stores sperm and helps sperm mature."
+      importance: "It supports sperm development after production."
+    vas_deferens:
+      role: "Carries sperm from storage areas toward the urethra."
+      importance: "It is part of sperm transport."
+    prostate:
+      role: "Adds fluid that helps form semen."
+      importance: "It contributes to male reproductive fluid."
+    urethra:
+      role: "Carries urine out of the body and, in males, also carries semen out of the body."
+      importance: "It shows overlap between urinary and reproductive pathways in males."
+    penis:
+      role: "External structure through which urine and semen leave the body."
+      importance: "It is part of the male reproductive and urinary pathway."
+
+  how_the_reproductive_system_works:
+    female_basic_role:
+      - "Ovaries produce eggs."
+      - "An egg can move through a fallopian tube."
+      - "The uterus can support pregnancy."
+    male_basic_role:
+      - "Testes produce sperm."
+      - "Sperm mature and are stored in the epididymis."
+      - "Sperm travel through the vas deferens."
+      - "Fluids are added to help form semen."
+    teaching_point:
+      - "At a beginner level, it is enough to explain where sex cells are made, where they move, and which organs support reproduction."
+
+  reproductive_hormones_explained:
+    summary: "Some reproductive organs also help make hormones involved in sexual development and reproductive function."
+    key_points:
+      - "Ovaries produce hormones involved in female reproductive function."
+      - "Testes produce hormones involved in male reproductive function."
+      - "This is why the reproductive system is closely connected to the endocrine system."
+      - "For beginner teaching, hormone discussion should stay broad unless more depth is requested."
+
+  reproductive_system_and_other_body_systems:
+    endocrine_system:
+      relationship: "Reproductive organs such as ovaries and testes also produce hormones."
+    urinary_system:
+      relationship: "The male urethra is involved in both urinary and reproductive function, while the female urinary and reproductive openings are separate."
+    nervous_system:
+      relationship: "The nervous system helps regulate aspects of reproductive function."
+    circulatory_system:
+      relationship: "Blood flow supports reproductive organs and hormone transport."
+    developmental_biology:
+      relationship: "Reproductive hormones influence sexual development and maturation."
+
+  important_distinctions:
+    - name: "male vs female reproductive systems"
+      explanation: "Male and female reproductive systems have different structures and different roles, though both contribute to reproduction."
+    - name: "reproductive system vs urinary system"
+      explanation: "They are different systems, although some structures are related, especially in males."
+    - name: "sex cells vs hormones"
+      explanation: "Sex cells are reproductive cells, while hormones are chemical messengers that help regulate reproductive function."
+    - name: "structure explanation vs sexual content"
+      explanation: "Educational explanation of anatomy and function is different from explicit sexual content."
+    - name: "general education vs diagnosis"
+      explanation: "Teaching about reproductive anatomy is different from diagnosing pelvic pain, pregnancy complications, sexually transmitted infections, infertility, or genital symptoms."
+
+  common_changes_people_notice:
+    - name: "puberty-related development"
+      explanation: "Reproductive hormones contribute to body changes during maturation."
+    - name: "menstrual cycle changes"
+      explanation: "People may notice regular reproductive-related changes associated with the menstrual cycle."
+    - name: "pelvic discomfort"
+      explanation: "Mild discomfort can have many causes, but severe pain should not be ignored."
+    - name: "bleeding changes"
+      explanation: "Bleeding patterns can vary, but heavy or unusual bleeding may need evaluation."
+    - name: "genital symptoms"
+      explanation: "Pain, swelling, discharge changes, sores, or other concerning symptoms should be evaluated rather than assumed harmless."
+
+  common_factors_that_can_affect_reproductive_health:
+    developmental_factors:
+      - "puberty"
+      - "age-related hormonal changes"
+    hormonal_factors:
+      - "hormone balance"
+      - "endocrine changes"
+    infectious_factors:
+      - "sexually transmitted infections"
+      - "other infections affecting reproductive organs"
+    pregnancy_related_factors:
+      - "pregnancy"
+      - "pregnancy complications"
+    structural_or_functional_factors:
+      - "cysts"
+      - "blockages"
+      - "organ inflammation"
+      - "fertility-related problems"
+    trauma_or_safety_factors:
+      - "sexual assault"
+      - "injury"
+      - "severe pain or heavy bleeding"
+
+  age_related_considerations:
+    children_and_early_learners:
+      - "Teaching should remain simple, respectful, and non-graphic."
+      - "Focus on basic structure and function rather than sexual detail."
+    adolescents:
+      - "Puberty and hormone-related development may become relevant."
+      - "Teaching should remain respectful, accurate, and age-appropriate."
+    adults:
+      - "Questions may involve fertility, pregnancy, hormones, menstrual cycles, or reproductive health."
+    older_adults:
+      - "Hormonal and reproductive changes continue across adulthood and aging."
+
+  common_questions_jessie_should_handle:
+    - "What does the reproductive system do?"
+    - "What do the ovaries do?"
+    - "What do the testes do?"
+    - "What does the uterus do?"
+    - "What is the difference between sperm and eggs?"
+    - "How is the reproductive system connected to hormones?"
+    - "How is the reproductive system different from the urinary system?"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "basic puberty-related body changes"
+      - "routine beginner questions about anatomy"
+      - "general curiosity about reproductive structure and function"
+    should_be_monitored:
+      - "ongoing pelvic discomfort"
+      - "changes in bleeding patterns"
+      - "persistent genital discomfort"
+      - "possible fertility-related concerns"
+      - "recurrent symptoms affecting reproductive health"
+    more_concerning:
+      - "severe pelvic pain"
+      - "heavy bleeding"
+      - "possible pregnancy emergency symptoms"
+      - "severe genital pain or swelling"
+      - "symptoms suggesting infection"
+      - "possible sexual assault"
+    emergency_patterns:
+      - "severe pelvic pain with fainting or collapse"
+      - "heavy bleeding with weakness or dizziness"
+      - "possible ectopic-pregnancy-like emergency symptoms"
+      - "severe pain during pregnancy"
+      - "possible sexual assault needing urgent help"
+      - "loss of consciousness"
+
+  red_flags:
+    immediate_attention:
+      - "severe pelvic pain"
+      - "heavy bleeding"
+      - "possible pregnancy emergency symptoms"
+      - "severe genital symptoms"
+      - "possible sexual assault"
+      - "collapse"
+      - "loss of consciousness"
+
+  safety_relevance:
+    key_points:
+      - "Jessie may explain basic reproductive anatomy and function in a respectful and non-graphic way."
+      - "Jessie should not provide explicit sexual content, erotic roleplay, or sexualized medical explanations."
+      - "Jessie should not diagnose pregnancy complications, sexually transmitted infections, infertility, severe pelvic pain causes, or genital symptoms from limited descriptions."
+      - "Severe pelvic pain, heavy bleeding, pregnancy emergencies, assault concerns, or severe genital symptoms require clear safety-oriented guidance."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Keep explanations respectful, simple, and educational."
+      - "Prefer structure-and-function teaching over graphic detail."
+      - "Distinguish male and female systems clearly without unnecessary elaboration."
+      - "Use reproductive hormones only at a broad beginner level unless more detail is requested."
+      - "Escalate clearly when symptoms suggest urgent reproductive or sexual health concerns."
+    style_notes:
+      - "Be accurate, calm, and non-graphic."
+      - "Use age-appropriate educational framing."
+      - "Avoid explicit or erotic wording."
+      - "Do not blur the line between biology education and sexual content."
+      - "Do not diagnose serious reproductive conditions from limited information."
+    teaching_sequence:
+      - "Define the reproductive system."
+      - "Explain sex cells."
+      - "Introduce female reproductive structures and their roles."
+      - "Introduce male reproductive structures and their roles."
+      - "Explain the connection to hormones."
+      - "Clarify the difference between reproductive and urinary function."
+      - "Maintain strong safety boundaries around symptoms and sexual health concerns."
+
+  cross_system_links:
+    - "The reproductive system is closely connected to the endocrine system through hormone production."
+    - "The male urethra shows overlap between reproductive and urinary function."
+    - "The nervous system helps regulate aspects of reproductive function."
+    - "The circulatory system supports reproductive organs and hormone transport."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "The reproductive system helps produce sex cells, supports reproduction, and makes some hormones related to reproductive function."
+      - "Ovaries produce eggs, and testes produce sperm."
+      - "Some reproductive organs also make hormones, which is why this system is connected to the endocrine system."
+      - "The reproductive and urinary systems are different, although some structures are related, especially in males."
+    caution_examples:
+      - "I can explain the anatomy and basic function in a respectful educational way, but I cannot provide explicit sexual content."
+      - "Severe pelvic pain, heavy bleeding, pregnancy emergency symptoms, or possible sexual assault need prompt medical or emergency help."
+
+  final_summary:
+    summary_points:
+      - "The reproductive system helps produce sex cells, supports reproduction, and contributes to reproductive hormone function."
+      - "Female reproductive structures include the ovaries, fallopian tubes, uterus, cervix, and vagina."
+      - "Male reproductive structures include the testes, epididymis, vas deferens, prostate, urethra, and penis."
+      - "The system is closely connected to the endocrine, nervous, and urinary systems."
+      - "Jessie should teach this topic respectfully, accurately, and non-graphically."
+      - "Strong safety boundaries are especially important for pelvic pain, heavy bleeding, pregnancy emergencies, genital symptoms, and assault-related concerns."

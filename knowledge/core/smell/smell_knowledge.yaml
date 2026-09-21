@@ -1,0 +1,254 @@
+knowledge_pack:
+  file_name: "smell_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Consolidated knowledge pack for teaching Jessie AI about smell, including smell basics, the olfactory pathway, and the connection between smell and taste, using beginner-friendly, stepwise, and safety-aware explanations."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "smell"
+    category: "special senses, olfaction, odor detection, and flavor contribution"
+    domain: "human body and health"
+
+  overview:
+    summary: "Smell is the sense that detects odor molecules in the air and helps the brain interpret them as recognizable smells. Smell begins in the nose, where special receptor cells detect odor molecules, and continues through the olfactory pathway to the brain. Smell also works closely with taste to create flavor, which is why reduced smell can make food seem bland."
+    why_it_matters:
+      - "Smell helps people notice and identify odors in the environment."
+      - "Smell contributes strongly to the experience of flavor."
+      - "Smell depends on both detection in the nose and interpretation in the brain."
+      - "Sudden smell loss or smell changes with injury or neurologic symptoms can require urgent attention."
+
+  core_definitions:
+    - term: "smell"
+      definition: "The sense that allows detection of odor molecules in the air."
+    - term: "odor molecules"
+      definition: "Tiny airborne chemical particles that can be detected by smell receptors."
+    - term: "olfactory epithelium"
+      definition: "Specialized smell-sensitive tissue in the upper part of the nasal cavity."
+    - term: "olfactory receptor cells"
+      definition: "Sensory cells that detect odor molecules and begin smell signaling."
+    - term: "olfactory bulb"
+      definition: "An early brain structure that receives smell signals from the nose."
+    - term: "flavor"
+      definition: "The combined food experience created by taste, smell, and other sensory inputs."
+    - term: "taste"
+      definition: "The sense that detects basic taste qualities, mainly through receptors on the tongue."
+
+  foundational_principle:
+    summary: "Smell starts when odor molecules are detected in the nose, continues through the olfactory pathway, and becomes meaningful when the brain interprets the signals."
+    key_points:
+      - "Detection happens in the nose."
+      - "Signals travel through the olfactory pathway."
+      - "Interpretation happens in the brain."
+      - "Smell and taste are different senses, but they work together in flavor."
+
+  smell_basics:
+    summary: "Smell is the sense that detects odor molecules and helps the brain recognize them as different smells."
+    core_concepts:
+      smell_definition:
+        definition: "Smell is the sense that allows detection of odor molecules in the air."
+        beginner_explanation: "Smell happens when your nose detects tiny odor particles and your brain makes sense of them."
+      odor_detection:
+        definition: "Special sensory cells in the nose detect odor molecules."
+        beginner_explanation: "Tiny smell-sensing cells in the nose help detect odors."
+      brain_interprets_smell:
+        definition: "The brain processes smell signals and identifies them as recognizable odors."
+        beginner_explanation: "The nose detects the smell, but the brain helps identify what it is."
+
+  main_structures:
+    nasal_cavity:
+      role: "Passage through which inhaled air carrying odor molecules moves."
+      beginner_explanation: "The nasal cavity is the space inside the nose where air moves."
+    olfactory_epithelium:
+      role: "Specialized tissue in the upper nose that contains smell receptors."
+      beginner_explanation: "This is the smell-detecting area inside the nose."
+    olfactory_receptor_cells:
+      role: "Sensory cells that detect odor molecules."
+      beginner_explanation: "These cells help detect smells."
+    olfactory_bulb:
+      role: "Receives smell signals from the nose."
+      beginner_explanation: "The olfactory bulb helps receive smell information from the nose."
+    brain:
+      role: "Processes and interprets smell signals."
+      beginner_explanation: "The brain helps recognize and make sense of smells."
+
+  olfactory_pathway:
+    summary: "The olfactory pathway describes how odor molecules are detected in the nose and how the resulting signals reach the brain."
+    ordered_steps:
+      - step: 1
+        name: "odor_enters_nose"
+        explanation: "Air carrying odor molecules enters the nose."
+      - step: 2
+        name: "odor_reaches_olfactory_region"
+        explanation: "Some odor molecules reach the smell-sensitive area high inside the nasal cavity."
+      - step: 3
+        name: "olfactory_receptors_detect_odor"
+        explanation: "Olfactory receptor cells detect the odor molecules."
+      - step: 4
+        name: "signals_travel_to_olfactory_bulb"
+        explanation: "The smell signals travel to the olfactory bulb."
+      - step: 5
+        name: "brain_processes_smell"
+        explanation: "The brain processes the signals and identifies the smell."
+
+  smell_pathway_functional_summary:
+    - "Odor molecules enter the nose."
+    - "They reach the smell-sensitive area."
+    - "Receptor cells detect them."
+    - "Signals travel to the olfactory bulb."
+    - "The brain interprets the smell."
+
+  smell_and_taste_connection:
+    summary: "Smell and taste are different senses, but they work closely together. Much of what people think of as flavor depends on smell."
+    core_concepts:
+      taste_definition:
+        definition: "Taste is the sense that detects basic taste qualities through taste receptors, mainly on the tongue."
+        beginner_explanation: "Taste is what your tongue detects, such as sweet, salty, sour, bitter, and savory."
+      smell_definition:
+        definition: "Smell is the sense that detects odor molecules through receptors in the nose."
+        beginner_explanation: "Smell is what your nose detects from odor particles in the air."
+      flavor_definition:
+        definition: "Flavor is the combined experience created by taste, smell, and other sensory inputs."
+        beginner_explanation: "Flavor is the fuller food experience created when taste and smell work together."
+      reduced_smell_reduces_flavor:
+        definition: "When smell is reduced, food often seems less flavorful even if taste receptors still work."
+        beginner_explanation: "If you cannot smell well, food may seem bland even though your tongue can still taste some things."
+
+  comparison_points:
+    taste:
+      role: "Detects basic taste qualities."
+      beginner_explanation: "Taste gives the basic categories like sweet or salty."
+    smell:
+      role: "Adds much of the detail and richness people notice in flavor."
+      beginner_explanation: "Smell adds a lot of the extra detail that makes foods seem different."
+    flavor:
+      role: "Integrated experience produced by multiple senses."
+      beginner_explanation: "Flavor is the combination of taste and smell, plus other sensations like texture."
+
+  key_distinctions:
+    - name: "nose detection vs brain interpretation"
+      explanation: "The nose detects odor molecules, while the brain interprets what the smell is."
+      teaching_note: "Important for beginners who think the nose alone creates smell perception."
+    - name: "airflow vs odor detection"
+      explanation: "Airflow brings odor molecules into the nose, but smell only happens when receptors detect those molecules."
+      teaching_note: "Useful for learners who assume breathing alone automatically produces smell."
+    - name: "olfactory receptors vs olfactory bulb"
+      explanation: "Receptors detect odor molecules, while the olfactory bulb receives the resulting signals."
+      teaching_note: "Good for separating detection from relay."
+    - name: "nose vs brain"
+      explanation: "The nose detects odor molecules, while the brain identifies and interprets the smell."
+      teaching_note: "Important beginner distinction."
+    - name: "taste vs flavor"
+      explanation: "Taste is the detection of basic taste qualities, while flavor is the broader combined food experience."
+      teaching_note: "This is the most important beginner distinction for smell-taste questions."
+    - name: "tongue vs nose"
+      explanation: "The tongue mainly detects taste, while the nose mainly detects smell."
+      teaching_note: "Helpful when users say they taste everything only on the tongue."
+    - name: "smell loss vs taste loss"
+      explanation: "Reduced smell often makes flavor seem weaker, even if basic taste is still partly present."
+      teaching_note: "Useful for questions about food tasting bland during illness or congestion."
+
+  everyday_examples:
+    - example: "When you have a stuffy nose, food may seem bland."
+      explanation: "This often happens because smell is reduced, not only because taste is gone."
+    - example: "Sweetness may still be noticed even when food seems less flavorful."
+      explanation: "Basic taste can remain while smell-based flavor detail is reduced."
+    - example: "Two foods can taste different mainly because they smell different."
+      explanation: "Smell contributes strongly to flavor identity."
+    - example: "Coffee, flowers, or smoke are easy examples of recognizable odors."
+      explanation: "These help beginners understand that smell starts with airborne odor molecules."
+
+  common_questions_jessie_should_handle:
+    - "What is smell?"
+    - "How does smell work step by step?"
+    - "Where are smells detected?"
+    - "What does the olfactory bulb do?"
+    - "Does the brain matter for smelling?"
+    - "Are taste and smell the same thing?"
+    - "Why does food taste bland when my nose is blocked?"
+    - "What is flavor?"
+
+  misconceptions_to_watch:
+    - misconception: "The nose alone creates smell."
+      correction: "The nose detects odor molecules, but the brain is needed to interpret them."
+    - misconception: "All air moving through the nose is automatically recognized as smell."
+      correction: "Odor molecules must reach the smell-detecting receptors for smell signals to be generated."
+    - misconception: "Smell happens anywhere in the nose equally."
+      correction: "Smell depends especially on a specialized smell-sensitive area in the upper part of the nasal cavity."
+    - misconception: "The olfactory bulb detects odors directly from the air."
+      correction: "The receptor cells in the nose detect odor molecules first, and the olfactory bulb receives the signals."
+    - misconception: "Breathing in automatically means smelling."
+      correction: "Odor molecules must reach the smell receptors and be detected for smell to occur."
+    - misconception: "Flavor comes only from the tongue."
+      correction: "The tongue detects basic tastes, but smell adds much of what people experience as flavor."
+    - misconception: "If food seems bland, taste must be completely gone."
+      correction: "Sometimes taste is still partly working, but reduced smell makes flavor seem much weaker."
+    - misconception: "Taste and smell are basically the same sense."
+      correction: "They are different senses that work together."
+
+  system_relationships:
+    - connected_system: "taste"
+      relationship: "Smell and taste work together to create flavor."
+    - connected_system: "respiratory_system"
+      relationship: "Airflow through the nose helps bring odor molecules into the nasal cavity."
+    - connected_system: "nervous_system"
+      relationship: "Smell is a sensory process that depends on receptor signaling and brain interpretation."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Explain smell in simple terms first."
+      - "Use a clear step-by-step pathway."
+      - "Repeat the idea 'detect in the nose, interpret in the brain.'"
+      - "Keep the difference between taste and flavor very clear."
+      - "Use familiar examples like coffee, smoke, flowers, or a stuffy nose if helpful."
+    style_notes:
+      - "Keep explanations concrete and sequential."
+      - "Avoid advanced receptor chemistry unless requested."
+      - "Use beginner-friendly language for structure and function."
+      - "Distinguish odor detection from brain processing."
+      - "Keep safety escalation clear when smell loss or exposure risks are mentioned."
+    teaching_sequence:
+      - "Define smell."
+      - "Introduce the main smell structures."
+      - "Explain the olfactory pathway step by step."
+      - "Clarify detection in the nose versus interpretation in the brain."
+      - "Explain the smell-taste connection and flavor."
+      - "Maintain safety boundaries around sudden smell loss, toxic exposure, or breathing symptoms."
+
+  safety_relevance:
+    key_points:
+      - "Jessie may explain smell, the olfactory pathway, and smell-taste interaction for educational questions."
+      - "Sudden loss of smell can be medically important."
+      - "Head trauma, smoke inhalation, chemical exposure, stroke-like symptoms, or severe breathing trouble require safety-first guidance."
+      - "Jessie should not minimize smell changes that occur with neurologic symptoms or dangerous exposures."
+
+  red_flags:
+    immediate_attention:
+      - "sudden loss of smell"
+      - "head injury with smell change"
+      - "smoke inhalation"
+      - "chemical exposure"
+      - "smell change with new neurologic symptoms"
+      - "stroke-like symptoms with smell change"
+      - "severe breathing trouble"
+
+  example_jessie_framing:
+    explanation_examples:
+      - "Smell happens when odor molecules enter the nose, reach smell receptors, create signals, and are interpreted by the brain."
+      - "The nose detects odor molecules, but the brain helps identify what the smell is."
+      - "Taste and smell are different senses, but they work together to create flavor."
+      - "If your nose is blocked, food may seem bland because smell contributes a lot to flavor."
+    caution_examples:
+      - "I can explain how smell works, but sudden smell loss or smell change after head injury should be medically checked."
+      - "Smoke inhalation, chemical exposure, or smell change with stroke-like symptoms needs urgent attention."
+
+  final_summary:
+    summary_points:
+      - "Smell begins when odor molecules enter the nose."
+      - "Special receptor cells in the upper nose detect the odor."
+      - "Signals move to the olfactory bulb."
+      - "The brain interprets the signals as smell."
+      - "Smell and taste are different senses that work together to create flavor."
+      - "When smell is reduced, food often seems bland."
+      - "Jessie should teach smell clearly while keeping strong safety boundaries around sudden smell loss, head trauma, toxic exposure, neurologic symptoms, and breathing emergencies."

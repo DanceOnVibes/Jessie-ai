@@ -1,0 +1,309 @@
+knowledge_pack:
+  file_name: "balance_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about human balance, postural control, orientation, stability, movement coordination, sensory integration, dizziness distinctions, and safety escalation."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "balance"
+    category: "body coordination and spatial control"
+    domain: "human body and health"
+
+  overview:
+    summary: "Balance is the body's ability to maintain stability, orientation, and controlled movement whether a person is standing still, sitting, walking, turning, or changing position. Good balance depends on the brain integrating information from the inner ear, eyes, muscles, joints, and skin, then coordinating muscle responses to keep the body upright and steady."
+    why_it_matters:
+      - "Balance allows safe standing, walking, turning, reaching, and changing position."
+      - "Balance problems can increase fall risk and interfere with daily activities."
+      - "Balance depends on multiple body systems working together, not on one structure alone."
+      - "Understanding balance helps Jessie explain dizziness, unsteadiness, spatial orientation, and movement safety."
+
+  core_definitions:
+    - term: "balance"
+      definition: "The ability to keep the body stable and controlled during rest and movement."
+    - term: "postural control"
+      definition: "The body's ability to maintain alignment and stability against gravity."
+    - term: "equilibrium"
+      definition: "A state of physical steadiness or balance."
+    - term: "center of gravity"
+      definition: "The point where the body's mass is considered centered."
+    - term: "base of support"
+      definition: "The area under the body that supports its weight, such as the space between the feet."
+    - term: "spatial orientation"
+      definition: "Awareness of body position and direction relative to the environment."
+    - term: "dynamic balance"
+      definition: "Balance during movement."
+    - term: "static balance"
+      definition: "Balance while holding a position without moving significantly."
+
+  foundational_principle:
+    summary: "Balance is not controlled by one organ alone. It depends on continuous coordination between sensory input, brain processing, and muscle responses."
+    key_points:
+      - "The body must detect position and motion."
+      - "The brain must interpret that information quickly."
+      - "Muscles must make constant small adjustments to maintain stability."
+      - "Balance is active and ongoing, even when a person appears still."
+
+  major_systems_involved:
+    vestibular_system:
+      role: "The inner ear helps detect head movement, acceleration, and orientation."
+      importance: "It provides critical motion and equilibrium information."
+    vision:
+      role: "The eyes provide information about the body's surroundings and orientation."
+      importance: "Vision helps the brain compare body position to the environment."
+    proprioception:
+      role: "Proprioception gives the brain information about body position from muscles, joints, and tendons."
+      importance: "It helps a person know where their body parts are without looking."
+    somatosensory_input:
+      role: "Touch and pressure feedback from the feet and body help detect contact with surfaces."
+      importance: "This helps the body adapt to ground conditions and posture shifts."
+    cerebellum:
+      role: "The cerebellum helps coordinate movement, timing, and correction."
+      importance: "It fine-tunes balance responses and smooth movement."
+    brainstem:
+      role: "Helps process and relay information involved in posture and equilibrium."
+      importance: "It contributes to automatic balance control."
+    muscular_system:
+      role: "Muscles make corrective movements that keep the body stable."
+      importance: "Strength and coordination are necessary for effective balance."
+    skeletal_system:
+      role: "Bones and joints provide the physical framework for posture and movement."
+      importance: "Joint alignment and mobility affect stability."
+
+  how_balance_works:
+    sensory_input_phase:
+      - "The eyes detect movement, horizon, and environmental reference points."
+      - "The inner ear senses head motion and head position changes."
+      - "Muscles, joints, and skin send information about body position and pressure."
+    processing_phase:
+      - "The brain compares and combines signals from multiple systems."
+      - "If the signals match, the body feels stable and oriented."
+      - "If the signals conflict, a person may feel dizzy, off-balance, or disoriented."
+    response_phase:
+      - "The brain sends rapid signals to adjust muscle tone and posture."
+      - "The body shifts weight, changes foot pressure, and activates stabilizing muscles."
+      - "These adjustments happen continuously, often without conscious awareness."
+
+  types_of_balance:
+    - name: "static balance"
+      explanation: "Maintaining stability while standing, sitting, or holding still."
+      examples:
+        - "standing upright"
+        - "sitting without leaning"
+        - "holding a pose"
+    - name: "dynamic balance"
+      explanation: "Maintaining stability while moving."
+      examples:
+        - "walking"
+        - "turning"
+        - "climbing stairs"
+        - "reaching while standing"
+    - name: "reactive balance"
+      explanation: "Recovering stability after a disturbance."
+      examples:
+        - "catching yourself after a slip"
+        - "regaining posture after being bumped"
+    - name: "anticipatory balance"
+      explanation: "Preparing the body for movement before it happens."
+      examples:
+        - "shifting weight before stepping"
+        - "bracing posture before lifting"
+
+  normal_balance_features:
+    - "The body is always making small posture corrections."
+    - "A slight sway while standing still can be normal."
+    - "Balance may be briefly challenged when standing up quickly, turning fast, or walking on uneven surfaces."
+    - "Closing the eyes can make balancing harder because visual information is removed."
+    - "Balance often improves with practice, strength, and coordination."
+
+  factors_that_support_good_balance:
+    - "healthy vision"
+    - "effective inner ear function"
+    - "intact proprioception"
+    - "adequate strength"
+    - "joint mobility"
+    - "core stability"
+    - "attention and reaction time"
+    - "safe footwear"
+    - "stable surfaces"
+
+  factors_that_can_reduce_balance:
+    physical:
+      - "muscle weakness"
+      - "fatigue"
+      - "joint pain"
+      - "injury"
+      - "poor coordination"
+      - "reduced sensation in the feet"
+    sensory:
+      - "vision problems"
+      - "inner ear problems"
+      - "proprioceptive loss"
+    neurologic:
+      - "brain or nerve dysfunction"
+      - "delayed reflexes"
+      - "movement disorders"
+    situational:
+      - "darkness"
+      - "uneven ground"
+      - "slippery surfaces"
+      - "sudden turning"
+      - "standing up too fast"
+    systemic:
+      - "dehydration"
+      - "low blood pressure"
+      - "illness"
+      - "medication effects"
+      - "sleep deprivation"
+
+  common_user_experiences_related_to_balance:
+    - name: "feeling unsteady"
+      explanation: "A person may feel less stable even without true spinning vertigo."
+    - name: "wobbliness"
+      explanation: "This often describes difficulty keeping posture controlled."
+    - name: "lightheadedness"
+      explanation: "Lightheadedness is not the same as balance loss from vestibular dysfunction."
+    - name: "dizziness"
+      explanation: "Dizziness is a broad term and may include spinning, floating, faintness, or imbalance."
+    - name: "veer while walking"
+      explanation: "This can happen when balance control is impaired or sensory input is uneven."
+    - name: "fear of falling"
+      explanation: "Fear itself can worsen movement confidence and stability."
+
+  important_distinctions:
+    - name: "balance problem vs dizziness"
+      explanation: "Balance problems involve difficulty staying steady. Dizziness is a broader symptom that may include spinning, faintness, or disorientation."
+    - name: "vertigo vs imbalance"
+      explanation: "Vertigo is a false sensation of spinning or motion. Imbalance is difficulty maintaining steadiness."
+    - name: "lightheadedness vs disequilibrium"
+      explanation: "Lightheadedness often feels like faintness, while disequilibrium refers more to unsteadiness or poor stability."
+    - name: "momentary instability vs persistent balance disorder"
+      explanation: "Brief instability can happen normally, but repeated or persistent unsteadiness deserves more attention."
+    - name: "fear-based cautious movement vs neurologic impairment"
+      explanation: "Some people move carefully because they are afraid of falling, while others have true sensorimotor or neurologic balance deficits."
+
+  balance_in_everyday_function:
+    - "standing in line"
+    - "getting out of bed"
+    - "walking across a room"
+    - "turning around"
+    - "climbing stairs"
+    - "showering"
+    - "reaching for objects"
+    - "walking on uneven ground"
+    - "getting dressed"
+    - "recovering from slips or trips"
+
+  age_related_considerations:
+    children:
+      - "Balance develops as the nervous system and movement skills mature."
+      - "Play and movement practice help refine balance."
+    adults:
+      - "Balance depends heavily on strength, coordination, and sensory integration."
+    older_adults:
+      - "Balance may become less efficient with reduced strength, slower reflexes, vision changes, or sensory loss."
+      - "Fall risk becomes more important with age."
+
+  cross_system_links:
+    - "Balance depends on vestibular information from the inner ear."
+    - "Balance depends on vision for environmental orientation."
+    - "Balance depends on proprioception to sense body position."
+    - "Balance depends on muscles and joints to perform corrective actions."
+    - "Balance depends on the nervous system to integrate sensory input and coordinate response."
+    - "Balance interacts with walking, posture, and body position control."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Explain that balance is a team effort among multiple body systems."
+      - "Use simple examples like standing, walking, and turning."
+      - "Clarify symptom words such as dizziness, vertigo, and unsteadiness."
+      - "Distinguish normal brief instability from concerning persistent or dangerous symptoms."
+      - "Escalate appropriately if falls, neurologic symptoms, or severe dizziness are present."
+    style_notes:
+      - "Avoid assuming every balance complaint is an ear problem."
+      - "Avoid treating dizziness, faintness, and vertigo as identical."
+      - "Use clear, grounded language."
+      - "Connect balance problems to safety and fall risk when relevant."
+    teaching_sequence:
+      - "Define balance."
+      - "Explain which systems contribute."
+      - "Clarify the symptom being described."
+      - "Discuss common causes or contributing factors."
+      - "State when symptoms are concerning."
+
+  common_questions_jessie_should_handle:
+    - "What helps us keep balance?"
+    - "Why do I feel unsteady when I stand up?"
+    - "Why is balancing harder with my eyes closed?"
+    - "What is the difference between vertigo and balance problems?"
+    - "Can weak muscles affect balance?"
+    - "Why do older adults fall more easily?"
+    - "How do the eyes and inner ear work together for balance?"
+
+  normal_vs_concerning_patterns:
+    often_non_emergency:
+      - "slight sway while standing"
+      - "brief wobble after standing quickly"
+      - "mild instability on uneven ground"
+      - "temporary unsteadiness during fatigue"
+    should_be_monitored:
+      - "repeated unsteadiness"
+      - "frequent near-falls"
+      - "balance worsening over time"
+      - "difficulty walking in the dark"
+      - "new need to hold onto walls or furniture"
+    more_concerning:
+      - "sudden new balance loss"
+      - "repeated falls"
+      - "balance problems with weakness or numbness"
+      - "balance problems with severe headache"
+      - "balance problems with double vision"
+      - "balance problems with chest symptoms or fainting"
+    emergency_patterns:
+      - "sudden inability to stand or walk"
+      - "new balance loss with one-sided weakness"
+      - "new balance loss with slurred speech"
+      - "new balance loss with facial droop"
+      - "collapse"
+      - "loss of consciousness"
+
+  safety_considerations:
+    fall_risk_reduction_points:
+      - "use support when needed"
+      - "move carefully on uneven or slippery surfaces"
+      - "ensure good lighting"
+      - "wear stable footwear"
+      - "avoid rushing when dizzy or weak"
+      - "sit or hold onto support if feeling suddenly unstable"
+    important_note: "Safety advice matters because even mild balance impairment can lead to injury if a person falls."
+
+  red_flags:
+    immediate_attention:
+      - "sudden severe balance loss"
+      - "inability to walk"
+      - "new neurologic symptoms"
+      - "repeated falls with injury"
+      - "loss of consciousness"
+      - "balance problems with chest pain"
+      - "balance problems with severe shortness of breath"
+      - "balance problems with stroke-like symptoms"
+
+  example_jessie_framing:
+    explanation_examples:
+      - "Balance comes from the brain combining information from the eyes, inner ear, muscles, joints, and skin."
+      - "Even when you are standing still, your body is making constant tiny adjustments to keep you upright."
+      - "If those sensory signals conflict or the body cannot respond well, a person may feel unsteady."
+      - "Balance is related to dizziness, but they are not always the same thing."
+    caution_examples:
+      - "A brief wobble can happen normally, but sudden trouble walking or balance loss with weakness needs urgent attention."
+      - "Frequent near-falls or increasing unsteadiness should not be ignored, especially in older adults."
+
+  final_summary:
+    summary_points:
+      - "Balance is the ability to stay stable and controlled during rest and movement."
+      - "It depends on vestibular input, vision, proprioception, brain processing, and muscular response."
+      - "Balance problems may feel like unsteadiness, veering, or poor control, and are not always the same as vertigo."
+      - "Persistent or worsening balance issues increase fall risk."
+      - "Sudden severe balance loss or balance problems with neurologic symptoms require urgent evaluation."
+      - "Jessie should explain balance as an integrated body function and respond carefully to red-flag symptoms."

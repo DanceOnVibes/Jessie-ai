@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Pain Evaluation Set"
+  domain: "body_awareness"
+  topic: "pain"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of pain, protective signaling, body awareness, pain characteristics, effects on function, common interpretations, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "pain_eval_001"
+      prompt: "What is pain?"
+      expected: "Pain is an unpleasant sensory and emotional experience that can signal actual or potential harm."
+
+    - id: "pain_eval_002"
+      prompt: "Why is pain important?"
+      expected: "Pain is important because it can warn the body about injury, illness, or harmful conditions."
+
+    - id: "pain_eval_003"
+      prompt: "Does pain always mean severe damage?"
+      expected: "No. Pain does not always mean severe damage, though it should still be taken seriously in context."
+
+    - id: "pain_eval_004"
+      prompt: "Can pain be protective?"
+      expected: "Yes. Pain can help protect the body by encouraging caution or withdrawal from harm."
+
+    - id: "pain_eval_005"
+      prompt: "Can pain be felt in many parts of the body?"
+      expected: "Yes. Pain can occur in many parts of the body."
+
+    - id: "pain_eval_006"
+      prompt: "Can pain be sharp, dull, burning, aching, or throbbing?"
+      expected: "Yes. Pain can have many different qualities."
+
+    - id: "pain_eval_007"
+      prompt: "Can pain be mild or severe?"
+      expected: "Yes. Pain can range from mild to severe."
+
+    - id: "pain_eval_008"
+      prompt: "Can pain be brief or long-lasting?"
+      expected: "Yes. Pain can be acute or persistent."
+
+    - id: "pain_eval_009"
+      prompt: "What is acute pain in a simple way?"
+      expected: "Acute pain is pain that starts suddenly or lasts a relatively short time."
+
+    - id: "pain_eval_010"
+      prompt: "What is chronic or persistent pain in a simple way?"
+      expected: "Persistent pain is pain that continues over time rather than resolving quickly."
+
+    - id: "pain_eval_011"
+      prompt: "Can pain happen after injury?"
+      expected: "Yes. Pain often happens after injury."
+
+    - id: "pain_eval_012"
+      prompt: "Can pain happen without a visible injury?"
+      expected: "Yes. Pain can occur even when there is no obvious external injury."
+
+    - id: "pain_eval_013"
+      prompt: "Can pain affect movement?"
+      expected: "Yes. Pain can limit movement and function."
+
+    - id: "pain_eval_014"
+      prompt: "Can pain affect mood?"
+      expected: "Yes. Pain can affect mood, stress, and emotional well-being."
+
+    - id: "pain_eval_015"
+      prompt: "Can pain affect sleep?"
+      expected: "Yes. Pain can interfere with sleep."
+
+    - id: "pain_eval_016"
+      prompt: "Can pain affect concentration?"
+      expected: "Yes. Pain can make concentration harder."
+
+    - id: "pain_eval_017"
+      prompt: "Can pain affect daily activities?"
+      expected: "Yes. Pain can affect work, school, self-care, exercise, and routine tasks."
+
+    - id: "pain_eval_018"
+      prompt: "Can pain help a person notice something is wrong?"
+      expected: "Yes. Pain can be a sign that the body needs attention."
+
+    - id: "pain_eval_019"
+      prompt: "Can pain sometimes continue after tissues begin healing?"
+      expected: "Yes. Pain can sometimes persist even after initial healing has started."
+
+    - id: "pain_eval_020"
+      prompt: "Can pain be influenced by stress or fatigue?"
+      expected: "Yes. Stress, fatigue, and other factors can influence pain experience."
+
+    - id: "pain_eval_021"
+      prompt: "Can pain be influenced by movement or position?"
+      expected: "Yes. Some pain changes with movement, posture, or activity."
+
+    - id: "pain_eval_022"
+      prompt: "Can pain be localized or spread out?"
+      expected: "Yes. Pain may be felt in one spot or across a broader area."
+
+    - id: "pain_eval_023"
+      prompt: "Can pain radiate from one area to another?"
+      expected: "Yes. Pain can sometimes spread or radiate."
+
+    - id: "pain_eval_024"
+      prompt: "Can pain come and go?"
+      expected: "Yes. Pain may be constant or intermittent."
+
+    - id: "pain_eval_025"
+      prompt: "Can pain be worse with activity in some cases?"
+      expected: "Yes. Activity can worsen some kinds of pain."
+
+    - id: "pain_eval_026"
+      prompt: "Can pain be worse at rest in some cases?"
+      expected: "Yes. Some pain may be more noticeable at rest or at night."
+
+    - id: "pain_eval_027"
+      prompt: "Can inflammation cause pain?"
+      expected: "Yes. Inflammation can be one cause of pain."
+
+    - id: "pain_eval_028"
+      prompt: "Can muscle strain cause pain?"
+      expected: "Yes. Muscle strain can cause pain and soreness."
+
+    - id: "pain_eval_029"
+      prompt: "Can joint problems cause pain?"
+      expected: "Yes. Joint problems can cause pain."
+
+    - id: "pain_eval_030"
+      prompt: "Can nerve irritation cause pain?"
+      expected: "Yes. Nerve-related problems can cause pain, burning, tingling, or sharp sensations."
+
+    - id: "pain_eval_031"
+      prompt: "Can internal organ problems cause pain?"
+      expected: "Yes. Problems involving internal organs can also cause pain."
+
+    - id: "pain_eval_032"
+      prompt: "Can emotional distress make pain harder to cope with?"
+      expected: "Yes. Emotional distress can worsen the experience and impact of pain."
+
+    - id: "pain_eval_033"
+      prompt: "Does pain only affect the body and not emotions?"
+      expected: "No. Pain can affect both physical and emotional well-being."
+
+    - id: "pain_eval_034"
+      prompt: "Can fear of pain change how a person moves?"
+      expected: "Yes. Fear of pain can change movement and activity patterns."
+
+    - id: "pain_eval_035"
+      prompt: "Can guarding be a response to pain?"
+      expected: "Yes. Guarding is a protective response in which a person limits movement because of pain."
+
+    - id: "pain_eval_036"
+      prompt: "Can pain be described using location, intensity, and quality?"
+      expected: "Yes. Pain is often described by where it is, how strong it is, and what it feels like."
+
+    - id: "pain_eval_037"
+      prompt: "Can pain scales help describe pain intensity?"
+      expected: "Yes. Pain scales can help communicate how intense pain feels."
+
+    - id: "pain_eval_038"
+      prompt: "Can pain affect appetite?"
+      expected: "Yes. Pain can affect appetite and overall comfort."
+
+    - id: "pain_eval_039"
+      prompt: "Can severe pain sometimes cause sweating, nausea, or shaking?"
+      expected: "Yes. Severe pain can sometimes cause other physical stress responses."
+
+    - id: "pain_eval_040"
+      prompt: "Can pain affect breathing patterns?"
+      expected: "Yes. Pain can sometimes change how a person breathes."
+
+    - id: "pain_eval_041"
+      prompt: "Can long-lasting pain affect quality of life?"
+      expected: "Yes. Persistent pain can affect function, mood, sleep, and daily life."
+
+    - id: "pain_eval_042"
+      prompt: "Can pain affect exercise tolerance?"
+      expected: "Yes. Pain can reduce comfort with exercise or activity."
+
+    - id: "pain_eval_043"
+      prompt: "Can pain affect relationships or work?"
+      expected: "Yes. Pain can affect many parts of daily life, including social and work function."
+
+    - id: "pain_eval_044"
+      prompt: "Can pain be important even if it is hard to explain?"
+      expected: "Yes. Pain can still be important even when its cause is not immediately clear."
+
+    - id: "pain_eval_045"
+      prompt: "Can new severe pain be important?"
+      expected: "Yes. New severe pain should be taken seriously."
+
+    - id: "pain_eval_046"
+      prompt: "Can pain after trauma need attention?"
+      expected: "Yes. Pain after trauma may need evaluation depending on severity and associated symptoms."
+
+    - id: "pain_eval_047"
+      prompt: "Can chest pain be serious?"
+      expected: "Yes. Chest pain can be serious and should be evaluated promptly."
+
+    - id: "pain_eval_048"
+      prompt: "Can abdominal pain sometimes be serious?"
+      expected: "Yes. Severe or concerning abdominal pain should be evaluated."
+
+    - id: "pain_eval_049"
+      prompt: "Can severe headache be serious?"
+      expected: "Yes. A severe or sudden headache can be serious and should be evaluated promptly."
+
+    - id: "pain_eval_050"
+      prompt: "Can pain with fever be important?"
+      expected: "Yes. Pain with fever can suggest a significant problem and should be evaluated."
+
+    - id: "pain_eval_051"
+      prompt: "Can pain with trouble breathing be urgent?"
+      expected: "Yes. Pain with trouble breathing can be urgent and requires prompt attention."
+
+    - id: "pain_eval_052"
+      prompt: "Can pain with weakness, numbness, or confusion be serious?"
+      expected: "Yes. Pain with those symptoms can be serious and should be evaluated promptly."
+
+    - id: "pain_eval_053"
+      prompt: "Should severe pain that is rapidly worsening be ignored?"
+      expected: "No. Rapidly worsening severe pain should be taken seriously."
+
+    - id: "pain_eval_054"
+      prompt: "Should pain with fainting or near-fainting be taken seriously?"
+      expected: "Yes. Pain with fainting or near-fainting should be evaluated promptly."
+
+    - id: "pain_eval_055"
+      prompt: "Should pain after a major injury be taken seriously?"
+      expected: "Yes. Pain after a major injury should be evaluated."
+
+    - id: "pain_eval_056"
+      prompt: "Should pain with heavy bleeding be considered urgent?"
+      expected: "Yes. Pain with heavy bleeding is urgent."
+
+    - id: "pain_eval_057"
+      prompt: "Should severe back pain with loss of bladder or bowel control be considered serious?"
+      expected: "Yes. That combination is serious and requires prompt medical attention."
+
+    - id: "pain_eval_058"
+      prompt: "Should a painful swollen leg with chest symptoms be considered urgent?"
+      expected: "Yes. That combination can be urgent and should be addressed promptly."
+
+    - id: "pain_eval_059"
+      prompt: "Can pain management include understanding patterns and triggers?"
+      expected: "Yes. Noticing patterns, triggers, and relieving factors can help with understanding pain."
+
+    - id: "pain_eval_060"
+      prompt: "Can pain be affected by rest, activity, position, or stress together?"
+      expected: "Yes. Pain often changes depending on multiple factors."
+
+    - id: "pain_eval_061"
+      prompt: "Can describing when pain started be useful?"
+      expected: "Yes. The timing of pain onset can be important information."
+
+    - id: "pain_eval_062"
+      prompt: "Can describing what makes pain better or worse be useful?"
+      expected: "Yes. Triggers and relieving factors can help characterize pain."
+
+    - id: "pain_eval_063"
+      prompt: "Can pain in one area sometimes reflect a problem elsewhere?"
+      expected: "Yes. Some pain can be referred or felt away from its source."
+
+    - id: "pain_eval_064"
+      prompt: "Can pain be part of both injury and illness?"
+      expected: "Yes. Pain can occur with both injury and many medical conditions."
+
+    - id: "pain_eval_065"
+      prompt: "Can the nervous system be involved in pain?"
+      expected: "Yes. Pain depends on nervous system detection and processing."
+
+    - id: "pain_eval_066"
+      prompt: "Can pain affect body posture or movement habits over time?"
+      expected: "Yes. Ongoing pain can change posture, movement, and activity patterns."
+
+    - id: "pain_eval_067"
+      prompt: "Can pain during healing still need monitoring if it changes or worsens?"
+      expected: "Yes. Worsening or changing pain during healing may need evaluation."
+
+    - id: "pain_eval_068"
+      prompt: "Can a person have significant pain even if others cannot see the cause clearly?"
+      expected: "Yes. Pain is a real experience even when its cause is not visible."
+
+    - id: "pain_eval_069"
+      prompt: "Can chronic pain affect mental health?"
+      expected: "Yes. Ongoing pain can affect mood, stress, and emotional well-being."
+
+    - id: "pain_eval_070"
+      prompt: "Can pain and function be related?"
+      expected: "Yes. Pain can affect movement, sleep, work, exercise, and daily activities."
+
+    - id: "pain_eval_071"
+      prompt: "Can pain have both sensory and emotional dimensions?"
+      expected: "Yes. Pain includes both physical sensation and emotional experience."
+
+    - id: "pain_eval_072"
+      prompt: "Can severe pain be the body's way of signaling urgent attention?"
+      expected: "Yes. Severe pain can be a warning sign that needs prompt evaluation."
+
+    - id: "pain_eval_073"
+      prompt: "Can rest alone always explain away serious pain?"
+      expected: "No. Severe, sudden, worsening, or associated symptoms can make pain more concerning."
+
+    - id: "pain_eval_074"
+      prompt: "Can pain happen in muscles, joints, nerves, skin, or internal organs?"
+      expected: "Yes. Pain can arise from many body structures and systems."
+
+    - id: "pain_eval_075"
+      prompt: "Can understanding pain include quality, timing, location, intensity, and associated symptoms?"
+      expected: "Yes. Those features help describe and interpret pain."
+
+    - id: "pain_eval_076"
+      prompt: "What is the main idea of pain?"
+      expected: "Pain is a protective sensory and emotional experience that can signal injury, illness, or potential harm and can affect function and well-being."
+
+    - id: "pain_eval_077"
+      prompt: "Can pain be important even if it is not constant?"
+      expected: "Yes. Intermittent pain can still be important depending on the pattern and associated symptoms."
+
+    - id: "pain_eval_078"
+      prompt: "Can pain be influenced by both body conditions and life context?"
+      expected: "Yes. Pain can be influenced by physical, emotional, and situational factors."
+
+    - id: "pain_eval_079"
+      prompt: "Can serious pain need prompt evaluation when linked with breathing problems, neurological symptoms, fainting, bleeding, or major injury?"
+      expected: "Yes. Pain with those associated symptoms can require urgent attention."
+
+    - id: "pain_eval_080"
+      prompt: "What should be done if pain is sudden, severe, worsening, unexplained, or linked with chest pain, breathing trouble, fainting, neurological symptoms, heavy bleeding, or major trauma?"
+      expected: "Sudden, severe, or concerning pain should be evaluated promptly, and urgent symptoms require immediate attention."

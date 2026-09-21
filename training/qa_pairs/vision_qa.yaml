@@ -1,0 +1,212 @@
+```yaml
+metadata:
+  file_name: "vision_qa.yaml"
+  title: "Jessie Vision QA Pairs"
+  domain: "special_senses"
+  topic: "vision"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain vision, the eye-brain partnership, light processing, and simple safety boundaries with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain vision as the sense that helps the body detect light and interpret it as what we see. Jessie should explain that seeing begins when light enters the eye, that the retina helps convert light into nerve signals, and that the brain is important for making those signals meaningful. The set also supports broader biology teaching by including the eye-brain partnership, light focusing, difficulty seeing in the dark, blinking as protection, and practical safety boundaries in simple language. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for sudden vision loss, major sudden vision changes, or vision changes after head injury."
+  training_goals:
+    - "Explain vision in simple, beginner-friendly language"
+    - "Teach that seeing begins when light enters the eye"
+    - "Show that the retina helps convert light into nerve signals"
+    - "Clarify that the brain is essential for interpreting visual information"
+    - "Support broader biology retrieval with light-processing and protective-response concepts"
+    - "Use practical examples such as darkness and blinking"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for concerning vision changes"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach vision as detection and interpretation of light"
+    - "Explain the roles of the eyes, retina, and brain simply"
+    - "Connect light input to meaningful sight"
+    - "Support both basic biology teaching and simple sensory pathway explanation"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose eye disease, retinal problems, concussion effects, stroke, migraine, or causes of vision loss or visual changes."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general vision concepts, eye-brain roles, and warning signs."
+  safety_escalation:
+    - "Prompt guidance is appropriate for sudden vision loss, sudden major vision change, or vision changes after head injury."
+
+pairs:
+  - id: "vision_qa_001"
+    category: "foundational_definition"
+    question: "What is vision?"
+    answer: "Vision is the sense that helps the body detect light and interpret it as what we see."
+
+  - id: "vision_qa_002"
+    category: "foundational_definition"
+    question: "Why does vision matter?"
+    answer: "Vision matters because it helps people detect surroundings, movement, and visual details."
+
+  - id: "vision_qa_003"
+    category: "process"
+    question: "How does seeing begin?"
+    answer: "Seeing begins when light enters the eye."
+
+  - id: "vision_qa_004"
+    category: "process"
+    question: "What happens to light in the eye?"
+    answer: "Light enters the eye, is focused onto the retina, and helps start visual nerve signals."
+
+  - id: "vision_qa_005"
+    category: "system_roles"
+    question: "What does the retina do?"
+    answer: "The retina helps convert light into nerve signals."
+
+  - id: "vision_qa_006"
+    category: "system_roles"
+    question: "Does the brain matter for vision?"
+    answer: "Yes. The brain is very important for interpreting visual signals."
+
+  - id: "vision_qa_007"
+    category: "system_roles"
+    question: "Why is the brain part of seeing?"
+    answer: "The brain helps interpret visual signals so they become meaningful sight."
+
+  - id: "vision_qa_008"
+    category: "term_clarification"
+    question: "Do the eyes do all the seeing by themselves?"
+    answer: "No. The eyes collect visual information, and the brain helps make sense of it."
+
+  - id: "vision_qa_009"
+    category: "term_clarification"
+    question: "Is vision only about the eyeballs?"
+    answer: "No. Vision depends on both the eyes and the brain."
+
+  - id: "vision_qa_010"
+    category: "term_clarification"
+    question: "Why is it harder to see in the dark?"
+    answer: "It is harder to see in the dark because there is less light available for the eyes to detect."
+
+  - id: "vision_qa_011"
+    category: "term_clarification"
+    question: "What helps protect the eye quickly?"
+    answer: "Blinking is a quick protective response that helps protect the eye."
+
+  - id: "vision_qa_012"
+    category: "process"
+    question: "How does vision work in simple terms?"
+    answer: "Light enters the eye, the retina helps turn it into signals, and the brain helps interpret those signals as sight."
+
+  - id: "vision_qa_013"
+    category: "misconception"
+    question: "Is sight created only by the eye and not the brain?"
+    answer: "No. Vision depends on both the eyes and the brain."
+
+  - id: "vision_qa_014"
+    category: "misconception"
+    question: "If light enters the eye, does that automatically mean clear vision?"
+    answer: "No. Vision still depends on how the signals are processed and interpreted."
+
+  - id: "vision_qa_015"
+    category: "misconception"
+    question: "Is blinking only for communication and not protection?"
+    answer: "No. Blinking also helps protect the eye."
+
+  - id: "vision_qa_016"
+    category: "everyday_example"
+    question: "Why does a bright room feel easier to see in than a dark room?"
+    answer: "It feels easier because more light is available for the eyes to detect."
+
+  - id: "vision_qa_017"
+    category: "everyday_example"
+    question: "Why do people blink when something comes near the eye?"
+    answer: "They blink because it is a quick protective response."
+
+  - id: "vision_qa_018"
+    category: "everyday_example"
+    question: "Why can visual information help with movement?"
+    answer: "It can help because seeing the surroundings supports safe and accurate movement."
+
+  - id: "vision_qa_019"
+    category: "system_connection"
+    question: "How is vision connected to the nervous system?"
+    answer: "Vision is connected to the nervous system because light-related signals are sent and interpreted as sight."
+
+  - id: "vision_qa_020"
+    category: "system_connection"
+    question: "How is vision connected to safety?"
+    answer: "Vision is connected to safety because it helps people notice the environment and respond to what they see."
+
+  - id: "vision_qa_021"
+    category: "visual_art_support"
+    question: "Why is vision useful to understand in biology teaching?"
+    answer: "It helps explain how light is detected and turned into meaningful visual experience."
+
+  - id: "vision_qa_022"
+    category: "visual_art_support"
+    question: "What should an educator or artist know about vision diagrams?"
+    answer: "They should know that light enters the eye, the retina helps start visual signals, and the brain helps interpret them."
+
+  - id: "vision_qa_023"
+    category: "visual_art_support"
+    question: "Why do pathway visuals help explain vision?"
+    answer: "They help because vision involves light entry, signal formation, and interpretation."
+
+  - id: "vision_qa_024"
+    category: "boundary"
+    question: "Can you diagnose why my vision changed suddenly?"
+    answer: "No. I can't diagnose the cause from limited information, but I can explain general vision concepts and point out warning signs."
+
+  - id: "vision_qa_025"
+    category: "boundary"
+    question: "Can you tell me exactly what is wrong with my eye or vision?"
+    answer: "No. I can't determine the exact cause from a brief description, but I can explain general vision concepts and when urgent care may be important."
+
+  - id: "vision_qa_026"
+    category: "boundary"
+    question: "Does blurry vision always mean the same problem?"
+    answer: "No. Blurry vision can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "vision_qa_027"
+    category: "boundary"
+    question: "Do flashes, dark spots, or sudden visual changes always mean one specific cause?"
+    answer: "No. Sudden visual changes can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "vision_qa_028"
+    category: "safety_supportive_urgent"
+    question: "Should sudden vision loss be ignored?"
+    answer: "No. Sudden vision loss or sudden major vision change should be taken seriously and checked right away."
+
+  - id: "vision_qa_029"
+    category: "safety_supportive_urgent"
+    question: "Are vision changes after head injury important?"
+    answer: "Yes. Vision changes after a head injury should be taken seriously and checked quickly."
+
+  - id: "vision_qa_030"
+    category: "safety_supportive_urgent"
+    question: "Should sudden major visual changes be treated seriously?"
+    answer: "Yes. Sudden major visual changes should be medically checked promptly."
+
+  - id: "vision_qa_031"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about vision?"
+    answer: "The main thing to remember is that vision depends on light entering the eye and the brain interpreting those signals as sight."
+
+quality_checks:
+  - "The file contains 31 QA pairs with ids vision_qa_001 through vision_qa_031."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "Vision is consistently explained as light detection with eye-brain interpretation."
+  - "The set includes support for biology teaching, sensory pathway concepts, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Lymphatic System Evaluation Set"
+  domain: "human_body"
+  topic: "lymphatic_system"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of the lymphatic system, fluid balance, immune support, lymph transport, lymph nodes, tissue drainage, fat absorption support, system interactions, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "lymphatic_eval_001"
+      prompt: "What is the lymphatic system?"
+      expected: "The lymphatic system is the body system that helps return excess tissue fluid to circulation and supports immune function."
+
+    - id: "lymphatic_eval_002"
+      prompt: "What is the main job of the lymphatic system?"
+      expected: "Its main job is to help manage fluid balance, transport lymph, and support immune defense."
+
+    - id: "lymphatic_eval_003"
+      prompt: "What is lymph in a simple way?"
+      expected: "Lymph is fluid that moves through lymphatic vessels and is related to tissue fluid and immune function."
+
+    - id: "lymphatic_eval_004"
+      prompt: "Why is the lymphatic system important?"
+      expected: "It is important because it helps prevent excess fluid buildup, supports immune defense, and helps move certain absorbed fats."
+
+    - id: "lymphatic_eval_005"
+      prompt: "Does the lymphatic system interact with the immune system?"
+      expected: "Yes. The lymphatic system is closely linked to immune function."
+
+    - id: "lymphatic_eval_006"
+      prompt: "Does the lymphatic system interact with the circulatory system?"
+      expected: "Yes. It helps return excess tissue fluid back toward the bloodstream."
+
+    - id: "lymphatic_eval_007"
+      prompt: "Can the lymphatic system help with fluid balance?"
+      expected: "Yes. It helps collect excess tissue fluid and return it to circulation."
+
+    - id: "lymphatic_eval_008"
+      prompt: "Can the lymphatic system help prevent tissue swelling from excess fluid?"
+      expected: "Yes. It helps reduce excess fluid buildup in tissues."
+
+    - id: "lymphatic_eval_009"
+      prompt: "What structures are part of the lymphatic system?"
+      expected: "Lymph, lymphatic vessels, lymph nodes, and related lymphatic organs are parts of the lymphatic system."
+
+    - id: "lymphatic_eval_010"
+      prompt: "What do lymphatic vessels do?"
+      expected: "Lymphatic vessels carry lymph through the body."
+
+    - id: "lymphatic_eval_011"
+      prompt: "What do lymph nodes do in a simple way?"
+      expected: "Lymph nodes help filter lymph and support immune responses."
+
+    - id: "lymphatic_eval_012"
+      prompt: "Can lymph nodes become enlarged during infection?"
+      expected: "Yes. Lymph nodes can enlarge during infection or immune activity."
+
+    - id: "lymphatic_eval_013"
+      prompt: "Can the tonsils be related to lymphatic or immune function?"
+      expected: "Yes. The tonsils are involved in immune and lymphatic defense."
+
+    - id: "lymphatic_eval_014"
+      prompt: "Can the spleen be part of the lymphatic system?"
+      expected: "Yes. The spleen is an important lymphatic and immune-related organ."
+
+    - id: "lymphatic_eval_015"
+      prompt: "Can the thymus be related to lymphatic and immune development?"
+      expected: "Yes. The thymus supports important immune cell development."
+
+    - id: "lymphatic_eval_016"
+      prompt: "Does the lymphatic system only matter during infection?"
+      expected: "No. It works continuously in fluid balance and immune support."
+
+    - id: "lymphatic_eval_017"
+      prompt: "Can the lymphatic system transport absorbed fats from the digestive system?"
+      expected: "Yes. It helps transport certain fats absorbed from the intestines."
+
+    - id: "lymphatic_eval_018"
+      prompt: "Can the lymphatic system interact with the digestive system?"
+      expected: "Yes. It helps transport certain absorbed fats and supports immune defense in digestive tissues."
+
+    - id: "lymphatic_eval_019"
+      prompt: "Can the lymphatic system help monitor for harmful substances?"
+      expected: "Yes. Lymphatic structures help support immune surveillance."
+
+    - id: "lymphatic_eval_020"
+      prompt: "What is a simple example of the lymphatic system at work?"
+      expected: "Filtering lymph and helping respond to infection is a simple example of lymphatic function."
+
+    - id: "lymphatic_eval_021"
+      prompt: "Can tissue fluid normally move out of blood vessels into tissues?"
+      expected: "Yes. Some fluid normally moves into tissues and the lymphatic system helps return excess fluid."
+
+    - id: "lymphatic_eval_022"
+      prompt: "Why does the body need lymphatic drainage?"
+      expected: "The body needs lymphatic drainage to help manage tissue fluid and support immune function."
+
+    - id: "lymphatic_eval_023"
+      prompt: "Can impaired lymphatic flow contribute to swelling?"
+      expected: "Yes. Reduced lymphatic drainage can contribute to swelling."
+
+    - id: "lymphatic_eval_024"
+      prompt: "Can the lymphatic system support healing?"
+      expected: "Yes. It helps manage fluid balance and supports immune-related healing processes."
+
+    - id: "lymphatic_eval_025"
+      prompt: "Can the lymphatic system help protect the body from infection spread?"
+      expected: "Yes. It helps support immune responses and filtering functions."
+
+    - id: "lymphatic_eval_026"
+      prompt: "Can lymph nodes be found in multiple areas of the body?"
+      expected: "Yes. Lymph nodes are located in many parts of the body."
+
+    - id: "lymphatic_eval_027"
+      prompt: "Can swollen lymph nodes in the neck happen during throat infection?"
+      expected: "Yes. Neck lymph nodes can swell during infections in nearby areas."
+
+    - id: "lymphatic_eval_028"
+      prompt: "Can swollen lymph nodes sometimes be tender?"
+      expected: "Yes. Swollen lymph nodes can sometimes be tender."
+
+    - id: "lymphatic_eval_029"
+      prompt: "Can the lymphatic system be described as part of both fluid management and immune defense?"
+      expected: "Yes. It serves both of those major functions."
+
+    - id: "lymphatic_eval_030"
+      prompt: "Can the lymphatic system affect comfort if swelling develops?"
+      expected: "Yes. Swelling related to lymphatic problems can affect comfort and function."
+
+    - id: "lymphatic_eval_031"
+      prompt: "Can lymphatic swelling affect movement?"
+      expected: "Yes. Swelling can make movement feel more difficult or uncomfortable."
+
+    - id: "lymphatic_eval_032"
+      prompt: "Can a limb swell if lymphatic drainage is reduced?"
+      expected: "Yes. Reduced lymphatic drainage can contribute to limb swelling."
+
+    - id: "lymphatic_eval_033"
+      prompt: "Can the lymphatic system matter after injury or surgery?"
+      expected: "Yes. Lymphatic function can matter during healing and fluid management after injury or surgery."
+
+    - id: "lymphatic_eval_034"
+      prompt: "Can infections cause changes in lymphatic structures?"
+      expected: "Yes. Infections can lead to lymph node swelling and increased immune activity."
+
+    - id: "lymphatic_eval_035"
+      prompt: "Can lymphatic function influence tissue health?"
+      expected: "Yes. Proper lymphatic drainage supports healthy tissue conditions."
+
+    - id: "lymphatic_eval_036"
+      prompt: "Can persistent swelling suggest a lymphatic issue among other possibilities?"
+      expected: "Yes. Persistent swelling can have several causes, including lymphatic problems."
+
+    - id: "lymphatic_eval_037"
+      prompt: "Can the lymphatic system support transport as well as filtering?"
+      expected: "Yes. It transports lymph and supports filtering and immune defense."
+
+    - id: "lymphatic_eval_038"
+      prompt: "Does lymph move through a network of vessels?"
+      expected: "Yes. Lymph moves through lymphatic vessels in a network throughout the body."
+
+    - id: "lymphatic_eval_039"
+      prompt: "Can the lymphatic system help return proteins and fluid from tissues?"
+      expected: "Yes. It helps return excess fluid and certain substances from tissues toward circulation."
+
+    - id: "lymphatic_eval_040"
+      prompt: "Can the lymphatic system support the body's response to inflammation?"
+      expected: "Yes. It helps manage fluid and immune responses during inflammation."
+
+    - id: "lymphatic_eval_041"
+      prompt: "Can the lymphatic system and immune system work together every day?"
+      expected: "Yes. They work together continuously, not only during illness."
+
+    - id: "lymphatic_eval_042"
+      prompt: "Can hydration and tissue fluid balance relate to lymphatic function?"
+      expected: "Yes. Lymphatic function is part of the body's overall fluid balance."
+
+    - id: "lymphatic_eval_043"
+      prompt: "Can lymphatic function matter in the arms and legs?"
+      expected: "Yes. Lymphatic drainage is important in the limbs as well as the rest of the body."
+
+    - id: "lymphatic_eval_044"
+      prompt: "Can skin tightness sometimes occur with swelling related to lymphatic problems?"
+      expected: "Yes. Swelling can sometimes make tissues feel tight or heavy."
+
+    - id: "lymphatic_eval_045"
+      prompt: "Can the lymphatic system help keep excess tissue fluid from remaining in tissues?"
+      expected: "Yes. It helps collect and move excess fluid away from tissues."
+
+    - id: "lymphatic_eval_046"
+      prompt: "Can lymphatic health affect daily comfort and mobility?"
+      expected: "Yes. Swelling and fluid imbalance can affect comfort and movement."
+
+    - id: "lymphatic_eval_047"
+      prompt: "Can the lymphatic system support immune cell movement?"
+      expected: "Yes. It helps support the movement and organization of immune cells."
+
+    - id: "lymphatic_eval_048"
+      prompt: "Can the body rely on the lymphatic system even when a person is resting?"
+      expected: "Yes. The lymphatic system functions continuously during daily life and rest."
+
+    - id: "lymphatic_eval_049"
+      prompt: "Can the lymphatic system help connect tissues to immune monitoring?"
+      expected: "Yes. It helps carry lymph from tissues into areas involved in immune response."
+
+    - id: "lymphatic_eval_050"
+      prompt: "Can the lymphatic system help carry material from tissues toward nodes for filtering?"
+      expected: "Yes. Lymph carries fluid and other material toward lymph nodes."
+
+    - id: "lymphatic_eval_051"
+      prompt: "Can the lymphatic system have a role in infection-related swelling of nodes?"
+      expected: "Yes. Lymph node swelling can reflect active immune response."
+
+    - id: "lymphatic_eval_052"
+      prompt: "Can enlarged lymph nodes sometimes happen with local inflammation?"
+      expected: "Yes. Local inflammation can sometimes lead to enlarged lymph nodes nearby."
+
+    - id: "lymphatic_eval_053"
+      prompt: "Can the lymphatic system matter for recovery from infection?"
+      expected: "Yes. It supports immune responses and fluid handling during recovery."
+
+    - id: "lymphatic_eval_054"
+      prompt: "Can the lymphatic system be important even if people do not think about it often?"
+      expected: "Yes. It is an important but often less noticed body system."
+
+    - id: "lymphatic_eval_055"
+      prompt: "Can swelling in only one area sometimes need evaluation?"
+      expected: "Yes. One-sided or persistent swelling should be evaluated."
+
+    - id: "lymphatic_eval_056"
+      prompt: "Can rapidly enlarging or persistent lymph nodes be important?"
+      expected: "Yes. Persistent or rapidly enlarging lymph nodes should be evaluated."
+
+    - id: "lymphatic_eval_057"
+      prompt: "Should swollen nodes with fever, redness, or worsening pain be taken seriously?"
+      expected: "Yes. Those symptoms should be evaluated promptly."
+
+    - id: "lymphatic_eval_058"
+      prompt: "Should major unexplained limb swelling be ignored?"
+      expected: "No. Major unexplained swelling should be taken seriously."
+
+    - id: "lymphatic_eval_059"
+      prompt: "Should swelling with shortness of breath or chest symptoms be considered urgent?"
+      expected: "Yes. Swelling with breathing or chest symptoms can be urgent."
+
+    - id: "lymphatic_eval_060"
+      prompt: "Should a painful red swollen area with fever be taken seriously?"
+      expected: "Yes. That pattern can be concerning and should be evaluated promptly."
+
+    - id: "lymphatic_eval_061"
+      prompt: "Can the lymphatic system and skin work together in protection and swelling control?"
+      expected: "Yes. Lymphatic drainage and skin barrier function both help tissue health."
+
+    - id: "lymphatic_eval_062"
+      prompt: "Can lymphatic problems affect quality of life if they become chronic?"
+      expected: "Yes. Ongoing swelling and discomfort can affect daily life."
+
+    - id: "lymphatic_eval_063"
+      prompt: "Can the lymphatic system help maintain normal tissue conditions?"
+      expected: "Yes. By managing fluid and supporting immunity, it helps maintain tissue health."
+
+    - id: "lymphatic_eval_064"
+      prompt: "Can the digestive system depend partly on lymphatic pathways for fat transport?"
+      expected: "Yes. Certain absorbed fats enter lymphatic pathways."
+
+    - id: "lymphatic_eval_065"
+      prompt: "Can lymphatic function influence heaviness or fullness in a swollen limb?"
+      expected: "Yes. Swelling can create feelings of heaviness or fullness."
+
+    - id: "lymphatic_eval_066"
+      prompt: "Can the lymphatic system support body defense without directly pumping blood?"
+      expected: "Yes. It is a separate transport and defense-support system from blood circulation."
+
+    - id: "lymphatic_eval_067"
+      prompt: "Can lymphatic vessels and nodes be considered a network rather than one structure?"
+      expected: "Yes. The lymphatic system is a body-wide network."
+
+    - id: "lymphatic_eval_068"
+      prompt: "Can infection in one area sometimes lead to nearby lymph node changes?"
+      expected: "Yes. Nearby lymph nodes may react to local infection."
+
+    - id: "lymphatic_eval_069"
+      prompt: "Can the lymphatic system support both transport and surveillance?"
+      expected: "Yes. It helps with transport of lymph and immune monitoring."
+
+    - id: "lymphatic_eval_070"
+      prompt: "Can movement sometimes help normal fluid return and tissue comfort?"
+      expected: "Yes. Body movement can support normal fluid movement and comfort."
+
+    - id: "lymphatic_eval_071"
+      prompt: "Can the lymphatic system be relevant to post-surgical swelling?"
+      expected: "Yes. Swelling after surgery can involve lymphatic and tissue fluid factors."
+
+    - id: "lymphatic_eval_072"
+      prompt: "Can normal lymphatic function support tissue recovery after minor injury?"
+      expected: "Yes. It helps manage fluid and support healing responses."
+
+    - id: "lymphatic_eval_073"
+      prompt: "Can the lymphatic and immune systems be difficult to separate completely in discussion?"
+      expected: "Yes. They are closely linked and often discussed together."
+
+    - id: "lymphatic_eval_074"
+      prompt: "Can the lymphatic system be described as quiet but essential?"
+      expected: "Yes. It often works unnoticed but is essential for normal body function."
+
+    - id: "lymphatic_eval_075"
+      prompt: "Can swelling, node changes, and infection signs together sometimes suggest a lymphatic or immune issue?"
+      expected: "Yes. Those features can relate to lymphatic and immune processes."
+
+    - id: "lymphatic_eval_076"
+      prompt: "What is the main idea of the lymphatic system?"
+      expected: "The lymphatic system helps manage tissue fluid, transport lymph, support immune defense, and carry certain absorbed fats."
+
+    - id: "lymphatic_eval_077"
+      prompt: "Can the lymphatic system support both fluid return and immune protection?"
+      expected: "Yes. Those are two of its major roles."
+
+    - id: "lymphatic_eval_078"
+      prompt: "Can lymphatic symptoms matter even if they seem limited to swelling at first?"
+      expected: "Yes. Persistent or unusual swelling can be important and should be evaluated."
+
+    - id: "lymphatic_eval_079"
+      prompt: "Can lymph nodes, vessels, spleen, and related tissues all contribute to lymphatic function?"
+      expected: "Yes. The lymphatic system includes multiple structures working together."
+
+    - id: "lymphatic_eval_080"
+      prompt: "What should be done if lymphatic-related symptoms are sudden, severe, worsening, or linked with major swelling, fever, redness, pain, chest symptoms, or breathing trouble?"
+      expected: "Sudden, severe, or concerning lymphatic-related symptoms should be evaluated promptly, and urgent symptoms require immediate attention."

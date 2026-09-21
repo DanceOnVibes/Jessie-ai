@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Circulatory System Evaluation Set"
+  domain: "human_body"
+  topic: "circulatory_system"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of the circulatory system, blood flow, the heart, blood vessels, oxygen and nutrient transport, waste removal support, system interactions, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "circulatory_eval_001"
+      prompt: "What is the circulatory system?"
+      expected: "The circulatory system is the body system that moves blood through the body."
+
+    - id: "circulatory_eval_002"
+      prompt: "What is the main job of the circulatory system?"
+      expected: "Its main job is to transport blood, oxygen, nutrients, and other important substances throughout the body."
+
+    - id: "circulatory_eval_003"
+      prompt: "Which organs and structures are central to the circulatory system?"
+      expected: "The heart, blood, and blood vessels are central parts of the circulatory system."
+
+    - id: "circulatory_eval_004"
+      prompt: "What does the heart do?"
+      expected: "The heart pumps blood through the body."
+
+    - id: "circulatory_eval_005"
+      prompt: "What are blood vessels?"
+      expected: "Blood vessels are tubes that carry blood throughout the body."
+
+    - id: "circulatory_eval_006"
+      prompt: "What does blood transport?"
+      expected: "Blood transports oxygen, nutrients, hormones, immune components, and waste products."
+
+    - id: "circulatory_eval_007"
+      prompt: "Why is blood flow important?"
+      expected: "Blood flow is important because it delivers needed substances to tissues and helps remove wastes."
+
+    - id: "circulatory_eval_008"
+      prompt: "Does the circulatory system help carry oxygen?"
+      expected: "Yes. It carries oxygen through the blood to body tissues."
+
+    - id: "circulatory_eval_009"
+      prompt: "Does the circulatory system help carry nutrients?"
+      expected: "Yes. It helps deliver nutrients from digestion to body cells."
+
+    - id: "circulatory_eval_010"
+      prompt: "Does the circulatory system help remove waste products?"
+      expected: "Yes. It helps carry waste products away from tissues for processing and removal."
+
+    - id: "circulatory_eval_011"
+      prompt: "Can the circulatory system interact with the respiratory system?"
+      expected: "Yes. The respiratory system supplies oxygen that the circulatory system transports."
+
+    - id: "circulatory_eval_012"
+      prompt: "Can the circulatory system interact with the digestive system?"
+      expected: "Yes. It carries nutrients absorbed from digestion to the body's tissues."
+
+    - id: "circulatory_eval_013"
+      prompt: "Can the circulatory system interact with the urinary system?"
+      expected: "Yes. The urinary system filters the blood and helps remove certain wastes and excess fluid."
+
+    - id: "circulatory_eval_014"
+      prompt: "Does the circulatory system only move oxygen?"
+      expected: "No. It also moves nutrients, hormones, immune cells, and waste products."
+
+    - id: "circulatory_eval_015"
+      prompt: "What is a simple description of circulation?"
+      expected: "Circulation is the movement of blood through the body."
+
+    - id: "circulatory_eval_016"
+      prompt: "Can the circulatory system support every body system?"
+      expected: "Yes. Blood flow supports tissues and organs throughout the body."
+
+    - id: "circulatory_eval_017"
+      prompt: "What is the role of arteries in a simple way?"
+      expected: "Arteries carry blood away from the heart."
+
+    - id: "circulatory_eval_018"
+      prompt: "What is the role of veins in a simple way?"
+      expected: "Veins carry blood back toward the heart."
+
+    - id: "circulatory_eval_019"
+      prompt: "What is the role of capillaries in a simple way?"
+      expected: "Capillaries are tiny vessels where exchange of oxygen, nutrients, and wastes happens with tissues."
+
+    - id: "circulatory_eval_020"
+      prompt: "Can blood vessels be different sizes?"
+      expected: "Yes. Blood vessels range from large vessels to tiny capillaries."
+
+    - id: "circulatory_eval_021"
+      prompt: "Why does the body need blood to keep moving?"
+      expected: "The body needs ongoing blood flow to supply tissues and help maintain normal function."
+
+    - id: "circulatory_eval_022"
+      prompt: "Can the heart keep working continuously?"
+      expected: "Yes. The heart works continuously to pump blood."
+
+    - id: "circulatory_eval_023"
+      prompt: "What happens if tissues do not get enough blood flow?"
+      expected: "Tissues may not get enough oxygen and nutrients to function properly."
+
+    - id: "circulatory_eval_024"
+      prompt: "Can the circulatory system help distribute hormones?"
+      expected: "Yes. Hormones can travel through the bloodstream to target tissues."
+
+    - id: "circulatory_eval_025"
+      prompt: "Can the circulatory system help immune defense?"
+      expected: "Yes. Blood carries immune cells and other immune components through the body."
+
+    - id: "circulatory_eval_026"
+      prompt: "Does the circulatory system help with temperature regulation?"
+      expected: "Yes. Blood flow can help distribute heat and support temperature regulation."
+
+    - id: "circulatory_eval_027"
+      prompt: "Can the circulatory system support healing?"
+      expected: "Yes. It helps deliver oxygen, nutrients, and immune support needed for healing."
+
+    - id: "circulatory_eval_028"
+      prompt: "Is the heart a muscle?"
+      expected: "Yes. The heart is a muscular organ that pumps blood."
+
+    - id: "circulatory_eval_029"
+      prompt: "Can blood carry carbon dioxide as well as oxygen?"
+      expected: "Yes. Blood carries oxygen to tissues and helps carry carbon dioxide away."
+
+    - id: "circulatory_eval_030"
+      prompt: "Does circulation matter for the brain?"
+      expected: "Yes. The brain depends on steady blood flow for oxygen and nutrients."
+
+    - id: "circulatory_eval_031"
+      prompt: "Does circulation matter for muscles?"
+      expected: "Yes. Muscles need blood flow for oxygen, nutrients, and waste removal."
+
+    - id: "circulatory_eval_032"
+      prompt: "Can poor circulation affect tissues?"
+      expected: "Yes. Reduced circulation can affect tissue function and health."
+
+    - id: "circulatory_eval_033"
+      prompt: "Can the circulatory system help maintain homeostasis?"
+      expected: "Yes. It helps maintain internal balance by transporting important substances."
+
+    - id: "circulatory_eval_034"
+      prompt: "Can the circulatory system carry substances quickly around the body?"
+      expected: "Yes. It provides an efficient transport network throughout the body."
+
+    - id: "circulatory_eval_035"
+      prompt: "What is a simple example of the circulatory system helping daily life?"
+      expected: "It continuously brings oxygen and nutrients to working tissues while carrying away wastes."
+
+    - id: "circulatory_eval_036"
+      prompt: "Can dehydration affect circulation?"
+      expected: "Yes. Body fluid status can affect circulation and overall function."
+
+    - id: "circulatory_eval_037"
+      prompt: "Can blood loss affect circulation?"
+      expected: "Yes. Significant blood loss can seriously affect circulation."
+
+    - id: "circulatory_eval_038"
+      prompt: "Can circulation influence skin color or warmth?"
+      expected: "Yes. Blood flow can affect skin color, temperature, and appearance."
+
+    - id: "circulatory_eval_039"
+      prompt: "Can the circulatory system help transport clotting components?"
+      expected: "Yes. Blood carries components involved in clotting and repair."
+
+    - id: "circulatory_eval_040"
+      prompt: "Can exercise increase circulatory demand?"
+      expected: "Yes. Activity increases the need to move blood to working tissues."
+
+    - id: "circulatory_eval_041"
+      prompt: "Can the heart beat faster during exercise?"
+      expected: "Yes. The heart may beat faster to help meet increased demand."
+
+    - id: "circulatory_eval_042"
+      prompt: "Can circulation help remove byproducts from active muscles?"
+      expected: "Yes. Blood flow helps carry away waste products from working tissues."
+
+    - id: "circulatory_eval_043"
+      prompt: "Can the circulatory system help move heat around the body?"
+      expected: "Yes. Circulation helps distribute heat and support thermal balance."
+
+    - id: "circulatory_eval_044"
+      prompt: "Can standing up quickly sometimes affect circulation-related symptoms?"
+      expected: "Yes. Position changes can sometimes affect how a person feels temporarily."
+
+    - id: "circulatory_eval_045"
+      prompt: "Can the circulatory system support organ function throughout the body?"
+      expected: "Yes. Organs depend on circulation for oxygen, nutrients, and transport support."
+
+    - id: "circulatory_eval_046"
+      prompt: "Does blood stay still inside the body?"
+      expected: "No. Blood normally keeps moving through the circulatory system."
+
+    - id: "circulatory_eval_047"
+      prompt: "Can blood vessels help direct blood where it is needed?"
+      expected: "Yes. Blood vessel function helps regulate blood flow distribution."
+
+    - id: "circulatory_eval_048"
+      prompt: "Can circulation matter during healing after injury?"
+      expected: "Yes. Healing tissues need blood flow for support and repair processes."
+
+    - id: "circulatory_eval_049"
+      prompt: "Can the circulatory system be important during infection?"
+      expected: "Yes. It helps move immune components and support the body's response."
+
+    - id: "circulatory_eval_050"
+      prompt: "Can the circulatory system affect energy and endurance?"
+      expected: "Yes. Effective circulation supports tissue oxygen delivery and activity tolerance."
+
+    - id: "circulatory_eval_051"
+      prompt: "Can reduced circulation make an area feel cool?"
+      expected: "Yes. Reduced blood flow can sometimes affect warmth in tissues."
+
+    - id: "circulatory_eval_052"
+      prompt: "Can reduced circulation affect wound healing?"
+      expected: "Yes. Poor circulation can interfere with normal healing."
+
+    - id: "circulatory_eval_053"
+      prompt: "Can the circulatory system help the endocrine system?"
+      expected: "Yes. Blood carries hormones released by endocrine glands."
+
+    - id: "circulatory_eval_054"
+      prompt: "Can the circulatory system help the nervous system?"
+      expected: "Yes. Nervous tissue depends on blood flow for oxygen and nutrients."
+
+    - id: "circulatory_eval_055"
+      prompt: "Can swelling sometimes relate to circulation or fluid handling?"
+      expected: "Yes. Swelling can involve circulation and body fluid balance."
+
+    - id: "circulatory_eval_056"
+      prompt: "Can circulation matter in the hands and feet?"
+      expected: "Yes. The hands and feet also depend on good blood flow."
+
+    - id: "circulatory_eval_057"
+      prompt: "Can a pounding heartbeat sometimes be noticed?"
+      expected: "Yes. A person may sometimes notice their heartbeat more clearly."
+
+    - id: "circulatory_eval_058"
+      prompt: "Should chest pain be taken seriously?"
+      expected: "Yes. Chest pain should be taken seriously and evaluated promptly."
+
+    - id: "circulatory_eval_059"
+      prompt: "Should chest pressure or tightness be ignored?"
+      expected: "No. Chest pressure or tightness should be taken seriously."
+
+    - id: "circulatory_eval_060"
+      prompt: "Should fainting or near-fainting be taken seriously?"
+      expected: "Yes. Fainting or near-fainting should be evaluated promptly."
+
+    - id: "circulatory_eval_061"
+      prompt: "Should sudden shortness of breath with chest symptoms be considered urgent?"
+      expected: "Yes. That combination can be urgent and should be addressed promptly."
+
+    - id: "circulatory_eval_062"
+      prompt: "Should sudden severe palpitations be ignored?"
+      expected: "No. Sudden severe or concerning palpitations should be evaluated."
+
+    - id: "circulatory_eval_063"
+      prompt: "Should one-sided leg swelling or pain be taken seriously?"
+      expected: "Yes. One-sided leg swelling or pain should be evaluated promptly."
+
+    - id: "circulatory_eval_064"
+      prompt: "Should a sudden cold, pale, painful limb be taken seriously?"
+      expected: "Yes. Sudden major circulation-related changes in a limb should be treated as urgent."
+
+    - id: "circulatory_eval_065"
+      prompt: "Can blue lips or blue skin color be important?"
+      expected: "Yes. Blue discoloration can indicate a serious oxygen or circulation problem and should be addressed urgently."
+
+    - id: "circulatory_eval_066"
+      prompt: "Should severe bleeding be treated as urgent?"
+      expected: "Yes. Severe bleeding is urgent and requires immediate attention."
+
+    - id: "circulatory_eval_067"
+      prompt: "Can circulation problems affect exercise tolerance?"
+      expected: "Yes. Circulatory problems can reduce tolerance for activity."
+
+    - id: "circulatory_eval_068"
+      prompt: "Can the body rely on circulation during sleep as well as activity?"
+      expected: "Yes. Circulation is essential continuously, both during rest and activity."
+
+    - id: "circulatory_eval_069"
+      prompt: "Can circulatory function influence alertness or weakness?"
+      expected: "Yes. Inadequate circulation can affect how a person feels and functions."
+
+    - id: "circulatory_eval_070"
+      prompt: "What is the main idea of the circulatory system?"
+      expected: "The circulatory system moves blood through the body to deliver oxygen and nutrients, support communication and defense, and help remove wastes."
+
+    - id: "circulatory_eval_071"
+      prompt: "Can circulation help connect multiple body systems?"
+      expected: "Yes. Circulation helps link the respiratory, digestive, endocrine, immune, urinary, and other systems."
+
+    - id: "circulatory_eval_072"
+      prompt: "Can the heart and blood vessels work together as one transport system?"
+      expected: "Yes. The heart pumps blood and the vessels carry it throughout the body."
+
+    - id: "circulatory_eval_073"
+      prompt: "Can healthy circulation support normal tissue function?"
+      expected: "Yes. Good circulation helps tissues receive what they need to work properly."
+
+    - id: "circulatory_eval_074"
+      prompt: "Can circulatory problems sometimes show up as unusual fatigue?"
+      expected: "Yes. Reduced circulatory efficiency can sometimes contribute to fatigue."
+
+    - id: "circulatory_eval_075"
+      prompt: "Can circulation influence how quickly the body responds to increased demand?"
+      expected: "Yes. Circulation helps the body respond to changing activity and metabolic needs."
+
+    - id: "circulatory_eval_076"
+      prompt: "Can circulation support the transport of medications through the body?"
+      expected: "Yes. Many medications are carried through the bloodstream after absorption or administration."
+
+    - id: "circulatory_eval_077"
+      prompt: "Can circulation affect how quickly tissues receive support during stress or exercise?"
+      expected: "Yes. Blood flow helps rapidly deliver needed support during increased demand."
+
+    - id: "circulatory_eval_078"
+      prompt: "Can circulatory function matter for skin healing after a cut?"
+      expected: "Yes. Skin healing depends in part on adequate blood flow."
+
+    - id: "circulatory_eval_079"
+      prompt: "Can the circulatory system help carry signals from endocrine glands?"
+      expected: "Yes. Hormones released by endocrine glands travel through the blood."
+
+    - id: "circulatory_eval_080"
+      prompt: "What should be done if circulatory symptoms are sudden, severe, worsening, or linked with chest pain, fainting, severe bleeding, blue discoloration, or trouble breathing?"
+      expected: "Sudden, severe, or concerning circulatory symptoms should be evaluated promptly, and urgent symptoms require immediate attention."

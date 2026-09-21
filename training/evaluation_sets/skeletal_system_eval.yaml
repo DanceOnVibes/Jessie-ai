@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Skeletal System Evaluation Set"
+  domain: "human_body"
+  topic: "skeletal_system"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of the skeletal system, body structure, support, protection, movement interaction, mineral storage, blood cell support, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "skeletal_eval_001"
+      prompt: "What is the skeletal system?"
+      expected: "The skeletal system is the body system made of bones and related structures that support, protect, and help move the body."
+
+    - id: "skeletal_eval_002"
+      prompt: "What is the main job of the skeletal system?"
+      expected: "Its main job is to provide structure, protect organs, support movement, and serve other important body functions."
+
+    - id: "skeletal_eval_003"
+      prompt: "Why is the skeletal system important?"
+      expected: "It is important because bones provide body shape, protection, movement support, mineral storage, and internal support for blood cell production."
+
+    - id: "skeletal_eval_004"
+      prompt: "Do bones help support the body?"
+      expected: "Yes. Bones provide the body's framework and support."
+
+    - id: "skeletal_eval_005"
+      prompt: "Do bones help protect internal organs?"
+      expected: "Yes. Bones help protect important organs such as the brain, heart, and lungs."
+
+    - id: "skeletal_eval_006"
+      prompt: "Does the skeletal system help with movement?"
+      expected: "Yes. Bones work with muscles and joints to help the body move."
+
+    - id: "skeletal_eval_007"
+      prompt: "Are joints part of the skeletal system?"
+      expected: "Yes. Joints are important structures that connect bones and allow movement."
+
+    - id: "skeletal_eval_008"
+      prompt: "Can the skeletal system interact with the muscular system?"
+      expected: "Yes. Bones and muscles work together to produce movement and stability."
+
+    - id: "skeletal_eval_009"
+      prompt: "Can the skeletal system interact with the nervous system?"
+      expected: "Yes. The skeleton protects the brain and spinal cord and supports movement controlled by nerves."
+
+    - id: "skeletal_eval_010"
+      prompt: "Can the skeletal system store minerals?"
+      expected: "Yes. Bones store important minerals such as calcium and phosphorus."
+
+    - id: "skeletal_eval_011"
+      prompt: "Can bones support blood cell production?"
+      expected: "Yes. Bone marrow helps produce blood cells."
+
+    - id: "skeletal_eval_012"
+      prompt: "What is bone marrow in a simple way?"
+      expected: "Bone marrow is soft tissue inside some bones that helps make blood cells."
+
+    - id: "skeletal_eval_013"
+      prompt: "Are bones living tissue?"
+      expected: "Yes. Bones are living tissue that can grow, repair, and remodel."
+
+    - id: "skeletal_eval_014"
+      prompt: "Can bones heal after injury?"
+      expected: "Yes. Bones can heal after fractures, though healing takes time."
+
+    - id: "skeletal_eval_015"
+      prompt: "Can the skull help protect the brain?"
+      expected: "Yes. The skull protects the brain."
+
+    - id: "skeletal_eval_016"
+      prompt: "Can the rib cage help protect the heart and lungs?"
+      expected: "Yes. The rib cage helps protect the heart and lungs."
+
+    - id: "skeletal_eval_017"
+      prompt: "Can the spine help support posture?"
+      expected: "Yes. The spine helps support posture, movement, and body alignment."
+
+    - id: "skeletal_eval_018"
+      prompt: "Can the spine help protect the spinal cord?"
+      expected: "Yes. The vertebrae protect the spinal cord."
+
+    - id: "skeletal_eval_019"
+      prompt: "Can bones change over time in response to use?"
+      expected: "Yes. Bone tissue can remodel over time in response to stress and other factors."
+
+    - id: "skeletal_eval_020"
+      prompt: "What is a simple example of the skeletal system at work?"
+      expected: "Standing upright, protecting the brain, or helping the body walk are simple examples of skeletal function."
+
+    - id: "skeletal_eval_021"
+      prompt: "Can the skeletal system give the body shape?"
+      expected: "Yes. The skeleton helps define body shape and structure."
+
+    - id: "skeletal_eval_022"
+      prompt: "Can broken bones affect movement and function?"
+      expected: "Yes. Fractures can limit movement and daily function."
+
+    - id: "skeletal_eval_023"
+      prompt: "Can joints allow different kinds of movement?"
+      expected: "Yes. Different joints allow different ranges and types of motion."
+
+    - id: "skeletal_eval_024"
+      prompt: "Can cartilage be related to joints and bones?"
+      expected: "Yes. Cartilage helps support and cushion some joints."
+
+    - id: "skeletal_eval_025"
+      prompt: "Can ligaments help support joints?"
+      expected: "Yes. Ligaments help connect bones and support joint stability."
+
+    - id: "skeletal_eval_026"
+      prompt: "Can the skeletal system matter throughout life?"
+      expected: "Yes. Skeletal health is important from growth through older age."
+
+    - id: "skeletal_eval_027"
+      prompt: "Can the skeletal system change during childhood and adolescence?"
+      expected: "Yes. Bones grow and develop significantly during those stages."
+
+    - id: "skeletal_eval_028"
+      prompt: "Can the skeletal system be affected by aging?"
+      expected: "Yes. Bone density and joint function can change with age."
+
+    - id: "skeletal_eval_029"
+      prompt: "Can posture be influenced by the skeleton?"
+      expected: "Yes. Bone alignment and spine structure help influence posture."
+
+    - id: "skeletal_eval_030"
+      prompt: "Can the feet and legs in the skeleton help support standing and walking?"
+      expected: "Yes. The bones of the lower body are important for support and movement."
+
+    - id: "skeletal_eval_031"
+      prompt: "Can the hands and arms in the skeleton support reaching and grasping?"
+      expected: "Yes. Upper limb bones help with reaching, lifting, and hand function."
+
+    - id: "skeletal_eval_032"
+      prompt: "Can injury to a joint affect skeletal function?"
+      expected: "Yes. Joint injuries can affect movement, stability, and comfort."
+
+    - id: "skeletal_eval_033"
+      prompt: "Can pain come from bones or joints?"
+      expected: "Yes. Bone and joint problems can cause pain."
+
+    - id: "skeletal_eval_034"
+      prompt: "Can swelling around a joint happen after injury?"
+      expected: "Yes. Swelling can occur with joint or nearby tissue injury."
+
+    - id: "skeletal_eval_035"
+      prompt: "Can deformity after injury be important?"
+      expected: "Yes. Visible deformity can suggest a serious bone or joint injury."
+
+    - id: "skeletal_eval_036"
+      prompt: "Can inability to bear weight after injury be concerning?"
+      expected: "Yes. Inability to bear weight can suggest a significant injury."
+
+    - id: "skeletal_eval_037"
+      prompt: "Can a bone fracture happen from trauma?"
+      expected: "Yes. Trauma can cause a bone fracture."
+
+    - id: "skeletal_eval_038"
+      prompt: "Can repeated stress also affect bones?"
+      expected: "Yes. Repeated stress can sometimes injure bones."
+
+    - id: "skeletal_eval_039"
+      prompt: "Can joint dislocation be serious?"
+      expected: "Yes. A dislocation is a serious joint injury and needs prompt evaluation."
+
+    - id: "skeletal_eval_040"
+      prompt: "Can the skeletal system support balance by providing a stable framework?"
+      expected: "Yes. The skeleton helps provide the body's structural support for balance."
+
+    - id: "skeletal_eval_041"
+      prompt: "Can healthy bones depend partly on nutrition?"
+      expected: "Yes. Nutrition is important for bone health."
+
+    - id: "skeletal_eval_042"
+      prompt: "Can calcium be important for bones?"
+      expected: "Yes. Calcium is important for bone structure and health."
+
+    - id: "skeletal_eval_043"
+      prompt: "Can vitamin D be important for bone health?"
+      expected: "Yes. Vitamin D helps support bone health."
+
+    - id: "skeletal_eval_044"
+      prompt: "Can activity or weight-bearing exercise support bones?"
+      expected: "Yes. Weight-bearing activity can help support bone strength."
+
+    - id: "skeletal_eval_045"
+      prompt: "Can inactivity affect bones over time?"
+      expected: "Yes. Reduced activity can negatively affect bone health over time."
+
+    - id: "skeletal_eval_046"
+      prompt: "Can the skeletal system help protect soft tissues?"
+      expected: "Yes. Bones help shield soft tissues and organs."
+
+    - id: "skeletal_eval_047"
+      prompt: "Can the skeletal system be involved in both support and movement?"
+      expected: "Yes. It provides structure while also helping enable movement."
+
+    - id: "skeletal_eval_048"
+      prompt: "Can the pelvis be an important skeletal structure?"
+      expected: "Yes. The pelvis is important for support, movement, and protection in the lower trunk."
+
+    - id: "skeletal_eval_049"
+      prompt: "Can the skeleton work with muscles to maintain alignment?"
+      expected: "Yes. Bones and muscles work together to support alignment and posture."
+
+    - id: "skeletal_eval_050"
+      prompt: "Can the skeletal system support everyday actions like walking, sitting, lifting, and reaching?"
+      expected: "Yes. The skeletal system supports many daily physical activities."
+
+    - id: "skeletal_eval_051"
+      prompt: "Can sudden severe bone pain after trauma be important?"
+      expected: "Yes. Severe pain after trauma can indicate a significant injury."
+
+    - id: "skeletal_eval_052"
+      prompt: "Can a snapping sound with deformity and loss of function be concerning?"
+      expected: "Yes. That pattern can suggest a serious bone or joint injury."
+
+    - id: "skeletal_eval_053"
+      prompt: "Should an open fracture be treated as urgent?"
+      expected: "Yes. An open fracture is an emergency and requires immediate medical attention."
+
+    - id: "skeletal_eval_054"
+      prompt: "Should severe neck or back pain after trauma be taken seriously?"
+      expected: "Yes. Severe spine pain after trauma should be evaluated promptly."
+
+    - id: "skeletal_eval_055"
+      prompt: "Should numbness or weakness after a bone or spine injury be considered serious?"
+      expected: "Yes. That can suggest nerve involvement and requires urgent evaluation."
+
+    - id: "skeletal_eval_056"
+      prompt: "Should inability to move a limb normally after injury be ignored?"
+      expected: "No. Inability to move a limb normally should be evaluated promptly."
+
+    - id: "skeletal_eval_057"
+      prompt: "Should severe joint swelling or a limb that looks out of place be treated seriously?"
+      expected: "Yes. Those signs can indicate a serious injury and should be evaluated."
+
+    - id: "skeletal_eval_058"
+      prompt: "Should possible spinal injury with loss of bladder or bowel control be considered urgent?"
+      expected: "Yes. That combination is urgent and requires immediate attention."
+
+    - id: "skeletal_eval_059"
+      prompt: "Can the skeletal system influence height and body proportions?"
+      expected: "Yes. Skeletal growth contributes to height and body structure."
+
+    - id: "skeletal_eval_060"
+      prompt: "Can growth plates be relevant in younger people?"
+      expected: "Yes. Growth plates are important areas of developing bone in children and adolescents."
+
+    - id: "skeletal_eval_061"
+      prompt: "Can the skeletal system help support organ placement in the body?"
+      expected: "Yes. The skeleton helps provide structure for body organization."
+
+    - id: "skeletal_eval_062"
+      prompt: "Can joint alignment affect comfort and movement?"
+      expected: "Yes. Joint alignment influences how movement feels and functions."
+
+    - id: "skeletal_eval_063"
+      prompt: "Can bone health matter for mobility and independence?"
+      expected: "Yes. Healthy bones and joints help support mobility and daily independence."
+
+    - id: "skeletal_eval_064"
+      prompt: "Can falls be especially relevant to skeletal injury risk?"
+      expected: "Yes. Falls can lead to fractures or joint injuries."
+
+    - id: "skeletal_eval_065"
+      prompt: "Can the skeletal system and muscular system be hard to separate completely in movement?"
+      expected: "Yes. They work closely together in nearly all physical movement."
+
+    - id: "skeletal_eval_066"
+      prompt: "Can joint stiffness affect function?"
+      expected: "Yes. Joint stiffness can limit movement and daily tasks."
+
+    - id: "skeletal_eval_067"
+      prompt: "Can the skeletal system be described as both structural and dynamic?"
+      expected: "Yes. It provides structure while also adapting and participating in movement."
+
+    - id: "skeletal_eval_068"
+      prompt: "Can bone remodeling happen throughout life?"
+      expected: "Yes. Bone tissue continues to remodel throughout life."
+
+    - id: "skeletal_eval_069"
+      prompt: "Can the skeletal system support both protection and blood cell production?"
+      expected: "Yes. It protects organs and supports blood cell formation through marrow."
+
+    - id: "skeletal_eval_070"
+      prompt: "Can skeletal injuries affect quality of life?"
+      expected: "Yes. Bone and joint injuries can affect pain, movement, work, and independence."
+
+    - id: "skeletal_eval_071"
+      prompt: "Can a person's skeleton matter even when they are resting?"
+      expected: "Yes. The skeleton provides constant structure and support."
+
+    - id: "skeletal_eval_072"
+      prompt: "Can skeletal problems sometimes develop gradually rather than suddenly?"
+      expected: "Yes. Some bone and joint problems develop gradually over time."
+
+    - id: "skeletal_eval_073"
+      prompt: "Can posture, support, movement, mineral storage, and marrow function all be part of skeletal system understanding?"
+      expected: "Yes. Those are all important parts of skeletal system function."
+
+    - id: "skeletal_eval_074"
+      prompt: "Can severe injury signs matter even if the person tries to walk it off?"
+      expected: "Yes. Serious skeletal injuries should still be evaluated even if someone tries to continue activity."
+
+    - id: "skeletal_eval_075"
+      prompt: "Can bones, joints, cartilage, ligaments, and marrow all relate to skeletal function?"
+      expected: "Yes. All of those structures contribute to skeletal system function."
+
+    - id: "skeletal_eval_076"
+      prompt: "What is the main idea of the skeletal system?"
+      expected: "The skeletal system provides body structure, protects organs, supports movement with muscles and joints, stores minerals, and contains marrow that helps make blood cells."
+
+    - id: "skeletal_eval_077"
+      prompt: "Can the skeletal system involve support, protection, movement, storage, and blood cell support together?"
+      expected: "Yes. It serves all of those major functions."
+
+    - id: "skeletal_eval_078"
+      prompt: "Can skeletal symptoms matter even if swelling is mild at first?"
+      expected: "Yes. Pain, deformity, weakness, or loss of function can still indicate an important injury."
+
+    - id: "skeletal_eval_079"
+      prompt: "Can fractures, dislocations, spine injuries, and joint injuries all require prompt attention depending on severity?"
+      expected: "Yes. Those injuries can be serious and may require urgent evaluation."
+
+    - id: "skeletal_eval_080"
+      prompt: "What should be done if skeletal symptoms are sudden, severe, worsening, or linked with deformity, inability to bear weight, numbness, weakness, open fracture, or major trauma?"
+      expected: "Sudden, severe, or concerning skeletal symptoms should be evaluated promptly, and urgent symptoms require immediate attention."

@@ -1,8 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./page.module.css";
+import { MemoryGrid } from "@/components/memories/memory-grid";
+import { getPublicKnowledge } from "@/lib/jessie-core/knowledge-storage";
 
 export default function MemoriesPage() {
+  const knowledgeItems = getPublicKnowledge();
+
   const memories = [
     {
       src: "/images/jessie1.jpg",
@@ -78,6 +82,7 @@ export default function MemoriesPage() {
                 alt="Jessie today"
                 width={560}
                 height={700}
+                priority
                 className={styles.featuredImage}
               />
             </div>
@@ -121,6 +126,19 @@ export default function MemoriesPage() {
               <p className={styles.cardText}>{memory.text}</p>
             </article>
           ))}
+        </section>
+
+        <section className={styles.timelineIntro}>
+          <p className={styles.smallLabel}>Jessie’s knowledge</p>
+          <h2 className={styles.timelineTitle}>What Jessie knows</h2>
+          <p className={styles.timelineText}>
+            A growing collection of gentle, structured knowledge Jessie can draw
+            from — spanning biology, art, and privacy.
+          </p>
+        </section>
+
+        <section>
+          <MemoryGrid items={knowledgeItems} />
         </section>
       </div>
     </main>

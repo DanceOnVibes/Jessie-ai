@@ -1,0 +1,277 @@
+```yaml
+metadata:
+  file_name: "endocrine_system_qa.yaml"
+  title: "Jessie Endocrine System QA Pairs"
+  domain: "body_systems"
+  topic: "endocrine_system"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain the endocrine system clearly, warmly, and safely with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain the endocrine system as the body system that helps regulate body functions using hormones. Jessie should explain hormones as chemical messengers that travel through the blood to affect target cells or organs. The set covers major beginner topics such as glands, hormones, thyroid function, adrenal function, blood sugar regulation, growth, and differences between endocrine and nervous system signaling. It also supports broader biology and visual explanation use by including structure-function relationships, comparisons, misconceptions, and practical safety boundaries. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for severe confusion, fainting, extreme weakness, or other concerning hormone or blood sugar symptoms."
+  training_goals:
+    - "Explain the endocrine system in simple, beginner-friendly language"
+    - "Teach what hormones are and how they travel through the blood"
+    - "Show the roles of glands such as the thyroid, adrenal glands, and pancreas"
+    - "Clarify blood sugar regulation, metabolism, growth, and stress response"
+    - "Explain how the endocrine system differs from the nervous system"
+    - "Support broader biology and visual explanation retrieval with structure and signaling concepts"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for concerning hormone and blood sugar symptoms"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach the endocrine system as a hormone-based regulation system"
+    - "Explain hormones, glands, and target cells simply"
+    - "Connect endocrine structures to body functions in a clear beginner-friendly way"
+    - "Support both basic biology teaching and visual explanation of regulation and signaling"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose diabetes, thyroid disease, adrenal disorders, hormone imbalance, fainting causes, or blood sugar emergencies."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general endocrine concepts, gland roles, and warning signs."
+  safety_escalation:
+    - "Urgent guidance is appropriate for severe confusion, fainting, extreme weakness, suspected severe blood sugar problems, or other severe symptoms."
+
+pairs:
+  - id: "endocrine_system_qa_001"
+    category: "foundational_definition"
+    question: "What does the endocrine system do?"
+    answer: "The endocrine system helps control and regulate body functions using hormones."
+
+  - id: "endocrine_system_qa_002"
+    category: "foundational_definition"
+    question: "What is the endocrine system?"
+    answer: "The endocrine system is the body system made of glands and hormones that help regulate many body functions."
+
+  - id: "endocrine_system_qa_003"
+    category: "foundational_definition"
+    question: "Why is the endocrine system important?"
+    answer: "It is important because it helps regulate many body functions and helps maintain internal balance."
+
+  - id: "endocrine_system_qa_004"
+    category: "foundational_definition"
+    question: "What is a hormone?"
+    answer: "A hormone is a chemical messenger that travels through the blood and affects target cells or organs."
+
+  - id: "endocrine_system_qa_005"
+    category: "foundational_definition"
+    question: "What is a gland?"
+    answer: "A gland is an organ or tissue that makes and releases substances such as hormones."
+
+  - id: "endocrine_system_qa_006"
+    category: "foundational_definition"
+    question: "What are target cells?"
+    answer: "Target cells are cells that respond to a specific hormone."
+
+  - id: "endocrine_system_qa_007"
+    category: "process"
+    question: "How do hormones travel through the body?"
+    answer: "Hormones travel through the blood to reach target cells or organs."
+
+  - id: "endocrine_system_qa_008"
+    category: "process"
+    question: "How does the endocrine system work?"
+    answer: "The endocrine system works by releasing hormones that travel through the blood and influence specific cells or organs."
+
+  - id: "endocrine_system_qa_009"
+    category: "process"
+    question: "Why do hormones need target cells?"
+    answer: "Hormones need target cells because only certain cells respond to specific hormone signals."
+
+  - id: "endocrine_system_qa_010"
+    category: "process"
+    question: "Why is blood important in the endocrine system?"
+    answer: "Blood is important because it carries hormones from glands to their targets."
+
+  - id: "endocrine_system_qa_011"
+    category: "system_roles"
+    question: "What does the thyroid gland do?"
+    answer: "The thyroid gland helps regulate metabolism."
+
+  - id: "endocrine_system_qa_012"
+    category: "system_roles"
+    question: "What do the adrenal glands do?"
+    answer: "The adrenal glands help the body respond to stress and help with body regulation."
+
+  - id: "endocrine_system_qa_013"
+    category: "system_roles"
+    question: "What does the pancreas do in the endocrine system?"
+    answer: "The pancreas helps regulate blood sugar using hormones such as insulin."
+
+  - id: "endocrine_system_qa_014"
+    category: "system_roles"
+    question: "Does the endocrine system help control growth?"
+    answer: "Yes. The endocrine system helps regulate growth through hormones."
+
+  - id: "endocrine_system_qa_015"
+    category: "system_roles"
+    question: "What is insulin?"
+    answer: "Insulin is a hormone that helps regulate blood sugar."
+
+  - id: "endocrine_system_qa_016"
+    category: "system_roles"
+    question: "Why does the thyroid matter?"
+    answer: "The thyroid matters because it helps regulate how the body uses energy."
+
+  - id: "endocrine_system_qa_017"
+    category: "system_roles"
+    question: "Why do the adrenal glands matter?"
+    answer: "The adrenal glands matter because they help the body respond to stress and support regulation."
+
+  - id: "endocrine_system_qa_018"
+    category: "system_roles"
+    question: "Why does the pancreas matter in hormone control?"
+    answer: "The pancreas matters because it helps regulate blood sugar with hormone signals."
+
+  - id: "endocrine_system_qa_019"
+    category: "term_clarification"
+    question: "How is the endocrine system different from the nervous system?"
+    answer: "The endocrine system uses hormones that travel through the blood and usually works more slowly, while the nervous system uses fast signals through nerves."
+
+  - id: "endocrine_system_qa_020"
+    category: "term_clarification"
+    question: "What is the difference between a gland and a hormone?"
+    answer: "A gland makes and releases hormones, while a hormone is the chemical messenger itself."
+
+  - id: "endocrine_system_qa_021"
+    category: "term_clarification"
+    question: "What is the difference between hormones and nerves?"
+    answer: "Hormones travel through the blood to affect target cells, while nerves carry fast electrical signals through the nervous system."
+
+  - id: "endocrine_system_qa_022"
+    category: "term_clarification"
+    question: "What is the difference between the endocrine role of the pancreas and its digestive role?"
+    answer: "Its endocrine role involves releasing hormones like insulin, while its digestive role involves releasing substances that help digestion."
+
+  - id: "endocrine_system_qa_023"
+    category: "misconception"
+    question: "Are hormones only about emotions?"
+    answer: "No. Hormones affect many body functions, including growth, metabolism, blood sugar, stress response, and reproduction."
+
+  - id: "endocrine_system_qa_024"
+    category: "misconception"
+    question: "Do all endocrine glands do the same job?"
+    answer: "No. Different endocrine glands release different hormones and help regulate different body functions."
+
+  - id: "endocrine_system_qa_025"
+    category: "misconception"
+    question: "Do hormones only affect one part of the body?"
+    answer: "No. Hormones can affect many tissues, depending on which cells respond to them."
+
+  - id: "endocrine_system_qa_026"
+    category: "misconception"
+    question: "Does the endocrine system work instantly like nerves do?"
+    answer: "No. Endocrine signaling usually acts more slowly than nerve signaling."
+
+  - id: "endocrine_system_qa_027"
+    category: "misconception"
+    question: "Is insulin the only hormone in the body?"
+    answer: "No. Insulin is one hormone, but the body uses many different hormones."
+
+  - id: "endocrine_system_qa_028"
+    category: "everyday_example"
+    question: "Why does the body need hormone signals?"
+    answer: "The body needs hormone signals to help regulate growth, energy use, stress response, and many other functions."
+
+  - id: "endocrine_system_qa_029"
+    category: "everyday_example"
+    question: "Why does blood sugar regulation matter?"
+    answer: "It matters because body cells rely on stable energy availability to function well."
+
+  - id: "endocrine_system_qa_030"
+    category: "everyday_example"
+    question: "Why is metabolism important?"
+    answer: "Metabolism is important because it relates to how the body uses and manages energy."
+
+  - id: "endocrine_system_qa_031"
+    category: "everyday_example"
+    question: "Why is growth hormone control important?"
+    answer: "Growth-related hormone control is important because it helps guide normal growth and development."
+
+  - id: "endocrine_system_qa_032"
+    category: "everyday_example"
+    question: "Why is stress response part of endocrine function?"
+    answer: "It is part of endocrine function because hormones help the body adjust to stress."
+
+  - id: "endocrine_system_qa_033"
+    category: "visual_art_support"
+    question: "Why is the endocrine system useful to understand in biology illustration?"
+    answer: "It helps show how glands, hormones, and body regulation are connected."
+
+  - id: "endocrine_system_qa_034"
+    category: "visual_art_support"
+    question: "What should an artist know about endocrine diagrams?"
+    answer: "An artist should know the main glands, their locations, and the basic idea that hormones travel through the blood to affect target tissues."
+
+  - id: "endocrine_system_qa_035"
+    category: "visual_art_support"
+    question: "Why does structure-function thinking matter in endocrine illustrations?"
+    answer: "It matters because endocrine diagrams should show how glands release signals that affect body function."
+
+  - id: "endocrine_system_qa_036"
+    category: "visual_art_support"
+    question: "Why is blood flow important in endocrine teaching visuals?"
+    answer: "It is important because hormones travel through the blood to reach their targets."
+
+  - id: "endocrine_system_qa_037"
+    category: "boundary"
+    question: "Can you diagnose a hormone imbalance from my symptoms?"
+    answer: "No. I can't diagnose hormone problems from limited information, but I can explain endocrine concepts and point out warning signs."
+
+  - id: "endocrine_system_qa_038"
+    category: "boundary"
+    question: "Can you tell me exactly what is wrong with my blood sugar?"
+    answer: "No. I can't determine the exact cause from a brief description, but I can explain general endocrine concepts and when medical care may be important."
+
+  - id: "endocrine_system_qa_039"
+    category: "boundary"
+    question: "Does feeling tired always mean a hormone problem?"
+    answer: "No. Tiredness can happen for many reasons, so I can't assume a hormone cause from that alone."
+
+  - id: "endocrine_system_qa_040"
+    category: "safety_supportive_urgent"
+    question: "What should someone do if they have severe confusion, fainting, or extreme weakness with concerns about blood sugar or hormones?"
+    answer: "Severe confusion, fainting, or extreme weakness can be serious, so prompt medical evaluation is important and urgent care may be needed."
+
+  - id: "endocrine_system_qa_041"
+    category: "safety_supportive_urgent"
+    question: "Should fainting with suspected blood sugar problems be treated seriously?"
+    answer: "Yes. Fainting with possible blood sugar problems should be medically checked right away."
+
+  - id: "endocrine_system_qa_042"
+    category: "safety_supportive_urgent"
+    question: "Should severe confusion be ignored?"
+    answer: "No. Severe confusion can be serious and needs prompt medical attention."
+
+  - id: "endocrine_system_qa_043"
+    category: "safety_supportive_urgent"
+    question: "Should extreme weakness with suspected hormone or blood sugar problems be taken seriously?"
+    answer: "Yes. Extreme weakness with those concerns should be medically checked promptly."
+
+  - id: "endocrine_system_qa_044"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about the endocrine system?"
+    answer: "The main thing to remember is that the endocrine system uses hormones to help regulate many body functions."
+
+quality_checks:
+  - "The file contains 44 QA pairs with ids endocrine_system_qa_001 through endocrine_system_qa_044."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "The endocrine system is consistently explained as a hormone-based regulation system."
+  - "The set includes support for biology teaching, structure-function learning, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

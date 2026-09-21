@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Sleep Evaluation Set"
+  domain: "body_awareness"
+  topic: "sleep"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of sleep, rest, recovery, sleep quality, sleep timing, effects of poor sleep, daily function impact, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "sleep_eval_001"
+      prompt: "What is sleep?"
+      expected: "Sleep is a natural state of rest that is important for restoration, brain function, and overall health."
+
+    - id: "sleep_eval_002"
+      prompt: "Why is sleep important?"
+      expected: "Sleep is important because it supports recovery, thinking, mood, energy, and body function."
+
+    - id: "sleep_eval_003"
+      prompt: "Does sleep only matter for feeling rested?"
+      expected: "No. Sleep also affects brain function, mood, memory, physical recovery, and general health."
+
+    - id: "sleep_eval_004"
+      prompt: "Can sleep affect memory and learning?"
+      expected: "Yes. Sleep helps support memory, learning, and mental performance."
+
+    - id: "sleep_eval_005"
+      prompt: "Can sleep affect mood?"
+      expected: "Yes. Poor sleep can affect mood, stress tolerance, and emotional well-being."
+
+    - id: "sleep_eval_006"
+      prompt: "Can sleep affect concentration?"
+      expected: "Yes. Sleep quality affects attention, focus, and clear thinking."
+
+    - id: "sleep_eval_007"
+      prompt: "Can sleep affect physical recovery?"
+      expected: "Yes. Sleep supports physical recovery and restoration."
+
+    - id: "sleep_eval_008"
+      prompt: "Can sleep affect energy during the day?"
+      expected: "Yes. Good sleep supports daytime energy and alertness."
+
+    - id: "sleep_eval_009"
+      prompt: "What is sleep quality in a simple way?"
+      expected: "Sleep quality refers to how restful and uninterrupted sleep feels."
+
+    - id: "sleep_eval_010"
+      prompt: "What is insomnia in a simple way?"
+      expected: "Insomnia means trouble falling asleep, staying asleep, or getting restful sleep."
+
+    - id: "sleep_eval_011"
+      prompt: "Can a person feel tired even after sleeping?"
+      expected: "Yes. Sleep can feel unrefreshing for different reasons."
+
+    - id: "sleep_eval_012"
+      prompt: "Can sleep problems affect work or school?"
+      expected: "Yes. Poor sleep can affect performance, attention, and daily functioning."
+
+    - id: "sleep_eval_013"
+      prompt: "Can sleep problems affect driving safety?"
+      expected: "Yes. Sleepiness can reduce alertness and make driving dangerous."
+
+    - id: "sleep_eval_014"
+      prompt: "Can lack of sleep affect reaction time?"
+      expected: "Yes. Sleep loss can slow reaction time."
+
+    - id: "sleep_eval_015"
+      prompt: "Can sleep affect the immune system?"
+      expected: "Yes. Sleep helps support healthy immune function."
+
+    - id: "sleep_eval_016"
+      prompt: "Can sleep affect physical performance?"
+      expected: "Yes. Poor sleep can reduce endurance, recovery, and performance."
+
+    - id: "sleep_eval_017"
+      prompt: "Can sleep interact with mental health?"
+      expected: "Yes. Sleep and mental health strongly affect each other."
+
+    - id: "sleep_eval_018"
+      prompt: "Can stress affect sleep?"
+      expected: "Yes. Stress can make falling asleep or staying asleep harder."
+
+    - id: "sleep_eval_019"
+      prompt: "Can pain affect sleep?"
+      expected: "Yes. Pain can interfere with sleep quality and duration."
+
+    - id: "sleep_eval_020"
+      prompt: "Can caffeine or stimulants affect sleep?"
+      expected: "Yes. Stimulants can make it harder to fall asleep or stay asleep."
+
+    - id: "sleep_eval_021"
+      prompt: "Can alcohol affect sleep quality?"
+      expected: "Yes. Alcohol can disrupt normal sleep quality even if it causes drowsiness."
+
+    - id: "sleep_eval_022"
+      prompt: "Can irregular sleep schedules affect rest?"
+      expected: "Yes. Irregular schedules can make sleep less restorative."
+
+    - id: "sleep_eval_023"
+      prompt: "Can sleep be important for children, adults, and older adults?"
+      expected: "Yes. Sleep is important across the lifespan."
+
+    - id: "sleep_eval_024"
+      prompt: "Can naps affect nighttime sleep?"
+      expected: "Yes. Naps can sometimes influence nighttime sleep patterns."
+
+    - id: "sleep_eval_025"
+      prompt: "Can screen use late at night affect sleep?"
+      expected: "Yes. Late-night screen use can make sleep harder for some people."
+
+    - id: "sleep_eval_026"
+      prompt: "Can sleep problems be short-term or long-term?"
+      expected: "Yes. Sleep problems can be brief or persistent."
+
+    - id: "sleep_eval_027"
+      prompt: "Can snoring happen during sleep?"
+      expected: "Yes. Snoring can happen during sleep."
+
+    - id: "sleep_eval_028"
+      prompt: "Can loud snoring with choking or gasping during sleep be important?"
+      expected: "Yes. That pattern can be important and may need medical evaluation."
+
+    - id: "sleep_eval_029"
+      prompt: "Can waking frequently during the night reduce sleep quality?"
+      expected: "Yes. Frequent awakenings can make sleep less restorative."
+
+    - id: "sleep_eval_030"
+      prompt: "Can nightmares or disturbing dreams affect sleep?"
+      expected: "Yes. Disturbing dreams can affect sleep quality and restfulness."
+
+    - id: "sleep_eval_031"
+      prompt: "Can restless sleep affect daytime function?"
+      expected: "Yes. Restless sleep can lead to daytime fatigue and reduced focus."
+
+    - id: "sleep_eval_032"
+      prompt: "Can sleeping too little affect health?"
+      expected: "Yes. Too little sleep can affect mental, physical, and daily function."
+
+    - id: "sleep_eval_033"
+      prompt: "Can sleeping much more than usual sometimes be important?"
+      expected: "Yes. Major changes in sleep amount can sometimes need evaluation."
+
+    - id: "sleep_eval_034"
+      prompt: "Can sleepiness during the day suggest poor sleep or another issue?"
+      expected: "Yes. Daytime sleepiness can result from poor sleep or other health problems."
+
+    - id: "sleep_eval_035"
+      prompt: "Can sleep problems affect appetite or cravings?"
+      expected: "Yes. Poor sleep can affect appetite and eating patterns."
+
+    - id: "sleep_eval_036"
+      prompt: "Can lack of sleep affect irritability?"
+      expected: "Yes. Poor sleep can increase irritability."
+
+    - id: "sleep_eval_037"
+      prompt: "Can sleep affect decision-making?"
+      expected: "Yes. Sleep loss can impair judgment and decision-making."
+
+    - id: "sleep_eval_038"
+      prompt: "Can sleep affect coordination?"
+      expected: "Yes. Sleep deprivation can reduce coordination and increase accident risk."
+
+    - id: "sleep_eval_039"
+      prompt: "Can sleep problems make pain feel worse?"
+      expected: "Yes. Poor sleep can make pain harder to cope with."
+
+    - id: "sleep_eval_040"
+      prompt: "Can breathing problems during sleep be important?"
+      expected: "Yes. Breathing-related sleep problems can be important and may need evaluation."
+
+    - id: "sleep_eval_041"
+      prompt: "Can waking with headaches or dry mouth sometimes relate to sleep problems?"
+      expected: "Yes. Those symptoms can sometimes relate to poor sleep or breathing-related sleep issues."
+
+    - id: "sleep_eval_042"
+      prompt: "Can a calm, regular routine help support sleep?"
+      expected: "Yes. A regular sleep routine can help support healthy sleep."
+
+    - id: "sleep_eval_043"
+      prompt: "Can environment affect sleep quality?"
+      expected: "Yes. Noise, light, temperature, and comfort can affect sleep."
+
+    - id: "sleep_eval_044"
+      prompt: "Can exercise affect sleep?"
+      expected: "Yes. Physical activity can influence sleep quality and timing."
+
+    - id: "sleep_eval_045"
+      prompt: "Can illness affect sleep?"
+      expected: "Yes. Illness can disrupt sleep quality and rest."
+
+    - id: "sleep_eval_046"
+      prompt: "Can anxiety make it hard to fall asleep?"
+      expected: "Yes. Anxiety can interfere with falling asleep."
+
+    - id: "sleep_eval_047"
+      prompt: "Can depression affect sleep patterns?"
+      expected: "Yes. Depression can affect sleep amount and quality."
+
+    - id: "sleep_eval_048"
+      prompt: "Can sleep problems happen even when a person feels exhausted?"
+      expected: "Yes. A person can feel tired and still struggle to sleep."
+
+    - id: "sleep_eval_049"
+      prompt: "Can poor sleep increase accident risk?"
+      expected: "Yes. Reduced alertness can increase risk of accidents and errors."
+
+    - id: "sleep_eval_050"
+      prompt: "Can sleep be considered part of overall health and safety?"
+      expected: "Yes. Sleep is essential for both health and safety."
+
+    - id: "sleep_eval_051"
+      prompt: "Can the body need regular sleep even if a person tries to push through fatigue?"
+      expected: "Yes. The body still needs adequate sleep for safe and healthy function."
+
+    - id: "sleep_eval_052"
+      prompt: "Can severe sleep deprivation affect mood, thinking, and physical function together?"
+      expected: "Yes. Severe sleep loss can affect multiple areas of function at once."
+
+    - id: "sleep_eval_053"
+      prompt: "Can persistent insomnia deserve medical attention?"
+      expected: "Yes. Persistent insomnia may need evaluation."
+
+    - id: "sleep_eval_054"
+      prompt: "Can falling asleep unintentionally during the day be important?"
+      expected: "Yes. Unintended daytime sleep episodes can be important and should be evaluated."
+
+    - id: "sleep_eval_055"
+      prompt: "Can suddenly being unable to stay awake be serious?"
+      expected: "Yes. Sudden inability to stay awake can be serious."
+
+    - id: "sleep_eval_056"
+      prompt: "Can confusion with extreme sleepiness be important?"
+      expected: "Yes. Confusion with extreme sleepiness should be taken seriously."
+
+    - id: "sleep_eval_057"
+      prompt: "Can sleepiness while driving be dangerous?"
+      expected: "Yes. Sleepiness while driving is dangerous and requires immediate action for safety."
+
+    - id: "sleep_eval_058"
+      prompt: "Should a person who is too sleepy to drive continue driving?"
+      expected: "No. They should stop driving safely and avoid continuing while impaired."
+
+    - id: "sleep_eval_059"
+      prompt: "Should loud snoring with repeated choking, gasping, or witnessed breathing pauses be evaluated?"
+      expected: "Yes. Those symptoms should be medically evaluated."
+
+    - id: "sleep_eval_060"
+      prompt: "Should sleep problems with severe depression or thoughts of self-harm be treated seriously?"
+      expected: "Yes. Sleep problems with severe mental health concerns require immediate human support."
+
+    - id: "sleep_eval_061"
+      prompt: "Should sleepiness with chest pain or trouble breathing be considered urgent?"
+      expected: "Yes. That combination can be urgent and needs prompt attention."
+
+    - id: "sleep_eval_062"
+      prompt: "Should inability to wake someone normally be considered an emergency?"
+      expected: "Yes. A person who cannot be awakened normally needs immediate emergency help."
+
+    - id: "sleep_eval_063"
+      prompt: "Can sleep and the nervous system work closely together?"
+      expected: "Yes. Sleep depends heavily on nervous system regulation."
+
+    - id: "sleep_eval_064"
+      prompt: "Can sleep and hormones interact?"
+      expected: "Yes. Hormones can affect sleep timing and quality."
+
+    - id: "sleep_eval_065"
+      prompt: "Can sleep support healing and recovery after illness or exertion?"
+      expected: "Yes. Sleep is important for recovery and restoration."
+
+    - id: "sleep_eval_066"
+      prompt: "Can chronic poor sleep affect quality of life?"
+      expected: "Yes. Ongoing sleep problems can affect mood, function, health, and daily life."
+
+    - id: "sleep_eval_067"
+      prompt: "Can sleep problems affect relationships or work performance?"
+      expected: "Yes. Poor sleep can affect interpersonal function and work or school performance."
+
+    - id: "sleep_eval_068"
+      prompt: "Can sleep health include both enough sleep and good-quality sleep?"
+      expected: "Yes. Sleep health involves both duration and quality."
+
+    - id: "sleep_eval_069"
+      prompt: "Can waking too early and not being able to fall back asleep be a sleep problem?"
+      expected: "Yes. Early waking with inability to return to sleep can be a sleep complaint."
+
+    - id: "sleep_eval_070"
+      prompt: "Can sleep difficulties be influenced by schedule, stress, illness, environment, and habits together?"
+      expected: "Yes. Sleep is influenced by many factors together."
+
+    - id: "sleep_eval_071"
+      prompt: "Can healthy sleep support attention, mood, immunity, and energy together?"
+      expected: "Yes. Healthy sleep supports all of those functions."
+
+    - id: "sleep_eval_072"
+      prompt: "Can sleep trouble be important even if it develops gradually?"
+      expected: "Yes. Gradual sleep problems can still significantly affect health and function."
+
+    - id: "sleep_eval_073"
+      prompt: "Can snoring be harmless sometimes but still deserve attention if severe or associated with pauses in breathing?"
+      expected: "Yes. Snoring can be benign, but severe snoring with breathing pauses should be evaluated."
+
+    - id: "sleep_eval_074"
+      prompt: "Can daytime fatigue come from poor sleep quality even if time in bed seems long enough?"
+      expected: "Yes. Time in bed does not always mean sleep is restful."
+
+    - id: "sleep_eval_075"
+      prompt: "Can poor sleep lead to a cycle of stress, fatigue, and reduced function?"
+      expected: "Yes. Sleep problems can contribute to ongoing cycles of distress and reduced performance."
+
+    - id: "sleep_eval_076"
+      prompt: "What is the main idea of sleep?"
+      expected: "Sleep is an essential restorative state that supports brain function, mood, physical recovery, energy, safety, and overall health."
+
+    - id: "sleep_eval_077"
+      prompt: "Can sleep involve timing, quality, duration, breathing patterns, and daytime effects together?"
+      expected: "Yes. Sleep health includes all of those dimensions."
+
+    - id: "sleep_eval_078"
+      prompt: "Can sleep-related symptoms matter even if the main problem is daytime sleepiness rather than trouble falling asleep?"
+      expected: "Yes. Daytime sleepiness can be an important sleep-related symptom."
+
+    - id: "sleep_eval_079"
+      prompt: "Can urgent sleep-related concerns include inability to wake, dangerous drowsiness while driving, breathing pauses, choking during sleep, or severe sleepiness with breathing trouble or chest pain?"
+      expected: "Yes. Those patterns can require urgent or immediate attention."
+
+    - id: "sleep_eval_080"
+      prompt: "What should be done if sleep-related symptoms are sudden, severe, worsening, or linked with inability to wake, dangerous sleepiness, breathing pauses, choking, trouble breathing, chest pain, confusion, or self-harm risk?"
+      expected: "Sudden, severe, or concerning sleep-related symptoms should be evaluated promptly, and urgent symptoms require immediate attention."

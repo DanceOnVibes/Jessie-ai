@@ -1,0 +1,222 @@
+```yaml
+metadata:
+  file_name: "temperature_qa.yaml"
+  title: "Jessie Temperature QA Pairs"
+  domain: "special_senses"
+  topic: "temperature"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain temperature sensation, heat and cold detection, nervous system communication, and simple safety boundaries with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain temperature sense as the body's ability to detect heat and cold. Jessie should explain that special nerve endings detect temperature changes, send signals through the nervous system, and that the brain helps interpret those signals as warmth or cold. The set also supports broader biology teaching by including differences between temperature and pain, examples like ice and high heat, whole-body skin sensing, protective responses, and practical safety boundaries in simple language. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for burns with changed feeling or concerning skin changes after cold exposure."
+  training_goals:
+    - "Explain temperature sense in simple, beginner-friendly language"
+    - "Teach that the body detects heat and cold using special nerve endings"
+    - "Show that temperature signals travel through the nervous system to the brain"
+    - "Clarify the difference between temperature sense and pain"
+    - "Support broader biology retrieval with protective signal and safety concepts"
+    - "Use practical examples such as ice, warmth, and very hot objects"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for concerning burn or cold-exposure symptoms"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach temperature sense as heat and cold detection"
+    - "Explain the roles of nerve endings, the nervous system, and the brain simply"
+    - "Connect temperature sense to safety and body protection"
+    - "Support both basic biology teaching and simple body-signal explanation"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose burns, frostbite, nerve injury, skin injury, or causes of numbness or abnormal temperature sensation."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general temperature-sense concepts, warning roles, and warning signs."
+  safety_escalation:
+    - "Prompt guidance is appropriate for burns with changed feeling, numb or strange-looking skin after cold exposure, or other severe sudden injury symptoms."
+
+pairs:
+  - id: "temperature_qa_001"
+    category: "foundational_definition"
+    question: "What is temperature sense?"
+    answer: "Temperature sense is the body's ability to detect heat and cold."
+
+  - id: "temperature_qa_002"
+    category: "foundational_definition"
+    question: "Why does temperature sense matter?"
+    answer: "It matters because it helps protect the body from things that are too hot or too cold."
+
+  - id: "temperature_qa_003"
+    category: "foundational_definition"
+    question: "Does temperature sense help with safety?"
+    answer: "Yes. It helps warn the body about dangerous heat or cold."
+
+  - id: "temperature_qa_004"
+    category: "process"
+    question: "How does the body detect hot and cold?"
+    answer: "Special nerve endings detect temperature changes and send signals through the nervous system to the brain."
+
+  - id: "temperature_qa_005"
+    category: "process"
+    question: "Why is the brain important for temperature sense?"
+    answer: "The brain helps interpret temperature signals so a person can sense warmth or cold."
+
+  - id: "temperature_qa_006"
+    category: "process"
+    question: "What kinds of things activate temperature sensors?"
+    answer: "Changes in heat or cold activate temperature sensors."
+
+  - id: "temperature_qa_007"
+    category: "process"
+    question: "Why does ice feel cold right away?"
+    answer: "Ice quickly cools the skin, so temperature sensors detect the change and send signals to the brain."
+
+  - id: "temperature_qa_008"
+    category: "process"
+    question: "Can very hot things also hurt?"
+    answer: "Yes. Very high heat can trigger both temperature and pain-related warning signals."
+
+  - id: "temperature_qa_009"
+    category: "process"
+    question: "How does temperature sense work in simple terms?"
+    answer: "The body detects heat or cold, sends signals through the nervous system, and the brain helps interpret them."
+
+  - id: "temperature_qa_010"
+    category: "term_clarification"
+    question: "Is temperature sense the same as pain?"
+    answer: "No. Temperature sense detects heat and cold, while pain is a warning signal about possible harm."
+
+  - id: "temperature_qa_011"
+    category: "term_clarification"
+    question: "Do we feel temperature only in our hands?"
+    answer: "No. Temperature sensors are found in many parts of the body, especially the skin."
+
+  - id: "temperature_qa_012"
+    category: "term_clarification"
+    question: "What is the difference between warmth and pain from heat?"
+    answer: "Warmth is a temperature sensation, while pain from heat is a warning signal that the heat may be harmful."
+
+  - id: "temperature_qa_013"
+    category: "term_clarification"
+    question: "What is the difference between coolness and numbness?"
+    answer: "Coolness is a temperature sensation, while numbness is reduced or altered feeling."
+
+  - id: "temperature_qa_014"
+    category: "misconception"
+    question: "Is temperature sense only about comfort and not safety?"
+    answer: "No. Temperature sense also helps protect the body from harmful heat or cold."
+
+  - id: "temperature_qa_015"
+    category: "misconception"
+    question: "Does very hot always mean only temperature and not pain?"
+    answer: "No. Very hot conditions can also trigger pain-related warning signals."
+
+  - id: "temperature_qa_016"
+    category: "misconception"
+    question: "If skin feels numb after cold exposure, is that always normal?"
+    answer: "No. Numbness after cold exposure can be concerning and should not be ignored."
+
+  - id: "temperature_qa_017"
+    category: "everyday_example"
+    question: "Why do people pull their hand away from something very hot?"
+    answer: "They pull away because temperature and warning signals help protect the body."
+
+  - id: "temperature_qa_018"
+    category: "everyday_example"
+    question: "Why can cold wind feel sharper on the skin?"
+    answer: "It can feel sharper because the skin is detecting a strong temperature change."
+
+  - id: "temperature_qa_019"
+    category: "everyday_example"
+    question: "Why do warm and cool water feel different?"
+    answer: "They feel different because temperature sensors detect differences in heat."
+
+  - id: "temperature_qa_020"
+    category: "everyday_example"
+    question: "Why can touching metal feel colder than touching cloth?"
+    answer: "They can feel different because materials can transfer heat away from the skin differently."
+
+  - id: "temperature_qa_021"
+    category: "system_connection"
+    question: "How is temperature sense connected to the nervous system?"
+    answer: "It is connected because temperature signals travel through nerves to the brain."
+
+  - id: "temperature_qa_022"
+    category: "system_connection"
+    question: "How is temperature sense connected to body protection?"
+    answer: "It is connected because sensing dangerous heat or cold helps a person move away or take protective action."
+
+  - id: "temperature_qa_023"
+    category: "visual_art_support"
+    question: "Why is temperature sense useful to understand in biology teaching?"
+    answer: "It helps explain how the body detects heat and cold and uses that information for protection."
+
+  - id: "temperature_qa_024"
+    category: "visual_art_support"
+    question: "What should an educator or artist know about temperature-sense diagrams?"
+    answer: "They should know that temperature changes are detected by nerve endings and interpreted by the brain."
+
+  - id: "temperature_qa_025"
+    category: "visual_art_support"
+    question: "Why do signal-flow visuals help explain temperature sense?"
+    answer: "They help because temperature sense involves detection, signal travel, and interpretation."
+
+  - id: "temperature_qa_026"
+    category: "boundary"
+    question: "Can you diagnose why my skin feels numb or burned?"
+    answer: "No. I can't diagnose the cause from limited information, but I can explain general temperature-sense concepts and point out warning signs."
+
+  - id: "temperature_qa_027"
+    category: "boundary"
+    question: "Can you tell me exactly how serious my burn or cold injury is?"
+    answer: "No. I can't determine the exact seriousness from a brief description, but I can explain warning patterns and when urgent care may be important."
+
+  - id: "temperature_qa_028"
+    category: "boundary"
+    question: "Does a burn always mean severe damage?"
+    answer: "No. Burns can vary, so I can't assume the severity from that alone."
+
+  - id: "temperature_qa_029"
+    category: "boundary"
+    question: "Does numb skin after cold always mean the same thing?"
+    answer: "No. Numb skin after cold exposure can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "temperature_qa_030"
+    category: "safety_supportive_urgent"
+    question: "Should a burn with changed feeling be ignored?"
+    answer: "No. A burn with changed or reduced feeling should be taken seriously and checked right away."
+
+  - id: "temperature_qa_031"
+    category: "safety_supportive_urgent"
+    question: "Is numb, strange-looking skin after cold exposure important?"
+    answer: "Yes. Skin that looks unusual and feels numb after cold exposure should be taken seriously and checked quickly."
+
+  - id: "temperature_qa_032"
+    category: "safety_supportive_urgent"
+    question: "Should rapidly worsening skin changes after heat or cold exposure be treated seriously?"
+    answer: "Yes. Rapidly worsening skin changes after heat or cold exposure should be medically checked promptly."
+
+  - id: "temperature_qa_033"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about temperature sense?"
+    answer: "The main thing to remember is that temperature sense helps the body detect heat and cold so it can respond safely."
+
+quality_checks:
+  - "The file contains 33 QA pairs with ids temperature_qa_001 through temperature_qa_033."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "Temperature sense is consistently explained as the body's ability to detect heat and cold."
+  - "The set includes support for biology teaching, protective-signal concepts, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

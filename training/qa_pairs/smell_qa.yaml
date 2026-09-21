@@ -1,0 +1,222 @@
+```yaml
+metadata:
+  file_name: "smell_qa.yaml"
+  title: "Jessie Smell QA Pairs"
+  domain: "special_senses"
+  topic: "smell"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain smell, smell pathways, smell and flavor, and simple safety boundaries with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain smell as the sense that detects odor molecules in the air. Jessie should explain that smell starts when odor molecules enter the nose and interact with smell receptors, and that the brain helps interpret those signals as recognizable scents. The set also supports broader biology teaching by including smell pathways, smell and flavor, odor spread, identification of food, and the difference between smell and taste in simple language. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for sudden smell loss after head injury or sudden smell change with confusion."
+  training_goals:
+    - "Explain smell in simple, beginner-friendly language"
+    - "Teach that smell begins when odor molecules enter the nose and interact with receptors"
+    - "Show that the brain helps interpret smell signals"
+    - "Clarify the relationship between smell, taste, and flavor"
+    - "Support broader biology retrieval with sensory pathway and food-perception concepts"
+    - "Use practical examples such as food identification and odor spread"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for concerning smell changes"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach smell as detection of odor molecules in air"
+    - "Explain the roles of the nose, receptors, and brain simply"
+    - "Connect smell to food recognition and flavor"
+    - "Support both basic biology teaching and simple sensory-signal explanation"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose causes of smell loss, sinus disease, head injury, infection, or neurological problems."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general smell concepts, flavor connections, and warning signs."
+  safety_escalation:
+    - "Prompt guidance is appropriate for sudden smell loss after head injury or sudden smell change with confusion."
+
+pairs:
+  - id: "smell_qa_001"
+    category: "foundational_definition"
+    question: "What is smell?"
+    answer: "Smell is the sense that helps the body detect odor molecules in the air."
+
+  - id: "smell_qa_002"
+    category: "foundational_definition"
+    question: "Why does smell matter?"
+    answer: "Smell matters because it helps identify scents in the environment and contributes a lot to flavor."
+
+  - id: "smell_qa_003"
+    category: "process"
+    question: "How does smell start?"
+    answer: "Smell starts when odor molecules enter the nose and interact with smell receptors."
+
+  - id: "smell_qa_004"
+    category: "process"
+    question: "What does the brain do in smell?"
+    answer: "The brain helps interpret smell signals and identify what a scent seems to be."
+
+  - id: "smell_qa_005"
+    category: "process"
+    question: "Does the nose do all the work in smell?"
+    answer: "No. The nose helps detect odor signals, but the brain helps interpret them."
+
+  - id: "smell_qa_006"
+    category: "process"
+    question: "How does smell work in simple terms?"
+    answer: "Odor molecules enter the nose, receptors detect them, and the brain helps interpret the signals as smells."
+
+  - id: "smell_qa_007"
+    category: "process"
+    question: "Why can some smells spread across a room?"
+    answer: "Odor molecules can spread through the air and reach the nose from a distance."
+
+  - id: "smell_qa_008"
+    category: "term_clarification"
+    question: "Are smell and taste the same thing?"
+    answer: "No. They are different senses, but they work together closely."
+
+  - id: "smell_qa_009"
+    category: "term_clarification"
+    question: "What is flavor?"
+    answer: "Flavor is the broader food experience created by taste, smell, texture, temperature, and other sensory inputs."
+
+  - id: "smell_qa_010"
+    category: "term_clarification"
+    question: "Why does smell matter for flavor?"
+    answer: "Smell matters for flavor because it adds a lot of the detail and identity people notice in foods."
+
+  - id: "smell_qa_011"
+    category: "term_clarification"
+    question: "Why does food seem bland when smell is reduced?"
+    answer: "Food may seem bland because smell contributes a lot to flavor."
+
+  - id: "smell_qa_012"
+    category: "term_clarification"
+    question: "Can smell help identify food?"
+    answer: "Yes. Smell often provides a lot of the detail that helps identify foods and other scents."
+
+  - id: "smell_qa_013"
+    category: "misconception"
+    question: "Is smell only about the nose and not the brain?"
+    answer: "No. Smell depends on both detection in the nose and interpretation by the brain."
+
+  - id: "smell_qa_014"
+    category: "misconception"
+    question: "If food tastes weak, does that always mean taste is the problem?"
+    answer: "No. Reduced smell can also make flavor seem weaker."
+
+  - id: "smell_qa_015"
+    category: "misconception"
+    question: "Do all smells have to come from nearby objects?"
+    answer: "No. Odor molecules can travel through the air from farther away."
+
+  - id: "smell_qa_016"
+    category: "misconception"
+    question: "Is flavor made only by the tongue?"
+    answer: "No. Flavor also depends strongly on smell and other sensory inputs."
+
+  - id: "smell_qa_017"
+    category: "everyday_example"
+    question: "Why can a person recognize food before tasting it?"
+    answer: "They may recognize it because smell provides useful clues about what the food is."
+
+  - id: "smell_qa_018"
+    category: "everyday_example"
+    question: "Why can baking smells be noticed from another room?"
+    answer: "They can be noticed because odor molecules spread through the air."
+
+  - id: "smell_qa_019"
+    category: "everyday_example"
+    question: "Why can smell affect appetite?"
+    answer: "Smell can affect appetite because it helps shape the experience and recognition of food."
+
+  - id: "smell_qa_020"
+    category: "everyday_example"
+    question: "Why can a stuffy nose change food experience?"
+    answer: "A stuffy nose can change food experience because reduced smell can reduce flavor detail."
+
+  - id: "smell_qa_021"
+    category: "system_connection"
+    question: "How is smell connected to the nervous system?"
+    answer: "Smell is connected to the nervous system because odor signals are detected and then interpreted by the brain."
+
+  - id: "smell_qa_022"
+    category: "system_connection"
+    question: "How is smell connected to taste?"
+    answer: "Smell and taste are connected because both contribute to flavor."
+
+  - id: "smell_qa_023"
+    category: "visual_art_support"
+    question: "Why is smell useful to understand in biology teaching?"
+    answer: "It helps explain how airborne molecules can be detected and turned into meaningful sensory experiences."
+
+  - id: "smell_qa_024"
+    category: "visual_art_support"
+    question: "What should an educator or artist know about smell diagrams?"
+    answer: "They should know that odor molecules enter the nose, receptors detect them, and the brain helps interpret the signals."
+
+  - id: "smell_qa_025"
+    category: "visual_art_support"
+    question: "Why do pathway visuals help explain smell?"
+    answer: "They help because smell involves detection, signal flow, and interpretation."
+
+  - id: "smell_qa_026"
+    category: "boundary"
+    question: "Can you diagnose why I lost my sense of smell?"
+    answer: "No. I can't diagnose the cause from limited information, but I can explain general smell concepts and point out warning signs."
+
+  - id: "smell_qa_027"
+    category: "boundary"
+    question: "Can you tell me exactly why food tastes bland to me?"
+    answer: "No. I can't determine the exact cause from a brief description, but I can explain smell and flavor concepts and when medical care may be important."
+
+  - id: "smell_qa_028"
+    category: "boundary"
+    question: "Does smell loss always mean a head injury?"
+    answer: "No. Smell loss can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "smell_qa_029"
+    category: "boundary"
+    question: "Does reduced flavor always mean a tongue problem?"
+    answer: "No. Reduced flavor can also involve smell changes, so I can't assume the cause from that alone."
+
+  - id: "smell_qa_030"
+    category: "safety_supportive_urgent"
+    question: "Should sudden smell loss after head injury be ignored?"
+    answer: "No. Sudden smell loss after a head injury should be taken seriously and checked by a trusted adult or doctor."
+
+  - id: "smell_qa_031"
+    category: "safety_supportive_urgent"
+    question: "Can smell and confusion together be concerning?"
+    answer: "Yes. Sudden smell change with confusion is something that should be checked quickly by a trusted adult or doctor."
+
+  - id: "smell_qa_032"
+    category: "safety_supportive_urgent"
+    question: "Should sudden major smell change with other neurological symptoms be treated seriously?"
+    answer: "Yes. Sudden major smell change with confusion or other neurological symptoms should be medically checked promptly."
+
+  - id: "smell_qa_033"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about smell?"
+    answer: "The main thing to remember is that smell helps the body detect odor molecules and works closely with the brain and taste to shape flavor."
+
+quality_checks:
+  - "The file contains 33 QA pairs with ids smell_qa_001 through smell_qa_033."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "Smell is consistently explained as detection of odor molecules with brain interpretation."
+  - "The set includes support for biology teaching, flavor concepts, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

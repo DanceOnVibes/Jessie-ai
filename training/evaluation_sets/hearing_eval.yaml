@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Hearing Evaluation Set"
+  domain: "body_awareness"
+  topic: "hearing"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of hearing, sound detection, communication support, environmental awareness, ear-related function, sound differences, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "hearing_eval_001"
+      prompt: "What is hearing?"
+      expected: "Hearing is the ability to detect and interpret sound."
+
+    - id: "hearing_eval_002"
+      prompt: "Why is hearing important?"
+      expected: "Hearing is important for communication, environmental awareness, learning, and safety."
+
+    - id: "hearing_eval_003"
+      prompt: "Which body structure is most associated with hearing?"
+      expected: "The ears are the main structures associated with hearing."
+
+    - id: "hearing_eval_004"
+      prompt: "Does hearing help a person notice sounds in the environment?"
+      expected: "Yes. Hearing helps a person detect sounds around them."
+
+    - id: "hearing_eval_005"
+      prompt: "Can hearing support spoken communication?"
+      expected: "Yes. Hearing helps people detect and understand spoken language."
+
+    - id: "hearing_eval_006"
+      prompt: "Is hearing the same as balance?"
+      expected: "No. Hearing and balance are different functions, though both involve the ear."
+
+    - id: "hearing_eval_007"
+      prompt: "Can the ear be involved in both hearing and balance?"
+      expected: "Yes. Different parts of the ear contribute to hearing and balance."
+
+    - id: "hearing_eval_008"
+      prompt: "What is sound in a simple way?"
+      expected: "Sound is energy that travels in waves and can be detected by the hearing system."
+
+    - id: "hearing_eval_009"
+      prompt: "Can hearing help a person notice speech, music, or warning sounds?"
+      expected: "Yes. Hearing helps detect many kinds of sounds, including speech, music, and alarms."
+
+    - id: "hearing_eval_010"
+      prompt: "Does hearing only matter in conversations?"
+      expected: "No. Hearing also matters for environmental awareness, learning, enjoyment, and safety."
+
+    - id: "hearing_eval_011"
+      prompt: "Can hearing help with safety?"
+      expected: "Yes. Hearing can help a person notice alarms, vehicles, voices, and other warning sounds."
+
+    - id: "hearing_eval_012"
+      prompt: "Can hearing help a person know where a sound is coming from?"
+      expected: "Yes. Hearing can help with sound localization."
+
+    - id: "hearing_eval_013"
+      prompt: "What is a simple example of hearing in daily life?"
+      expected: "Hearing a doorbell, a voice, or traffic is a simple example of hearing in daily life."
+
+    - id: "hearing_eval_014"
+      prompt: "Can hearing help a person learn language?"
+      expected: "Yes. Hearing plays an important role in language learning and communication."
+
+    - id: "hearing_eval_015"
+      prompt: "Can hearing support social interaction?"
+      expected: "Yes. Hearing helps people follow conversations and respond to others."
+
+    - id: "hearing_eval_016"
+      prompt: "Can hearing affect awareness of danger?"
+      expected: "Yes. Reduced hearing can make some hazards or warnings harder to notice."
+
+    - id: "hearing_eval_017"
+      prompt: "Can hearing differ in loudness sensitivity?"
+      expected: "Yes. People can perceive sounds with different loudness levels."
+
+    - id: "hearing_eval_018"
+      prompt: "Can hearing help distinguish pitch differences?"
+      expected: "Yes. Hearing helps detect whether sounds are higher or lower in pitch."
+
+    - id: "hearing_eval_019"
+      prompt: "Can hearing help distinguish different voices?"
+      expected: "Yes. Hearing helps detect differences in tone, pitch, and voice characteristics."
+
+    - id: "hearing_eval_020"
+      prompt: "Can hearing help a person notice rhythm and timing in sound?"
+      expected: "Yes. Hearing helps detect rhythm, timing, and changes in sound patterns."
+
+    - id: "hearing_eval_021"
+      prompt: "Can hearing support music appreciation?"
+      expected: "Yes. Hearing helps people perceive melody, pitch, rhythm, and sound quality."
+
+    - id: "hearing_eval_022"
+      prompt: "Can hearing help in a classroom or learning environment?"
+      expected: "Yes. Hearing helps with following spoken instruction and participating in learning."
+
+    - id: "hearing_eval_023"
+      prompt: "Can background noise make hearing more difficult?"
+      expected: "Yes. Background noise can make it harder to understand important sounds or speech."
+
+    - id: "hearing_eval_024"
+      prompt: "Can hearing problems affect communication?"
+      expected: "Yes. Reduced hearing can make communication more difficult."
+
+    - id: "hearing_eval_025"
+      prompt: "Can hearing loss be mild or severe?"
+      expected: "Yes. Hearing changes can range from mild reduction to major loss."
+
+    - id: "hearing_eval_026"
+      prompt: "Can hearing changes happen in one ear or both ears?"
+      expected: "Yes. Hearing changes can affect one ear or both ears."
+
+    - id: "hearing_eval_027"
+      prompt: "Can loud noise affect hearing?"
+      expected: "Yes. Loud noise can affect hearing and potentially cause damage."
+
+    - id: "hearing_eval_028"
+      prompt: "Can hearing protection matter in noisy environments?"
+      expected: "Yes. Hearing protection can help reduce harmful noise exposure."
+
+    - id: "hearing_eval_029"
+      prompt: "Can earwax sometimes affect hearing?"
+      expected: "Yes. Earwax buildup can sometimes reduce hearing."
+
+    - id: "hearing_eval_030"
+      prompt: "Can ear infections sometimes affect hearing?"
+      expected: "Yes. Ear infections can affect hearing temporarily or sometimes more significantly."
+
+    - id: "hearing_eval_031"
+      prompt: "Can hearing help a person detect soft versus loud sounds?"
+      expected: "Yes. Hearing helps detect differences in sound intensity."
+
+    - id: "hearing_eval_032"
+      prompt: "Can hearing help recognize familiar sounds?"
+      expected: "Yes. Hearing helps people recognize voices, alarms, music, and many everyday sounds."
+
+    - id: "hearing_eval_033"
+      prompt: "Can hearing work with vision during communication?"
+      expected: "Yes. Hearing and vision can work together during communication and environmental awareness."
+
+    - id: "hearing_eval_034"
+      prompt: "Can hearing difficulty affect confidence in social settings?"
+      expected: "Yes. Hearing difficulty can make social interaction feel harder or more stressful."
+
+    - id: "hearing_eval_035"
+      prompt: "Can hearing matter during phone calls or video calls?"
+      expected: "Yes. Hearing is important for understanding spoken information in many communication settings."
+
+    - id: "hearing_eval_036"
+      prompt: "Can hearing affect workplace or school performance?"
+      expected: "Yes. Hearing difficulty can affect communication, attention, and participation."
+
+    - id: "hearing_eval_037"
+      prompt: "Can hearing help with awareness while walking outdoors?"
+      expected: "Yes. Hearing can help a person notice traffic, people, and warning sounds."
+
+    - id: "hearing_eval_038"
+      prompt: "Can hearing matter for emergency alerts?"
+      expected: "Yes. Hearing can help a person detect alarms, sirens, and urgent instructions."
+
+    - id: "hearing_eval_039"
+      prompt: "Can hearing be important even during quiet activities?"
+      expected: "Yes. Hearing still supports awareness and communication even in quiet settings."
+
+    - id: "hearing_eval_040"
+      prompt: "Can hearing help a person notice changes in tone of voice?"
+      expected: "Yes. Hearing helps detect emotional and communicative changes in speech."
+
+    - id: "hearing_eval_041"
+      prompt: "Can hearing help with turn-taking in conversation?"
+      expected: "Yes. Hearing supports timing and response during conversation."
+
+    - id: "hearing_eval_042"
+      prompt: "Can hearing difficulties make group conversations harder?"
+      expected: "Yes. Group conversations can be more difficult when hearing is reduced."
+
+    - id: "hearing_eval_043"
+      prompt: "Can hearing changes affect children differently because of language learning?"
+      expected: "Yes. Hearing is especially important for language and learning during development."
+
+    - id: "hearing_eval_044"
+      prompt: "Can age-related changes affect hearing?"
+      expected: "Yes. Hearing can change with age."
+
+    - id: "hearing_eval_045"
+      prompt: "Can ringing in the ears be related to hearing concerns?"
+      expected: "Yes. Ringing in the ears can be associated with hearing-related concerns."
+
+    - id: "hearing_eval_046"
+      prompt: "Can muffled hearing be a sign of hearing change?"
+      expected: "Yes. Muffled hearing can indicate reduced sound clarity or hearing change."
+
+    - id: "hearing_eval_047"
+      prompt: "Can hearing problems affect attention or mental effort?"
+      expected: "Yes. Hearing difficulty can make listening require more effort."
+
+    - id: "hearing_eval_048"
+      prompt: "Can hearing matter when following spoken directions?"
+      expected: "Yes. Hearing helps a person understand and respond to verbal instructions."
+
+    - id: "hearing_eval_049"
+      prompt: "Can hearing and memory work together in conversation?"
+      expected: "Yes. Hearing helps a person receive information that memory then supports."
+
+    - id: "hearing_eval_050"
+      prompt: "Can hearing be important for emotional connection in conversation?"
+      expected: "Yes. Hearing helps a person notice tone, emphasis, and spoken emotion."
+
+    - id: "hearing_eval_051"
+      prompt: "Can hearing matter when cooking or doing household tasks?"
+      expected: "Yes. Hearing can help with timers, alarms, voices, and environmental awareness."
+
+    - id: "hearing_eval_052"
+      prompt: "Can hearing help detect approaching vehicles?"
+      expected: "Yes. Hearing can help a person notice traffic and other moving hazards."
+
+    - id: "hearing_eval_053"
+      prompt: "Can hearing help distinguish environmental sounds like rain, wind, or footsteps?"
+      expected: "Yes. Hearing helps identify many natural and everyday sounds."
+
+    - id: "hearing_eval_054"
+      prompt: "Can reduced hearing increase isolation if communication becomes harder?"
+      expected: "Yes. Hearing difficulty can affect participation and social connection."
+
+    - id: "hearing_eval_055"
+      prompt: "Can hearing loss happen gradually?"
+      expected: "Yes. Hearing changes may happen gradually or suddenly."
+
+    - id: "hearing_eval_056"
+      prompt: "Can sudden hearing loss be important?"
+      expected: "Yes. Sudden hearing loss should be taken seriously and evaluated promptly."
+
+    - id: "hearing_eval_057"
+      prompt: "Should hearing loss after loud noise exposure be ignored?"
+      expected: "No. Hearing changes after loud noise exposure should be taken seriously."
+
+    - id: "hearing_eval_058"
+      prompt: "Should ear pain with hearing change be taken seriously?"
+      expected: "Yes. Ear pain with hearing change should be evaluated."
+
+    - id: "hearing_eval_059"
+      prompt: "Should ear drainage with hearing symptoms be taken seriously?"
+      expected: "Yes. Ear drainage with hearing symptoms should be evaluated promptly."
+
+    - id: "hearing_eval_060"
+      prompt: "Should hearing loss with dizziness be taken seriously?"
+      expected: "Yes. Hearing loss with dizziness should be evaluated promptly."
+
+    - id: "hearing_eval_061"
+      prompt: "Should hearing change with severe headache or neurological symptoms be considered urgent?"
+      expected: "Yes. Hearing change with other serious symptoms should be addressed promptly."
+
+    - id: "hearing_eval_062"
+      prompt: "Can hearing support awareness of people calling for help?"
+      expected: "Yes. Hearing can help detect voices and urgent calls."
+
+    - id: "hearing_eval_063"
+      prompt: "Can hearing support safe participation in community life?"
+      expected: "Yes. Hearing helps with communication, navigation, and awareness in public settings."
+
+    - id: "hearing_eval_064"
+      prompt: "Can hearing and attention work together during learning?"
+      expected: "Yes. Hearing helps deliver information that attention helps process."
+
+    - id: "hearing_eval_065"
+      prompt: "Can hearing difficulty be tiring over time?"
+      expected: "Yes. Ongoing listening effort can be tiring."
+
+    - id: "hearing_eval_066"
+      prompt: "Can hearing support understanding emotional meaning in speech?"
+      expected: "Yes. Hearing helps detect tone, emphasis, and vocal expression."
+
+    - id: "hearing_eval_067"
+      prompt: "Can hearing matter for children in school?"
+      expected: "Yes. Hearing supports learning, speech understanding, and classroom participation."
+
+    - id: "hearing_eval_068"
+      prompt: "Can reduced hearing affect reaction time to some warnings?"
+      expected: "Yes. Reduced hearing can delay awareness of warning sounds."
+
+    - id: "hearing_eval_069"
+      prompt: "Can hearing problems sometimes be overlooked if they develop slowly?"
+      expected: "Yes. Gradual hearing changes may be less obvious at first."
+
+    - id: "hearing_eval_070"
+      prompt: "Can hearing function support independence in daily life?"
+      expected: "Yes. Hearing helps with communication, safety, and routine tasks."
+
+    - id: "hearing_eval_071"
+      prompt: "Can hearing changes affect quality of life even without pain?"
+      expected: "Yes. Hearing changes can still affect communication and daily functioning."
+
+    - id: "hearing_eval_072"
+      prompt: "Can hearing and speech understanding be related but not identical?"
+      expected: "Yes. A person may detect sound but still have difficulty understanding speech in some situations."
+
+    - id: "hearing_eval_073"
+      prompt: "Can different sound frequencies be heard differently?"
+      expected: "Yes. Hearing can vary across different pitches and frequencies."
+
+    - id: "hearing_eval_074"
+      prompt: "Can hearing matter for recognizing alarms at night?"
+      expected: "Yes. Hearing helps detect warning sounds during rest as well as activity."
+
+    - id: "hearing_eval_075"
+      prompt: "Can hearing help a person detect whether a sound is near or far?"
+      expected: "Yes. Hearing can contribute to judging distance and location of sounds."
+
+    - id: "hearing_eval_076"
+      prompt: "Can hearing help in teamwork or group coordination?"
+      expected: "Yes. Hearing supports communication and timing in group activity."
+
+    - id: "hearing_eval_077"
+      prompt: "What is the main idea of hearing?"
+      expected: "Hearing is the ability to detect and interpret sound for communication, awareness, and safety."
+
+    - id: "hearing_eval_078"
+      prompt: "Can hearing support both enjoyment and protection?"
+      expected: "Yes. Hearing supports enjoyment of sound and awareness of warning signals."
+
+    - id: "hearing_eval_079"
+      prompt: "Can hearing problems affect both function and social connection?"
+      expected: "Yes. Hearing difficulty can affect daily tasks, communication, and relationships."
+
+    - id: "hearing_eval_080"
+      prompt: "What should be done if hearing changes are sudden, severe, worsening, or linked with ear pain, drainage, dizziness, or other serious symptoms?"
+      expected: "Sudden, severe, or concerning hearing changes should be evaluated promptly."

@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Endocrine System Evaluation Set"
+  domain: "human_body"
+  topic: "endocrine_system"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of the endocrine system, hormones, gland function, body regulation, growth, metabolism, reproduction support, stress response, system interactions, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "endocrine_eval_001"
+      prompt: "What is the endocrine system?"
+      expected: "The endocrine system is the body system that uses hormones to help regulate body functions."
+
+    - id: "endocrine_eval_002"
+      prompt: "What is the main job of the endocrine system?"
+      expected: "Its main job is to produce and release hormones that help control and coordinate many body processes."
+
+    - id: "endocrine_eval_003"
+      prompt: "What are hormones?"
+      expected: "Hormones are chemical messengers that travel through the body and help regulate functions."
+
+    - id: "endocrine_eval_004"
+      prompt: "What structures make hormones?"
+      expected: "Endocrine glands and specialized hormone-producing tissues make hormones."
+
+    - id: "endocrine_eval_005"
+      prompt: "How do hormones travel through the body?"
+      expected: "Hormones usually travel through the bloodstream to reach target tissues."
+
+    - id: "endocrine_eval_006"
+      prompt: "Why is the endocrine system important?"
+      expected: "It is important because it helps regulate growth, metabolism, reproduction, stress responses, and internal balance."
+
+    - id: "endocrine_eval_007"
+      prompt: "Can the endocrine system help maintain homeostasis?"
+      expected: "Yes. The endocrine system helps maintain internal balance by regulating many body processes."
+
+    - id: "endocrine_eval_008"
+      prompt: "Does the endocrine system work quickly like a reflex?"
+      expected: "It can act more slowly than a reflex because hormonal signaling often works over time, though it can still have important rapid effects."
+
+    - id: "endocrine_eval_009"
+      prompt: "Is the endocrine system the same as the nervous system?"
+      expected: "No. They are different systems, though they work closely together to regulate the body."
+
+    - id: "endocrine_eval_010"
+      prompt: "Can the endocrine system and nervous system interact?"
+      expected: "Yes. The endocrine and nervous systems work together to coordinate body responses."
+
+    - id: "endocrine_eval_011"
+      prompt: "What is a gland in a simple way?"
+      expected: "A gland is a structure that makes and releases substances such as hormones."
+
+    - id: "endocrine_eval_012"
+      prompt: "What does the pituitary gland do in a simple way?"
+      expected: "The pituitary gland helps regulate other glands and important body functions."
+
+    - id: "endocrine_eval_013"
+      prompt: "What does the thyroid do in a simple way?"
+      expected: "The thyroid helps regulate metabolism and energy use."
+
+    - id: "endocrine_eval_014"
+      prompt: "What do the adrenal glands do in a simple way?"
+      expected: "The adrenal glands help the body respond to stress and regulate important body functions."
+
+    - id: "endocrine_eval_015"
+      prompt: "Does the pancreas have endocrine functions?"
+      expected: "Yes. The pancreas has endocrine functions such as helping regulate blood sugar."
+
+    - id: "endocrine_eval_016"
+      prompt: "Do the ovaries or testes have endocrine functions?"
+      expected: "Yes. They produce hormones involved in reproduction and body development."
+
+    - id: "endocrine_eval_017"
+      prompt: "Can hormones affect growth?"
+      expected: "Yes. Hormones help regulate growth and development."
+
+    - id: "endocrine_eval_018"
+      prompt: "Can hormones affect metabolism?"
+      expected: "Yes. Hormones help regulate how the body uses and stores energy."
+
+    - id: "endocrine_eval_019"
+      prompt: "Can hormones affect blood sugar regulation?"
+      expected: "Yes. Hormones help regulate blood sugar levels."
+
+    - id: "endocrine_eval_020"
+      prompt: "Can hormones affect mood and energy?"
+      expected: "Yes. Hormones can influence mood, energy, and overall well-being."
+
+    - id: "endocrine_eval_021"
+      prompt: "Can hormones affect sleep patterns?"
+      expected: "Yes. Hormones can influence sleep and daily body rhythms."
+
+    - id: "endocrine_eval_022"
+      prompt: "Can hormones affect reproduction?"
+      expected: "Yes. Hormones help regulate reproductive development and function."
+
+    - id: "endocrine_eval_023"
+      prompt: "Can hormones affect puberty?"
+      expected: "Yes. Hormones play a major role in puberty and sexual development."
+
+    - id: "endocrine_eval_024"
+      prompt: "Can hormones affect stress response?"
+      expected: "Yes. Hormones help the body respond to stress and changing demands."
+
+    - id: "endocrine_eval_025"
+      prompt: "Does the endocrine system only affect one part of the body?"
+      expected: "No. The endocrine system affects many organs and systems throughout the body."
+
+    - id: "endocrine_eval_026"
+      prompt: "Can the endocrine system interact with the circulatory system?"
+      expected: "Yes. Hormones travel through the blood to reach target tissues."
+
+    - id: "endocrine_eval_027"
+      prompt: "Can the endocrine system interact with the digestive system?"
+      expected: "Yes. Hormones influence appetite, digestion, metabolism, and nutrient handling."
+
+    - id: "endocrine_eval_028"
+      prompt: "Can the endocrine system interact with the reproductive system?"
+      expected: "Yes. Hormones are central to reproductive development and function."
+
+    - id: "endocrine_eval_029"
+      prompt: "Can the endocrine system interact with the urinary system?"
+      expected: "Yes. Hormones can influence fluid balance and related body regulation."
+
+    - id: "endocrine_eval_030"
+      prompt: "Can the endocrine system interact with bones and muscles?"
+      expected: "Yes. Hormones influence growth, strength, metabolism, and tissue maintenance."
+
+    - id: "endocrine_eval_031"
+      prompt: "What is a target tissue in a simple way?"
+      expected: "A target tissue is a body tissue that responds to a specific hormone."
+
+    - id: "endocrine_eval_032"
+      prompt: "Can the endocrine system help the body adapt over time?"
+      expected: "Yes. Hormonal regulation helps the body adjust to changing needs."
+
+    - id: "endocrine_eval_033"
+      prompt: "Can the endocrine system influence appetite?"
+      expected: "Yes. Hormones can affect hunger, fullness, and energy balance."
+
+    - id: "endocrine_eval_034"
+      prompt: "Can hormones influence temperature regulation?"
+      expected: "Yes. Hormones can affect metabolism and other processes related to temperature regulation."
+
+    - id: "endocrine_eval_035"
+      prompt: "Can hormones influence heart rate or blood pressure regulation?"
+      expected: "Yes. Some hormones help regulate circulation-related functions."
+
+    - id: "endocrine_eval_036"
+      prompt: "Can hormones affect fluid and salt balance?"
+      expected: "Yes. Hormones help regulate fluid levels and chemical balance in the body."
+
+    - id: "endocrine_eval_037"
+      prompt: "Can endocrine problems affect body weight?"
+      expected: "Yes. Endocrine changes can affect metabolism, appetite, and weight."
+
+    - id: "endocrine_eval_038"
+      prompt: "Can endocrine problems affect growth in children?"
+      expected: "Yes. Hormonal problems can affect growth and development."
+
+    - id: "endocrine_eval_039"
+      prompt: "Can endocrine problems affect menstrual cycles or reproductive function?"
+      expected: "Yes. Hormonal changes can affect reproductive patterns and function."
+
+    - id: "endocrine_eval_040"
+      prompt: "Can endocrine problems affect energy levels?"
+      expected: "Yes. Hormonal imbalance can affect energy, stamina, and daily function."
+
+    - id: "endocrine_eval_041"
+      prompt: "Can endocrine problems affect concentration or mood?"
+      expected: "Yes. Hormonal changes can affect mental and emotional well-being."
+
+    - id: "endocrine_eval_042"
+      prompt: "Can thirst or urination changes sometimes relate to hormones?"
+      expected: "Yes. Some hormonal problems can affect thirst and urination patterns."
+
+    - id: "endocrine_eval_043"
+      prompt: "Can the endocrine system help regulate blood calcium or bone-related processes?"
+      expected: "Yes. Hormones help regulate mineral balance and bone-related functions."
+
+    - id: "endocrine_eval_044"
+      prompt: "Can the endocrine system influence muscle function indirectly?"
+      expected: "Yes. Hormones influence metabolism, growth, and chemical balance that affect muscles."
+
+    - id: "endocrine_eval_045"
+      prompt: "Can hormones act as communication signals between body systems?"
+      expected: "Yes. Hormones are major chemical messengers used for body-wide communication."
+
+    - id: "endocrine_eval_046"
+      prompt: "Does the endocrine system matter every day, not just during illness?"
+      expected: "Yes. The endocrine system regulates everyday body functions continuously."
+
+    - id: "endocrine_eval_047"
+      prompt: "Can the endocrine system influence body rhythms over the day?"
+      expected: "Yes. Hormones help regulate daily rhythms such as sleep and wake patterns."
+
+    - id: "endocrine_eval_048"
+      prompt: "Can stress hormones help the body respond to challenge?"
+      expected: "Yes. Stress hormones help prepare the body to respond to demands."
+
+    - id: "endocrine_eval_049"
+      prompt: "Can hormone imbalance affect how hot or cold a person feels?"
+      expected: "Yes. Hormonal changes can affect metabolism and temperature-related sensations."
+
+    - id: "endocrine_eval_050"
+      prompt: "Can endocrine health support normal development across the lifespan?"
+      expected: "Yes. Endocrine function supports growth, puberty, adulthood, and aging-related regulation."
+
+    - id: "endocrine_eval_051"
+      prompt: "Can the thyroid affect how quickly the body uses energy?"
+      expected: "Yes. Thyroid hormones help regulate metabolic rate."
+
+    - id: "endocrine_eval_052"
+      prompt: "Can insulin be considered a hormone?"
+      expected: "Yes. Insulin is a hormone involved in blood sugar regulation."
+
+    - id: "endocrine_eval_053"
+      prompt: "Can blood sugar problems sometimes relate to endocrine function?"
+      expected: "Yes. Blood sugar regulation is closely linked to endocrine function."
+
+    - id: "endocrine_eval_054"
+      prompt: "Can endocrine disorders affect skin or hair changes?"
+      expected: "Yes. Hormonal changes can affect skin, hair, and related body features."
+
+    - id: "endocrine_eval_055"
+      prompt: "Can endocrine changes affect appetite and digestion together?"
+      expected: "Yes. Hormones can influence both hunger and digestive function."
+
+    - id: "endocrine_eval_056"
+      prompt: "Can endocrine function influence fertility?"
+      expected: "Yes. Hormones play an important role in fertility and reproductive timing."
+
+    - id: "endocrine_eval_057"
+      prompt: "Can hormonal changes affect adolescence?"
+      expected: "Yes. Hormonal changes are central to adolescent development."
+
+    - id: "endocrine_eval_058"
+      prompt: "Can the endocrine system support pregnancy-related regulation?"
+      expected: "Yes. Hormones are important in pregnancy and reproductive regulation."
+
+    - id: "endocrine_eval_059"
+      prompt: "Can endocrine problems sometimes develop gradually?"
+      expected: "Yes. Hormonal problems can appear gradually and affect many body functions over time."
+
+    - id: "endocrine_eval_060"
+      prompt: "Can unexplained major weight change sometimes be important?"
+      expected: "Yes. Unexplained major weight change can be important and should be evaluated."
+
+    - id: "endocrine_eval_061"
+      prompt: "Can severe confusion with very high or very low blood sugar symptoms be urgent?"
+      expected: "Yes. Severe confusion or dangerous blood sugar-related symptoms can be urgent."
+
+    - id: "endocrine_eval_062"
+      prompt: "Should fainting or severe weakness with possible endocrine symptoms be taken seriously?"
+      expected: "Yes. Severe weakness or fainting with concerning symptoms should be evaluated promptly."
+
+    - id: "endocrine_eval_063"
+      prompt: "Should extreme thirst with major urination changes be taken seriously?"
+      expected: "Yes. Major thirst and urination changes should be evaluated."
+
+    - id: "endocrine_eval_064"
+      prompt: "Should sudden severe symptoms in a person with known hormone or blood sugar problems be ignored?"
+      expected: "No. Sudden severe symptoms should be taken seriously and addressed promptly."
+
+    - id: "endocrine_eval_065"
+      prompt: "Can hormone problems affect school, work, or daily performance?"
+      expected: "Yes. Hormonal imbalance can affect energy, focus, mood, and physical function."
+
+    - id: "endocrine_eval_066"
+      prompt: "Can endocrine function affect body composition over time?"
+      expected: "Yes. Hormones can influence fat distribution, muscle maintenance, and metabolism."
+
+    - id: "endocrine_eval_067"
+      prompt: "Can the endocrine system help the body respond differently during rest and activity?"
+      expected: "Yes. Hormones help regulate changing body demands across situations."
+
+    - id: "endocrine_eval_068"
+      prompt: "Can endocrine signaling have effects beyond one single organ?"
+      expected: "Yes. Hormones often affect multiple organs and systems."
+
+    - id: "endocrine_eval_069"
+      prompt: "Can endocrine health be important even when symptoms are subtle?"
+      expected: "Yes. Hormonal issues can still matter even when symptoms develop gradually."
+
+    - id: "endocrine_eval_070"
+      prompt: "Can the endocrine system and immune system interact?"
+      expected: "Yes. Hormones can influence immune function and overall regulation."
+
+    - id: "endocrine_eval_071"
+      prompt: "Can the endocrine system and musculoskeletal system interact?"
+      expected: "Yes. Hormones affect bone health, muscle maintenance, and physical development."
+
+    - id: "endocrine_eval_072"
+      prompt: "Can endocrine problems sometimes affect heart rate, heat tolerance, or sweating?"
+      expected: "Yes. Hormonal imbalance can affect metabolism and body regulation in those ways."
+
+    - id: "endocrine_eval_073"
+      prompt: "Can endocrine changes sometimes affect sleep, mood, and appetite together?"
+      expected: "Yes. Hormones can influence several body functions at the same time."
+
+    - id: "endocrine_eval_074"
+      prompt: "Can normal hormone regulation support body stability through changing conditions?"
+      expected: "Yes. Hormonal regulation helps the body adapt and stay balanced."
+
+    - id: "endocrine_eval_075"
+      prompt: "Can endocrine function help connect growth, metabolism, reproduction, and stress response?"
+      expected: "Yes. The endocrine system helps coordinate all of those major body functions."
+
+    - id: "endocrine_eval_076"
+      prompt: "What is the main idea of the endocrine system?"
+      expected: "The endocrine system uses hormones to regulate growth, metabolism, reproduction, stress response, and internal balance."
+
+    - id: "endocrine_eval_077"
+      prompt: "Can hormones help the body communicate over long distances internally?"
+      expected: "Yes. Hormones are body-wide chemical messengers carried through the blood."
+
+    - id: "endocrine_eval_078"
+      prompt: "Can endocrine regulation matter for both short-term adjustment and long-term development?"
+      expected: "Yes. Hormones influence both immediate regulation and long-term body changes."
+
+    - id: "endocrine_eval_079"
+      prompt: "Can endocrine function support normal daily life even when it goes unnoticed?"
+      expected: "Yes. Hormonal regulation quietly supports many everyday body functions."
+
+    - id: "endocrine_eval_080"
+      prompt: "What should be done if endocrine-related symptoms are sudden, severe, worsening, or linked with confusion, fainting, extreme weakness, or dangerous blood sugar concerns?"
+      expected: "Sudden, severe, or concerning endocrine-related symptoms should be evaluated promptly."

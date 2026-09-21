@@ -1,0 +1,294 @@
+knowledge_pack:
+  file_name: "hearing_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about hearing, sound detection, ear structures, auditory processing, hearing changes, balance distinction, communication impact, and safety escalation."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "hearing"
+    category: "auditory sensation and communication"
+    domain: "human body and health"
+
+  overview:
+    summary: "Hearing is the body's ability to detect sound and interpret it as meaningful information. It depends on the ear collecting sound waves, converting them into nerve signals, and the brain processing those signals. Hearing is important for communication, environmental awareness, learning, safety, and social interaction."
+    why_it_matters:
+      - "Hearing helps people understand speech and communicate."
+      - "It supports awareness of the environment and safety."
+      - "It allows detection of warning sounds, movement, and social cues."
+      - "Changes in hearing can affect learning, participation, and quality of life."
+
+  core_definitions:
+    - term: "hearing"
+      definition: "The sensory ability to detect and interpret sound."
+    - term: "auditory system"
+      definition: "The body system that receives, transmits, and processes sound information."
+    - term: "sound wave"
+      definition: "A vibration traveling through a medium such as air."
+    - term: "eardrum"
+      definition: "A membrane that vibrates when sound reaches the ear."
+    - term: "cochlea"
+      definition: "A spiral-shaped inner ear structure that converts sound vibrations into nerve signals."
+    - term: "hair cells"
+      definition: "Specialized sensory cells in the inner ear that help turn sound vibration into electrical signals."
+    - term: "auditory nerve"
+      definition: "The nerve that carries hearing information from the inner ear to the brain."
+    - term: "hearing loss"
+      definition: "Reduced ability to detect or understand sound."
+
+  foundational_principle:
+    summary: "Hearing depends on sound energy being collected, mechanically transmitted, converted into nerve signals, and interpreted by the brain."
+    key_points:
+      - "The outer ear helps collect sound."
+      - "The middle ear helps transmit vibration."
+      - "The inner ear converts vibration into nerve signals."
+      - "The brain interprets those signals as meaningful sound."
+
+  major_structures:
+    outer_ear:
+      role: "Collects sound and directs it inward."
+      importance: "It helps sound enter the auditory pathway."
+    ear_canal:
+      role: "Channels sound toward the eardrum."
+      importance: "It helps conduct sound efficiently."
+    eardrum:
+      role: "Vibrates in response to sound waves."
+      importance: "It begins the mechanical transfer of sound."
+    middle_ear:
+      role: "Transfers vibration through small bones."
+      importance: "It helps amplify and transmit sound."
+    inner_ear:
+      role: "Contains the cochlea and vestibular structures."
+      importance: "It is where hearing signals are generated."
+    cochlea:
+      role: "Converts sound vibrations into nerve signals."
+      importance: "It is the key sensory structure for hearing."
+    hair_cells:
+      role: "Detect vibration inside the cochlea."
+      importance: "They are essential for turning motion into auditory signals."
+    auditory_nerve:
+      role: "Carries sound information to the brain."
+      importance: "Without nerve transmission, sound cannot be interpreted normally."
+    brain_auditory_pathways:
+      role: "Process and interpret sound."
+      importance: "Hearing depends on brain interpretation, not just ear function."
+
+  how_hearing_works:
+    sound_collection:
+      - "Sound waves enter the outer ear."
+      - "They travel through the ear canal to the eardrum."
+    mechanical_transmission:
+      - "The eardrum vibrates."
+      - "These vibrations move through the middle ear structures."
+    sensory_conversion:
+      - "Vibration reaches the inner ear."
+      - "The cochlea and its hair cells convert that vibration into electrical nerve signals."
+    neural_processing:
+      - "The auditory nerve carries the signals to the brain."
+      - "The brain identifies qualities such as loudness, pitch, timing, and meaning."
+
+  key_functions_of_hearing:
+    - name: "speech understanding"
+      explanation: "Hearing helps people detect and interpret spoken language."
+    - name: "environmental awareness"
+      explanation: "Hearing helps detect sounds from the surroundings."
+    - name: "safety monitoring"
+      explanation: "It helps a person notice alarms, voices, vehicles, and warning sounds."
+    - name: "social interaction"
+      explanation: "Hearing supports communication and social connection."
+    - name: "learning support"
+      explanation: "Hearing contributes to language development and information intake."
+
+  sound_features_the_auditory_system_handles:
+    pitch:
+      explanation: "How high or low a sound seems."
+    loudness:
+      explanation: "How soft or strong a sound seems."
+    timing:
+      explanation: "When a sound begins, changes, or ends."
+    location:
+      explanation: "Where a sound seems to come from."
+    speech_pattern:
+      explanation: "How sound is organized into understandable spoken language."
+
+  hearing_and_the_brain:
+    summary: "Hearing is not only ear function. The brain must process sound for it to become meaningful."
+    key_points:
+      - "The ear detects and converts sound."
+      - "The brain identifies words, patterns, direction, and significance."
+      - "A person may hear sound but still struggle with interpretation in some contexts."
+      - "Auditory processing matters especially in noisy environments."
+
+  hearing_vs_balance:
+    summary: "Hearing and balance are closely related but are not the same."
+    key_points:
+      - "Both systems are located in the inner ear."
+      - "Hearing is for sound detection."
+      - "The vestibular system is for head motion and balance."
+      - "A person can have hearing symptoms, balance symptoms, or both depending on the issue."
+
+  hearing_and_communication:
+    summary: "Hearing strongly supports spoken communication."
+    key_points:
+      - "Reduced hearing can make conversation harder."
+      - "Background noise often increases difficulty."
+      - "People may misunderstand words, miss soft sounds, or need repetition."
+      - "Hearing changes can affect attention, participation, and confidence."
+
+  common_hearing_changes:
+    - name: "reduced hearing"
+      explanation: "Sounds may seem softer or harder to detect."
+    - name: "muffled hearing"
+      explanation: "Sound may seem dull, blocked, or unclear."
+    - name: "difficulty understanding speech"
+      explanation: "A person may hear sounds but not clearly understand words."
+    - name: "tinnitus"
+      explanation: "A person may hear ringing, buzzing, or other sounds without an external source."
+    - name: "sound sensitivity"
+      explanation: "Certain sounds may feel unusually intense or uncomfortable."
+    - name: "fluctuating hearing"
+      explanation: "Hearing may seem to change over time or across situations."
+
+  common_factors_that_can_affect_hearing:
+    outer_or_middle_ear_factors:
+      - "wax blockage"
+      - "fluid"
+      - "infection"
+      - "pressure changes"
+    inner_ear_or_neural_factors:
+      - "hair cell damage"
+      - "auditory nerve problems"
+      - "inner ear dysfunction"
+    environmental:
+      - "loud noise exposure"
+      - "repeated sound stress"
+    age_or_systemic:
+      - "aging-related hearing change"
+      - "illness affecting auditory structures"
+      - "medication effects in some contexts"
+
+  functional_examples_of_hearing_changes:
+    - "asking people to repeat themselves often"
+    - "turning the volume up more than before"
+    - "hearing better in quiet than in noisy places"
+    - "missing parts of conversation"
+    - "having trouble hearing soft voices or distant sounds"
+    - "noticing ringing without an outside sound source"
+
+  important_distinctions:
+    - name: "hearing sound vs understanding speech"
+      explanation: "A person may detect sound but still struggle to interpret spoken words clearly."
+    - name: "hearing vs balance"
+      explanation: "Hearing is for sound perception, while balance is handled mainly by the vestibular system."
+    - name: "temporary muffled hearing vs major sudden hearing loss"
+      explanation: "Some hearing changes are mild or temporary, but sudden major change is much more concerning."
+    - name: "tinnitus vs external sound"
+      explanation: "Tinnitus is a perceived sound without an outside source."
+    - name: "hearing difficulty vs attention alone"
+      explanation: "Missing speech can relate to hearing, background noise, processing demands, or attention factors."
+
+  age_related_considerations:
+    children:
+      - "Hearing is important for speech and language development."
+      - "Hearing difficulties can affect learning and communication."
+    adults:
+      - "Hearing supports daily communication, work, safety, and social participation."
+    older_adults:
+      - "Hearing may change with age."
+      - "Reduced hearing can affect communication, isolation risk, and environmental awareness."
+
+  common_questions_jessie_should_handle:
+    - "How does hearing work?"
+    - "What parts of the ear are used for hearing?"
+    - "What do hair cells do?"
+    - "What is the difference between hearing and balance?"
+    - "Why can I hear sound but not understand speech well?"
+    - "What is tinnitus?"
+    - "When is hearing loss concerning?"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "brief muffled hearing with temporary congestion"
+      - "temporary reduced hearing after loud sound exposure that quickly improves"
+      - "mild difficulty hearing in a noisy room"
+    should_be_monitored:
+      - "persistent muffled hearing"
+      - "recurrent tinnitus"
+      - "gradually worsening hearing difficulty"
+      - "increasing trouble understanding speech"
+      - "hearing changes affecting daily function"
+    more_concerning:
+      - "sudden hearing loss"
+      - "hearing loss with severe dizziness"
+      - "hearing change after injury"
+      - "rapidly worsening hearing"
+      - "hearing symptoms with neurologic changes"
+    emergency_patterns:
+      - "sudden hearing loss with stroke-like symptoms"
+      - "hearing change with facial droop"
+      - "hearing loss after major trauma"
+      - "loss of consciousness"
+      - "sudden severe symptoms with major neurologic change"
+
+  red_flags:
+    immediate_attention:
+      - "sudden hearing loss"
+      - "hearing loss with one-sided weakness"
+      - "hearing loss with slurred speech"
+      - "hearing loss with facial droop"
+      - "hearing loss after significant injury"
+      - "loss of consciousness"
+      - "rapid neurologic deterioration"
+
+  safety_relevance:
+    key_points:
+      - "Hearing helps detect alarms, vehicles, voices, and environmental warning sounds."
+      - "Reduced hearing can affect communication and situational awareness."
+      - "Sudden hearing loss is more urgent than gradual long-term change."
+      - "Jessie should remain educational for general hearing questions but escalate clearly for sudden or neurologically concerning patterns."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Explain hearing as sound detection plus brain interpretation."
+      - "Introduce the outer ear, middle ear, inner ear, cochlea, hair cells, and auditory nerve simply."
+      - "Clarify the difference between hearing and balance."
+      - "Use speech understanding and environmental awareness as practical examples."
+      - "Escalate clearly for sudden hearing loss or neurologic red flags."
+    style_notes:
+      - "Avoid making hearing sound like ear function alone."
+      - "Do not treat hearing and balance as identical."
+      - "Avoid diagnosing specific ear disease from limited descriptions."
+      - "Use practical examples involving speech, sound awareness, and daily function."
+    teaching_sequence:
+      - "Define hearing."
+      - "Explain how sound moves through the ear."
+      - "Describe cochlear conversion to nerve signals."
+      - "Explain the brain's role in sound interpretation."
+      - "Differentiate routine changes from urgent red flags."
+
+  cross_system_links:
+    - "Hearing depends on the ear and nervous system working together."
+    - "The inner ear contains both hearing and balance structures."
+    - "Hearing strongly supports communication and learning."
+    - "Auditory input helps environmental awareness and safety."
+    - "Changes in hearing can affect participation, confidence, and quality of life."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "Hearing is your body's ability to detect sound and turn it into meaningful information."
+      - "Sound enters the ear, causes vibration, gets converted into nerve signals in the cochlea, and is then interpreted by the brain."
+      - "Hair cells in the inner ear are important because they help convert sound vibration into electrical signals."
+      - "Hearing and balance are related because both involve the inner ear, but they are different systems."
+    caution_examples:
+      - "Mild temporary muffled hearing can happen in some situations, but sudden hearing loss needs prompt attention."
+      - "Hearing changes with facial droop, slurred speech, or other neurologic symptoms are urgent."
+
+  final_summary:
+    summary_points:
+      - "Hearing is the ability to detect and interpret sound."
+      - "It depends on sound collection, vibration transfer, cochlear signal conversion, and brain processing."
+      - "The outer ear, middle ear, inner ear, cochlea, hair cells, auditory nerve, and brain all contribute."
+      - "Hearing supports communication, learning, safety, and environmental awareness."
+      - "Sudden hearing loss or hearing changes with neurologic symptoms are urgent."
+      - "Jessie should explain hearing clearly, distinguish it from balance, and escalate sudden or dangerous patterns promptly."

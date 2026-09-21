@@ -1,0 +1,257 @@
+```yaml
+metadata:
+  file_name: "internal_body_sense_qa.yaml"
+  title: "Jessie Internal Body Sense QA Pairs"
+  domain: "special_senses"
+  topic: "internal_body_sense"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain internal body awareness, signals like hunger and thirst, nervous system communication, and simple safety boundaries with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain internal body sense as awareness of signals coming from inside the body, such as hunger, thirst, fullness, breathing needs, and heartbeat changes. Jessie should explain that the body monitors internal conditions, sends signals through the nervous system, and relies on the brain to interpret them. The set also supports broader biology teaching by including body needs, self-care, regulation, signal interpretation, and differences between internal body sense and pain or emotion in simple language. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for sudden severe shortness of breath, chest pressure, racing heartbeat with faint feelings, or other serious internal warning signs."
+  training_goals:
+    - "Explain internal body sense in simple, beginner-friendly language"
+    - "Teach that internal body sense includes hunger, thirst, fullness, breathing needs, and heartbeat awareness"
+    - "Show that the nervous system and brain help interpret internal body signals"
+    - "Clarify differences between internal body sense, pain, and emotions"
+    - "Support broader biology retrieval with body regulation and self-care concepts"
+    - "Use practical examples such as exercise, thirst, fullness, and rest needs"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for concerning internal warning symptoms"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach internal body sense as awareness of internal conditions and body needs"
+    - "Explain the roles of the body, nervous system, and brain simply"
+    - "Connect internal signals to self-care and body regulation"
+    - "Support both basic biology teaching and simple body-awareness explanation"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose heart conditions, dehydration, panic attacks, breathing disorders, or causes of chest pressure, faintness, or unusual body sensations."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general internal body sense concepts, body signals, and warning signs."
+  safety_escalation:
+    - "Urgent guidance is appropriate for sudden severe shortness of breath, chest pressure, racing heartbeat with faint feelings, or other severe sudden symptoms."
+
+pairs:
+  - id: "internal_body_sense_qa_001"
+    category: "foundational_definition"
+    question: "What is internal body sense?"
+    answer: "Internal body sense is awareness of signals coming from inside the body, such as hunger, thirst, fullness, breathing needs, or heartbeat changes."
+
+  - id: "internal_body_sense_qa_002"
+    category: "foundational_definition"
+    question: "Why does internal body sense matter?"
+    answer: "It matters because it helps the body notice important needs like eating, drinking, resting, and breathing."
+
+  - id: "internal_body_sense_qa_003"
+    category: "foundational_definition"
+    question: "What kinds of signals are part of internal body sense?"
+    answer: "Signals like hunger, thirst, fullness, breathing needs, and heartbeat awareness are part of internal body sense."
+
+  - id: "internal_body_sense_qa_004"
+    category: "foundational_definition"
+    question: "Does internal body sense help with self-care?"
+    answer: "Yes. It helps a person notice body needs and respond to them."
+
+  - id: "internal_body_sense_qa_005"
+    category: "process"
+    question: "How does the body know when a person is hungry or thirsty?"
+    answer: "The body monitors internal conditions and sends signals through the nervous system, and the brain helps interpret them."
+
+  - id: "internal_body_sense_qa_006"
+    category: "process"
+    question: "Why is the brain important for internal body sense?"
+    answer: "The brain helps interpret internal signals so the body can respond to its needs."
+
+  - id: "internal_body_sense_qa_007"
+    category: "process"
+    question: "Why does a person feel full after eating?"
+    answer: "Signals from the stomach and other body systems help tell the brain that food has been taken in."
+
+  - id: "internal_body_sense_qa_008"
+    category: "process"
+    question: "Why might a person notice their heartbeat after running?"
+    answer: "After running, the heart works harder, so the heartbeat may be easier to notice."
+
+  - id: "internal_body_sense_qa_009"
+    category: "process"
+    question: "How does internal body sense work in simple terms?"
+    answer: "The body sends signals about internal conditions, and the brain helps interpret what those signals mean."
+
+  - id: "internal_body_sense_qa_010"
+    category: "process"
+    question: "Why does the body need internal signals?"
+    answer: "The body needs internal signals so it can notice needs and help maintain balance."
+
+  - id: "internal_body_sense_qa_011"
+    category: "term_clarification"
+    question: "Is internal body sense the same as pain?"
+    answer: "No. Internal body sense includes many signals from inside the body, while pain is a warning signal about possible harm."
+
+  - id: "internal_body_sense_qa_012"
+    category: "term_clarification"
+    question: "What is the difference between hunger and appetite?"
+    answer: "Hunger is linked to body need for food, while appetite can also be influenced by interest or desire to eat."
+
+  - id: "internal_body_sense_qa_013"
+    category: "term_clarification"
+    question: "What is the difference between thirst and a dry mouth?"
+    answer: "Thirst is a body signal for fluid need, while dry mouth is one possible sensation that may or may not happen with thirst."
+
+  - id: "internal_body_sense_qa_014"
+    category: "term_clarification"
+    question: "What is the difference between internal body sense and emotions?"
+    answer: "Internal body sense is about noticing body signals, while emotions are broader experiences that can include thoughts, feelings, and body responses."
+
+  - id: "internal_body_sense_qa_015"
+    category: "misconception"
+    question: "Are hunger and thirst just thoughts?"
+    answer: "No. They are linked to real body signals that the brain helps interpret."
+
+  - id: "internal_body_sense_qa_016"
+    category: "misconception"
+    question: "Does noticing a heartbeat always mean something is wrong?"
+    answer: "No. A heartbeat can be more noticeable during exercise, stress, or quiet moments."
+
+  - id: "internal_body_sense_qa_017"
+    category: "misconception"
+    question: "Is internal body sense only about pain or illness?"
+    answer: "No. It also includes normal signals like hunger, thirst, fullness, and breathing needs."
+
+  - id: "internal_body_sense_qa_018"
+    category: "misconception"
+    question: "Does the brain make up internal body signals by itself?"
+    answer: "No. The brain helps interpret signals that come from the body."
+
+  - id: "internal_body_sense_qa_019"
+    category: "misconception"
+    question: "If a person ignores body signals, does that mean the signals are not real?"
+    answer: "No. Body signals can still be real even if a person does not notice or respond to them right away."
+
+  - id: "internal_body_sense_qa_020"
+    category: "everyday_example"
+    question: "Why does a person feel thirsty after exercise?"
+    answer: "A person may feel thirsty after exercise because the body signals a need to replace fluids."
+
+  - id: "internal_body_sense_qa_021"
+    category: "everyday_example"
+    question: "Why does a person feel hungry after not eating for a while?"
+    answer: "The body sends signals that it needs more energy and nutrients."
+
+  - id: "internal_body_sense_qa_022"
+    category: "everyday_example"
+    question: "Why can breathing feel more noticeable during exercise?"
+    answer: "Breathing can feel more noticeable during exercise because the body needs more oxygen and faster gas exchange."
+
+  - id: "internal_body_sense_qa_023"
+    category: "everyday_example"
+    question: "Why can rest feel necessary after hard activity?"
+    answer: "Rest can feel necessary because the body signals a need for recovery."
+
+  - id: "internal_body_sense_qa_024"
+    category: "everyday_example"
+    question: "Why can a full stomach feel uncomfortable after overeating?"
+    answer: "That can happen because strong fullness signals and stomach stretching may feel uncomfortable."
+
+  - id: "internal_body_sense_qa_025"
+    category: "system_connection"
+    question: "How is internal body sense connected to the nervous system?"
+    answer: "It is connected because the nervous system helps carry internal signals and the brain helps interpret them."
+
+  - id: "internal_body_sense_qa_026"
+    category: "system_connection"
+    question: "How is internal body sense connected to homeostasis?"
+    answer: "It is connected because internal signals help the body notice needs and support stable internal balance."
+
+  - id: "internal_body_sense_qa_027"
+    category: "system_connection"
+    question: "How is internal body sense connected to the digestive system?"
+    answer: "It is connected through signals such as hunger and fullness that relate to food intake and digestion."
+
+  - id: "internal_body_sense_qa_028"
+    category: "system_connection"
+    question: "How is internal body sense connected to breathing?"
+    answer: "It is connected because the body can signal breathing needs and changes in effort."
+
+  - id: "internal_body_sense_qa_029"
+    category: "visual_art_support"
+    question: "Why is internal body sense useful to understand in biology teaching?"
+    answer: "It helps explain how the body notices internal needs and helps regulate behavior."
+
+  - id: "internal_body_sense_qa_030"
+    category: "visual_art_support"
+    question: "What should an educator or artist know about internal body sense diagrams?"
+    answer: "They should know that internal signals come from the body, travel through the nervous system, and are interpreted by the brain."
+
+  - id: "internal_body_sense_qa_031"
+    category: "visual_art_support"
+    question: "Why do signal-flow visuals help explain internal body sense?"
+    answer: "They help because internal body sense involves body signals being detected and interpreted."
+
+  - id: "internal_body_sense_qa_032"
+    category: "boundary"
+    question: "Can you diagnose why my heartbeat feels strange?"
+    answer: "No. I can't diagnose the cause from limited information, but I can explain internal body sense concepts and point out warning signs."
+
+  - id: "internal_body_sense_qa_033"
+    category: "boundary"
+    question: "Can you tell me exactly why I feel faint or short of breath?"
+    answer: "No. I can't determine the exact cause from a brief description, but I can explain general body-signal concepts and when urgent care may be important."
+
+  - id: "internal_body_sense_qa_034"
+    category: "boundary"
+    question: "Does chest pressure always mean the same thing?"
+    answer: "No. Chest pressure can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "internal_body_sense_qa_035"
+    category: "boundary"
+    question: "Does a racing heartbeat always mean a dangerous problem?"
+    answer: "No. A racing heartbeat can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "internal_body_sense_qa_036"
+    category: "safety_supportive_urgent"
+    question: "Should sudden severe shortness of breath with chest pressure be ignored?"
+    answer: "No. Sudden severe shortness of breath with chest pressure should be treated as urgent and checked right away."
+
+  - id: "internal_body_sense_qa_037"
+    category: "safety_supportive_urgent"
+    question: "Is a racing heartbeat with faint feelings important?"
+    answer: "Yes. A racing heartbeat with feeling faint should be taken seriously and checked quickly."
+
+  - id: "internal_body_sense_qa_038"
+    category: "safety_supportive_urgent"
+    question: "Should faintness with chest symptoms be treated seriously?"
+    answer: "Yes. Faintness with chest symptoms can be serious and should be medically checked promptly."
+
+  - id: "internal_body_sense_qa_039"
+    category: "safety_supportive_urgent"
+    question: "Should sudden severe breathing difficulty be treated urgently?"
+    answer: "Yes. Sudden severe breathing difficulty needs urgent medical attention."
+
+  - id: "internal_body_sense_qa_040"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about internal body sense?"
+    answer: "The main thing to remember is that internal body sense helps a person notice signals from inside the body so they can respond to important needs."
+
+quality_checks:
+  - "The file contains 40 QA pairs with ids internal_body_sense_qa_001 through internal_body_sense_qa_040."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "Internal body sense is consistently explained as awareness of signals from inside the body."
+  - "The set includes support for biology teaching, regulation concepts, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

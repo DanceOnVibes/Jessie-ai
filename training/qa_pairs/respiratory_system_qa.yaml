@@ -1,0 +1,252 @@
+```yaml
+metadata:
+  file_name: "respiratory_system_qa.yaml"
+  title: "Jessie Respiratory System QA Pairs"
+  domain: "body_systems"
+  topic: "respiratory_system"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain the respiratory system clearly, warmly, and safely with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain the respiratory system as the body system that brings oxygen into the body and removes carbon dioxide. Jessie should explain core beginner concepts such as the lungs, alveoli, gas exchange, diaphragm, inhalation, exhalation, trachea, bronchi, and the connection between the respiratory and circulatory systems in simple language. The set also supports broader biology and visual explanation use by including structure-function relationships, air movement, oxygen use, common misconceptions, and practical safety boundaries. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for severe trouble breathing or other major breathing emergencies."
+  training_goals:
+    - "Explain the respiratory system in simple, beginner-friendly language"
+    - "Teach the roles of lungs, alveoli, diaphragm, trachea, and bronchi"
+    - "Show how inhalation, exhalation, and gas exchange work"
+    - "Explain how the respiratory system works with the circulatory system"
+    - "Support broader biology and visual explanation retrieval with structure-function and oxygen-use concepts"
+    - "Correct common misconceptions about breathing, lungs, and respiration"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for severe breathing symptoms"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach the respiratory system as an oxygen-in and carbon-dioxide-out system"
+    - "Explain airways, lungs, and breathing muscles simply"
+    - "Connect structure to function in a clear beginner-friendly way"
+    - "Support both basic biology teaching and visual explanation of breathing and gas exchange"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose asthma, pneumonia, pulmonary embolism, respiratory infection, or causes of shortness of breath, chest tightness, or cough."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general respiratory concepts, breathing mechanics, and warning signs."
+  safety_escalation:
+    - "Urgent guidance is appropriate for severe trouble breathing or other major sudden breathing emergencies."
+
+pairs:
+  - id: "respiratory_system_qa_001"
+    category: "foundational_definition"
+    question: "What is the main job of the respiratory system?"
+    answer: "The main job of the respiratory system is to bring oxygen into the body and remove carbon dioxide."
+
+  - id: "respiratory_system_qa_002"
+    category: "foundational_definition"
+    question: "Why is the respiratory system important?"
+    answer: "It is important because body cells need oxygen, and the body needs to remove carbon dioxide."
+
+  - id: "respiratory_system_qa_003"
+    category: "system_roles"
+    question: "What do the lungs do?"
+    answer: "The lungs contain tiny air sacs where oxygen enters the blood and carbon dioxide leaves the blood."
+
+  - id: "respiratory_system_qa_004"
+    category: "system_roles"
+    question: "What is gas exchange?"
+    answer: "Gas exchange is the process where oxygen moves into the blood and carbon dioxide moves out of the blood."
+
+  - id: "respiratory_system_qa_005"
+    category: "system_roles"
+    question: "What are alveoli?"
+    answer: "Alveoli are tiny air sacs in the lungs where gas exchange happens."
+
+  - id: "respiratory_system_qa_006"
+    category: "system_roles"
+    question: "What is the diaphragm?"
+    answer: "The diaphragm is the main muscle used for breathing."
+
+  - id: "respiratory_system_qa_007"
+    category: "system_roles"
+    question: "What is the trachea?"
+    answer: "The trachea is the airway that carries air from the larynx toward the bronchi."
+
+  - id: "respiratory_system_qa_008"
+    category: "system_roles"
+    question: "What are bronchi?"
+    answer: "Bronchi are the two main airways that branch from the trachea into the lungs."
+
+  - id: "respiratory_system_qa_009"
+    category: "process"
+    question: "How does breathing in work?"
+    answer: "When you breathe in, the diaphragm contracts and moves downward, the chest cavity expands, and air flows into the lungs."
+
+  - id: "respiratory_system_qa_010"
+    category: "process"
+    question: "How does breathing out work?"
+    answer: "When you breathe out, the diaphragm relaxes, the chest cavity becomes smaller, and air flows out of the lungs."
+
+  - id: "respiratory_system_qa_011"
+    category: "process"
+    question: "Why does the body need oxygen?"
+    answer: "The body needs oxygen because cells use it to help produce energy."
+
+  - id: "respiratory_system_qa_012"
+    category: "process"
+    question: "What happens to carbon dioxide?"
+    answer: "Carbon dioxide is carried in the blood to the lungs and then breathed out."
+
+  - id: "respiratory_system_qa_013"
+    category: "process"
+    question: "How does the respiratory system work with the circulatory system?"
+    answer: "The respiratory system brings oxygen into the lungs, and the circulatory system carries that oxygen in the blood to the body's tissues."
+
+  - id: "respiratory_system_qa_014"
+    category: "process"
+    question: "How does the respiratory system work in simple terms?"
+    answer: "Air moves into the lungs, gas exchange happens, oxygen enters the blood, and carbon dioxide is removed."
+
+  - id: "respiratory_system_qa_015"
+    category: "term_clarification"
+    question: "Do the lungs work alone?"
+    answer: "No. The respiratory system also includes airways, breathing muscles, blood vessels, and control by the nervous system."
+
+  - id: "respiratory_system_qa_016"
+    category: "term_clarification"
+    question: "What is the difference between breathing and respiration?"
+    answer: "Breathing is the movement of air in and out of the lungs, while respiration can also refer to gas exchange and how cells use oxygen."
+
+  - id: "respiratory_system_qa_017"
+    category: "term_clarification"
+    question: "What is the difference between the trachea and bronchi?"
+    answer: "The trachea is the main airway before the split, while the bronchi are the two main branches that enter the lungs."
+
+  - id: "respiratory_system_qa_018"
+    category: "term_clarification"
+    question: "What is the difference between lungs and alveoli?"
+    answer: "The lungs are the larger organs, while alveoli are tiny air sacs inside them where gas exchange happens."
+
+  - id: "respiratory_system_qa_019"
+    category: "misconception"
+    question: "Do the lungs work completely by themselves?"
+    answer: "No. Breathing also depends on muscles, airways, blood flow, and nervous system control."
+
+  - id: "respiratory_system_qa_020"
+    category: "misconception"
+    question: "Is breathing the same as oxygen use by cells?"
+    answer: "No. Breathing moves air, while cells use oxygen in their own processes."
+
+  - id: "respiratory_system_qa_021"
+    category: "misconception"
+    question: "Does oxygen stay only in the lungs?"
+    answer: "No. Oxygen moves from the lungs into the blood and is carried to body tissues."
+
+  - id: "respiratory_system_qa_022"
+    category: "misconception"
+    question: "Is carbon dioxide a useful gas for the body to keep?"
+    answer: "Carbon dioxide is a waste product that the body needs to remove."
+
+  - id: "respiratory_system_qa_023"
+    category: "everyday_example"
+    question: "Why do you breathe faster during exercise?"
+    answer: "You breathe faster during exercise because the body needs more oxygen and produces more carbon dioxide."
+
+  - id: "respiratory_system_qa_024"
+    category: "everyday_example"
+    question: "Why can breathing feel harder during strong activity?"
+    answer: "It can feel harder because the respiratory system is working more to meet the body's needs."
+
+  - id: "respiratory_system_qa_025"
+    category: "everyday_example"
+    question: "Why is the diaphragm important in daily life?"
+    answer: "It is important because breathing depends heavily on the diaphragm."
+
+  - id: "respiratory_system_qa_026"
+    category: "everyday_example"
+    question: "Why does the body need to breathe out carbon dioxide?"
+    answer: "The body needs to remove carbon dioxide because it is a waste product of cell activity."
+
+  - id: "respiratory_system_qa_027"
+    category: "visual_art_support"
+    question: "Why is the respiratory system useful to understand in biology illustration?"
+    answer: "It helps show how air moves through the body and how gas exchange supports life."
+
+  - id: "respiratory_system_qa_028"
+    category: "visual_art_support"
+    question: "What should an artist know about respiratory system diagrams?"
+    answer: "An artist should know the main airways, the lungs, the alveoli, and the idea that breathing and gas exchange are connected."
+
+  - id: "respiratory_system_qa_029"
+    category: "visual_art_support"
+    question: "Why does structure-function thinking matter in respiratory diagrams?"
+    answer: "It matters because the shape and arrangement of airways and lungs help explain how breathing works."
+
+  - id: "respiratory_system_qa_030"
+    category: "visual_art_support"
+    question: "Why are alveoli important in teaching visuals?"
+    answer: "They are important because they are the tiny structures where gas exchange happens."
+
+  - id: "respiratory_system_qa_031"
+    category: "boundary"
+    question: "Can you diagnose why I am short of breath?"
+    answer: "No. I can't diagnose the cause from limited information, but I can explain respiratory concepts and point out warning signs."
+
+  - id: "respiratory_system_qa_032"
+    category: "boundary"
+    question: "Can you tell me exactly what is causing my breathing problem?"
+    answer: "No. I can't determine the exact cause from a brief description, but I can explain general breathing concepts and when urgent care may be important."
+
+  - id: "respiratory_system_qa_033"
+    category: "boundary"
+    question: "Does cough always mean the same illness?"
+    answer: "No. Cough can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "respiratory_system_qa_034"
+    category: "boundary"
+    question: "Does chest tightness always mean a lung problem?"
+    answer: "No. Chest tightness can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "respiratory_system_qa_035"
+    category: "safety_supportive_urgent"
+    question: "What should someone do if they have severe trouble breathing?"
+    answer: "Severe trouble breathing can be an emergency. The person should seek immediate emergency medical help."
+
+  - id: "respiratory_system_qa_036"
+    category: "safety_supportive_urgent"
+    question: "Should severe trouble breathing be ignored?"
+    answer: "No. Severe trouble breathing needs urgent emergency care."
+
+  - id: "respiratory_system_qa_037"
+    category: "safety_supportive_urgent"
+    question: "Should sudden major breathing difficulty be treated urgently?"
+    answer: "Yes. Sudden major breathing difficulty should be treated as an emergency."
+
+  - id: "respiratory_system_qa_038"
+    category: "safety_supportive_urgent"
+    question: "Should trouble breathing with blue lips or confusion be treated as an emergency?"
+    answer: "Yes. Trouble breathing with blue lips or confusion is an emergency."
+
+  - id: "respiratory_system_qa_039"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about the respiratory system?"
+    answer: "The main thing to remember is that the respiratory system brings oxygen into the body and removes carbon dioxide."
+
+quality_checks:
+  - "The file contains 39 QA pairs with ids respiratory_system_qa_001 through respiratory_system_qa_039."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "The respiratory system is consistently explained as an oxygen-in and carbon-dioxide-out system."
+  - "The set includes support for biology teaching, structure-function learning, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

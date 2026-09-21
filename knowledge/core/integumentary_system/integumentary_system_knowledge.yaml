@@ -1,0 +1,281 @@
+knowledge_pack:
+  file_name: "integumentary_system_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about the integumentary system, including skin, hair, nails, glands, protection, temperature regulation, sensation, barrier function, and safety escalation."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "integumentary_system"
+    category: "body protection and external covering"
+    domain: "human body and health"
+
+  overview:
+    summary: "The integumentary system includes the skin, hair, nails, and associated glands. It forms the body's outer covering and helps protect against injury, germs, and water loss. It also helps regulate temperature, supports sensation, contributes to healing, and plays an important role in daily interaction with the environment."
+    why_it_matters:
+      - "The integumentary system protects the body from the outside environment."
+      - "It helps regulate body temperature and limit water loss."
+      - "It supports touch, pressure, pain, and temperature sensation."
+      - "Changes in skin, hair, or nails can reflect local problems or broader health issues."
+
+  core_definitions:
+    - term: "integumentary system"
+      definition: "The body system that includes the skin, hair, nails, and related glands."
+    - term: "skin"
+      definition: "The main organ of the integumentary system and the body's outer protective covering."
+    - term: "barrier"
+      definition: "A protective layer that helps block injury, germs, and fluid loss."
+    - term: "sensation"
+      definition: "The ability to detect touch, pressure, pain, and temperature."
+    - term: "sweat"
+      definition: "Fluid produced by sweat glands that helps cool the body."
+    - term: "oil"
+      definition: "A substance produced by sebaceous glands that helps protect and condition skin and hair."
+    - term: "nail"
+      definition: "A protective structure covering the ends of fingers and toes."
+    - term: "hair"
+      definition: "A structure produced by the skin that can help with protection and sensation."
+
+  foundational_principle:
+    summary: "The integumentary system protects the body while helping it sense and respond to the environment."
+    key_points:
+      - "The skin is the primary external barrier."
+      - "Hair, nails, and glands support protection and function."
+      - "Skin works with the nervous, immune, and circulatory systems."
+      - "Barrier damage can increase risk of fluid loss, infection, and injury."
+
+  major_structures:
+    skin:
+      role: "Protects the body, supports sensation, helps regulate temperature, and limits water loss."
+      importance: "It is the main organ of the system."
+    hair:
+      role: "Helps protect certain areas and can assist with sensation."
+      importance: "Hair contributes to protection and environmental awareness."
+    nails:
+      role: "Protect the ends of fingers and toes and support fine movement."
+      importance: "They help with grasping, manipulation, and fingertip support."
+    sweat_glands:
+      role: "Produce sweat to help cool the body."
+      importance: "They are important for temperature regulation."
+    oil_glands:
+      role: "Produce oil that helps protect and condition skin and hair."
+      importance: "They support surface protection and skin condition."
+
+  skin_functions:
+    protection:
+      - "helps block germs"
+      - "helps reduce injury from the environment"
+      - "helps limit chemical and physical exposure"
+    water_balance:
+      - "helps reduce excessive water loss"
+    temperature_regulation:
+      - "supports cooling through sweating"
+      - "works with skin blood flow changes to help regulate heat"
+    sensation:
+      - "helps detect touch"
+      - "helps detect pressure"
+      - "helps detect pain"
+      - "helps detect temperature"
+    healing_support:
+      - "serves as the outer surface involved in repair after injury"
+
+  how_the_integumentary_system_works:
+    barrier_function:
+      - "The skin forms a protective outer covering."
+      - "This barrier helps separate the body from environmental threats."
+    temperature_control:
+      - "When body temperature rises, sweat glands can produce sweat."
+      - "Sweat evaporation helps cool the body."
+      - "Changes in blood flow near the skin also help manage heat."
+    sensory_function:
+      - "Nerve endings in the skin detect external stimuli."
+      - "These signals are sent to the nervous system for interpretation."
+    maintenance_function:
+      - "Oil helps condition the skin and hair."
+      - "Hair and nails provide specialized protective support."
+
+  temperature_regulation_explained:
+    summary: "The integumentary system helps the body respond to heat and temperature changes."
+    key_points:
+      - "Sweating helps cool the body."
+      - "Skin blood flow contributes to temperature regulation."
+      - "This function helps support homeostasis."
+      - "Problems with heat regulation can become medically important in extreme conditions."
+
+  sensation_and_environmental_awareness:
+    summary: "The skin is a major sensory interface with the outside world."
+    key_points:
+      - "The skin helps detect touch, pressure, pain, and temperature."
+      - "This helps protect the body from harm."
+      - "Sensation in the skin depends on close interaction with the nervous system."
+
+  integumentary_system_and_other_body_systems:
+    nervous_system:
+      relationship: "Nerve endings in the skin help detect and transmit sensory information."
+    circulatory_system:
+      relationship: "Blood flow in the skin helps support temperature regulation and healing."
+    immune_system:
+      relationship: "The skin serves as an important first barrier against germs and other threats."
+    muscular_system:
+      relationship: "Muscles help with facial expression, posture, and movement that affect skin tension and appearance."
+    endocrine_system:
+      relationship: "Hormonal changes can affect skin, hair, oil production, and sweating."
+
+  common_changes_people_notice:
+    - name: "dry skin"
+      explanation: "The skin may feel rough, tight, or less protected."
+    - name: "sweating changes"
+      explanation: "Sweating may increase or decrease depending on body state and environment."
+    - name: "rash"
+      explanation: "A visible skin change that may involve redness, bumps, or irritation."
+    - name: "itching"
+      explanation: "An uncomfortable sensation that creates the urge to scratch."
+    - name: "hair changes"
+      explanation: "Hair may become thinner, shed more, or feel different."
+    - name: "nail changes"
+      explanation: "Nails may become brittle, thickened, discolored, or otherwise altered."
+    - name: "wound or skin break"
+      explanation: "A disruption of the protective barrier can increase infection and fluid-loss risk."
+
+  common_factors_that_can_affect_integumentary_function:
+    environmental:
+      - "heat exposure"
+      - "cold exposure"
+      - "sun exposure"
+      - "dry air"
+      - "irritants"
+    local_or_surface_related:
+      - "friction"
+      - "pressure"
+      - "minor injury"
+      - "allergic irritation"
+      - "infection"
+    body_wide_or_internal:
+      - "hydration status"
+      - "nutrition"
+      - "circulatory changes"
+      - "immune activity"
+      - "hormonal shifts"
+    age_related:
+      - "aging skin changes"
+      - "changes in hair and nail growth"
+
+  important_distinctions:
+    - name: "skin barrier vs deeper internal protection"
+      explanation: "The skin is the outer protective barrier, while other systems provide deeper defense and repair functions."
+    - name: "sweat for cooling vs sweat as waste removal"
+      explanation: "Sweat may contain some waste products, but its main beginner-level role is helping cool the body."
+    - name: "normal temporary irritation vs dangerous skin emergency"
+      explanation: "Mild irritation can be common, while rapidly spreading skin changes, major burns, or breathing trouble with rash are much more concerning."
+    - name: "hair and nails vs skin alone"
+      explanation: "The integumentary system includes hair, nails, and glands, not just skin."
+    - name: "surface symptom vs whole-body problem"
+      explanation: "Some skin changes are local, but others may reflect broader body processes."
+
+  age_related_considerations:
+    children:
+      - "Skin protection and temperature regulation are important in everyday growth and activity."
+      - "Skin injury or fluid loss may become significant more quickly in some situations."
+    adults:
+      - "The integumentary system supports protection, sensation, and environmental interaction daily."
+    older_adults:
+      - "Skin may become thinner, drier, or more fragile with age."
+      - "Healing and barrier resilience may be reduced."
+
+  common_questions_jessie_should_handle:
+    - "What does the integumentary system do?"
+    - "What is the main organ of the integumentary system?"
+    - "Why do we sweat?"
+    - "How does skin help protect the body?"
+    - "What do nails do?"
+    - "How does the skin help with sensation?"
+    - "Why is the skin considered part of body defense?"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "mild temporary dry skin"
+      - "brief sweating during heat or exercise"
+      - "minor short-term irritation from friction"
+    should_be_monitored:
+      - "persistent rash"
+      - "ongoing itching"
+      - "skin changes that keep returning"
+      - "slow-healing minor skin breaks"
+      - "ongoing nail or hair changes affecting function"
+    more_concerning:
+      - "rapidly spreading rash"
+      - "signs of skin infection"
+      - "significant skin swelling"
+      - "major burns"
+      - "worsening wound changes"
+      - "skin changes with fever or severe illness"
+    emergency_patterns:
+      - "trouble breathing with rash or swelling"
+      - "swelling of the face or throat"
+      - "severe burn"
+      - "rapidly worsening infection signs"
+      - "widespread severe skin reaction"
+      - "collapse or unresponsiveness"
+
+  red_flags:
+    immediate_attention:
+      - "trouble breathing with rash or swelling"
+      - "swelling of the face or throat"
+      - "severe burn"
+      - "rapidly spreading skin infection signs"
+      - "widespread severe rash with serious symptoms"
+      - "collapse"
+      - "loss of consciousness"
+
+  safety_relevance:
+    key_points:
+      - "The integumentary system is a major protective barrier."
+      - "Damage to the skin can increase risk of infection, fluid loss, and heat regulation problems."
+      - "Breathing trouble with rash or swelling suggests possible emergency allergic reaction."
+      - "Major burns, rapidly spreading infection, or severe skin reactions need urgent attention."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Explain the integumentary system first as the body's outer protective system."
+      - "Use skin as the main anchor structure."
+      - "Connect protection, temperature regulation, and sensation clearly."
+      - "Include hair, nails, sweat glands, and oil glands in simple terms."
+      - "Escalate clearly for severe rash, swelling, burns, or infection warning signs."
+    style_notes:
+      - "Keep explanations broad and beginner-friendly."
+      - "Avoid advanced skin-layer detail unless requested."
+      - "Do not diagnose burns, rashes, infections, allergic emergencies, or skin cancer from limited descriptions."
+      - "Use clear safety language when symptoms suggest urgent risk."
+    teaching_sequence:
+      - "Define the integumentary system."
+      - "Identify the main structures."
+      - "Explain protection, temperature control, and sensation."
+      - "Connect the system to other body systems."
+      - "Differentiate routine skin changes from urgent patterns."
+
+  cross_system_links:
+    - "The skin works with the nervous system for sensation."
+    - "The skin works with the circulatory system for temperature regulation and healing."
+    - "The skin supports the immune system by acting as a protective barrier."
+    - "Hair, nails, and glands support the broader protective and functional role of the system."
+    - "Changes in skin, hair, or nails can sometimes reflect broader body conditions."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "The integumentary system includes the skin, hair, nails, and related glands."
+      - "Its main jobs are protection, helping regulate temperature, supporting sensation, and reducing water loss."
+      - "The skin is the main organ of this system and acts as the body's outer barrier."
+      - "Sweat helps cool the body, and nerve endings in the skin help detect touch, pain, and temperature."
+    caution_examples:
+      - "Many skin issues are mild, but trouble breathing with swelling or rash, severe burns, or rapidly spreading skin infection signs are urgent."
+      - "A break in the skin barrier matters because it can raise the risk of infection and fluid loss."
+
+  final_summary:
+    summary_points:
+      - "The integumentary system includes the skin, hair, nails, and glands."
+      - "Its main roles include protection, temperature regulation, sensation, and reduction of water loss."
+      - "The skin is the main organ of the system and serves as the body's outer barrier."
+      - "The integumentary system works closely with the nervous, circulatory, and immune systems."
+      - "Severe burns, rapidly spreading skin changes, or breathing trouble with rash or swelling are urgent warning signs."
+      - "Jessie should explain this system clearly and keep strong safety boundaries for serious symptoms."

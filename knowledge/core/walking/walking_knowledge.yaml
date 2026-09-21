@@ -1,0 +1,283 @@
+knowledge_pack:
+  file_name: "walking_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about walking, gait, movement coordination, postural control, walking mechanics, common gait changes, function, and safety escalation."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "walking"
+    category: "movement and functional mobility"
+    domain: "human body and health"
+
+  overview:
+    summary: "Walking is a complex whole-body movement that allows a person to move from place to place while maintaining balance and efficiency. It depends on coordinated interaction among the nervous system, muscles, bones, joints, balance systems, sensation, vision, and cardiopulmonary support. Walking is one of the body's most important functional skills for independence and daily life."
+    why_it_matters:
+      - "Walking supports independence, mobility, participation, and safety."
+      - "Walking requires coordination, balance, strength, joint mobility, sensation, and motor control."
+      - "Changes in walking can reflect pain, weakness, balance problems, neurologic dysfunction, injury, fatigue, or cardiopulmonary limitation."
+      - "Understanding walking helps Jessie explain gait changes, mobility problems, and fall-related risk."
+
+  core_definitions:
+    - term: "walking"
+      definition: "A repetitive movement pattern that moves the body forward through alternating leg motion and balance control."
+    - term: "gait"
+      definition: "The pattern or manner of walking."
+    - term: "mobility"
+      definition: "The ability to move and change position effectively."
+    - term: "stance phase"
+      definition: "The part of the walking cycle when a foot is on the ground supporting body weight."
+    - term: "swing phase"
+      definition: "The part of the walking cycle when a foot is off the ground moving forward."
+    - term: "stride"
+      definition: "A full walking cycle from one foot contact to the next contact of the same foot."
+    - term: "step"
+      definition: "Movement from one foot contact to the next foot contact of the opposite side."
+    - term: "gait speed"
+      definition: "How fast a person walks."
+
+  foundational_principle:
+    summary: "Walking is not just leg motion. It is a coordinated balance-and-movement task involving the whole body."
+    key_points:
+      - "The body must move forward while preventing a fall."
+      - "Walking requires weight shifting from one side to the other."
+      - "The brain must coordinate timing, force, and direction."
+      - "Walking performance depends on strength, sensation, balance, endurance, and environment."
+
+  major_systems_involved:
+    nervous_system:
+      role: "Plans, initiates, coordinates, and adjusts walking."
+      importance: "Walking depends on motor control, timing, reflexes, and sensory integration."
+    muscular_system:
+      role: "Provides force for stepping, support, posture, and propulsion."
+      importance: "Weakness can reduce walking stability and efficiency."
+    skeletal_system:
+      role: "Bones and joints provide structure, alignment, and movement range."
+      importance: "Joint stiffness, deformity, or pain can alter gait."
+    vestibular_system:
+      role: "Helps maintain balance and orientation during movement."
+      importance: "Vestibular input is important when turning, changing speed, or walking in challenging settings."
+    proprioception_and_touch:
+      role: "Provide information about foot placement, limb position, and contact with the ground."
+      importance: "Walking depends on accurate sensory feedback."
+    vision:
+      role: "Helps guide direction, obstacle detection, and environmental orientation."
+      importance: "Visual input improves safe navigation."
+    cardiovascular_and_respiratory_systems:
+      role: "Support endurance and oxygen delivery during movement."
+      importance: "Walking tolerance depends partly on energy and cardiopulmonary capacity."
+
+  how_walking_works:
+    initiation:
+      - "The brain decides to move and starts a stepping pattern."
+    weight_shift:
+      - "Body weight shifts to one leg so the other leg can move forward."
+    stance_control:
+      - "The supporting leg stabilizes the body against gravity."
+    swing_control:
+      - "The moving leg clears the ground and advances."
+    repeated_cycle:
+      - "The pattern alternates rhythmically between sides."
+    continuous_adjustment:
+      - "The body constantly adjusts stride, speed, and posture based on terrain, goals, and sensory input."
+
+  key_elements_of_normal_walking:
+    - "upright posture"
+    - "rhythmic alternating leg movement"
+    - "adequate step length"
+    - "foot clearance during swing"
+    - "stable weight transfer"
+    - "arm swing contribution"
+    - "balance during turning and stopping"
+    - "adaptation to surface and obstacles"
+
+  walking_and_balance_relationship:
+    summary: "Walking is dynamic balance in motion."
+    key_points:
+      - "Each step briefly challenges stability."
+      - "Turning, stopping, and uneven surfaces increase balance demands."
+      - "A person may walk more cautiously when balance is reduced."
+      - "Walking problems often increase fall risk."
+
+  common_factors_that_affect_walking:
+    musculoskeletal:
+      - "pain"
+      - "joint stiffness"
+      - "muscle weakness"
+      - "injury"
+      - "poor flexibility"
+    neurologic:
+      - "poor coordination"
+      - "abnormal motor control"
+      - "sensory loss"
+      - "slowed reaction time"
+      - "balance dysfunction"
+    vestibular_or_sensory:
+      - "dizziness"
+      - "visual impairment"
+      - "reduced proprioception"
+      - "reduced foot sensation"
+    systemic:
+      - "fatigue"
+      - "deconditioning"
+      - "shortness of breath"
+      - "illness"
+    environmental:
+      - "uneven ground"
+      - "poor lighting"
+      - "slippery surfaces"
+      - "stairs"
+      - "obstacles"
+
+  common_walking_changes_people_notice:
+    - name: "slower walking"
+      explanation: "A person may slow down because of pain, weakness, fear, poor endurance, or balance concerns."
+    - name: "limping"
+      explanation: "This often reflects pain, weakness, stiffness, or protective unloading of one side."
+    - name: "shuffling"
+      explanation: "Steps may become short and less efficient."
+    - name: "unsteadiness"
+      explanation: "The body may feel unstable or veer while walking."
+    - name: "stiff walking"
+      explanation: "The gait may look guarded or restricted."
+    - name: "foot dragging"
+      explanation: "The foot may not clear the ground well during swing."
+    - name: "wide-based walking"
+      explanation: "A person may widen their stance to improve stability."
+    - name: "hesitant walking"
+      explanation: "Walking may become cautious, interrupted, or fearful."
+
+  functional_importance_of_walking:
+    - "getting around the home"
+    - "climbing stairs"
+    - "shopping"
+    - "self-care tasks"
+    - "community mobility"
+    - "exercise and fitness"
+    - "social participation"
+    - "independence"
+
+  walking_and_energy_use:
+    summary: "Walking requires energy, coordination, and efficiency."
+    key_points:
+      - "When gait becomes inefficient, walking can feel more tiring."
+      - "Pain, weakness, and poor mechanics can increase effort."
+      - "Reduced endurance may limit walking distance or speed."
+
+  age_related_considerations:
+    children:
+      - "Walking develops as strength, balance, and nervous system coordination mature."
+    adults:
+      - "Adult walking depends on integrated function across multiple systems."
+    older_adults:
+      - "Walking speed, confidence, and adaptability may decrease with age-related changes in strength, sensation, vision, or balance."
+      - "Fall prevention becomes especially important."
+
+  important_distinctions:
+    - name: "walking difficulty vs balance problem"
+      explanation: "Walking difficulty can come from pain, weakness, cardiopulmonary limits, or coordination issues, while balance problems specifically involve stability control."
+    - name: "limping vs generalized weakness"
+      explanation: "Limping often reflects one-sided pain or loading changes, while generalized weakness affects broader walking performance."
+    - name: "slow walking vs unsafe walking"
+      explanation: "Walking slowly can be a normal adaptation, but unsafe walking involves high fall risk, inability to control movement, or inability to ambulate safely."
+    - name: "fatigue-limited walking vs neurologic gait change"
+      explanation: "Walking may be limited by low endurance, but sudden unusual gait changes can suggest neurologic or structural problems."
+    - name: "movement caution vs true mobility loss"
+      explanation: "Some people move cautiously by choice, while others have actual impairment in control or support."
+
+  common_questions_jessie_should_handle:
+    - "What body systems are needed for walking?"
+    - "Why do I limp when I have pain?"
+    - "How do balance and walking relate?"
+    - "Why is walking harder when I am tired?"
+    - "Why does reduced foot sensation affect walking?"
+    - "Why do people widen their stance when unsteady?"
+    - "When is a walking change concerning?"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "temporary soreness-related gait change after exercise"
+      - "brief slower walking when fatigued"
+      - "short-term cautious walking on uneven ground"
+    should_be_monitored:
+      - "ongoing limp"
+      - "increasing walking fatigue"
+      - "repeated tripping"
+      - "walking changes that persist after minor injury"
+      - "fearful walking due to instability"
+    more_concerning:
+      - "new major gait change"
+      - "frequent falls"
+      - "walking change with weakness or numbness"
+      - "walking difficulty with severe dizziness"
+      - "progressive loss of walking ability"
+      - "walking problems with chest symptoms or severe shortness of breath"
+    emergency_patterns:
+      - "sudden inability to walk"
+      - "new gait change with stroke-like symptoms"
+      - "collapse while walking"
+      - "loss of consciousness"
+      - "major trauma causing inability to bear weight"
+
+  red_flags:
+    immediate_attention:
+      - "sudden inability to walk"
+      - "new one-sided weakness affecting walking"
+      - "walking change with slurred speech"
+      - "walking change with facial droop"
+      - "collapse"
+      - "loss of consciousness"
+      - "major injury with inability to bear weight"
+      - "walking problems with severe chest pain or severe breathing trouble"
+
+  safety_considerations:
+    key_points:
+      - "Walking problems increase fall risk."
+      - "Unsteady walking requires attention to environment and support."
+      - "Reduced sensation, dizziness, weakness, or fatigue can make walking unsafe."
+      - "A person's ability to walk safely matters more than walking speed alone."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Explain walking as a whole-body coordinated function."
+      - "Connect gait changes to strength, balance, sensation, pain, and endurance."
+      - "Use practical everyday examples."
+      - "Differentiate mild temporary gait changes from high-risk walking problems."
+      - "Escalate clearly when walking loss is sudden or paired with neurologic or cardiopulmonary red flags."
+    style_notes:
+      - "Avoid treating walking as only a leg issue."
+      - "Do not minimize repeated falls or major gait changes."
+      - "Link walking difficulty to function and independence."
+      - "Mention safety and fall prevention when relevant."
+    teaching_sequence:
+      - "Define walking and gait."
+      - "Explain systems involved."
+      - "Clarify the type of walking difficulty."
+      - "Describe common causes and functional effects."
+      - "State concerning patterns and emergencies."
+
+  cross_system_links:
+    - "Walking depends on the nervous, muscular, skeletal, vestibular, visual, and sensory systems."
+    - "Pain, balance, proprioception, touch, and endurance all influence gait."
+    - "Walking is closely tied to independence, safety, and daily functioning."
+    - "Changes in walking can reflect local injury or broader neurologic and systemic problems."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "Walking is a coordinated whole-body movement that depends on balance, strength, sensation, joint motion, and brain control."
+      - "A normal gait requires the body to shift weight, move one leg forward, stay upright, and repeat that pattern safely."
+      - "Pain, weakness, dizziness, reduced sensation, or balance problems can all change how a person walks."
+      - "Walking changes matter because they affect independence and fall risk."
+    caution_examples:
+      - "A temporary mild limp can happen after strain, but sudden inability to walk or walking changes with stroke-like symptoms are emergencies."
+      - "Repeated tripping, falls, or progressive walking decline should not be ignored."
+
+  final_summary:
+    summary_points:
+      - "Walking is a complex functional movement that depends on many body systems working together."
+      - "It requires balance, strength, sensation, coordination, posture, and endurance."
+      - "Walking changes can come from pain, weakness, sensory loss, dizziness, injury, fatigue, or neurologic problems."
+      - "Walking ability is closely linked to safety, independence, and fall risk."
+      - "Sudden loss of walking ability or walking changes with neurologic red flags require urgent attention."
+      - "Jessie should explain gait clearly, relate walking to whole-body function, and escalate high-risk patterns appropriately."

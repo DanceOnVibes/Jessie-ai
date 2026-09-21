@@ -1,0 +1,267 @@
+```yaml
+metadata:
+  file_name: "muscular_system_qa.yaml"
+  title: "Jessie Muscular System QA Pairs"
+  domain: "body_systems"
+  topic: "muscular_system"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain the muscular system clearly, warmly, and safely with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain the muscular system as the body system that helps movement, posture, and important internal functions such as breathing and circulation. Jessie should explain the three main muscle types, the roles of tendons, and the connection between muscles, bones, joints, and the nervous system in simple language. The set also supports broader biology and visual explanation use by including structure-function relationships, muscle control, movement mechanics, common misconceptions, and practical safety boundaries. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for severe muscle injury or sudden inability to move part of the body."
+  training_goals:
+    - "Explain the muscular system in simple, beginner-friendly language"
+    - "Teach the three types of muscle and their main roles"
+    - "Show how muscles, tendons, bones, joints, and nerves work together"
+    - "Explain posture, movement, breathing, circulation, and heat production"
+    - "Correct common misconceptions about muscle function and tendon-ligament differences"
+    - "Support broader biology and visual explanation retrieval with structure-function concepts"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for severe injury or sudden movement loss"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach the muscular system as a movement and support system"
+    - "Explain muscle types and muscle-bone interaction simply"
+    - "Connect muscle structure to function in a clear beginner-friendly way"
+    - "Support both basic biology teaching and visual explanation of movement mechanics"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose muscle tears, nerve injury, stroke, paralysis, tendon disorders, or causes of sudden weakness or pain."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general muscular concepts, movement roles, and warning signs."
+  safety_escalation:
+    - "Urgent guidance is appropriate for severe muscle injury, sudden inability to move part of the body, or other severe sudden symptoms."
+
+pairs:
+  - id: "muscular_system_qa_001"
+    category: "foundational_definition"
+    question: "What is the main job of the muscular system?"
+    answer: "The muscular system helps the body move, maintain posture, and support important internal functions."
+
+  - id: "muscular_system_qa_002"
+    category: "foundational_definition"
+    question: "Why is the muscular system important?"
+    answer: "It is important because it helps the body move, stay stable, breathe, circulate blood, and carry out other vital functions."
+
+  - id: "muscular_system_qa_003"
+    category: "foundational_definition"
+    question: "What does the muscular system help the body do?"
+    answer: "It helps with movement, posture, heat production, breathing, and internal organ function."
+
+  - id: "muscular_system_qa_004"
+    category: "foundational_definition"
+    question: "Do muscles only move arms and legs?"
+    answer: "No. Muscles also help with posture, breathing, digestion, and circulation."
+
+  - id: "muscular_system_qa_005"
+    category: "system_roles"
+    question: "What are the three types of muscle?"
+    answer: "The three types of muscle are skeletal muscle, smooth muscle, and cardiac muscle."
+
+  - id: "muscular_system_qa_006"
+    category: "system_roles"
+    question: "What is skeletal muscle?"
+    answer: "Skeletal muscle is muscle attached to bones that helps move the body and is usually under voluntary control."
+
+  - id: "muscular_system_qa_007"
+    category: "system_roles"
+    question: "What is smooth muscle?"
+    answer: "Smooth muscle is muscle found in the walls of organs and blood vessels, and it works automatically."
+
+  - id: "muscular_system_qa_008"
+    category: "system_roles"
+    question: "What is cardiac muscle?"
+    answer: "Cardiac muscle is the specialized muscle tissue found only in the heart, where it contracts to pump blood."
+
+  - id: "muscular_system_qa_009"
+    category: "system_roles"
+    question: "What do tendons do?"
+    answer: "Tendons connect muscles to bones and help transfer force so movement can happen."
+
+  - id: "muscular_system_qa_010"
+    category: "system_roles"
+    question: "What muscle helps with breathing?"
+    answer: "The diaphragm is a major muscle that helps with breathing."
+
+  - id: "muscular_system_qa_011"
+    category: "system_roles"
+    question: "Do muscles help make body heat?"
+    answer: "Yes. Muscle activity helps produce body heat."
+
+  - id: "muscular_system_qa_012"
+    category: "process"
+    question: "How do muscles help us move?"
+    answer: "Muscles contract and pull on bones through tendons, which creates movement at joints."
+
+  - id: "muscular_system_qa_013"
+    category: "process"
+    question: "How are muscles connected to the nervous system?"
+    answer: "The nervous system sends signals that tell muscles when to contract."
+
+  - id: "muscular_system_qa_014"
+    category: "process"
+    question: "How does the muscular system work in simple terms?"
+    answer: "It works by using muscle contractions to create movement, support posture, and help internal body functions."
+
+  - id: "muscular_system_qa_015"
+    category: "process"
+    question: "Why do muscles need tendons for movement?"
+    answer: "Muscles need tendons because tendons help connect muscle force to bones."
+
+  - id: "muscular_system_qa_016"
+    category: "process"
+    question: "Why are joints important for muscle-driven movement?"
+    answer: "Joints are important because they are the places where bones move when muscles pull."
+
+  - id: "muscular_system_qa_017"
+    category: "term_clarification"
+    question: "Are tendons and ligaments the same thing?"
+    answer: "No. Tendons connect muscle to bone, while ligaments connect bone to bone."
+
+  - id: "muscular_system_qa_018"
+    category: "term_clarification"
+    question: "What is the difference between skeletal muscle and smooth muscle?"
+    answer: "Skeletal muscle helps move the body and is usually under voluntary control, while smooth muscle works automatically in organs and blood vessels."
+
+  - id: "muscular_system_qa_019"
+    category: "term_clarification"
+    question: "What is the difference between skeletal muscle and cardiac muscle?"
+    answer: "Skeletal muscle helps move the body, while cardiac muscle is specialized heart muscle that pumps blood."
+
+  - id: "muscular_system_qa_020"
+    category: "term_clarification"
+    question: "What is the difference between voluntary and automatic muscle control?"
+    answer: "Voluntary control usually refers to muscles you can intentionally move, while automatic control refers to muscles that work without conscious effort."
+
+  - id: "muscular_system_qa_021"
+    category: "misconception"
+    question: "Do all muscles work automatically?"
+    answer: "No. Some muscles, like skeletal muscles, are usually under voluntary control, while smooth and cardiac muscle work automatically."
+
+  - id: "muscular_system_qa_022"
+    category: "misconception"
+    question: "Are muscles only for movement?"
+    answer: "No. Muscles also help with posture, breathing, circulation, digestion, and heat production."
+
+  - id: "muscular_system_qa_023"
+    category: "misconception"
+    question: "Is the heart just any muscle?"
+    answer: "No. The heart contains cardiac muscle, which is specialized for pumping blood."
+
+  - id: "muscular_system_qa_024"
+    category: "misconception"
+    question: "Do bones move by themselves?"
+    answer: "No. Bones move when muscles pull on them."
+
+  - id: "muscular_system_qa_025"
+    category: "misconception"
+    question: "Is breathing only a lung function and not a muscle function?"
+    answer: "No. Breathing also depends on muscles such as the diaphragm."
+
+  - id: "muscular_system_qa_026"
+    category: "everyday_example"
+    question: "Why does standing upright use muscles?"
+    answer: "Standing upright uses muscles because they help maintain posture and body stability."
+
+  - id: "muscular_system_qa_027"
+    category: "everyday_example"
+    question: "Why does lifting an object use muscles and bones together?"
+    answer: "It uses them together because muscles pull on bones to create movement at joints."
+
+  - id: "muscular_system_qa_028"
+    category: "everyday_example"
+    question: "Why can exercise make the body feel warmer?"
+    answer: "Exercise can make the body feel warmer because muscle activity produces heat."
+
+  - id: "muscular_system_qa_029"
+    category: "everyday_example"
+    question: "Why does breathing involve muscles?"
+    answer: "Breathing involves muscles because muscles like the diaphragm help move air in and out."
+
+  - id: "muscular_system_qa_030"
+    category: "everyday_example"
+    question: "Why does digestion involve muscles?"
+    answer: "Digestion involves muscles because smooth muscle helps move material through the digestive tract."
+
+  - id: "muscular_system_qa_031"
+    category: "visual_art_support"
+    question: "Why is the muscular system useful to understand in anatomy or figure drawing?"
+    answer: "It helps show how body form, posture, and movement are created and supported."
+
+  - id: "muscular_system_qa_032"
+    category: "visual_art_support"
+    question: "What should an artist know about muscles in body diagrams?"
+    answer: "An artist should know that muscles create movement by pulling, not by pushing, and that they work with bones and joints."
+
+  - id: "muscular_system_qa_033"
+    category: "visual_art_support"
+    question: "Why does structure-function thinking matter in muscle illustrations?"
+    answer: "It matters because muscle shape, attachment, and placement help explain what movements a muscle can support."
+
+  - id: "muscular_system_qa_034"
+    category: "visual_art_support"
+    question: "Why are tendons important in educational movement visuals?"
+    answer: "They are important because they help show how muscle force is transferred to bones."
+
+  - id: "muscular_system_qa_035"
+    category: "boundary"
+    question: "Can you diagnose why my muscle hurts or feels weak?"
+    answer: "No. I can't diagnose the cause from limited information, but I can explain muscular concepts and point out warning signs."
+
+  - id: "muscular_system_qa_036"
+    category: "boundary"
+    question: "Can you tell me exactly what is torn or injured?"
+    answer: "No. I can't determine the exact injury from a brief description, but I can explain general muscular concepts and when medical care may be important."
+
+  - id: "muscular_system_qa_037"
+    category: "boundary"
+    question: "Does muscle pain always mean a tear?"
+    answer: "No. Muscle pain can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "muscular_system_qa_038"
+    category: "boundary"
+    question: "Does sudden movement trouble always mean a muscle problem?"
+    answer: "No. Trouble moving can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "muscular_system_qa_039"
+    category: "safety_supportive_urgent"
+    question: "What should someone do if they have severe muscle injury or cannot move part of the body?"
+    answer: "A severe muscle injury or sudden inability to move part of the body should be evaluated by a medical professional right away, and emergency care may be needed depending on the situation."
+
+  - id: "muscular_system_qa_040"
+    category: "safety_supportive_urgent"
+    question: "Should a sudden inability to move part of the body be treated seriously?"
+    answer: "Yes. A sudden inability to move part of the body should be medically checked right away."
+
+  - id: "muscular_system_qa_041"
+    category: "safety_supportive_urgent"
+    question: "Should severe muscle injury be ignored?"
+    answer: "No. Severe muscle injury should be medically evaluated promptly."
+
+  - id: "muscular_system_qa_042"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about the muscular system?"
+    answer: "The main thing to remember is that the muscular system helps the body move, stay stable, and support important internal functions."
+
+quality_checks:
+  - "The file contains 42 QA pairs with ids muscular_system_qa_001 through muscular_system_qa_042."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "The muscular system is consistently explained as a movement and support system."
+  - "The set includes support for biology teaching, structure-function learning, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

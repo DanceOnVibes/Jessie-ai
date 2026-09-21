@@ -1,0 +1,294 @@
+knowledge_pack:
+  file_name: "sleep_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about sleep, sleep regulation, sleep stages, sleep health, common sleep problems, body system effects, and safety escalation."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "sleep"
+    category: "restoration and body regulation"
+    domain: "human body and health"
+
+  overview:
+    summary: "Sleep is a natural recurring state of reduced awareness and altered brain activity that supports restoration, learning, memory, body regulation, immune function, mood stability, and overall health. Sleep is not simply 'turning off.' It is an active biological process involving changing brain states, hormonal patterns, nervous system shifts, and cycles of lighter and deeper sleep."
+    why_it_matters:
+      - "Sleep supports brain function, attention, learning, memory, and emotional regulation."
+      - "Sleep supports physical restoration, immune function, metabolism, and tissue recovery."
+      - "Poor sleep can affect mood, concentration, coordination, pain tolerance, and safety."
+      - "Understanding sleep helps Jessie explain fatigue, insomnia, sleepiness, and sleep-related health concerns."
+
+  core_definitions:
+    - term: "sleep"
+      definition: "A natural state of reduced consciousness and responsiveness that is essential for restoration and regulation."
+    - term: "circadian rhythm"
+      definition: "The body's roughly 24-hour timing system that helps regulate sleep and wake patterns."
+    - term: "sleep drive"
+      definition: "The body's increasing biological pressure to sleep the longer a person stays awake."
+    - term: "sleep cycle"
+      definition: "A repeating sequence of sleep stages that occurs throughout the night."
+    - term: "REM sleep"
+      definition: "Rapid eye movement sleep, a sleep stage associated with vivid dreaming and active brain processing."
+    - term: "non-REM sleep"
+      definition: "Sleep stages outside REM, including lighter and deeper restorative sleep."
+    - term: "sleep quality"
+      definition: "How restful, continuous, and restorative sleep is, not just how long it lasts."
+    - term: "sleep deprivation"
+      definition: "A state of inadequate sleep amount or quality."
+    - term: "insomnia"
+      definition: "Difficulty falling asleep, staying asleep, or getting restorative sleep."
+
+  foundational_principle:
+    summary: "Healthy sleep depends on both biological timing and sleep pressure."
+    key_points:
+      - "Sleep is influenced by circadian rhythm, sleep drive, behavior, environment, stress, illness, and routine."
+      - "The body needs both enough sleep time and enough sleep quality."
+      - "Sleep affects nearly every major body system."
+      - "Poor sleep can be both a symptom and a cause of health problems."
+
+  major_systems_involved:
+    nervous_system:
+      role: "Coordinates sleep-wake states, brain activity patterns, and arousal."
+      importance: "Sleep is fundamentally regulated by the brain."
+    endocrine_system:
+      role: "Hormones help influence sleep timing, wakefulness, stress response, and metabolism."
+      importance: "Hormonal patterns are closely linked with sleep and daily rhythms."
+    immune_system:
+      role: "Sleep supports immune regulation and recovery."
+      importance: "Poor sleep can weaken resilience and affect inflammation."
+    cardiovascular_system:
+      role: "Sleep influences heart rate, blood pressure, and overall physiologic recovery."
+      importance: "Sleep problems can affect cardiovascular health over time."
+    respiratory_system:
+      role: "Breathing patterns change during sleep."
+      importance: "Some sleep disorders involve disrupted breathing."
+    musculoskeletal_system:
+      role: "Sleep supports physical recovery, tissue repair, and energy restoration."
+      importance: "Poor sleep can worsen soreness, tension, and fatigue."
+
+  sleep_regulation:
+    circadian_component:
+      summary: "The circadian system helps signal when the body expects sleep and wakefulness."
+      influences:
+        - "light exposure"
+        - "darkness"
+        - "routine"
+        - "timing of daily activity"
+    sleep_drive_component:
+      summary: "Sleep pressure builds the longer a person is awake."
+      influences:
+        - "hours since last sleep"
+        - "sleep debt"
+        - "nap patterns"
+    interaction_point:
+      - "Good sleep usually happens when circadian timing and sleep pressure are aligned."
+
+  sleep_stages_and_cycles:
+    non_rem_sleep:
+      lighter_sleep:
+        description: "Lighter stages help transition from wakefulness into sleep."
+      deeper_sleep:
+        description: "Deeper non-REM sleep is especially important for physical restoration and feeling refreshed."
+    rem_sleep:
+      description: "REM sleep is linked to vivid dreaming, memory processing, and certain aspects of emotional and cognitive function."
+    cycle_pattern:
+      - "Sleep cycles repeat through the night."
+      - "Healthy sleep includes both non-REM and REM sleep."
+      - "Frequent awakenings can reduce sleep quality even if total time in bed seems adequate."
+
+  functions_of_sleep:
+    cognitive_functions:
+      - "memory support"
+      - "learning consolidation"
+      - "attention and focus"
+      - "decision-making"
+    emotional_functions:
+      - "mood regulation"
+      - "stress recovery"
+      - "emotional processing"
+    physical_functions:
+      - "energy restoration"
+      - "tissue recovery"
+      - "immune support"
+      - "metabolic regulation"
+    safety_functions:
+      - "reaction time"
+      - "coordination"
+      - "judgment"
+      - "driving and task safety"
+
+  normal_sleep_variation:
+    - "Sleep needs vary somewhat by age and individual differences."
+    - "A single poor night of sleep can happen even in healthy people."
+    - "Stress, schedule changes, travel, illness, and environment can temporarily affect sleep."
+    - "Sleep quality matters as much as sleep duration."
+    - "Brief awakenings can occur normally, but repeated awakenings may reduce restfulness."
+
+  common_factors_that_affect_sleep:
+    behavioral:
+      - "irregular sleep schedule"
+      - "late caffeine"
+      - "screen exposure before bed"
+      - "late heavy meals"
+      - "daytime napping patterns"
+    emotional:
+      - "stress"
+      - "anxiety"
+      - "rumination"
+      - "emotional distress"
+    physical:
+      - "pain"
+      - "illness"
+      - "fever"
+      - "breathing discomfort"
+      - "frequent urination"
+    environmental:
+      - "noise"
+      - "light"
+      - "temperature"
+      - "uncomfortable bedding"
+    physiologic_or_medical:
+      - "hormonal changes"
+      - "medications"
+      - "substances"
+      - "sleep disorders"
+
+  common_sleep_related_experiences:
+    - name: "sleepiness"
+      explanation: "A tendency to feel drowsy or to fall asleep."
+    - name: "fatigue"
+      explanation: "A sense of low energy or exhaustion that is not identical to sleepiness."
+    - name: "insomnia symptoms"
+      explanation: "Difficulty falling asleep, staying asleep, or waking too early."
+    - name: "nonrestorative sleep"
+      explanation: "Sleep that occurs but does not feel refreshing."
+    - name: "fragmented sleep"
+      explanation: "Sleep interrupted by frequent awakenings."
+    - name: "sleep inertia"
+      explanation: "Grogginess and slow alertness after waking."
+    - name: "daytime sleepiness"
+      explanation: "Sleepiness during the day, especially when it affects function or safety."
+
+  important_distinctions:
+    - name: "sleepiness vs fatigue"
+      explanation: "Sleepiness means a tendency to doze or fall asleep, while fatigue is broader low energy or exhaustion."
+    - name: "poor sleep quantity vs poor sleep quality"
+      explanation: "A person may sleep long enough but still sleep poorly if sleep is fragmented or not restorative."
+    - name: "acute sleep loss vs chronic sleep problems"
+      explanation: "A short-term sleep disruption may be temporary, while chronic sleep problems persist and affect health more broadly."
+    - name: "insomnia symptoms vs daytime sleepiness from another cause"
+      explanation: "Some people struggle to sleep, while others sleep but still feel excessively sleepy because of other sleep or medical issues."
+    - name: "normal variation vs clinically concerning sleep impairment"
+      explanation: "Occasional poor sleep can be normal, but persistent impairment, dangerous sleepiness, or breathing-related sleep issues deserve more attention."
+
+  sleep_and_health_relationships:
+    - "Poor sleep can worsen pain sensitivity."
+    - "Poor sleep can worsen concentration and memory."
+    - "Poor sleep can increase irritability and emotional stress."
+    - "Poor sleep can affect appetite and metabolic regulation."
+    - "Poor sleep can reduce coordination and raise accident risk."
+    - "Sleep problems can both affect and be affected by mental and physical health conditions."
+
+  age_related_considerations:
+    children:
+      - "Sleep supports growth, learning, and nervous system development."
+      - "Children often need more sleep than adults."
+    adults:
+      - "Adults need regular restorative sleep for cognitive and physical function."
+    older_adults:
+      - "Sleep patterns may become lighter or more fragmented."
+      - "Night waking, medications, pain, and medical conditions may affect sleep more often."
+
+  common_questions_jessie_should_handle:
+    - "Why do we need sleep?"
+    - "What is the difference between REM and non-REM sleep?"
+    - "Why am I tired even after sleeping?"
+    - "What is the difference between fatigue and sleepiness?"
+    - "How does stress affect sleep?"
+    - "Why does pain interfere with sleep?"
+    - "Why does poor sleep affect concentration and mood?"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "a single bad night of sleep"
+      - "temporary sleep disruption during stress or travel"
+      - "brief trouble falling asleep once in a while"
+    should_be_monitored:
+      - "recurrent insomnia symptoms"
+      - "frequent waking"
+      - "waking unrefreshed regularly"
+      - "daytime sleepiness affecting function"
+      - "sleep problems lasting weeks"
+    more_concerning:
+      - "sleepiness causing driving or work safety problems"
+      - "sleep problems with breathing pauses"
+      - "sleep disruption with significant mood deterioration"
+      - "persistent severe insomnia"
+      - "sleep loss causing major functional decline"
+    emergency_patterns:
+      - "sudden unresponsiveness"
+      - "breathing difficulty during sleep-related events"
+      - "severe confusion or dangerous behavior"
+      - "sleep-related symptoms with medical emergency signs"
+
+  safety_relevance:
+    key_points:
+      - "Poor sleep can slow reaction time and impair judgment."
+      - "Daytime sleepiness increases accident risk."
+      - "Sleep problems matter more when driving, using machinery, climbing, or supervising others."
+      - "Severe sleepiness, confusion, or breathing-related symptoms raise safety concern."
+
+  red_flags:
+    immediate_attention:
+      - "severe difficulty breathing"
+      - "episodes suggesting dangerous breathing interruption with severe symptoms"
+      - "sleep-related collapse or unresponsiveness"
+      - "confusion with inability to stay awake"
+      - "sleepiness causing immediate safety risk"
+      - "sleep problems with chest pain or serious neurologic symptoms"
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Explain sleep as an active and essential biological process."
+      - "Clarify the difference between sleep quantity, sleep quality, fatigue, and sleepiness."
+      - "Connect sleep to brain function, mood, immunity, and safety."
+      - "Normalize occasional poor sleep while identifying persistent or dangerous patterns."
+      - "Escalate clearly when breathing, confusion, collapse, or severe impairment is involved."
+    style_notes:
+      - "Avoid trivializing chronic sleep problems."
+      - "Avoid implying that all sleep difficulty is simply poor habits."
+      - "Use practical language and common examples."
+      - "Tie sleep problems to function and safety when relevant."
+    teaching_sequence:
+      - "Define sleep and why it matters."
+      - "Explain circadian rhythm and sleep pressure simply."
+      - "Describe basic sleep stages."
+      - "Clarify the user's sleep-related symptom."
+      - "Differentiate normal variation from concerning patterns."
+
+  cross_system_links:
+    - "Sleep is regulated mainly by the nervous system and influenced by hormones."
+    - "Sleep affects immune function, metabolism, mood, pain, and cognition."
+    - "Breathing patterns during sleep link sleep to respiratory health."
+    - "Poor sleep can worsen balance, coordination, pain, and safety risk."
+    - "Sleep quality interacts with stress, mental health, and physical illness."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "Sleep is an active biological process that helps restore the brain and body."
+      - "The body uses both circadian timing and sleep pressure to regulate when sleep happens."
+      - "You can spend enough time in bed and still feel tired if the sleep is fragmented or poor quality."
+      - "Sleepiness and fatigue are related but not identical. Sleepiness is the urge to sleep, while fatigue is a broader low-energy feeling."
+    caution_examples:
+      - "Occasional poor sleep can happen, but persistent severe sleep problems or dangerous daytime sleepiness should not be ignored."
+      - "If sleep-related symptoms involve breathing trouble, collapse, or inability to stay awake safely, that needs urgent attention."
+
+  final_summary:
+    summary_points:
+      - "Sleep is essential for brain function, restoration, mood, immunity, and safety."
+      - "Healthy sleep depends on circadian rhythm, sleep drive, and sleep quality."
+      - "Sleep includes repeating cycles of non-REM and REM sleep."
+      - "Poor sleep can affect concentration, pain, stress, coordination, and daily functioning."
+      - "Occasional poor sleep is common, but persistent, severe, or dangerous sleep-related symptoms are more concerning."
+      - "Jessie should explain sleep clearly, distinguish key sleep concepts, and escalate breathing-related or safety-critical red flags."

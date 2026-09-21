@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Human Body Basics Evaluation Set"
+  domain: "human_body"
+  topic: "human_body_basics"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing basic understanding of the human body, body organization, major body systems, structural and functional concepts, protection, movement, regulation, growth, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "human_body_basics_eval_001"
+      prompt: "What is the human body?"
+      expected: "The human body is a living organism made of many parts and systems that work together."
+
+    - id: "human_body_basics_eval_002"
+      prompt: "What are body systems?"
+      expected: "Body systems are groups of organs and structures that work together to perform major functions."
+
+    - id: "human_body_basics_eval_003"
+      prompt: "Why is the human body organized into systems?"
+      expected: "The body is organized into systems so different functions can be carried out efficiently and in coordination."
+
+    - id: "human_body_basics_eval_004"
+      prompt: "What is an organ?"
+      expected: "An organ is a body structure made of tissues that performs a specific function."
+
+    - id: "human_body_basics_eval_005"
+      prompt: "What is tissue in a simple way?"
+      expected: "Tissue is a group of similar cells working together for a specific purpose."
+
+    - id: "human_body_basics_eval_006"
+      prompt: "What is a cell?"
+      expected: "A cell is a basic living unit of the body."
+
+    - id: "human_body_basics_eval_007"
+      prompt: "Do cells, tissues, organs, and systems relate to each other?"
+      expected: "Yes. Cells form tissues, tissues form organs, and organs work together in systems."
+
+    - id: "human_body_basics_eval_008"
+      prompt: "Why is the body considered a living system?"
+      expected: "It is considered a living system because it grows, uses energy, responds, repairs, and maintains internal balance."
+
+    - id: "human_body_basics_eval_009"
+      prompt: "What is homeostasis in a simple way?"
+      expected: "Homeostasis is the body's ability to maintain stable internal conditions."
+
+    - id: "human_body_basics_eval_010"
+      prompt: "Why is homeostasis important?"
+      expected: "Homeostasis is important because the body needs stable internal conditions to function well."
+
+    - id: "human_body_basics_eval_011"
+      prompt: "Does the human body need energy?"
+      expected: "Yes. The human body needs energy for movement, growth, repair, and basic life functions."
+
+    - id: "human_body_basics_eval_012"
+      prompt: "Where does the body get energy in a simple way?"
+      expected: "The body gets energy from food and uses oxygen to help release that energy."
+
+    - id: "human_body_basics_eval_013"
+      prompt: "Does the body need oxygen?"
+      expected: "Yes. The body needs oxygen to support cell function and energy use."
+
+    - id: "human_body_basics_eval_014"
+      prompt: "Does the body need water?"
+      expected: "Yes. Water is essential for many body processes."
+
+    - id: "human_body_basics_eval_015"
+      prompt: "Can the body grow and repair itself?"
+      expected: "Yes. The body can grow, maintain itself, and repair many tissues."
+
+    - id: "human_body_basics_eval_016"
+      prompt: "Does the body respond to the environment?"
+      expected: "Yes. The body responds to changes inside and outside itself."
+
+    - id: "human_body_basics_eval_017"
+      prompt: "Can different body systems work together?"
+      expected: "Yes. Body systems work together constantly to support life and function."
+
+    - id: "human_body_basics_eval_018"
+      prompt: "What does the skeletal system do in a basic way?"
+      expected: "The skeletal system provides structure, support, and protection."
+
+    - id: "human_body_basics_eval_019"
+      prompt: "What does the muscular system do in a basic way?"
+      expected: "The muscular system helps the body move and maintain posture."
+
+    - id: "human_body_basics_eval_020"
+      prompt: "What does the nervous system do in a basic way?"
+      expected: "The nervous system helps control, coordinate, and communicate throughout the body."
+
+    - id: "human_body_basics_eval_021"
+      prompt: "What does the circulatory system do in a basic way?"
+      expected: "The circulatory system moves blood and transported substances through the body."
+
+    - id: "human_body_basics_eval_022"
+      prompt: "What does the respiratory system do in a basic way?"
+      expected: "The respiratory system helps bring in oxygen and remove carbon dioxide."
+
+    - id: "human_body_basics_eval_023"
+      prompt: "What does the digestive system do in a basic way?"
+      expected: "The digestive system breaks down food, absorbs nutrients, and helps remove waste."
+
+    - id: "human_body_basics_eval_024"
+      prompt: "What does the urinary system do in a basic way?"
+      expected: "The urinary system helps remove certain wastes and regulate fluid balance."
+
+    - id: "human_body_basics_eval_025"
+      prompt: "What does the endocrine system do in a basic way?"
+      expected: "The endocrine system uses hormones to help regulate body functions."
+
+    - id: "human_body_basics_eval_026"
+      prompt: "What does the immune system do in a basic way?"
+      expected: "The immune system helps defend the body against harmful threats."
+
+    - id: "human_body_basics_eval_027"
+      prompt: "What does the integumentary system do in a basic way?"
+      expected: "The integumentary system includes the skin and helps protect the body."
+
+    - id: "human_body_basics_eval_028"
+      prompt: "What does the reproductive system do in a basic way?"
+      expected: "The reproductive system supports reproductive functions and related development."
+
+    - id: "human_body_basics_eval_029"
+      prompt: "Can the skin be considered part of body protection?"
+      expected: "Yes. The skin is an important protective barrier."
+
+    - id: "human_body_basics_eval_030"
+      prompt: "Do bones only support the body?"
+      expected: "No. Bones also help protect organs and work with muscles for movement."
+
+    - id: "human_body_basics_eval_031"
+      prompt: "Do muscles only create large movements?"
+      expected: "No. Muscles also help with posture, stability, and many internal body functions."
+
+    - id: "human_body_basics_eval_032"
+      prompt: "Can the brain be considered part of the nervous system?"
+      expected: "Yes. The brain is a major part of the nervous system."
+
+    - id: "human_body_basics_eval_033"
+      prompt: "Can the heart be considered part of the circulatory system?"
+      expected: "Yes. The heart is a central organ of the circulatory system."
+
+    - id: "human_body_basics_eval_034"
+      prompt: "Are the lungs part of the respiratory system?"
+      expected: "Yes. The lungs are major organs of the respiratory system."
+
+    - id: "human_body_basics_eval_035"
+      prompt: "Is the stomach part of the digestive system?"
+      expected: "Yes. The stomach is one of the organs of the digestive system."
+
+    - id: "human_body_basics_eval_036"
+      prompt: "Are the kidneys part of the urinary system?"
+      expected: "Yes. The kidneys are major organs in the urinary system."
+
+    - id: "human_body_basics_eval_037"
+      prompt: "Can hormones help body regulation?"
+      expected: "Yes. Hormones help regulate many body functions."
+
+    - id: "human_body_basics_eval_038"
+      prompt: "Can blood carry oxygen and nutrients?"
+      expected: "Yes. Blood helps transport oxygen, nutrients, and other substances."
+
+    - id: "human_body_basics_eval_039"
+      prompt: "Does the body remove waste?"
+      expected: "Yes. The body has several systems that help remove waste products."
+
+    - id: "human_body_basics_eval_040"
+      prompt: "Why does the body need coordination between systems?"
+      expected: "The body needs coordination so systems can work together effectively."
+
+    - id: "human_body_basics_eval_041"
+      prompt: "Can the respiratory and circulatory systems work together?"
+      expected: "Yes. The respiratory system provides oxygen and the circulatory system transports it."
+
+    - id: "human_body_basics_eval_042"
+      prompt: "Can the digestive and circulatory systems work together?"
+      expected: "Yes. The digestive system provides absorbed nutrients and the circulatory system transports them."
+
+    - id: "human_body_basics_eval_043"
+      prompt: "Can the nervous and muscular systems work together?"
+      expected: "Yes. The nervous system helps control muscle action and movement."
+
+    - id: "human_body_basics_eval_044"
+      prompt: "Can the skeletal and muscular systems work together?"
+      expected: "Yes. Bones and muscles work together to produce movement and support posture."
+
+    - id: "human_body_basics_eval_045"
+      prompt: "Can the endocrine and nervous systems both help regulate the body?"
+      expected: "Yes. They both help control and coordinate body functions in different ways."
+
+    - id: "human_body_basics_eval_046"
+      prompt: "Can the body sense touch, temperature, pain, and position?"
+      expected: "Yes. The body has sensory systems that help detect different kinds of information."
+
+    - id: "human_body_basics_eval_047"
+      prompt: "Can the body move without coordination?"
+      expected: "No. Effective movement depends on coordination among systems."
+
+    - id: "human_body_basics_eval_048"
+      prompt: "Can posture be part of normal body function?"
+      expected: "Yes. Posture is part of maintaining body alignment and stability."
+
+    - id: "human_body_basics_eval_049"
+      prompt: "Can the body repair skin after a small cut?"
+      expected: "Yes. The body can repair many minor injuries through healing processes."
+
+    - id: "human_body_basics_eval_050"
+      prompt: "Can the body adapt to activity demands?"
+      expected: "Yes. The body adjusts functions such as breathing and circulation during activity."
+
+    - id: "human_body_basics_eval_051"
+      prompt: "Can the body work during sleep as well as while awake?"
+      expected: "Yes. Many body functions continue during sleep."
+
+    - id: "human_body_basics_eval_052"
+      prompt: "Does the body need nutrients as well as calories?"
+      expected: "Yes. The body needs many nutrients for normal structure and function."
+
+    - id: "human_body_basics_eval_053"
+      prompt: "Can body systems support growth in children and maintenance in adults?"
+      expected: "Yes. Body systems support development, maintenance, and aging-related changes."
+
+    - id: "human_body_basics_eval_054"
+      prompt: "Can the body maintain temperature within a useful range?"
+      expected: "Yes. The body has systems that help regulate temperature."
+
+    - id: "human_body_basics_eval_055"
+      prompt: "Can the body protect itself from infection?"
+      expected: "Yes. The body uses immune defenses and protective barriers."
+
+    - id: "human_body_basics_eval_056"
+      prompt: "Can the body respond to injury?"
+      expected: "Yes. The body can respond to injury with protective and healing processes."
+
+    - id: "human_body_basics_eval_057"
+      prompt: "Can the body send signals internally?"
+      expected: "Yes. The body uses nerves, hormones, and other signals to communicate internally."
+
+    - id: "human_body_basics_eval_058"
+      prompt: "Does the human body have only one kind of tissue?"
+      expected: "No. The body contains many different kinds of tissues with different functions."
+
+    - id: "human_body_basics_eval_059"
+      prompt: "Can the body maintain balance and body position?"
+      expected: "Yes. The body uses sensory and movement systems to maintain stability."
+
+    - id: "human_body_basics_eval_060"
+      prompt: "Can the body take in information from the environment?"
+      expected: "Yes. Sensory systems help the body detect information from the surroundings."
+
+    - id: "human_body_basics_eval_061"
+      prompt: "Can the body make purposeful movement?"
+      expected: "Yes. The body can produce controlled and purposeful movement."
+
+    - id: "human_body_basics_eval_062"
+      prompt: "Can the body also make automatic responses?"
+      expected: "Yes. The body also makes many automatic and reflexive responses."
+
+    - id: "human_body_basics_eval_063"
+      prompt: "Can the body function depend on healthy circulation?"
+      expected: "Yes. Tissues need circulation for oxygen, nutrients, and waste transport."
+
+    - id: "human_body_basics_eval_064"
+      prompt: "Can body function depend on breathing?"
+      expected: "Yes. Breathing is essential for oxygen supply and gas exchange."
+
+    - id: "human_body_basics_eval_065"
+      prompt: "Can body function depend on fluid balance?"
+      expected: "Yes. Fluid balance is important for normal body function."
+
+    - id: "human_body_basics_eval_066"
+      prompt: "Can body systems affect each other if one system has trouble?"
+      expected: "Yes. Because systems are connected, problems in one system can affect others."
+
+    - id: "human_body_basics_eval_067"
+      prompt: "Is the body made of separate parts that never interact?"
+      expected: "No. The body's parts constantly interact and depend on one another."
+
+    - id: "human_body_basics_eval_068"
+      prompt: "Can the body be described as both structure and function?"
+      expected: "Yes. The body includes physical structures and the functions they perform."
+
+    - id: "human_body_basics_eval_069"
+      prompt: "Can body organization help explain how simple parts support complex functions?"
+      expected: "Yes. Cells, tissues, organs, and systems build on one another to create complex function."
+
+    - id: "human_body_basics_eval_070"
+      prompt: "Can the body maintain internal conditions even when the outside environment changes?"
+      expected: "Yes. The body uses homeostasis to adjust to changing conditions."
+
+    - id: "human_body_basics_eval_071"
+      prompt: "Can body awareness include sensing pain, touch, temperature, movement, and balance?"
+      expected: "Yes. Body awareness includes multiple sensory and regulatory functions."
+
+    - id: "human_body_basics_eval_072"
+      prompt: "Can body systems be studied separately while still working together in real life?"
+      expected: "Yes. Systems can be described separately, but they work together in the living body."
+
+    - id: "human_body_basics_eval_073"
+      prompt: "Can the human body be healthy only if one system works well?"
+      expected: "No. Overall health depends on many systems working together."
+
+    - id: "human_body_basics_eval_074"
+      prompt: "Can changes in energy, breathing, pain, or consciousness be important?"
+      expected: "Yes. Major changes in basic body function can be important and should be taken seriously."
+
+    - id: "human_body_basics_eval_075"
+      prompt: "Should trouble breathing be ignored?"
+      expected: "No. Trouble breathing should be taken seriously and evaluated promptly."
+
+    - id: "human_body_basics_eval_076"
+      prompt: "Should chest pain be taken seriously?"
+      expected: "Yes. Chest pain should be taken seriously and evaluated promptly."
+
+    - id: "human_body_basics_eval_077"
+      prompt: "Should severe bleeding be treated as urgent?"
+      expected: "Yes. Severe bleeding is urgent and requires immediate attention."
+
+    - id: "human_body_basics_eval_078"
+      prompt: "Should sudden confusion or loss of consciousness be considered serious?"
+      expected: "Yes. Sudden confusion or loss of consciousness is serious and needs prompt attention."
+
+    - id: "human_body_basics_eval_079"
+      prompt: "What is the main idea of human body basics?"
+      expected: "The human body is a coordinated living system made of cells, tissues, organs, and body systems that work together to support life."
+
+    - id: "human_body_basics_eval_080"
+      prompt: "What should be done if basic body functions change suddenly, severely, or in a concerning way?"
+      expected: "Sudden, severe, or concerning changes in basic body functions should be evaluated promptly."

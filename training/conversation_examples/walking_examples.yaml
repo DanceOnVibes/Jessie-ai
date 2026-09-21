@@ -1,0 +1,143 @@
+conversation_examples:
+  file_name: "walking_examples.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  domain: "mobility_and_movement"
+  topic: "walking"
+  source_type: "assistant-generated training data"
+
+  style_notes:
+    - "Keep the tone warm, calm, and natural."
+    - "Ask focused follow-up questions when needed."
+    - "Differentiate education from symptom triage."
+    - "Escalate clearly for sudden walking change, stroke-like symptoms, severe weakness, or inability to bear weight."
+    - "Avoid sounding robotic or alarmist."
+
+  examples:
+    - id: "walking_example_001"
+      scenario: "basic educational question"
+      conversation:
+        - role: "user"
+          text: "What helps people walk normally?"
+        - role: "assistant"
+          text: "A lot of systems help with walking. Your brain and nerves control movement, your muscles provide strength, your bones and joints support motion, and your balance, vision, and sensation help keep you steady."
+
+    - id: "walking_example_002"
+      scenario: "gradual slowing of gait"
+      conversation:
+        - role: "user"
+          text: "I feel like I walk slower than I used to."
+        - role: "assistant"
+          text: "That can happen for a few different reasons, including pain, stiffness, weakness, low fitness, balance changes, or fear of falling. If it has been gradually changing, it would help to know whether you also have pain, shortness of breath, dizziness, or trouble with balance."
+        - role: "user"
+          text: "Mostly stiffness and some knee pain."
+        - role: "assistant"
+          text: "That makes sense. Knee pain and stiffness can definitely slow walking. If it keeps getting worse, limits daily activity, or causes limping or instability, it would be a good idea to have it checked."
+
+    - id: "walking_example_003"
+      scenario: "limping after minor strain"
+      conversation:
+        - role: "user"
+          text: "I have been limping a little since yesterday after I twisted my ankle."
+        - role: "assistant"
+          text: "A mild limp can happen after an ankle twist because pain changes how you put weight on the foot. The main questions are whether you can bear weight, whether swelling is significant, and whether the pain is improving or getting worse."
+        - role: "user"
+          text: "I can still walk on it, it just hurts."
+        - role: "assistant"
+          text: "That sounds more consistent with a mild to moderate injury, but it still deserves attention if the pain is strong, swelling is increasing, or walking becomes harder instead of better."
+
+    - id: "walking_example_004"
+      scenario: "user feels embarrassed about walking changes"
+      conversation:
+        - role: "user"
+          text: "This is a bit embarrassing but I think I walk strangely now."
+        - role: "assistant"
+          text: "That is not embarrassing at all. Changes in walking are worth paying attention to, and you are doing the right thing by bringing it up. Has the change been gradual or sudden?"
+        - role: "user"
+          text: "Gradual, maybe over a few months."
+        - role: "assistant"
+          text: "A gradual change can happen for different reasons, including pain, balance changes, weakness, numbness, or joint stiffness. If you want, we can narrow it down by talking about whether it feels more like limping, unsteadiness, weakness, or discomfort."
+
+    - id: "walking_example_005"
+      scenario: "dizziness while walking"
+      conversation:
+        - role: "user"
+          text: "I feel unsteady when I walk, almost like I might tip over."
+        - role: "assistant"
+          text: "That can happen from balance problems, dizziness, weakness, numbness, medication effects, or other causes. Did this come on suddenly, and are you also having spinning, faintness, weakness, trouble speaking, or changes in vision?"
+        - role: "user"
+          text: "It came on pretty suddenly this morning and I feel really off."
+        - role: "assistant"
+          text: "A sudden walking and balance change needs prompt attention, especially if it feels significantly different from normal. If you also have weakness, trouble speaking, facial droop, severe headache, or vision changes, seek emergency medical care right away."
+
+    - id: "walking_example_006"
+      scenario: "possible stroke-like pattern"
+      conversation:
+        - role: "user"
+          text: "My dad suddenly started dragging one leg and can't walk straight."
+        - role: "assistant"
+          text: "That is an emergency. Sudden leg dragging and sudden walking trouble can be signs of a stroke or another serious neurological problem. Please call emergency services right now."
+        - role: "user"
+          text: "He also seems a bit confused."
+        - role: "assistant"
+          text: "That makes this even more urgent. Call emergency services immediately and do not wait to see if it passes."
+
+    - id: "walking_example_007"
+      scenario: "post-fall walking concern"
+      conversation:
+        - role: "user"
+          text: "My mum fell earlier and now says she doesn't want to walk."
+        - role: "assistant"
+          text: "After a fall, walking changes can come from pain, fear, weakness, or injury. Can she bear weight at all, and is there severe pain, swelling, confusion, or any obvious deformity?"
+        - role: "user"
+          text: "She says her hip hurts and she can barely stand."
+        - role: "assistant"
+          text: "That needs prompt medical evaluation. Trouble standing after a fall with hip pain raises concern for a significant injury."
+
+    - id: "walking_example_008"
+      scenario: "numb feet affecting gait"
+      conversation:
+        - role: "user"
+          text: "Walking feels weird because my feet feel numb."
+        - role: "assistant"
+          text: "Numb feet can definitely affect walking because sensation helps you feel the ground and stay balanced. Is the numbness in both feet or one, and did it come on suddenly or gradually?"
+        - role: "user"
+          text: "Both feet, gradually."
+        - role: "assistant"
+          text: "A gradual change may still need assessment, especially if it is worsening or making you less steady. If numbness is sudden, one-sided, or comes with weakness, that is more urgent."
+
+    - id: "walking_example_009"
+      scenario: "anxiety and walking sensation"
+      conversation:
+        - role: "user"
+          text: "Sometimes when I'm anxious I feel funny when I walk."
+        - role: "assistant"
+          text: "Anxiety can make walking feel shaky or uncomfortable, especially if you feel lightheaded or tense. But if the walking change is new, worsening, or happening even when you are calm, it should not just be dismissed as anxiety."
+
+    - id: "walking_example_010"
+      scenario: "sudden inability to walk"
+      conversation:
+        - role: "user"
+          text: "My brother suddenly says his legs won't hold him up."
+        - role: "assistant"
+          text: "That is urgent. Sudden inability to stand or walk can signal a serious medical problem. If this started suddenly, especially with weakness, numbness, confusion, severe back pain, or loss of bladder or bowel control, get emergency medical help right away."
+
+    - id: "walking_example_011"
+      scenario: "gradual balance-related gait change"
+      conversation:
+        - role: "user"
+          text: "I've started walking more carefully lately because I don't trust my balance."
+        - role: "assistant"
+          text: "That is important to notice. When people stop trusting their balance, they often slow down, widen their stance, or avoid walking in certain situations. Have you actually fallen, or does it mainly feel like you might?"
+        - role: "user"
+          text: "No fall yet, but I feel close sometimes."
+        - role: "assistant"
+          text: "That still deserves attention, because near-falls can be an early warning sign. It would be reasonable to get it assessed, especially if it is becoming more frequent."
+
+    - id: "walking_example_012"
+      scenario: "simple educational reassurance without false reassurance"
+      conversation:
+        - role: "user"
+          text: "Can sore muscles make walking feel awkward for a day or two?"
+        - role: "assistant"
+          text: "Yes, they can. Temporary soreness can make walking feel stiff or awkward for a short time. The more concerning pattern would be if walking becomes progressively harder, clearly unsafe, or is associated with weakness, numbness, or severe pain."

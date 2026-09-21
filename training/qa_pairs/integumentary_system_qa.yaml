@@ -1,0 +1,272 @@
+```yaml
+metadata:
+  file_name: "integumentary_system_qa.yaml"
+  title: "Jessie Integumentary System QA Pairs"
+  domain: "body_systems"
+  topic: "integumentary_system"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain the integumentary system clearly, warmly, and safely with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain the integumentary system as the body system that protects the body, helps regulate temperature, supports sensation, and helps prevent water loss. Jessie should explain the roles of the skin, hair, nails, sweat glands, and oil glands in simple language. The set also supports broader biology and visual explanation use by including structure-function relationships, skin as a barrier, temperature regulation, sensation, misconceptions, and practical safety boundaries. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for trouble breathing with swelling or rash, severe burns, or rapidly spreading skin changes."
+  training_goals:
+    - "Explain the integumentary system in simple, beginner-friendly language"
+    - "Teach the roles of skin, hair, nails, sweat glands, and oil glands"
+    - "Show how the integumentary system protects the body and helps regulate temperature"
+    - "Explain the skin's role in sensation and water-loss prevention"
+    - "Support broader biology and visual explanation retrieval with barrier and structure-function concepts"
+    - "Correct common misconceptions about skin and sweat"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for concerning skin and burn symptoms"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach the integumentary system as a protective and regulating body system"
+    - "Explain skin, appendages, and glands simply"
+    - "Connect structure to function in a clear beginner-friendly way"
+    - "Support both basic biology teaching and visual explanation of the body's outer protective system"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose infections, allergic rashes, skin cancer, burns, eczema, or causes of swelling or skin changes."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general integumentary concepts, skin functions, and warning signs."
+  safety_escalation:
+    - "Urgent guidance is appropriate for trouble breathing with swelling or rash, severe burns, or rapidly spreading skin changes."
+
+pairs:
+  - id: "integumentary_system_qa_001"
+    category: "foundational_definition"
+    question: "What does the integumentary system do?"
+    answer: "The integumentary system protects the body, helps regulate temperature, supports sensation, and helps prevent water loss."
+
+  - id: "integumentary_system_qa_002"
+    category: "foundational_definition"
+    question: "What structures are part of the integumentary system?"
+    answer: "The integumentary system includes the skin, hair, nails, and related glands."
+
+  - id: "integumentary_system_qa_003"
+    category: "foundational_definition"
+    question: "What is the main organ of the integumentary system?"
+    answer: "The skin is the main organ of the integumentary system."
+
+  - id: "integumentary_system_qa_004"
+    category: "foundational_definition"
+    question: "Why is the skin important?"
+    answer: "The skin is important because it protects the body, helps regulate temperature, supports sensation, and helps prevent water loss."
+
+  - id: "integumentary_system_qa_005"
+    category: "foundational_definition"
+    question: "Why is the integumentary system important?"
+    answer: "It is important because it protects the body, helps regulate temperature, supports sensation, and helps prevent water loss."
+
+  - id: "integumentary_system_qa_006"
+    category: "system_roles"
+    question: "How does the integumentary system help protect the body?"
+    answer: "The skin acts as a barrier that helps protect the body from injury, germs, and water loss."
+
+  - id: "integumentary_system_qa_007"
+    category: "system_roles"
+    question: "Why do we sweat?"
+    answer: "We sweat to help cool the body."
+
+  - id: "integumentary_system_qa_008"
+    category: "system_roles"
+    question: "What do sweat glands do?"
+    answer: "Sweat glands produce sweat, which helps cool the body."
+
+  - id: "integumentary_system_qa_009"
+    category: "system_roles"
+    question: "What do oil glands do?"
+    answer: "Oil glands produce oil that helps protect and condition the skin and hair."
+
+  - id: "integumentary_system_qa_010"
+    category: "system_roles"
+    question: "What do nails do?"
+    answer: "Nails help protect the ends of the fingers and toes and support fine movements."
+
+  - id: "integumentary_system_qa_011"
+    category: "system_roles"
+    question: "Are hair and nails part of a body system?"
+    answer: "Yes. Hair and nails are part of the integumentary system."
+
+  - id: "integumentary_system_qa_012"
+    category: "system_roles"
+    question: "Does the skin help with sensation?"
+    answer: "Yes. Nerve endings in the skin help detect touch, pressure, pain, and temperature."
+
+  - id: "integumentary_system_qa_013"
+    category: "process"
+    question: "How does the integumentary system help regulate temperature?"
+    answer: "It helps regulate temperature through structures such as sweat glands and through the skin's role in heat exchange."
+
+  - id: "integumentary_system_qa_014"
+    category: "process"
+    question: "How does the integumentary system work in simple terms?"
+    answer: "It works by protecting the body surface, helping manage temperature, supporting sensation, and reducing water loss."
+
+  - id: "integumentary_system_qa_015"
+    category: "process"
+    question: "Why is sweat helpful?"
+    answer: "Sweat is helpful because it helps cool the body."
+
+  - id: "integumentary_system_qa_016"
+    category: "process"
+    question: "Why is skin called a barrier?"
+    answer: "Skin is called a barrier because it helps separate and protect the body from the outside environment."
+
+  - id: "integumentary_system_qa_017"
+    category: "term_clarification"
+    question: "Is the integumentary system only the skin?"
+    answer: "No. It includes the skin, hair, nails, and related glands."
+
+  - id: "integumentary_system_qa_018"
+    category: "term_clarification"
+    question: "What is the difference between skin and the integumentary system?"
+    answer: "Skin is the main organ, while the integumentary system includes the skin plus hair, nails, and related glands."
+
+  - id: "integumentary_system_qa_019"
+    category: "term_clarification"
+    question: "What is the difference between sweat glands and oil glands?"
+    answer: "Sweat glands produce sweat for cooling, while oil glands produce oil that helps protect and condition skin and hair."
+
+  - id: "integumentary_system_qa_020"
+    category: "term_clarification"
+    question: "What is the difference between protection and sensation in the skin?"
+    answer: "Protection is the skin's barrier role, while sensation is its ability to help detect touch, pain, pressure, and temperature."
+
+  - id: "integumentary_system_qa_021"
+    category: "misconception"
+    question: "Is sweat only waste?"
+    answer: "No. Sweat can contain waste products, but its main beginner-level role is helping cool the body."
+
+  - id: "integumentary_system_qa_022"
+    category: "misconception"
+    question: "Does the skin only cover the body and do nothing else?"
+    answer: "No. The skin also helps protect the body, regulate temperature, support sensation, and reduce water loss."
+
+  - id: "integumentary_system_qa_023"
+    category: "misconception"
+    question: "Are hair and nails unrelated to body systems?"
+    answer: "No. Hair and nails are part of the integumentary system."
+
+  - id: "integumentary_system_qa_024"
+    category: "misconception"
+    question: "Does sweating always mean something is wrong?"
+    answer: "No. Sweating is a normal way the body helps cool itself."
+
+  - id: "integumentary_system_qa_025"
+    category: "misconception"
+    question: "Is the skin separate from other body systems?"
+    answer: "No. The skin works with other systems, including the nervous and immune systems."
+
+  - id: "integumentary_system_qa_026"
+    category: "everyday_example"
+    question: "Why do people sweat when they are hot?"
+    answer: "People sweat when they are hot because sweating helps cool the body."
+
+  - id: "integumentary_system_qa_027"
+    category: "everyday_example"
+    question: "Why do fingertips help with fine movement?"
+    answer: "They help because the skin and nails support touch feedback and precise hand use."
+
+  - id: "integumentary_system_qa_028"
+    category: "everyday_example"
+    question: "Why is skin helpful for touch?"
+    answer: "Skin is helpful for touch because it contains nerve endings that detect different kinds of sensation."
+
+  - id: "integumentary_system_qa_029"
+    category: "everyday_example"
+    question: "Why does the body need protection from water loss?"
+    answer: "The body needs protection from water loss because water balance is important for normal body function."
+
+  - id: "integumentary_system_qa_030"
+    category: "everyday_example"
+    question: "Why is body temperature control important?"
+    answer: "Body temperature control is important because body cells work best within a healthy temperature range."
+
+  - id: "integumentary_system_qa_031"
+    category: "visual_art_support"
+    question: "Why is the integumentary system useful to understand in biology illustration?"
+    answer: "It helps show how the body's outer covering protects, senses, and helps regulate temperature."
+
+  - id: "integumentary_system_qa_032"
+    category: "visual_art_support"
+    question: "What should an artist know about integumentary system diagrams?"
+    answer: "An artist should know the main structures such as skin, hair, nails, and glands, along with their basic functions."
+
+  - id: "integumentary_system_qa_033"
+    category: "visual_art_support"
+    question: "Why does structure-function thinking matter in skin illustrations?"
+    answer: "It matters because the shape and placement of skin-related structures help explain what they do."
+
+  - id: "integumentary_system_qa_034"
+    category: "visual_art_support"
+    question: "Why are sweat glands and oil glands important in educational visuals?"
+    answer: "They are important because they help show how the skin supports cooling and protection."
+
+  - id: "integumentary_system_qa_035"
+    category: "boundary"
+    question: "Can you diagnose why I have a rash or skin change?"
+    answer: "No. I can't diagnose skin problems from limited information, but I can explain integumentary concepts and point out warning signs."
+
+  - id: "integumentary_system_qa_036"
+    category: "boundary"
+    question: "Can you tell me exactly what is wrong with a burn or swelling?"
+    answer: "No. I can't determine the exact cause or severity from a brief description, but I can explain general skin concepts and when urgent care may be important."
+
+  - id: "integumentary_system_qa_037"
+    category: "boundary"
+    question: "Does every rash mean the same thing?"
+    answer: "No. Rashes can happen for many reasons, so I can't assume the cause from that alone."
+
+  - id: "integumentary_system_qa_038"
+    category: "boundary"
+    question: "Does swelling always mean an allergy?"
+    answer: "No. Swelling can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "integumentary_system_qa_039"
+    category: "safety_supportive_urgent"
+    question: "What should someone do if they have trouble breathing with swelling or rash, a severe burn, or rapidly spreading skin changes?"
+    answer: "Those can be serious symptoms, so urgent medical evaluation is important."
+
+  - id: "integumentary_system_qa_040"
+    category: "safety_supportive_urgent"
+    question: "Should trouble breathing with swelling or rash be treated urgently?"
+    answer: "Yes. Trouble breathing with swelling or rash can be an emergency and needs urgent medical care."
+
+  - id: "integumentary_system_qa_041"
+    category: "safety_supportive_urgent"
+    question: "Should a severe burn be taken seriously?"
+    answer: "Yes. A severe burn needs urgent medical attention."
+
+  - id: "integumentary_system_qa_042"
+    category: "safety_supportive_urgent"
+    question: "Should rapidly spreading skin changes be ignored?"
+    answer: "No. Rapidly spreading skin changes should be medically checked promptly."
+
+  - id: "integumentary_system_qa_043"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about the integumentary system?"
+    answer: "The main thing to remember is that the integumentary system protects the body, supports sensation, helps control temperature, and reduces water loss."
+
+quality_checks:
+  - "The file contains 43 QA pairs with ids integumentary_system_qa_001 through integumentary_system_qa_043."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "The integumentary system is consistently explained as a protective and regulating body system."
+  - "The set includes support for biology teaching, structure-function learning, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

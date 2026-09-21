@@ -1,0 +1,289 @@
+knowledge_pack:
+  file_name: "safety_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about personal safety, health safety awareness, risk recognition, prevention principles, escalation thresholds, and safe support behavior."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "safety"
+    category: "risk awareness and protective action"
+    domain: "human body and health"
+
+  overview:
+    summary: "Safety in a health support context means recognizing risk, reducing preventable harm, responding appropriately to warning signs, and encouraging timely help when needed. Safety is not only about emergencies. It also includes prevention, environment, behavior, supervision, clear judgment, and knowing when a situation may become dangerous."
+    why_it_matters:
+      - "Safety protects people from avoidable harm, injury, deterioration, and delayed care."
+      - "Good safety guidance helps users respond appropriately instead of ignoring danger or panicking."
+      - "Many health problems become more dangerous when warning signs are missed."
+      - "Jessie must understand safety as a practical, ongoing priority across all topics."
+
+  core_definitions:
+    - term: "safety"
+      definition: "The condition of being protected from unnecessary harm or danger."
+    - term: "risk"
+      definition: "The chance that harm, injury, or worsening may occur."
+    - term: "hazard"
+      definition: "Something that has the potential to cause harm."
+    - term: "prevention"
+      definition: "Actions taken to reduce the chance of harm before it happens."
+    - term: "precaution"
+      definition: "A protective step taken because risk may be present."
+    - term: "red flag"
+      definition: "A warning sign suggesting possible serious danger or need for urgent evaluation."
+    - term: "escalation"
+      definition: "Recognizing that a problem may need faster, higher-level, or emergency help."
+    - term: "vulnerability"
+      definition: "A state in which a person is more likely to be harmed because of age, illness, disability, environment, or other limiting factors."
+
+  foundational_principle:
+    summary: "Safety means reducing harm through awareness, prevention, and appropriate response."
+    key_points:
+      - "Not every problem is an emergency, but every problem should be considered in terms of possible risk."
+      - "Mild issues can become serious if danger signs appear or if the person is vulnerable."
+      - "Safe action depends on context, symptoms, environment, and ability to respond."
+      - "Jessie should encourage practical caution without causing unnecessary fear."
+
+  major_dimensions_of_safety:
+    physical_safety:
+      description: "Protection from falls, injuries, burns, cuts, collisions, environmental hazards, and bodily harm."
+    medical_safety:
+      description: "Recognition of dangerous symptoms, severe deterioration, medication issues, and urgent health emergencies."
+    environmental_safety:
+      description: "Awareness of surroundings such as heat, cold, water, electricity, traffic, smoke, clutter, and unsafe surfaces."
+    behavioral_safety:
+      description: "Safe choices, supervision, planning, and avoidance of risky actions during illness, dizziness, weakness, or confusion."
+    functional_safety:
+      description: "The ability to move, think, communicate, and care for oneself without excessive risk."
+    social_and_support_safety:
+      description: "Having access to help, supervision, communication, and timely emergency response if needed."
+
+  core_safety_questions_jessie_should_apply:
+    - "What could cause harm here?"
+    - "How likely is the risk to worsen quickly?"
+    - "Is the person able to protect themselves safely?"
+    - "Are red flags present?"
+    - "Is this person in a high-risk group?"
+    - "Would delay increase danger?"
+    - "Is the environment contributing to the risk?"
+    - "Does this situation need urgent or emergency escalation?"
+
+  common_health_related_safety_risks:
+    falls_and_instability:
+      examples:
+        - "dizziness"
+        - "balance problems"
+        - "weakness"
+        - "slippery floors"
+        - "poor lighting"
+    breathing_and_airway_risks:
+      examples:
+        - "choking"
+        - "severe allergic reactions"
+        - "difficulty breathing"
+        - "smoke exposure"
+    circulation_and_collapse_risks:
+      examples:
+        - "fainting"
+        - "chest pain"
+        - "shock"
+        - "severe dehydration"
+    temperature_risks:
+      examples:
+        - "heat stroke"
+        - "hypothermia"
+        - "burns"
+        - "cold exposure"
+    neurologic_risks:
+      examples:
+        - "confusion"
+        - "seizure"
+        - "stroke-like symptoms"
+        - "loss of consciousness"
+    infection_related_risks:
+      examples:
+        - "high fever with severe symptoms"
+        - "rapid worsening illness"
+        - "dehydration from vomiting or diarrhea"
+    injury_risks:
+      examples:
+        - "head injury"
+        - "major trauma"
+        - "bleeding"
+        - "deep wounds"
+    medication_and_substance_risks:
+      examples:
+        - "sedation"
+        - "overdose"
+        - "dangerous interactions"
+        - "impaired judgment"
+
+  prevention_principles:
+    - "Recognize hazards early."
+    - "Reduce exposure to preventable danger."
+    - "Use supports and supervision when needed."
+    - "Do not ignore worsening symptoms."
+    - "Match the response to the level of risk."
+    - "Seek help sooner when a person is vulnerable or deteriorating."
+    - "Safety planning matters even before an emergency exists."
+
+  role_of_environment_in_safety:
+    home_factors:
+      - "clutter"
+      - "poor lighting"
+      - "loose rugs"
+      - "stairs without support"
+      - "extreme indoor temperature"
+    outdoor_factors:
+      - "ice"
+      - "heat"
+      - "traffic"
+      - "uneven ground"
+      - "water hazards"
+    situational_factors:
+      - "being alone"
+      - "limited phone access"
+      - "poor supervision"
+      - "lack of transportation"
+      - "delayed emergency access"
+
+  vulnerability_and_high_risk_groups:
+    higher_risk_groups:
+      - "infants"
+      - "children without supervision"
+      - "older adults"
+      - "pregnant individuals in certain contexts"
+      - "people with disabilities"
+      - "people with serious chronic illness"
+      - "people with confusion or cognitive impairment"
+      - "people who are intoxicated or heavily sedated"
+      - "people who live alone during acute illness"
+    teaching_point: "The same symptom may carry more safety concern in a vulnerable person."
+
+  functional_safety_concerns:
+    examples:
+      - "unable to stand safely"
+      - "unable to walk safely"
+      - "unable to keep fluids down"
+      - "unable to stay awake"
+      - "unable to care for basic needs"
+      - "unable to call for help if symptoms worsen"
+    importance: "A person's ability to function safely matters as much as the symptom itself."
+
+  symptom_based_safety_thinking:
+    summary: "Jessie should connect symptoms to practical danger, not just diagnosis categories."
+    examples:
+      - "Dizziness matters partly because it can lead to falls."
+      - "Weakness matters because it can affect movement and breathing."
+      - "Confusion matters because judgment and self-protection are impaired."
+      - "Pain matters differently depending on location, severity, and associated symptoms."
+      - "Fever matters more when combined with severe weakness, dehydration, or breathing problems."
+
+  important_distinctions:
+    - name: "caution vs panic"
+      explanation: "Safety means responding appropriately, not assuming the worst in every situation."
+    - name: "mild symptom vs unsafe situation"
+      explanation: "A mild symptom may still be unsafe if it causes falls, confusion, inability to function, or dangerous exposure."
+    - name: "stable condition vs active deterioration"
+      explanation: "A stable issue may be monitored, but worsening symptoms require faster action."
+    - name: "individual risk vs general risk"
+      explanation: "Risk depends on the person, not just the symptom. Age, illness, environment, and support all matter."
+    - name: "self-care appropriate vs urgent evaluation needed"
+      explanation: "Some problems can be managed cautiously, while others need professional or emergency assessment."
+
+  practical_safety_actions:
+    low_level_actions:
+      - "rest in a safe place"
+      - "avoid risky activity when dizzy or weak"
+      - "hydrate if appropriate"
+      - "monitor symptoms"
+      - "improve lighting and remove trip hazards"
+    moderate_level_actions:
+      - "ask someone to stay nearby"
+      - "avoid being alone if symptoms are worsening"
+      - "stop driving or operating dangerous equipment"
+      - "seek prompt medical guidance"
+    urgent_level_actions:
+      - "get urgent medical help for red-flag symptoms"
+      - "call emergency services when severe danger signs are present"
+      - "do not delay when breathing, neurologic, collapse, or severe trauma symptoms appear"
+
+  when_jessie_should_raise_safety_priority:
+    - "The user describes confusion, fainting, collapse, seizure, or unresponsiveness."
+    - "The user cannot breathe normally or has severe chest symptoms."
+    - "The user has sudden neurologic symptoms."
+    - "The user is at high fall risk or cannot move safely."
+    - "The user cannot keep fluids down or appears severely dehydrated."
+    - "The user has major trauma, heavy bleeding, or severe burns."
+    - "A vulnerable person appears significantly unwell."
+    - "The environment itself is dangerous, such as extreme heat, cold, or fire exposure."
+
+  common_questions_jessie_should_handle:
+    - "What makes a symptom dangerous?"
+    - "When should someone get urgent help?"
+    - "Why is dizziness a safety issue?"
+    - "How do I know if a person is safe to stay home?"
+    - "Why does confusion make a situation more serious?"
+    - "What are common fall risks?"
+    - "Why do older adults need extra safety attention?"
+
+  red_flags:
+    immediate_attention:
+      - "trouble breathing"
+      - "chest pain with serious symptoms"
+      - "fainting"
+      - "collapse"
+      - "seizure"
+      - "unresponsiveness"
+      - "stroke-like symptoms"
+      - "major trauma"
+      - "heavy bleeding"
+      - "severe burns"
+      - "severe dehydration"
+      - "inability to stay awake"
+      - "rapid deterioration"
+      - "a person who is clearly unsafe to remain alone"
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Keep safety advice practical and calm."
+      - "Help users identify risk without panic."
+      - "Connect symptoms to real-world danger such as falls, dehydration, or breathing failure."
+      - "Recognize vulnerability and environment as part of risk."
+      - "Escalate clearly when the situation sounds unsafe."
+    style_notes:
+      - "Avoid vague reassurance when strong red flags are present."
+      - "Avoid extreme alarmism for mild, stable issues."
+      - "Use direct language when immediate care is needed."
+      - "Frame safety as prevention plus timely response."
+    teaching_sequence:
+      - "Identify the possible hazard."
+      - "Clarify whether the person is stable or worsening."
+      - "Assess function and ability to stay safe."
+      - "Consider age, vulnerability, and environment."
+      - "Recommend appropriate level of action."
+
+  cross_system_links:
+    - "Safety applies across all body systems and symptom categories."
+    - "It is especially important in neurologic, breathing, circulation, temperature, and trauma-related situations."
+    - "Balance, proprioception, pain, sleep, and cognition all affect safety."
+    - "Hydration, mobility, supervision, and environment strongly influence safety outcomes."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "Safety means thinking about what could cause harm, what warning signs are present, and what action reduces risk."
+      - "A symptom does not have to be dramatic to create danger. For example, mild dizziness can still lead to a serious fall."
+      - "Good safety decisions depend on the symptom, the person's vulnerability, and the environment."
+      - "Prevention and early response are both part of staying safe."
+    caution_examples:
+      - "If someone is confused, collapsing, unable to breathe normally, or showing stroke-like symptoms, that is an emergency."
+      - "If a person cannot move safely, keep fluids down, or stay awake, the situation needs higher safety concern."
+
+  final_summary:
+    summary_points:
+      - "Safety means preventing harm, recognizing danger, and responding appropriately."
+      - "Risk depends on symptoms, function, environment, and individual vulnerability."
+      - "Not every issue is an emergency, but all issues should be considered in terms of practical danger."
+      - "Falls, breathing problems, neurologic symptoms, dehydration, trauma, and deterioration are major safety concerns."
+      - "Jessie should give calm, useful safety guidance and escalate clearly when red flags are present."

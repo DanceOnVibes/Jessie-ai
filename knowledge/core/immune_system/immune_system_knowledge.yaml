@@ -1,0 +1,301 @@
+knowledge_pack:
+  file_name: "immune_system_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about the immune system, body defense, immune cells, immune organs, inflammation, infection response, recovery support, and safety escalation."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "immune_system"
+    category: "body defense and protection"
+    domain: "human body and health"
+
+  overview:
+    summary: "The immune system helps protect the body from harmful germs and other threats. It includes cells, tissues, organs, and signaling processes that work together to recognize danger, respond to infection, support healing, and help limit damage. The immune system is active all the time, not only during illness, and it works closely with other body systems such as the lymphatic, circulatory, integumentary, and respiratory systems."
+    why_it_matters:
+      - "The immune system helps defend the body against bacteria, viruses, fungi, and other threats."
+      - "It helps the body respond to infection and recover from injury."
+      - "It contributes to inflammation, fever, and healing processes."
+      - "Immune function affects safety because serious infections and allergic reactions can become dangerous quickly."
+
+  core_definitions:
+    - term: "immune system"
+      definition: "The body system that helps recognize and defend against harmful germs and other threats."
+    - term: "immune response"
+      definition: "The body's reaction to a harmful germ, injury, or other threat."
+    - term: "white blood cell"
+      definition: "A type of blood cell involved in detecting and fighting infection and other threats."
+    - term: "infection"
+      definition: "A condition in which harmful germs enter and multiply in the body."
+    - term: "inflammation"
+      definition: "A protective body response that may cause redness, warmth, swelling, or pain."
+    - term: "immunity"
+      definition: "The body's ability to resist or respond to certain infections or threats."
+    - term: "pathogen"
+      definition: "A harmful germ or infectious agent that can cause disease."
+    - term: "immune memory"
+      definition: "The immune system's ability to respond more effectively to a threat it has encountered before."
+
+  foundational_principle:
+    summary: "The immune system protects the body by recognizing threats, responding to them, and helping restore stability."
+    key_points:
+      - "The body must distinguish threats from normal body tissues."
+      - "Immune cells detect danger signals and harmful germs."
+      - "Immune responses help limit spread of infection and support recovery."
+      - "Inflammation can be protective, but severe or dysregulated responses can be harmful."
+
+  major_components:
+    white_blood_cells:
+      role: "Help detect, signal, and respond to infection and other threats."
+      importance: "They are core working cells of immune defense."
+    lymph_nodes:
+      role: "Filter lymph fluid and help coordinate immune responses."
+      importance: "They are important meeting points for immune activity."
+    spleen:
+      role: "Helps filter blood and supports immune defense."
+      importance: "It contributes to blood-related immune surveillance."
+    bone_marrow:
+      role: "Produces blood cells, including many immune cells."
+      importance: "It is a key source of immune cell production."
+    thymus:
+      role: "Supports maturation of certain immune cells."
+      importance: "It helps develop important immune function."
+    lymphatic_vessels:
+      role: "Carry lymph fluid and help connect immune tissues."
+      importance: "They support fluid movement and immune transport."
+    skin_and_mucosal_barriers:
+      role: "Provide first-line protection against outside threats."
+      importance: "Barriers help prevent germs from entering the body."
+
+  how_the_immune_system_works:
+    detection_phase:
+      - "A harmful germ or threat enters or affects the body."
+      - "Immune cells or tissues recognize danger signals."
+    activation_phase:
+      - "Immune responses are triggered."
+      - "Signaling helps recruit more defensive activity."
+    response_phase:
+      - "White blood cells and other defenses help attack or control the threat."
+      - "Inflammation may increase blood flow and immune activity in the affected area."
+    recovery_phase:
+      - "The body works to remove damaged material and support healing."
+    memory_phase:
+      - "The immune system may remember some threats and respond faster in the future."
+
+  major_functions:
+    defense_against_germs:
+      - "recognizes harmful bacteria"
+      - "responds to viruses"
+      - "helps defend against fungi and some parasites"
+    damage_response:
+      - "responds to tissue injury"
+      - "helps coordinate inflammation"
+    cleanup_and_repair_support:
+      - "helps clear damaged material"
+      - "supports healing processes"
+    surveillance:
+      - "monitors the body for threats"
+      - "helps detect problems early"
+    immune_memory:
+      - "can improve response to previously encountered threats"
+
+  barriers_and_internal_defense:
+    external_barriers:
+      - "skin"
+      - "mucous membranes"
+      - "protective body secretions"
+    internal_defense:
+      - "white blood cells"
+      - "lymphatic tissues"
+      - "immune signaling"
+    teaching_point:
+      - "The immune system includes both physical barriers and internal responses."
+
+  immune_system_and_other_body_systems:
+    lymphatic_system:
+      relationship: "The immune system works closely with lymph fluid, lymph vessels, and lymph nodes."
+    circulatory_system:
+      relationship: "Immune cells travel through the blood to reach tissues throughout the body."
+    integumentary_system:
+      relationship: "The skin acts as a major protective barrier against germs."
+    respiratory_system:
+      relationship: "The respiratory tract can be an entry point for germs, and immune defenses help respond."
+    digestive_system:
+      relationship: "The digestive tract also serves as an important barrier and site of immune activity."
+    nervous_system:
+      relationship: "The nervous system can influence immune responses, and illness can affect overall body regulation."
+
+  inflammation_explained:
+    summary: "Inflammation is part of the body's defense and repair response."
+    key_points:
+      - "Inflammation may cause redness, warmth, swelling, pain, or loss of normal function."
+      - "It can help bring immune activity to an area of need."
+      - "Inflammation is not automatically bad."
+      - "Too much, severe, or ongoing inflammation can contribute to harm."
+
+  fever_and_immune_response:
+    summary: "Fever can be part of the body's response to infection or inflammation."
+    key_points:
+      - "A fever may happen when the body is responding to illness."
+      - "Not every immune problem causes fever."
+      - "Very high fever or fever with serious symptoms is more concerning."
+
+  immune_memory_and_future_response:
+    summary: "The immune system can sometimes respond more efficiently to repeated threats."
+    key_points:
+      - "Some immune responses improve after prior exposure."
+      - "This helps explain why immune memory matters."
+      - "Immune memory is a beginner-friendly bridge to understanding longer-term protection concepts."
+
+  common_signs_related_to_immune_activity:
+    - name: "fever"
+      explanation: "The body temperature may rise during infection or inflammation."
+    - name: "swollen lymph nodes"
+      explanation: "Lymph nodes may enlarge when immune activity increases."
+    - name: "fatigue during illness"
+      explanation: "The body may feel more tired when fighting infection."
+    - name: "redness and swelling"
+      explanation: "These can be visible signs of inflammation."
+    - name: "body aches"
+      explanation: "General aching can occur during immune activation or infection."
+    - name: "recovery changes"
+      explanation: "Energy, appetite, and comfort may shift during and after illness."
+
+  common_factors_that_affect_immune_function:
+    physiologic:
+      - "age"
+      - "stress"
+      - "sleep quality"
+      - "nutrition status"
+    exposure_related:
+      - "germ exposure"
+      - "injury"
+      - "environmental irritants"
+    health_related:
+      - "chronic illness"
+      - "immune dysfunction"
+      - "severe infection"
+    treatment_related:
+      - "medications that alter immune activity"
+      - "medical treatments affecting white blood cell function"
+
+  important_distinctions:
+    - name: "immune response vs infection itself"
+      explanation: "The immune response is the body's reaction to a threat, while the infection is the presence and growth of the harmful germ."
+    - name: "inflammation vs infection"
+      explanation: "Inflammation is a body response and can happen with infection or other causes, while infection specifically involves harmful germs."
+    - name: "white blood cells vs germs"
+      explanation: "White blood cells are part of the body and help fight germs; they are not germs themselves."
+    - name: "protective fever vs dangerous illness pattern"
+      explanation: "Fever can be part of a normal response, but fever with confusion, breathing trouble, or severe weakness is more concerning."
+    - name: "normal defense activity vs severe immune emergency"
+      explanation: "Routine immune defense happens constantly, but sepsis, severe allergic reaction, or rapidly worsening infection needs urgent care."
+
+  age_related_considerations:
+    children:
+      - "Immune responses are important because children are still building exposure-related immune experience."
+      - "Serious infection signs can worsen quickly in some children."
+    adults:
+      - "The immune system supports protection, healing, and recovery across daily life."
+    older_adults:
+      - "Immune responses may change with age."
+      - "Infection may present differently and can become serious more quickly in some cases."
+
+  common_questions_jessie_should_handle:
+    - "What does the immune system do?"
+    - "What are white blood cells?"
+    - "What is inflammation?"
+    - "Why do lymph nodes swell?"
+    - "How does the immune system fight infection?"
+    - "What is immunity?"
+    - "Why can fever happen during illness?"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "mild temporary swelling near a healing injury"
+      - "brief low fever with a minor illness"
+      - "short-term tiredness during routine infection recovery"
+    should_be_monitored:
+      - "persistent swollen lymph nodes"
+      - "recurrent infections"
+      - "fever lasting longer than expected"
+      - "worsening redness or swelling"
+      - "ongoing fatigue after illness"
+    more_concerning:
+      - "high fever with severe weakness"
+      - "rapidly spreading redness"
+      - "infection symptoms getting worse quickly"
+      - "signs of dehydration during infection"
+      - "face or throat swelling"
+      - "confusion during illness"
+    emergency_patterns:
+      - "trouble breathing with allergic or infection symptoms"
+      - "swelling of the face or throat"
+      - "high fever with confusion"
+      - "rapid collapse or unresponsiveness"
+      - "severe weakness with worsening infection signs"
+      - "possible sepsis pattern"
+
+  red_flags:
+    immediate_attention:
+      - "trouble breathing"
+      - "swelling of the face or throat"
+      - "high fever with confusion"
+      - "rapidly worsening infection signs"
+      - "severe weakness"
+      - "collapse"
+      - "loss of consciousness"
+      - "possible sepsis symptoms"
+
+  safety_relevance:
+    key_points:
+      - "Immune-related problems can range from mild to life-threatening."
+      - "Severe infection, sepsis, and major allergic reactions can become dangerous quickly."
+      - "Breathing trouble, confusion, throat swelling, collapse, or rapid worsening require urgent action."
+      - "Jessie should remain educational for basic immune explanations but escalate clearly for serious warning signs."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Explain the immune system first as body protection against harmful germs and threats."
+      - "Use white blood cells as a simple anchor concept."
+      - "Describe inflammation as a response, not automatically as a problem."
+      - "Connect the immune system to barriers, lymph nodes, fever, and healing."
+      - "Escalate clearly for severe infection signs or allergic emergency patterns."
+    style_notes:
+      - "Use simple beginner-friendly language first."
+      - "Avoid excessive immunology detail unless the user asks for it."
+      - "Do not diagnose infections, immune disorders, sepsis, or allergic emergencies from limited descriptions."
+      - "Use direct safety language when red flags are present."
+    teaching_sequence:
+      - "Define the immune system."
+      - "Explain what threats it helps defend against."
+      - "Introduce white blood cells and key immune organs."
+      - "Explain inflammation and recovery simply."
+      - "Differentiate routine immune activity from urgent danger signs."
+
+  cross_system_links:
+    - "The immune system works closely with the lymphatic system."
+    - "Immune cells travel through the circulatory system."
+    - "The skin and mucous membranes help block germs before they enter the body."
+    - "The respiratory and digestive tracts are important sites of immune defense."
+    - "Immune function supports healing, recovery, and protection across the whole body."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "The immune system helps protect the body from harmful germs and other threats."
+      - "White blood cells are important immune cells that help detect and fight infection."
+      - "Inflammation is part of the body's defense response and can help bring protection and healing to an affected area."
+      - "The immune system works all the time, even when you are not aware of it."
+    caution_examples:
+      - "Many immune responses are normal and protective, but trouble breathing, face or throat swelling, or high fever with confusion are urgent."
+      - "Rapidly worsening infection signs should not be ignored."
+
+  final_summary:
+    summary_points:
+      - "The immune system protects the body from harmful germs and other threats."
+      - "It includes white blood cells, lymph nodes, the spleen, bone marrow, the thymus, and protective barriers."
+      - "Immune responses help fight infection, coordinate inflammation, and support recovery."
+      - "Inflammation can be protective, but severe or dysregulated responses can be harmful."
+      - "The immune system works closely with the lymphatic, circulatory, integumentary, respiratory, and digestive systems."
+      - "Jessie should explain immune function clearly and escalate severe infection or allergic warning signs promptly."

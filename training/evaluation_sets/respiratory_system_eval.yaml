@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Respiratory System Evaluation Set"
+  domain: "human_body"
+  topic: "respiratory_system"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of the respiratory system, breathing, gas exchange, airway function, system interactions, breathing-related symptoms, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "respiratory_eval_001"
+      prompt: "What is the respiratory system?"
+      expected: "The respiratory system is the body system that helps bring in oxygen and remove carbon dioxide."
+
+    - id: "respiratory_eval_002"
+      prompt: "What is the main job of the respiratory system?"
+      expected: "Its main job is to support breathing and gas exchange."
+
+    - id: "respiratory_eval_003"
+      prompt: "Why is the respiratory system important?"
+      expected: "It is important because the body needs oxygen and needs to remove carbon dioxide."
+
+    - id: "respiratory_eval_004"
+      prompt: "What is breathing in a simple way?"
+      expected: "Breathing is moving air into and out of the lungs."
+
+    - id: "respiratory_eval_005"
+      prompt: "What is gas exchange in a simple way?"
+      expected: "Gas exchange is the process of taking in oxygen and removing carbon dioxide."
+
+    - id: "respiratory_eval_006"
+      prompt: "Are the lungs part of the respiratory system?"
+      expected: "Yes. The lungs are major organs of the respiratory system."
+
+    - id: "respiratory_eval_007"
+      prompt: "Are the nose, throat, and airways part of the respiratory system?"
+      expected: "Yes. Air passes through those structures as part of breathing."
+
+    - id: "respiratory_eval_008"
+      prompt: "Does the respiratory system interact with the circulatory system?"
+      expected: "Yes. The respiratory system provides oxygen and the circulatory system transports it."
+
+    - id: "respiratory_eval_009"
+      prompt: "Does the respiratory system interact with the muscular system?"
+      expected: "Yes. Breathing depends on muscles such as the diaphragm and other respiratory muscles."
+
+    - id: "respiratory_eval_010"
+      prompt: "Does the respiratory system interact with the nervous system?"
+      expected: "Yes. The nervous system helps regulate breathing."
+
+    - id: "respiratory_eval_011"
+      prompt: "Does the respiratory system only work during exercise?"
+      expected: "No. It works continuously during rest, sleep, and activity."
+
+    - id: "respiratory_eval_012"
+      prompt: "Can the respiratory system help the body get oxygen for energy use?"
+      expected: "Yes. Oxygen taken in by breathing supports cellular energy use."
+
+    - id: "respiratory_eval_013"
+      prompt: "Can the respiratory system help remove carbon dioxide?"
+      expected: "Yes. Carbon dioxide is removed when a person exhales."
+
+    - id: "respiratory_eval_014"
+      prompt: "Can breathing rate change with activity?"
+      expected: "Yes. Breathing usually increases during exercise or exertion."
+
+    - id: "respiratory_eval_015"
+      prompt: "Can breathing rate change with stress or emotion?"
+      expected: "Yes. Stress or emotion can change breathing patterns."
+
+    - id: "respiratory_eval_016"
+      prompt: "Can the respiratory system help with speech?"
+      expected: "Yes. Airflow from the lungs helps make speech possible."
+
+    - id: "respiratory_eval_017"
+      prompt: "Can coughing be a protective response?"
+      expected: "Yes. Coughing can help clear the airways."
+
+    - id: "respiratory_eval_018"
+      prompt: "Can sneezing be a protective response?"
+      expected: "Yes. Sneezing can help clear irritants from the upper airway."
+
+    - id: "respiratory_eval_019"
+      prompt: "Can mucus help protect the respiratory system?"
+      expected: "Yes. Mucus helps trap particles and supports airway protection."
+
+    - id: "respiratory_eval_020"
+      prompt: "Can the respiratory system help filter, warm, or humidify air?"
+      expected: "Yes. Parts of the airway help prepare inhaled air."
+
+    - id: "respiratory_eval_021"
+      prompt: "What is a simple example of the respiratory system at work?"
+      expected: "Taking a breath in oxygen and breathing out carbon dioxide is a simple example."
+
+    - id: "respiratory_eval_022"
+      prompt: "Can a person breathe faster during exercise because the body needs more oxygen?"
+      expected: "Yes. Breathing increases to support greater oxygen demand and carbon dioxide removal."
+
+    - id: "respiratory_eval_023"
+      prompt: "Can the respiratory system affect endurance?"
+      expected: "Yes. Efficient breathing supports activity and endurance."
+
+    - id: "respiratory_eval_024"
+      prompt: "Can the respiratory system be involved in sleep?"
+      expected: "Yes. Breathing continues and remains essential during sleep."
+
+    - id: "respiratory_eval_025"
+      prompt: "Can breathing feel different during illness?"
+      expected: "Yes. Illness can change breathing comfort and pattern."
+
+    - id: "respiratory_eval_026"
+      prompt: "Can airway narrowing make breathing harder?"
+      expected: "Yes. Narrowed airways can make airflow more difficult."
+
+    - id: "respiratory_eval_027"
+      prompt: "Can inflammation affect the airways?"
+      expected: "Yes. Inflammation can affect airway function and comfort."
+
+    - id: "respiratory_eval_028"
+      prompt: "Can infection affect the respiratory system?"
+      expected: "Yes. Infections can affect the nose, throat, airways, or lungs."
+
+    - id: "respiratory_eval_029"
+      prompt: "Can allergies affect breathing?"
+      expected: "Yes. Allergies can affect the nose, throat, and airways and may sometimes affect breathing."
+
+    - id: "respiratory_eval_030"
+      prompt: "Can smoke or pollutants irritate the respiratory system?"
+      expected: "Yes. Smoke and pollutants can irritate the airways and lungs."
+
+    - id: "respiratory_eval_031"
+      prompt: "Can shortness of breath be an important symptom?"
+      expected: "Yes. Shortness of breath can be important and should be taken seriously."
+
+    - id: "respiratory_eval_032"
+      prompt: "Can wheezing suggest airway narrowing?"
+      expected: "Yes. Wheezing can happen when air moves through narrowed airways."
+
+    - id: "respiratory_eval_033"
+      prompt: "Can chest tightness occur with breathing problems?"
+      expected: "Yes. Chest tightness can occur with some breathing-related problems."
+
+    - id: "respiratory_eval_034"
+      prompt: "Can noisy breathing be important?"
+      expected: "Yes. Noisy breathing can indicate an airway problem and may need evaluation."
+
+    - id: "respiratory_eval_035"
+      prompt: "Can coughing up blood be serious?"
+      expected: "Yes. Coughing up blood is serious and should be evaluated promptly."
+
+    - id: "respiratory_eval_036"
+      prompt: "Can blue lips or face suggest low oxygen?"
+      expected: "Yes. Blue or gray discoloration can suggest low oxygen and is urgent."
+
+    - id: "respiratory_eval_037"
+      prompt: "Can severe breathing problems affect thinking or alertness?"
+      expected: "Yes. Serious breathing problems can affect alertness and mental status."
+
+    - id: "respiratory_eval_038"
+      prompt: "Can breathing problems make it hard to speak full sentences?"
+      expected: "Yes. Difficulty speaking in full sentences can suggest serious breathing trouble."
+
+    - id: "respiratory_eval_039"
+      prompt: "Can the respiratory system help regulate body chemistry through gas balance?"
+      expected: "Yes. Breathing helps regulate oxygen and carbon dioxide balance in the body."
+
+    - id: "respiratory_eval_040"
+      prompt: "Can deep breathing differ from shallow breathing?"
+      expected: "Yes. Deep breathing moves more air than shallow breathing."
+
+    - id: "respiratory_eval_041"
+      prompt: "Can rapid breathing happen with exertion, fever, stress, or illness?"
+      expected: "Yes. Rapid breathing can happen for several reasons."
+
+    - id: "respiratory_eval_042"
+      prompt: "Can pain affect breathing?"
+      expected: "Yes. Pain can change breathing pattern or make deep breathing harder."
+
+    - id: "respiratory_eval_043"
+      prompt: "Can posture influence breathing comfort?"
+      expected: "Yes. Body position can affect how breathing feels."
+
+    - id: "respiratory_eval_044"
+      prompt: "Can respiratory symptoms affect sleep quality?"
+      expected: "Yes. Cough, congestion, or shortness of breath can affect sleep."
+
+    - id: "respiratory_eval_045"
+      prompt: "Can respiratory symptoms affect exercise tolerance?"
+      expected: "Yes. Breathing problems can reduce tolerance for activity."
+
+    - id: "respiratory_eval_046"
+      prompt: "Can fever and cough together suggest a respiratory illness?"
+      expected: "Yes. Fever and cough can occur with respiratory infections."
+
+    - id: "respiratory_eval_047"
+      prompt: "Can a sore throat be part of the respiratory system?"
+      expected: "Yes. The throat is part of the upper respiratory tract."
+
+    - id: "respiratory_eval_048"
+      prompt: "Can nasal congestion affect breathing comfort?"
+      expected: "Yes. Congestion can make breathing feel less comfortable, especially through the nose."
+
+    - id: "respiratory_eval_049"
+      prompt: "Can the respiratory system support smell through airflow in the nose?"
+      expected: "Yes. Airflow through the nose helps support smell."
+
+    - id: "respiratory_eval_050"
+      prompt: "Can exercise training influence breathing efficiency?"
+      expected: "Yes. Conditioning can improve how the body handles activity and breathing demands."
+
+    - id: "respiratory_eval_051"
+      prompt: "Can the body breathe automatically without conscious effort most of the time?"
+      expected: "Yes. Breathing is usually regulated automatically."
+
+    - id: "respiratory_eval_052"
+      prompt: "Can the respiratory system help maintain life every minute of the day?"
+      expected: "Yes. Continuous breathing is essential for life."
+
+    - id: "respiratory_eval_053"
+      prompt: "Can trouble breathing during rest be concerning?"
+      expected: "Yes. Trouble breathing at rest can be concerning and should be evaluated."
+
+    - id: "respiratory_eval_054"
+      prompt: "Can sudden shortness of breath be serious?"
+      expected: "Yes. Sudden shortness of breath can be serious and needs prompt attention."
+
+    - id: "respiratory_eval_055"
+      prompt: "Can chest pain with breathing trouble be urgent?"
+      expected: "Yes. Chest pain with breathing trouble can be urgent."
+
+    - id: "respiratory_eval_056"
+      prompt: "Can breathing trouble with facial or throat swelling be urgent?"
+      expected: "Yes. That combination can indicate a dangerous reaction and is urgent."
+
+    - id: "respiratory_eval_057"
+      prompt: "Can severe asthma-like symptoms or wheezing need urgent care?"
+      expected: "Yes. Severe wheezing or major breathing difficulty needs urgent evaluation."
+
+    - id: "respiratory_eval_058"
+      prompt: "Can breathing trouble after choking be urgent?"
+      expected: "Yes. Breathing trouble after choking is urgent."
+
+    - id: "respiratory_eval_059"
+      prompt: "Should a person with blue lips, severe breathing difficulty, or reduced alertness get immediate help?"
+      expected: "Yes. Those are emergency warning signs and require immediate attention."
+
+    - id: "respiratory_eval_060"
+      prompt: "Should trouble breathing be ignored if it feels new or worsening?"
+      expected: "No. New or worsening trouble breathing should be taken seriously."
+
+    - id: "respiratory_eval_061"
+      prompt: "Can the respiratory and circulatory systems work together during exercise?"
+      expected: "Yes. The respiratory system brings in oxygen and the circulatory system delivers it to tissues."
+
+    - id: "respiratory_eval_062"
+      prompt: "Can the respiratory and nervous systems work together to adjust breathing?"
+      expected: "Yes. The nervous system helps regulate breathing rate and pattern."
+
+    - id: "respiratory_eval_063"
+      prompt: "Can the respiratory and immune systems work together to protect the lungs?"
+      expected: "Yes. Airway defenses and immune responses help protect against infection."
+
+    - id: "respiratory_eval_064"
+      prompt: "Can coughing, mucus, and immune defenses all help protect the airways?"
+      expected: "Yes. Those are part of airway protection."
+
+    - id: "respiratory_eval_065"
+      prompt: "Can shallow breathing reduce effective air exchange?"
+      expected: "Yes. Shallow breathing may reduce how much fresh air reaches the lungs."
+
+    - id: "respiratory_eval_066"
+      prompt: "Can respiratory problems increase fatigue?"
+      expected: "Yes. Breathing problems can reduce activity tolerance and increase fatigue."
+
+    - id: "respiratory_eval_067"
+      prompt: "Can chronic respiratory symptoms affect quality of life?"
+      expected: "Yes. Ongoing breathing symptoms can affect sleep, activity, and daily comfort."
+
+    - id: "respiratory_eval_068"
+      prompt: "Can the respiratory system matter from infancy through older age?"
+      expected: "Yes. Breathing and respiratory health are essential throughout life."
+
+    - id: "respiratory_eval_069"
+      prompt: "Can the respiratory system be described as both an airway system and a gas exchange system?"
+      expected: "Yes. It includes air movement pathways and the exchange of gases."
+
+    - id: "respiratory_eval_070"
+      prompt: "Can the respiratory system help support speaking, exercise, sleep, and survival together?"
+      expected: "Yes. It is involved in all of those functions."
+
+    - id: "respiratory_eval_071"
+      prompt: "Can respiratory symptoms matter even if they begin gradually?"
+      expected: "Yes. Gradual breathing problems can still be important."
+
+    - id: "respiratory_eval_072"
+      prompt: "Can cough, wheeze, chest tightness, and shortness of breath all be respiratory symptoms?"
+      expected: "Yes. Those are common respiratory-related symptoms."
+
+    - id: "respiratory_eval_073"
+      prompt: "Can upper airway symptoms and lung symptoms both belong to the respiratory system?"
+      expected: "Yes. The respiratory system includes both upper and lower airways."
+
+    - id: "respiratory_eval_074"
+      prompt: "Can breathing problems make physical activity feel harder than usual?"
+      expected: "Yes. Reduced breathing efficiency can make activity more difficult."
+
+    - id: "respiratory_eval_075"
+      prompt: "Can respiratory health influence energy and daily function?"
+      expected: "Yes. Good breathing supports energy, activity, and overall function."
+
+    - id: "respiratory_eval_076"
+      prompt: "What is the main idea of the respiratory system?"
+      expected: "The respiratory system supports breathing by moving air, bringing in oxygen, removing carbon dioxide, and helping protect the airways."
+
+    - id: "respiratory_eval_077"
+      prompt: "Can the respiratory system involve the nose, throat, airways, lungs, breathing muscles, and gas exchange together?"
+      expected: "Yes. Those parts work together to support respiration."
+
+    - id: "respiratory_eval_078"
+      prompt: "Can breathing-related symptoms become urgent when linked with blue lips, severe wheezing, choking, chest pain, throat swelling, or reduced alertness?"
+      expected: "Yes. Those combinations can indicate an emergency."
+
+    - id: "respiratory_eval_079"
+      prompt: "Can the respiratory system work continuously even when a person is asleep or not thinking about it?"
+      expected: "Yes. It works automatically and continuously."
+
+    - id: "respiratory_eval_080"
+      prompt: "What should be done if respiratory symptoms are sudden, severe, worsening, or linked with trouble breathing, blue lips, chest pain, choking, wheezing, throat swelling, or reduced alertness?"
+      expected: "Sudden, severe, or concerning respiratory symptoms should be evaluated promptly, and urgent symptoms require immediate attention."

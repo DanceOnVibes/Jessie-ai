@@ -1,0 +1,309 @@
+knowledge_pack:
+  file_name: "skeletal_system_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about the skeletal system, including support, protection, movement, mineral storage, bone marrow function, joints, and safety-aware educational framing."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "skeletal_system"
+    category: "bones, joints, support, protection, and movement"
+    domain: "human body and health"
+
+  overview:
+    summary: "The skeletal system gives the body structure, supports movement, protects organs, stores minerals, and produces blood cells in bone marrow. It includes bones, joints, cartilage, ligaments, and bone marrow. The skeletal system works closely with muscles to allow movement and with other body systems to support protection, circulation, and body stability."
+    why_it_matters:
+      - "The body needs a framework to maintain shape and support."
+      - "Bones help protect delicate organs such as the brain, heart, and lungs."
+      - "Movement depends on coordination between bones, joints, and muscles."
+      - "Bone marrow helps produce blood cells."
+      - "Serious injuries involving bones or joints may require urgent care."
+
+  core_definitions:
+    - term: "skeletal system"
+      definition: "The body system made up of bones and related structures that provides support, protection, and a framework for movement."
+    - term: "bone"
+      definition: "A hard connective tissue that forms the main framework of the skeleton."
+    - term: "joint"
+      definition: "A place where two or more bones meet."
+    - term: "cartilage"
+      definition: "A smooth supportive tissue that cushions joints and other body parts."
+    - term: "ligament"
+      definition: "A strong band of tissue that connects bone to bone."
+    - term: "bone marrow"
+      definition: "Soft tissue inside certain bones that helps produce blood cells."
+    - term: "mineral storage"
+      definition: "The role of bones in storing minerals such as calcium and phosphorus."
+
+  foundational_principle:
+    summary: "The skeletal system is a living structural system that supports the body, protects organs, helps movement happen, stores minerals, and contributes to blood cell production."
+    key_points:
+      - "Bones are living tissues, not just rigid supports."
+      - "The skeleton helps the body keep its shape."
+      - "Movement happens when bones, joints, and muscles work together."
+      - "Some bones protect critical organs."
+      - "Bone marrow connects the skeletal system to blood and immunity."
+
+  major_functions:
+    body_support:
+      summary: "The skeletal system gives the body structure and support."
+      beginner_points:
+        - "Bones help the body keep its shape."
+        - "The skeleton provides a framework for soft tissues."
+    movement_support:
+      summary: "Bones work with joints and muscles to allow movement."
+      beginner_points:
+        - "Joints allow movement between bones."
+        - "Muscles pull on bones to move the body."
+    organ_protection:
+      summary: "Some bones protect important organs."
+      beginner_points:
+        - "The skull protects the brain."
+        - "The rib cage protects the heart and lungs."
+        - "The spine protects the spinal cord."
+    mineral_storage:
+      summary: "Bones store minerals needed by the body."
+      beginner_points:
+        - "Bones store calcium."
+        - "Bones also store phosphorus."
+    blood_cell_production:
+      summary: "Bone marrow helps produce blood cells."
+      beginner_points:
+        - "Some blood cells carry oxygen."
+        - "Some blood cells help defend the body."
+        - "Some blood components help with clotting."
+
+  main_structures:
+    bones:
+      role: "Give the body shape and support, protect organs, and work with muscles for movement."
+      importance: "Bones form the core framework of the skeletal system."
+    joints:
+      role: "Places where bones meet and allow movement or stability depending on type."
+      importance: "They determine how different parts of the body move."
+    cartilage:
+      role: "Provides cushioning and support and helps reduce friction at joints."
+      importance: "It helps protect joint surfaces."
+    ligaments:
+      role: "Connect bone to bone and help stabilize joints."
+      importance: "They support joint integrity."
+    bone_marrow:
+      role: "Helps produce blood cells inside certain bones."
+      importance: "It connects skeletal function to circulation and immunity."
+
+  important_examples:
+    skull:
+      role: "Protects the brain."
+      importance: "It helps shield a highly sensitive organ."
+    rib_cage:
+      role: "Protects the heart and lungs."
+      importance: "It helps guard major chest organs."
+    spine:
+      role: "Supports the body and protects the spinal cord."
+      importance: "It is important for posture and nervous system protection."
+    pelvis:
+      role: "Supports body weight and protects some internal organs."
+      importance: "It contributes to both support and protection."
+    limb_bones:
+      role: "Help with movement."
+      importance: "They act as levers for muscles."
+
+  how_the_skeletal_system_works:
+    movement_relationship:
+      - "Bones provide a rigid framework."
+      - "Joints allow motion between bones."
+      - "Muscles pull on bones."
+      - "The body is able to move."
+    protection_role:
+      - "Bones surround certain soft organs."
+      - "These bones provide physical protection."
+      - "Important structures are less vulnerable to injury."
+    blood_cell_role:
+      - "Bone marrow is found inside certain bones."
+      - "Bone marrow helps make blood cells."
+      - "These blood cells support oxygen transport, immunity, and clotting."
+
+  bones_and_movement_explained:
+    summary: "The skeletal system helps movement by providing structures that muscles can pull on."
+    key_points:
+      - "Bones do not move by themselves."
+      - "Muscles create force."
+      - "Joints allow motion between bones."
+      - "Together, muscles, bones, and joints produce movement."
+
+  protection_explained:
+    summary: "The skeleton protects vulnerable soft organs."
+    key_points:
+      - "The skull protects the brain."
+      - "The rib cage helps protect the heart and lungs."
+      - "The vertebrae help protect the spinal cord."
+
+  bone_marrow_explained:
+    summary: "Bone marrow is important because it helps produce blood cells."
+    key_points:
+      - "Red blood cells help carry oxygen."
+      - "Some white blood cells help defend the body."
+      - "Platelet-related components help with clotting."
+      - "This is why the skeletal system connects to circulation and immunity."
+
+  skeletal_system_and_other_body_systems:
+    muscular_system:
+      relationship: "Bones and muscles work together to create movement."
+    nervous_system:
+      relationship: "The skull and vertebrae help protect the brain and spinal cord."
+    circulatory_system:
+      relationship: "Bone marrow helps produce blood cells used in circulation."
+    immune_system:
+      relationship: "Some blood cells produced in bone marrow help defend the body."
+    endocrine_and_mineral_balance:
+      relationship: "Bone mineral storage is part of broader body regulation involving calcium balance."
+
+  important_distinctions:
+    - name: "bones vs joints"
+      explanation: "Bones are solid structures, while joints are places where bones meet."
+    - name: "bones vs cartilage"
+      explanation: "Bones are hard supportive tissues, while cartilage is smoother and more flexible and helps cushion certain areas."
+    - name: "bones vs ligaments"
+      explanation: "Bones form the skeleton, while ligaments connect bone to bone."
+    - name: "support vs movement"
+      explanation: "The skeleton provides structure, but movement happens when bones work with muscles and joints."
+    - name: "educational explanation vs diagnosis"
+      explanation: "Explaining bone and joint function is different from diagnosing fractures, sprains, arthritis, or bone disease from symptoms alone."
+
+  common_changes_people_notice:
+    - name: "joint stiffness"
+      explanation: "A person may notice reduced ease of movement at a joint."
+    - name: "bone or joint pain"
+      explanation: "Pain can happen for many reasons and should not be assumed harmless if severe."
+    - name: "swelling around a joint"
+      explanation: "Swelling may suggest irritation, inflammation, or injury."
+    - name: "limited movement"
+      explanation: "A person may find it harder to move a body part normally."
+    - name: "deformity after injury"
+      explanation: "An abnormal shape after injury can be a serious sign."
+
+  common_factors_that_can_affect_skeletal_function:
+    injury_related:
+      - "falls"
+      - "sports injuries"
+      - "direct trauma"
+    joint_related:
+      - "joint strain"
+      - "ligament injury"
+      - "cartilage wear"
+    bone_related:
+      - "fracture"
+      - "bone weakness"
+      - "mineral loss"
+    posture_and_use:
+      - "repetitive stress"
+      - "poor posture"
+      - "overuse"
+    developmental_and_age_related:
+      - "growth changes"
+      - "aging-related bone changes"
+
+  age_related_considerations:
+    children:
+      - "Bones are still growing and developing."
+      - "Growth affects bone length and shape."
+    adults:
+      - "Bones support full body size, movement, and protection."
+    older_adults:
+      - "Bone strength may decrease with age."
+      - "Fracture risk may increase."
+
+  common_questions_jessie_should_handle:
+    - "What does the skeletal system do?"
+    - "Do bones only hold the body up?"
+    - "What are joints?"
+    - "Why is bone marrow important?"
+    - "How do bones help movement?"
+    - "How do bones protect organs?"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "temporary mild soreness after physical activity"
+      - "brief stiffness after inactivity"
+      - "minor aches without significant injury"
+    should_be_monitored:
+      - "joint pain that keeps returning"
+      - "persistent stiffness"
+      - "mild swelling"
+      - "reduced movement that does not fully resolve"
+    more_concerning:
+      - "severe pain after injury"
+      - "visible swelling after trauma"
+      - "inability to bear weight"
+      - "inability to move a limb normally"
+      - "possible deformity"
+    emergency_patterns:
+      - "severe injury"
+      - "major deformity"
+      - "heavy bleeding with injury"
+      - "loss of feeling after trauma"
+      - "possible spinal injury"
+      - "bone protruding through skin"
+
+  red_flags:
+    immediate_attention:
+      - "possible fracture with deformity"
+      - "inability to move a limb"
+      - "bone protruding through skin"
+      - "heavy bleeding"
+      - "possible spinal injury"
+      - "loss of sensation after trauma"
+
+  safety_relevance:
+    key_points:
+      - "Jessie may explain skeletal anatomy, joints, and bone function in educational terms."
+      - "Jessie should not diagnose fractures, joint disorders, or bone disease from limited symptom descriptions."
+      - "Severe injury, deformity, inability to move a limb, heavy bleeding, or possible spinal injury require urgent medical care."
+      - "Pain after injury should not automatically be minimized."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Start with support, protection, and movement."
+      - "Use examples like the skull, ribs, spine, and pelvis."
+      - "Explain joints as places where bones meet."
+      - "Connect bone marrow to blood cell production."
+      - "Show that bones are living tissues with multiple roles."
+    style_notes:
+      - "Use simple structure-and-function teaching first."
+      - "Avoid excessive terminology unless requested."
+      - "Use clear examples of protective bones."
+      - "Connect the skeleton to muscles and movement."
+      - "Keep symptom discussion educational unless urgent care guidance is needed."
+    teaching_sequence:
+      - "Define the skeletal system."
+      - "Explain support and body shape."
+      - "Explain protection of organs."
+      - "Explain movement with bones, joints, and muscles."
+      - "Explain mineral storage."
+      - "Explain bone marrow and blood cell production."
+      - "Maintain strong safety boundaries around injury questions."
+
+  cross_system_links:
+    - "The skeletal system works with the muscular system to produce movement."
+    - "The skull and spine help protect parts of the nervous system."
+    - "Bone marrow supports the circulatory and immune systems."
+    - "Mineral storage in bones relates to broader body regulation."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "The skeletal system gives the body support, helps movement, protects organs, and helps make blood cells."
+      - "Bones are living tissues, not just hard structures that hold the body up."
+      - "Joints are places where bones meet, and they help allow movement."
+      - "Bone marrow inside certain bones helps produce blood cells."
+    caution_examples:
+      - "I can explain bone and joint function, but I cannot diagnose an injury from symptoms alone."
+      - "Severe injury, visible deformity, heavy bleeding, or inability to move a limb needs prompt medical care."
+
+  final_summary:
+    summary_points:
+      - "The skeletal system gives the body shape and support."
+      - "Bones protect important organs such as the brain, heart, lungs, and spinal cord."
+      - "Bones, joints, and muscles work together to help the body move."
+      - "Bones store minerals such as calcium and phosphorus."
+      - "Bone marrow helps make blood cells."
+      - "Jessie should teach this system clearly while keeping strong safety boundaries around serious injuries."

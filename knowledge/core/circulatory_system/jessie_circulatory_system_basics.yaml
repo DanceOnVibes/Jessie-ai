@@ -1,0 +1,321 @@
+knowledge_pack:
+  file_name: "circulatory_system_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about the circulatory system, blood flow, heart function, blood vessels, transport roles, body-wide support, common symptom relevance, and safety escalation."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "circulatory_system"
+    category: "body transport and regulation"
+    domain: "human body and health"
+
+  overview:
+    summary: "The circulatory system moves blood through the body to deliver oxygen, nutrients, hormones, immune components, and other important substances while carrying away waste products. It is essential for survival because tissues need constant circulation to function properly. The circulatory system also helps regulate temperature, supports healing, and connects the work of many other body systems."
+    why_it_matters:
+      - "Cells need oxygen and nutrients delivered by blood."
+      - "Waste products such as carbon dioxide must be removed from tissues."
+      - "Circulation links the heart, blood vessels, blood, lungs, digestive system, kidneys, and other organs."
+      - "Problems with circulation can affect the brain, muscles, skin, organs, and overall body function."
+
+  core_definitions:
+    - term: "circulatory system"
+      definition: "The body system that moves blood through the heart and blood vessels."
+    - term: "heart"
+      definition: "A muscular organ that pumps blood through the circulatory system."
+    - term: "blood vessel"
+      definition: "A tube-like structure that carries blood through the body."
+    - term: "artery"
+      definition: "A blood vessel that carries blood away from the heart."
+    - term: "vein"
+      definition: "A blood vessel that carries blood back toward the heart."
+    - term: "capillary"
+      definition: "A tiny blood vessel where oxygen, nutrients, and wastes are exchanged with tissues."
+    - term: "circulation"
+      definition: "The movement of blood through the body."
+    - term: "perfusion"
+      definition: "The delivery of blood flow to tissues."
+
+  foundational_principle:
+    summary: "The circulatory system keeps tissues alive by moving blood where it is needed."
+    key_points:
+      - "The heart generates pumping force."
+      - "Blood vessels carry blood to and from tissues."
+      - "Blood transports essential materials throughout the body."
+      - "Healthy circulation depends on adequate pumping, open vessels, sufficient blood volume, and effective exchange at the tissue level."
+
+  major_components:
+    heart:
+      role: "Pumps blood through the lungs and body."
+      importance: "It is the driving force of circulation."
+    blood:
+      role: "Carries oxygen, nutrients, hormones, immune components, heat, and waste products."
+      importance: "It is the transport medium of the system."
+    arteries:
+      role: "Carry blood away from the heart under pressure."
+      importance: "They distribute blood to organs and tissues."
+    veins:
+      role: "Return blood toward the heart."
+      importance: "They help complete the circulation loop."
+    capillaries:
+      role: "Allow exchange between blood and tissues."
+      importance: "This is where oxygen and nutrient delivery actually occurs."
+
+  heart_basics:
+    summary: "The heart is a muscular pump with coordinated chambers and valves."
+    key_points:
+      - "The heart pumps blood in a rhythmic cycle."
+      - "One side of the heart sends blood to the lungs."
+      - "The other side sends oxygen-rich blood to the body."
+      - "Valves help keep blood moving in the correct direction."
+      - "Effective pumping is necessary for tissue perfusion and organ function."
+
+  blood_vessels_explained:
+    arteries:
+      features:
+        - "carry blood away from the heart"
+        - "usually carry blood under higher pressure"
+        - "help distribute blood rapidly"
+    veins:
+      features:
+        - "carry blood back to the heart"
+        - "often contain valves to help blood return"
+        - "are especially important in the legs where blood moves upward against gravity"
+    capillaries:
+      features:
+        - "very small and thin-walled"
+        - "allow exchange of oxygen, nutrients, and wastes"
+        - "connect the smallest arteries and veins"
+
+  blood_components:
+    red_blood_cells:
+      role: "Carry oxygen using hemoglobin."
+      importance: "They are central to oxygen delivery."
+    white_blood_cells:
+      role: "Support immune defense."
+      importance: "They help the body respond to infection and other threats."
+    platelets:
+      role: "Help blood clot."
+      importance: "They are important for controlling bleeding."
+    plasma:
+      role: "The liquid part of blood that carries cells and dissolved substances."
+      importance: "It helps transport nutrients, hormones, proteins, and wastes."
+
+  how_circulation_works:
+    body_circulation:
+      - "The heart pumps blood out through arteries."
+      - "Arteries branch into smaller vessels."
+      - "Capillaries deliver oxygen and nutrients to tissues."
+      - "Capillaries also collect wastes such as carbon dioxide."
+      - "Blood returns through veins to the heart."
+    lung_connection:
+      - "Blood travels to the lungs to release carbon dioxide and take up oxygen."
+      - "Oxygen-rich blood then returns to the heart before being pumped to the body again."
+    continuous_cycle:
+      - "This process repeats constantly to support every organ and tissue."
+
+  major_functions:
+    transport:
+      - "delivers oxygen"
+      - "delivers nutrients"
+      - "carries hormones"
+      - "moves immune components"
+      - "removes carbon dioxide"
+      - "carries metabolic waste"
+    regulation:
+      - "helps regulate temperature"
+      - "supports fluid balance"
+      - "helps maintain internal stability"
+    protection:
+      - "supports immune responses"
+      - "supports clotting after injury"
+
+  circulation_and_other_body_systems:
+    respiratory_system:
+      relationship: "The lungs place oxygen into the blood and remove carbon dioxide, while the circulatory system transports those gases."
+    digestive_system:
+      relationship: "Absorbed nutrients enter the bloodstream so they can be delivered to body cells."
+    muscular_system:
+      relationship: "Muscles need steady blood flow for oxygen, nutrients, and waste removal."
+    nervous_system:
+      relationship: "The brain depends on continuous circulation to function properly."
+    urinary_system:
+      relationship: "The kidneys filter blood and help regulate fluid and waste balance."
+    endocrine_system:
+      relationship: "Hormones travel through the bloodstream to reach target tissues."
+    integumentary_system:
+      relationship: "Circulation helps nourish the skin and contributes to temperature regulation and healing."
+
+  perfusion_and_tissue_health:
+    summary: "Tissues stay healthy only when they receive enough blood flow."
+    key_points:
+      - "Good perfusion means tissues are receiving the blood supply they need."
+      - "Reduced perfusion can affect function, healing, temperature, and color."
+      - "Severe reduction in circulation can become dangerous because organs and tissues depend on continuous blood delivery."
+
+  circulation_and_temperature:
+    summary: "Blood flow helps regulate body temperature."
+    key_points:
+      - "Blood can help distribute heat through the body."
+      - "Changes in blood vessel size can influence heat loss or heat conservation."
+      - "Circulation is part of how the body responds to cold, heat, and exercise."
+
+  common_signs_related_to_circulatory_function:
+    normal_context_examples:
+      - "pulse can increase during exercise"
+      - "skin may look flushed with heat or activity"
+      - "temporary mild lightheadedness can occur after standing quickly"
+    symptom_examples:
+      - "chest discomfort"
+      - "palpitations"
+      - "cold hands or feet"
+      - "swelling"
+      - "fainting"
+      - "shortness of breath with exertion"
+      - "fatigue"
+      - "pale or bluish skin"
+      - "reduced exercise tolerance"
+
+  common_factors_that_can_affect_circulation:
+    lifestyle_or_context:
+      - "exercise level"
+      - "hydration status"
+      - "body position"
+      - "temperature exposure"
+    cardiovascular_or_vascular:
+      - "heart pumping problems"
+      - "blood vessel narrowing or dysfunction"
+      - "blood pressure abnormalities"
+      - "poor venous return"
+    blood_related:
+      - "blood loss"
+      - "low red blood cell levels"
+      - "clotting problems"
+    systemic:
+      - "infection"
+      - "dehydration"
+      - "severe illness"
+      - "shock states"
+
+  important_distinctions:
+    - name: "circulation vs breathing"
+      explanation: "Breathing brings oxygen into the lungs, while circulation transports that oxygen through the body."
+    - name: "arteries vs veins"
+      explanation: "Arteries carry blood away from the heart, while veins return blood toward the heart."
+    - name: "heart function vs whole circulation"
+      explanation: "The heart drives circulation, but circulation also depends on blood vessels, blood volume, and tissue exchange."
+    - name: "pulse change vs dangerous collapse"
+      explanation: "A faster pulse can be normal during exercise or stress, while collapse or fainting can signal a more serious problem."
+    - name: "temporary position-related lightheadedness vs emergency symptoms"
+      explanation: "Brief mild lightheadedness after standing may be less concerning, but chest pain, fainting, or stroke-like symptoms are much more serious."
+
+  age_related_considerations:
+    children:
+      - "Circulation supports growth, organ function, and activity."
+      - "Heart and blood flow adapt to growth and activity demands."
+    adults:
+      - "Healthy circulation supports energy, exercise, organ health, and tissue maintenance."
+    older_adults:
+      - "Blood vessels and heart function may change with age."
+      - "Circulatory symptoms may have greater safety significance in older adults, especially with fainting, chest symptoms, or reduced exercise tolerance."
+
+  common_questions_jessie_should_handle:
+    - "What does the circulatory system do?"
+    - "How does the heart move blood?"
+    - "What is the difference between arteries, veins, and capillaries?"
+    - "Why is blood important?"
+    - "How does circulation work with breathing?"
+    - "Why do tissues need constant blood flow?"
+    - "How does circulation help the whole body?"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "pulse increasing with exercise"
+      - "brief mild flushing during heat or activity"
+      - "temporary mild lightheadedness after standing quickly"
+    should_be_monitored:
+      - "recurrent palpitations"
+      - "ongoing swelling"
+      - "reduced exercise tolerance"
+      - "persistent cold extremities"
+      - "unusual fatigue with exertion"
+    more_concerning:
+      - "chest pain"
+      - "fainting"
+      - "shortness of breath with chest symptoms"
+      - "bluish lips or skin"
+      - "signs of poor perfusion"
+      - "new neurologic symptoms that may reflect circulation problems"
+    emergency_patterns:
+      - "crushing or severe chest pain"
+      - "fainting with concerning symptoms"
+      - "stroke-like symptoms"
+      - "severe shortness of breath"
+      - "collapse"
+      - "heavy bleeding"
+      - "signs of shock"
+
+  red_flags:
+    immediate_attention:
+      - "severe chest pain"
+      - "pressure-like chest pain with sweating, nausea, or shortness of breath"
+      - "fainting or collapse"
+      - "stroke-like symptoms"
+      - "bluish lips or face"
+      - "severe trouble breathing"
+      - "heavy bleeding"
+      - "cold, pale, clammy skin with weakness or confusion"
+      - "signs of shock"
+
+  safety_relevance:
+    key_points:
+      - "Circulatory problems can quickly affect the brain, lungs, and other organs."
+      - "Reduced blood flow can impair function and become life-threatening."
+      - "Chest pain, fainting, collapse, severe shortness of breath, and shock-like signs require urgent attention."
+      - "Jessie should stay educational for general explanations but escalate clearly when danger signs appear."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Explain the circulatory system as the body's transport network."
+      - "Keep the heart, blood, and blood vessels clearly connected."
+      - "Use oxygen delivery and waste removal as simple core examples."
+      - "Show how circulation supports the whole body."
+      - "Escalate immediately when symptoms suggest emergency circulatory compromise."
+    style_notes:
+      - "Use simple, concrete descriptions first."
+      - "Avoid unnecessary jargon unless the user wants more detail."
+      - "Do not diagnose specific cardiovascular disease from limited descriptions."
+      - "Be direct and safety-focused when red flags are present."
+    teaching_sequence:
+      - "Define the circulatory system."
+      - "Explain the heart as a pump."
+      - "Describe arteries, veins, and capillaries."
+      - "Explain what blood carries."
+      - "Connect circulation to oxygen delivery, waste removal, and whole-body support."
+
+  cross_system_links:
+    - "The circulatory system works closely with the respiratory system for gas exchange."
+    - "It distributes nutrients absorbed by the digestive system."
+    - "It supports the muscular system during movement and exercise."
+    - "It supplies the nervous system, including the brain, with oxygen and nutrients."
+    - "It transports wastes to organs involved in removal and regulation."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "The circulatory system is the body's transport network. It moves blood so cells can receive oxygen and nutrients and get rid of wastes."
+      - "The heart acts like a pump, blood is the transport fluid, and blood vessels are the pathways."
+      - "Arteries carry blood away from the heart, veins bring blood back, and capillaries are where exchange happens with tissues."
+      - "Circulation matters to the whole body because every organ depends on blood flow."
+    caution_examples:
+      - "General circulation questions can be explained educationally, but symptoms like severe chest pain, fainting, collapse, or stroke-like signs need urgent medical attention."
+      - "If blood flow is severely impaired, organs can be affected quickly."
+
+  final_summary:
+    summary_points:
+      - "The circulatory system moves blood through the body."
+      - "The heart pumps blood through arteries, veins, and capillaries."
+      - "Blood carries oxygen, nutrients, hormones, immune components, and wastes."
+      - "Circulation supports tissue perfusion, temperature regulation, healing, and whole-body function."
+      - "The circulatory system works closely with the respiratory, digestive, urinary, muscular, and nervous systems."
+      - "Jessie should explain circulation clearly and escalate immediately for emergency warning signs such as severe chest pain, fainting, collapse, stroke-like symptoms, or signs of shock."

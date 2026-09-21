@@ -1,0 +1,135 @@
+qa_pairs:
+  file_name: "walking_qa.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  domain: "mobility_and_movement"
+  topic: "walking"
+  source_type: "assistant-generated training data"
+
+  style_notes:
+    - "Lead with the answer."
+    - "Explain clearly in warm, natural language."
+    - "Distinguish normal variation, concern, urgent, and emergency patterns."
+    - "Avoid over-reassurance."
+    - "Escalate clearly when sudden weakness, inability to walk, or stroke-like symptoms are present."
+
+  qa_pairs:
+    - id: "walking_001"
+      user_question: "What is walking?"
+      answer: "Walking is a coordinated form of movement that lets your body move from place to place. It depends on muscles, joints, balance, sensation, vision, and the brain all working together."
+
+    - id: "walking_002"
+      user_question: "Why is walking important?"
+      answer: "Walking is important because it supports mobility, independence, circulation, strength, balance, and daily function. Changes in walking can also sometimes be an early sign that something in the body is not working normally."
+
+    - id: "walking_003"
+      user_question: "What body parts help us walk?"
+      answer: "Walking depends on many parts of the body working together, including the brain, spinal cord, nerves, inner ear balance system, eyes, muscles, bones, joints, and feet."
+
+    - id: "walking_004"
+      user_question: "Can walking change with age?"
+      answer: "Yes. Walking can change somewhat with age because strength, balance, reaction time, vision, and joint flexibility may change over time. Mild gradual changes can be normal, but sudden or major changes should be checked."
+
+    - id: "walking_005"
+      user_question: "What is a gait?"
+      answer: "A gait is the pattern of how a person walks. It includes step length, speed, rhythm, balance, posture, and how smoothly the legs and feet move."
+
+    - id: "walking_006"
+      user_question: "Why do I walk slower than I used to?"
+      answer: "Walking slower can happen for many reasons, including pain, weakness, stiffness, balance problems, fatigue, fear of falling, or general changes in fitness. If the change is new, worsening, or affecting safety, it is worth getting checked."
+
+    - id: "walking_007"
+      user_question: "Is it normal to limp sometimes?"
+      answer: "A limp can happen temporarily after minor pain, soreness, or injury, but it is not something to ignore if it lasts, gets worse, or happens without a clear reason."
+
+    - id: "walking_008"
+      user_question: "What can cause trouble walking?"
+      answer: "Trouble walking can be caused by pain, weakness, injury, joint problems, nerve problems, balance issues, dizziness, foot problems, medication effects, or brain and spinal cord conditions."
+
+    - id: "walking_009"
+      user_question: "Can dizziness affect walking?"
+      answer: "Yes. Dizziness can make walking feel unsteady or unsafe. If dizziness is severe, sudden, or comes with weakness, trouble speaking, chest pain, or fainting, urgent medical help is needed."
+
+    - id: "walking_010"
+      user_question: "Can pain change the way someone walks?"
+      answer: "Yes. Pain in the foot, ankle, knee, hip, back, or leg can change walking by making someone limp, move more slowly, or avoid putting weight on one side."
+
+    - id: "walking_011"
+      user_question: "Why do my legs feel weak when I walk?"
+      answer: "Leg weakness while walking can happen from muscle fatigue, nerve problems, poor conditioning, circulation problems, or neurological conditions. Sudden weakness or one-sided weakness needs urgent evaluation."
+
+    - id: "walking_012"
+      user_question: "What is an unsteady gait?"
+      answer: "An unsteady gait means walking feels wobbly, off balance, uneven, or unsafe. That can happen with balance problems, weakness, numbness, dizziness, medication effects, or nervous system problems."
+
+    - id: "walking_013"
+      user_question: "Can numb feet affect walking?"
+      answer: "Yes. Numb feet can make it harder to feel the ground properly, which can reduce balance and increase the risk of stumbling or falling."
+
+    - id: "walking_014"
+      user_question: "Why do I feel off balance when I walk?"
+      answer: "Feeling off balance can come from inner ear problems, vision changes, nerve or muscle problems, medication effects, weakness, or neurological issues. If it is sudden, severe, or worsening, it should be checked promptly."
+
+    - id: "walking_015"
+      user_question: "Can anxiety affect walking?"
+      answer: "Yes. Anxiety can sometimes make walking feel shaky, light, unsteady, or uncomfortable, especially in stressful situations. But new walking difficulty should not automatically be blamed on anxiety."
+
+    - id: "walking_016"
+      user_question: "When is trouble walking an emergency?"
+      answer: "Trouble walking is an emergency if it starts suddenly, especially with one-sided weakness, facial droop, trouble speaking, severe dizziness, fainting, new confusion, or loss of coordination. Those can be signs of a stroke or another serious problem and need emergency help right away."
+
+    - id: "walking_017"
+      user_question: "When should I get checked for a walking problem?"
+      answer: "You should get checked if walking has become noticeably harder, more painful, more unsteady, or less safe, or if you are falling, dragging a foot, limping without improvement, or avoiding walking because something feels wrong."
+
+    - id: "walking_018"
+      user_question: "Is sudden inability to walk serious?"
+      answer: "Yes. Suddenly being unable to walk is serious and needs urgent medical evaluation, especially if it comes with weakness, severe pain, numbness, confusion, or loss of bladder or bowel control."
+
+    - id: "walking_019"
+      user_question: "Can a fall change how someone walks afterward?"
+      answer: "Yes. After a fall, walking may change because of pain, injury, fear, balance disruption, or weakness. If someone cannot bear weight, has severe pain, or seems newly confused, they should be evaluated promptly."
+
+    - id: "walking_020"
+      user_question: "Can poor balance and walking trouble be related?"
+      answer: "Yes. Balance and walking are closely connected. Problems with balance often show up as slower walking, wider steps, hesitating, veering, or feeling unsafe on the feet."
+
+    - id: "walking_021"
+      user_question: "What does dragging one foot mean?"
+      answer: "Dragging one foot can suggest weakness, nerve problems, muscle control problems, or a neurological issue. If it starts suddenly, it needs urgent evaluation."
+
+    - id: "walking_022"
+      user_question: "Can medications affect walking?"
+      answer: "Yes. Some medications can affect walking by causing dizziness, drowsiness, weakness, slowed reaction time, or balance problems."
+
+    - id: "walking_023"
+      user_question: "Can vision problems affect walking?"
+      answer: "Yes. Vision helps with depth, obstacles, orientation, and balance, so vision problems can make walking less steady and increase fall risk."
+
+    - id: "walking_024"
+      user_question: "Can inner ear problems affect walking?"
+      answer: "Yes. Inner ear problems can affect balance and make walking feel unstable, especially if there is dizziness or vertigo."
+
+    - id: "walking_025"
+      user_question: "What if walking gradually gets worse?"
+      answer: "A gradual worsening in walking should still be evaluated, especially if it is affecting daily life, causing falls, or coming with pain, weakness, numbness, stiffness, or fatigue."
+
+    - id: "walking_026"
+      user_question: "Can walking problems come from the brain or nerves?"
+      answer: "Yes. The brain, spinal cord, and nerves play major roles in controlling walking, so problems in those systems can affect coordination, strength, balance, and movement."
+
+    - id: "walking_027"
+      user_question: "Should I ignore a new walking problem if it comes and goes?"
+      answer: "No. A new walking problem that comes and goes can still matter, especially if it is becoming more frequent, affecting safety, or happening with weakness, numbness, dizziness, or confusion."
+
+    - id: "walking_028"
+      user_question: "What symptoms along with walking trouble are especially concerning?"
+      answer: "Especially concerning symptoms include sudden weakness, one-sided numbness, facial droop, trouble speaking, chest pain, fainting, severe back pain, loss of bladder or bowel control, or sudden severe dizziness."
+
+    - id: "walking_029"
+      user_question: "Can back problems affect walking?"
+      answer: "Yes. Back problems can affect walking if they cause pain, stiffness, nerve compression, weakness, or numbness in the legs."
+
+    - id: "walking_030"
+      user_question: "What should I do if someone suddenly cannot walk normally?"
+      answer: "If someone suddenly cannot walk normally, treat it as urgent. If it is sudden, severe, or comes with stroke-like symptoms, severe weakness, fainting, or confusion, seek emergency medical help right away."

@@ -1,0 +1,297 @@
+```yaml
+metadata:
+  file_name: "body_positions_qa.yaml"
+  title: "Jessie Body Position QA Pairs"
+  domain: "special_senses"
+  topic: "body_position"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain body position sense, movement awareness, coordination, posture, and simple safety boundaries with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain body position sense as the ability to know where body parts are and how they are moving without always needing to look at them. Jessie should explain that body position sense depends on signals from muscles, joints, and other tissues, with the brain helping interpret those signals. The set also supports broader biology and art-informed teaching by including movement awareness, posture, coordination, pose control, and visual-spatial understanding in simple language. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for sudden weakness, sudden loss of control, or concerning changes after head injury."
+  training_goals:
+    - "Explain body position sense in simple, beginner-friendly language"
+    - "Teach that body position sense depends on signals from muscles, joints, and other tissues"
+    - "Show the role of the brain in interpreting body position information"
+    - "Clarify the difference between body position sense, balance, coordination, and vision"
+    - "Support broader biology and art-oriented retrieval with posture and pose-awareness questions"
+    - "Use practical examples such as touching the nose with eyes closed, reaching, and walking"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for concerning weakness, numbness, and coordination symptoms"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach body position sense as awareness of where body parts are and how they are moving"
+    - "Explain the role of muscles, joints, and body tissues simply"
+    - "Connect body position sense to coordination, posture, and controlled movement"
+    - "Support both basic biology teaching and visual-art-oriented description"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose the cause of numbness, weakness, clumsiness, loss of coordination, or post-injury symptoms."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general body position sense concepts, movement awareness, and warning signs."
+  safety_escalation:
+    - "Urgent guidance is appropriate for sudden weakness, sudden loss of control, sudden severe coordination changes, or changes after head injury, especially if paired with confusion, trouble speaking, or other serious symptoms."
+
+pairs:
+  - id: "body_position_qa_001"
+    category: "foundational_definition"
+    question: "What is body position sense?"
+    answer: "Body position sense is the ability to know where body parts are without always looking at them."
+
+  - id: "body_position_qa_002"
+    category: "foundational_definition"
+    question: "Why is body position sense important?"
+    answer: "It is important because it helps the body move in a controlled and coordinated way."
+
+  - id: "body_position_qa_003"
+    category: "foundational_definition"
+    question: "What does body position sense help the body do?"
+    answer: "It helps the body track limb position, guide movement, and adjust posture."
+
+  - id: "body_position_qa_004"
+    category: "foundational_definition"
+    question: "Is body position sense used every day?"
+    answer: "Yes. It is used during reaching, walking, turning, grasping, and many other everyday actions."
+
+  - id: "body_position_qa_005"
+    category: "system_roles"
+    question: "How does the body know where an arm or leg is?"
+    answer: "The body uses signals from muscles, joints, and other tissues, and the brain helps interpret those signals."
+
+  - id: "body_position_qa_006"
+    category: "system_roles"
+    question: "What do muscles and joints do for body position sense?"
+    answer: "They provide information about movement, stretch, and position."
+
+  - id: "body_position_qa_007"
+    category: "system_roles"
+    question: "What kinds of body parts help send position signals?"
+    answer: "Muscles, joints, and other body tissues help send position-related signals."
+
+  - id: "body_position_qa_008"
+    category: "system_roles"
+    question: "Why does the brain matter for body position sense?"
+    answer: "The brain helps interpret body signals so movement can be coordinated."
+
+  - id: "body_position_qa_009"
+    category: "system_roles"
+    question: "Does body position sense help with movement?"
+    answer: "Yes. It helps support smooth, coordinated movement."
+
+  - id: "body_position_qa_010"
+    category: "system_roles"
+    question: "Do the eyes do all the work for body awareness?"
+    answer: "No. Vision helps, but body awareness also depends on signals from muscles, joints, and the brain."
+
+  - id: "body_position_qa_011"
+    category: "process"
+    question: "How does body position sense work?"
+    answer: "It works by sending body position and movement signals from tissues like muscles and joints to the brain, which helps interpret them."
+
+  - id: "body_position_qa_012"
+    category: "process"
+    question: "Why can a person touch their nose with eyes closed?"
+    answer: "Body position sense helps the brain track where the hand and nose are, even without vision."
+
+  - id: "body_position_qa_013"
+    category: "process"
+    question: "Why can you reach for something without staring at your arm the whole time?"
+    answer: "Body position sense helps your brain keep track of where your arm is as it moves."
+
+  - id: "body_position_qa_014"
+    category: "process"
+    question: "Why can you walk without watching your feet every second?"
+    answer: "Body position sense helps the body track limb movement and position during walking."
+
+  - id: "body_position_qa_015"
+    category: "process"
+    question: "Why does the body need constant position information?"
+    answer: "The body needs ongoing position information so movements can stay accurate and controlled."
+
+  - id: "body_position_qa_016"
+    category: "process"
+    question: "What happens when body position sense is working well?"
+    answer: "When it is working well, movements are usually smoother, more accurate, and better coordinated."
+
+  - id: "body_position_qa_017"
+    category: "term_clarification"
+    question: "Is body position sense the same as balance?"
+    answer: "No. They are related, but body position sense is about where body parts are, while balance is about staying steady."
+
+  - id: "body_position_qa_018"
+    category: "term_clarification"
+    question: "What is the difference between body position sense and coordination?"
+    answer: "Body position sense is awareness of body part position, while coordination is the smooth control of movement."
+
+  - id: "body_position_qa_019"
+    category: "term_clarification"
+    question: "What is the difference between body position sense and posture?"
+    answer: "Body position sense helps the body know how it is positioned, while posture is how the body is held."
+
+  - id: "body_position_qa_020"
+    category: "term_clarification"
+    question: "What is the difference between body position sense and touch?"
+    answer: "Touch is about sensing contact, pressure, or texture, while body position sense is about sensing where body parts are."
+
+  - id: "body_position_qa_021"
+    category: "term_clarification"
+    question: "What is the difference between body position sense and vision?"
+    answer: "Vision gives visual information, while body position sense gives internal information about body position and movement."
+
+  - id: "body_position_qa_022"
+    category: "misconception"
+    question: "Is body awareness only about looking at your body?"
+    answer: "No. Body awareness also depends on internal signals from the body, not just sight."
+
+  - id: "body_position_qa_023"
+    category: "misconception"
+    question: "If your eyes are closed, does your body stop knowing where your limbs are?"
+    answer: "No. The body can still use position signals from muscles and joints."
+
+  - id: "body_position_qa_024"
+    category: "misconception"
+    question: "Is body position sense only important for athletes?"
+    answer: "No. Everyone uses it in everyday movement."
+
+  - id: "body_position_qa_025"
+    category: "misconception"
+    question: "Does numbness only affect touch and not movement?"
+    answer: "No. Reduced sensory information can also make movement and coordination harder."
+
+  - id: "body_position_qa_026"
+    category: "misconception"
+    question: "If someone feels clumsy once, does that always mean something serious is wrong?"
+    answer: "No. A single awkward movement does not automatically mean a serious problem."
+
+  - id: "body_position_qa_027"
+    category: "everyday_example"
+    question: "Why can a person button a shirt without looking at every finger movement?"
+    answer: "Body position sense helps track finger and hand position during the task."
+
+  - id: "body_position_qa_028"
+    category: "everyday_example"
+    question: "Why can typing happen without looking at each finger every moment?"
+    answer: "Body position sense helps the brain track where the fingers are moving."
+
+  - id: "body_position_qa_029"
+    category: "everyday_example"
+    question: "Why can reaching in the dark still be possible?"
+    answer: "It can still be possible because the body can use internal position signals, not only vision."
+
+  - id: "body_position_qa_030"
+    category: "everyday_example"
+    question: "Why can numbness make movement harder?"
+    answer: "Reduced sensory information can make movement and coordination harder."
+
+  - id: "body_position_qa_031"
+    category: "everyday_example"
+    question: "Why does body position sense matter when walking?"
+    answer: "It helps the body know where the legs and feet are during each step."
+
+  - id: "body_position_qa_032"
+    category: "everyday_example"
+    question: "Why does body position sense matter when catching something?"
+    answer: "It helps guide arm and hand movements more accurately."
+
+  - id: "body_position_qa_033"
+    category: "everyday_example"
+    question: "Why does body position sense matter when writing or drawing?"
+    answer: "It helps control hand and finger movement with more precision."
+
+  - id: "body_position_qa_034"
+    category: "everyday_example"
+    question: "Why does body position sense matter when changing posture?"
+    answer: "It helps the body track shifting position so posture can adjust smoothly."
+
+  - id: "body_position_qa_035"
+    category: "visual_art_support"
+    question: "Why does body position sense matter for drawing poses?"
+    answer: "It matters because pose control depends on where body parts are in space and how they relate to each other."
+
+  - id: "body_position_qa_036"
+    category: "visual_art_support"
+    question: "What should an artist know about body position in figure drawing?"
+    answer: "An artist should know that believable poses depend on clear limb placement, posture, and spatial relationships."
+
+  - id: "body_position_qa_037"
+    category: "visual_art_support"
+    question: "Why can a drawn pose look awkward even if the anatomy seems mostly right?"
+    answer: "It can look awkward if the body parts do not seem positioned in a natural or coordinated way."
+
+  - id: "body_position_qa_038"
+    category: "visual_art_support"
+    question: "How does body position sense relate to gesture and motion in art?"
+    answer: "It relates because believable gesture and motion depend on understanding where body parts are and how they move together."
+
+  - id: "body_position_qa_039"
+    category: "visual_art_support"
+    question: "Why do spatial relationships between limbs matter in character art?"
+    answer: "They matter because they help the pose look clear, stable, and physically believable."
+
+  - id: "body_position_qa_040"
+    category: "boundary"
+    question: "Can you diagnose why my arm feels numb or clumsy?"
+    answer: "No. I can't diagnose the cause from limited information, but I can explain body position sense in general and point out warning signs."
+
+  - id: "body_position_qa_041"
+    category: "boundary"
+    question: "Can you tell me exactly what is wrong if my movements feel off?"
+    answer: "No. I can't determine the exact cause from a brief description, but I can explain general movement and body awareness concepts."
+
+  - id: "body_position_qa_042"
+    category: "boundary"
+    question: "Does numbness always mean permanent nerve damage?"
+    answer: "No. Numbness can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "body_position_qa_043"
+    category: "safety_supportive_urgent"
+    question: "Should sudden weakness or loss of control be ignored?"
+    answer: "No. Sudden weakness or loss of control should be taken seriously and checked right away."
+
+  - id: "body_position_qa_044"
+    category: "safety_supportive_urgent"
+    question: "Are coordination changes after head injury important?"
+    answer: "Yes. Coordination changes after a head injury should be taken seriously and checked quickly."
+
+  - id: "body_position_qa_045"
+    category: "safety_supportive_urgent"
+    question: "Should sudden numbness on one side of the body be taken seriously?"
+    answer: "Yes. Sudden one-sided numbness should be treated seriously and medically checked right away."
+
+  - id: "body_position_qa_046"
+    category: "safety_supportive_urgent"
+    question: "Should sudden trouble using an arm or leg be treated seriously?"
+    answer: "Yes. Sudden trouble moving or controlling an arm or leg should be medically checked right away."
+
+  - id: "body_position_qa_047"
+    category: "safety_supportive_urgent"
+    question: "Should body control changes with confusion or trouble speaking be treated urgently?"
+    answer: "Yes. Sudden weakness, numbness, or loss of control with confusion or trouble speaking can be serious and needs urgent medical attention."
+
+  - id: "body_position_qa_048"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about body position sense?"
+    answer: "The main thing to remember is that body position sense helps the brain know where body parts are so movement can be controlled."
+
+quality_checks:
+  - "The file contains 48 QA pairs with ids body_position_qa_001 through body_position_qa_048."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "Body position sense is consistently explained as internal awareness of body position and movement."
+  - "The set includes support for biology teaching, movement understanding, and visual art-oriented retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

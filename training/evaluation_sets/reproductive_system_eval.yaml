@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Reproductive System Evaluation Set"
+  domain: "human_body"
+  topic: "reproductive_system"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of the reproductive system, reproductive roles, hormones, development, reproductive health, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "reproductive_eval_001"
+      prompt: "What is the reproductive system?"
+      expected: "The reproductive system is the body system involved in reproductive functions and related development."
+
+    - id: "reproductive_eval_002"
+      prompt: "What is the main job of the reproductive system?"
+      expected: "Its main job is to support reproduction and related hormonal and developmental functions."
+
+    - id: "reproductive_eval_003"
+      prompt: "Why is the reproductive system important?"
+      expected: "It is important because it supports reproduction, sexual development, and related hormone functions."
+
+    - id: "reproductive_eval_004"
+      prompt: "Does the reproductive system only matter for reproduction?"
+      expected: "No. It is also involved in development, hormones, and other body processes."
+
+    - id: "reproductive_eval_005"
+      prompt: "Can the reproductive system interact with the endocrine system?"
+      expected: "Yes. Reproductive function is closely linked with hormones and endocrine regulation."
+
+    - id: "reproductive_eval_006"
+      prompt: "Can the reproductive system change during puberty?"
+      expected: "Yes. The reproductive system changes significantly during puberty."
+
+    - id: "reproductive_eval_007"
+      prompt: "What is puberty in a simple way?"
+      expected: "Puberty is the stage of development when the body matures sexually and reproductively."
+
+    - id: "reproductive_eval_008"
+      prompt: "Can hormones influence reproductive development?"
+      expected: "Yes. Hormones play major roles in reproductive development and function."
+
+    - id: "reproductive_eval_009"
+      prompt: "Can the reproductive system affect secondary sexual characteristics?"
+      expected: "Yes. Hormones from the reproductive system help influence secondary sexual characteristics."
+
+    - id: "reproductive_eval_010"
+      prompt: "Can the reproductive system be discussed in both male and female anatomy?"
+      expected: "Yes. Reproductive anatomy includes structures that differ by sex."
+
+    - id: "reproductive_eval_011"
+      prompt: "Can reproductive health matter across the lifespan?"
+      expected: "Yes. Reproductive health matters during development, adulthood, and aging."
+
+    - id: "reproductive_eval_012"
+      prompt: "Can the reproductive system be linked to fertility?"
+      expected: "Yes. The reproductive system is closely related to fertility."
+
+    - id: "reproductive_eval_013"
+      prompt: "Can menstruation be related to the reproductive system?"
+      expected: "Yes. Menstruation is part of reproductive system function in people who menstruate."
+
+    - id: "reproductive_eval_014"
+      prompt: "Can menstrual cycles involve hormone changes?"
+      expected: "Yes. Menstrual cycles involve changing hormone levels."
+
+    - id: "reproductive_eval_015"
+      prompt: "Can ovulation be part of reproductive function?"
+      expected: "Yes. Ovulation is part of reproductive function."
+
+    - id: "reproductive_eval_016"
+      prompt: "Can pregnancy involve the reproductive system?"
+      expected: "Yes. Pregnancy directly involves reproductive system function."
+
+    - id: "reproductive_eval_017"
+      prompt: "Can the reproductive system affect pregnancy-related changes?"
+      expected: "Yes. It is central to pregnancy and related body changes."
+
+    - id: "reproductive_eval_018"
+      prompt: "Can reproductive organs have both structural and hormonal roles?"
+      expected: "Yes. Reproductive organs may have both physical and hormone-related functions."
+
+    - id: "reproductive_eval_019"
+      prompt: "Can reproductive health affect emotional well-being?"
+      expected: "Yes. Reproductive health issues can affect comfort, mood, and emotional well-being."
+
+    - id: "reproductive_eval_020"
+      prompt: "Can reproductive symptoms affect daily life?"
+      expected: "Yes. Pain, bleeding changes, or other reproductive symptoms can affect daily functioning."
+
+    - id: "reproductive_eval_021"
+      prompt: "Can the reproductive system interact with the urinary system in some anatomical areas?"
+      expected: "Yes. The reproductive and urinary systems are closely related in some anatomical regions."
+
+    - id: "reproductive_eval_022"
+      prompt: "Can reproductive hormones influence other body systems?"
+      expected: "Yes. Reproductive hormones can affect many other body systems."
+
+    - id: "reproductive_eval_023"
+      prompt: "Can sexual health be part of reproductive health?"
+      expected: "Yes. Sexual health is related to reproductive health."
+
+    - id: "reproductive_eval_024"
+      prompt: "Can reproductive anatomy vary somewhat between individuals?"
+      expected: "Yes. Normal variation exists among individuals."
+
+    - id: "reproductive_eval_025"
+      prompt: "Can reproductive health include prevention and regular checkups?"
+      expected: "Yes. Reproductive health includes prevention, education, and appropriate medical care."
+
+    - id: "reproductive_eval_026"
+      prompt: "Can infections affect reproductive health?"
+      expected: "Yes. Infections can affect reproductive structures and function."
+
+    - id: "reproductive_eval_027"
+      prompt: "Can pain during menstruation happen?"
+      expected: "Yes. Menstrual pain can occur."
+
+    - id: "reproductive_eval_028"
+      prompt: "Can menstrual bleeding patterns vary?"
+      expected: "Yes. Menstrual patterns can vary, though major changes may need evaluation."
+
+    - id: "reproductive_eval_029"
+      prompt: "Can missed periods sometimes happen?"
+      expected: "Yes. Missed periods can happen for different reasons."
+
+    - id: "reproductive_eval_030"
+      prompt: "Can fertility be influenced by multiple factors?"
+      expected: "Yes. Fertility can be influenced by age, health, hormones, anatomy, and other factors."
+
+    - id: "reproductive_eval_031"
+      prompt: "Can reproductive issues involve hormones, anatomy, or infection?"
+      expected: "Yes. Reproductive issues can involve multiple causes."
+
+    - id: "reproductive_eval_032"
+      prompt: "Can pelvic pain sometimes involve the reproductive system?"
+      expected: "Yes. Pelvic pain can involve reproductive structures among other possible causes."
+
+    - id: "reproductive_eval_033"
+      prompt: "Can abnormal discharge sometimes need evaluation?"
+      expected: "Yes. New, unusual, or concerning discharge may need evaluation."
+
+    - id: "reproductive_eval_034"
+      prompt: "Can unusual bleeding sometimes need evaluation?"
+      expected: "Yes. Unusual bleeding can be important and may need medical attention."
+
+    - id: "reproductive_eval_035"
+      prompt: "Can reproductive health be relevant even if a person is not trying to have children?"
+      expected: "Yes. Reproductive health matters regardless of fertility plans."
+
+    - id: "reproductive_eval_036"
+      prompt: "Can reproductive system changes happen with aging?"
+      expected: "Yes. Reproductive function changes across the lifespan."
+
+    - id: "reproductive_eval_037"
+      prompt: "Can menopause be related to the reproductive system?"
+      expected: "Yes. Menopause is a reproductive life stage involving hormonal changes."
+
+    - id: "reproductive_eval_038"
+      prompt: "Can erectile function be related to reproductive and vascular health?"
+      expected: "Yes. Erectile function can involve reproductive, vascular, hormonal, and nervous system factors."
+
+    - id: "reproductive_eval_039"
+      prompt: "Can testicular pain be important?"
+      expected: "Yes. Testicular pain can be important and should be evaluated promptly."
+
+    - id: "reproductive_eval_040"
+      prompt: "Can severe pelvic pain be important?"
+      expected: "Yes. Severe pelvic pain should be taken seriously and evaluated promptly."
+
+    - id: "reproductive_eval_041"
+      prompt: "Can heavy vaginal bleeding be serious?"
+      expected: "Yes. Heavy vaginal bleeding can be serious and requires prompt evaluation."
+
+    - id: "reproductive_eval_042"
+      prompt: "Can bleeding during pregnancy be important?"
+      expected: "Yes. Bleeding during pregnancy should be evaluated promptly."
+
+    - id: "reproductive_eval_043"
+      prompt: "Can fever with pelvic pain suggest a serious problem?"
+      expected: "Yes. Fever with pelvic pain can be concerning and should be evaluated promptly."
+
+    - id: "reproductive_eval_044"
+      prompt: "Can severe abdominal or pelvic pain with fainting be urgent?"
+      expected: "Yes. That combination can be urgent and requires immediate attention."
+
+    - id: "reproductive_eval_045"
+      prompt: "Can sudden severe testicular pain be urgent?"
+      expected: "Yes. Sudden severe testicular pain is urgent and should be evaluated immediately."
+
+    - id: "reproductive_eval_046"
+      prompt: "Can reproductive symptoms sometimes overlap with urinary symptoms?"
+      expected: "Yes. Some reproductive and urinary symptoms can overlap."
+
+    - id: "reproductive_eval_047"
+      prompt: "Can reproductive health include discussion of consent and safety?"
+      expected: "Yes. Reproductive health includes safety, respect, and consent."
+
+    - id: "reproductive_eval_048"
+      prompt: "Can reproductive education include anatomy, function, and health awareness?"
+      expected: "Yes. Reproductive education includes understanding anatomy, function, and health concerns."
+
+    - id: "reproductive_eval_049"
+      prompt: "Can the reproductive system affect body development during adolescence?"
+      expected: "Yes. It is central to sexual maturation and related development."
+
+    - id: "reproductive_eval_050"
+      prompt: "Can reproductive symptoms be important even if they feel embarrassing to mention?"
+      expected: "Yes. Reproductive symptoms can still be important and should not be ignored."
+
+    - id: "reproductive_eval_051"
+      prompt: "Can reproductive health involve both physical and emotional aspects?"
+      expected: "Yes. Reproductive health involves both physical and emotional well-being."
+
+    - id: "reproductive_eval_052"
+      prompt: "Can pelvic infections become serious if untreated?"
+      expected: "Yes. Some infections can become more serious if not evaluated and treated."
+
+    - id: "reproductive_eval_053"
+      prompt: "Can new genital sores, severe pain, or swelling need evaluation?"
+      expected: "Yes. Those symptoms should be evaluated."
+
+    - id: "reproductive_eval_054"
+      prompt: "Can reproductive system concerns include pain, bleeding, discharge, swelling, or function changes?"
+      expected: "Yes. Those are examples of possible reproductive health concerns."
+
+    - id: "reproductive_eval_055"
+      prompt: "Can hormonal shifts affect reproductive symptoms?"
+      expected: "Yes. Hormonal changes can affect cycles, function, and symptoms."
+
+    - id: "reproductive_eval_056"
+      prompt: "Can reproductive health affect relationships and quality of life?"
+      expected: "Yes. Reproductive symptoms and concerns can affect comfort, relationships, and daily life."
+
+    - id: "reproductive_eval_057"
+      prompt: "Can sudden severe lower abdominal pain in a reproductive context be important?"
+      expected: "Yes. Sudden severe lower abdominal pain can be serious and should be evaluated promptly."
+
+    - id: "reproductive_eval_058"
+      prompt: "Should heavy bleeding with weakness or dizziness be considered serious?"
+      expected: "Yes. Heavy bleeding with weakness or dizziness can be serious."
+
+    - id: "reproductive_eval_059"
+      prompt: "Should fever, severe pain, foul-smelling discharge, or worsening symptoms be ignored?"
+      expected: "No. Those symptoms should be taken seriously and evaluated."
+
+    - id: "reproductive_eval_060"
+      prompt: "Should sudden swelling or severe pain in the scrotum be considered urgent?"
+      expected: "Yes. Sudden severe scrotal pain or swelling is urgent."
+
+    - id: "reproductive_eval_061"
+      prompt: "Can the reproductive system help explain some differences in sexual maturation?"
+      expected: "Yes. It plays a major role in sexual development and maturation."
+
+    - id: "reproductive_eval_062"
+      prompt: "Can reproductive hormones influence bone, mood, and body composition?"
+      expected: "Yes. Reproductive hormones affect many body systems."
+
+    - id: "reproductive_eval_063"
+      prompt: "Can pregnancy-related symptoms sometimes need urgent medical attention?"
+      expected: "Yes. Some pregnancy-related symptoms can be urgent."
+
+    - id: "reproductive_eval_064"
+      prompt: "Can reproductive system health involve prevention of infection and informed care?"
+      expected: "Yes. Prevention, education, and timely care are important."
+
+    - id: "reproductive_eval_065"
+      prompt: "Can the reproductive system be discussed respectfully and medically without unnecessary detail?"
+      expected: "Yes. It can be discussed in a clear, respectful, health-focused way."
+
+    - id: "reproductive_eval_066"
+      prompt: "Can reproductive concerns deserve medical attention even when symptoms seem private or sensitive?"
+      expected: "Yes. Sensitive symptoms can still require medical evaluation."
+
+    - id: "reproductive_eval_067"
+      prompt: "Can reproductive symptoms matter at different ages?"
+      expected: "Yes. Reproductive symptoms can be important during adolescence, adulthood, and later life."
+
+    - id: "reproductive_eval_068"
+      prompt: "Can reproductive system health include awareness of normal cycles and major changes?"
+      expected: "Yes. Knowing usual patterns can help identify concerning changes."
+
+    - id: "reproductive_eval_069"
+      prompt: "Can the reproductive and endocrine systems work together in development and function?"
+      expected: "Yes. They work closely together through hormone regulation."
+
+    - id: "reproductive_eval_070"
+      prompt: "Can infection, injury, hormone shifts, and structural problems all affect reproductive health?"
+      expected: "Yes. Reproductive health can be affected by many different factors."
+
+    - id: "reproductive_eval_071"
+      prompt: "Can the reproductive system be important even outside fertility concerns?"
+      expected: "Yes. It also affects hormones, development, comfort, and general health."
+
+    - id: "reproductive_eval_072"
+      prompt: "Can severe reproductive pain interfere with walking, working, or daily activities?"
+      expected: "Yes. Severe symptoms can significantly affect daily functioning."
+
+    - id: "reproductive_eval_073"
+      prompt: "Can reproductive symptoms with fever or fainting increase concern?"
+      expected: "Yes. Fever or fainting with reproductive symptoms can suggest urgent problems."
+
+    - id: "reproductive_eval_074"
+      prompt: "Can reproductive system knowledge include anatomy, cycles, fertility, hormones, and health warning signs?"
+      expected: "Yes. Those are all important parts of reproductive system understanding."
+
+    - id: "reproductive_eval_075"
+      prompt: "Can respecting privacy still include encouraging prompt care for serious symptoms?"
+      expected: "Yes. Privacy is important, but serious symptoms still need prompt care."
+
+    - id: "reproductive_eval_076"
+      prompt: "What is the main idea of the reproductive system?"
+      expected: "The reproductive system supports reproduction, sexual development, hormone-related functions, and reproductive health across the lifespan."
+
+    - id: "reproductive_eval_077"
+      prompt: "Can the reproductive system involve hormones, anatomy, development, fertility, and health monitoring together?"
+      expected: "Yes. It includes all of those aspects together."
+
+    - id: "reproductive_eval_078"
+      prompt: "Can reproductive symptoms matter even when they begin gradually?"
+      expected: "Yes. Gradual symptoms can still be important if persistent or concerning."
+
+    - id: "reproductive_eval_079"
+      prompt: "Can severe reproductive symptoms require urgent attention when linked with heavy bleeding, fainting, pregnancy, fever, or sudden testicular pain?"
+      expected: "Yes. Those combinations can require urgent medical attention."
+
+    - id: "reproductive_eval_080"
+      prompt: "What should be done if reproductive system symptoms are sudden, severe, worsening, or linked with heavy bleeding, severe pelvic pain, pregnancy bleeding, fever, fainting, or sudden severe testicular pain?"
+      expected: "Sudden, severe, or concerning reproductive system symptoms should be evaluated promptly, and urgent symptoms require immediate attention."

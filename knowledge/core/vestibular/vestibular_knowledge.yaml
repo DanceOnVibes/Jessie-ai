@@ -1,0 +1,330 @@
+```yaml
+knowledge_pack:
+  file_name: "vestibular_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about the vestibular system, including inner ear balance sensing, head motion detection, gaze stabilization, spatial orientation, dizziness distinctions, sensory mismatch, and safety-aware escalation."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "vestibular"
+    category: "balance, head motion sensing, and spatial orientation"
+    domain: "human body and health"
+
+  overview:
+    summary: "The vestibular system is the body's internal motion and orientation sensing system located in the inner ear and connected closely to the brain. It helps detect head movement, acceleration, and orientation relative to gravity. The vestibular system is essential for balance, gaze stabilization, posture, spatial orientation, and coordinated movement. It works closely with vision and proprioception, and problems in this system can lead to vertigo, unsteadiness, motion sensitivity, nausea, and increased fall risk."
+    why_it_matters:
+      - "The vestibular system helps a person stay balanced during movement and position changes."
+      - "It helps keep vision steady while the head moves."
+      - "It helps the brain understand motion and orientation in space."
+      - "Vestibular dysfunction can cause vertigo, imbalance, motion sensitivity, nausea, and fall risk."
+      - "Sudden severe vestibular symptoms can sometimes signal urgent neurologic disease."
+
+  core_definitions:
+    - term: "vestibular system"
+      definition: "The sensory system in the inner ear and brain that detects head movement and orientation."
+    - term: "equilibrium"
+      definition: "Physical steadiness and balance."
+    - term: "vertigo"
+      definition: "A false sensation of spinning or motion."
+    - term: "dizziness"
+      definition: "A broad symptom that may include spinning, lightheadedness, floating, or imbalance."
+    - term: "spatial orientation"
+      definition: "Awareness of body position and direction relative to the environment and gravity."
+    - term: "gaze stabilization"
+      definition: "The ability to keep vision steady while the head moves."
+    - term: "motion sensitivity"
+      definition: "Increased discomfort or symptoms with movement."
+    - term: "vestibulo-ocular reflex"
+      definition: "A reflex that helps keep the eyes stable when the head moves."
+    - term: "hair cells"
+      definition: "Specialized sensory cells in the inner ear that detect movement-related mechanical changes."
+    - term: "angular acceleration"
+      definition: "Rotational movement, such as turning the head."
+    - term: "linear acceleration"
+      definition: "Straight-line movement, such as moving forward, stopping, or rising."
+
+  foundational_principle:
+    summary: "The vestibular system gives the brain motion and orientation information that must be integrated with vision and proprioception."
+    key_points:
+      - "The inner ear senses head movement and gravity-related position changes."
+      - "The brain compares vestibular input with visual and body-position input."
+      - "If the signals match, movement feels stable and orientation feels normal."
+      - "If the signals conflict or the vestibular system malfunctions, dizziness, vertigo, nausea, or imbalance may occur."
+
+  major_structures:
+    inner_ear:
+      role: "Contains the main sensory organs for vestibular detection."
+      importance: "This is where head movement and orientation sensing begins."
+    semicircular_canals:
+      role: "Detect rotational head movements."
+      importance: "They help sense turning and spinning motions."
+    otolith_organs:
+      role: "Detect linear acceleration and head position relative to gravity."
+      importance: "They help sense tilting, rising, stopping, and straight-line motion."
+    sensory_hair_cells:
+      role: "Convert movement-related mechanical changes into sensory signals."
+      importance: "They are the actual receptor cells that start vestibular signaling."
+    vestibular_nerve:
+      role: "Carries vestibular information from the inner ear to the brain."
+      importance: "It is the communication pathway for vestibular signals."
+    brainstem_and_cerebellum:
+      role: "Process vestibular input and coordinate posture, eye movements, and balance responses."
+      importance: "They help translate vestibular information into stable movement and orientation."
+
+  how_the_vestibular_system_works:
+    detection_phase:
+      - "Head movement or position change causes specialized structures in the inner ear to shift."
+      - "This mechanical change activates sensory hair cells."
+    signaling_phase:
+      - "Signals travel through the vestibular nerve to the brain."
+    integration_phase:
+      - "The brain combines vestibular information with vision and proprioception."
+      - "This creates a coherent sense of movement, position, and balance."
+    response_phase:
+      - "The eyes adjust to keep vision stable."
+      - "Postural muscles adjust to maintain equilibrium."
+      - "The body corrects movement to stay upright and oriented."
+
+  motion_types_sensed:
+    rotational_motion:
+      summary: "Rotational motion means turning movement."
+      examples:
+        - "shaking the head no"
+        - "turning to look over the shoulder"
+        - "spinning in a chair"
+      sensed_by: "semicircular_canals"
+    linear_motion:
+      summary: "Linear motion means straight-line movement or changes in speed."
+      examples:
+        - "moving forward in a car"
+        - "stopping suddenly"
+        - "rising in an elevator"
+      sensed_by: "otolith_organs"
+    gravity_related_position:
+      summary: "The vestibular system also helps detect head position relative to gravity."
+      examples:
+        - "tilting the head sideways"
+        - "leaning back"
+      sensed_by: "otolith_organs"
+
+  key_functions:
+    - name: "head motion detection"
+      explanation: "Senses turning, tilting, and acceleration of the head."
+    - name: "balance support"
+      explanation: "Contributes essential information for staying steady."
+    - name: "gaze stabilization"
+      explanation: "Helps keep visual targets clear while the head moves."
+    - name: "postural control"
+      explanation: "Supports automatic adjustments of the body during motion and stance."
+    - name: "spatial orientation"
+      explanation: "Helps the brain understand movement and position in space."
+
+  relationship_to_other_systems:
+    vision:
+      role: "Vision provides external reference points and helps stabilize orientation."
+      distinction: "The vestibular system senses head movement internally, while vision helps interpret surroundings."
+    proprioception:
+      role: "Proprioception tells the brain about body and limb position."
+      distinction: "Vestibular input is especially about head motion and gravity, while proprioception is about body position and movement."
+    balance:
+      role: "Vestibular input is one of the three major contributors to balance."
+      distinction: "Balance usually depends on vestibular input, vision, and proprioception together."
+    hearing:
+      role: "Hearing and vestibular function both involve the inner ear."
+      distinction: "Hearing detects sound, while the vestibular system detects motion and orientation."
+    nervous_system:
+      role: "The nervous system integrates vestibular information and generates responses."
+      distinction: "The vestibular system is part of the larger sensory and motor coordination network."
+
+  sensory_mismatch_explained:
+    summary: "Symptoms can occur when vestibular input, visual input, and body-position input do not match well."
+    key_points:
+      - "The brain normally expects sensory systems to agree."
+      - "If movement signals conflict, the person may feel dizzy, nauseated, or disoriented."
+      - "This can happen in motion sickness, visually busy environments, or vestibular dysfunction."
+
+  vestibular_compensation_and_adaptation:
+    summary: "The brain can sometimes adapt to vestibular changes over time."
+    key_points:
+      - "Some people improve as the brain learns to rely differently on vestibular, visual, and proprioceptive signals."
+      - "Compensation may reduce symptoms, but it may not be immediate."
+      - "Challenging environments such as darkness or busy movement can still reveal difficulty."
+
+  common_vestibular_related_symptoms:
+    - name: "vertigo"
+      explanation: "A spinning or motion sensation when no real spinning is occurring."
+    - name: "imbalance"
+      explanation: "Difficulty staying steady or feeling physically secure while standing or walking."
+    - name: "motion sensitivity"
+      explanation: "Symptoms triggered or worsened by movement, especially head movement."
+    - name: "nausea"
+      explanation: "Vestibular mismatch or disturbance can trigger nausea."
+    - name: "visual instability"
+      explanation: "Vision may seem to bounce, blur, or feel unstable during head movement."
+    - name: "disorientation"
+      explanation: "A person may feel spatially confused or not anchored well in space."
+    - name: "unsteadiness"
+      explanation: "The body may feel off-balance without true spinning."
+
+  important_distinctions:
+    - name: "vertigo vs dizziness"
+      explanation: "Vertigo is a false spinning or motion sensation, while dizziness is a broader term that may include many different sensations."
+    - name: "vestibular symptoms vs lightheadedness"
+      explanation: "Vestibular symptoms often involve spinning, motion sensitivity, or imbalance, while lightheadedness often feels more like faintness."
+    - name: "imbalance vs weakness"
+      explanation: "A person can feel unsteady even when muscle strength is normal."
+    - name: "motion sensitivity vs anxiety alone"
+      explanation: "Movement-triggered symptoms can come from vestibular dysfunction, though emotional state can also influence symptom intensity."
+    - name: "brief positional symptoms vs persistent severe dysfunction"
+      explanation: "Some vestibular symptoms are brief and position-triggered, while others are ongoing and more disabling."
+    - name: "vestibular system vs hearing"
+      explanation: "Both are related to the inner ear, but the vestibular system senses movement and orientation, while hearing senses sound."
+
+  normal_features_and_context:
+    - "The vestibular system works constantly in the background."
+    - "People usually do not notice it unless there is movement challenge or dysfunction."
+    - "Fast spinning can temporarily overwhelm normal vestibular processing even in healthy people."
+    - "Vision can compensate for some vestibular limitations, especially in stable environments."
+    - "Darkness can make vestibular and proprioceptive deficits more obvious."
+
+  common_factors_that_can_affect_vestibular_function:
+    inner_ear_related:
+      - "inner ear irritation"
+      - "vestibular dysfunction"
+      - "position-triggered vestibular disturbance"
+    neurologic:
+      - "brainstem or cerebellar dysfunction"
+      - "nerve pathway problems"
+    situational:
+      - "rapid head motion"
+      - "visual-vestibular mismatch"
+      - "motion exposure"
+    systemic_or_contextual:
+      - "fatigue"
+      - "stress"
+      - "illness"
+      - "medication effects"
+
+  vestibular_contribution_to_balance:
+    summary: "Vestibular input is especially important when visual input is reduced or the surface is unstable."
+    key_points:
+      - "When the eyes are closed, vestibular and proprioceptive input become even more important."
+      - "If vestibular signals are inaccurate, balance can worsen."
+      - "Vestibular impairment can increase fall risk, especially during turning or walking in challenging settings."
+
+  vestibular_contribution_to_eye_control:
+    summary: "The vestibular system helps keep the visual world stable during head movement."
+    key_points:
+      - "Without this function, head movement can make vision feel blurry or unstable."
+      - "This is a major reason vestibular dysfunction can feel disorienting."
+
+  common_questions_jessie_should_handle:
+    - "What does the vestibular system do?"
+    - "What is the difference between vertigo and dizziness?"
+    - "Why do I feel worse when I turn my head?"
+    - "How does the inner ear affect balance?"
+    - "Why does motion make me nauseated?"
+    - "How do the eyes and vestibular system work together?"
+    - "Why is balance harder in the dark?"
+    - "What is the difference between vestibular function and hearing?"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "brief mild motion discomfort after spinning"
+      - "temporary disorientation after rapid turning"
+      - "short-lived motion sensitivity in a moving vehicle"
+    should_be_monitored:
+      - "recurrent vertigo"
+      - "persistent unsteadiness"
+      - "motion sensitivity affecting daily activity"
+      - "visual instability with head movement"
+      - "increasing imbalance over time"
+    more_concerning:
+      - "sudden severe vertigo"
+      - "new imbalance with neurologic symptoms"
+      - "repeated falls"
+      - "vestibular symptoms with severe headache"
+      - "vestibular symptoms with double vision"
+      - "vestibular symptoms with weakness or numbness"
+      - "new hearing loss with severe dizziness"
+      - "symptoms after head injury"
+    emergency_patterns:
+      - "sudden severe symptoms with stroke-like signs"
+      - "inability to stand or walk safely"
+      - "loss of consciousness"
+      - "new severe symptoms with slurred speech"
+      - "new severe symptoms with facial droop"
+      - "severe vomiting with dehydration risk"
+      - "head injury with severe dizziness or neurologic symptoms"
+
+  red_flags:
+    immediate_attention:
+      - "sudden severe vertigo with neurologic symptoms"
+      - "vestibular symptoms with one-sided weakness"
+      - "vestibular symptoms with slurred speech"
+      - "vestibular symptoms with facial droop"
+      - "sudden inability to walk"
+      - "loss of consciousness"
+      - "new severe balance loss with major headache"
+      - "new hearing loss with severe dizziness"
+      - "head injury with severe dizziness"
+
+  safety_relevance:
+    key_points:
+      - "Jessie may explain vestibular function, balance contribution, and symptom terminology in educational terms."
+      - "Jessie should not diagnose vestibular neuritis, BPPV, labyrinthitis, stroke, or other causes of dizziness from limited symptom descriptions."
+      - "Sudden severe vertigo with neurologic symptoms, inability to walk, loss of consciousness, new hearing loss with severe dizziness, or symptoms after head injury require urgent evaluation."
+      - "Vestibular symptoms matter for safety because they increase fall risk."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Explain the vestibular system as the inner ear motion and orientation system."
+      - "Differentiate vertigo, dizziness, and imbalance clearly."
+      - "Connect vestibular function to balance, eye stability, and motion sensitivity."
+      - "Explain the difference between semicircular canals and otolith organs simply."
+      - "Use simple examples such as turning the head, riding in a car, or walking in the dark."
+      - "Escalate clearly when neurologic red flags, head injury, or inability to walk are present."
+    style_notes:
+      - "Avoid treating all dizziness as vestibular."
+      - "Avoid using vertigo and dizziness as if they always mean the same thing."
+      - "Use practical, body-based examples."
+      - "Mention safety because vestibular symptoms can increase fall risk."
+      - "Keep cause-related language cautious unless the user clearly asks for general education."
+    teaching_sequence:
+      - "Define the vestibular system."
+      - "Explain what it senses."
+      - "Describe semicircular canals and otolith organs."
+      - "Describe how it works with vision and proprioception."
+      - "Clarify the user's symptom description."
+      - "Distinguish common patterns from urgent red flags."
+
+  cross_system_links:
+    - "The vestibular system is closely linked to hearing because both are located in the inner ear, though they serve different functions."
+    - "It works with vision to stabilize gaze and orientation."
+    - "It works with proprioception to support balance and posture."
+    - "It depends on the nervous system for signal processing and motor response."
+    - "Vestibular dysfunction can affect walking, confidence, and fall risk."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "The vestibular system is the inner ear system that helps detect head movement and orientation."
+      - "The semicircular canals mainly detect turning, while the otolith organs help detect straight-line movement and head position relative to gravity."
+      - "It works with your eyes and body-position sense to help you stay balanced and keep vision steady when you move."
+      - "When vestibular signals are off or do not match other sensory input, a person may feel vertigo, nausea, or unsteadiness."
+      - "Vertigo is a specific spinning sensation, while dizziness is a broader word."
+    caution_examples:
+      - "Brief motion discomfort can happen normally, but sudden severe vertigo with weakness, slurred speech, new hearing loss, or inability to walk needs urgent attention."
+      - "Vestibular symptoms matter for safety because they can increase fall risk."
+
+  final_summary:
+    summary_points:
+      - "The vestibular system senses head motion, acceleration, and orientation relative to gravity."
+      - "It is essential for balance, gaze stabilization, posture, and spatial orientation."
+      - "The semicircular canals mainly detect rotational motion, and the otolith organs help detect linear motion and head tilt."
+      - "It works together with vision and proprioception."
+      - "Vestibular problems can cause vertigo, motion sensitivity, imbalance, nausea, and visual instability."
+      - "Sudden severe vestibular symptoms with neurologic signs, new hearing loss, head injury, or inability to walk are emergencies."
+      - "Jessie should explain vestibular function clearly, distinguish key symptom terms, and escalate urgent red flags promptly."
+```

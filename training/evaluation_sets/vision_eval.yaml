@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Urinary System Evaluation Set"
+  domain: "human_body"
+  topic: "urinary_system"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of the urinary system, urine production, waste removal, fluid balance, urinary symptoms, system interactions, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "urinary_eval_001"
+      prompt: "What is the urinary system?"
+      expected: "The urinary system is the body system that helps remove liquid waste and regulate fluid balance."
+
+    - id: "urinary_eval_002"
+      prompt: "What is the main job of the urinary system?"
+      expected: "Its main job is to produce, store, and eliminate urine while helping regulate body balance."
+
+    - id: "urinary_eval_003"
+      prompt: "Why is the urinary system important?"
+      expected: "It is important because it helps remove waste, regulate fluid balance, and support normal body chemistry."
+
+    - id: "urinary_eval_004"
+      prompt: "Are the kidneys part of the urinary system?"
+      expected: "Yes. The kidneys are major organs of the urinary system."
+
+    - id: "urinary_eval_005"
+      prompt: "Is the bladder part of the urinary system?"
+      expected: "Yes. The bladder stores urine before it leaves the body."
+
+    - id: "urinary_eval_006"
+      prompt: "Are the ureters and urethra part of the urinary system?"
+      expected: "Yes. They help transport and release urine."
+
+    - id: "urinary_eval_007"
+      prompt: "What do the kidneys do in a simple way?"
+      expected: "The kidneys filter blood, remove waste, and help make urine."
+
+    - id: "urinary_eval_008"
+      prompt: "What does the bladder do in a simple way?"
+      expected: "The bladder stores urine until a person urinates."
+
+    - id: "urinary_eval_009"
+      prompt: "Can the urinary system help regulate water balance?"
+      expected: "Yes. It helps the body manage water balance."
+
+    - id: "urinary_eval_010"
+      prompt: "Can the urinary system help regulate salts and minerals?"
+      expected: "Yes. The kidneys help regulate salts and other substances in the body."
+
+    - id: "urinary_eval_011"
+      prompt: "Can the urinary system help remove waste products from the blood?"
+      expected: "Yes. The kidneys remove waste products that leave the body in urine."
+
+    - id: "urinary_eval_012"
+      prompt: "Can the urinary system interact with the circulatory system?"
+      expected: "Yes. The kidneys filter blood and help regulate body fluid balance."
+
+    - id: "urinary_eval_013"
+      prompt: "Can the urinary system interact with the endocrine system?"
+      expected: "Yes. Hormones help regulate kidney function and fluid balance."
+
+    - id: "urinary_eval_014"
+      prompt: "Can the urinary system affect blood pressure regulation?"
+      expected: "Yes. The kidneys help influence fluid balance and blood pressure."
+
+    - id: "urinary_eval_015"
+      prompt: "Does urine contain waste that the body is removing?"
+      expected: "Yes. Urine contains water and waste products removed by the body."
+
+    - id: "urinary_eval_016"
+      prompt: "Can urine color vary with hydration?"
+      expected: "Yes. Urine color often changes with hydration level."
+
+    - id: "urinary_eval_017"
+      prompt: "Can darker urine suggest dehydration?"
+      expected: "Yes. Darker urine can suggest dehydration, though context matters."
+
+    - id: "urinary_eval_018"
+      prompt: "Can the amount of urine vary from day to day?"
+      expected: "Yes. Urine amount can vary with fluid intake, temperature, health, and other factors."
+
+    - id: "urinary_eval_019"
+      prompt: "What is urination in a simple way?"
+      expected: "Urination is the process of releasing urine from the bladder."
+
+    - id: "urinary_eval_020"
+      prompt: "Can healthy urination be important for comfort and body balance?"
+      expected: "Yes. Normal urination supports comfort and waste removal."
+
+    - id: "urinary_eval_021"
+      prompt: "Can burning during urination be an important symptom?"
+      expected: "Yes. Burning with urination can be an important urinary symptom."
+
+    - id: "urinary_eval_022"
+      prompt: "Can frequent urination happen for different reasons?"
+      expected: "Yes. Frequent urination can happen for many reasons."
+
+    - id: "urinary_eval_023"
+      prompt: "Can urgency mean feeling a sudden strong need to urinate?"
+      expected: "Yes. Urinary urgency is a sudden strong need to urinate."
+
+    - id: "urinary_eval_024"
+      prompt: "Can blood in the urine be important?"
+      expected: "Yes. Blood in the urine should be taken seriously and evaluated."
+
+    - id: "urinary_eval_025"
+      prompt: "Can cloudy or foul-smelling urine sometimes suggest a problem?"
+      expected: "Yes. Those changes can sometimes suggest a urinary issue."
+
+    - id: "urinary_eval_026"
+      prompt: "Can lower abdominal discomfort be related to the urinary system?"
+      expected: "Yes. Some urinary problems can cause lower abdominal discomfort."
+
+    - id: "urinary_eval_027"
+      prompt: "Can back or side pain sometimes relate to the kidneys?"
+      expected: "Yes. Pain in the flank or back can sometimes relate to the kidneys."
+
+    - id: "urinary_eval_028"
+      prompt: "Can fever with urinary symptoms be important?"
+      expected: "Yes. Fever with urinary symptoms can suggest a more significant problem."
+
+    - id: "urinary_eval_029"
+      prompt: "Can urinary tract infections affect the urinary system?"
+      expected: "Yes. Infections can affect the bladder, urethra, or kidneys."
+
+    - id: "urinary_eval_030"
+      prompt: "Can kidney stones cause severe urinary pain?"
+      expected: "Yes. Kidney stones can cause severe pain and urinary symptoms."
+
+    - id: "urinary_eval_031"
+      prompt: "Can the urinary system be involved in fluid loss and dehydration?"
+      expected: "Yes. Urine output is part of the body's fluid balance."
+
+    - id: "urinary_eval_032"
+      prompt: "Can too little urine output be important?"
+      expected: "Yes. Very low urine output can be an important sign of dehydration or other problems."
+
+    - id: "urinary_eval_033"
+      prompt: "Can swelling in the body sometimes relate to kidney problems?"
+      expected: "Yes. Kidney problems can sometimes contribute to swelling."
+
+    - id: "urinary_eval_034"
+      prompt: "Can the urinary system affect overall body chemistry?"
+      expected: "Yes. It helps regulate substances in the blood and body fluids."
+
+    - id: "urinary_eval_035"
+      prompt: "Can urinary symptoms affect sleep?"
+      expected: "Yes. Frequent urination or discomfort can disturb sleep."
+
+    - id: "urinary_eval_036"
+      prompt: "Can urinary symptoms affect daily activities?"
+      expected: "Yes. Pain, urgency, frequency, or leakage can affect daily life."
+
+    - id: "urinary_eval_037"
+      prompt: "Can urinary leakage happen in some people?"
+      expected: "Yes. Urinary leakage can happen for different reasons."
+
+    - id: "urinary_eval_038"
+      prompt: "Can difficulty starting urination be important?"
+      expected: "Yes. Difficulty starting urination can be an important urinary symptom."
+
+    - id: "urinary_eval_039"
+      prompt: "Can weak urine flow be a urinary symptom?"
+      expected: "Yes. Weak urine flow can be a urinary symptom."
+
+    - id: "urinary_eval_040"
+      prompt: "Can feeling unable to fully empty the bladder be a symptom?"
+      expected: "Yes. Incomplete emptying can be an important symptom."
+
+    - id: "urinary_eval_041"
+      prompt: "Can pain and urgency happen together in urinary problems?"
+      expected: "Yes. Pain, urgency, and frequency can occur together."
+
+    - id: "urinary_eval_042"
+      prompt: "Can bladder or kidney problems sometimes overlap with reproductive symptoms?"
+      expected: "Yes. Urinary and reproductive symptoms can sometimes overlap."
+
+    - id: "urinary_eval_043"
+      prompt: "Can hydration habits affect the urinary system?"
+      expected: "Yes. Fluid intake strongly affects urine production and urinary patterns."
+
+    - id: "urinary_eval_044"
+      prompt: "Can some foods or drinks irritate the bladder in some people?"
+      expected: "Yes. Some foods and drinks can worsen urinary symptoms in some people."
+
+    - id: "urinary_eval_045"
+      prompt: "Can aging affect urinary patterns?"
+      expected: "Yes. Urinary habits and bladder function can change with age."
+
+    - id: "urinary_eval_046"
+      prompt: "Can the urinary system matter throughout life?"
+      expected: "Yes. Urinary function is important across the lifespan."
+
+    - id: "urinary_eval_047"
+      prompt: "Can the nervous system affect bladder control?"
+      expected: "Yes. Bladder function depends partly on nervous system control."
+
+    - id: "urinary_eval_048"
+      prompt: "Can a person urinate less when dehydrated?"
+      expected: "Yes. Dehydration can reduce urine output."
+
+    - id: "urinary_eval_049"
+      prompt: "Can nighttime urination affect rest?"
+      expected: "Yes. Needing to urinate often at night can disrupt sleep."
+
+    - id: "urinary_eval_050"
+      prompt: "Can urinary symptoms happen suddenly or gradually?"
+      expected: "Yes. Urinary symptoms can begin suddenly or develop gradually."
+
+    - id: "urinary_eval_051"
+      prompt: "Can severe pain with inability to urinate be urgent?"
+      expected: "Yes. Severe pain with inability to urinate is urgent."
+
+    - id: "urinary_eval_052"
+      prompt: "Can blood in the urine with clots or pain be serious?"
+      expected: "Yes. That can be serious and should be evaluated promptly."
+
+    - id: "urinary_eval_053"
+      prompt: "Can fever, back pain, and urinary symptoms together be important?"
+      expected: "Yes. That combination can suggest a significant urinary problem."
+
+    - id: "urinary_eval_054"
+      prompt: "Can severe flank pain with nausea or vomiting be concerning?"
+      expected: "Yes. Severe flank pain with those symptoms should be evaluated promptly."
+
+    - id: "urinary_eval_055"
+      prompt: "Can very low urine output with weakness or confusion be serious?"
+      expected: "Yes. That combination can be serious and requires prompt attention."
+
+    - id: "urinary_eval_056"
+      prompt: "Can painful urination with fever and worsening symptoms need prompt care?"
+      expected: "Yes. Worsening urinary symptoms with fever should be evaluated."
+
+    - id: "urinary_eval_057"
+      prompt: "Can loss of bladder control with severe back pain or numbness be urgent?"
+      expected: "Yes. That combination can be urgent and requires immediate medical attention."
+
+    - id: "urinary_eval_058"
+      prompt: "Should a person ignore complete inability to urinate?"
+      expected: "No. Complete inability to urinate should be treated urgently."
+
+    - id: "urinary_eval_059"
+      prompt: "Should urinary symptoms with fainting or severe weakness be considered serious?"
+      expected: "Yes. Those associated symptoms increase concern and need prompt evaluation."
+
+    - id: "urinary_eval_060"
+      prompt: "Should sudden severe swelling with major reduction in urine output be taken seriously?"
+      expected: "Yes. That pattern can indicate a serious problem."
+
+    - id: "urinary_eval_061"
+      prompt: "Can the kidneys help maintain balance of water, salts, and waste?"
+      expected: "Yes. That is one of their major roles."
+
+    - id: "urinary_eval_062"
+      prompt: "Can the bladder store urine until it is convenient to urinate?"
+      expected: "Yes. The bladder stores urine temporarily."
+
+    - id: "urinary_eval_063"
+      prompt: "Can urinary symptoms affect quality of life?"
+      expected: "Yes. Urinary symptoms can affect comfort, sleep, work, and daily function."
+
+    - id: "urinary_eval_064"
+      prompt: "Can kidney function be important for the whole body and not just urination?"
+      expected: "Yes. Kidney function affects overall fluid, waste, and chemical balance."
+
+    - id: "urinary_eval_065"
+      prompt: "Can urinary problems sometimes affect appetite or cause nausea?"
+      expected: "Yes. Some urinary or kidney problems can affect appetite or cause nausea."
+
+    - id: "urinary_eval_066"
+      prompt: "Can the urinary system be described as both a waste removal and balance regulation system?"
+      expected: "Yes. It removes waste and helps maintain internal balance."
+
+    - id: "urinary_eval_067"
+      prompt: "Can urinary symptoms matter even if they seem embarrassing to discuss?"
+      expected: "Yes. Urinary symptoms can be medically important and should not be ignored."
+
+    - id: "urinary_eval_068"
+      prompt: "Can changes in urination sometimes be one of the first signs that something is wrong?"
+      expected: "Yes. Changes in urination can sometimes provide early warning of a problem."
+
+    - id: "urinary_eval_069"
+      prompt: "Can the urinary system interact with hydration, circulation, hormones, nerves, and kidney function together?"
+      expected: "Yes. Urinary function depends on all of those factors together."
+
+    - id: "urinary_eval_070"
+      prompt: "Can urinary health include awareness of pain, frequency, urgency, blood, output changes, and fever?"
+      expected: "Yes. Those are important urinary health features to notice."
+
+    - id: "urinary_eval_071"
+      prompt: "Can urinary problems sometimes become serious if ignored?"
+      expected: "Yes. Some urinary problems can worsen and become serious if not evaluated."
+
+    - id: "urinary_eval_072"
+      prompt: "Can urinary symptoms matter even if they begin gradually?"
+      expected: "Yes. Gradual symptoms can still need attention if persistent or concerning."
+
+    - id: "urinary_eval_073"
+      prompt: "Can kidney pain, blood in urine, fever, and reduced urine output all be potentially important warning signs?"
+      expected: "Yes. Those can be important warning signs."
+
+    - id: "urinary_eval_074"
+      prompt: "Can hydration and normal kidney function help support blood pressure and body chemistry?"
+      expected: "Yes. Healthy kidney function helps support those systems."
+
+    - id: "urinary_eval_075"
+      prompt: "Can the urinary system involve kidneys, ureters, bladder, urethra, urine production, storage, and elimination together?"
+      expected: "Yes. All of those are part of urinary system function."
+
+    - id: "urinary_eval_076"
+      prompt: "What is the main idea of the urinary system?"
+      expected: "The urinary system filters blood, removes liquid waste, produces and stores urine, and helps regulate fluid and chemical balance in the body."
+
+    - id: "urinary_eval_077"
+      prompt: "Can the urinary system support waste removal, hydration balance, mineral regulation, and bladder function together?"
+      expected: "Yes. It serves all of those major roles."
+
+    - id: "urinary_eval_078"
+      prompt: "Can urinary-related symptoms matter even if the main concern is change in output rather than pain?"
+      expected: "Yes. Changes in urine output can still be very important."
+
+    - id: "urinary_eval_079"
+      prompt: "Can urgent urinary concerns include inability to urinate, blood in the urine, fever with flank pain, severe pain with vomiting, or bladder problems with severe back pain and numbness?"
+      expected: "Yes. Those situations can require urgent or immediate attention."
+
+    - id: "urinary_eval_080"
+      prompt: "What should be done if urinary symptoms are sudden, severe, worsening, or linked with inability to urinate, blood in urine, fever, flank pain, vomiting, confusion, fainting, or severe back pain with numbness or bladder control loss?"
+      expected: "Sudden, severe, or concerning urinary symptoms should be evaluated promptly, and urgent symptoms require immediate attention."

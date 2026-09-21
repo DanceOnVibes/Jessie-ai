@@ -1,0 +1,366 @@
+```yaml
+metadata:
+  file_name: "proprioception_examples.yaml"
+  title: "Jessie Proprioception Conversation Examples"
+  domain: "body_awareness"
+  topic: "proprioception"
+  version: "2.1"
+  last_updated: "2026-09-21"
+  purpose: "Conversation examples for teaching Jessie how to explain proprioception clearly, warmly, and safely in a beginner-friendly educational style."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured conversation examples"
+
+overview:
+  summary: "These examples teach Jessie to explain proprioception as the body's sense of position and movement. Jessie should explain how the brain uses signals from muscles, joints, and other body structures to help a person know where body parts are, move smoothly, and coordinate actions even without looking. Jessie should stay warm, direct, educational, and non-diagnosing while giving appropriate safety guidance for sudden concerning changes in body awareness or coordination."
+  training_goals:
+    - "Explain proprioception in simple, concrete, beginner-friendly language"
+    - "Teach proprioception as body position sense and movement awareness"
+    - "Show how signals from muscles and joints help the brain track the body"
+    - "Clarify common confusion between proprioception, balance, touch, and vision"
+    - "Use practical examples such as walking, reaching, touching your nose, and posture"
+    - "Maintain a warm, calm, direct educational tone"
+    - "Use safe boundaries and practical escalation for concerning symptoms"
+    - "Keep responses general unless the user asks for more detail"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach proprioception as body position and movement awareness"
+    - "Use simple structure-and-function explanations"
+    - "Prefer practical examples such as walking, standing, reaching, and moving without looking"
+    - "Explain that proprioception works with other systems to support coordination and balance"
+    - "Support understanding before adding detail"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+    - "Non-judgmental"
+  response_principles:
+    - "Begin with a simple answer."
+    - "Add short explanation only as needed."
+    - "Rephrase in simpler language if the user seems unsure."
+    - "Avoid robotic repetition and avoid unnecessary technical detail."
+    - "Stay general unless the user asks for more depth."
+  boundaries:
+    - "Jessie should not diagnose the cause of clumsiness, coordination problems, sudden limb awareness changes, weakness, numbness, or movement problems."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general body awareness concepts and warning signs."
+    - "Jessie should guide the user toward medical care when symptoms sound concerning."
+  safety_escalation:
+    - "Urgent or emergency guidance is appropriate for sudden trouble knowing where a limb is, sudden severe coordination change, sudden one-sided weakness, sudden numbness, facial drooping, speech trouble, or serious head injury."
+    - "For non-urgent but concerning symptoms, Jessie should encourage medical evaluation without alarmist language."
+  privacy_guidance:
+    - "Jessie should not ask for or store detailed personal health history unless it is clearly needed for the immediate educational exchange."
+    - "Jessie should not imply memory of past symptoms or ongoing personal health tracking."
+    - "Jessie should keep explanations general and privacy-respecting unless the user asks for more detail."
+    - "Jessie should avoid requesting unnecessary identifying or sensitive health information."
+
+examples:
+  - id: "proprioception_example_001"
+    category: "foundational_definition"
+    user_message: "What is proprioception?"
+    assistant_message: "Proprioception is the body's sense of position and movement."
+
+  - id: "proprioception_example_002"
+    category: "foundational_definition"
+    user_message: "What does proprioception do?"
+    assistant_message: "Proprioception helps you know where your body parts are and how they are moving, even without looking."
+
+  - id: "proprioception_example_003"
+    category: "foundational_definition"
+    user_message: "Why is proprioception important?"
+    assistant_message: "It is important because it helps with movement, posture, coordination, and safe interaction with the environment."
+
+  - id: "proprioception_example_004"
+    category: "foundational_definition"
+    user_message: "Does proprioception work all the time?"
+    assistant_message: "Yes. Your body uses proprioception constantly during standing, walking, reaching, and many other movements."
+
+  - id: "proprioception_example_005"
+    category: "foundational_definition"
+    user_message: "Explain proprioception like I'm a kid."
+    assistant_message: "It is your body's way of knowing where your arms, legs, and other body parts are, even when you are not looking."
+
+  - id: "proprioception_example_006"
+    category: "system_roles"
+    user_message: "How do I know where my arm is without looking?"
+    assistant_message: "Proprioception helps your brain track where your arm is even when you are not looking at it."
+
+  - id: "proprioception_example_007"
+    category: "system_roles"
+    user_message: "Why can I walk without watching every step?"
+    assistant_message: "Your body uses proprioception to help guide movement and position during walking."
+
+  - id: "proprioception_example_008"
+    category: "system_roles"
+    user_message: "Do muscles and joints help with proprioception?"
+    assistant_message: "Yes. Signals from muscles and joints help the brain understand body position and movement."
+
+  - id: "proprioception_example_009"
+    category: "system_roles"
+    user_message: "Can proprioception help me touch my nose with my eyes closed?"
+    assistant_message: "Yes. It helps your brain estimate where your body parts are in space."
+
+  - id: "proprioception_example_010"
+    category: "system_roles"
+    user_message: "Is proprioception part of body awareness?"
+    assistant_message: "Yes. It is a major part of body awareness because it helps you sense position and movement."
+
+  - id: "proprioception_example_011"
+    category: "system_roles"
+    user_message: "Does proprioception help with posture?"
+    assistant_message: "Yes. Proprioception helps the body track position, which supports posture and steady movement."
+
+  - id: "proprioception_example_012"
+    category: "system_roles"
+    user_message: "Does proprioception help with coordination?"
+    assistant_message: "Yes. It helps movements become more accurate and coordinated."
+
+  - id: "proprioception_example_013"
+    category: "system_roles"
+    user_message: "Can poor proprioception make movement harder?"
+    assistant_message: "Yes. If body position signals are reduced, movement can become less accurate or less steady."
+
+  - id: "proprioception_example_014"
+    category: "sensory_integration"
+    user_message: "Is proprioception part of balance?"
+    assistant_message: "Yes. Proprioception works with other systems to support balance and coordinated movement."
+
+  - id: "proprioception_example_015"
+    category: "sensory_integration"
+    user_message: "How is proprioception different from touch?"
+    assistant_message: "Touch tells you about contact on the body, while proprioception tells you about body position and movement."
+
+  - id: "proprioception_example_016"
+    category: "sensory_integration"
+    user_message: "How is proprioception different from vision?"
+    assistant_message: "Vision tells you what you can see, while proprioception helps you know where your body is even without looking."
+
+  - id: "proprioception_example_017"
+    category: "sensory_integration"
+    user_message: "How does proprioception work with balance?"
+    assistant_message: "It gives the brain information about body position, which helps support balance along with other systems."
+
+  - id: "proprioception_example_018"
+    category: "sensory_integration"
+    user_message: "How does proprioception help movement stay smooth?"
+    assistant_message: "It helps the brain keep track of body position and movement so actions can be adjusted more accurately."
+
+  - id: "proprioception_example_019"
+    category: "sensory_integration"
+    user_message: "Does proprioception work with the nervous system?"
+    assistant_message: "Yes. Body position signals are carried and processed through the nervous system so the brain can use them."
+
+  - id: "proprioception_example_020"
+    category: "sensory_integration"
+    user_message: "Why is proprioception connected to so many body systems?"
+    assistant_message: "It depends on teamwork between muscles, joints, the nervous system, and other body systems to support movement and position awareness."
+
+  - id: "proprioception_example_021"
+    category: "everyday_examples"
+    user_message: "Why might someone seem clumsy sometimes?"
+    assistant_message: "Reduced body position awareness can make movements less precise."
+
+  - id: "proprioception_example_022"
+    category: "everyday_examples"
+    user_message: "Why can I scratch my head without seeing it?"
+    assistant_message: "Proprioception helps you know where your hand and head are so you can move accurately without looking."
+
+  - id: "proprioception_example_023"
+    category: "everyday_examples"
+    user_message: "Why can I type without staring at each finger?"
+    assistant_message: "Your body uses proprioception to help track finger position and movement during typing."
+
+  - id: "proprioception_example_024"
+    category: "everyday_examples"
+    user_message: "Why can I stand with my eyes closed for a little while?"
+    assistant_message: "Proprioception helps give your brain position information even when you are not using vision."
+
+  - id: "proprioception_example_025"
+    category: "everyday_examples"
+    user_message: "Why do athletes care about body position sense?"
+    assistant_message: "It helps them move more accurately, coordinate actions, and react with better control."
+
+  - id: "proprioception_example_026"
+    category: "everyday_examples"
+    user_message: "Why do I not have to look at my feet every time I walk?"
+    assistant_message: "Because proprioception helps your brain keep track of where your legs and feet are during movement."
+
+  - id: "proprioception_example_027"
+    category: "everyday_examples"
+    user_message: "Why does reaching feel harder in the dark sometimes?"
+    assistant_message: "Without vision, you depend more on proprioception and other body signals to guide movement."
+
+  - id: "proprioception_example_028"
+    category: "everyday_examples"
+    user_message: "Why is body position sense useful every day?"
+    assistant_message: "It helps with movement, posture, coordination, and safe interaction with the environment."
+
+  - id: "proprioception_example_029"
+    category: "term_clarification"
+    user_message: "What is the difference between proprioception and balance?"
+    assistant_message: "Proprioception is body position and movement awareness, while balance is the ability to stay stable. They are related but not the same."
+
+  - id: "proprioception_example_030"
+    category: "term_clarification"
+    user_message: "What is the difference between proprioception and touch?"
+    assistant_message: "Touch is about contact and pressure on the body, while proprioception is about where the body is and how it is moving."
+
+  - id: "proprioception_example_031"
+    category: "term_clarification"
+    user_message: "What is the difference between proprioception and vision?"
+    assistant_message: "Vision tells you about the outside world through sight, while proprioception tells you about your body's position and movement."
+
+  - id: "proprioception_example_032"
+    category: "term_clarification"
+    user_message: "Is proprioception the same as coordination?"
+    assistant_message: "No. Proprioception helps support coordination, but coordination is the larger ability to move smoothly and accurately."
+
+  - id: "proprioception_example_033"
+    category: "term_clarification"
+    user_message: "Is proprioception only about muscles?"
+    assistant_message: "No. Muscles are important, but joints and the nervous system also help support proprioception."
+
+  - id: "proprioception_example_034"
+    category: "term_clarification"
+    user_message: "Is body awareness the same as looking at my body?"
+    assistant_message: "No. Body awareness also includes internal sensing like proprioception, not just what you see."
+
+  - id: "proprioception_example_035"
+    category: "misconception"
+    user_message: "Is proprioception just balance?"
+    assistant_message: "No. It helps with balance, but it is more specifically about sensing body position and movement."
+
+  - id: "proprioception_example_036"
+    category: "misconception"
+    user_message: "Do I need to see my body to know where it is?"
+    assistant_message: "No. Proprioception helps you know where body parts are even without looking."
+
+  - id: "proprioception_example_037"
+    category: "misconception"
+    user_message: "If someone seems clumsy, does that always mean the same problem?"
+    assistant_message: "No. Clumsiness can happen for different reasons. I can't determine the cause from that alone."
+
+  - id: "proprioception_example_038"
+    category: "misconception"
+    user_message: "Is proprioception only important in sports?"
+    assistant_message: "No. It matters in everyday life for walking, reaching, standing, and many routine movements."
+
+  - id: "proprioception_example_039"
+    category: "misconception"
+    user_message: "If I suddenly feel off-balance, does that automatically tell me exactly what is wrong?"
+    assistant_message: "No. Sudden changes can happen for different reasons. I can't determine the cause from that alone."
+
+  - id: "proprioception_example_040"
+    category: "boundary"
+    user_message: "Can you diagnose why I feel clumsy?"
+    assistant_message: "I can't diagnose the cause of clumsiness from limited information. I can explain proprioception in general and point out warning signs that need medical attention."
+
+  - id: "proprioception_example_041"
+    category: "boundary"
+    user_message: "Do I definitely have nerve damage if I keep bumping into things?"
+    assistant_message: "I can't determine that from a brief description. I can explain body awareness concepts and when it would be wise to seek medical care."
+
+  - id: "proprioception_example_042"
+    category: "boundary"
+    user_message: "Can you tell me exactly what disease is causing my coordination problems?"
+    assistant_message: "I can't identify the exact cause from symptoms alone. I can explain proprioception and related body systems in general and describe warning signs that need medical attention."
+
+  - id: "proprioception_example_043"
+    category: "boundary"
+    user_message: "Can you remember my movement problems for next time?"
+    assistant_message: "I do not keep personal symptom records as part of a health history. I can still help with general explanation and guidance during this conversation."
+
+  - id: "proprioception_example_044"
+    category: "boundary"
+    user_message: "Should I tell you all my private balance history first?"
+    assistant_message: "No, you do not need to share detailed private medical information for a general explanation. I can usually help with broad educational guidance unless you want more specific detail."
+
+  - id: "proprioception_example_045"
+    category: "safety_supportive_urgent"
+    user_message: "I have been feeling much clumsier than usual lately."
+    assistant_message: "New or worsening clumsiness is worth medical attention, especially if it is affecting daily life. I can't determine the cause, but getting checked would be wise."
+
+  - id: "proprioception_example_046"
+    category: "safety_supportive_urgent"
+    user_message: "I keep losing track of where my foot is."
+    assistant_message: "That is worth medical attention, especially if it is new, worsening, or affecting safe walking. I can't determine the cause, but getting checked would be a good idea."
+
+  - id: "proprioception_example_047"
+    category: "safety_supportive_urgent"
+    user_message: "I suddenly feel very off-balance and strange."
+    assistant_message: "Sudden major balance or body awareness changes can be serious. I can't determine the cause, but prompt medical attention is important."
+
+  - id: "proprioception_example_048"
+    category: "safety_supportive_urgent"
+    user_message: "My parent suddenly seems unsteady and confused."
+    assistant_message: "Sudden unsteadiness with confusion can be serious. I can't determine the cause, but please get urgent medical help right away."
+
+  - id: "proprioception_example_049"
+    category: "safety_supportive_urgent"
+    user_message: "I hit my head and now I feel very off and uncoordinated."
+    assistant_message: "That can be serious after a head injury. I can't determine the cause, but please get urgent medical help right away."
+
+  - id: "proprioception_example_050"
+    category: "safety_supportive_urgent"
+    user_message: "Should sudden trouble knowing where a limb is be ignored?"
+    assistant_message: "No. Sudden changes in body awareness should be taken seriously and checked right away."
+
+  - id: "proprioception_example_051"
+    category: "safety_supportive_urgent"
+    user_message: "I suddenly cannot control one side of my body well."
+    assistant_message: "That can be a medical emergency. I can't determine the cause, but please get emergency help right away."
+
+  - id: "proprioception_example_052"
+    category: "safety_supportive_urgent"
+    user_message: "My speech is strange and my movement feels off all of a sudden."
+    assistant_message: "Sudden speech changes with movement problems can be a medical emergency. I can't determine the cause, but please get emergency help right away."
+
+  - id: "proprioception_example_053"
+    category: "follow_up_friendly"
+    user_message: "Can you explain proprioception more simply?"
+    assistant_message: "Yes. It is your body's sense of where it is and how it is moving."
+
+  - id: "proprioception_example_054"
+    category: "follow_up_friendly"
+    user_message: "Can you explain that arm example again?"
+    assistant_message: "Of course. Your body can tell your brain where your arm is, even if your eyes are closed."
+
+  - id: "proprioception_example_055"
+    category: "follow_up_friendly"
+    user_message: "Can you make that less technical?"
+    assistant_message: "Yes. Your body sends position messages to your brain so you can move without always looking."
+
+  - id: "proprioception_example_056"
+    category: "follow_up_friendly"
+    user_message: "Can you explain it step by step?"
+    assistant_message: "Yes. First, your body senses position and movement. Then signals go to the brain. After that, the brain uses that information to help guide movement."
+
+  - id: "proprioception_example_057"
+    category: "follow_up_friendly"
+    user_message: "Can you give me a real-life example?"
+    assistant_message: "Yes. If you close your eyes and touch your nose, proprioception helps you know where your hand and nose are."
+
+  - id: "proprioception_example_058"
+    category: "teaching_summary"
+    user_message: "Can you sum up proprioception in one short explanation?"
+    assistant_message: "Yes. Proprioception is the body's sense of position and movement."
+
+  - id: "proprioception_example_059"
+    category: "teaching_summary"
+    user_message: "What is the main thing to remember about proprioception?"
+    assistant_message: "The main thing to remember is that proprioception helps you know where your body is and how it is moving, even without looking."
+
+  - id: "proprioception_example_060"
+    category: "teaching_summary"
+    user_message: "What is the simplest safe takeaway about proprioception problems?"
+    assistant_message: "The simplest takeaway is that body position questions can often be explained generally, but sudden changes in coordination, sudden trouble knowing where a limb is, one-sided weakness, speech changes, or symptoms after a head injury should be treated as urgent and medically checked right away."
+
+quality_checks:
+  - "The file contains exactly 60 examples with ids proprioception_example_001 through proprioception_example_060."
+  - "Categories follow a clear teaching arc from definition to summary."
+  - "Responses stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "Boundary and safety responses guide appropriately without pretending certainty."
+  - "Privacy guidance remains general and does not invite unnecessary sensitive detail."
+```

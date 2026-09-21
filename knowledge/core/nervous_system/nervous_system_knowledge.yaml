@@ -1,0 +1,345 @@
+knowledge_pack:
+  file_name: "muscular_system_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about the muscular system, including muscle types, movement, posture, force generation, internal muscle function, muscle-tendon relationships, system interactions, and safety-aware educational framing."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "muscular_system"
+    category: "movement, force, and body function"
+    domain: "human body and health"
+
+  overview:
+    summary: "The muscular system helps the body move, maintain posture, stabilize joints, generate heat, and support important internal functions such as breathing, circulation, and movement of substances through organs. It includes skeletal muscle, smooth muscle, and cardiac muscle, each with different roles. Muscles work closely with the nervous and skeletal systems, and without muscular activity the body could not move, maintain position, or carry out many automatic internal processes."
+    why_it_matters:
+      - "Muscles make body movement possible."
+      - "Muscles help maintain posture and joint stability."
+      - "Muscles support breathing, circulation, digestion, and other internal functions."
+      - "Muscle function is closely connected to nerves, bones, tendons, and joints."
+
+  core_definitions:
+    - term: "muscular system"
+      definition: "The body system made of muscles and related structures that produce movement and support many body functions."
+    - term: "muscle"
+      definition: "A tissue that contracts to create movement or maintain function."
+    - term: "contraction"
+      definition: "The active shortening or force-generating action of muscle tissue."
+    - term: "tendon"
+      definition: "A strong connective tissue that attaches muscle to bone."
+    - term: "skeletal muscle"
+      definition: "Muscle attached to bones that helps move the body."
+    - term: "smooth muscle"
+      definition: "Muscle in organs and blood vessels that works automatically."
+    - term: "cardiac muscle"
+      definition: "The specialized muscle tissue of the heart."
+    - term: "posture"
+      definition: "The way the body is held upright or positioned."
+    - term: "joint stability"
+      definition: "Support that helps a joint stay controlled and aligned during movement or rest."
+
+  foundational_principle:
+    summary: "The muscular system produces force that supports movement, posture, and vital internal activity."
+    key_points:
+      - "Muscles contract to generate force."
+      - "That force can move bones, move substances through organs, or pump blood."
+      - "Not all muscles are under conscious control."
+      - "Muscles are important for both visible movement and hidden internal function."
+
+  major_functions:
+    body_movement:
+      summary: "Muscles produce movement of the body and its parts."
+      beginner_points:
+        - "Skeletal muscles pull on bones."
+        - "This helps create actions such as walking, lifting, chewing, and facial expression."
+    posture_and_joint_support:
+      summary: "Muscles help maintain posture and stabilize joints."
+      beginner_points:
+        - "Some muscles stay slightly active even when a person is not making a large movement."
+        - "This helps the body stay upright and balanced."
+        - "Muscles also help control joint position."
+    internal_movement:
+      summary: "Muscles move substances inside the body."
+      beginner_points:
+        - "Smooth muscle helps move food through the digestive tract."
+        - "Smooth muscle helps regulate blood vessel diameter."
+        - "The diaphragm and other muscles help with breathing."
+    circulation:
+      summary: "Cardiac muscle pumps blood through the body."
+      beginner_points:
+        - "The heart is made of cardiac muscle."
+        - "Its contractions keep blood moving."
+    heat_production:
+      summary: "Muscle activity helps generate body heat."
+      beginner_points:
+        - "Muscles contribute to temperature regulation."
+        - "Shivering is one example of muscle-generated heat."
+
+  muscle_types:
+    skeletal_muscle:
+      summary: "Skeletal muscle is usually under voluntary control and is attached to bones."
+      characteristics:
+        - "attached to bones"
+        - "usually under voluntary control"
+        - "helps with body movement"
+        - "helps with posture and joint stability"
+      examples:
+        - "arm muscles"
+        - "leg muscles"
+        - "facial muscles"
+        - "diaphragm as a major breathing muscle with special control patterns"
+    smooth_muscle:
+      summary: "Smooth muscle is found in the walls of organs and blood vessels and works automatically."
+      characteristics:
+        - "found in organ walls"
+        - "found in blood vessels"
+        - "not under voluntary control"
+        - "moves substances through the body"
+      examples:
+        - "digestive tract walls"
+        - "blood vessel walls"
+        - "bladder wall"
+    cardiac_muscle:
+      summary: "Cardiac muscle is found only in the heart and contracts to pump blood."
+      characteristics:
+        - "found only in the heart"
+        - "not under voluntary control"
+        - "specialized for rhythmic contraction"
+      examples:
+        - "heart muscle"
+
+  major_structures:
+    muscles:
+      role: "Contract to create movement, maintain posture, and support internal functions."
+      importance: "Muscles are the active force-producing tissues of the system."
+    tendons:
+      role: "Connect muscle to bone and help transfer force."
+      importance: "Tendons help convert muscle contraction into skeletal movement."
+    muscle_groups:
+      role: "Work together to produce coordinated actions."
+      importance: "Most movements require more than one muscle."
+    diaphragm:
+      role: "Acts as a major breathing muscle."
+      importance: "It shows that muscle function includes vital internal actions."
+    heart:
+      role: "Uses cardiac muscle to pump blood."
+      importance: "It demonstrates the specialized role of muscle in circulation."
+
+  how_the_muscular_system_works:
+    skeletal_movement_process:
+      - "The nervous system sends signals to muscles."
+      - "Muscles contract and generate force."
+      - "Tendons transmit force to bones."
+      - "Bones move at joints."
+      - "The body changes position or performs an action."
+    posture_support_process:
+      - "Certain muscles stay slightly active."
+      - "This helps keep the body upright, balanced, and stable."
+    breathing_process:
+      - "The diaphragm contracts."
+      - "The chest cavity expands."
+      - "Air moves into the lungs."
+    circulation_process:
+      - "Cardiac muscle contracts rhythmically."
+      - "Blood is pumped through the circulatory system."
+
+  force_and_movement_explained:
+    summary: "Muscles create force, and that force can produce movement or maintain position."
+    key_points:
+      - "Movement happens when muscles pull on bones across joints."
+      - "Force does not always cause large visible motion."
+      - "Some muscle action stabilizes the body rather than moving it."
+      - "Muscle control often involves coordinated activity across multiple muscles."
+
+  posture_and_stability_explained:
+    summary: "Muscles help the body stay upright and help joints remain controlled."
+    key_points:
+      - "Postural muscles help hold the body in position."
+      - "Joint stability depends partly on muscle support."
+      - "Weakness, injury, or poor control can reduce stability."
+
+  internal_muscle_function_explained:
+    summary: "Muscles are important not only for external movement but also for many internal processes."
+    key_points:
+      - "Smooth muscle helps move food through the digestive tract."
+      - "Smooth muscle helps regulate blood vessel narrowing and widening."
+      - "Cardiac muscle pumps blood."
+      - "Breathing depends on muscle action, especially the diaphragm."
+
+  muscular_system_and_other_body_systems:
+    skeletal_system:
+      relationship: "Skeletal muscles pull on bones to create movement."
+    nervous_system:
+      relationship: "Nerves help control when muscles contract and how strongly they act."
+    respiratory_system:
+      relationship: "The diaphragm and other muscles help make breathing possible."
+    circulatory_system:
+      relationship: "Cardiac muscle pumps blood, and smooth muscle helps regulate blood vessel function."
+    digestive_system:
+      relationship: "Smooth muscle helps move food through the digestive tract."
+    integumentary_system:
+      relationship: "Muscle activity contributes to heat production and can affect body temperature."
+    endocrine_and_energy_links:
+      relationship: "Muscle function depends on energy availability and is influenced by broader body regulation."
+
+  important_distinctions:
+    - name: "muscle vs tendon"
+      explanation: "Muscle generates force, while a tendon connects muscle to bone and helps transmit that force."
+    - name: "tendon vs ligament"
+      explanation: "Tendons connect muscle to bone, while ligaments connect bone to bone."
+    - name: "skeletal vs smooth muscle"
+      explanation: "Skeletal muscle mainly moves the body, while smooth muscle mainly supports automatic internal movement."
+    - name: "skeletal vs cardiac muscle"
+      explanation: "Skeletal muscle moves the skeleton, while cardiac muscle is specialized for pumping blood in the heart."
+    - name: "movement vs stability"
+      explanation: "Muscles help create movement, but they also help resist unwanted movement and stabilize posture and joints."
+    - name: "voluntary vs involuntary muscle function"
+      explanation: "Some muscles are usually controlled consciously, while others work automatically."
+
+  common_changes_people_notice:
+    - name: "muscle fatigue"
+      explanation: "Muscles may feel tired or weak after prolonged use or intense activity."
+    - name: "muscle soreness"
+      explanation: "Discomfort may occur after heavy use, strain, or unfamiliar activity."
+    - name: "cramp"
+      explanation: "A sudden involuntary muscle tightening can cause pain or stiffness."
+    - name: "weakness"
+      explanation: "Reduced muscle force can affect movement or stability."
+    - name: "spasm"
+      explanation: "A muscle may contract unexpectedly or feel tight."
+    - name: "reduced range of motion"
+      explanation: "Pain, tightness, or injury can limit how a body part moves."
+
+  common_factors_that_can_affect_muscular_function:
+    activity_related:
+      - "exercise"
+      - "overuse"
+      - "deconditioning"
+      - "repetitive strain"
+    injury_related:
+      - "strain"
+      - "tear"
+      - "impact injury"
+      - "joint instability"
+    body_support_factors:
+      - "hydration"
+      - "nutrition"
+      - "energy supply"
+      - "sleep"
+    nerve_and_control_factors:
+      - "nerve injury"
+      - "impaired signaling"
+      - "poor coordination"
+    systemic_or_medical_factors:
+      - "illness"
+      - "medication effects"
+      - "neuromuscular disorders"
+
+  age_related_considerations:
+    children:
+      - "Muscles support movement, posture, and motor skill development during growth."
+    adults:
+      - "Muscles support daily movement, work, exercise, breathing, and posture."
+    older_adults:
+      - "Muscle mass and strength may decline with age."
+      - "Reduced strength can affect balance, mobility, and function."
+
+  common_questions_jessie_should_handle:
+    - "What does the muscular system do?"
+    - "Do muscles only move arms and legs?"
+    - "What do tendons do?"
+    - "What are the three types of muscle?"
+    - "How do muscles work with bones?"
+    - "Why is the diaphragm a muscle?"
+    - "How do muscles help with posture?"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "mild soreness after exercise"
+      - "temporary fatigue after heavy use"
+      - "brief muscle tightness after activity"
+    should_be_monitored:
+      - "repeated cramps"
+      - "ongoing weakness"
+      - "persistent pain with movement"
+      - "reduced function that does not improve"
+      - "recurrent muscle tightness"
+    more_concerning:
+      - "sudden major weakness"
+      - "inability to move part of the body"
+      - "severe pain after injury"
+      - "visible deformity"
+      - "muscle symptoms with chest pain"
+      - "muscle symptoms with breathing difficulty"
+    emergency_patterns:
+      - "inability to move after major injury"
+      - "severe chest pain"
+      - "trouble breathing"
+      - "loss of consciousness"
+      - "severe trauma with deformity"
+      - "sudden paralysis-like symptoms"
+
+  red_flags:
+    immediate_attention:
+      - "inability to move a limb after injury"
+      - "severe injury with deformity"
+      - "trouble breathing"
+      - "severe chest pain"
+      - "sudden severe weakness"
+      - "loss of consciousness"
+      - "possible paralysis-like symptoms"
+
+  safety_relevance:
+    key_points:
+      - "Many muscle complaints are mild, but severe weakness, major injury, chest pain, or breathing trouble can be serious."
+      - "Jessie should not diagnose muscle tears, neuromuscular disorders, or severe injuries from limited descriptions."
+      - "Muscle-related symptoms can sometimes reflect nerve, cardiac, respiratory, or systemic problems."
+      - "Urgent symptoms require safety-first guidance rather than educational speculation."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Start with movement, posture, and internal function."
+      - "Use the three muscle types to organize understanding."
+      - "Connect skeletal muscle to bones and tendons."
+      - "Use the diaphragm and heart as clear examples of important muscle roles."
+      - "Show that muscle function includes both voluntary and involuntary action."
+    style_notes:
+      - "Use clear beginner-friendly language first."
+      - "Connect structure with function."
+      - "Avoid advanced muscle physiology unless requested."
+      - "Keep symptom discussion educational unless urgent safety guidance is needed."
+      - "Do not diagnose tears, severe injuries, or neuromuscular disorders from limited information."
+    teaching_sequence:
+      - "Define the muscular system."
+      - "Explain the major functions."
+      - "Introduce the three muscle types."
+      - "Explain muscles, tendons, and movement."
+      - "Connect the system to breathing, circulation, and posture."
+      - "Differentiate routine muscle soreness from urgent warning patterns."
+
+  cross_system_links:
+    - "The nervous system sends signals that help control muscle contraction."
+    - "The skeletal system provides the framework muscles pull on."
+    - "The respiratory system depends on muscle action for breathing."
+    - "The circulatory system depends on cardiac muscle and vessel smooth muscle."
+    - "Muscles help generate heat and support whole-body function."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "The muscular system helps the body move, maintain posture, and support important internal functions."
+      - "There are three main muscle types: skeletal, smooth, and cardiac."
+      - "Skeletal muscles usually move bones, smooth muscles help move substances through organs, and cardiac muscle pumps blood."
+      - "Tendons connect muscles to bones so muscle force can create movement."
+    caution_examples:
+      - "Mild soreness after activity is common, but sudden severe weakness, major injury, chest pain, or breathing trouble should not be ignored."
+      - "Muscle symptoms can sometimes involve nerves, breathing, or circulation, so severe symptoms need medical evaluation."
+
+  final_summary:
+    summary_points:
+      - "The muscular system produces movement, maintains posture, supports joints, and helps with internal body functions."
+      - "There are three muscle types: skeletal, smooth, and cardiac."
+      - "Skeletal muscles work with bones and tendons to move the body."
+      - "Smooth muscle and cardiac muscle support automatic internal functions."
+      - "The muscular system works closely with the nervous, skeletal, respiratory, circulatory, and digestive systems."
+      - "Jessie should teach this system clearly while keeping strong safety boundaries around severe injury, weakness, chest pain, and breathing problems."

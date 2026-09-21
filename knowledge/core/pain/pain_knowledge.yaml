@@ -1,0 +1,337 @@
+knowledge_pack:
+  file_name: "pain_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about pain, pain signaling, protective function, common pain patterns, body systems involved, pain distinctions, and safety escalation."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "pain"
+    category: "body signals and protective responses"
+    domain: "human body and health"
+
+  overview:
+    summary: "Pain is an unpleasant sensory and emotional experience that often signals actual or potential tissue injury. It is one of the body's major protective warning systems. Pain can be brief or persistent, mild or severe, localized or widespread, and it can arise from tissues, nerves, organs, inflammation, or altered pain processing."
+    why_it_matters:
+      - "Pain helps protect the body by drawing attention to possible harm."
+      - "Pain affects movement, sleep, mood, stress, and daily functioning."
+      - "Not all pain means serious damage, but some pain patterns need urgent attention."
+      - "Understanding pain helps Jessie explain symptoms clearly without minimizing or overstating risk."
+
+  core_definitions:
+    - term: "pain"
+      definition: "An unpleasant experience associated with actual or potential tissue damage, or described in those terms."
+    - term: "acute pain"
+      definition: "Pain that starts suddenly or recently, often linked to injury, illness, or a specific trigger."
+    - term: "chronic pain"
+      definition: "Pain that persists over time or continues beyond expected healing."
+    - term: "nociception"
+      definition: "The body's process of detecting potentially harmful stimuli and sending warning signals through the nervous system."
+    - term: "pain perception"
+      definition: "How the brain interprets and experiences pain signals."
+    - term: "referred pain"
+      definition: "Pain felt in a location different from the actual source."
+    - term: "pain threshold"
+      definition: "The point at which a stimulus is experienced as painful."
+    - term: "pain tolerance"
+      definition: "How much pain a person can endure, which varies widely between individuals."
+
+  foundational_principle:
+    summary: "Pain is both a body signal and a brain experience."
+    key_points:
+      - "Pain usually begins when the body detects potential harm."
+      - "Signals travel through nerves to the spinal cord and brain."
+      - "The brain interprets those signals in context."
+      - "Emotions, stress, past experiences, sleep, and attention can all influence pain experience."
+      - "Pain is real even when the cause is complex or not immediately obvious."
+
+  protective_role_of_pain:
+    - "Pain can make a person stop using an injured body part."
+    - "Pain can signal inflammation, pressure, strain, infection, or tissue damage."
+    - "Pain may promote rest, protection, and healing behaviors."
+    - "In some situations, pain becomes persistent and less useful as a warning signal."
+
+  major_systems_involved:
+    nervous_system:
+      role: "Detects, transmits, processes, and interprets pain signals."
+      importance: "Pain depends heavily on sensory nerves, spinal pathways, and brain processing."
+    musculoskeletal_system:
+      role: "Muscles, bones, joints, tendons, and ligaments are common sources of pain."
+      importance: "Strain, inflammation, injury, and overload often cause pain here."
+    integumentary_system:
+      role: "Skin contains sensory receptors that can detect harmful stimuli."
+      importance: "Cuts, burns, pressure, and surface injury often produce pain."
+    circulatory_system:
+      role: "Poor blood flow or vascular stress can cause pain."
+      importance: "Some dangerous pain patterns involve circulation problems."
+    digestive_and_internal_organs:
+      role: "Internal organs can produce pain, pressure, cramping, or referred sensations."
+      importance: "Organ pain may feel different from muscle or skin pain."
+    immune_system:
+      role: "Inflammation can sensitize tissues and increase pain signaling."
+      importance: "Immune activity often contributes to soreness, swelling, and tenderness."
+
+  how_pain_works:
+    detection:
+      - "Specialized sensory receptors can detect heat, pressure, chemical irritation, or tissue threat."
+      - "These receptors send signals into sensory nerves."
+    transmission:
+      - "Signals travel through peripheral nerves to the spinal cord."
+      - "From there, signals are relayed to the brain."
+    interpretation:
+      - "The brain interprets the meaning, location, intensity, and significance of pain."
+      - "The experience of pain is shaped by attention, fear, stress, memory, and context."
+    response:
+      - "The body may reflexively withdraw, guard, tense muscles, or change movement."
+      - "A person may rest, avoid activity, seek help, or protect the area."
+
+  broad_types_of_pain:
+    nociceptive_pain:
+      description: "Pain arising from tissue injury, inflammation, or mechanical strain."
+      examples:
+        - "sprain"
+        - "cut"
+        - "burn"
+        - "joint inflammation"
+        - "muscle strain"
+    neuropathic_pain:
+      description: "Pain caused by nerve injury or abnormal nerve signaling."
+      examples:
+        - "burning pain"
+        - "shooting pain"
+        - "electric shock-like pain"
+        - "tingling with pain"
+    visceral_pain:
+      description: "Pain arising from internal organs."
+      examples:
+        - "cramping"
+        - "deep pressure"
+        - "poorly localized abdominal pain"
+    referred_pain:
+      description: "Pain felt away from the actual source."
+      examples:
+        - "shoulder pain from diaphragm irritation"
+        - "arm or jaw pain related to cardiac causes"
+    centralized_or_altered_processing_pain:
+      description: "Pain that is strongly influenced by changes in how the nervous system processes signals."
+      note: "This does not mean the pain is imaginary. It means pain processing itself can become more sensitive or persistent."
+
+  common_descriptions_people_use:
+    - "sharp"
+    - "dull"
+    - "aching"
+    - "throbbing"
+    - "burning"
+    - "stabbing"
+    - "cramping"
+    - "shooting"
+    - "pressure-like"
+    - "sore"
+    - "tender"
+    - "tight"
+    - "electric"
+    - "deep"
+    - "nagging"
+
+  what_pain_description_can_suggest:
+    - name: "sharp or stabbing"
+      explanation: "May occur with acute injury, irritation, or sudden tissue stress."
+    - name: "aching or sore"
+      explanation: "Often described with muscles, joints, overuse, or generalized discomfort."
+    - name: "burning or electric"
+      explanation: "Can suggest nerve involvement, though not always."
+    - name: "cramping"
+      explanation: "Often used for muscles or internal organ spasms."
+    - name: "pressure"
+      explanation: "Can occur in muscles, joints, sinuses, abdomen, or chest and needs context."
+    - name: "throbbing"
+      explanation: "Can occur with inflammation, vascular changes, or some headaches."
+
+  factors_that_influence_pain:
+    physical:
+      - "injury"
+      - "inflammation"
+      - "swelling"
+      - "muscle tension"
+      - "nerve irritation"
+      - "illness"
+    psychological_and_contextual:
+      - "stress"
+      - "fear"
+      - "anxiety"
+      - "attention"
+      - "past pain experiences"
+      - "expectation"
+    functional:
+      - "sleep quality"
+      - "fatigue"
+      - "activity level"
+      - "deconditioning"
+    environmental:
+      - "repetitive strain"
+      - "poor ergonomics"
+      - "cold exposure"
+      - "physical workload"
+
+  location_matters:
+    key_points:
+      - "Pain should be understood partly by where it is located."
+      - "Back pain, chest pain, abdominal pain, head pain, and limb pain can have very different meanings."
+      - "Pain that spreads, radiates, or is referred may reflect deeper processes."
+      - "The same word, such as pressure or ache, can mean very different things in different body areas."
+
+  timing_and_pattern_matter:
+    - "Sudden pain may suggest injury, spasm, acute inflammation, or urgent causes depending on the context."
+    - "Pain that builds gradually may reflect overuse, developing inflammation, or illness."
+    - "Pain that comes and goes may be positional, spasmodic, movement-related, or trigger-based."
+    - "Pain that is constant and worsening deserves more attention."
+    - "Pain linked to movement may suggest a mechanical or musculoskeletal component."
+    - "Pain that wakes a person from sleep or occurs with systemic symptoms can be more concerning."
+
+  important_distinctions:
+    - name: "pain vs soreness"
+      explanation: "Soreness often describes mild discomfort after use or exercise, while pain is a broader warning experience that may be mild or severe."
+    - name: "acute pain vs chronic pain"
+      explanation: "Acute pain is recent or sudden, while chronic pain persists over time or beyond expected healing."
+    - name: "nociceptive pain vs neuropathic pain"
+      explanation: "Nociceptive pain often comes from tissue injury or inflammation, while neuropathic pain comes from nerve dysfunction or damage."
+    - name: "localized pain vs referred pain"
+      explanation: "Localized pain is felt near its source, while referred pain is felt elsewhere."
+    - name: "pain severity vs medical danger"
+      explanation: "Severe pain can be serious, but mild pain can also signal an important condition depending on location and associated symptoms."
+
+  common_non_emergency_examples:
+    - "muscle soreness after exercise"
+    - "mild bruise tenderness"
+    - "temporary discomfort after minor strain"
+    - "brief positional aches"
+    - "mild tension-type discomfort"
+
+  examples_of_pain_sources:
+    musculoskeletal:
+      - "muscle strain"
+      - "joint irritation"
+      - "tendon overuse"
+      - "ligament sprain"
+    nerve_related:
+      - "nerve compression"
+      - "nerve irritation"
+    inflammatory:
+      - "inflamed tissue"
+      - "swollen joints"
+      - "infectious inflammation"
+    visceral_or_internal:
+      - "organ cramping"
+      - "internal pressure"
+      - "referred internal pain"
+    skin_related:
+      - "cuts"
+      - "burns"
+      - "surface injury"
+
+  pain_and_function:
+    summary: "Pain often affects how people move, think, sleep, and cope."
+    impacts:
+      - "reduced activity"
+      - "guarding and stiffness"
+      - "poor sleep"
+      - "fatigue"
+      - "irritability"
+      - "reduced concentration"
+      - "fear of movement"
+    teaching_point: "Pain is not only a sensation. It can affect the whole person's functioning."
+
+  common_questions_jessie_should_handle:
+    - "Why do we feel pain?"
+    - "What is the difference between nerve pain and muscle pain?"
+    - "Why can pain continue after an injury?"
+    - "What is referred pain?"
+    - "Why does stress make pain feel worse?"
+    - "Does severe pain always mean severe damage?"
+    - "Why does inflammation hurt?"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "temporary soreness after exercise"
+      - "mild pain after a minor bump"
+      - "brief strain-related pain that improves with rest"
+    should_be_monitored:
+      - "pain lasting longer than expected"
+      - "recurrent pain"
+      - "pain that limits normal activity"
+      - "pain with numbness or tingling"
+      - "pain that interferes with sleep"
+    more_concerning:
+      - "worsening pain without clear reason"
+      - "pain with fever"
+      - "pain with weakness"
+      - "pain with swelling, redness, or loss of function"
+      - "pain after significant injury"
+      - "pain with unexplained weight loss or major systemic symptoms"
+    emergency_patterns:
+      - "chest pain with shortness of breath"
+      - "sudden severe headache"
+      - "sudden severe abdominal pain"
+      - "pain with one-sided weakness or stroke-like symptoms"
+      - "pain after major trauma"
+      - "pain with loss of consciousness"
+      - "pain with severe allergic or breathing symptoms"
+
+  red_flags:
+    immediate_attention:
+      - "chest pain"
+      - "severe trouble breathing with pain"
+      - "sudden severe headache"
+      - "pain with fainting"
+      - "pain with one-sided weakness"
+      - "pain after major trauma"
+      - "severe abdominal pain with serious illness signs"
+      - "pain with confusion"
+      - "pain with high fever and severe deterioration"
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Validate that pain is real and important."
+      - "Explain pain as both protective and context-dependent."
+      - "Differentiate major pain types in simple language."
+      - "Clarify location, pattern, and associated symptoms."
+      - "Escalate clearly for high-risk pain patterns."
+    style_notes:
+      - "Do not minimize pain because the cause is uncertain."
+      - "Do not assume all pain reflects major damage."
+      - "Avoid oversimplifying complex chronic pain."
+      - "Use examples people understand, like strain, burn, cramp, or nerve pain."
+      - "Link pain to body systems and function."
+    teaching_sequence:
+      - "Define pain and its protective role."
+      - "Explain how pain signals travel."
+      - "Clarify the type or pattern of pain."
+      - "Describe common versus concerning features."
+      - "State red flags when relevant."
+
+  cross_system_links:
+    - "Pain depends strongly on the nervous system for signaling and interpretation."
+    - "Pain commonly comes from muscles, joints, skin, nerves, and internal organs."
+    - "Inflammation from the immune system can increase pain sensitivity."
+    - "Circulatory problems can also produce dangerous pain patterns."
+    - "Pain affects sleep, movement, stress, and daily function."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "Pain is one of the body's warning systems. It often signals actual or potential harm."
+      - "Pain starts when the body detects possible danger, but the brain also shapes how that pain is experienced."
+      - "Muscle pain, nerve pain, and organ pain can feel different because they come from different sources."
+      - "Pain can be protective, but persistent pain can become more complex over time."
+    caution_examples:
+      - "Not all pain is an emergency, but pain with chest symptoms, neurologic changes, or major trauma needs urgent attention."
+      - "Severe pain matters, but the pattern and associated symptoms matter too."
+
+  final_summary:
+    summary_points:
+      - "Pain is a protective sensory and emotional experience linked to actual or potential tissue damage."
+      - "Pain involves detection in the body and interpretation in the nervous system."
+      - "Pain can be acute, chronic, nociceptive, neuropathic, visceral, or referred."
+      - "Location, timing, quality, severity, and associated symptoms all matter."
+      - "Pain affects movement, sleep, stress, and overall function."
+      - "Jessie should explain pain clearly, validate it appropriately, and escalate red-flag pain patterns without delay."

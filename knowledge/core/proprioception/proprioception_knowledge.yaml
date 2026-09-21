@@ -1,0 +1,288 @@
+knowledge_pack:
+  file_name: "proprioception_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about proprioception, body position sense, movement awareness, coordination, sensory feedback, related body systems, common impairments, and safety relevance."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "proprioception"
+    category: "body awareness and movement control"
+    domain: "human body and health"
+
+  overview:
+    summary: "Proprioception is the body's sense of position, movement, and action. It allows a person to know where body parts are, how they are moving, and how much force is being used, even without looking. Proprioception is essential for coordinated movement, balance, posture, joint protection, and efficient interaction with the environment."
+    why_it_matters:
+      - "Proprioception helps people move accurately without watching every body part."
+      - "It supports balance, coordination, posture, and safe movement."
+      - "It helps protect joints from awkward positioning and overload."
+      - "Reduced proprioception can lead to clumsiness, instability, poor coordination, and injury risk."
+
+  core_definitions:
+    - term: "proprioception"
+      definition: "The body's internal sense of position, movement, and effort."
+    - term: "body position sense"
+      definition: "Awareness of where body parts are in space."
+    - term: "kinesthesia"
+      definition: "Awareness of movement of the body or body parts."
+    - term: "joint position sense"
+      definition: "The ability to sense the angle or position of a joint."
+    - term: "force sense"
+      definition: "Awareness of how much effort or muscular force is being used."
+    - term: "sensorimotor control"
+      definition: "The body's process of using sensory input to guide movement output."
+
+  foundational_principle:
+    summary: "Proprioception allows movement without constant visual monitoring."
+    key_points:
+      - "The body gathers information from muscles, tendons, joints, and skin."
+      - "That information travels through nerves to the spinal cord and brain."
+      - "The brain uses it to guide posture, movement accuracy, and correction."
+      - "Without proprioception, movement becomes less precise and less stable."
+
+  major_systems_involved:
+    nervous_system:
+      role: "Carries proprioceptive information and processes it for movement control."
+      importance: "The brain and spinal cord are essential for interpreting body position signals."
+    muscular_system:
+      role: "Muscles contain sensory receptors that help detect stretch and length changes."
+      importance: "Muscle feedback is a major source of proprioceptive input."
+    tendons:
+      role: "Tendons contain receptors that help detect tension and force."
+      importance: "This helps regulate effort and protect tissues."
+    joints:
+      role: "Joint structures contribute positional information, especially near movement limits."
+      importance: "Joint feedback supports awareness of alignment and movement range."
+    skin_and_touch_system:
+      role: "Pressure and contact information from the skin supports body awareness."
+      importance: "Foot and hand contact are especially important for movement control."
+    cerebellum:
+      role: "Helps coordinate and refine movement based on sensory feedback."
+      importance: "It contributes to smooth, accurate, adjusted motion."
+
+  key_receptors_and_sources:
+    - name: "muscle spindles"
+      explanation: "These receptors help detect muscle length and changes in stretch."
+    - name: "golgi tendon organs"
+      explanation: "These receptors help detect muscle tension and force."
+    - name: "joint receptors"
+      explanation: "These contribute information about joint position and movement, especially near end ranges."
+    - name: "cutaneous receptors"
+      explanation: "Touch and pressure receptors in the skin add useful information about contact and body orientation."
+
+  how_proprioception_works:
+    detection_phase:
+      - "As the body moves, receptors in muscles, tendons, joints, and skin detect change."
+      - "These receptors sense stretch, tension, angle, pressure, and movement."
+    signaling_phase:
+      - "Signals travel through sensory nerves into the spinal cord and up to the brain."
+      - "Some feedback is also used for rapid reflex adjustment before conscious awareness."
+    processing_phase:
+      - "The brain integrates proprioceptive information with vision, vestibular input, and motor planning."
+      - "This helps determine where the body is and what adjustments are needed."
+    response_phase:
+      - "Muscles are activated or adjusted to improve posture, coordination, and movement accuracy."
+      - "The body continuously fine-tunes movement in real time."
+
+  what_proprioception_allows_people_to_do:
+    - "touch their nose with eyes closed"
+    - "walk without staring at their feet constantly"
+    - "adjust grip force on objects"
+    - "step over obstacles"
+    - "stand upright and shift weight"
+    - "coordinate hand and arm movements"
+    - "move smoothly and efficiently"
+    - "protect joints during motion"
+
+  relationship_to_other_systems:
+    vision:
+      role: "Vision helps confirm position and guide movement externally."
+      distinction: "Proprioception provides internal body awareness, while vision provides external spatial reference."
+    vestibular_system:
+      role: "The vestibular system helps detect head motion and orientation."
+      distinction: "Proprioception tells the brain about limb and body position, while the vestibular system helps with head movement and equilibrium."
+    balance:
+      role: "Proprioception is a major contributor to balance."
+      distinction: "Good balance usually depends on combining proprioception, vision, and vestibular input."
+    motor_control:
+      role: "Movement planning and execution depend on feedback from proprioception."
+      distinction: "Without good proprioception, movement becomes less precise and harder to correct."
+
+  normal_features_of_proprioception:
+    - "Most people use proprioception constantly without noticing it."
+    - "Body position can often be sensed even with eyes closed."
+    - "Movement becomes easier and more automatic when proprioception is working well."
+    - "Practice and repetition can improve sensorimotor performance."
+    - "Complex movement depends on both proprioceptive input and brain integration."
+
+  common_signs_of_reduced_proprioceptive_function:
+    - "clumsiness"
+    - "poor coordination"
+    - "difficulty knowing limb position"
+    - "watching feet or hands more than usual to guide movement"
+    - "instability"
+    - "awkward foot placement"
+    - "frequent tripping"
+    - "difficulty balancing with eyes closed"
+    - "trouble grading force"
+    - "joint movements that feel uncertain or poorly controlled"
+
+  functional_examples_of_proprioception_problems:
+    - "using too much or too little force when gripping an object"
+    - "misjudging where the foot lands on a step"
+    - "feeling unstable while walking in the dark"
+    - "difficulty coordinating movements without looking"
+    - "reinjuring a joint because position sense is reduced"
+
+  common_factors_that_can_affect_proprioception:
+    injury_related:
+      - "ankle sprain"
+      - "ligament injury"
+      - "joint instability"
+      - "muscle strain"
+    neurologic:
+      - "peripheral nerve problems"
+      - "spinal cord problems"
+      - "brain dysfunction affecting sensory processing"
+    systemic:
+      - "fatigue"
+      - "deconditioning"
+      - "aging"
+    sensory_context:
+      - "poor lighting"
+      - "uneven surfaces"
+      - "closing the eyes"
+    pain_related:
+      - "pain can alter movement patterns and body awareness"
+
+  joint_injury_and_proprioception:
+    summary: "Joint injuries can reduce proprioceptive quality and increase reinjury risk."
+    key_points:
+      - "Ligaments and surrounding tissues contribute to body position sense."
+      - "After injury, movement may feel less certain or less stable."
+      - "This is one reason rehabilitation often includes balance and control training."
+
+  proprioception_and_balance:
+    summary: "Proprioception is one of the main systems that support balance."
+    key_points:
+      - "The feet and ankles provide important feedback when standing."
+      - "If proprioceptive information is reduced, the body may rely more on vision."
+      - "Balance often worsens when vision is removed in someone with poor proprioception."
+      - "Standing on unstable surfaces challenges proprioceptive control."
+
+  proprioception_and_movement_learning:
+    summary: "Proprioception helps refine skill and coordination through feedback."
+    key_points:
+      - "The body compares intended movement with actual movement."
+      - "This helps improve precision over time."
+      - "Practice strengthens coordination and movement efficiency."
+
+  important_distinctions:
+    - name: "proprioception vs touch"
+      explanation: "Touch is awareness of contact, pressure, temperature, or surface sensation, while proprioception is awareness of position, movement, and effort."
+    - name: "proprioception vs balance"
+      explanation: "Proprioception contributes to balance, but balance also depends on vision, vestibular input, and muscle response."
+    - name: "proprioception vs kinesthesia"
+      explanation: "Proprioception is the broad body position sense, while kinesthesia refers more specifically to sensing movement."
+    - name: "poor coordination vs weakness"
+      explanation: "A person can be strong but still poorly coordinated if proprioceptive feedback is impaired."
+    - name: "visual compensation vs normal body awareness"
+      explanation: "Some people rely heavily on watching their limbs when proprioceptive input is reduced."
+
+  age_related_considerations:
+    children:
+      - "Proprioceptive control develops with movement, play, and nervous system maturation."
+    adults:
+      - "Proprioception supports efficient and accurate movement in daily life and physical activity."
+    older_adults:
+      - "Reduced sensation, slower reaction time, and joint changes can contribute to decreased proprioceptive performance."
+      - "This can increase fall risk."
+
+  common_questions_jessie_should_handle:
+    - "What is proprioception?"
+    - "How do we know where our body parts are without looking?"
+    - "Why is balance harder with eyes closed?"
+    - "Can ankle injuries affect body awareness?"
+    - "What is the difference between proprioception and touch?"
+    - "Why do I feel clumsy after an injury?"
+    - "How does proprioception help movement?"
+
+  normal_vs_concerning_patterns:
+    often_non_emergency:
+      - "temporary clumsiness when tired"
+      - "momentary awkwardness with a new movement"
+      - "mild instability after a recent minor joint strain"
+    should_be_monitored:
+      - "repeated tripping"
+      - "persistent movement awkwardness"
+      - "worsening coordination"
+      - "needing to watch feet constantly"
+      - "recurrent joint instability"
+    more_concerning:
+      - "new sensory loss"
+      - "new major coordination problems"
+      - "frequent falls"
+      - "progressive body awareness problems"
+      - "limb control difficulty with numbness or weakness"
+    emergency_patterns:
+      - "sudden severe coordination loss"
+      - "sudden inability to control a limb"
+      - "new symptoms with stroke-like signs"
+      - "sudden collapse"
+      - "loss of consciousness"
+
+  red_flags:
+    immediate_attention:
+      - "sudden new major coordination loss"
+      - "proprioceptive problems with one-sided weakness"
+      - "proprioceptive problems with slurred speech"
+      - "proprioceptive problems with facial droop"
+      - "frequent falls with acute neurologic symptoms"
+      - "sudden inability to walk safely"
+      - "loss of consciousness"
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Explain proprioception in very simple language first."
+      - "Use relatable examples such as walking without looking at the feet."
+      - "Connect proprioception to balance, coordination, and injury prevention."
+      - "Distinguish it clearly from touch and vision."
+      - "Escalate when symptoms suggest neurologic emergency or major loss of coordination."
+    style_notes:
+      - "Avoid overly technical explanations unless needed."
+      - "Do not treat clumsiness as meaningless if it is sudden, progressive, or paired with neurologic symptoms."
+      - "Use everyday movement examples."
+      - "Link joint injury to body awareness when relevant."
+    teaching_sequence:
+      - "Define proprioception."
+      - "Explain where the information comes from."
+      - "Describe how the brain uses it."
+      - "Connect it to balance and coordination."
+      - "State common versus concerning patterns."
+
+  cross_system_links:
+    - "Proprioception relies on the nervous system to carry and interpret signals."
+    - "It depends on receptors in muscles, tendons, joints, and skin."
+    - "It strongly supports balance and postural control."
+    - "It helps guide motor learning and coordinated movement."
+    - "It is especially important after joint injury and during rehabilitation."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "Proprioception is your body's internal sense of where your body parts are and how they are moving."
+      - "It lets you move without having to look at every step or every hand movement."
+      - "Your muscles, tendons, joints, and skin send position information to the brain, and the brain uses that to guide movement."
+      - "Proprioception is one of the main reasons balance and coordination are possible."
+    caution_examples:
+      - "Mild awkwardness can happen when tired, but sudden major coordination loss or frequent falls with neurologic symptoms needs urgent attention."
+      - "After a joint injury, reduced body awareness can increase the chance of reinjury if movement control has not fully recovered."
+
+  final_summary:
+    summary_points:
+      - "Proprioception is the body's sense of position, movement, and effort."
+      - "It depends on receptors in muscles, tendons, joints, and skin, plus nervous system processing."
+      - "It supports balance, posture, coordination, force control, and joint protection."
+      - "Reduced proprioception can cause clumsiness, instability, poor coordination, and injury risk."
+      - "Joint injury and neurologic problems can affect proprioception."
+      - "Jessie should explain proprioception clearly with everyday examples and escalate sudden major coordination problems or neurologic red flags."

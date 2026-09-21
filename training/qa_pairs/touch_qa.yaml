@@ -1,0 +1,212 @@
+```yaml
+metadata:
+  file_name: "touch_qa.yaml"
+  title: "Jessie Touch QA Pairs"
+  domain: "special_senses"
+  topic: "touch"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain touch sensation, skin detection, nervous system communication, and simple safety boundaries with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain touch as the body's ability to detect contact, pressure, and related sensations. Jessie should explain that special nerve endings in the skin detect touch-related input, signals travel through the nervous system, and the brain helps interpret what is being felt. The set also supports broader biology teaching by including skin sensing, object handling, differences between touch and pain, numbness effects, body-area sensitivity, and practical safety boundaries in simple language. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for sudden loss of feeling or concerning numbness after injury."
+  training_goals:
+    - "Explain touch in simple, beginner-friendly language"
+    - "Teach that the skin uses special nerve endings to detect contact and pressure"
+    - "Show that touch signals travel through the nervous system to the brain"
+    - "Clarify the difference between touch and pain"
+    - "Support broader biology retrieval with object handling, skin sensitivity, and body-signal concepts"
+    - "Use practical examples such as clothing, gripping, and numbness"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for concerning sensory loss or injury-related numbness"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach touch as detection of contact and pressure"
+    - "Explain the roles of skin, nerve endings, the nervous system, and the brain simply"
+    - "Connect touch to object handling, movement, and safety"
+    - "Support both basic biology teaching and simple sensory explanation"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose nerve injury, stroke, circulation problems, skin injury, or causes of numbness or sensory loss."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general touch concepts, warning roles, and warning signs."
+  safety_escalation:
+    - "Prompt guidance is appropriate for sudden loss of feeling, strange numbness after injury, or other severe sudden sensory changes."
+
+pairs:
+  - id: "touch_qa_001"
+    category: "foundational_definition"
+    question: "What is touch?"
+    answer: "Touch is the body's ability to detect contact, pressure, and related sensations."
+
+  - id: "touch_qa_002"
+    category: "foundational_definition"
+    question: "Why does touch matter?"
+    answer: "Touch matters because it helps with safety, movement, and everyday tasks."
+
+  - id: "touch_qa_003"
+    category: "foundational_definition"
+    question: "Does touch help with everyday function?"
+    answer: "Yes. Touch helps people interact with objects and their surroundings."
+
+  - id: "touch_qa_004"
+    category: "process"
+    question: "How do we feel something touching the skin?"
+    answer: "Special nerve endings in the skin detect contact or pressure and send signals through the nervous system to the brain."
+
+  - id: "touch_qa_005"
+    category: "process"
+    question: "Why is the brain important for touch?"
+    answer: "The brain helps interpret touch signals so a person can understand what they are feeling."
+
+  - id: "touch_qa_006"
+    category: "process"
+    question: "What kinds of things can touch sensors detect?"
+    answer: "Touch sensors can detect contact, pressure, and related physical sensations."
+
+  - id: "touch_qa_007"
+    category: "process"
+    question: "How does touch work in simple terms?"
+    answer: "The skin detects contact or pressure, signals travel through the nervous system, and the brain helps interpret them."
+
+  - id: "touch_qa_008"
+    category: "term_clarification"
+    question: "Is touch the same as pain?"
+    answer: "No. Touch usually detects contact or pressure, while pain is a warning signal about possible harm."
+
+  - id: "touch_qa_009"
+    category: "term_clarification"
+    question: "Do only the hands sense touch?"
+    answer: "No. Many body areas can sense touch, though some are more sensitive than others."
+
+  - id: "touch_qa_010"
+    category: "term_clarification"
+    question: "What is the difference between touch and pressure?"
+    answer: "Pressure is one kind of touch-related sensation."
+
+  - id: "touch_qa_011"
+    category: "term_clarification"
+    question: "What is the difference between touch and numbness?"
+    answer: "Touch is normal sensation from contact or pressure, while numbness is reduced or altered feeling."
+
+  - id: "touch_qa_012"
+    category: "misconception"
+    question: "Is touch only important for comfort and not for safety?"
+    answer: "No. Touch also helps the body notice contact and respond safely."
+
+  - id: "touch_qa_013"
+    category: "misconception"
+    question: "If a person can move their hand, does that always mean touch is normal?"
+    answer: "No. A person may still have reduced touch sensation even if they can move."
+
+  - id: "touch_qa_014"
+    category: "misconception"
+    question: "Does every body area sense touch in exactly the same way?"
+    answer: "No. Some body areas are more sensitive than others."
+
+  - id: "touch_qa_015"
+    category: "everyday_example"
+    question: "Why can a person feel clothing on their skin?"
+    answer: "Touch sensors in the skin detect light pressure and contact."
+
+  - id: "touch_qa_016"
+    category: "everyday_example"
+    question: "Can numbness make it harder to handle objects?"
+    answer: "Yes. Reduced touch information can make gripping and handling objects harder."
+
+  - id: "touch_qa_017"
+    category: "everyday_example"
+    question: "Why can it be easier to grip something when you can feel it clearly?"
+    answer: "It is easier because touch gives useful information about contact and pressure."
+
+  - id: "touch_qa_018"
+    category: "everyday_example"
+    question: "Why do fingertips often feel details better than some other areas?"
+    answer: "They often feel details better because some body areas are more sensitive to touch."
+
+  - id: "touch_qa_019"
+    category: "system_connection"
+    question: "How is touch connected to the nervous system?"
+    answer: "It is connected because touch signals travel through nerves to the brain."
+
+  - id: "touch_qa_020"
+    category: "system_connection"
+    question: "How is touch connected to movement?"
+    answer: "Touch is connected to movement because feeling contact helps guide how people hold and use objects."
+
+  - id: "touch_qa_021"
+    category: "visual_art_support"
+    question: "Why is touch useful to understand in biology teaching?"
+    answer: "It helps explain how the skin detects contact and how that information helps with daily function."
+
+  - id: "touch_qa_022"
+    category: "visual_art_support"
+    question: "What should an educator or artist know about touch diagrams?"
+    answer: "They should know that touch involves skin detection, signal travel through the nervous system, and brain interpretation."
+
+  - id: "touch_qa_023"
+    category: "visual_art_support"
+    question: "Why do signal-flow visuals help explain touch?"
+    answer: "They help because touch involves detection, signal travel, and interpretation."
+
+  - id: "touch_qa_024"
+    category: "boundary"
+    question: "Can you diagnose why part of my skin feels numb?"
+    answer: "No. I can't diagnose the cause from limited information, but I can explain general touch concepts and point out warning signs."
+
+  - id: "touch_qa_025"
+    category: "boundary"
+    question: "Can you tell me exactly whether I injured a nerve?"
+    answer: "No. I can't determine the exact cause from a brief description, but I can explain touch and sensory concepts and when medical care may be important."
+
+  - id: "touch_qa_026"
+    category: "boundary"
+    question: "Does numbness always mean nerve damage?"
+    answer: "No. Numbness can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "touch_qa_027"
+    category: "boundary"
+    question: "Does strange feeling after a cut always mean serious damage?"
+    answer: "No. Strange feeling after a cut can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "touch_qa_028"
+    category: "safety_supportive_urgent"
+    question: "Should sudden loss of feeling be ignored?"
+    answer: "No. Sudden loss of feeling should be taken seriously and checked right away."
+
+  - id: "touch_qa_029"
+    category: "safety_supportive_urgent"
+    question: "Is strange numb feeling after a cut important?"
+    answer: "Yes. A cut with strange or reduced feeling should be taken seriously and checked quickly."
+
+  - id: "touch_qa_030"
+    category: "safety_supportive_urgent"
+    question: "Should sudden major sensory change with weakness or confusion be treated seriously?"
+    answer: "Yes. Sudden major sensory change with weakness or confusion should be medically checked promptly."
+
+  - id: "touch_qa_031"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about touch?"
+    answer: "The main thing to remember is that touch helps the body detect contact and pressure so people can interact safely with the world."
+
+quality_checks:
+  - "The file contains 31 QA pairs with ids touch_qa_001 through touch_qa_031."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "Touch is consistently explained as detection of contact, pressure, and related sensations."
+  - "The set includes support for biology teaching, sensory concepts, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

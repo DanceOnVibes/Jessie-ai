@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Vestibular Evaluation Set"
+  domain: "body_awareness"
+  topic: "vestibular"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of vestibular function, balance, motion sensing, orientation, dizziness-related symptoms, system interactions, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "vestibular_eval_001"
+      prompt: "What is the vestibular system?"
+      expected: "The vestibular system is the sensory system that helps detect head movement, balance, and spatial orientation."
+
+    - id: "vestibular_eval_002"
+      prompt: "Why is the vestibular system important?"
+      expected: "It is important because it helps with balance, orientation, stable vision during movement, and safe body positioning."
+
+    - id: "vestibular_eval_003"
+      prompt: "Does the vestibular system help with balance?"
+      expected: "Yes. The vestibular system is a major part of balance control."
+
+    - id: "vestibular_eval_004"
+      prompt: "Does the vestibular system help sense motion?"
+      expected: "Yes. It helps detect head movement and changes in position."
+
+    - id: "vestibular_eval_005"
+      prompt: "Does the vestibular system work with the eyes?"
+      expected: "Yes. It works with the eyes to help keep vision stable during movement."
+
+    - id: "vestibular_eval_006"
+      prompt: "Does the vestibular system work with muscles and proprioception?"
+      expected: "Yes. It works with proprioception and body movement systems to support balance."
+
+    - id: "vestibular_eval_007"
+      prompt: "Is the inner ear involved in vestibular function?"
+      expected: "Yes. Important parts of the vestibular system are located in the inner ear."
+
+    - id: "vestibular_eval_008"
+      prompt: "Can the brain also be involved in vestibular function?"
+      expected: "Yes. The brain processes vestibular information to guide balance and orientation."
+
+    - id: "vestibular_eval_009"
+      prompt: "What is dizziness in a simple way?"
+      expected: "Dizziness is a sensation that may include lightheadedness, imbalance, or feeling off."
+
+    - id: "vestibular_eval_010"
+      prompt: "What is vertigo in a simple way?"
+      expected: "Vertigo is a feeling that you or the surroundings are spinning or moving."
+
+    - id: "vestibular_eval_011"
+      prompt: "Can vertigo be different from general dizziness?"
+      expected: "Yes. Vertigo usually refers to a spinning or motion sensation, while dizziness is broader."
+
+    - id: "vestibular_eval_012"
+      prompt: "Can the vestibular system affect walking?"
+      expected: "Yes. Vestibular problems can affect walking and balance."
+
+    - id: "vestibular_eval_013"
+      prompt: "Can the vestibular system affect standing still?"
+      expected: "Yes. Vestibular function helps maintain balance while standing."
+
+    - id: "vestibular_eval_014"
+      prompt: "Can vestibular problems cause unsteadiness?"
+      expected: "Yes. Vestibular problems can cause unsteadiness or imbalance."
+
+    - id: "vestibular_eval_015"
+      prompt: "Can vestibular symptoms affect confidence in movement?"
+      expected: "Yes. Balance symptoms can make movement feel less secure."
+
+    - id: "vestibular_eval_016"
+      prompt: "Can turning the head sometimes trigger vestibular symptoms?"
+      expected: "Yes. Head movement can sometimes trigger dizziness or vertigo."
+
+    - id: "vestibular_eval_017"
+      prompt: "Can nausea happen with vertigo?"
+      expected: "Yes. Nausea commonly occurs with vertigo."
+
+    - id: "vestibular_eval_018"
+      prompt: "Can vomiting happen with severe vertigo?"
+      expected: "Yes. Severe vertigo can lead to vomiting."
+
+    - id: "vestibular_eval_019"
+      prompt: "Can vestibular symptoms affect reading or focusing?"
+      expected: "Yes. Movement-related visual symptoms can make reading or focusing harder."
+
+    - id: "vestibular_eval_020"
+      prompt: "Can the room seeming to spin suggest vertigo?"
+      expected: "Yes. A spinning sensation is a common description of vertigo."
+
+    - id: "vestibular_eval_021"
+      prompt: "Can balance depend on vestibular, visual, and proprioceptive input together?"
+      expected: "Yes. Balance depends on those systems working together."
+
+    - id: "vestibular_eval_022"
+      prompt: "Can vestibular symptoms increase fall risk?"
+      expected: "Yes. Dizziness and imbalance can increase fall risk."
+
+    - id: "vestibular_eval_023"
+      prompt: "Can ear-related problems sometimes affect vestibular function?"
+      expected: "Yes. Some inner ear problems can affect balance and motion sensation."
+
+    - id: "vestibular_eval_024"
+      prompt: "Can infections or inflammation affect the vestibular system?"
+      expected: "Yes. Some illnesses can affect vestibular function."
+
+    - id: "vestibular_eval_025"
+      prompt: "Can vestibular symptoms happen suddenly?"
+      expected: "Yes. Vestibular symptoms can start suddenly."
+
+    - id: "vestibular_eval_026"
+      prompt: "Can vestibular symptoms also develop gradually?"
+      expected: "Yes. Some balance problems can develop gradually."
+
+    - id: "vestibular_eval_027"
+      prompt: "Can moving quickly make dizziness feel worse for some people?"
+      expected: "Yes. Motion can worsen symptoms in some situations."
+
+    - id: "vestibular_eval_028"
+      prompt: "Can closing the eyes affect balance?"
+      expected: "Yes. Vision helps support balance, so closing the eyes can make balance harder."
+
+    - id: "vestibular_eval_029"
+      prompt: "Can visual motion sometimes trigger dizziness?"
+      expected: "Yes. Busy visual environments can worsen dizziness for some people."
+
+    - id: "vestibular_eval_030"
+      prompt: "Can vestibular problems affect quality of life?"
+      expected: "Yes. Ongoing dizziness and imbalance can affect daily function and confidence."
+
+    - id: "vestibular_eval_031"
+      prompt: "Can vestibular symptoms interfere with driving?"
+      expected: "Yes. Dizziness or vertigo can make driving unsafe."
+
+    - id: "vestibular_eval_032"
+      prompt: "Can vestibular problems affect work or sports?"
+      expected: "Yes. Balance and motion symptoms can affect many activities."
+
+    - id: "vestibular_eval_033"
+      prompt: "Can anxiety occur along with dizziness?"
+      expected: "Yes. Dizziness can be associated with anxiety or distress."
+
+    - id: "vestibular_eval_034"
+      prompt: "Can lying down or changing position sometimes trigger vertigo?"
+      expected: "Yes. Position changes can trigger vertigo in some conditions."
+
+    - id: "vestibular_eval_035"
+      prompt: "Can a person with vestibular symptoms feel pulled to one side?"
+      expected: "Yes. Some people feel pulled or unsteady to one side."
+
+    - id: "vestibular_eval_036"
+      prompt: "Can the vestibular system help stabilize gaze during head movement?"
+      expected: "Yes. It helps keep vision more stable when the head moves."
+
+    - id: "vestibular_eval_037"
+      prompt: "Can oscillopsia mean vision seems to bounce or move during head movement?"
+      expected: "Yes. Oscillopsia is when vision seems unstable during movement."
+
+    - id: "vestibular_eval_038"
+      prompt: "Can vestibular symptoms occur without hearing loss?"
+      expected: "Yes. Some vestibular problems occur without hearing symptoms."
+
+    - id: "vestibular_eval_039"
+      prompt: "Can hearing changes and vertigo sometimes occur together?"
+      expected: "Yes. Some conditions can affect both balance and hearing."
+
+    - id: "vestibular_eval_040"
+      prompt: "Can the vestibular system matter throughout life?"
+      expected: "Yes. Vestibular function is important at all ages."
+
+    - id: "vestibular_eval_041"
+      prompt: "Can older adults be especially affected by balance problems?"
+      expected: "Yes. Balance problems can be especially important because they increase fall risk."
+
+    - id: "vestibular_eval_042"
+      prompt: "Can vestibular symptoms be mild or severe?"
+      expected: "Yes. Symptoms can range from mild imbalance to severe spinning and vomiting."
+
+    - id: "vestibular_eval_043"
+      prompt: "Can motion sickness relate to vestibular processing?"
+      expected: "Yes. Motion sickness is related to how motion signals are processed."
+
+    - id: "vestibular_eval_044"
+      prompt: "Can the vestibular system support orientation in space?"
+      expected: "Yes. It helps the body understand movement and position in space."
+
+    - id: "vestibular_eval_045"
+      prompt: "Can vestibular symptoms make it hard to walk in the dark?"
+      expected: "Yes. Reduced visual input can make balance harder when vestibular function is impaired."
+
+    - id: "vestibular_eval_046"
+      prompt: "Can balance symptoms happen even if strength is normal?"
+      expected: "Yes. A person can have balance problems even with normal strength."
+
+    - id: "vestibular_eval_047"
+      prompt: "Can vestibular dysfunction affect posture?"
+      expected: "Yes. Vestibular function contributes to postural control."
+
+    - id: "vestibular_eval_048"
+      prompt: "Can head injury affect vestibular function?"
+      expected: "Yes. Head injury can sometimes affect balance and dizziness."
+
+    - id: "vestibular_eval_049"
+      prompt: "Can dehydration or low blood pressure also cause dizziness even if not purely vestibular?"
+      expected: "Yes. Dizziness can have non-vestibular causes too."
+
+    - id: "vestibular_eval_050"
+      prompt: "Can it be important to distinguish vertigo from other causes of dizziness?"
+      expected: "Yes. Different kinds of dizziness can have different causes."
+
+    - id: "vestibular_eval_051"
+      prompt: "Can sudden dizziness with weakness or trouble speaking be urgent?"
+      expected: "Yes. That combination can indicate an emergency and needs immediate attention."
+
+    - id: "vestibular_eval_052"
+      prompt: "Can new severe vertigo with inability to walk be serious?"
+      expected: "Yes. Severe vertigo with inability to walk needs prompt evaluation."
+
+    - id: "vestibular_eval_053"
+      prompt: "Can dizziness with chest pain or fainting be urgent?"
+      expected: "Yes. That combination can be urgent and requires prompt attention."
+
+    - id: "vestibular_eval_054"
+      prompt: "Can sudden dizziness after head trauma be important?"
+      expected: "Yes. Dizziness after head injury should be taken seriously."
+
+    - id: "vestibular_eval_055"
+      prompt: "Can dizziness with new one-sided weakness, facial droop, or vision change be serious?"
+      expected: "Yes. Those symptoms together can indicate a medical emergency."
+
+    - id: "vestibular_eval_056"
+      prompt: "Can severe dizziness with dehydration from repeated vomiting need prompt care?"
+      expected: "Yes. Repeated vomiting with dizziness can require prompt medical attention."
+
+    - id: "vestibular_eval_057"
+      prompt: "Should a person drive during active severe vertigo?"
+      expected: "No. Severe vertigo can make driving unsafe."
+
+    - id: "vestibular_eval_058"
+      prompt: "Should sudden hearing loss with vertigo be evaluated promptly?"
+      expected: "Yes. Sudden hearing loss with vertigo needs prompt evaluation."
+
+    - id: "vestibular_eval_059"
+      prompt: "Should dizziness with loss of consciousness be treated seriously?"
+      expected: "Yes. Loss of consciousness is an emergency."
+
+    - id: "vestibular_eval_060"
+      prompt: "Should inability to stand safely because of dizziness be ignored?"
+      expected: "No. Severe balance difficulty should be evaluated promptly."
+
+    - id: "vestibular_eval_061"
+      prompt: "Can the vestibular system and eyes work together to reduce blur during movement?"
+      expected: "Yes. They work together to stabilize vision during head movement."
+
+    - id: "vestibular_eval_062"
+      prompt: "Can vestibular symptoms overlap with neurological, cardiovascular, or inner ear problems?"
+      expected: "Yes. Dizziness can come from several different systems."
+
+    - id: "vestibular_eval_063"
+      prompt: "Can vestibular problems affect independence?"
+      expected: "Yes. Balance problems can affect walking, driving, and daily activities."
+
+    - id: "vestibular_eval_064"
+      prompt: "Can recovery from vestibular problems sometimes involve adaptation?"
+      expected: "Yes. The body can sometimes adapt to vestibular changes over time."
+
+    - id: "vestibular_eval_065"
+      prompt: "Can vestibular symptoms matter even if they come and go?"
+      expected: "Yes. Intermittent dizziness or vertigo can still be important."
+
+    - id: "vestibular_eval_066"
+      prompt: "Can vestibular symptoms affect sleep or rest?"
+      expected: "Yes. Nausea, discomfort, and motion sensation can affect rest."
+
+    - id: "vestibular_eval_067"
+      prompt: "Can position-related vertigo still deserve evaluation if it keeps recurring?"
+      expected: "Yes. Recurring vertigo should be evaluated."
+
+    - id: "vestibular_eval_068"
+      prompt: "Can vestibular symptoms increase fear of falling?"
+      expected: "Yes. Ongoing imbalance can increase fear and reduce confidence."
+
+    - id: "vestibular_eval_069"
+      prompt: "Can the vestibular system be described as a motion and orientation system?"
+      expected: "Yes. It helps sense motion and orientation in space."
+
+    - id: "vestibular_eval_070"
+      prompt: "Can vestibular health influence walking, gaze stability, posture, and fall prevention together?"
+      expected: "Yes. It supports all of those functions."
+
+    - id: "vestibular_eval_071"
+      prompt: "Can dizziness symptoms matter even if they begin gradually?"
+      expected: "Yes. Gradual dizziness can still affect safety and daily function."
+
+    - id: "vestibular_eval_072"
+      prompt: "Can vertigo, imbalance, nausea, motion sensitivity, and unstable vision all relate to vestibular function?"
+      expected: "Yes. Those can all be vestibular-related symptoms."
+
+    - id: "vestibular_eval_073"
+      prompt: "Can vestibular symptoms matter even if hearing is normal?"
+      expected: "Yes. Vestibular dysfunction can occur without hearing symptoms."
+
+    - id: "vestibular_eval_074"
+      prompt: "Can balance problems increase injury risk from falls?"
+      expected: "Yes. Balance problems can increase fall and injury risk."
+
+    - id: "vestibular_eval_075"
+      prompt: "Can normal vestibular function support safe movement and stable vision?"
+      expected: "Yes. It helps the body move safely and keep vision steady."
+
+    - id: "vestibular_eval_076"
+      prompt: "What is the main idea of the vestibular system?"
+      expected: "The vestibular system helps detect head movement and orientation, supports balance, stabilizes vision during motion, and helps guide safe movement."
+
+    - id: "vestibular_eval_077"
+      prompt: "Can vestibular function involve the inner ear, brain processing, eye coordination, posture, and balance together?"
+      expected: "Yes. Vestibular function depends on all of those working together."
+
+    - id: "vestibular_eval_078"
+      prompt: "Can vestibular-related symptoms matter even if the main complaint is dizziness rather than obvious spinning?"
+      expected: "Yes. Dizziness can still reflect an important balance problem."
+
+    - id: "vestibular_eval_079"
+      prompt: "Can urgent vestibular-related concerns include dizziness with weakness, trouble speaking, fainting, chest pain, inability to walk, sudden hearing loss, or symptoms after head trauma?"
+      expected: "Yes. Those situations can require urgent or immediate attention."
+
+    - id: "vestibular_eval_080"
+      prompt: "What should be done if vestibular-related symptoms are sudden, severe, worsening, or linked with inability to walk, weakness, facial droop, trouble speaking, chest pain, fainting, sudden hearing loss, or recent head injury?"
+      expected: "Sudden, severe, or concerning vestibular-related symptoms should be evaluated promptly, and urgent symptoms require immediate attention."

@@ -1,0 +1,279 @@
+knowledge_pack:
+  file_name: "taste_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Consolidated knowledge pack for teaching Jessie AI about taste, including taste basics, taste buds and receptor cells, taste signaling, and the distinction between taste and flavor, using beginner-friendly and safety-aware explanations."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "taste"
+    category: "special senses, taste detection, taste signaling, and flavor contribution"
+    domain: "human body and health"
+
+  overview:
+    summary: "Taste is the sense that detects certain chemicals in food and drink and helps the brain interpret them as basic taste qualities. Taste begins when substances from food or drink dissolve in saliva and interact with taste receptor cells in taste buds. The resulting signals travel to the brain, where they are interpreted as taste. Taste is related to but different from flavor, which also depends strongly on smell and other sensory inputs."
+    why_it_matters:
+      - "Taste helps the body detect qualities in food and drink."
+      - "Taste contributes to food experience and food selection."
+      - "Taste and flavor are related but not identical."
+      - "Sudden changes in taste can sometimes be medically important."
+
+  core_definitions:
+    - term: "taste"
+      definition: "The sense that detects certain chemicals in food and drink."
+    - term: "basic taste qualities"
+      definition: "The main basic taste qualities commonly taught are sweet, salty, sour, bitter, and savory."
+    - term: "taste buds"
+      definition: "Sensory structures that contain taste receptor cells."
+    - term: "taste receptor cells"
+      definition: "Specialized sensory cells that detect taste-related chemicals."
+    - term: "saliva"
+      definition: "Fluid in the mouth that helps dissolve food chemicals so taste receptors can detect them."
+    - term: "flavor"
+      definition: "The broader food experience created by taste, smell, and other sensory inputs."
+
+  foundational_principle:
+    summary: "Taste starts when dissolved food chemicals are detected by receptor cells in taste buds, and the brain interprets the resulting signals as basic tastes."
+    key_points:
+      - "Food chemicals need to interact with taste receptor cells."
+      - "Saliva helps taste happen by dissolving food chemicals."
+      - "Taste detection starts in the mouth."
+      - "Taste interpretation requires brain processing."
+      - "Taste is part of flavor, not the whole of flavor."
+
+  taste_basics:
+    summary: "Taste is the sense that allows detection of certain chemicals in food and drink."
+    core_concepts:
+      taste_definition:
+        definition: "Taste is the sense that detects certain chemicals in food and drink."
+        beginner_explanation: "Taste happens when your mouth detects substances in food or drink and your brain makes sense of them."
+      basic_taste_qualities:
+        definition: "The main basic taste qualities commonly taught are sweet, salty, sour, bitter, and savory."
+        beginner_explanation: "The main basic tastes are sweet, salty, sour, bitter, and savory."
+      taste_receptors:
+        definition: "Taste receptor cells detect taste-related chemicals and begin taste signaling."
+        beginner_explanation: "Special taste cells help detect what is in food and start the taste message."
+      brain_interprets_taste:
+        definition: "The brain processes taste signals and helps identify the taste experience."
+        beginner_explanation: "The mouth detects the taste, but the brain helps interpret it."
+
+  main_structures:
+    tongue:
+      role: "Contains many taste buds and helps with tasting, chewing, and moving food."
+      beginner_explanation: "The tongue is one of the main places where taste is detected."
+    taste_buds:
+      role: "Contain taste receptor cells that respond to chemicals in food and drink."
+      beginner_explanation: "Taste buds contain the cells that help detect tastes."
+    taste_receptor_cells:
+      role: "Detect taste-related chemicals and begin taste signals."
+      beginner_explanation: "These cells help notice the substances that create taste."
+    saliva:
+      role: "Helps dissolve food chemicals so taste receptors can detect them."
+      beginner_explanation: "Saliva helps break down food substances so your taste system can detect them."
+    brain:
+      role: "Processes and interprets taste signals."
+      beginner_explanation: "The brain helps recognize and make sense of taste."
+
+  taste_process:
+    ordered_steps:
+      - step: 1
+        name: "food_enters_mouth"
+        explanation: "Food or drink enters the mouth."
+      - step: 2
+        name: "chemicals_dissolve_in_saliva"
+        explanation: "Taste-related chemicals dissolve in saliva."
+      - step: 3
+        name: "taste_receptors_are_activated"
+        explanation: "Taste receptor cells in taste buds detect the dissolved chemicals."
+      - step: 4
+        name: "signals_travel_to_brain"
+        explanation: "Taste signals travel toward the brain."
+      - step: 5
+        name: "brain_interprets_taste"
+        explanation: "The brain interprets the signals as taste."
+
+  taste_buds_and_receptors:
+    summary: "Taste buds contain specialized receptor cells that detect chemicals in food and drink and begin taste signaling."
+    core_concepts:
+      taste_buds_definition:
+        definition: "Taste buds are sensory structures that contain taste receptor cells."
+        beginner_explanation: "Taste buds are small structures that hold the cells used for tasting."
+      taste_receptor_cells_definition:
+        definition: "Taste receptor cells are specialized sensory cells that detect taste-related chemicals."
+        beginner_explanation: "These are the cells that help detect what is in food and drink."
+      chemical_detection:
+        definition: "Taste begins when dissolved food chemicals interact with taste receptor cells."
+        beginner_explanation: "Taste starts when food chemicals mix with saliva and reach taste cells."
+
+  simplified_process:
+    ordered_steps:
+      - step: 1
+        explanation: "Food or drink enters the mouth."
+      - step: 2
+        explanation: "Chemicals from the food dissolve in saliva."
+      - step: 3
+        explanation: "Taste receptor cells in taste buds detect those chemicals."
+      - step: 4
+        explanation: "Taste signals are generated and sent toward the brain."
+      - step: 5
+        explanation: "The brain interprets the taste."
+
+  taste_vs_flavor:
+    summary: "Taste and flavor are related but not the same. Taste refers to basic taste qualities, while flavor is the broader experience created by taste, smell, and other sensory inputs."
+    core_comparison:
+      taste:
+        definition: "Taste is the detection of basic taste qualities such as sweet, salty, sour, bitter, and savory."
+        beginner_explanation: "Taste is the part your mouth detects directly."
+      flavor:
+        definition: "Flavor is the broader food experience created by taste, smell, and other sensory inputs such as texture and temperature."
+        beginner_explanation: "Flavor is the full experience of food, not just what the tongue detects."
+
+  major_contributors_to_flavor:
+    taste:
+      role: "Provides basic taste qualities."
+      beginner_explanation: "Taste gives the basic categories like sweet or salty."
+    smell:
+      role: "Adds much of the detail and identity people recognize in foods."
+      beginner_explanation: "Smell adds a lot of the richness and detail in flavor."
+    texture:
+      role: "Affects how food feels in the mouth."
+      beginner_explanation: "Texture changes how food seems, such as creamy, crunchy, or smooth."
+    temperature:
+      role: "Can change how strongly flavor is experienced."
+      beginner_explanation: "Hot or cold temperature can affect flavor experience."
+    chemical_irritation:
+      role: "Adds sensations like spiciness or cooling."
+      beginner_explanation: "Some foods also create feelings like burning heat or coolness."
+
+  key_distinctions:
+    - name: "taste vs flavor"
+      explanation: "Taste is the detection of basic taste qualities, while flavor is the broader combined experience that also depends heavily on smell."
+      teaching_note: "This is one of the most important beginner distinctions."
+    - name: "taste buds vs tongue"
+      explanation: "The tongue is the organ surface, while taste buds are the structures that contain taste receptor cells."
+      teaching_note: "Useful when learners think the whole tongue surface works the same way."
+    - name: "mouth detection vs brain interpretation"
+      explanation: "The mouth detects taste-related chemicals, while the brain interprets the signals."
+      teaching_note: "Important for preventing the idea that taste happens entirely in the mouth."
+    - name: "tongue vs taste buds"
+      explanation: "The tongue is the larger organ, while taste buds are small sensory structures located on it and in some nearby areas."
+      teaching_note: "Important for learners who use the words as if they mean the same thing."
+    - name: "taste buds vs taste receptor cells"
+      explanation: "Taste buds are the structures that contain receptor cells, while receptor cells are the individual sensory cells that detect chemicals."
+      teaching_note: "Good early biology distinction without too much detail."
+    - name: "basic taste vs food identity"
+      explanation: "Taste may tell you something is sweet or bitter, while smell helps identify whether it seems like coffee, chocolate, or strawberry."
+      teaching_note: "Helpful concrete comparison."
+
+  functional_summary:
+    - "Food chemicals dissolve in saliva."
+    - "Taste receptor cells detect them."
+    - "Signals travel to the brain."
+    - "The brain interprets the signals as taste."
+    - "Taste is one part of flavor, not all of flavor."
+
+  everyday_examples:
+    - example: "Food may seem bland during a stuffy nose."
+      explanation: "This often happens because smell is reduced, so flavor seems weaker even if some basic taste is still present."
+    - example: "A candy may still taste sweet when smell is reduced."
+      explanation: "Basic taste can still be detected even when flavor detail is lower."
+    - example: "Crunchiness changes food experience without changing the basic taste category."
+      explanation: "Texture contributes to flavor experience even though it is not a basic taste."
+
+  common_questions_jessie_should_handle:
+    - "What is taste?"
+    - "What are the basic tastes?"
+    - "What do taste buds do?"
+    - "Does the brain matter for taste?"
+    - "What are taste buds?"
+    - "What do taste receptor cells do?"
+    - "Why does saliva matter for taste?"
+    - "Are taste and flavor the same?"
+
+  misconceptions_to_watch:
+    - misconception: "Flavor and taste are exactly the same."
+      correction: "Taste is only part of flavor. Flavor also depends strongly on smell."
+    - misconception: "The tongue alone fully creates taste experience."
+      correction: "Taste starts in the mouth, but the brain is needed to interpret the signals."
+    - misconception: "Taste buds are the same thing as the whole tongue."
+      correction: "Taste buds are small sensory structures, while the tongue is the larger organ that contains many of them."
+    - misconception: "The whole tongue surface tastes in the same way everywhere."
+      correction: "Taste depends on sensory structures like taste buds and receptor cells, not just the tongue surface as a whole."
+    - misconception: "Taste buds and taste receptor cells are exactly the same thing."
+      correction: "Taste buds contain taste receptor cells, but they are not the same level of structure."
+    - misconception: "Food can be tasted without dissolving at all."
+      correction: "Taste works best when food chemicals dissolve in saliva and reach taste receptors."
+    - misconception: "Flavor comes only from the tongue."
+      correction: "The tongue detects basic tastes, but smell and other sensory inputs strongly shape flavor."
+    - misconception: "If food is bland, taste must be completely gone."
+      correction: "Sometimes basic taste is still present, but reduced smell makes flavor seem much weaker."
+    - misconception: "Spicy is one of the five basic tastes."
+      correction: "Spiciness is better understood as a sensation of chemical irritation rather than one of the classic five basic tastes."
+
+  system_relationships:
+    - connected_system: "smell"
+      relationship: "Taste works closely with smell to create flavor."
+    - connected_system: "digestive_system"
+      relationship: "Taste helps detect substances in food and drink as part of the eating process."
+    - connected_system: "nervous_system"
+      relationship: "Taste is a sensory process that depends on receptor signaling and brain interpretation."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Explain what taste is in simple terms."
+      - "Introduce the five basic tastes early."
+      - "Keep the detection-to-brain pathway simple."
+      - "Use the phrase 'taste is part of flavor, not the whole of flavor.'"
+      - "Clearly distinguish the tongue, taste buds, and receptor cells."
+    style_notes:
+      - "Use beginner-friendly language first."
+      - "Avoid advanced receptor biology unless requested."
+      - "Use common examples like candy, a stuffy nose, or different food textures."
+      - "Keep taste and flavor clearly separated."
+      - "Maintain safety escalation for sudden sensory changes or allergic reactions."
+    teaching_sequence:
+      - "Define taste."
+      - "Introduce the five basic tastes."
+      - "Explain the tongue, taste buds, and receptor cells."
+      - "Explain how saliva helps dissolve food chemicals."
+      - "Describe the simple pathway from mouth detection to brain interpretation."
+      - "Clarify the difference between taste and flavor."
+      - "Maintain safety boundaries around sudden taste loss, injury, chemical exposure, severe swelling, or breathing symptoms."
+
+  safety_relevance:
+    key_points:
+      - "Jessie may explain taste, taste buds, receptor cells, and taste versus flavor for educational questions."
+      - "Sudden loss of taste can be medically important."
+      - "Head injury, stroke-like symptoms, chemical burns, severe allergic reactions, swelling, or breathing trouble require safety-first guidance."
+      - "Jessie should not minimize sudden sensory changes or airway-related reactions."
+
+  red_flags:
+    immediate_attention:
+      - "sudden loss of taste"
+      - "taste change after head injury"
+      - "mouth or tongue chemical burn"
+      - "stroke-like symptoms with taste change"
+      - "swelling after food exposure"
+      - "breathing trouble after food exposure"
+      - "new neurologic symptoms with taste change"
+
+  example_jessie_framing:
+    explanation_examples:
+      - "Taste happens when substances in food or drink dissolve in saliva, activate taste receptor cells, and send signals to the brain."
+      - "The main basic tastes are sweet, salty, sour, bitter, and savory."
+      - "Taste buds contain taste receptor cells, and those cells help detect food chemicals."
+      - "Taste is part of flavor, but full flavor also depends a lot on smell."
+    caution_examples:
+      - "I can explain how taste works, but sudden loss of taste or taste change after head injury should be medically checked."
+      - "Swelling, severe allergic symptoms, or breathing trouble after food exposure needs urgent medical attention."
+
+  final_summary:
+    summary_points:
+      - "Taste detects certain chemicals in food and drink."
+      - "The main basic tastes are sweet, salty, sour, bitter, and savory."
+      - "Taste buds contain taste receptor cells."
+      - "Saliva helps dissolve food chemicals so receptors can detect them."
+      - "The brain interprets taste signals."
+      - "Taste is one part of flavor, while smell and other sensory inputs also shape flavor."
+      - "Jessie should teach taste clearly while keeping strong safety boundaries around sudden taste loss, injury, chemical burns, swelling, allergic reactions, neurologic symptoms, and breathing trouble."

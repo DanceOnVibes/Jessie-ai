@@ -1,0 +1,313 @@
+knowledge_pack:
+  file_name: "respiratory_system_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about the respiratory system, including breathing, airways, lungs, gas exchange, diaphragm function, links to circulation, and safety-aware educational framing."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "respiratory_system"
+    category: "breathing, gas exchange, and oxygen-carbon dioxide balance"
+    domain: "human body and health"
+
+  overview:
+    summary: "The respiratory system brings oxygen into the body and removes carbon dioxide. It includes the airways, lungs, and breathing muscles, especially the diaphragm. Air moves through the nose or mouth, down the airways, and into the lungs, where gas exchange occurs in the alveoli. The respiratory system works closely with the circulatory system to deliver oxygen to tissues and remove carbon dioxide, and it also helps maintain homeostasis, including acid-base balance."
+    why_it_matters:
+      - "Cells need oxygen to support energy production."
+      - "Carbon dioxide must be removed to help maintain internal balance."
+      - "Breathing supports survival every moment of life."
+      - "Serious breathing symptoms can become dangerous quickly, so safety boundaries matter."
+
+  core_definitions:
+    - term: "respiratory system"
+      definition: "The body system that brings oxygen into the body and removes carbon dioxide."
+    - term: "breathing"
+      definition: "The movement of air into and out of the lungs."
+    - term: "respiration"
+      definition: "A broader term that can include breathing, gas exchange, and how cells use oxygen to help release energy from nutrients."
+    - term: "gas exchange"
+      definition: "The movement of oxygen into the blood and carbon dioxide out of the blood."
+    - term: "oxygen"
+      definition: "A gas the body needs for cellular energy processes."
+    - term: "carbon dioxide"
+      definition: "A waste gas produced by cells that must be removed from the body."
+    - term: "alveoli"
+      definition: "Tiny air sacs in the lungs where gas exchange occurs."
+    - term: "diaphragm"
+      definition: "The main breathing muscle located below the lungs."
+    - term: "bronchi"
+      definition: "The two main airways that branch from the trachea into the lungs."
+
+  foundational_principle:
+    summary: "The respiratory system moves air and supports gas exchange so the body can get oxygen and remove carbon dioxide."
+    key_points:
+      - "Breathing brings air into and out of the lungs."
+      - "Gas exchange happens in the lungs, especially in the alveoli."
+      - "The blood then carries oxygen to tissues and returns carbon dioxide to the lungs."
+      - "The respiratory system depends on coordination with muscles, nerves, and circulation."
+
+  major_functions:
+    oxygen_intake:
+      summary: "The respiratory system brings oxygen into the body."
+      beginner_points:
+        - "Air enters through the nose or mouth."
+        - "It travels through the airways into the lungs."
+    carbon_dioxide_removal:
+      summary: "The respiratory system removes carbon dioxide from the body."
+      beginner_points:
+        - "Carbon dioxide moves from the blood into the lungs."
+        - "It leaves the body when a person exhales."
+    gas_exchange:
+      summary: "The respiratory system exchanges gases between air and blood."
+      beginner_points:
+        - "Oxygen enters the blood in the lungs."
+        - "Carbon dioxide leaves the blood in the lungs."
+    homeostasis_support:
+      summary: "The respiratory system helps maintain stable internal conditions."
+      beginner_points:
+        - "It helps keep oxygen and carbon dioxide levels in balance."
+        - "It contributes to acid-base balance."
+
+  main_structures:
+    nose_and_nasal_cavity:
+      role: "Allow air to enter, filter particles, and warm and moisten incoming air."
+      importance: "They prepare air before it reaches deeper respiratory structures."
+    pharynx:
+      role: "Passageway for air from the nasal cavity toward the larynx."
+      importance: "It helps connect the upper airway to lower respiratory structures."
+    larynx:
+      role: "Helps keep the airway open, contains the vocal cords, and directs air into the lower respiratory tract."
+      importance: "It plays roles in breathing and voice."
+    trachea:
+      role: "Carries air from the larynx toward the bronchi."
+      importance: "It is the main airway tube leading toward the lungs."
+    bronchi:
+      role: "Carry air from the trachea into each lung."
+      importance: "They divide airflow into the right and left lungs."
+    bronchioles:
+      role: "Smaller air passages inside the lungs that distribute air toward the alveoli."
+      importance: "They help move air deeper into lung tissue."
+    alveoli:
+      role: "Tiny air sacs where gas exchange occurs."
+      importance: "They are the main sites where oxygen enters the blood and carbon dioxide leaves it."
+    lungs:
+      role: "Contain branching airways and alveoli and serve as the main organs of gas exchange."
+      importance: "They are central organs of the respiratory system."
+    diaphragm:
+      role: "Main muscle used in breathing."
+      importance: "Its movement helps change chest volume and draw air into the lungs."
+
+  how_the_respiratory_system_works:
+    inhalation:
+      - "The diaphragm contracts and moves downward."
+      - "The chest cavity expands."
+      - "Air pressure in the lungs decreases relative to outside air."
+      - "Air flows into the lungs."
+    exhalation:
+      - "The diaphragm relaxes and moves upward."
+      - "The chest cavity becomes smaller."
+      - "Air pressure in the lungs increases."
+      - "Air flows out of the lungs."
+    gas_exchange_process:
+      - "Air reaches the alveoli."
+      - "Oxygen diffuses from the alveoli into nearby capillaries."
+      - "Carbon dioxide diffuses from the blood into the alveoli."
+      - "Carbon dioxide is then exhaled."
+
+  breathing_explained:
+    summary: "Breathing is the physical movement of air into and out of the lungs."
+    key_points:
+      - "Inhalation brings air in."
+      - "Exhalation moves air out."
+      - "Breathing depends on changes in chest size and air pressure."
+      - "The diaphragm is the main breathing muscle."
+
+  gas_exchange_explained:
+    summary: "Gas exchange is the transfer of oxygen and carbon dioxide between the lungs and the blood."
+    key_points:
+      - "Oxygen moves from alveoli into the blood."
+      - "Carbon dioxide moves from the blood into the alveoli."
+      - "This exchange allows oxygen delivery to tissues."
+      - "It also allows waste carbon dioxide removal."
+
+  respiration_vs_breathing:
+    summary: "Breathing and respiration are related but not identical."
+    key_points:
+      - "Breathing means moving air into and out of the lungs."
+      - "Respiration can also include gas exchange and how cells use oxygen."
+      - "This distinction helps learners connect lungs to whole-body function."
+
+  respiratory_system_and_other_body_systems:
+    circulatory_system:
+      relationship: "The respiratory system loads oxygen into the blood, and the circulatory system transports that oxygen to tissues and returns carbon dioxide to the lungs."
+    muscular_system:
+      relationship: "Breathing depends on muscles, especially the diaphragm and intercostal muscles."
+    nervous_system:
+      relationship: "The brain helps regulate breathing rate and depth based on the body’s needs."
+    cellular_energy_connection:
+      relationship: "The respiratory system supports cells by helping provide oxygen needed for energy-related processes."
+    acid_base_balance:
+      relationship: "Carbon dioxide levels influence acid-base balance, so breathing helps support homeostasis."
+
+  important_distinctions:
+    - name: "breathing vs respiration"
+      explanation: "Breathing is air movement, while respiration can also include gas exchange and cellular oxygen use."
+    - name: "lungs vs entire respiratory system"
+      explanation: "The lungs are central organs, but the respiratory system also includes the nose, airways, breathing muscles, and control systems."
+    - name: "oxygen intake vs oxygen delivery"
+      explanation: "The lungs bring oxygen into the blood, but the circulatory system carries it to body tissues."
+    - name: "airways vs gas exchange sites"
+      explanation: "Airways move air, while alveoli are where gas exchange mainly occurs."
+    - name: "educational explanation vs diagnosis"
+      explanation: "Explaining breathing and lung function is different from diagnosing asthma, pneumonia, pulmonary embolism, or other respiratory conditions from symptoms alone."
+
+  common_changes_people_notice:
+    - name: "shortness of breath"
+      explanation: "A person may feel like breathing is harder or less effective than usual."
+    - name: "cough"
+      explanation: "Coughing can happen when the airway is irritated or the body is trying to clear material."
+    - name: "wheezing"
+      explanation: "Some people notice a whistling sound with breathing."
+    - name: "chest tightness"
+      explanation: "A person may feel pressure or tightness while breathing."
+    - name: "rapid breathing"
+      explanation: "Breathing may become faster when the body needs more oxygen or is under stress."
+    - name: "labored breathing"
+      explanation: "Breathing may appear visibly difficult or require extra effort."
+
+  common_factors_that_can_affect_respiratory_function:
+    infection_related:
+      - "viral illness"
+      - "bacterial illness"
+      - "airway inflammation"
+    airway_related:
+      - "allergy-related irritation"
+      - "bronchospasm"
+      - "mucus buildup"
+    environmental_factors:
+      - "smoke exposure"
+      - "pollution"
+      - "dust"
+      - "chemical irritants"
+    mechanical_or_functional_factors:
+      - "poor airway opening"
+      - "muscle weakness"
+      - "chest wall limitation"
+    circulation_related:
+      - "reduced oxygen transport"
+      - "blood flow problems affecting gas exchange"
+    serious_conditions:
+      - "pneumonia"
+      - "asthma flare"
+      - "severe allergic reaction"
+      - "pulmonary embolism"
+      - "heart-related causes of breathing difficulty"
+
+  age_related_considerations:
+    children:
+      - "Respiratory infections and airway narrowing may affect breathing more quickly in smaller airways."
+    adults:
+      - "Breathing function supports daily activity, exercise, and normal tissue oxygenation."
+    older_adults:
+      - "Respiratory reserve may be reduced."
+      - "Shortness of breath or infection can become more serious more quickly."
+
+  common_questions_jessie_should_handle:
+    - "What does the respiratory system do?"
+    - "Why do we need oxygen?"
+    - "What do the lungs do?"
+    - "What is the diaphragm?"
+    - "What are alveoli?"
+    - "How does breathing work?"
+    - "How is breathing connected to the blood?"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "brief mild breathlessness after exercise"
+      - "temporary faster breathing during stress"
+      - "short-lived mild irritation from environmental exposure"
+    should_be_monitored:
+      - "cough that continues"
+      - "mild shortness of breath that keeps returning"
+      - "wheezing without severe distress"
+      - "breathing discomfort with minor illness"
+    more_concerning:
+      - "significant shortness of breath"
+      - "chest pain with breathing trouble"
+      - "bluish lips"
+      - "confusion with breathing difficulty"
+      - "rapidly worsening breathing symptoms"
+      - "difficulty speaking because of breathlessness"
+    emergency_patterns:
+      - "severe trouble breathing"
+      - "bluish lips or face"
+      - "collapse"
+      - "loss of consciousness"
+      - "severe chest pain with breathing difficulty"
+      - "signs of a severe allergic reaction"
+
+  red_flags:
+    immediate_attention:
+      - "severe trouble breathing"
+      - "bluish lips"
+      - "chest pain with breathing trouble"
+      - "confusion"
+      - "rapid worsening"
+      - "collapse"
+      - "loss of consciousness"
+
+  safety_relevance:
+    key_points:
+      - "Serious breathing symptoms can become dangerous quickly."
+      - "Jessie should not diagnose respiratory illness from limited symptom descriptions."
+      - "Breathing difficulty can be caused by respiratory, cardiac, allergic, or other urgent conditions."
+      - "Severe trouble breathing, bluish lips, chest pain, confusion, or collapse require emergency guidance."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Start with the simple idea that breathing brings in oxygen and removes carbon dioxide."
+      - "Use lungs plus blood as a key connection."
+      - "Explain alveoli simply before using more technical detail."
+      - "Link breathing to energy and homeostasis."
+      - "Distinguish breathing from broader respiration when useful."
+    style_notes:
+      - "Use clear beginner-friendly language first."
+      - "Connect structure with function."
+      - "Avoid excessive technical detail unless requested."
+      - "Keep symptom discussion educational unless urgent safety guidance is needed."
+      - "Do not diagnose respiratory illness from limited information."
+    teaching_sequence:
+      - "Define the respiratory system."
+      - "Explain the main job of oxygen intake and carbon dioxide removal."
+      - "Introduce the airway pathway."
+      - "Explain the lungs and alveoli."
+      - "Explain diaphragm-driven breathing."
+      - "Connect the system to circulation and cellular needs."
+      - "Maintain strong safety boundaries around breathing symptoms."
+
+  cross_system_links:
+    - "The respiratory system works closely with the circulatory system to transport oxygen and carbon dioxide."
+    - "Breathing depends on muscles, especially the diaphragm."
+    - "The nervous system helps regulate breathing rate and depth."
+    - "Oxygen supports energy-related processes in cells."
+    - "Carbon dioxide removal helps support acid-base balance."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "The respiratory system helps the body take in oxygen and remove carbon dioxide."
+      - "Air travels through the airways into the lungs, where gas exchange happens in tiny air sacs called alveoli."
+      - "The diaphragm is the main muscle that helps you breathe."
+      - "The lungs work with the blood, because oxygen enters the blood in the lungs and is then carried through the body."
+    caution_examples:
+      - "I can explain how breathing works, but I cannot diagnose a breathing problem from symptoms alone."
+      - "Severe trouble breathing, bluish lips, chest pain, confusion, or rapidly worsening symptoms need emergency care right away."
+
+  final_summary:
+    summary_points:
+      - "The respiratory system brings oxygen into the body and removes carbon dioxide."
+      - "It includes the airways, lungs, alveoli, and breathing muscles such as the diaphragm."
+      - "Gas exchange happens in the alveoli."
+      - "The circulatory system then carries oxygen to tissues and returns carbon dioxide to the lungs."
+      - "The respiratory system also helps maintain homeostasis, including acid-base balance."
+      - "Jessie should teach this system clearly while keeping strong safety boundaries around serious breathing symptoms."

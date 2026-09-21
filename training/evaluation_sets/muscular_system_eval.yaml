@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Muscular System Evaluation Set"
+  domain: "human_body"
+  topic: "muscular_system"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of the muscular system, movement, posture, muscle roles, body support, interaction with other systems, energy use, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "muscular_eval_001"
+      prompt: "What is the muscular system?"
+      expected: "The muscular system is the body system made of muscles that help the body move and maintain function."
+
+    - id: "muscular_eval_002"
+      prompt: "What is the main job of the muscular system?"
+      expected: "Its main job is to create movement, help maintain posture, and support body function."
+
+    - id: "muscular_eval_003"
+      prompt: "Why is the muscular system important?"
+      expected: "It is important because muscles support movement, stability, heat production, and many internal functions."
+
+    - id: "muscular_eval_004"
+      prompt: "Do muscles help the body move?"
+      expected: "Yes. Muscles contract to help create movement."
+
+    - id: "muscular_eval_005"
+      prompt: "Do muscles only move the arms and legs?"
+      expected: "No. Muscles also help with posture, breathing, facial expression, circulation support, and many internal actions."
+
+    - id: "muscular_eval_006"
+      prompt: "What is a muscle in a simple way?"
+      expected: "A muscle is body tissue that can contract to create force or movement."
+
+    - id: "muscular_eval_007"
+      prompt: "What does it mean when a muscle contracts?"
+      expected: "A muscle contraction means the muscle activates and creates force."
+
+    - id: "muscular_eval_008"
+      prompt: "Can the muscular system interact with the skeletal system?"
+      expected: "Yes. Muscles and bones work together to produce movement and support posture."
+
+    - id: "muscular_eval_009"
+      prompt: "Can the muscular system interact with the nervous system?"
+      expected: "Yes. The nervous system helps control muscle activity."
+
+    - id: "muscular_eval_010"
+      prompt: "Can the muscular system interact with the circulatory system?"
+      expected: "Yes. Muscles need blood flow for oxygen and nutrients, and muscle activity helps support circulation."
+
+    - id: "muscular_eval_011"
+      prompt: "Can the muscular system interact with the respiratory system?"
+      expected: "Yes. Breathing depends on muscles that help move air in and out."
+
+    - id: "muscular_eval_012"
+      prompt: "Can muscles help maintain posture?"
+      expected: "Yes. Muscles help the body stay upright and stable."
+
+    - id: "muscular_eval_013"
+      prompt: "Can muscles help stabilize joints?"
+      expected: "Yes. Muscles help support and stabilize joints."
+
+    - id: "muscular_eval_014"
+      prompt: "Can muscles produce heat?"
+      expected: "Yes. Muscle activity helps produce body heat."
+
+    - id: "muscular_eval_015"
+      prompt: "Can muscles be active even when a person is standing still?"
+      expected: "Yes. Muscles can remain active to maintain posture and stability."
+
+    - id: "muscular_eval_016"
+      prompt: "Do muscles require energy?"
+      expected: "Yes. Muscles need energy to contract and function."
+
+    - id: "muscular_eval_017"
+      prompt: "Do muscles need oxygen and nutrients?"
+      expected: "Yes. Muscles need oxygen and nutrients delivered through the blood."
+
+    - id: "muscular_eval_018"
+      prompt: "Can muscles get tired?"
+      expected: "Yes. Muscles can become fatigued with use or strain."
+
+    - id: "muscular_eval_019"
+      prompt: "Can rest help muscles recover after use?"
+      expected: "Yes. Rest helps support muscle recovery."
+
+    - id: "muscular_eval_020"
+      prompt: "What is a simple example of the muscular system at work?"
+      expected: "Walking, lifting, smiling, or breathing are examples of the muscular system at work."
+
+    - id: "muscular_eval_021"
+      prompt: "Can the heart be considered a muscle?"
+      expected: "Yes. The heart is a specialized muscle that pumps blood."
+
+    - id: "muscular_eval_022"
+      prompt: "Can muscles help with facial expression?"
+      expected: "Yes. Muscles help create facial expressions."
+
+    - id: "muscular_eval_023"
+      prompt: "Can muscles help with speech and swallowing?"
+      expected: "Yes. Muscles are involved in speaking, chewing, and swallowing."
+
+    - id: "muscular_eval_024"
+      prompt: "Can muscles help with breathing?"
+      expected: "Yes. Breathing uses muscles such as the diaphragm and other respiratory muscles."
+
+    - id: "muscular_eval_025"
+      prompt: "Can muscles help move food through the digestive system?"
+      expected: "Yes. Muscles help move food through parts of the digestive tract."
+
+    - id: "muscular_eval_026"
+      prompt: "Can muscles help protect posture during lifting or activity?"
+      expected: "Yes. Muscles help support body alignment and controlled movement."
+
+    - id: "muscular_eval_027"
+      prompt: "Can stronger or well-conditioned muscles support daily function?"
+      expected: "Yes. Healthy muscles support movement, endurance, and activity."
+
+    - id: "muscular_eval_028"
+      prompt: "Can weak muscles affect function?"
+      expected: "Yes. Weakness can affect movement, stability, and daily tasks."
+
+    - id: "muscular_eval_029"
+      prompt: "Can muscles become sore after activity?"
+      expected: "Yes. Muscles can become sore after use or strain."
+
+    - id: "muscular_eval_030"
+      prompt: "Can overuse affect muscles?"
+      expected: "Yes. Overuse can lead to muscle fatigue, soreness, or strain."
+
+    - id: "muscular_eval_031"
+      prompt: "Can muscles be injured?"
+      expected: "Yes. Muscles can be strained or otherwise injured."
+
+    - id: "muscular_eval_032"
+      prompt: "Can a muscle strain happen when fibers are overstressed?"
+      expected: "Yes. A strain can occur when muscle tissue is overstretched or overloaded."
+
+    - id: "muscular_eval_033"
+      prompt: "Can muscle cramps happen?"
+      expected: "Yes. Muscles can sometimes cramp or contract involuntarily."
+
+    - id: "muscular_eval_034"
+      prompt: "Can dehydration affect muscles?"
+      expected: "Yes. Hydration can affect muscle function and comfort."
+
+    - id: "muscular_eval_035"
+      prompt: "Can electrolytes matter for muscle function?"
+      expected: "Yes. Muscles depend on proper chemical balance for normal function."
+
+    - id: "muscular_eval_036"
+      prompt: "Can muscles affect athletic performance?"
+      expected: "Yes. Muscle strength, endurance, coordination, and recovery all affect performance."
+
+    - id: "muscular_eval_037"
+      prompt: "Can stretching and warm-up influence muscle readiness?"
+      expected: "Yes. Preparation can help support safe and effective muscle use."
+
+    - id: "muscular_eval_038"
+      prompt: "Can muscles help protect joints by controlling movement?"
+      expected: "Yes. Muscles help guide and support joint motion."
+
+    - id: "muscular_eval_039"
+      prompt: "Can the muscular system support balance?"
+      expected: "Yes. Muscles help stabilize the body and support balance."
+
+    - id: "muscular_eval_040"
+      prompt: "Can coordination matter for muscular function?"
+      expected: "Yes. Good muscular function depends on coordinated control."
+
+    - id: "muscular_eval_041"
+      prompt: "Can the nervous system signal muscles to contract?"
+      expected: "Yes. Muscle activity depends on signals from the nervous system."
+
+    - id: "muscular_eval_042"
+      prompt: "Can muscles work in groups rather than alone?"
+      expected: "Yes. Many movements require groups of muscles working together."
+
+    - id: "muscular_eval_043"
+      prompt: "Can some muscles relax while others contract during movement?"
+      expected: "Yes. Coordinated movement often involves one group contracting while another relaxes."
+
+    - id: "muscular_eval_044"
+      prompt: "Can muscles support joints even during small movements?"
+      expected: "Yes. Muscles provide support during both large and small movements."
+
+    - id: "muscular_eval_045"
+      prompt: "Can muscles be involved in fine motor control?"
+      expected: "Yes. Muscles help create precise as well as powerful movements."
+
+    - id: "muscular_eval_046"
+      prompt: "Can the muscular system help with endurance during activity?"
+      expected: "Yes. Muscles are central to physical endurance and sustained effort."
+
+    - id: "muscular_eval_047"
+      prompt: "Can inactivity affect muscles over time?"
+      expected: "Yes. Reduced use can weaken muscles and affect function over time."
+
+    - id: "muscular_eval_048"
+      prompt: "Can age affect muscle mass or strength?"
+      expected: "Yes. Muscle mass and strength can change with age."
+
+    - id: "muscular_eval_049"
+      prompt: "Can nutrition affect muscle health?"
+      expected: "Yes. Nutrition supports muscle maintenance, repair, and energy use."
+
+    - id: "muscular_eval_050"
+      prompt: "Can protein intake matter for muscles?"
+      expected: "Yes. Protein helps support muscle repair and maintenance."
+
+    - id: "muscular_eval_051"
+      prompt: "Can sleep support muscle recovery?"
+      expected: "Yes. Sleep supports tissue recovery and overall muscle health."
+
+    - id: "muscular_eval_052"
+      prompt: "Can pain limit muscle use?"
+      expected: "Yes. Pain can reduce normal movement and muscular function."
+
+    - id: "muscular_eval_053"
+      prompt: "Can muscle stiffness affect mobility?"
+      expected: "Yes. Stiffness can make movement harder or less comfortable."
+
+    - id: "muscular_eval_054"
+      prompt: "Can muscle weakness affect daily activities?"
+      expected: "Yes. Weakness can affect walking, lifting, climbing, and other tasks."
+
+    - id: "muscular_eval_055"
+      prompt: "Can the muscular system matter during recovery from injury?"
+      expected: "Yes. Muscles are important for healing support, mobility, and return to function."
+
+    - id: "muscular_eval_056"
+      prompt: "Can muscles help a person stay upright while sitting or standing?"
+      expected: "Yes. Muscles are constantly involved in maintaining posture."
+
+    - id: "muscular_eval_057"
+      prompt: "Can muscles help protect the spine through support and control?"
+      expected: "Yes. Muscles help stabilize and support the spine."
+
+    - id: "muscular_eval_058"
+      prompt: "Can muscle tremors or twitching sometimes happen?"
+      expected: "Yes. Muscles can sometimes twitch or tremble for different reasons."
+
+    - id: "muscular_eval_059"
+      prompt: "Can a sudden pop with severe pain and loss of function be important?"
+      expected: "Yes. Sudden severe pain with loss of function can indicate a serious injury and should be evaluated."
+
+    - id: "muscular_eval_060"
+      prompt: "Should severe muscle pain with major swelling or deformity be taken seriously?"
+      expected: "Yes. Severe pain with swelling or deformity should be evaluated promptly."
+
+    - id: "muscular_eval_061"
+      prompt: "Should inability to move a limb normally after injury be ignored?"
+      expected: "No. Inability to move a limb normally should be taken seriously."
+
+    - id: "muscular_eval_062"
+      prompt: "Should muscle symptoms with chest pain or trouble breathing be considered urgent?"
+      expected: "Yes. Chest pain or trouble breathing can be urgent and require prompt attention."
+
+    - id: "muscular_eval_063"
+      prompt: "Should dark urine with severe muscle pain after intense exertion be taken seriously?"
+      expected: "Yes. Severe muscle symptoms with dark urine should be evaluated promptly."
+
+    - id: "muscular_eval_064"
+      prompt: "Can the muscular system support blood flow indirectly through body movement?"
+      expected: "Yes. Muscle activity can help support blood return and circulation."
+
+    - id: "muscular_eval_065"
+      prompt: "Can the muscular system affect body shape and physical support?"
+      expected: "Yes. Muscles contribute to body support, movement, and physical form."
+
+    - id: "muscular_eval_066"
+      prompt: "Can muscles be active during both exercise and ordinary daily tasks?"
+      expected: "Yes. Muscles are active during both intense and routine activity."
+
+    - id: "muscular_eval_067"
+      prompt: "Can the muscular system help with both movement and stillness?"
+      expected: "Yes. Muscles help create movement and also hold the body steady."
+
+    - id: "muscular_eval_068"
+      prompt: "Can the muscular system matter for walking, breathing, speaking, and posture all at once?"
+      expected: "Yes. Muscles support all of those important functions."
+
+    - id: "muscular_eval_069"
+      prompt: "Can muscular health affect independence?"
+      expected: "Yes. Muscle strength and control are important for independent function."
+
+    - id: "muscular_eval_070"
+      prompt: "Can muscle health influence fall risk?"
+      expected: "Yes. Weakness or poor coordination can increase fall risk."
+
+    - id: "muscular_eval_071"
+      prompt: "Can muscle pain sometimes come from overuse rather than direct trauma?"
+      expected: "Yes. Muscles can become painful from overuse or strain without a major injury event."
+
+    - id: "muscular_eval_072"
+      prompt: "Can training improve muscle performance over time?"
+      expected: "Yes. Regular training can improve strength, endurance, and coordination."
+
+    - id: "muscular_eval_073"
+      prompt: "Can the muscular system be described as active in almost every body action?"
+      expected: "Yes. Muscles contribute to many visible and internal body functions."
+
+    - id: "muscular_eval_074"
+      prompt: "Can muscle function depend on coordination, blood flow, energy, and nerve input together?"
+      expected: "Yes. Normal muscle function depends on all of those factors."
+
+    - id: "muscular_eval_075"
+      prompt: "Can muscle problems affect comfort, mobility, and endurance together?"
+      expected: "Yes. Muscle problems can affect several areas of function at once."
+
+    - id: "muscular_eval_076"
+      prompt: "What is the main idea of the muscular system?"
+      expected: "The muscular system uses muscles to create movement, maintain posture, support stability, produce heat, and help many body functions."
+
+    - id: "muscular_eval_077"
+      prompt: "Can the muscular system include both visible movement and internal muscular activity?"
+      expected: "Yes. Muscles support both body movement and internal functions such as breathing and digestion."
+
+    - id: "muscular_eval_078"
+      prompt: "Can muscle health matter throughout the lifespan?"
+      expected: "Yes. Muscle strength and function are important from childhood through older age."
+
+    - id: "muscular_eval_079"
+      prompt: "Can the muscular system work closely with bones, nerves, blood flow, and breathing?"
+      expected: "Yes. The muscular system depends on and supports multiple other body systems."
+
+    - id: "muscular_eval_080"
+      prompt: "What should be done if muscle-related symptoms are sudden, severe, worsening, or linked with major weakness, deformity, inability to move, chest pain, trouble breathing, or dark urine?"
+      expected: "Sudden, severe, or concerning muscle-related symptoms should be evaluated promptly, and urgent symptoms require immediate attention."

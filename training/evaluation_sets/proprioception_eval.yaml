@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Proprioception Evaluation Set"
+  domain: "body_awareness"
+  topic: "proprioception"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of proprioception, body position awareness, movement control, joint and muscle feedback, coordination, balance support, system interactions, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "proprioception_eval_001"
+      prompt: "What is proprioception?"
+      expected: "Proprioception is the body's sense of position, movement, and joint awareness."
+
+    - id: "proprioception_eval_002"
+      prompt: "Why is proprioception important?"
+      expected: "It is important because it helps the body know where it is in space and supports coordination, balance, and movement control."
+
+    - id: "proprioception_eval_003"
+      prompt: "Does proprioception help a person know where their limbs are without looking?"
+      expected: "Yes. Proprioception helps a person sense body position without needing to see it."
+
+    - id: "proprioception_eval_004"
+      prompt: "Is proprioception part of body awareness?"
+      expected: "Yes. Proprioception is an important part of body awareness."
+
+    - id: "proprioception_eval_005"
+      prompt: "Can proprioception help with balance?"
+      expected: "Yes. Proprioception helps support balance and stability."
+
+    - id: "proprioception_eval_006"
+      prompt: "Can proprioception help with coordinated movement?"
+      expected: "Yes. It helps the body make smooth and controlled movements."
+
+    - id: "proprioception_eval_007"
+      prompt: "Can proprioception help with posture?"
+      expected: "Yes. It helps the body adjust and maintain posture."
+
+    - id: "proprioception_eval_008"
+      prompt: "Can joints and muscles provide information for proprioception?"
+      expected: "Yes. Muscles, joints, and related tissues provide information that supports proprioception."
+
+    - id: "proprioception_eval_009"
+      prompt: "Does proprioception interact with the nervous system?"
+      expected: "Yes. The nervous system receives and processes proprioceptive information."
+
+    - id: "proprioception_eval_010"
+      prompt: "Does proprioception interact with the muscular system?"
+      expected: "Yes. Muscles both provide proprioceptive feedback and respond to it."
+
+    - id: "proprioception_eval_011"
+      prompt: "Does proprioception interact with the skeletal system?"
+      expected: "Yes. Joints and body position depend on the skeletal system as part of proprioceptive awareness."
+
+    - id: "proprioception_eval_012"
+      prompt: "Can proprioception help with walking?"
+      expected: "Yes. Walking depends in part on proprioceptive feedback."
+
+    - id: "proprioception_eval_013"
+      prompt: "Can proprioception help with reaching accurately?"
+      expected: "Yes. It helps guide limb position and movement accuracy."
+
+    - id: "proprioception_eval_014"
+      prompt: "Can proprioception help with standing upright?"
+      expected: "Yes. It helps the body sense alignment and make postural adjustments."
+
+    - id: "proprioception_eval_015"
+      prompt: "Can proprioception work together with vision and the inner ear for balance?"
+      expected: "Yes. Proprioception works with visual and vestibular information to support balance."
+
+    - id: "proprioception_eval_016"
+      prompt: "What is a simple example of proprioception?"
+      expected: "Touching your nose with your eyes closed is a simple example of proprioception."
+
+    - id: "proprioception_eval_017"
+      prompt: "Can proprioception help a person adjust movement automatically?"
+      expected: "Yes. It helps the body make automatic movement corrections."
+
+    - id: "proprioception_eval_018"
+      prompt: "Can poor proprioception affect coordination?"
+      expected: "Yes. Reduced proprioception can make movement less accurate or stable."
+
+    - id: "proprioception_eval_019"
+      prompt: "Can poor proprioception increase fall risk?"
+      expected: "Yes. Reduced body position awareness can increase fall risk."
+
+    - id: "proprioception_eval_020"
+      prompt: "Can ankle or knee injuries affect proprioception?"
+      expected: "Yes. Joint injuries can affect proprioceptive feedback."
+
+    - id: "proprioception_eval_021"
+      prompt: "Can fatigue affect proprioception?"
+      expected: "Yes. Fatigue can reduce movement accuracy and body awareness."
+
+    - id: "proprioception_eval_022"
+      prompt: "Can proprioception matter in sports?"
+      expected: "Yes. Proprioception is important for performance, control, and injury prevention."
+
+    - id: "proprioception_eval_023"
+      prompt: "Can proprioception help with fine motor control?"
+      expected: "Yes. Body position awareness helps support precise movement."
+
+    - id: "proprioception_eval_024"
+      prompt: "Can proprioception help with joint protection?"
+      expected: "Yes. It helps the body sense position and react to support safer movement."
+
+    - id: "proprioception_eval_025"
+      prompt: "Can the body use proprioception during everyday tasks?"
+      expected: "Yes. Everyday movements rely on proprioception constantly."
+
+    - id: "proprioception_eval_026"
+      prompt: "Can proprioception be important even when a person is still?"
+      expected: "Yes. It helps the body sense position even during stillness."
+
+    - id: "proprioception_eval_027"
+      prompt: "Can proprioception help with climbing stairs?"
+      expected: "Yes. Stair movement depends partly on body position awareness."
+
+    - id: "proprioception_eval_028"
+      prompt: "Can proprioception help with lifting or carrying objects?"
+      expected: "Yes. It helps coordinate position, force, and movement."
+
+    - id: "proprioception_eval_029"
+      prompt: "Can reduced proprioception make a limb feel less well controlled?"
+      expected: "Yes. Reduced proprioception can make movements feel less precise or less certain."
+
+    - id: "proprioception_eval_030"
+      prompt: "Can proprioception support reaction to uneven ground?"
+      expected: "Yes. It helps the body adjust when the surface changes."
+
+    - id: "proprioception_eval_031"
+      prompt: "Can the nervous system use proprioceptive signals to guide muscle action?"
+      expected: "Yes. Proprioceptive signals help the nervous system coordinate muscle responses."
+
+    - id: "proprioception_eval_032"
+      prompt: "Can proprioception affect joint stability?"
+      expected: "Yes. Good proprioception helps support stable movement around joints."
+
+    - id: "proprioception_eval_033"
+      prompt: "Can balance problems involve proprioception among other causes?"
+      expected: "Yes. Balance depends partly on proprioception as well as other systems."
+
+    - id: "proprioception_eval_034"
+      prompt: "Can numbness affect proprioceptive awareness?"
+      expected: "Yes. Altered sensation can interfere with normal body awareness."
+
+    - id: "proprioception_eval_035"
+      prompt: "Can nerve problems affect proprioception?"
+      expected: "Yes. Nerve problems can reduce or distort proprioceptive signals."
+
+    - id: "proprioception_eval_036"
+      prompt: "Can proprioception be trained or improved?"
+      expected: "Yes. Practice and rehabilitation exercises can help improve proprioceptive control."
+
+    - id: "proprioception_eval_037"
+      prompt: "Can rehabilitation include balance or position exercises to support proprioception?"
+      expected: "Yes. Balance and position-focused exercises can support proprioceptive recovery."
+
+    - id: "proprioception_eval_038"
+      prompt: "Can proprioception help a person use the right amount of force?"
+      expected: "Yes. It helps guide force and movement control."
+
+    - id: "proprioception_eval_039"
+      prompt: "Can proprioception matter for handwriting or precise hand use?"
+      expected: "Yes. Fine control depends partly on position awareness."
+
+    - id: "proprioception_eval_040"
+      prompt: "Can proprioception help with timing of movement?"
+      expected: "Yes. It contributes to coordinated timing and adjustment."
+
+    - id: "proprioception_eval_041"
+      prompt: "Can visual compensation sometimes help when proprioception is reduced?"
+      expected: "Yes. People may rely more on vision when proprioceptive input is weaker."
+
+    - id: "proprioception_eval_042"
+      prompt: "Can walking in the dark feel harder when proprioception is impaired?"
+      expected: "Yes. Reduced visual input can make impaired body awareness more noticeable."
+
+    - id: "proprioception_eval_043"
+      prompt: "Can proprioception help the body know joint angle and limb movement?"
+      expected: "Yes. It helps the body sense joint position and movement."
+
+    - id: "proprioception_eval_044"
+      prompt: "Can the feet and ankles contribute to proprioceptive input for standing?"
+      expected: "Yes. They provide important information for posture and balance."
+
+    - id: "proprioception_eval_045"
+      prompt: "Can proprioception matter for preventing missteps?"
+      expected: "Yes. It helps support accurate foot placement and stability."
+
+    - id: "proprioception_eval_046"
+      prompt: "Can dizziness and proprioceptive problems be different even though both affect balance?"
+      expected: "Yes. They are different issues, though both can affect stability."
+
+    - id: "proprioception_eval_047"
+      prompt: "Can proprioception support smooth movement rather than jerky movement?"
+      expected: "Yes. Good proprioceptive input helps movement stay controlled and smooth."
+
+    - id: "proprioception_eval_048"
+      prompt: "Can body awareness affect confidence in movement?"
+      expected: "Yes. Reduced body awareness can make movement feel less secure."
+
+    - id: "proprioception_eval_049"
+      prompt: "Can proprioception be important after sprains or joint injuries?"
+      expected: "Yes. Joint injuries can affect proprioception and recovery may include retraining it."
+
+    - id: "proprioception_eval_050"
+      prompt: "Can older adults be affected by changes in proprioception?"
+      expected: "Yes. Changes in proprioception can affect balance and movement with aging."
+
+    - id: "proprioception_eval_051"
+      prompt: "Can proprioception matter for both athletic performance and daily safety?"
+      expected: "Yes. It is important for both performance and everyday function."
+
+    - id: "proprioception_eval_052"
+      prompt: "Can the brain rely on proprioceptive input for body mapping?"
+      expected: "Yes. The brain uses proprioceptive input to track body position and movement."
+
+    - id: "proprioception_eval_053"
+      prompt: "Can proprioceptive loss feel like clumsiness or poor control?"
+      expected: "Yes. People may describe it as clumsiness, unsteadiness, or poor limb control."
+
+    - id: "proprioception_eval_054"
+      prompt: "Can sudden new loss of coordination be important?"
+      expected: "Yes. Sudden new loss of coordination should be taken seriously."
+
+    - id: "proprioception_eval_055"
+      prompt: "Can sudden balance loss with weakness or numbness be serious?"
+      expected: "Yes. That combination can be serious and requires prompt evaluation."
+
+    - id: "proprioception_eval_056"
+      prompt: "Should new inability to sense limb position be ignored?"
+      expected: "No. New inability to sense limb position should be evaluated promptly."
+
+    - id: "proprioception_eval_057"
+      prompt: "Should repeated falls with body awareness problems be taken seriously?"
+      expected: "Yes. Repeated falls or worsening coordination should be evaluated."
+
+    - id: "proprioception_eval_058"
+      prompt: "Should proprioceptive problems with sudden trouble speaking, facial droop, or one-sided weakness be considered urgent?"
+      expected: "Yes. Those symptoms can be urgent and require immediate attention."
+
+    - id: "proprioception_eval_059"
+      prompt: "Can proprioception affect how stable a joint feels?"
+      expected: "Yes. Body position awareness can influence the sense of stability."
+
+    - id: "proprioception_eval_060"
+      prompt: "Can proprioception contribute to movement confidence after injury?"
+      expected: "Yes. Recovery of proprioception can help restore confidence in movement."
+
+    - id: "proprioception_eval_061"
+      prompt: "Can proprioception matter in both large motions and small adjustments?"
+      expected: "Yes. It helps with both major movements and subtle corrections."
+
+    - id: "proprioception_eval_062"
+      prompt: "Can proprioception support adaptation to changing surfaces or positions?"
+      expected: "Yes. It helps the body respond to changes in stance and movement."
+
+    - id: "proprioception_eval_063"
+      prompt: "Can proprioception be less obvious than vision but still essential?"
+      expected: "Yes. It often works in the background but is essential for normal movement."
+
+    - id: "proprioception_eval_064"
+      prompt: "Can reduced proprioception affect gait?"
+      expected: "Yes. It can affect walking pattern and stability."
+
+    - id: "proprioception_eval_065"
+      prompt: "Can proprioception help keep movements efficient?"
+      expected: "Yes. Accurate body feedback supports efficient control."
+
+    - id: "proprioception_eval_066"
+      prompt: "Can proprioceptive input help muscles respond before a person thinks consciously about it?"
+      expected: "Yes. Many postural and protective adjustments happen automatically."
+
+    - id: "proprioception_eval_067"
+      prompt: "Can proprioception problems happen along with nerve injury or neurological conditions?"
+      expected: "Yes. They can occur with nerve or nervous system problems."
+
+    - id: "proprioception_eval_068"
+      prompt: "Can poor proprioception make it harder to recover from perturbations or slips?"
+      expected: "Yes. Reduced body awareness can make recovery from instability harder."
+
+    - id: "proprioception_eval_069"
+      prompt: "Can proprioception support both movement and stillness?"
+      expected: "Yes. It helps the body monitor position during motion and at rest."
+
+    - id: "proprioception_eval_070"
+      prompt: "Can proprioception be described as internal position sensing?"
+      expected: "Yes. It is the body's internal sense of position and movement."
+
+    - id: "proprioception_eval_071"
+      prompt: "Can proprioception and touch be related but not the same?"
+      expected: "Yes. They are related forms of body awareness but are not identical."
+
+    - id: "proprioception_eval_072"
+      prompt: "Can proprioception support safer landing, stepping, or turning?"
+      expected: "Yes. It helps control body position during changing movement demands."
+
+    - id: "proprioception_eval_073"
+      prompt: "Can reduced proprioception affect independence?"
+      expected: "Yes. If severe, it can affect walking, balance, safety, and daily tasks."
+
+    - id: "proprioception_eval_074"
+      prompt: "Can the nervous, muscular, and skeletal systems all contribute to proprioception?"
+      expected: "Yes. Proprioception depends on all of those systems working together."
+
+    - id: "proprioception_eval_075"
+      prompt: "Can proprioception matter across the lifespan?"
+      expected: "Yes. It is important for development, daily function, athletics, and aging."
+
+    - id: "proprioception_eval_076"
+      prompt: "What is the main idea of proprioception?"
+      expected: "Proprioception is the body's internal sense of position and movement that helps support coordination, posture, balance, and controlled action."
+
+    - id: "proprioception_eval_077"
+      prompt: "Can proprioception support movement accuracy even without direct visual guidance?"
+      expected: "Yes. It helps guide movement when vision is limited or absent."
+
+    - id: "proprioception_eval_078"
+      prompt: "Can proprioception problems matter even if pain is not the main symptom?"
+      expected: "Yes. Body awareness and coordination problems can still be important."
+
+    - id: "proprioception_eval_079"
+      prompt: "Can proprioception contribute to balance, posture, joint protection, and movement timing together?"
+      expected: "Yes. It supports all of those functions together."
+
+    - id: "proprioception_eval_080"
+      prompt: "What should be done if proprioception-related symptoms are sudden, severe, worsening, or linked with repeated falls, inability to sense limb position, weakness, numbness, facial droop, trouble speaking, or major balance loss?"
+      expected: "Sudden, severe, or concerning proprioception-related symptoms should be evaluated promptly, and urgent symptoms require immediate attention."

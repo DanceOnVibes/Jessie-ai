@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Balance Evaluation Set"
+  domain: "body_awareness"
+  topic: "balance"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of balance, postural stability, body control during movement, interaction with sensory systems, fall risk, functional mobility, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "balance_eval_001"
+      prompt: "What is balance?"
+      expected: "Balance is the ability to maintain stability and control body position."
+
+    - id: "balance_eval_002"
+      prompt: "Why is balance important?"
+      expected: "Balance is important for standing, walking, moving safely, and preventing falls."
+
+    - id: "balance_eval_003"
+      prompt: "Does balance matter only when standing on one foot?"
+      expected: "No. Balance matters during many everyday activities such as standing, walking, turning, bending, and reaching."
+
+    - id: "balance_eval_004"
+      prompt: "Can balance help prevent falls?"
+      expected: "Yes. Good balance helps reduce fall risk and improves movement safety."
+
+    - id: "balance_eval_005"
+      prompt: "Do vision, proprioception, and the inner ear all contribute to balance?"
+      expected: "Yes. Balance depends on coordinated input from vision, proprioception, the inner ear, and the nervous system."
+
+    - id: "balance_eval_006"
+      prompt: "Is balance the same as proprioception?"
+      expected: "No. They are related, but balance is stability control and proprioception is body position awareness."
+
+    - id: "balance_eval_007"
+      prompt: "Can balance affect walking?"
+      expected: "Yes. Balance helps keep walking stable, coordinated, and safe."
+
+    - id: "balance_eval_008"
+      prompt: "Can poor balance increase injury risk?"
+      expected: "Yes. Poor balance can increase the risk of falls and related injury."
+
+    - id: "balance_eval_009"
+      prompt: "Does balance matter when getting up from a chair?"
+      expected: "Yes. Balance is important during position changes such as sitting down or standing up."
+
+    - id: "balance_eval_010"
+      prompt: "Can balance be important during turning movements?"
+      expected: "Yes. Turning requires good control of stability and body position."
+
+    - id: "balance_eval_011"
+      prompt: "Can dizziness affect balance?"
+      expected: "Yes. Dizziness can interfere with balance and stability."
+
+    - id: "balance_eval_012"
+      prompt: "Can weakness affect balance?"
+      expected: "Yes. Weakness can reduce stability and contribute to balance problems."
+
+    - id: "balance_eval_013"
+      prompt: "Can balance problems make walking feel unsteady?"
+      expected: "Yes. Balance problems can make walking feel unstable or unsafe."
+
+    - id: "balance_eval_014"
+      prompt: "What is a simple example of balance in daily life?"
+      expected: "Standing upright without falling is a simple example of balance."
+
+    - id: "balance_eval_015"
+      prompt: "Can balance help with climbing stairs?"
+      expected: "Yes. Balance helps maintain stability during stair movement."
+
+    - id: "balance_eval_016"
+      prompt: "Can balance help during reaching?"
+      expected: "Yes. A person needs balance to stay stable while reaching."
+
+    - id: "balance_eval_017"
+      prompt: "Does balance only involve the legs?"
+      expected: "No. Balance involves the whole body and multiple sensory systems."
+
+    - id: "balance_eval_018"
+      prompt: "Can the brain help coordinate balance?"
+      expected: "Yes. The brain helps process sensory information needed for balance."
+
+    - id: "balance_eval_019"
+      prompt: "Can balance be challenged by uneven surfaces?"
+      expected: "Yes. Uneven surfaces can make balance more difficult."
+
+    - id: "balance_eval_020"
+      prompt: "Can balance problems affect confidence?"
+      expected: "Yes. Feeling unstable can reduce confidence in movement."
+
+    - id: "balance_eval_021"
+      prompt: "Can balance matter in sports and exercise?"
+      expected: "Yes. Balance is important for control, coordination, and safe performance."
+
+    - id: "balance_eval_022"
+      prompt: "Can closing the eyes make balance harder?"
+      expected: "Yes. Removing visual input can make balance more challenging."
+
+    - id: "balance_eval_023"
+      prompt: "Can poor balance affect daily independence?"
+      expected: "Yes. Balance problems can make daily tasks more difficult or unsafe."
+
+    - id: "balance_eval_024"
+      prompt: "Can balance change with illness or injury?"
+      expected: "Yes. Illness, injury, or sensory problems can affect balance."
+
+    - id: "balance_eval_025"
+      prompt: "Can balance be trained or improved?"
+      expected: "Yes. Balance can often improve with appropriate practice or rehabilitation."
+
+    - id: "balance_eval_026"
+      prompt: "Can footwear and environment affect balance?"
+      expected: "Yes. Shoes, surfaces, and surroundings can influence stability."
+
+    - id: "balance_eval_027"
+      prompt: "Can balance matter when carrying objects?"
+      expected: "Yes. Carrying objects can change stability demands."
+
+    - id: "balance_eval_028"
+      prompt: "Can sudden balance loss be dangerous?"
+      expected: "Yes. Sudden balance loss can lead to falls or injury."
+
+    - id: "balance_eval_029"
+      prompt: "Should repeated falls be ignored?"
+      expected: "No. Repeated falls should be taken seriously and evaluated."
+
+    - id: "balance_eval_030"
+      prompt: "Should sudden severe dizziness with balance loss be taken seriously?"
+      expected: "Yes. Sudden severe dizziness with balance problems should be evaluated promptly."
+
+    - id: "balance_eval_031"
+      prompt: "Can balance problems happen even if strength seems normal?"
+      expected: "Yes. Balance depends on more than strength alone."
+
+    - id: "balance_eval_032"
+      prompt: "Can balance support posture?"
+      expected: "Yes. Balance helps maintain stable posture."
+
+    - id: "balance_eval_033"
+      prompt: "Why does balance matter in older adults?"
+      expected: "It matters because poor balance can increase fall risk and reduce independence."
+
+    - id: "balance_eval_034"
+      prompt: "Can inner ear problems affect balance?"
+      expected: "Yes. The inner ear is an important part of balance."
+
+    - id: "balance_eval_035"
+      prompt: "Can balance and proprioception work together?"
+      expected: "Yes. Proprioception helps provide body position information that supports balance."
+
+    - id: "balance_eval_036"
+      prompt: "Can balance problems make a person avoid activity?"
+      expected: "Yes. Fear of falling or instability may reduce activity."
+
+    - id: "balance_eval_037"
+      prompt: "What is the main idea of balance?"
+      expected: "Balance is the ability to stay stable and control body position during rest and movement."
+
+    - id: "balance_eval_038"
+      prompt: "Can balance affect safe movement in the home?"
+      expected: "Yes. Balance is important for safe mobility in everyday environments."
+
+    - id: "balance_eval_039"
+      prompt: "Can sudden trouble walking steadily be important?"
+      expected: "Yes. Sudden trouble walking steadily should be taken seriously."
+
+    - id: "balance_eval_040"
+      prompt: "Does balance matter when stepping over obstacles?"
+      expected: "Yes. Balance helps a person stay stable while clearing obstacles."
+
+    - id: "balance_eval_041"
+      prompt: "Can balance be important when bending down to pick something up?"
+      expected: "Yes. Bending and returning upright both require balance control."
+
+    - id: "balance_eval_042"
+      prompt: "Can balance affect getting in and out of bed?"
+      expected: "Yes. Balance helps with safe transfers and body control."
+
+    - id: "balance_eval_043"
+      prompt: "Can balance affect getting into or out of a car?"
+      expected: "Yes. These position changes require stability and coordinated movement."
+
+    - id: "balance_eval_044"
+      prompt: "Can balance problems make showering or dressing harder?"
+      expected: "Yes. Many self-care tasks require standing stability and movement control."
+
+    - id: "balance_eval_045"
+      prompt: "Can slippery floors increase balance demands?"
+      expected: "Yes. Slippery surfaces can make maintaining stability more difficult."
+
+    - id: "balance_eval_046"
+      prompt: "Can dim lighting make balance harder?"
+      expected: "Yes. Reduced visual input can make balance more challenging."
+
+    - id: "balance_eval_047"
+      prompt: "Can balance help during quick changes in direction?"
+      expected: "Yes. Changing direction safely requires balance and body control."
+
+    - id: "balance_eval_048"
+      prompt: "Can balance influence running and jumping?"
+      expected: "Yes. Balance helps control landing, movement, and stability during dynamic activity."
+
+    - id: "balance_eval_049"
+      prompt: "Is balance only needed during movement?"
+      expected: "No. Balance is needed during both stillness and movement."
+
+    - id: "balance_eval_050"
+      prompt: "Can standing on a narrow surface challenge balance?"
+      expected: "Yes. A smaller base of support can make balance more difficult."
+
+    - id: "balance_eval_051"
+      prompt: "Can balance depend partly on where the body's weight is distributed?"
+      expected: "Yes. Weight distribution affects stability and postural control."
+
+    - id: "balance_eval_052"
+      prompt: "Can leaning too far affect balance?"
+      expected: "Yes. Leaning beyond stable limits can increase the risk of losing balance."
+
+    - id: "balance_eval_053"
+      prompt: "Can balance problems happen after injury even if pain is not severe?"
+      expected: "Yes. Stability can be affected even when pain is limited."
+
+    - id: "balance_eval_054"
+      prompt: "Can balance matter when carrying a child or heavy object?"
+      expected: "Yes. Extra load changes posture and stability demands."
+
+    - id: "balance_eval_055"
+      prompt: "Can fatigue make balance worse?"
+      expected: "Yes. Fatigue can reduce postural control and movement stability."
+
+    - id: "balance_eval_056"
+      prompt: "Can illness or fever sometimes make balance feel worse?"
+      expected: "Yes. Illness can reduce steadiness and affect overall function."
+
+    - id: "balance_eval_057"
+      prompt: "Can balance problems increase fear of walking outside?"
+      expected: "Yes. Instability can make community movement feel less safe."
+
+    - id: "balance_eval_058"
+      prompt: "Can balance matter when standing in a moving bus or train?"
+      expected: "Yes. External motion creates extra balance challenges."
+
+    - id: "balance_eval_059"
+      prompt: "Can balance affect the ability to recover from a trip or slip?"
+      expected: "Yes. Good balance helps a person respond to sudden instability."
+
+    - id: "balance_eval_060"
+      prompt: "Can balance require fast body adjustments?"
+      expected: "Yes. The body often makes quick corrections to stay upright."
+
+    - id: "balance_eval_061"
+      prompt: "Can the nervous system be important for balance?"
+      expected: "Yes. The nervous system coordinates sensory input and movement responses needed for balance."
+
+    - id: "balance_eval_062"
+      prompt: "Can muscle strength support balance even though it is not the only factor?"
+      expected: "Yes. Strength helps support posture and controlled movement."
+
+    - id: "balance_eval_063"
+      prompt: "Can joint problems contribute to balance difficulty?"
+      expected: "Yes. Joint issues can affect stability, confidence, and movement control."
+
+    - id: "balance_eval_064"
+      prompt: "Can balance be affected by reduced sensation in the feet?"
+      expected: "Yes. Sensory feedback from the feet helps support balance."
+
+    - id: "balance_eval_065"
+      prompt: "Can balance problems make standing in line difficult?"
+      expected: "Yes. Even quiet standing requires ongoing postural control."
+
+    - id: "balance_eval_066"
+      prompt: "Can balance be challenged when reaching overhead?"
+      expected: "Yes. Reaching overhead changes body position and stability demands."
+
+    - id: "balance_eval_067"
+      prompt: "Can balance issues affect workplace safety?"
+      expected: "Yes. Poor balance can increase risk during walking, carrying, climbing, and turning tasks."
+
+    - id: "balance_eval_068"
+      prompt: "Can balance be important for children as well as adults?"
+      expected: "Yes. Balance is important across the lifespan for safe movement and development."
+
+    - id: "balance_eval_069"
+      prompt: "Can balance difficulties sometimes appear as clumsiness?"
+      expected: "Yes. Reduced stability may appear as clumsy or unsteady movement."
+
+    - id: "balance_eval_070"
+      prompt: "Should new repeated stumbling be taken seriously?"
+      expected: "Yes. Repeated new stumbling or instability should be evaluated."
+
+    - id: "balance_eval_071"
+      prompt: "Should balance loss with weakness or numbness be taken seriously?"
+      expected: "Yes. Balance problems with weakness or numbness should be evaluated promptly."
+
+    - id: "balance_eval_072"
+      prompt: "Should balance problems with chest pain or trouble breathing be considered urgent?"
+      expected: "Yes. Those symptoms together can be urgent and should be addressed promptly."
+
+    - id: "balance_eval_073"
+      prompt: "Should fainting or near-fainting with balance trouble be taken seriously?"
+      expected: "Yes. Fainting or near-fainting with instability should be evaluated promptly."
+
+    - id: "balance_eval_074"
+      prompt: "Can balance problems increase the need for environmental safety measures?"
+      expected: "Yes. Safer surroundings can help reduce fall risk."
+
+    - id: "balance_eval_075"
+      prompt: "Can hand support from furniture sometimes indicate poor balance?"
+      expected: "Yes. Needing extra support may suggest reduced stability."
+
+    - id: "balance_eval_076"
+      prompt: "Can balance affect how confidently a person changes positions?"
+      expected: "Yes. Stability influences confidence during transfers and movement."
+
+    - id: "balance_eval_077"
+      prompt: "Can balance be important when walking on grass, gravel, or sand?"
+      expected: "Yes. Unstable outdoor surfaces can challenge balance."
+
+    - id: "balance_eval_078"
+      prompt: "Can balance be affected by multitasking while walking?"
+      expected: "Yes. Dividing attention can make stable walking more difficult for some people."
+
+    - id: "balance_eval_079"
+      prompt: "Can balance influence safe participation in exercise classes?"
+      expected: "Yes. Balance affects safe performance during many exercise activities."
+
+    - id: "balance_eval_080"
+      prompt: "What should be done if balance changes suddenly, causes falls, or is associated with other serious symptoms?"
+      expected: "Sudden, severe, worsening, or concerning balance changes should be evaluated promptly."

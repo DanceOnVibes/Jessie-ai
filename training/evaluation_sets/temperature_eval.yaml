@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Taste Evaluation Set"
+  domain: "body_awareness"
+  topic: "taste"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of taste, flavor perception, nutrition relevance, smell interaction, oral sensation, common taste changes, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "taste_eval_001"
+      prompt: "What is the sense of taste?"
+      expected: "The sense of taste is the ability to detect flavors such as sweet, salty, sour, bitter, and umami."
+
+    - id: "taste_eval_002"
+      prompt: "Why is taste important?"
+      expected: "Taste is important because it helps guide eating, food enjoyment, and some aspects of safety."
+
+    - id: "taste_eval_003"
+      prompt: "Does taste help with food enjoyment?"
+      expected: "Yes. Taste contributes to the enjoyment of eating."
+
+    - id: "taste_eval_004"
+      prompt: "Does taste interact with smell?"
+      expected: "Yes. Taste and smell work closely together in flavor perception."
+
+    - id: "taste_eval_005"
+      prompt: "Can reduced smell affect flavor even if taste is partly intact?"
+      expected: "Yes. Reduced smell can make food seem less flavorful."
+
+    - id: "taste_eval_006"
+      prompt: "Can taste affect appetite?"
+      expected: "Yes. Taste can influence appetite and food choices."
+
+    - id: "taste_eval_007"
+      prompt: "Can taste help a person notice if food seems unusual?"
+      expected: "Yes. Taste can help identify whether food seems normal or off."
+
+    - id: "taste_eval_008"
+      prompt: "Can taste contribute to safety when eating?"
+      expected: "Yes. Taste can help warn against some unpleasant or spoiled substances, though it is not a complete safety system."
+
+    - id: "taste_eval_009"
+      prompt: "What are the basic taste qualities?"
+      expected: "The basic taste qualities are sweet, salty, sour, bitter, and umami."
+
+    - id: "taste_eval_010"
+      prompt: "What is loss of taste in a simple way?"
+      expected: "Loss of taste means a person cannot taste normally or at all."
+
+    - id: "taste_eval_011"
+      prompt: "Can taste become weaker during illness?"
+      expected: "Yes. Illness can reduce or change taste perception."
+
+    - id: "taste_eval_012"
+      prompt: "Can nasal congestion make food seem less flavorful?"
+      expected: "Yes. Congestion can reduce smell, which can make flavors seem weaker."
+
+    - id: "taste_eval_013"
+      prompt: "Can the tongue and nervous system both be involved in taste?"
+      expected: "Yes. Taste depends on receptors in the mouth and nervous system processing."
+
+    - id: "taste_eval_014"
+      prompt: "Can taste changes happen gradually or suddenly?"
+      expected: "Yes. Taste changes can happen either gradually or suddenly."
+
+    - id: "taste_eval_015"
+      prompt: "Can taste affect nutrition?"
+      expected: "Yes. Taste can influence eating habits, appetite, and nutrition."
+
+    - id: "taste_eval_016"
+      prompt: "Can changes in taste affect enjoyment of meals?"
+      expected: "Yes. Taste changes can make meals less enjoyable."
+
+    - id: "taste_eval_017"
+      prompt: "Can taste influence food preferences?"
+      expected: "Yes. Taste helps shape food preferences."
+
+    - id: "taste_eval_018"
+      prompt: "Can medications affect taste?"
+      expected: "Yes. Some medications can alter taste."
+
+    - id: "taste_eval_019"
+      prompt: "Can infections affect taste?"
+      expected: "Yes. Some infections can reduce or change taste."
+
+    - id: "taste_eval_020"
+      prompt: "What is a simple example of taste at work?"
+      expected: "Tasting sweetness in fruit or saltiness in soup is a simple example of taste."
+
+    - id: "taste_eval_021"
+      prompt: "Can a bitter or metallic taste sometimes occur?"
+      expected: "Yes. Some people experience bitter, metallic, or otherwise altered tastes."
+
+    - id: "taste_eval_022"
+      prompt: "Can taste changes affect quality of life?"
+      expected: "Yes. Altered taste can affect eating, appetite, comfort, and enjoyment."
+
+    - id: "taste_eval_023"
+      prompt: "Can the mouth and saliva influence taste?"
+      expected: "Yes. Normal mouth conditions and saliva help support taste perception."
+
+    - id: "taste_eval_024"
+      prompt: "Can dry mouth affect taste?"
+      expected: "Yes. Dry mouth can reduce or alter taste."
+
+    - id: "taste_eval_025"
+      prompt: "Can smoking affect taste?"
+      expected: "Yes. Smoking can reduce taste sensitivity."
+
+    - id: "taste_eval_026"
+      prompt: "Can aging affect taste?"
+      expected: "Yes. Taste perception can change with age."
+
+    - id: "taste_eval_027"
+      prompt: "Can oral problems affect taste?"
+      expected: "Yes. Mouth or tongue problems can affect taste."
+
+    - id: "taste_eval_028"
+      prompt: "Can poor oral hygiene affect taste?"
+      expected: "Yes. Oral conditions can change taste perception."
+
+    - id: "taste_eval_029"
+      prompt: "Can taste and texture both affect eating experience?"
+      expected: "Yes. Eating experience depends on taste, smell, texture, and temperature."
+
+    - id: "taste_eval_030"
+      prompt: "Can temperature affect how food tastes?"
+      expected: "Yes. Temperature can influence how flavors are perceived."
+
+    - id: "taste_eval_031"
+      prompt: "Can spicy sensation be different from basic taste?"
+      expected: "Yes. Spiciness is more of a chemical irritation sensation than a basic taste."
+
+    - id: "taste_eval_032"
+      prompt: "Can taste changes make food seem bland?"
+      expected: "Yes. Reduced taste or smell can make food seem bland."
+
+    - id: "taste_eval_033"
+      prompt: "Can altered taste affect appetite or eating enough?"
+      expected: "Yes. Taste changes can reduce appetite or make eating less appealing."
+
+    - id: "taste_eval_034"
+      prompt: "Can the sense of taste support awareness of what is in the mouth?"
+      expected: "Yes. Taste helps the body identify some qualities of food and drink."
+
+    - id: "taste_eval_035"
+      prompt: "Can a person lose some flavor experience even if sweet or salty can still be detected?"
+      expected: "Yes. Flavor can be reduced even when some basic taste sensations remain."
+
+    - id: "taste_eval_036"
+      prompt: "Can taste changes happen with upper respiratory illness?"
+      expected: "Yes. Taste may change during upper respiratory illness, often along with smell changes."
+
+    - id: "taste_eval_037"
+      prompt: "Can taste changes matter even if they are not painful?"
+      expected: "Yes. Taste changes can still affect safety, nutrition, and quality of life."
+
+    - id: "taste_eval_038"
+      prompt: "Can taste and smell together influence whether food seems fresh or appealing?"
+      expected: "Yes. Both senses contribute to judging food quality."
+
+    - id: "taste_eval_039"
+      prompt: "Can taste changes influence body weight over time?"
+      expected: "Yes. Changes in appetite and food intake can affect body weight."
+
+    - id: "taste_eval_040"
+      prompt: "Can a persistent bad taste in the mouth sometimes need evaluation?"
+      expected: "Yes. Persistent unexplained taste changes may need evaluation."
+
+    - id: "taste_eval_041"
+      prompt: "Can taste disorders affect independence in cooking or eating?"
+      expected: "Yes. Significant taste changes can affect meal preparation and eating habits."
+
+    - id: "taste_eval_042"
+      prompt: "Can chemical exposure affect taste or mouth sensation?"
+      expected: "Yes. Some exposures can irritate the mouth or alter taste."
+
+    - id: "taste_eval_043"
+      prompt: "Can taste changes happen with nerve-related problems?"
+      expected: "Yes. Taste depends on nervous system pathways as well as the mouth."
+
+    - id: "taste_eval_044"
+      prompt: "Can taste changes overlap with smell problems?"
+      expected: "Yes. Taste complaints often overlap with smell changes."
+
+    - id: "taste_eval_045"
+      prompt: "Can taste influence whether a person wants to keep eating a meal?"
+      expected: "Yes. Taste strongly influences willingness to continue eating."
+
+    - id: "taste_eval_046"
+      prompt: "Can loss of taste reduce enjoyment of social meals?"
+      expected: "Yes. It can affect enjoyment of eating and social experiences around food."
+
+    - id: "taste_eval_047"
+      prompt: "Can illness recovery include temporary taste changes?"
+      expected: "Yes. Taste may change temporarily during or after some illnesses."
+
+    - id: "taste_eval_048"
+      prompt: "Can taste changes affect hydration if drinks seem less appealing?"
+      expected: "Yes. Reduced enjoyment of drinks can affect intake."
+
+    - id: "taste_eval_049"
+      prompt: "Can the tongue, saliva, smell, and brain all contribute to flavor?"
+      expected: "Yes. Flavor perception depends on multiple systems working together."
+
+    - id: "taste_eval_050"
+      prompt: "Can taste be described as one part of broader food perception?"
+      expected: "Yes. Taste is one part of the full experience of flavor and eating."
+
+    - id: "taste_eval_051"
+      prompt: "Can sudden taste loss sometimes need evaluation?"
+      expected: "Yes. Sudden taste loss can be important and may need evaluation."
+
+    - id: "taste_eval_052"
+      prompt: "Can taste changes after head injury be important?"
+      expected: "Yes. Taste changes after head injury should be taken seriously."
+
+    - id: "taste_eval_053"
+      prompt: "Can taste changes with severe mouth pain, swelling, or trouble swallowing need evaluation?"
+      expected: "Yes. Those symptoms can be important and may need prompt care."
+
+    - id: "taste_eval_054"
+      prompt: "Can trouble swallowing along with taste changes be concerning?"
+      expected: "Yes. Trouble swallowing can be an important associated symptom."
+
+    - id: "taste_eval_055"
+      prompt: "Can facial weakness or major neurological symptoms with taste changes be serious?"
+      expected: "Yes. That combination can be serious and requires prompt evaluation."
+
+    - id: "taste_eval_056"
+      prompt: "Can a chemical burn in the mouth affect taste and require urgent care?"
+      expected: "Yes. Chemical injury to the mouth can be serious and requires prompt attention."
+
+    - id: "taste_eval_057"
+      prompt: "Can taste changes with trouble breathing or facial swelling be urgent?"
+      expected: "Yes. That combination can be urgent and needs immediate attention."
+
+    - id: "taste_eval_058"
+      prompt: "Should a person ignore severe mouth swelling just because the main complaint started as altered taste?"
+      expected: "No. Severe mouth swelling should be treated seriously."
+
+    - id: "taste_eval_059"
+      prompt: "Can dehydration or dry mouth contribute to taste changes?"
+      expected: "Yes. Dry mouth and hydration status can affect taste."
+
+    - id: "taste_eval_060"
+      prompt: "Can oral infections affect taste?"
+      expected: "Yes. Oral infections can alter taste and mouth comfort."
+
+    - id: "taste_eval_061"
+      prompt: "Can taste help guide food choices but not always identify danger reliably?"
+      expected: "Yes. Taste can provide clues, but it is not a complete safety system."
+
+    - id: "taste_eval_062"
+      prompt: "Can taste loss make it harder to enjoy a balanced diet?"
+      expected: "Yes. Reduced taste can make healthy eating harder for some people."
+
+    - id: "taste_eval_063"
+      prompt: "Can taste changes affect emotional well-being?"
+      expected: "Yes. Changes in eating enjoyment can affect mood and daily life."
+
+    - id: "taste_eval_064"
+      prompt: "Can taste perception vary from person to person?"
+      expected: "Yes. People vary in taste sensitivity and food preferences."
+
+    - id: "taste_eval_065"
+      prompt: "Can taste matter throughout life?"
+      expected: "Yes. Taste supports nutrition, enjoyment, and food awareness throughout life."
+
+    - id: "taste_eval_066"
+      prompt: "Can taste changes sometimes improve depending on the cause?"
+      expected: "Yes. Taste changes may improve in some cases depending on the cause."
+
+    - id: "taste_eval_067"
+      prompt: "Can a metallic taste be bothersome even if it is not dangerous?"
+      expected: "Yes. Altered taste can still be uncomfortable and disruptive."
+
+    - id: "taste_eval_068"
+      prompt: "Can taste changes deserve attention if they persist?"
+      expected: "Yes. Persistent unexplained taste changes should be evaluated."
+
+    - id: "taste_eval_069"
+      prompt: "Can taste be part of both nutrition and quality of life?"
+      expected: "Yes. Taste affects both eating behavior and enjoyment."
+
+    - id: "taste_eval_070"
+      prompt: "Can taste problems overlap with mouth, nasal, neurological, or medication-related issues?"
+      expected: "Yes. Taste changes can involve multiple causes and systems."
+
+    - id: "taste_eval_071"
+      prompt: "Can taste changes matter even if they begin gradually?"
+      expected: "Yes. Gradual taste changes can still affect nutrition and daily life."
+
+    - id: "taste_eval_072"
+      prompt: "Can reduced taste lead a person to prefer stronger flavors or seasonings?"
+      expected: "Yes. Some people seek stronger flavors when taste seems reduced."
+
+    - id: "taste_eval_073"
+      prompt: "Can taste changes affect appetite, hydration, nutrition, and enjoyment together?"
+      expected: "Yes. Taste changes can affect several areas of health and daily life."
+
+    - id: "taste_eval_074"
+      prompt: "Can taste and smell both need consideration when someone says food tastes wrong?"
+      expected: "Yes. Flavor complaints often involve both taste and smell."
+
+    - id: "taste_eval_075"
+      prompt: "Can taste be important even if other senses are normal?"
+      expected: "Yes. Taste still matters for safe and enjoyable eating."
+
+    - id: "taste_eval_076"
+      prompt: "What is the main idea of taste?"
+      expected: "Taste is a sensory system that helps detect basic flavor qualities, supports eating and nutrition, works closely with smell, and affects safety and enjoyment."
+
+    - id: "taste_eval_077"
+      prompt: "Can taste involve tongue receptors, saliva, smell interaction, nervous system processing, and eating behavior together?"
+      expected: "Yes. Taste depends on all of those factors together."
+
+    - id: "taste_eval_078"
+      prompt: "Can taste-related symptoms matter even if the main complaint is that food seems bland or metallic?"
+      expected: "Yes. Those complaints can reflect meaningful taste changes."
+
+    - id: "taste_eval_079"
+      prompt: "Can urgent taste-related concerns include mouth swelling, trouble swallowing, trouble breathing, chemical injury, major facial weakness, serious neurological symptoms, or taste loss after head trauma?"
+      expected: "Yes. Those situations can require urgent or immediate attention."
+
+    - id: "taste_eval_080"
+      prompt: "What should be done if taste-related symptoms are sudden, severe, worsening, or linked with mouth swelling, trouble swallowing, trouble breathing, chemical exposure, head trauma, facial weakness, or major neurological symptoms?"
+      expected: "Sudden, severe, or concerning taste-related symptoms should be evaluated promptly, and urgent symptoms require immediate attention."

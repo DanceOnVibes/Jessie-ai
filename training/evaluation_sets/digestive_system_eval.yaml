@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Digestive System Evaluation Set"
+  domain: "human_body"
+  topic: "digestive_system"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of the digestive system, food breakdown, nutrient absorption, waste processing, organ roles, system interactions, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "digestive_eval_001"
+      prompt: "What is the digestive system?"
+      expected: "The digestive system is the body system that breaks down food, absorbs nutrients, and helps remove solid waste."
+
+    - id: "digestive_eval_002"
+      prompt: "What is the main job of the digestive system?"
+      expected: "Its main job is to process food so the body can absorb nutrients and remove waste."
+
+    - id: "digestive_eval_003"
+      prompt: "Why is digestion important?"
+      expected: "Digestion is important because it allows the body to get nutrients and energy from food."
+
+    - id: "digestive_eval_004"
+      prompt: "What begins digestion?"
+      expected: "Digestion begins in the mouth."
+
+    - id: "digestive_eval_005"
+      prompt: "What happens in the mouth during digestion?"
+      expected: "Food is chewed and mixed with saliva to begin digestion."
+
+    - id: "digestive_eval_006"
+      prompt: "What is the role of the esophagus?"
+      expected: "The esophagus carries food from the mouth to the stomach."
+
+    - id: "digestive_eval_007"
+      prompt: "What does the stomach do?"
+      expected: "The stomach helps break down food using mixing and digestive juices."
+
+    - id: "digestive_eval_008"
+      prompt: "What is the role of the small intestine?"
+      expected: "The small intestine is the main site where most nutrient absorption occurs."
+
+    - id: "digestive_eval_009"
+      prompt: "What is the role of the large intestine?"
+      expected: "The large intestine absorbs water and helps form stool."
+
+    - id: "digestive_eval_010"
+      prompt: "Does the digestive system only move food?"
+      expected: "No. It also breaks food down, absorbs nutrients, and processes waste."
+
+    - id: "digestive_eval_011"
+      prompt: "What does the liver do for digestion in a simple way?"
+      expected: "The liver helps digestion by producing bile and processing absorbed substances."
+
+    - id: "digestive_eval_012"
+      prompt: "What does the gallbladder do in a simple way?"
+      expected: "The gallbladder stores and releases bile to help digest fats."
+
+    - id: "digestive_eval_013"
+      prompt: "What does the pancreas do for digestion in a simple way?"
+      expected: "The pancreas helps digestion by releasing digestive enzymes and other important substances."
+
+    - id: "digestive_eval_014"
+      prompt: "What is nutrient absorption?"
+      expected: "Nutrient absorption is the process of taking useful substances from digested food into the body."
+
+    - id: "digestive_eval_015"
+      prompt: "Why does the body need digestion before using food?"
+      expected: "Food must be broken down into smaller parts so the body can absorb and use it."
+
+    - id: "digestive_eval_016"
+      prompt: "Can the digestive system affect energy?"
+      expected: "Yes. It helps provide the nutrients and fuel the body uses for energy."
+
+    - id: "digestive_eval_017"
+      prompt: "Can the digestive system interact with the circulatory system?"
+      expected: "Yes. Nutrients absorbed from digestion are carried through the blood to the body."
+
+    - id: "digestive_eval_018"
+      prompt: "Can the digestive system interact with the endocrine system?"
+      expected: "Yes. Hormones help regulate digestive processes and nutrient handling."
+
+    - id: "digestive_eval_019"
+      prompt: "Can the digestive system interact with the nervous system?"
+      expected: "Yes. The nervous system helps regulate digestive activity and coordination."
+
+    - id: "digestive_eval_020"
+      prompt: "Can the digestive system help support growth and repair?"
+      expected: "Yes. It provides nutrients needed for growth, maintenance, and repair."
+
+    - id: "digestive_eval_021"
+      prompt: "What is a simple path food follows through the digestive tract?"
+      expected: "Food goes from the mouth to the esophagus, stomach, small intestine, large intestine, and then leaves the body as waste."
+
+    - id: "digestive_eval_022"
+      prompt: "Does digestion stop at the stomach?"
+      expected: "No. Digestion continues through the intestines."
+
+    - id: "digestive_eval_023"
+      prompt: "Can the body absorb water through the digestive system?"
+      expected: "Yes. Water absorption is an important part of digestive function."
+
+    - id: "digestive_eval_024"
+      prompt: "Can the digestive system affect hydration?"
+      expected: "Yes. Digestive function and fluid absorption influence hydration."
+
+    - id: "digestive_eval_025"
+      prompt: "Can the digestive system help the body use vitamins and minerals?"
+      expected: "Yes. Digestion helps make vitamins, minerals, and other nutrients available for absorption."
+
+    - id: "digestive_eval_026"
+      prompt: "What is stool?"
+      expected: "Stool is solid waste left after digestion and absorption."
+
+    - id: "digestive_eval_027"
+      prompt: "Why is the large intestine important?"
+      expected: "It helps absorb water and prepare waste for elimination."
+
+    - id: "digestive_eval_028"
+      prompt: "Can digestion happen continuously during daily life?"
+      expected: "Yes. The digestive system works regularly as food and fluids are processed."
+
+    - id: "digestive_eval_029"
+      prompt: "Can poor digestion affect nutrition?"
+      expected: "Yes. Digestive problems can reduce nutrient absorption and affect nutrition."
+
+    - id: "digestive_eval_030"
+      prompt: "Can digestive function affect body weight and health?"
+      expected: "Yes. Digestion and nutrient absorption are important for overall health and body condition."
+
+    - id: "digestive_eval_031"
+      prompt: "Does the digestive system only handle solid food?"
+      expected: "No. It also processes liquids and helps absorb water and dissolved nutrients."
+
+    - id: "digestive_eval_032"
+      prompt: "Can chewing help digestion?"
+      expected: "Yes. Chewing breaks food into smaller pieces and helps start digestion."
+
+    - id: "digestive_eval_033"
+      prompt: "Does saliva help digestion?"
+      expected: "Yes. Saliva helps moisten food and begins digestion."
+
+    - id: "digestive_eval_034"
+      prompt: "Can the stomach store food briefly while digestion continues?"
+      expected: "Yes. The stomach can temporarily hold and process food."
+
+    - id: "digestive_eval_035"
+      prompt: "Can the small intestine be described as a major absorption site?"
+      expected: "Yes. Most nutrient absorption takes place in the small intestine."
+
+    - id: "digestive_eval_036"
+      prompt: "Can the liver support digestion without being food itself?"
+      expected: "Yes. The liver supports digestion by producing bile and processing absorbed substances."
+
+    - id: "digestive_eval_037"
+      prompt: "Can digestive enzymes help break food into usable parts?"
+      expected: "Yes. Digestive enzymes help break food into smaller molecules for absorption."
+
+    - id: "digestive_eval_038"
+      prompt: "Can fats require digestive support such as bile?"
+      expected: "Yes. Bile helps the body digest fats."
+
+    - id: "digestive_eval_039"
+      prompt: "Can digestive problems affect comfort?"
+      expected: "Yes. Digestive issues can affect comfort, appetite, and daily functioning."
+
+    - id: "digestive_eval_040"
+      prompt: "Can digestive function influence bowel movements?"
+      expected: "Yes. Digestive activity affects stool formation and bowel habits."
+
+    - id: "digestive_eval_041"
+      prompt: "Can constipation relate to digestive function?"
+      expected: "Yes. Constipation is a digestive and bowel function issue."
+
+    - id: "digestive_eval_042"
+      prompt: "Can diarrhea affect hydration?"
+      expected: "Yes. Diarrhea can lead to fluid loss and affect hydration."
+
+    - id: "digestive_eval_043"
+      prompt: "Can nausea affect eating and digestion?"
+      expected: "Yes. Nausea can reduce food intake and affect digestive comfort."
+
+    - id: "digestive_eval_044"
+      prompt: "Can vomiting affect fluid balance?"
+      expected: "Yes. Vomiting can reduce fluid levels and affect hydration."
+
+    - id: "digestive_eval_045"
+      prompt: "Can abdominal pain sometimes relate to the digestive system?"
+      expected: "Yes. Abdominal pain can be related to digestive problems."
+
+    - id: "digestive_eval_046"
+      prompt: "Can appetite change with digestive issues?"
+      expected: "Yes. Digestive problems can change appetite and eating patterns."
+
+    - id: "digestive_eval_047"
+      prompt: "Can swallowing difficulty involve the digestive tract?"
+      expected: "Yes. Swallowing problems can involve the upper digestive pathway."
+
+    - id: "digestive_eval_048"
+      prompt: "Can reflux or food coming back up relate to digestion?"
+      expected: "Yes. Reflux can involve digestive tract function."
+
+    - id: "digestive_eval_049"
+      prompt: "Can the digestive system affect comfort after meals?"
+      expected: "Yes. Digestive activity can influence how a person feels after eating."
+
+    - id: "digestive_eval_050"
+      prompt: "Can the digestive system affect how the body gets fuel from food?"
+      expected: "Yes. Digestion is essential for turning food into usable nutrients."
+
+    - id: "digestive_eval_051"
+      prompt: "Can digestive function matter during illness recovery?"
+      expected: "Yes. Good digestion supports nutrient intake, hydration, and healing."
+
+    - id: "digestive_eval_052"
+      prompt: "Can digestive problems affect strength or energy over time?"
+      expected: "Yes. Ongoing digestive problems can affect nutrition and energy."
+
+    - id: "digestive_eval_053"
+      prompt: "Can blood in vomit be taken seriously?"
+      expected: "Yes. Blood in vomit should be evaluated promptly."
+
+    - id: "digestive_eval_054"
+      prompt: "Can black or bloody stool be important?"
+      expected: "Yes. Black or bloody stool should be taken seriously and evaluated promptly."
+
+    - id: "digestive_eval_055"
+      prompt: "Should severe abdominal pain be ignored?"
+      expected: "No. Severe abdominal pain should be taken seriously and evaluated."
+
+    - id: "digestive_eval_056"
+      prompt: "Should persistent vomiting be taken seriously?"
+      expected: "Yes. Persistent vomiting can be serious and should be evaluated."
+
+    - id: "digestive_eval_057"
+      prompt: "Should inability to keep fluids down be taken seriously?"
+      expected: "Yes. Inability to keep fluids down can become serious and should be addressed promptly."
+
+    - id: "digestive_eval_058"
+      prompt: "Should signs of dehydration with digestive illness be taken seriously?"
+      expected: "Yes. Dehydration can be serious and should be addressed promptly."
+
+    - id: "digestive_eval_059"
+      prompt: "Should severe trouble swallowing be taken seriously?"
+      expected: "Yes. Severe trouble swallowing should be evaluated promptly."
+
+    - id: "digestive_eval_060"
+      prompt: "Should abdominal pain with fever be taken seriously?"
+      expected: "Yes. Abdominal pain with fever can be concerning and should be evaluated."
+
+    - id: "digestive_eval_061"
+      prompt: "Can the digestive system help connect nutrition and body function?"
+      expected: "Yes. It links food intake to nutrient availability for the whole body."
+
+    - id: "digestive_eval_062"
+      prompt: "Can digestive health affect overall well-being?"
+      expected: "Yes. Digestive health influences comfort, nutrition, hydration, and function."
+
+    - id: "digestive_eval_063"
+      prompt: "Can bowel habits reflect digestive function?"
+      expected: "Yes. Bowel movement patterns can reflect digestive health."
+
+    - id: "digestive_eval_064"
+      prompt: "Can eating too quickly affect digestive comfort?"
+      expected: "Yes. Eating habits can influence digestive comfort."
+
+    - id: "digestive_eval_065"
+      prompt: "Can digestion support the body every day even when a person is not thinking about it?"
+      expected: "Yes. The digestive system works continuously in daily life to process food and absorb nutrients."
+
+    - id: "digestive_eval_066"
+      prompt: "Can the digestive system affect how nutrients reach the blood?"
+      expected: "Yes. Digested nutrients are absorbed and then enter circulation."
+
+    - id: "digestive_eval_067"
+      prompt: "Can digestive function influence growth in children and maintenance in adults?"
+      expected: "Yes. Nutrient absorption is important across the lifespan."
+
+    - id: "digestive_eval_068"
+      prompt: "Can digestive discomfort interfere with sleep or activity?"
+      expected: "Yes. Digestive symptoms can affect rest and daily functioning."
+
+    - id: "digestive_eval_069"
+      prompt: "Can the digestive system help the body use food for repair?"
+      expected: "Yes. It provides the building materials the body uses for maintenance and healing."
+
+    - id: "digestive_eval_070"
+      prompt: "What is the main idea of the digestive system?"
+      expected: "The digestive system breaks down food, absorbs nutrients and water, and helps remove solid waste."
+
+    - id: "digestive_eval_071"
+      prompt: "Can the digestive system and circulatory system work together after a meal?"
+      expected: "Yes. Nutrients absorbed from digestion are carried through the blood to body tissues."
+
+    - id: "digestive_eval_072"
+      prompt: "Can digestive function affect comfort, nutrition, and elimination all at once?"
+      expected: "Yes. The digestive system influences all of those areas."
+
+    - id: "digestive_eval_073"
+      prompt: "Can ongoing digestive problems matter even if they are not dramatic?"
+      expected: "Yes. Ongoing digestive issues can still affect health and quality of life."
+
+    - id: "digestive_eval_074"
+      prompt: "Can digestive symptoms after meals sometimes point to a digestive issue?"
+      expected: "Yes. Symptoms linked to eating can reflect digestive function."
+
+    - id: "digestive_eval_075"
+      prompt: "Can the digestive system support normal life by turning meals into usable resources?"
+      expected: "Yes. It helps transform food and fluids into nutrients and absorbable substances."
+
+    - id: "digestive_eval_076"
+      prompt: "Can the digestive system be important for medication absorption too?"
+      expected: "Yes. Many medicines are absorbed through the digestive tract."
+
+    - id: "digestive_eval_077"
+      prompt: "Can stomach and intestinal activity both matter for digestion?"
+      expected: "Yes. Different digestive organs each contribute important steps."
+
+    - id: "digestive_eval_078"
+      prompt: "Can digestive symptoms sometimes affect mood or concentration?"
+      expected: "Yes. Ongoing discomfort, nausea, or poor intake can affect daily well-being."
+
+    - id: "digestive_eval_079"
+      prompt: "Can digestion help the body access proteins, fats, and carbohydrates?"
+      expected: "Yes. Digestion breaks major nutrients into absorbable forms."
+
+    - id: "digestive_eval_080"
+      prompt: "What should be done if digestive symptoms are sudden, severe, worsening, or linked with blood, severe pain, dehydration, or inability to keep fluids down?"
+      expected: "Sudden, severe, or concerning digestive symptoms should be evaluated promptly."

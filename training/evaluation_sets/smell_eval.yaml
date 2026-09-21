@@ -1,0 +1,330 @@
+evaluation:
+  title: "Jessie Smell Evaluation Set"
+  domain: "body_awareness"
+  topic: "smell"
+  version: "1.1"
+  last_updated: "2026-09-21"
+  purpose: "Evaluation prompts for assessing understanding of smell, odor detection, smell and taste interaction, environmental awareness, daily function impact, common smell changes, and simple safety escalation boundaries."
+  audience: "Jessie AI evaluation layer"
+  source_type: "internal structured evaluation examples"
+
+  cases:
+    - id: "smell_eval_001"
+      prompt: "What is the sense of smell?"
+      expected: "The sense of smell is the ability to detect and recognize odors in the environment."
+
+    - id: "smell_eval_002"
+      prompt: "Why is smell important?"
+      expected: "Smell is important for detecting food odors, environmental hazards, and supporting flavor perception."
+
+    - id: "smell_eval_003"
+      prompt: "Does smell help with safety?"
+      expected: "Yes. Smell can help detect hazards such as smoke, gas, or spoiled food."
+
+    - id: "smell_eval_004"
+      prompt: "Does smell interact with taste?"
+      expected: "Yes. Smell and taste work closely together in flavor perception."
+
+    - id: "smell_eval_005"
+      prompt: "Can smell affect appetite?"
+      expected: "Yes. Smell can influence appetite and enjoyment of food."
+
+    - id: "smell_eval_006"
+      prompt: "Can a reduced sense of smell change how food tastes?"
+      expected: "Yes. Reduced smell can make food seem less flavorful."
+
+    - id: "smell_eval_007"
+      prompt: "Can smell help detect spoiled food?"
+      expected: "Yes. Smell can help identify some spoiled foods."
+
+    - id: "smell_eval_008"
+      prompt: "Can smell help detect smoke?"
+      expected: "Yes. Smell can help a person notice smoke in some situations."
+
+    - id: "smell_eval_009"
+      prompt: "Can smell help detect gas leaks?"
+      expected: "Yes. Smell can sometimes help detect gas leaks."
+
+    - id: "smell_eval_010"
+      prompt: "What is loss of smell in a simple way?"
+      expected: "Loss of smell means a person cannot smell normally or at all."
+
+    - id: "smell_eval_011"
+      prompt: "Can smell become weaker during a cold?"
+      expected: "Yes. Nasal congestion from illness can reduce smell."
+
+    - id: "smell_eval_012"
+      prompt: "Can allergies affect smell?"
+      expected: "Yes. Allergies and nasal swelling can reduce smell."
+
+    - id: "smell_eval_013"
+      prompt: "Can nasal congestion affect smell?"
+      expected: "Yes. Congestion can make odors harder to detect."
+
+    - id: "smell_eval_014"
+      prompt: "Can the nose and nervous system both be involved in smell?"
+      expected: "Yes. Smell depends on odor detection in the nose and processing by the nervous system."
+
+    - id: "smell_eval_015"
+      prompt: "Can smell changes happen gradually or suddenly?"
+      expected: "Yes. Smell changes can happen either gradually or suddenly."
+
+    - id: "smell_eval_016"
+      prompt: "Can smell affect enjoyment of eating?"
+      expected: "Yes. Smell strongly contributes to enjoyment of food."
+
+    - id: "smell_eval_017"
+      prompt: "Can smell contribute to memory or emotion?"
+      expected: "Yes. Smells can be strongly linked with memory and emotion."
+
+    - id: "smell_eval_018"
+      prompt: "Can strong odors trigger discomfort in some people?"
+      expected: "Yes. Strong odors can trigger discomfort, nausea, or headaches in some people."
+
+    - id: "smell_eval_019"
+      prompt: "Can smell help with environmental awareness?"
+      expected: "Yes. Smell can provide information about the surroundings."
+
+    - id: "smell_eval_020"
+      prompt: "What is a simple example of smell at work?"
+      expected: "Noticing coffee, smoke, perfume, or spoiled food is a simple example of smell."
+
+    - id: "smell_eval_021"
+      prompt: "Can smell changes affect quality of life?"
+      expected: "Yes. Loss or distortion of smell can affect eating, safety, and daily enjoyment."
+
+    - id: "smell_eval_022"
+      prompt: "Can smell loss make it harder to notice body odor or environmental odors?"
+      expected: "Yes. Reduced smell can make some odors harder to detect."
+
+    - id: "smell_eval_023"
+      prompt: "Can a person lose smell without losing taste completely?"
+      expected: "Yes. Smell and taste are related but not identical."
+
+    - id: "smell_eval_024"
+      prompt: "Can smell distortions happen, where odors smell different than usual?"
+      expected: "Yes. Some people experience distorted smell perception."
+
+    - id: "smell_eval_025"
+      prompt: "Can phantom smells happen, where a person smells something that is not there?"
+      expected: "Yes. Some people can perceive odors without an external source."
+
+    - id: "smell_eval_026"
+      prompt: "Can head injury affect smell?"
+      expected: "Yes. Head injury can sometimes affect the sense of smell."
+
+    - id: "smell_eval_027"
+      prompt: "Can infections affect smell?"
+      expected: "Yes. Some infections can reduce or change smell."
+
+    - id: "smell_eval_028"
+      prompt: "Can aging affect smell?"
+      expected: "Yes. The sense of smell can change with age."
+
+    - id: "smell_eval_029"
+      prompt: "Can smoking affect smell?"
+      expected: "Yes. Smoking can reduce smell sensitivity."
+
+    - id: "smell_eval_030"
+      prompt: "Can chemical exposure affect smell?"
+      expected: "Yes. Some chemical exposures can irritate or affect smell."
+
+    - id: "smell_eval_031"
+      prompt: "Can smell help warn about fire?"
+      expected: "Yes. Smell can sometimes provide early warning of smoke or burning."
+
+    - id: "smell_eval_032"
+      prompt: "Can smell affect nutrition if food becomes less appealing?"
+      expected: "Yes. Smell loss can reduce appetite or enjoyment of meals."
+
+    - id: "smell_eval_033"
+      prompt: "Can smell changes matter even if they are not painful?"
+      expected: "Yes. Smell changes can still affect safety and quality of life."
+
+    - id: "smell_eval_034"
+      prompt: "Can sudden smell loss sometimes need evaluation?"
+      expected: "Yes. Sudden smell loss can be important and may need evaluation."
+
+    - id: "smell_eval_035"
+      prompt: "Can smell changes happen with sinus problems?"
+      expected: "Yes. Sinus and nasal problems can affect smell."
+
+    - id: "smell_eval_036"
+      prompt: "Can smell and breathing through the nose be related?"
+      expected: "Yes. Nasal airflow affects how odors reach smell receptors."
+
+    - id: "smell_eval_037"
+      prompt: "Can smell problems affect cooking or food safety?"
+      expected: "Yes. Reduced smell can make it harder to notice burning or spoiled food."
+
+    - id: "smell_eval_038"
+      prompt: "Can smell changes affect personal safety at home?"
+      expected: "Yes. Smell helps detect hazards such as smoke, gas, or spoiled food."
+
+    - id: "smell_eval_039"
+      prompt: "Can a person still have normal taste sensations like sweet or salty even if smell is reduced?"
+      expected: "Yes. Basic taste sensations may still be present even when smell is reduced."
+
+    - id: "smell_eval_040"
+      prompt: "Can smell loss make flavors seem bland?"
+      expected: "Yes. Reduced smell often makes flavors seem duller or less detailed."
+
+    - id: "smell_eval_041"
+      prompt: "Can chronic nasal blockage affect smell over time?"
+      expected: "Yes. Ongoing blockage can interfere with normal smell."
+
+    - id: "smell_eval_042"
+      prompt: "Can smell changes affect emotional well-being?"
+      expected: "Yes. Changes in smell can affect enjoyment, comfort, and mood."
+
+    - id: "smell_eval_043"
+      prompt: "Can smell perception vary between people?"
+      expected: "Yes. People can differ in smell sensitivity and odor preferences."
+
+    - id: "smell_eval_044"
+      prompt: "Can smell be described as part of sensory awareness?"
+      expected: "Yes. Smell is one of the body's sensory systems."
+
+    - id: "smell_eval_045"
+      prompt: "Can the sense of smell support daily routines like cooking, cleaning, and self-care?"
+      expected: "Yes. Smell contributes to many daily activities."
+
+    - id: "smell_eval_046"
+      prompt: "Can a foul smell noticed only by one person sometimes reflect a smell perception issue?"
+      expected: "Yes. In some cases it can reflect altered smell perception."
+
+    - id: "smell_eval_047"
+      prompt: "Can sudden smell changes after head injury be important?"
+      expected: "Yes. Smell changes after head injury should be taken seriously."
+
+    - id: "smell_eval_048"
+      prompt: "Can smell changes occur with upper respiratory illness?"
+      expected: "Yes. Upper respiratory illnesses can affect smell."
+
+    - id: "smell_eval_049"
+      prompt: "Can smell loss affect whether food seems fresh or appealing?"
+      expected: "Yes. It can make foods harder to judge by odor."
+
+    - id: "smell_eval_050"
+      prompt: "Can smell problems matter even if other senses are normal?"
+      expected: "Yes. Smell problems can still significantly affect function and safety."
+
+    - id: "smell_eval_051"
+      prompt: "Can severe smoke smell or gas smell in the environment require immediate safety action?"
+      expected: "Yes. Possible smoke or gas exposure requires immediate safety action."
+
+    - id: "smell_eval_052"
+      prompt: "Should a person stay in a building if they strongly smell gas?"
+      expected: "No. They should get to safety and seek emergency help."
+
+    - id: "smell_eval_053"
+      prompt: "Should the smell of smoke with possible fire be treated seriously?"
+      expected: "Yes. Possible fire requires immediate safety action."
+
+    - id: "smell_eval_054"
+      prompt: "Can new smell loss with severe neurological symptoms be important?"
+      expected: "Yes. Smell changes with serious neurological symptoms should be evaluated promptly."
+
+    - id: "smell_eval_055"
+      prompt: "Can smell changes with severe facial pain, swelling, or high fever need evaluation?"
+      expected: "Yes. Those symptoms can suggest a significant problem and should be evaluated."
+
+    - id: "smell_eval_056"
+      prompt: "Can confusion along with chemical smell exposure be serious?"
+      expected: "Yes. Confusion after possible chemical exposure is serious and requires urgent attention."
+
+    - id: "smell_eval_057"
+      prompt: "Should a person with smell loss after major head trauma be evaluated?"
+      expected: "Yes. Smell loss after major head trauma should be medically evaluated."
+
+    - id: "smell_eval_058"
+      prompt: "Should sudden smell changes with trouble breathing or facial swelling be considered urgent?"
+      expected: "Yes. That combination can be urgent."
+
+    - id: "smell_eval_059"
+      prompt: "Can smell support hazard detection even if it is not perfect?"
+      expected: "Yes. Smell can help detect hazards, though it should not be the only safety method."
+
+    - id: "smell_eval_060"
+      prompt: "Can smoke detectors and gas alarms still matter even if a person has normal smell?"
+      expected: "Yes. Safety alarms are important regardless of smell ability."
+
+    - id: "smell_eval_061"
+      prompt: "Can smell help the body evaluate surroundings before eating or entering a space?"
+      expected: "Yes. Smell helps assess food and environmental conditions."
+
+    - id: "smell_eval_062"
+      prompt: "Can smell changes affect independence for some people?"
+      expected: "Yes. Smell loss can affect cooking, safety, and confidence."
+
+    - id: "smell_eval_063"
+      prompt: "Can the sense of smell matter throughout life?"
+      expected: "Yes. Smell supports safety, eating, and quality of life throughout life."
+
+    - id: "smell_eval_064"
+      prompt: "Can smell changes sometimes recover depending on the cause?"
+      expected: "Yes. Smell changes may improve in some cases depending on the cause."
+
+    - id: "smell_eval_065"
+      prompt: "Can smell and taste together affect enjoyment of meals?"
+      expected: "Yes. They work together to create much of the food experience."
+
+    - id: "smell_eval_066"
+      prompt: "Can smell loss lead a person to use stronger seasonings or seek stronger flavors?"
+      expected: "Yes. Some people adjust food choices when smell is reduced."
+
+    - id: "smell_eval_067"
+      prompt: "Can smell distortions be frustrating even if they are not dangerous?"
+      expected: "Yes. Distorted smell can still be disruptive and distressing."
+
+    - id: "smell_eval_068"
+      prompt: "Can smell changes deserve attention if they persist?"
+      expected: "Yes. Persistent smell changes should be evaluated."
+
+    - id: "smell_eval_069"
+      prompt: "Can smell be part of both pleasure and protection?"
+      expected: "Yes. Smell contributes to enjoyment and also to hazard awareness."
+
+    - id: "smell_eval_070"
+      prompt: "Can the nose, airflow, smell receptors, and brain all contribute to smell?"
+      expected: "Yes. Smell depends on all of those working together."
+
+    - id: "smell_eval_071"
+      prompt: "Can smell problems overlap with nasal, respiratory, or neurological issues?"
+      expected: "Yes. Smell changes can involve several different systems."
+
+    - id: "smell_eval_072"
+      prompt: "Can smell changes matter even if they begin gradually?"
+      expected: "Yes. Gradual changes can still affect daily life and safety."
+
+    - id: "smell_eval_073"
+      prompt: "Can smell loss make it harder to notice burning food or household hazards?"
+      expected: "Yes. Reduced smell can reduce awareness of some hazards."
+
+    - id: "smell_eval_074"
+      prompt: "Can a person rely only on smell to detect danger in the home?"
+      expected: "No. Smell helps, but alarms and other safety measures are also important."
+
+    - id: "smell_eval_075"
+      prompt: "Can altered smell affect appetite, safety, food enjoyment, and mood together?"
+      expected: "Yes. Smell changes can affect several areas of life at once."
+
+    - id: "smell_eval_076"
+      prompt: "What is the main idea of smell?"
+      expected: "Smell is a sensory system that detects odors, supports flavor perception, helps identify hazards, and affects daily life and enjoyment."
+
+    - id: "smell_eval_077"
+      prompt: "Can smell involve odor detection, brain processing, flavor support, and environmental awareness together?"
+      expected: "Yes. The sense of smell includes all of those roles."
+
+    - id: "smell_eval_078"
+      prompt: "Can smell-related symptoms matter even if the main complaint is food tasting bland?"
+      expected: "Yes. Reduced flavor can reflect smell changes and still be important."
+
+    - id: "smell_eval_079"
+      prompt: "Can urgent smell-related concerns include gas smell, smoke smell, chemical exposure, smell loss after head trauma, or smell changes with trouble breathing or serious neurological symptoms?"
+      expected: "Yes. Those situations can require urgent or immediate attention."
+
+    - id: "smell_eval_080"
+      prompt: "What should be done if smell-related symptoms are sudden, severe, worsening, or linked with gas smell, smoke, chemical exposure, head trauma, trouble breathing, facial swelling, confusion, or major neurological symptoms?"
+      expected: "Sudden, severe, or concerning smell-related symptoms or hazard smells should be taken seriously, with urgent symptoms requiring immediate safety action and prompt evaluation."

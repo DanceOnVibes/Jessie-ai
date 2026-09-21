@@ -1,0 +1,310 @@
+knowledge_pack:
+  file_name: "digestive_system_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about the digestive system, food breakdown, absorption, waste movement, supporting organs, common digestive symptoms, and safety escalation."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "digestive_system"
+    category: "food processing and nutrient absorption"
+    domain: "human body and health"
+
+  overview:
+    summary: "The digestive system takes in food, breaks it down mechanically and chemically, absorbs nutrients and water, and removes solid waste from the body. It is essential because the body cannot use most food in its original form. Digestion supports energy supply, tissue maintenance, growth, hydration, and overall body function."
+    why_it_matters:
+      - "The body depends on digestion to obtain usable nutrients from food."
+      - "Digestion supports energy, growth, repair, and normal organ function."
+      - "The digestive system also helps absorb water and move waste out of the body."
+      - "Digestive symptoms can affect comfort, hydration, nutrition, and safety."
+
+  core_definitions:
+    - term: "digestive system"
+      definition: "The body system that breaks down food, absorbs nutrients and water, and removes solid waste."
+    - term: "digestion"
+      definition: "The process of breaking food into smaller parts the body can use."
+    - term: "absorption"
+      definition: "The movement of nutrients or water from the digestive tract into the body."
+    - term: "mechanical digestion"
+      definition: "Physical breakdown of food, such as chewing and stomach mixing."
+    - term: "chemical digestion"
+      definition: "Breakdown of food using acids, enzymes, and other digestive substances."
+    - term: "enzyme"
+      definition: "A substance that helps chemical reactions occur, including digestion of food."
+    - term: "bile"
+      definition: "A digestive fluid made by the liver that helps with fat digestion."
+    - term: "bowel movement"
+      definition: "The passing of stool from the body."
+
+  foundational_principle:
+    summary: "Food must be broken down and absorbed before the body can use it."
+    key_points:
+      - "Different digestive organs perform different parts of digestion."
+      - "The digestive tract moves food forward in a coordinated sequence."
+      - "Most nutrient absorption happens in the small intestine."
+      - "The large intestine helps absorb water and form stool."
+
+  major_structures:
+    mouth:
+      role: "Takes in food and begins digestion."
+      importance: "Chewing and saliva start the digestive process."
+    esophagus:
+      role: "Moves swallowed food toward the stomach."
+      importance: "It serves as the transport pathway from mouth to stomach."
+    stomach:
+      role: "Stores, mixes, and chemically digests food."
+      importance: "It helps turn food into a more digestible mixture."
+    small_intestine:
+      role: "Continues digestion and absorbs most nutrients."
+      importance: "It is the main site of nutrient absorption."
+    large_intestine:
+      role: "Absorbs water and helps form stool."
+      importance: "It plays a major role in fluid balance and waste formation."
+    rectum:
+      role: "Stores stool before elimination."
+      importance: "It helps coordinate waste removal."
+    anus:
+      role: "Allows stool to leave the body."
+      importance: "It is the final opening of the digestive tract."
+
+  supporting_organs:
+    liver:
+      role: "Produces bile and processes absorbed substances."
+      importance: "It supports digestion and many metabolic functions."
+    gallbladder:
+      role: "Stores and releases bile."
+      importance: "It helps bile reach the small intestine when needed."
+    pancreas:
+      role: "Releases digestive enzymes and other substances into the small intestine."
+      importance: "It is important for chemical digestion."
+
+  how_digestion_works:
+    intake_phase:
+      - "Food enters the mouth."
+      - "Chewing breaks food into smaller pieces."
+      - "Saliva begins chemical digestion and helps swallowing."
+    transport_phase:
+      - "Food moves through the esophagus into the stomach."
+    stomach_phase:
+      - "The stomach stores and mixes food."
+      - "Acid and enzymes continue breaking food down."
+    intestinal_phase:
+      - "Food enters the small intestine."
+      - "Digestive enzymes and bile help break down nutrients further."
+      - "Most nutrients are absorbed through the lining of the small intestine."
+    water_and_waste_phase:
+      - "Remaining material enters the large intestine."
+      - "Water is absorbed."
+      - "Stool is formed and moved toward the rectum."
+    elimination_phase:
+      - "Stool is stored in the rectum and leaves through the anus."
+
+  major_functions:
+    breakdown_of_food:
+      - "reduces food into smaller usable substances"
+      - "uses chewing, acids, enzymes, and bile"
+    absorption:
+      - "absorbs nutrients"
+      - "absorbs water"
+      - "moves useful substances into the body"
+    waste_handling:
+      - "forms stool"
+      - "stores waste before elimination"
+      - "removes unused material"
+    support_of_whole_body_function:
+      - "supplies materials needed for energy"
+      - "supports growth and tissue repair"
+      - "helps maintain hydration"
+
+  digestion_vs_absorption_vs_elimination:
+    digestion:
+      description: "Food is physically and chemically broken down."
+    absorption:
+      description: "Usable nutrients and water move into the body."
+    elimination:
+      description: "Material the body does not use leaves as stool."
+    teaching_point:
+      - "These are connected but different stages of digestive function."
+
+  digestive_movement:
+    summary: "The digestive tract moves material forward in an organized way."
+    key_points:
+      - "Food does not move only by gravity."
+      - "Muscular movement helps push food and waste through the tract."
+      - "Coordination is important for swallowing, stomach emptying, and bowel movement."
+
+  digestive_system_and_other_body_systems:
+    circulatory_system:
+      relationship: "The blood carries absorbed nutrients from the intestines to the rest of the body."
+    muscular_system:
+      relationship: "Muscles help with chewing, swallowing, and movement of food through the digestive tract."
+    nervous_system:
+      relationship: "The nervous system helps regulate appetite, swallowing, digestive movement, and secretion."
+    endocrine_system:
+      relationship: "Hormonal signaling helps regulate digestive timing and function."
+    immune_system:
+      relationship: "The digestive tract helps interact with and protect against substances entering through food."
+    urinary_system:
+      relationship: "Digestive water absorption and urinary fluid regulation both affect hydration balance."
+
+  common_digestive_symptoms_and_experiences:
+    - name: "nausea"
+      explanation: "A sensation of wanting to vomit."
+    - name: "vomiting"
+      explanation: "Forceful expulsion of stomach contents."
+    - name: "abdominal pain"
+      explanation: "Pain felt in the belly area, which may come from many digestive or non-digestive causes."
+    - name: "bloating"
+      explanation: "A feeling of fullness, pressure, or swelling in the abdomen."
+    - name: "diarrhea"
+      explanation: "Frequent loose or watery stool."
+    - name: "constipation"
+      explanation: "Difficulty passing stool or infrequent bowel movements."
+    - name: "heartburn"
+      explanation: "A burning sensation often felt in the chest or upper abdomen related to acid reflux."
+    - name: "loss of appetite"
+      explanation: "Reduced desire to eat."
+
+  common_factors_that_affect_digestive_function:
+    food_and_hydration:
+      - "meal size"
+      - "food type"
+      - "fiber intake"
+      - "hydration status"
+    illness_or_irritation:
+      - "infection"
+      - "inflammation"
+      - "food intolerance"
+      - "reflux"
+    bowel_pattern_factors:
+      - "activity level"
+      - "stress"
+      - "routine changes"
+      - "medications"
+    systemic_or_functional:
+      - "fatigue"
+      - "pain"
+      - "nervous system regulation"
+      - "muscle coordination"
+
+  important_distinctions:
+    - name: "digestion vs absorption"
+      explanation: "Digestion breaks food down, while absorption moves useful substances into the body."
+    - name: "small intestine vs large intestine"
+      explanation: "The small intestine absorbs most nutrients, while the large intestine mainly absorbs water and helps form stool."
+    - name: "stomach discomfort vs generalized abdominal pain"
+      explanation: "Some discomfort comes mainly from the upper digestive tract, while abdominal pain can have many locations and causes."
+    - name: "temporary stomach upset vs severe digestive illness"
+      explanation: "Short-term digestive discomfort can happen, but severe pain, bleeding, dehydration, or obstruction-like symptoms are more concerning."
+    - name: "digestive symptom vs emergency sign"
+      explanation: "Many digestive symptoms are common, but some patterns suggest urgent danger."
+
+  age_related_considerations:
+    children:
+      - "Digestion supports growth, development, and energy needs."
+      - "Fluid loss from vomiting or diarrhea can become more significant more quickly."
+    adults:
+      - "Healthy digestion supports nutrition, hydration, and bowel regularity."
+    older_adults:
+      - "Appetite, bowel habits, and digestive tolerance may change with age."
+      - "Dehydration, constipation, and reduced intake may carry greater risk."
+
+  common_questions_jessie_should_handle:
+    - "What does the digestive system do?"
+    - "Where does digestion start?"
+    - "What does the stomach do?"
+    - "Where are nutrients absorbed?"
+    - "What is the difference between the small and large intestine?"
+    - "What do the liver, gallbladder, and pancreas do?"
+    - "Why are digestion and absorption not the same thing?"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "brief mild indigestion after a heavy meal"
+      - "temporary mild nausea"
+      - "short-term constipation after routine change"
+      - "brief loose stool from minor stomach upset"
+    should_be_monitored:
+      - "recurrent abdominal discomfort"
+      - "persistent constipation"
+      - "ongoing diarrhea"
+      - "reduced appetite lasting days"
+      - "repeated vomiting"
+    more_concerning:
+      - "severe abdominal pain"
+      - "bloody stool or black stool"
+      - "vomiting blood"
+      - "inability to keep fluids down"
+      - "signs of dehydration"
+      - "persistent worsening abdominal swelling"
+    emergency_patterns:
+      - "severe abdominal pain with rigid abdomen"
+      - "vomiting blood"
+      - "black or bloody stool with concerning symptoms"
+      - "signs of bowel obstruction"
+      - "severe dehydration"
+      - "collapse or unresponsiveness"
+
+  red_flags:
+    immediate_attention:
+      - "severe abdominal pain"
+      - "vomiting blood"
+      - "black stool or bloody stool"
+      - "inability to keep fluids down"
+      - "signs of severe dehydration"
+      - "swollen abdomen with severe pain"
+      - "collapse"
+      - "loss of consciousness"
+
+  safety_relevance:
+    key_points:
+      - "Digestive problems can lead to dehydration, poor nutrition, bleeding, or severe pain."
+      - "Vomiting and diarrhea matter partly because they can reduce fluid balance."
+      - "Bleeding, severe pain, and inability to keep fluids down need more urgent attention."
+      - "Jessie should remain educational for general digestion questions but escalate serious symptom patterns clearly."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Explain digestion as breakdown, absorption, and waste removal."
+      - "Use the path of food through the body as a teaching framework."
+      - "Clearly distinguish the stomach, small intestine, and large intestine."
+      - "Mention the liver, gallbladder, and pancreas in simple support roles."
+      - "Escalate clearly when symptoms suggest bleeding, dehydration, obstruction, or severe abdominal illness."
+    style_notes:
+      - "Start with simple food-path explanations."
+      - "Avoid unnecessary jargon unless more detail is requested."
+      - "Do not diagnose specific gastrointestinal disease from limited symptom descriptions."
+      - "Use direct safety language when red flags are present."
+    teaching_sequence:
+      - "Define the digestive system."
+      - "Explain what digestion means."
+      - "Walk through the path of food."
+      - "Differentiate digestion, absorption, and elimination."
+      - "Connect symptoms to hydration, nutrition, and safety when relevant."
+
+  cross_system_links:
+    - "The digestive system supplies nutrients that enter the bloodstream through absorption."
+    - "It works with muscles for chewing, swallowing, and bowel movement."
+    - "It depends on nervous system control for coordinated digestive activity."
+    - "It interacts with the liver, pancreas, and gallbladder for digestion support."
+    - "It strongly affects hydration, energy availability, and overall body function."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "The digestive system breaks food down into forms the body can use, absorbs nutrients and water, and removes what the body does not need."
+      - "Digestion starts in the mouth, continues in the stomach, and most nutrient absorption happens in the small intestine."
+      - "The large intestine mainly absorbs water and helps form stool."
+      - "The liver, gallbladder, and pancreas support digestion by releasing helpful substances."
+    caution_examples:
+      - "Many digestive symptoms are mild and temporary, but severe abdominal pain, vomiting blood, black or bloody stool, or inability to keep fluids down need urgent attention."
+      - "Digestive problems can become dangerous when they lead to dehydration, bleeding, or severe worsening."
+
+  final_summary:
+    summary_points:
+      - "The digestive system breaks down food, absorbs nutrients and water, and removes solid waste."
+      - "Digestion begins in the mouth and continues through the stomach and intestines."
+      - "Most nutrients are absorbed in the small intestine."
+      - "The large intestine mainly absorbs water and helps form stool."
+      - "The liver, gallbladder, and pancreas support digestion."
+      - "Jessie should explain digestion clearly and escalate severe abdominal pain, bleeding, dehydration, or obstruction-like symptoms promptly."

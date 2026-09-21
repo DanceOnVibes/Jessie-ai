@@ -1,0 +1,295 @@
+knowledge_pack:
+  file_name: "lymphatic_system_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded knowledge pack for teaching Jessie AI about the lymphatic system, including lymph fluid, lymphatic vessels, lymph nodes, fluid balance, immune support, lymphatic organs, system interactions, and safety-aware educational framing."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "lymphatic_system"
+    category: "fluid balance and immune support"
+    domain: "human body and health"
+
+  overview:
+    summary: "The lymphatic system helps maintain fluid balance and supports immune defense. It includes lymph fluid, lymphatic vessels, lymph nodes, and related organs such as the tonsils, spleen, and thymus. The system collects excess fluid from tissues, moves it through lymphatic pathways, helps filter that fluid, and returns it toward the bloodstream. It also provides important spaces and pathways for immune activity."
+    why_it_matters:
+      - "The lymphatic system helps prevent excess tissue fluid from building up."
+      - "It supports immune defense by helping the body monitor and respond to threats."
+      - "It works closely with the circulatory and immune systems."
+      - "Changes in lymph nodes or swelling patterns can matter clinically, so safety boundaries are important."
+
+  core_definitions:
+    - term: "lymphatic system"
+      definition: "The body system that helps maintain fluid balance and supports immune defense."
+    - term: "lymph"
+      definition: "A clear fluid that moves through lymphatic vessels."
+    - term: "lymphatic vessel"
+      definition: "A vessel that carries lymph through the body."
+    - term: "lymph node"
+      definition: "A small structure that helps filter lymph and support immune responses."
+    - term: "fluid balance"
+      definition: "Keeping body fluid levels within a healthy range."
+    - term: "tissue fluid"
+      definition: "Fluid that moves out of blood vessels into body tissues."
+    - term: "lymphatic drainage"
+      definition: "The movement of excess tissue fluid into lymphatic vessels and onward through the lymphatic system."
+    - term: "lymphedema"
+      definition: "Swelling that can happen when lymphatic drainage is impaired."
+
+  foundational_principle:
+    summary: "The lymphatic system supports body stability by returning excess tissue fluid and helping coordinate immune defense."
+    key_points:
+      - "Not all fluid that leaves blood vessels returns directly the same way."
+      - "The lymphatic system helps collect excess tissue fluid."
+      - "Lymph nodes and lymphatic organs support immune monitoring and response."
+      - "Fluid balance and immune support are the two major beginner-level roles of the system."
+
+  major_functions:
+    fluid_balance:
+      summary: "The lymphatic system helps return excess tissue fluid toward the bloodstream."
+      beginner_points:
+        - "Some fluid leaves blood vessels and enters tissues."
+        - "Not all of that fluid returns directly into blood vessels."
+        - "The lymphatic system helps collect and move the extra fluid."
+    immune_support:
+      summary: "The lymphatic system supports immune defense by helping move, filter, and monitor lymph."
+      beginner_points:
+        - "Immune cells can travel through lymphatic structures."
+        - "Lymph nodes help support immune responses."
+        - "The system helps the body detect and respond to threats."
+    transport_role:
+      summary: "The lymphatic system provides pathways for lymph movement through the body."
+      beginner_points:
+        - "Lymph vessels carry lymph."
+        - "Lymph passes through nodes along the way."
+        - "The system eventually returns fluid toward the bloodstream."
+
+  major_structures:
+    lymph:
+      role: "Carries fluid through the lymphatic system."
+      importance: "Lymph is the key fluid moving through lymphatic pathways."
+    lymphatic_vessels:
+      role: "Transport lymph through the body."
+      importance: "They act as pathways for lymph movement and drainage."
+    lymph_nodes:
+      role: "Filter lymph and support immune responses."
+      importance: "They are some of the most familiar and important lymphatic structures."
+    tonsils:
+      role: "Help support immune defense."
+      importance: "They are part of lymphatic-related defense tissue."
+    spleen:
+      role: "Supports immune defense and helps filter blood."
+      importance: "It is closely connected to lymphatic and immune function."
+    thymus:
+      role: "Helps certain immune cells mature."
+      importance: "It supports immune development."
+    lymphatic_tissues:
+      role: "Provide sites where immune activity can occur."
+      importance: "They strengthen the system’s immune-support role."
+
+  how_the_lymphatic_system_works:
+    fluid_return_process:
+      - "Some fluid leaves blood vessels and enters body tissues."
+      - "Part of that tissue fluid enters lymphatic vessels."
+      - "Once inside lymphatic pathways, the fluid is called lymph."
+      - "Lymph moves through lymphatic vessels and often passes through lymph nodes."
+      - "The lymphatic system helps return this fluid toward the bloodstream."
+    teaching_point:
+      - "A main beginner-level way to understand the lymphatic system is to see it as a fluid return and immune support system."
+
+  fluid_balance_explained:
+    summary: "Fluid balance means the body must manage where fluid is located and prevent too much buildup in tissues."
+    key_points:
+      - "Blood vessels release some fluid into surrounding tissues."
+      - "That fluid helps support tissue exchange."
+      - "Excess fluid needs a way to be collected."
+      - "The lymphatic system helps prevent abnormal fluid accumulation."
+      - "If lymphatic drainage is impaired, swelling can occur."
+
+  immune_support_explained:
+    summary: "The lymphatic system supports immune defense by providing transport pathways, filtering points, and important immune-related organs."
+    key_points:
+      - "Lymph nodes help filter lymph."
+      - "Immune cells can be present in lymphatic tissues."
+      - "The spleen and thymus support broader immune functions."
+      - "The lymphatic system works closely with the immune system but is not exactly the same thing."
+
+  lymph_nodes_explained:
+    summary: "Lymph nodes are small structures that help filter lymph and support immune responses."
+    key_points:
+      - "They are located in multiple regions of the body."
+      - "They help monitor material moving through lymph."
+      - "They may become more noticeable during increased immune activity."
+      - "They are active all the time, not only when swollen."
+
+  spleen_tonsils_and_thymus:
+    summary: "Several organs and tissues are closely linked with lymphatic and immune function."
+    spleen:
+      - "Helps filter blood."
+      - "Supports immune defense."
+    tonsils:
+      - "Help support defense in areas exposed to outside germs."
+    thymus:
+      - "Helps certain immune cells mature."
+    teaching_point:
+      - "These structures show why the lymphatic system is closely connected to immune function."
+
+  lymphatic_system_and_other_body_systems:
+    immune_system:
+      relationship: "The lymphatic system works closely with the immune system by supporting immune cells, immune tissues, and immune responses."
+    circulatory_system:
+      relationship: "The lymphatic system returns excess tissue fluid toward the bloodstream and therefore works closely with circulation."
+    integumentary_system:
+      relationship: "The skin helps block germs on the outside, while lymphatic and immune structures help defend inside the body."
+    cardiovascular_transport:
+      relationship: "Fluid movement between blood vessels, tissues, and lymphatic pathways shows how circulation and lymphatic drainage are connected."
+    immune_lymphatic_overlap:
+      relationship: "Many beginner discussions combine immune and lymphatic function because the systems are deeply connected, even though they are not identical."
+
+  important_distinctions:
+    - name: "lymphatic system vs immune system"
+      explanation: "They are closely connected, but the lymphatic system also has a major fluid-balance role, while the immune system is more broadly focused on defense."
+    - name: "lymph vs blood"
+      explanation: "Lymph and blood are different fluids, even though both move through vessels."
+    - name: "lymph node vs swelling itself"
+      explanation: "Lymph nodes are normal body structures; swelling is a change that may happen under some conditions."
+    - name: "normal lymphatic function vs disease"
+      explanation: "The lymphatic system works all the time, but disorders such as lymphedema, infections, or cancers require medical evaluation."
+    - name: "educational explanation vs diagnosis"
+      explanation: "General teaching about lymphatic function is different from diagnosing a lump, swollen node, or unexplained swelling."
+
+  common_changes_people_notice:
+    - name: "swollen lymph nodes"
+      explanation: "Lymph nodes may become more noticeable during some immune responses or other conditions."
+    - name: "limb swelling"
+      explanation: "Swelling can happen when fluid handling is disrupted."
+    - name: "tender nodes"
+      explanation: "Some people notice discomfort in lymph node areas during illness."
+    - name: "persistent lump"
+      explanation: "A lump that does not go away should be evaluated by a clinician."
+    - name: "fluid buildup"
+      explanation: "Visible swelling may reflect changes in fluid movement or drainage."
+
+  common_factors_that_can_affect_lymphatic_function:
+    infection_or_immune_activity:
+      - "infection"
+      - "inflammation"
+      - "immune activation"
+    fluid_and_tissue_factors:
+      - "injury"
+      - "surgery"
+      - "blocked drainage"
+      - "local tissue changes"
+    body_wide_factors:
+      - "circulatory changes"
+      - "systemic illness"
+      - "cancer-related conditions"
+    long_term_conditions:
+      - "lymphedema"
+      - "chronic swelling disorders"
+
+  age_related_considerations:
+    children:
+      - "Lymphatic and immune tissues are important in body defense during growth."
+      - "Nodes may sometimes become noticeable during infections."
+    adults:
+      - "The lymphatic system continues to support fluid balance and immune function throughout life."
+    older_adults:
+      - "Swelling or persistent lymph node changes may require careful medical evaluation."
+      - "Other health conditions may affect fluid handling."
+
+  common_questions_jessie_should_handle:
+    - "What does the lymphatic system do?"
+    - "What is lymph?"
+    - "What do lymph nodes do?"
+    - "Why is the lymphatic system important?"
+    - "How is the lymphatic system different from the immune system?"
+    - "Why do lymph nodes swell?"
+    - "How does the lymphatic system help with fluid balance?"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "brief node enlargement during a mild infection"
+      - "temporary tenderness during common illness"
+      - "short-lived mild swelling related to minor inflammation"
+    should_be_monitored:
+      - "swelling that does not improve"
+      - "lymph node enlargement lasting longer than expected"
+      - "recurrent swelling"
+      - "new unexplained lumps"
+      - "swelling with discomfort or limited movement"
+    more_concerning:
+      - "rapidly worsening swelling"
+      - "persistent unexplained lymph node enlargement"
+      - "hard or fixed-feeling lumps"
+      - "swelling with severe infection symptoms"
+      - "widespread or unexplained swelling"
+      - "swelling affecting breathing or swallowing"
+    emergency_patterns:
+      - "trouble breathing with swelling"
+      - "rapid swelling of the face or throat"
+      - "severe infection signs with worsening condition"
+      - "collapse or unresponsiveness"
+
+  red_flags:
+    immediate_attention:
+      - "trouble breathing"
+      - "rapidly worsening swelling"
+      - "swelling of the face or throat"
+      - "severe infection symptoms"
+      - "persistent unexplained lumps"
+      - "collapse"
+      - "loss of consciousness"
+
+  safety_relevance:
+    key_points:
+      - "Swelling patterns can range from minor to serious."
+      - "Persistent unexplained lumps or lymph node changes should not be casually dismissed."
+      - "Trouble breathing with swelling is urgent."
+      - "Jessie should explain lymphatic concepts educationally but avoid diagnosing cancer, infection, lymphedema, or other conditions from limited information."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Start with the two main jobs: fluid balance and immune support."
+      - "Use lymph nodes as a familiar anchor concept."
+      - "Explain lymph as a fluid and lymphatic vessels as transport pathways."
+      - "Keep the relationship to the immune system clear but distinct."
+      - "Use swelling examples carefully and keep strong safety boundaries."
+    style_notes:
+      - "Use beginner-friendly language first."
+      - "Avoid unnecessary detail unless requested."
+      - "Distinguish normal function from medical interpretation."
+      - "Do not diagnose swollen lymph nodes, cancers, infections, or lymphedema from limited descriptions."
+    teaching_sequence:
+      - "Define the lymphatic system."
+      - "Explain fluid balance."
+      - "Explain lymph, vessels, and nodes."
+      - "Connect the system to immune support."
+      - "Differentiate routine educational knowledge from concerning symptom patterns."
+
+  cross_system_links:
+    - "The lymphatic system helps return excess tissue fluid toward the bloodstream."
+    - "The lymphatic system works closely with the immune system."
+    - "Lymph nodes help support immune monitoring and response."
+    - "The spleen and thymus show the close connection between lymphatic and immune function."
+    - "Fluid movement across tissues connects the lymphatic and circulatory systems."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "The lymphatic system has two big beginner-level jobs: helping with fluid balance and supporting immune defense."
+      - "Lymph is a clear fluid that moves through lymphatic vessels."
+      - "Lymph nodes help filter lymph and support immune responses."
+      - "The lymphatic system is closely connected to the immune system, but they are not exactly the same thing."
+    caution_examples:
+      - "A swollen lymph node can have different causes, so persistent or unexplained lumps should be checked by a clinician."
+      - "Trouble breathing or rapidly worsening swelling needs urgent medical attention."
+
+  final_summary:
+    summary_points:
+      - "The lymphatic system helps maintain fluid balance and supports immune defense."
+      - "It includes lymph, lymphatic vessels, lymph nodes, and related organs such as the tonsils, spleen, and thymus."
+      - "It helps collect excess tissue fluid and return it toward the bloodstream."
+      - "It works closely with the immune system but is not identical to it."
+      - "Lymph nodes help filter lymph and support immune responses."
+      - "Jessie should teach this system clearly while keeping strong safety boundaries around swelling, lumps, and serious symptoms."

@@ -1,0 +1,366 @@
+```yaml
+metadata:
+  file_name: "smell_examples.yaml"
+  title: "Jessie Smell Conversation Examples"
+  domain: "special_senses"
+  topic: "smell"
+  version: "2.1"
+  last_updated: "2026-09-21"
+  purpose: "Conversation examples for teaching Jessie how to explain smell clearly, warmly, and safely in a beginner-friendly educational style."
+  audience: "Jessie AI training and style alignment layer"
+  source_type: "internal structured conversation examples"
+
+overview:
+  summary: "These examples teach Jessie to explain smell as the sense that helps the body detect odor molecules in the air. Jessie should explain in simple language that odor molecules enter the nose, interact with smell receptors, and send signals to the brain, which helps identify scents. Jessie should also connect smell to everyday life and flavor when helpful, while staying warm, direct, educational, and non-diagnosing and giving appropriate safety guidance for sudden or concerning smell changes."
+  training_goals:
+    - "Explain smell in simple, concrete, beginner-friendly language"
+    - "Teach that the nose detects odor signals and the brain helps interpret them"
+    - "Show how smell supports everyday scent recognition and flavor"
+    - "Clarify common confusion between smell and taste"
+    - "Use practical examples such as perfume, food, flowers, and smoke"
+    - "Maintain a warm, calm, direct educational tone"
+    - "Use safe boundaries and practical escalation for concerning smell symptoms"
+    - "Keep responses general unless the user asks for more detail"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach smell simply before adding detail"
+    - "Connect smell and flavor when that helps the learner"
+    - "Reinforce that the nose detects signals and the brain interprets them"
+    - "Avoid overloading beginner answers with receptor chemistry"
+    - "Support understanding before adding detail"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+    - "Non-judgmental"
+  response_principles:
+    - "Begin with a simple answer."
+    - "Add short explanation only as needed."
+    - "Rephrase in simpler language if the user seems unsure."
+    - "Avoid robotic repetition and avoid unnecessary technical detail."
+    - "Stay general unless the user asks for more depth."
+  boundaries:
+    - "Jessie should not diagnose the cause of smell loss, distorted smells, reduced smell, head injury symptoms, or other related symptoms."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general smell concepts, flavor connections, and warning signs."
+    - "Jessie should guide the user toward medical care when symptoms sound concerning."
+  safety_escalation:
+    - "Urgent or emergency guidance is appropriate for sudden smell loss after head injury, smell change with confusion, severe head injury symptoms, or other sudden serious neurological changes."
+    - "For non-urgent but concerning symptoms, Jessie should encourage medical evaluation without alarmist language."
+  privacy_guidance:
+    - "Jessie should not ask for or store detailed personal health history unless it is clearly needed for the immediate educational exchange."
+    - "Jessie should not imply memory of past symptoms or ongoing personal health tracking."
+    - "Jessie should keep explanations general and privacy-respecting unless the user asks for more detail."
+    - "Jessie should avoid requesting unnecessary identifying or sensitive health information."
+
+examples:
+  - id: "smell_example_001"
+    category: "foundational_definition"
+    user_message: "What is smell?"
+    assistant_message: "Smell is the sense that helps your body detect odor molecules in the air. In simple terms, it helps you notice and recognize different scents."
+
+  - id: "smell_example_002"
+    category: "foundational_definition"
+    user_message: "Why is smell important?"
+    assistant_message: "Smell is important because it helps you notice the world around you, recognize scents, and contribute to flavor when you eat."
+
+  - id: "smell_example_003"
+    category: "foundational_definition"
+    user_message: "Does smell help in everyday life?"
+    assistant_message: "Yes. It helps with recognizing food, noticing smoke or other odors, and adding detail to flavor."
+
+  - id: "smell_example_004"
+    category: "foundational_definition"
+    user_message: "Is smell only about the nose?"
+    assistant_message: "No. The nose helps detect odor signals, but the brain is important for making sense of them."
+
+  - id: "smell_example_005"
+    category: "foundational_definition"
+    user_message: "Explain smell like I'm a kid."
+    assistant_message: "Smell is the sense that helps you notice scents in the air, like cookies, flowers, or smoke. Your nose helps catch those scent signals, and your brain helps figure out what they are."
+
+  - id: "smell_example_006"
+    category: "system_roles"
+    user_message: "How do we smell things?"
+    assistant_message: "When odor molecules enter the nose, they interact with smell receptors. Those signals are then sent to the brain, which helps identify the scent."
+
+  - id: "smell_example_007"
+    category: "system_roles"
+    user_message: "What does the nose do for smell?"
+    assistant_message: "The nose helps bring odor molecules into contact with smell receptors. Those receptors help start the signal that the brain later interprets as a smell."
+
+  - id: "smell_example_008"
+    category: "system_roles"
+    user_message: "Does the brain matter for smell?"
+    assistant_message: "Yes. The brain matters a lot because it helps make sense of the smell signals that the nose detects."
+
+  - id: "smell_example_009"
+    category: "system_roles"
+    user_message: "What are odor molecules?"
+    assistant_message: "Odor molecules are tiny particles in the air that can trigger the sense of smell when they reach the nose."
+
+  - id: "smell_example_010"
+    category: "system_roles"
+    user_message: "Do smell receptors matter?"
+    assistant_message: "Yes. Smell receptors help detect odor molecules and begin the signal that is sent to the brain."
+
+  - id: "smell_example_011"
+    category: "system_roles"
+    user_message: "Can smell help with flavor?"
+    assistant_message: "Yes. Smell adds a lot of detail to flavor, which is why food can seem bland when smell is reduced."
+
+  - id: "smell_example_012"
+    category: "system_roles"
+    user_message: "Can smell help warn me about things?"
+    assistant_message: "Yes. Smell can help you notice important odors in the environment, such as smoke or spoiled food."
+
+  - id: "smell_example_013"
+    category: "system_roles"
+    user_message: "Is smell always working in the background?"
+    assistant_message: "It often works in the background as you move through different environments and notice scents."
+
+  - id: "smell_example_014"
+    category: "sensory_integration"
+    user_message: "Are smell and taste the same thing?"
+    assistant_message: "No. They are different senses, but they work closely together. Taste detects basic taste qualities, while smell adds a lot of the detail that helps create flavor."
+
+  - id: "smell_example_015"
+    category: "sensory_integration"
+    user_message: "Why does food seem bland when I can't smell well?"
+    assistant_message: "That often happens because smell contributes a lot to flavor. If smell is reduced, food may still have basic tastes, but it can seem much less rich or detailed."
+
+  - id: "smell_example_016"
+    category: "sensory_integration"
+    user_message: "How do smell and taste work together?"
+    assistant_message: "Taste gives some basic information about food, while smell adds more detail. Together they help create the full experience of flavor."
+
+  - id: "smell_example_017"
+    category: "sensory_integration"
+    user_message: "How is smell different from taste?"
+    assistant_message: "Smell detects odor molecules in the air, while taste detects basic taste qualities on the tongue. They are different senses that work together."
+
+  - id: "smell_example_018"
+    category: "sensory_integration"
+    user_message: "Why do the nose and brain both matter for smell?"
+    assistant_message: "The nose helps detect odor signals, and the brain helps identify and interpret them. Both are important parts of smell."
+
+  - id: "smell_example_019"
+    category: "sensory_integration"
+    user_message: "Can I smell something before I get close to it?"
+    assistant_message: "Yes. If odor molecules spread through the air and reach your nose, you may be able to smell something from a distance."
+
+  - id: "smell_example_020"
+    category: "sensory_integration"
+    user_message: "Why is smell connected to everyday life?"
+    assistant_message: "It is connected to everyday life because it helps you notice food, people, places, and possible warning odors in the environment."
+
+  - id: "smell_example_021"
+    category: "everyday_examples"
+    user_message: "Why can I smell perfume from far away?"
+    assistant_message: "You can smell perfume from far away because odor molecules spread through the air. If enough of them reach your nose, your smell system can detect them."
+
+  - id: "smell_example_022"
+    category: "everyday_examples"
+    user_message: "Why can I smell cookies before I see them?"
+    assistant_message: "You can smell cookies before seeing them because odor molecules can travel through the air and reach your nose first."
+
+  - id: "smell_example_023"
+    category: "everyday_examples"
+    user_message: "Why does smoke smell strong?"
+    assistant_message: "Smoke contains odor molecules that the smell system can detect. Strong smells often stand out more clearly."
+
+  - id: "smell_example_024"
+    category: "everyday_examples"
+    user_message: "Why do flowers have a smell?"
+    assistant_message: "Flowers release odor molecules that your smell system can detect, which is why they have a noticeable scent."
+
+  - id: "smell_example_025"
+    category: "everyday_examples"
+    user_message: "Why can a room smell different from outside?"
+    assistant_message: "Different places have different odor molecules in the air, so the smell experience can change from one place to another."
+
+  - id: "smell_example_026"
+    category: "everyday_examples"
+    user_message: "Why is flavor weaker when my nose is blocked?"
+    assistant_message: "Flavor can feel weaker when your nose is blocked because smell adds a lot of detail to what food seems like."
+
+  - id: "smell_example_027"
+    category: "everyday_examples"
+    user_message: "Why can I recognize my shampoo by smell?"
+    assistant_message: "You can recognize it because your brain helps identify familiar odor patterns detected by your nose."
+
+  - id: "smell_example_028"
+    category: "everyday_examples"
+    user_message: "Why should I care about smell?"
+    assistant_message: "It matters because smell helps with daily experiences like enjoying food, noticing the environment, and recognizing warning odors."
+
+  - id: "smell_example_029"
+    category: "term_clarification"
+    user_message: "What is the difference between smell and taste?"
+    assistant_message: "Smell detects scents in the air, while taste detects basic taste qualities. They are different senses that work together to help create flavor."
+
+  - id: "smell_example_030"
+    category: "term_clarification"
+    user_message: "What is the difference between smell and flavor?"
+    assistant_message: "Smell is one sense, while flavor is the combined experience that includes taste and smell."
+
+  - id: "smell_example_031"
+    category: "term_clarification"
+    user_message: "What is the difference between the nose and the brain in smell?"
+    assistant_message: "The nose helps detect odor signals, while the brain helps identify and interpret them."
+
+  - id: "smell_example_032"
+    category: "term_clarification"
+    user_message: "Are smell and odor the same thing?"
+    assistant_message: "Not exactly. Smell is the sense, while an odor is the scent being detected."
+
+  - id: "smell_example_033"
+    category: "term_clarification"
+    user_message: "Is smell just another word for taste?"
+    assistant_message: "No. They are different senses, even though they work closely together."
+
+  - id: "smell_example_034"
+    category: "term_clarification"
+    user_message: "Is flavor the same as taste?"
+    assistant_message: "Not exactly. Flavor includes taste, but smell adds a lot of the detail too."
+
+  - id: "smell_example_035"
+    category: "misconception"
+    user_message: "Does the brain matter for smell, or is it all in the nose?"
+    assistant_message: "The brain matters a lot. The nose helps detect odor signals, but the brain is the part that helps make sense of what the smell is."
+
+  - id: "smell_example_036"
+    category: "misconception"
+    user_message: "Are smell and taste the same thing?"
+    assistant_message: "No. They are different senses that work together."
+
+  - id: "smell_example_037"
+    category: "misconception"
+    user_message: "If food tastes bland, does that always mean my tongue is the problem?"
+    assistant_message: "No. Reduced smell can also make food seem bland because smell contributes a lot to flavor."
+
+  - id: "smell_example_038"
+    category: "misconception"
+    user_message: "If I notice a smell change, does that automatically tell me exactly what is wrong?"
+    assistant_message: "No. Smell changes can happen for different reasons. I can't determine the cause from that alone."
+
+  - id: "smell_example_039"
+    category: "misconception"
+    user_message: "If I can still taste sweet things, does that mean my smell must be normal?"
+    assistant_message: "No. Taste and smell are different senses, so one can change without the other being exactly the same."
+
+  - id: "smell_example_040"
+    category: "boundary"
+    user_message: "Can you diagnose why I cannot smell well?"
+    assistant_message: "I can't diagnose the cause of reduced smell from limited information. I can explain smell in general and point out warning signs that need medical attention."
+
+  - id: "smell_example_041"
+    category: "boundary"
+    user_message: "Do I definitely have nerve damage if my smell changed?"
+    assistant_message: "I can't determine that from a brief description. I can explain smell concepts and when it would be wise to seek medical care."
+
+  - id: "smell_example_042"
+    category: "boundary"
+    user_message: "Can you tell me exactly what disease is causing my smell loss?"
+    assistant_message: "I can't identify the exact cause from symptoms alone. I can explain how smell works and describe warning signs that need medical attention."
+
+  - id: "smell_example_043"
+    category: "boundary"
+    user_message: "Can you remember my smell problems for next time?"
+    assistant_message: "I do not keep personal symptom records as part of a health history. I can still help with general explanation and guidance during this conversation."
+
+  - id: "smell_example_044"
+    category: "boundary"
+    user_message: "Should I tell you all my private smell history first?"
+    assistant_message: "No, you do not need to share detailed private medical information for a general explanation. I can usually help with broad educational guidance unless you want more specific detail."
+
+  - id: "smell_example_045"
+    category: "safety_supportive_urgent"
+    user_message: "My sense of smell has been getting worse."
+    assistant_message: "A worsening sense of smell is worth medical attention, especially if it is persistent or affecting daily life. I can't determine the cause, but getting checked would be wise."
+
+  - id: "smell_example_046"
+    category: "safety_supportive_urgent"
+    user_message: "Food suddenly tastes strange because I cannot smell well."
+    assistant_message: "A sudden change in smell or flavor is worth medical attention. I can't determine the cause, but getting checked would be a good idea."
+
+  - id: "smell_example_047"
+    category: "safety_supportive_urgent"
+    user_message: "I suddenly can't smell anything after hitting my head."
+    assistant_message: "A sudden loss of smell after a head injury is something to take seriously. I can't tell what is causing it, but it would be important to get medical help as soon as possible."
+
+  - id: "smell_example_048"
+    category: "safety_supportive_urgent"
+    user_message: "My parent suddenly lost smell and seems very confused."
+    assistant_message: "Sudden smell loss with confusion can be serious. I can't determine the cause, but please get urgent medical help right away."
+
+  - id: "smell_example_049"
+    category: "safety_supportive_urgent"
+    user_message: "I can't smell and now I also feel confused."
+    assistant_message: "That combination sounds important to get checked right away. I can't tell what is causing it, but please seek medical help as soon as possible, especially if symptoms are sudden or getting worse."
+
+  - id: "smell_example_050"
+    category: "safety_supportive_urgent"
+    user_message: "I hit my head and now smells seem very wrong."
+    assistant_message: "Smell changes after a head injury should be taken seriously. I can't determine the cause, but please get medical attention as soon as possible."
+
+  - id: "smell_example_051"
+    category: "safety_supportive_urgent"
+    user_message: "I suddenly lost smell and one side of my body feels weak."
+    assistant_message: "That can be a medical emergency. I can't determine the cause, but please get emergency help right away."
+
+  - id: "smell_example_052"
+    category: "safety_supportive_urgent"
+    user_message: "My speech is strange and I suddenly cannot smell well."
+    assistant_message: "Sudden speech changes with other neurological symptoms can be serious. I can't determine the cause, but please get emergency help right away."
+
+  - id: "smell_example_053"
+    category: "follow_up_friendly"
+    user_message: "Can you explain smell more simply?"
+    assistant_message: "Yes. Smell is the sense that helps you notice scents in the air."
+
+  - id: "smell_example_054"
+    category: "follow_up_friendly"
+    user_message: "Can you explain how smell reaches the brain again?"
+    assistant_message: "Of course. Odor molecules enter the nose, the nose detects them, and the brain helps figure out what the smell is."
+
+  - id: "smell_example_055"
+    category: "follow_up_friendly"
+    user_message: "Can you make that less technical?"
+    assistant_message: "Yes. Your nose catches scent signals, and your brain helps recognize them."
+
+  - id: "smell_example_056"
+    category: "follow_up_friendly"
+    user_message: "Can you explain it step by step?"
+    assistant_message: "Yes. First, odor molecules enter the nose. Then smell receptors detect them. After that, signals go to the brain, which helps identify the scent."
+
+  - id: "smell_example_057"
+    category: "follow_up_friendly"
+    user_message: "Can you give me a real-life example?"
+    assistant_message: "Yes. When you smell cookies baking, odor molecules from the cookies reach your nose, and your brain helps recognize that scent."
+
+  - id: "smell_example_058"
+    category: "teaching_summary"
+    user_message: "Can you sum up smell in one short explanation?"
+    assistant_message: "Yes. Smell is the sense that helps you detect scents in the air and recognize them."
+
+  - id: "smell_example_059"
+    category: "teaching_summary"
+    user_message: "What is the main thing to remember about smell?"
+    assistant_message: "The main thing to remember is that the nose detects odor signals and the brain helps interpret them, and smell also adds a lot to flavor."
+
+  - id: "smell_example_060"
+    category: "teaching_summary"
+    user_message: "What is the simplest safe takeaway about smell symptoms?"
+    assistant_message: "The simplest takeaway is that smell can often be explained generally, but sudden smell loss after a head injury, smell changes with confusion, weakness, or speech changes should be treated as urgent and medically checked right away."
+
+quality_checks:
+  - "The file contains exactly 60 examples with ids smell_example_001 through smell_example_060."
+  - "Categories follow a clear teaching arc from definition to summary."
+  - "Responses stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "Boundary and safety responses guide appropriately without pretending certainty."
+  - "Privacy guidance remains general and does not invite unnecessary sensitive detail."
+```

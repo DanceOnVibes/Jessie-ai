@@ -1,0 +1,414 @@
+```yaml
+knowledge_pack:
+  file_name: "vision_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Comprehensive consolidated knowledge pack for teaching Jessie AI about vision, including eye structures, light focusing, retina and photoreceptors, common visual concepts, the visual pathway, binocular vision, color vision, depth perception, and strong safety-aware educational framing."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "vision"
+    category: "special senses, sight, light detection, image processing, and visual interpretation"
+    domain: "human body and health"
+
+  overview:
+    summary: "Vision is the sense that allows the body to detect light and interpret it as meaningful visual experience. It depends on the eyes collecting and focusing light, the retina converting light into nerve signals, and the brain processing those signals into recognizable images. The visual system supports shape recognition, color perception, motion detection, depth perception, spatial awareness, reading, navigation, and coordinated interaction with the environment."
+    why_it_matters:
+      - "Vision helps people detect and interpret the world around them."
+      - "It supports reading, movement, object recognition, and navigation."
+      - "Clear vision depends on both healthy eye structures and healthy brain processing."
+      - "Visual symptoms can range from mild to urgent, so safety boundaries matter."
+
+  foundational_principle:
+    summary: "Vision works by capturing light, focusing it onto the retina, converting light into nerve signals, and processing those signals in the brain."
+    key_points:
+      - "Light enters the eye through transparent structures."
+      - "The eye focuses light onto the retina."
+      - "Photoreceptors in the retina convert light into neural signals."
+      - "Signals travel through the optic nerve and visual pathway to the brain."
+      - "The brain interprets those signals as sight."
+
+  core_definitions:
+    - term: "vision"
+      definition: "The sense that detects light and interprets it as visual experience."
+    - term: "eye"
+      definition: "The organ that collects and focuses light."
+    - term: "retina"
+      definition: "The light-sensitive tissue at the back of the eye that converts light into nerve signals."
+    - term: "photoreceptors"
+      definition: "Specialized retinal cells that detect light."
+    - term: "rods"
+      definition: "Photoreceptors that work especially well in dim light and help detect brightness and motion."
+    - term: "cones"
+      definition: "Photoreceptors that support color vision and fine detail, especially in brighter light."
+    - term: "optic_nerve"
+      definition: "The nerve that carries visual information from the eye toward the brain."
+    - term: "visual_pathway"
+      definition: "The route visual signals take from the retina through the brain for processing."
+    - term: "visual_cortex"
+      definition: "The brain region that processes visual information."
+    - term: "acuity"
+      definition: "Sharpness or clarity of vision."
+    - term: "depth_perception"
+      definition: "The ability to judge distance and three-dimensional relationships."
+    - term: "binocular_vision"
+      definition: "Vision that uses both eyes together."
+    - term: "refraction"
+      definition: "The bending of light as it passes through structures of the eye."
+
+  major_functions:
+    light_detection:
+      summary: "The visual system detects incoming light."
+      beginner_points:
+        - "Without light detection, vision cannot occur."
+        - "The retina contains the cells that detect light."
+    image_focusing:
+      summary: "The eye focuses light so a useful image reaches the retina."
+      beginner_points:
+        - "Clear vision depends on proper focusing."
+        - "The cornea and lens help focus light."
+    visual_signal_generation:
+      summary: "The retina converts light into nerve signals."
+      beginner_points:
+        - "Photoreceptors detect light."
+        - "Those signals are passed deeper into the visual system."
+    image_interpretation:
+      summary: "The brain interprets visual signals into meaningful perception."
+      beginner_points:
+        - "The brain helps recognize shapes, motion, faces, and objects."
+        - "Vision is not created by the eye alone."
+    color_and_detail_perception:
+      summary: "The visual system helps detect color and fine detail."
+      beginner_points:
+        - "Cones are especially important for color and sharp central vision."
+    motion_and_spatial_awareness:
+      summary: "The visual system helps detect movement and spatial relationships."
+      beginner_points:
+        - "This supports navigation and coordination."
+    eye_movement_and_tracking:
+      summary: "Vision depends partly on coordinated eye movements."
+      beginner_points:
+        - "The eyes must align and move together effectively."
+        - "Stable gaze helps keep visual targets clear."
+
+  eye_structures:
+    cornea:
+      role: "Transparent front surface of the eye that begins focusing incoming light."
+      importance: "It provides a major part of the eye's focusing power."
+    pupil:
+      role: "Opening that lets light enter the eye."
+      importance: "It regulates how much light enters."
+    iris:
+      role: "Colored part of the eye that controls pupil size."
+      importance: "It helps adjust light entry."
+    lens:
+      role: "Transparent structure that fine-tunes light focusing."
+      importance: "It helps the eye adjust focus for different distances."
+    retina:
+      role: "Light-sensitive tissue at the back of the eye."
+      importance: "It converts light into nerve signals."
+    macula:
+      role: "Central retinal region important for detailed vision."
+      importance: "It supports fine visual tasks such as reading."
+    fovea:
+      role: "Small central area of the macula specialized for highest visual detail."
+      importance: "It is especially important for sharp central vision."
+    optic_nerve:
+      role: "Carries visual signals from the retina toward the brain."
+      importance: "It connects the eye to central visual processing."
+    sclera:
+      role: "The tough white outer layer of the eye."
+      importance: "It helps protect and support the eye."
+    conjunctiva:
+      role: "Thin membrane covering part of the eye surface and inner eyelids."
+      importance: "It helps protect and lubricate the eye surface."
+    aqueous_humor:
+      role: "Fluid in the front part of the eye."
+      importance: "It helps support eye function and internal conditions."
+    vitreous:
+      role: "Gel-like material filling the back of the eye."
+      importance: "It helps maintain eye shape."
+
+  retina_and_photoreceptors:
+    summary: "The retina is the light-sensitive tissue that begins visual signaling, and photoreceptors are the cells that detect light."
+    rods:
+      function: "Work especially well in dim light and help detect brightness, motion, and broad visual patterns."
+      beginner_explanation: "Rods help more in low light and with general shape and motion."
+    cones:
+      function: "Support color vision and fine detail, especially in brighter light."
+      beginner_explanation: "Cones help more with color and sharp detail."
+    key_points:
+      - "Rods and cones are different types of photoreceptors."
+      - "The retina does not just receive light; it begins signal processing."
+      - "Central and peripheral parts of the retina contribute differently to vision."
+
+  how_vision_works:
+    step_by_step:
+      - "Light enters the eye through the cornea."
+      - "The pupil allows light to pass inward, and the iris helps regulate how much enters."
+      - "The lens helps focus light more precisely."
+      - "Light reaches the retina at the back of the eye."
+      - "Photoreceptors in the retina convert light into nerve signals."
+      - "Signals pass through retinal circuits and into the optic nerve."
+      - "Visual information travels through the visual pathway to the brain."
+      - "The brain interprets the signals as sight."
+
+  focusing_and_refraction:
+    summary: "Clear vision depends on properly bending and focusing light onto the retina."
+    key_points:
+      - "The cornea provides much of the eye's focusing power."
+      - "The lens helps fine-tune focus."
+      - "If light is not focused correctly, vision may be blurry."
+      - "Refraction problems are about focusing, not necessarily brain interpretation."
+
+  accommodation:
+    summary: "Accommodation is the eye's adjustment of lens shape to help focus on near versus far objects."
+    key_points:
+      - "Looking at near objects requires more focusing adjustment."
+      - "Looking at distant objects requires less."
+      - "This helps explain why near and distance vision can feel different."
+
+  visual_pathway:
+    summary: "Visual signals travel from the retina through the optic nerve and deeper brain pathways to reach visual processing areas."
+    simplified_route:
+      - "retina"
+      - "optic nerve"
+      - "optic pathway structures"
+      - "visual cortex"
+    teaching_note: "For beginners, it is usually enough to emphasize that the eye detects light and the brain interprets the signal."
+    key_points:
+      - "The eye sends visual information forward."
+      - "The brain is essential for visual interpretation."
+      - "Vision depends on both sensory detection and central processing."
+
+  binocular_vision_and_depth_perception:
+    summary: "Using both eyes together helps support coordinated vision and depth perception."
+    key_points:
+      - "Each eye provides visual information from a slightly different angle."
+      - "The brain combines these inputs to help judge depth."
+      - "Eye alignment matters for comfortable binocular vision."
+      - "Depth perception is supported by binocular vision but also by visual experience and cues."
+
+  color_vision:
+    summary: "Color vision depends mainly on cone photoreceptors and brain interpretation of different light information."
+    key_points:
+      - "Cones are especially important for color detection."
+      - "Color vision works best in brighter conditions."
+      - "The brain helps organize and interpret color information."
+
+  central_vs_peripheral_vision:
+    summary: "Central and peripheral vision support different visual tasks."
+    central_vision:
+      role: "Used for fine detail, reading, and focused recognition."
+      importance: "It depends strongly on the central retina and macula."
+    peripheral_vision:
+      role: "Used for side awareness, broader spatial awareness, and motion detection."
+      importance: "It helps notice movement and surroundings outside direct gaze."
+
+  common_visual_concepts:
+    clarity_of_vision:
+      explanation: "How sharp and detailed vision appears."
+    brightness:
+      explanation: "How light or dark the visual scene seems."
+    contrast:
+      explanation: "How strongly objects stand out from the background."
+    color:
+      explanation: "Perception of different wavelengths as distinct visual qualities."
+    motion:
+      explanation: "Perception of movement in the environment."
+    visual_field:
+      explanation: "The total area that can be seen at one time."
+    eye_alignment:
+      explanation: "How well the eyes point and work together."
+
+  relationship_to_other_systems:
+    nervous_system:
+      role: "Processes and interprets visual signals."
+      distinction: "The eye detects and begins visual signaling, but the brain gives meaning to what is seen."
+    vestibular_system:
+      role: "Helps stabilize gaze during head movement."
+      distinction: "Vision and vestibular function work together to keep the visual world stable."
+    proprioception:
+      role: "Helps coordinate body position with visual guidance."
+      distinction: "Vision helps guide movement in space, while proprioception provides internal body-position information."
+    musculoskeletal_system:
+      role: "Supports eye movement and visually guided action."
+      distinction: "Eye muscles help direct gaze, while body movement often depends on visual feedback."
+
+  important_distinctions:
+    - name: "vision_vs_eyesight_alone"
+      explanation: "Vision is more than the eyes themselves; it also includes brain processing and interpretation."
+    - name: "eye_detection_vs_brain_interpretation"
+      explanation: "The eye collects and converts light, while the brain interprets the signal as meaningful sight."
+    - name: "rods_vs_cones"
+      explanation: "Rods are more important for dim light and motion, while cones are more important for color and fine detail."
+    - name: "central_vs_peripheral_vision"
+      explanation: "Central vision supports fine detail, while peripheral vision supports side awareness and motion detection."
+    - name: "blur_vs_field_loss"
+      explanation: "Blur means reduced clarity, while field loss means missing part of what can be seen."
+      teaching_note: "The label is odd for a learner-facing answer, so Jessie should restate this naturally."
+    - name: "eye_problem_vs_neurologic_visual_problem"
+      explanation: "Some vision problems begin in the eye, while others involve visual pathways or processing in the brain."
+    - name: "visual_discomfort_vs_dangerous_vision_loss"
+      explanation: "Some eye symptoms are mild, but sudden vision loss or major neurologic signs are emergencies."
+
+  common_changes_people_notice:
+    - name: "blurred_vision"
+      explanation: "Vision may seem less sharp than usual."
+    - name: "double_vision"
+      explanation: "A person may see two images instead of one."
+    - name: "reduced_night_vision"
+      explanation: "Seeing in dim conditions may become harder."
+    - name: "light_sensitivity"
+      explanation: "Bright light may feel uncomfortable or overwhelming."
+    - name: "floaters"
+      explanation: "Small moving specks or shapes may appear in the visual field."
+    - name: "flashes"
+      explanation: "A person may notice brief light-like streaks or flickers."
+    - name: "loss_of_part_of_vision"
+      explanation: "Part of the visual field may seem missing."
+    - name: "eye_pain"
+      explanation: "Pain in or around the eye may occur for many reasons and can sometimes be serious."
+    - name: "red_eye"
+      explanation: "The white part of the eye may appear red or irritated."
+
+  common_factors_that_can_affect_vision:
+    focusing_related:
+      - "refractive errors"
+      - "difficulty focusing"
+    surface_or_external_factors:
+      - "dryness"
+      - "irritation"
+      - "allergens"
+      - "minor eye strain"
+    retinal_or_optic_nerve_factors:
+      - "retinal problems"
+      - "optic nerve problems"
+    neurologic_factors:
+      - "brain pathway or processing problems"
+    environmental_context:
+      - "poor lighting"
+      - "glare"
+      - "visual overload"
+    injury_or_exposure:
+      - "eye trauma"
+      - "chemical exposure"
+      - "foreign body exposure"
+
+  age_related_considerations:
+    children:
+      - "Vision develops over time and supports learning and coordination."
+      - "Eye alignment and visual development matter during childhood."
+    adults:
+      - "Vision supports reading, work, driving, movement, and recognition tasks."
+    older_adults:
+      - "Focusing, contrast sensitivity, and some aspects of visual function may change with age."
+      - "New visual symptoms may need careful attention."
+
+  common_questions_jessie_should_handle:
+    - "How does vision work?"
+    - "What do the different parts of the eye do?"
+    - "What is the retina?"
+    - "What are rods and cones?"
+    - "How does the brain help us see?"
+    - "What is the visual pathway?"
+    - "What is the difference between central and peripheral vision?"
+    - "How do both eyes work together?"
+    - "Why is vision blurry sometimes?"
+    - "Why is depth perception important?"
+
+  normal_vs_concerning_patterns:
+    often_less_concerning:
+      - "brief mild visual fatigue after prolonged screen use"
+      - "temporary glare discomfort"
+      - "mild short-lived blur that improves with blinking or rest"
+    should_be_monitored:
+      - "recurrent blur"
+      - "persistent eye irritation"
+      - "ongoing light sensitivity"
+      - "gradual visual changes"
+      - "increasing difficulty with reading or distance vision"
+    more_concerning:
+      - "sudden vision loss"
+      - "double vision"
+      - "new flashes and many floaters"
+      - "loss of part of the visual field"
+      - "severe eye pain"
+      - "eye injury"
+      - "chemical splash to the eye"
+      - "visual changes with severe headache or neurologic symptoms"
+    emergency_patterns:
+      - "sudden loss of vision"
+      - "sudden curtain-like loss of part of vision"
+      - "chemical exposure to the eye"
+      - "significant eye trauma"
+      - "vision loss with weakness, facial droop, or slurred speech"
+      - "severe eye pain with major vision change"
+
+  red_flags:
+    immediate_attention:
+      - "sudden vision loss"
+      - "double vision with neurologic symptoms"
+      - "new major field loss"
+      - "chemical splash in the eye"
+      - "significant eye injury"
+      - "vision change with stroke-like symptoms"
+      - "severe eye pain with vision change"
+
+  safety_relevance:
+    key_points:
+      - "Jessie may explain eye structure, retina function, rods and cones, and visual pathways in educational terms."
+      - "Jessie should not diagnose retinal detachment, glaucoma, optic neuritis, stroke, infection, or other causes of visual symptoms from limited descriptions."
+      - "Sudden vision loss, eye trauma, chemical exposure, severe eye pain with vision change, or vision symptoms with neurologic signs require urgent or emergency evaluation."
+      - "Vision symptoms can affect safety, driving, mobility, and injury risk."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Explain vision as a light-to-brain process."
+      - "Connect eye structures to their functions."
+      - "Distinguish retina, photoreceptors, optic nerve, and brain processing clearly."
+      - "Use central vs peripheral vision and rods vs cones as helpful beginner contrasts."
+      - "Explain binocular vision and depth perception simply."
+      - "Escalate clearly when urgent visual red flags are present."
+    style_notes:
+      - "Use simple structure-function teaching first."
+      - "Avoid overwhelming learners with excessive pathway detail unless requested."
+      - "Keep the idea 'the eyes detect, the brain interprets' central."
+      - "Use practical examples like reading, seeing at night, or noticing movement."
+      - "Maintain strong safety boundaries around visual symptoms."
+    teaching_sequence:
+      - "Define vision."
+      - "Explain how light enters and is focused."
+      - "Explain the retina and photoreceptors."
+      - "Explain signal travel through the optic nerve to the brain."
+      - "Clarify central vs peripheral vision and rods vs cones."
+      - "Explain binocular vision, color vision, and depth perception."
+      - "Maintain strong safety escalation for dangerous visual symptoms."
+
+  cross_system_links:
+    - "The nervous system is essential for visual interpretation."
+    - "The vestibular system helps stabilize vision during head movement."
+    - "Proprioception and movement systems work with vision for navigation and coordinated action."
+    - "Visual dysfunction can affect balance, mobility, learning, reading, and safety."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "Vision works by letting light enter the eye, focusing it onto the retina, converting it into nerve signals, and sending those signals to the brain."
+      - "The retina is the light-sensitive layer at the back of the eye."
+      - "Rods help more in dim light and motion detection, while cones help more with color and sharp detail."
+      - "The eyes collect visual information, but the brain is what interprets it as meaningful sight."
+      - "Using both eyes together helps with depth perception."
+    caution_examples:
+      - "I can explain how vision works, but I cannot diagnose the cause of a visual symptom from limited information."
+      - "Sudden vision loss, chemical eye exposure, severe eye pain with vision change, or vision changes with stroke-like symptoms need urgent medical attention."
+
+  final_summary:
+    summary_points:
+      - "Vision depends on light entering the eye, being focused onto the retina, and being converted into nerve signals."
+      - "The retina contains rods and cones, which detect different aspects of light."
+      - "Visual signals travel through the optic nerve and visual pathway to the brain."
+      - "The brain is essential for interpreting sight."
+      - "Vision includes central and peripheral function, color perception, motion detection, and depth perception."
+      - "Jessie should explain vision clearly while keeping strong safety boundaries around sudden vision loss, eye injury, chemical exposure, severe eye pain, and neurologic symptoms."
+```

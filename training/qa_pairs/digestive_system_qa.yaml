@@ -1,0 +1,282 @@
+```yaml
+metadata:
+  file_name: "digestive_system_qa.yaml"
+  title: "Jessie Digestive System QA Pairs"
+  domain: "body_systems"
+  topic: "digestive_system"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain the digestive system clearly, warmly, and safely with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain the digestive system as the body system that breaks down food, absorbs nutrients and water, and removes solid waste. Jessie should explain the main digestive pathway through the mouth, esophagus, stomach, small intestine, and large intestine, while also covering supporting organs such as the liver, gallbladder, and pancreas in simple language. The set supports broader biology and visual explanation use by including digestion flow, structure-function relationships, comparisons, misconceptions, and practical safety boundaries. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for severe abdominal pain, bloody stool, inability to keep fluids down, or other concerning digestive symptoms."
+  training_goals:
+    - "Explain the digestive system in simple, beginner-friendly language"
+    - "Teach the main pathway of digestion through the digestive tract"
+    - "Show the roles of the mouth, esophagus, stomach, small intestine, and large intestine"
+    - "Explain the digestive support roles of the liver, gallbladder, and pancreas"
+    - "Clarify the difference between digestion and absorption"
+    - "Support broader biology and visual explanation retrieval with structure and flow concepts"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for concerning digestive symptoms"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach the digestive system through the food pathway"
+    - "Explain breaking down food, absorbing nutrients, and removing waste simply"
+    - "Connect structure to function in a clear beginner-friendly way"
+    - "Support both basic biology teaching and visual explanation of digestion"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose appendicitis, ulcers, gallbladder disease, intestinal blockage, GI bleeding, food poisoning, or other digestive disorders."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general digestive concepts, organ roles, and warning signs."
+  safety_escalation:
+    - "Urgent guidance is appropriate for severe abdominal pain, bloody stool, vomiting that prevents keeping fluids down, severe dehydration signs, or signs of severe illness."
+
+pairs:
+  - id: "digestive_system_qa_001"
+    category: "foundational_definition"
+    question: "What does the digestive system do?"
+    answer: "The digestive system breaks down food, absorbs nutrients and water, and removes solid waste."
+
+  - id: "digestive_system_qa_002"
+    category: "foundational_definition"
+    question: "What is the digestive system?"
+    answer: "The digestive system is the body system that processes food so the body can use nutrients and remove waste."
+
+  - id: "digestive_system_qa_003"
+    category: "foundational_definition"
+    question: "Why is the digestive system important?"
+    answer: "It is important because it helps the body get nutrients and water from food and remove waste."
+
+  - id: "digestive_system_qa_004"
+    category: "foundational_definition"
+    question: "What is digestion?"
+    answer: "Digestion is the process of breaking down food into smaller parts the body can use."
+
+  - id: "digestive_system_qa_005"
+    category: "foundational_definition"
+    question: "What is absorption?"
+    answer: "Absorption is the process of taking nutrients or water into the body."
+
+  - id: "digestive_system_qa_006"
+    category: "system_roles"
+    question: "Where does digestion start?"
+    answer: "Digestion starts in the mouth, where food is chewed and mixed with saliva."
+
+  - id: "digestive_system_qa_007"
+    category: "system_roles"
+    question: "What does the esophagus do?"
+    answer: "The esophagus moves food from the mouth to the stomach."
+
+  - id: "digestive_system_qa_008"
+    category: "system_roles"
+    question: "What does the stomach do?"
+    answer: "The stomach stores and mixes food and continues digestion with acids and enzymes."
+
+  - id: "digestive_system_qa_009"
+    category: "system_roles"
+    question: "Where are most nutrients absorbed?"
+    answer: "Most nutrients are absorbed in the small intestine."
+
+  - id: "digestive_system_qa_010"
+    category: "system_roles"
+    question: "What does the small intestine do?"
+    answer: "The small intestine continues digestion and absorbs most nutrients."
+
+  - id: "digestive_system_qa_011"
+    category: "system_roles"
+    question: "What does the large intestine do?"
+    answer: "The large intestine mainly absorbs water and helps form and move solid waste."
+
+  - id: "digestive_system_qa_012"
+    category: "system_roles"
+    question: "What does the liver do in digestion?"
+    answer: "The liver produces bile, which helps with fat digestion."
+
+  - id: "digestive_system_qa_013"
+    category: "system_roles"
+    question: "What does the gallbladder do?"
+    answer: "The gallbladder stores and releases bile."
+
+  - id: "digestive_system_qa_014"
+    category: "system_roles"
+    question: "What does the pancreas do in digestion?"
+    answer: "The pancreas releases digestive enzymes and other substances that help digestion."
+
+  - id: "digestive_system_qa_015"
+    category: "process"
+    question: "How does the digestive system work?"
+    answer: "Food moves through the digestive tract, where it is broken down, useful substances are absorbed, and waste is removed."
+
+  - id: "digestive_system_qa_016"
+    category: "process"
+    question: "What is the path food takes through the digestive system?"
+    answer: "Food goes from the mouth to the esophagus, then the stomach, small intestine, large intestine, rectum, and anus."
+
+  - id: "digestive_system_qa_017"
+    category: "process"
+    question: "Why is chewing important?"
+    answer: "Chewing helps break food into smaller pieces and mixes it with saliva to begin digestion."
+
+  - id: "digestive_system_qa_018"
+    category: "process"
+    question: "Why is the small intestine so important?"
+    answer: "It is important because most nutrient absorption happens there."
+
+  - id: "digestive_system_qa_019"
+    category: "process"
+    question: "Why does the large intestine matter?"
+    answer: "It matters because it helps absorb water and prepare solid waste for removal."
+
+  - id: "digestive_system_qa_020"
+    category: "term_clarification"
+    question: "Are digestion and absorption the same thing?"
+    answer: "No. Digestion breaks food down, while absorption moves useful substances into the body."
+
+  - id: "digestive_system_qa_021"
+    category: "term_clarification"
+    question: "What is the difference between the small intestine and the large intestine?"
+    answer: "The small intestine is the main site of nutrient absorption, while the large intestine mainly absorbs water and helps form waste."
+
+  - id: "digestive_system_qa_022"
+    category: "term_clarification"
+    question: "What is the difference between the stomach and the intestines?"
+    answer: "The stomach stores and mixes food and continues digestion, while the intestines continue processing, absorption, and waste handling."
+
+  - id: "digestive_system_qa_023"
+    category: "term_clarification"
+    question: "What is the difference between digestion and waste removal?"
+    answer: "Digestion breaks food down and helps the body use it, while waste removal gets rid of material the body does not need."
+
+  - id: "digestive_system_qa_024"
+    category: "misconception"
+    question: "Does the stomach do all of digestion?"
+    answer: "No. Digestion starts in the mouth and continues through multiple organs, especially the small intestine."
+
+  - id: "digestive_system_qa_025"
+    category: "misconception"
+    question: "Is digestion only about the stomach?"
+    answer: "No. The digestive system includes many organs that work together."
+
+  - id: "digestive_system_qa_026"
+    category: "misconception"
+    question: "Does the large intestine absorb most nutrients?"
+    answer: "No. Most nutrients are absorbed in the small intestine."
+
+  - id: "digestive_system_qa_027"
+    category: "misconception"
+    question: "Is bile made in the gallbladder?"
+    answer: "No. Bile is made in the liver and stored in the gallbladder."
+
+  - id: "digestive_system_qa_028"
+    category: "misconception"
+    question: "Does food go straight from the mouth to the stomach without anything in between?"
+    answer: "No. Food passes through the esophagus on the way to the stomach."
+
+  - id: "digestive_system_qa_029"
+    category: "everyday_example"
+    question: "Why does chewing food matter?"
+    answer: "Chewing helps begin digestion and makes food easier to process."
+
+  - id: "digestive_system_qa_030"
+    category: "everyday_example"
+    question: "Why do people need water absorbed from the digestive system?"
+    answer: "Water absorption helps support fluid balance and normal body function."
+
+  - id: "digestive_system_qa_031"
+    category: "everyday_example"
+    question: "Why does the body need nutrients from digestion?"
+    answer: "The body needs nutrients for energy, growth, repair, and normal function."
+
+  - id: "digestive_system_qa_032"
+    category: "everyday_example"
+    question: "Why does food not stay in the stomach forever?"
+    answer: "Food moves through the digestive tract so digestion and absorption can continue."
+
+  - id: "digestive_system_qa_033"
+    category: "everyday_example"
+    question: "Why is waste removal part of digestion?"
+    answer: "It is part of the process because not all food material is useful to the body."
+
+  - id: "digestive_system_qa_034"
+    category: "visual_art_support"
+    question: "Why is the digestive pathway useful in anatomy or biology illustration?"
+    answer: "It helps show the order of organs and how food moves through the body."
+
+  - id: "digestive_system_qa_035"
+    category: "visual_art_support"
+    question: "What should an artist know about the digestive organs?"
+    answer: "An artist should know the basic organ order and the main job of each part."
+
+  - id: "digestive_system_qa_036"
+    category: "visual_art_support"
+    question: "Why does organ sequence matter in digestive diagrams?"
+    answer: "It matters because digestive function depends on food moving through the organs in order."
+
+  - id: "digestive_system_qa_037"
+    category: "visual_art_support"
+    question: "Why are supporting organs important in digestive illustrations?"
+    answer: "They are important because organs like the liver, gallbladder, and pancreas help digestion even though food does not pass through them."
+
+  - id: "digestive_system_qa_038"
+    category: "boundary"
+    question: "Can you diagnose why my stomach hurts?"
+    answer: "No. I can't diagnose the cause of stomach or abdominal pain from limited information, but I can explain digestive concepts and point out warning signs."
+
+  - id: "digestive_system_qa_039"
+    category: "boundary"
+    question: "Can you tell me exactly what is wrong if I am vomiting?"
+    answer: "No. I can't determine the exact cause from a brief description, but I can explain general digestive concepts and when medical care may be important."
+
+  - id: "digestive_system_qa_040"
+    category: "boundary"
+    question: "Does stomach pain always mean something serious?"
+    answer: "No. Stomach pain can happen for many reasons, so I can't assume the cause from that alone."
+
+  - id: "digestive_system_qa_041"
+    category: "safety_supportive_urgent"
+    question: "What should someone do if they have severe abdominal pain, bloody stool, or cannot keep fluids down?"
+    answer: "Severe abdominal pain, bloody stool, or inability to keep fluids down can be serious, so prompt medical care is important, and emergency help may be needed depending on the situation."
+
+  - id: "digestive_system_qa_042"
+    category: "safety_supportive_urgent"
+    question: "Should severe abdominal pain be taken seriously?"
+    answer: "Yes. Severe abdominal pain should be medically checked right away."
+
+  - id: "digestive_system_qa_043"
+    category: "safety_supportive_urgent"
+    question: "Should bloody stool be treated seriously?"
+    answer: "Yes. Bloody stool should be medically checked promptly."
+
+  - id: "digestive_system_qa_044"
+    category: "safety_supportive_urgent"
+    question: "Should vomiting that prevents keeping fluids down be ignored?"
+    answer: "No. That can be serious and should be medically checked promptly."
+
+  - id: "digestive_system_qa_045"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about the digestive system?"
+    answer: "The main thing to remember is that the digestive system breaks down food, absorbs useful substances, and removes waste."
+
+quality_checks:
+  - "The file contains 45 QA pairs with ids digestive_system_qa_001 through digestive_system_qa_045."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "The digestive system is consistently explained through food processing, absorption, and waste removal."
+  - "The set includes support for biology teaching, structure-function learning, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```

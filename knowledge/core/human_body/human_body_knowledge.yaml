@@ -1,0 +1,316 @@
+knowledge_pack:
+  file_name: "human_body_knowledge.yaml"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded foundational knowledge pack for teaching Jessie AI about the human body as an integrated living system, including levels of organization, major body systems, basic physiology, system interaction, and safety-aware educational framing."
+  audience: "Jessie AI training knowledge pack"
+  source_type: "assistant-generated educational knowledge file"
+
+  topic:
+    name: "human_body"
+    category: "foundational anatomy and physiology"
+    domain: "human body and health"
+
+  overview:
+    summary: "The human body is an integrated living system made of cells, tissues, organs, and organ systems working together to maintain life. No major body system works fully alone. Movement, breathing, circulation, digestion, sensation, growth, waste removal, defense, and reproduction all depend on coordination across many structures and processes."
+    why_it_matters:
+      - "A body-level overview helps learners understand how systems connect."
+      - "Basic anatomy and physiology provide a foundation for health education."
+      - "Many symptoms and health issues involve more than one body system."
+      - "Jessie should teach the body as coordinated and interdependent, not as isolated parts."
+
+  core_definitions:
+    - term: "human body"
+      definition: "A living organism made of many interacting cells, tissues, organs, and systems."
+    - term: "cell"
+      definition: "The basic unit of life."
+    - term: "tissue"
+      definition: "A group of similar cells working together."
+    - term: "organ"
+      definition: "A structure made of multiple tissue types performing a specific function."
+    - term: "organ system"
+      definition: "A group of organs that work together to carry out major body functions."
+    - term: "physiology"
+      definition: "The study of how body parts function."
+    - term: "anatomy"
+      definition: "The study of body structures."
+    - term: "homeostasis"
+      definition: "The body's maintenance of stable internal conditions."
+
+  foundational_principle:
+    summary: "The body survives by coordinated function across many levels of organization."
+    key_points:
+      - "Cells carry out essential life processes."
+      - "Tissues organize similar cells into functional groups."
+      - "Organs combine tissues into specialized structures."
+      - "Organ systems coordinate body-wide tasks."
+      - "Health depends on communication and balance across systems."
+
+  levels_of_organization:
+    cell:
+      summary: "Cells are the smallest living units of the body."
+      key_points:
+        - "Cells perform essential life functions."
+        - "Different cell types specialize for different roles."
+        - "Examples include nerve cells, muscle cells, and blood cells."
+    tissue:
+      summary: "Tissues are groups of similar cells working together."
+      key_points:
+        - "Epithelial tissue covers and lines surfaces."
+        - "Muscle tissue produces force and movement."
+        - "Nervous tissue transmits information."
+        - "Connective tissue supports, binds, and protects structures."
+    organ:
+      summary: "Organs are made of multiple tissue types working together."
+      key_points:
+        - "Examples include the heart, lungs, liver, brain, and kidneys."
+        - "Organs usually have specialized main functions while also supporting broader system function."
+    organ_system:
+      summary: "Organ systems are groups of organs coordinating major tasks."
+      key_points:
+        - "Systems depend on one another."
+        - "A problem in one system can affect others."
+    organism:
+      summary: "A human is a complete living organism made of integrated body systems."
+
+  major_body_systems:
+    nervous_system:
+      main_function: "Controls communication, sensation, coordination, and rapid responses."
+      major_parts:
+        - "brain"
+        - "spinal cord"
+        - "nerves"
+      teaching_summary: "The nervous system sends, receives, and processes signals throughout the body."
+    circulatory_system:
+      main_function: "Moves blood, oxygen, nutrients, hormones, and wastes."
+      major_parts:
+        - "heart"
+        - "blood"
+        - "blood vessels"
+      teaching_summary: "The circulatory system is the body's transport network."
+    respiratory_system:
+      main_function: "Brings oxygen into the body and removes carbon dioxide."
+      major_parts:
+        - "nose"
+        - "airways"
+        - "lungs"
+      teaching_summary: "The respiratory system supports gas exchange."
+    digestive_system:
+      main_function: "Breaks down food, absorbs nutrients and water, and removes solid waste."
+      major_parts:
+        - "mouth"
+        - "esophagus"
+        - "stomach"
+        - "small intestine"
+        - "large intestine"
+        - "liver"
+        - "pancreas"
+      teaching_summary: "The digestive system turns food into usable materials."
+    muscular_system:
+      main_function: "Produces movement, posture, and heat."
+      major_parts:
+        - "skeletal muscles"
+        - "smooth muscle"
+        - "cardiac muscle"
+      teaching_summary: "The muscular system allows movement and supports many body functions."
+    skeletal_system:
+      main_function: "Provides support, protection, structure, movement framework, and mineral storage."
+      major_parts:
+        - "bones"
+        - "cartilage"
+        - "ligaments"
+        - "joints"
+      teaching_summary: "The skeletal system gives the body structure and protection."
+    endocrine_system:
+      main_function: "Regulates body processes through hormones."
+      major_parts:
+        - "pituitary gland"
+        - "thyroid"
+        - "adrenal glands"
+        - "pancreas"
+        - "ovaries"
+        - "testes"
+      teaching_summary: "The endocrine system uses hormones for body-wide regulation."
+    immune_lymphatic_system:
+      main_function: "Defends the body and helps manage fluid balance."
+      major_parts:
+        - "lymph nodes"
+        - "lymph vessels"
+        - "spleen"
+        - "thymus"
+        - "white blood cells"
+      teaching_summary: "The immune and lymphatic system helps protect the body from threats."
+    urinary_system:
+      main_function: "Removes waste from the blood and helps regulate fluid and chemical balance."
+      major_parts:
+        - "kidneys"
+        - "ureters"
+        - "bladder"
+        - "urethra"
+      teaching_summary: "The urinary system filters blood and supports internal balance."
+    integumentary_system:
+      main_function: "Protects the body and helps regulate temperature."
+      major_parts:
+        - "skin"
+        - "hair"
+        - "nails"
+        - "sweat glands"
+      teaching_summary: "The integumentary system forms the body's outer protective barrier."
+    reproductive_system:
+      main_function: "Produces reproductive cells and supports reproduction."
+      major_parts:
+        - "ovaries or testes"
+        - "associated reproductive structures"
+      teaching_summary: "The reproductive system supports human reproduction."
+
+  essential_physiology_concepts:
+    homeostasis:
+      summary: "Homeostasis is the body's ability to keep internal conditions within workable ranges."
+      examples:
+        - "temperature regulation"
+        - "blood sugar regulation"
+        - "fluid balance"
+        - "oxygen and carbon dioxide balance"
+      teaching_point: "The body is constantly adjusting itself to stay stable."
+    metabolism:
+      summary: "Metabolism includes the chemical reactions that keep the body alive."
+      examples:
+        - "energy production"
+        - "molecule building"
+        - "molecule breakdown"
+      teaching_point: "Life depends on continuous chemical activity."
+    energy_use:
+      summary: "The body requires energy for movement, growth, repair, signaling, and survival."
+      examples:
+        - "cellular energy use"
+        - "muscle contraction"
+        - "nerve signaling"
+        - "heat production"
+      teaching_point: "Body function always requires energy."
+    oxygen_and_nutrients:
+      summary: "Cells need oxygen and nutrients to function and survive."
+      examples:
+        - "oxygen supports cellular respiration"
+        - "nutrients provide fuel and building materials"
+      teaching_point: "Breathing, digestion, and circulation are deeply connected."
+
+  how_body_systems_work_together:
+    transport_and_supply:
+      - "The respiratory system brings in oxygen."
+      - "The circulatory system transports oxygen to tissues."
+      - "The digestive system provides nutrients."
+      - "The circulatory system distributes those nutrients."
+    regulation_and_control:
+      - "The nervous system coordinates rapid responses."
+      - "The endocrine system helps regulate longer-term processes."
+    movement_and_support:
+      - "The skeletal system provides structure."
+      - "The muscular system generates movement."
+      - "The nervous system helps control movement."
+    protection_and_balance:
+      - "The immune system helps defend against threats."
+      - "The integumentary system forms a protective barrier."
+      - "The urinary system helps maintain internal chemical balance."
+
+  core_connections_between_systems:
+    - "The respiratory system brings in oxygen, and the circulatory system delivers it."
+    - "The digestive system provides nutrients, and the circulatory system distributes them."
+    - "The nervous and endocrine systems regulate and coordinate other systems."
+    - "The urinary system helps maintain blood chemistry and fluid balance."
+    - "The muscular and skeletal systems work together for movement."
+    - "The immune system helps protect all other systems."
+    - "The skin helps protect the body while also supporting temperature regulation."
+
+  beginner_facts:
+    - "The heart is a muscle that pumps blood."
+    - "The lungs exchange oxygen and carbon dioxide."
+    - "The brain helps control thoughts, movement, memory, and sensation."
+    - "Bones support the body and protect organs."
+    - "The stomach and intestines help digest food."
+    - "The kidneys help remove waste from the blood."
+    - "Skin is the body's largest organ."
+
+  important_distinctions:
+    - name: "anatomy vs physiology"
+      explanation: "Anatomy is about structure, while physiology is about function."
+    - name: "organ vs organ system"
+      explanation: "An organ performs a specific function, while an organ system includes multiple organs working together."
+    - name: "nervous regulation vs endocrine regulation"
+      explanation: "The nervous system usually acts faster, while the endocrine system often works more slowly through hormones."
+    - name: "local function vs body-wide effect"
+      explanation: "A local structure may have a specialized role, but its function often affects the whole body."
+    - name: "education vs diagnosis"
+      explanation: "General body knowledge can explain how the body works, but it should not be treated as personal diagnosis."
+
+  common_questions_jessie_should_handle:
+    - "What are the main systems of the human body?"
+    - "What is the basic unit of life?"
+    - "What is homeostasis?"
+    - "Why do body systems need each other?"
+    - "What is the difference between anatomy and physiology?"
+    - "How do organs and tissues relate to each other?"
+    - "Why is the body considered an integrated system?"
+
+  normal_teaching_patterns:
+    recommended_approach:
+      - "Start with cells, tissues, organs, and systems."
+      - "Connect structure with function."
+      - "Use plain language first, then add detail if needed."
+      - "Show how systems cooperate rather than teaching them as isolated parts."
+      - "Use everyday examples like breathing, eating, moving, and healing."
+    avoid:
+      - "overloading beginners with too much detail at once"
+      - "treating single systems as fully independent"
+      - "turning general education into personal medical advice"
+
+  safety_relevance:
+    key_points:
+      - "This knowledge supports education, not diagnosis or treatment."
+      - "Jessie should not present general biology as personal medical advice."
+      - "Symptom discussions require more caution than structure-and-function explanations."
+      - "Emergencies, severe symptoms, medication concerns, children, and pregnancy require extra care and appropriate escalation."
+
+  teaching_guidance_for_jessie:
+    communication_goals:
+      - "Teach the body as an integrated system."
+      - "Keep beginner explanations clear, simple, and accurate."
+      - "Explain major systems in terms of what they do and how they connect."
+      - "Use homeostasis as a central organizing idea."
+      - "Maintain a clear boundary between education and medical decision-making."
+    style_notes:
+      - "Use friendly language first."
+      - "Prefer simple explanations before technical depth."
+      - "Emphasize connections between systems."
+      - "Acknowledge complexity without overwhelming the learner."
+    teaching_sequence:
+      - "Define the body as a living integrated system."
+      - "Explain levels of organization."
+      - "Introduce major body systems."
+      - "Explain key physiology concepts such as homeostasis and metabolism."
+      - "Show how systems cooperate in everyday life."
+
+  cross_system_links:
+    - "No major body system works fully alone."
+    - "Breathing, circulation, digestion, movement, sensation, and waste removal are interconnected."
+    - "The nervous and endocrine systems help coordinate other systems."
+    - "The circulatory system links many systems by transporting substances."
+    - "The body's stability depends on homeostasis across systems."
+
+  example_jessie_framing:
+    explanation_examples:
+      - "The human body is made of cells, tissues, organs, and organ systems that work together to keep you alive."
+      - "Each body system has its own role, but the systems constantly depend on one another."
+      - "Homeostasis means the body tries to keep internal conditions stable even when the environment changes."
+      - "You can understand the body better by learning both structure and function."
+    caution_examples:
+      - "General body education is different from diagnosing a person's symptoms."
+      - "If someone is describing severe or emergency symptoms, safety guidance matters more than broad anatomy teaching."
+
+  final_summary:
+    summary_points:
+      - "The human body is an integrated living system."
+      - "Cells form tissues, tissues form organs, and organs form systems."
+      - "Major body systems work together to maintain life."
+      - "Homeostasis is central to body survival and function."
+      - "Jessie should teach structure, function, and system interaction clearly."
+      - "Jessie should keep a clear boundary between education and personal medical advice."

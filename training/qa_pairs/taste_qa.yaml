@@ -1,0 +1,222 @@
+```yaml
+metadata:
+  file_name: "taste_qa.yaml"
+  title: "Jessie Taste QA Pairs"
+  domain: "special_senses"
+  topic: "taste"
+  version: "2.0"
+  last_updated: "2026-09-21"
+  purpose: "Expanded beginner-friendly question-answer pairs for teaching Jessie how to explain taste, taste structures, taste versus flavor, and simple safety boundaries with broad retrieval support."
+  audience: "Jessie AI training and retrieval support layer"
+  source_type: "internal structured QA pairs"
+
+overview:
+  summary: "These QA pairs teach Jessie to explain taste as the sense that helps the body detect basic qualities in food and drink. Jessie should explain that taste buds contain sensory cells that help detect taste-related chemicals, and that the basic tastes are sweet, salty, sour, bitter, and savory. The set also supports broader biology teaching by including taste versus flavor, the role of smell, texture, temperature, and the difference between taste and spicy sensation in simple language. Jessie should remain warm, direct, beginner-friendly, and non-diagnosing, while giving calm safety-first guidance for sudden taste loss after head injury or sudden major taste changes with concerning symptoms."
+  training_goals:
+    - "Explain taste in simple, beginner-friendly language"
+    - "Teach the classic basic tastes and the role of taste buds"
+    - "Show that taste is only one part of flavor"
+    - "Clarify the roles of smell, texture, and temperature in flavor"
+    - "Support broader biology retrieval with sensory-structure and food-perception concepts"
+    - "Use practical examples such as blocked nose and sweet foods with different flavors"
+    - "Maintain a warm, direct, educational tone"
+    - "Use safe boundaries for concerning taste changes"
+
+behavior_contract:
+  teaching_focus:
+    - "Teach taste as detection of basic food and drink qualities"
+    - "Explain taste buds and flavor simply"
+    - "Connect taste to smell and the broader food experience"
+    - "Support both basic biology teaching and simple sensory explanation"
+    - "Keep answers short unless more detail is requested"
+  tone:
+    - "Warm"
+    - "Calm"
+    - "Direct"
+    - "Beginner-friendly"
+    - "Educational"
+  response_principles:
+    - "Answer directly first."
+    - "Add a short explanation only when useful."
+    - "Prefer clear everyday wording over technical language."
+    - "Keep retrieval answers compact and reusable."
+  boundaries:
+    - "Jessie should not diagnose causes of taste loss, head injury, mouth conditions, infection, or neurological problems."
+    - "Jessie should not claim certainty from brief symptom descriptions."
+    - "Jessie can explain general taste concepts, flavor connections, and warning signs."
+  safety_escalation:
+    - "Prompt guidance is appropriate for sudden taste loss after head injury or sudden major taste change with other concerning symptoms."
+
+pairs:
+  - id: "taste_qa_001"
+    category: "foundational_definition"
+    question: "What is taste?"
+    answer: "Taste is the sense that helps the body detect basic qualities in food and drink."
+
+  - id: "taste_qa_002"
+    category: "foundational_definition"
+    question: "What are the basic tastes?"
+    answer: "The classic basic tastes are sweet, salty, sour, bitter, and savory."
+
+  - id: "taste_qa_003"
+    category: "foundational_definition"
+    question: "Why does taste matter?"
+    answer: "Taste matters because it helps the body detect food qualities and contributes to flavor."
+
+  - id: "taste_qa_004"
+    category: "system_roles"
+    question: "What do taste buds do?"
+    answer: "Taste buds contain sensory cells that help detect taste-related chemicals in food and drink."
+
+  - id: "taste_qa_005"
+    category: "process"
+    question: "How does taste work in simple terms?"
+    answer: "Taste-related chemicals from food or drink interact with sensory cells, and the brain helps interpret the signals as tastes."
+
+  - id: "taste_qa_006"
+    category: "term_clarification"
+    question: "Are taste and flavor the same thing?"
+    answer: "No. Taste is one part of flavor, but flavor is the broader food experience."
+
+  - id: "taste_qa_007"
+    category: "term_clarification"
+    question: "What helps create flavor besides taste?"
+    answer: "Smell, texture, temperature, and other sensory inputs help create flavor."
+
+  - id: "taste_qa_008"
+    category: "term_clarification"
+    question: "What is flavor?"
+    answer: "Flavor is the larger food experience created by taste, smell, texture, temperature, and other sensory inputs."
+
+  - id: "taste_qa_009"
+    category: "term_clarification"
+    question: "Does smell matter for flavor?"
+    answer: "Yes. Smell contributes strongly to flavor."
+
+  - id: "taste_qa_010"
+    category: "term_clarification"
+    question: "Why does food seem bland when the nose is blocked?"
+    answer: "Food may seem bland because smell contributes a lot to flavor, and blocked airflow can reduce smell."
+
+  - id: "taste_qa_011"
+    category: "term_clarification"
+    question: "Does the tongue create flavor all by itself?"
+    answer: "No. The tongue helps detect basic tastes, but full flavor depends on more than the tongue alone."
+
+  - id: "taste_qa_012"
+    category: "term_clarification"
+    question: "Is spicy one of the five basic tastes?"
+    answer: "No. Spicy is usually understood as a sensory irritation rather than one of the classic five basic tastes."
+
+  - id: "taste_qa_013"
+    category: "term_clarification"
+    question: "Can two foods both taste sweet but still have different flavors?"
+    answer: "Yes. They can share the basic taste of sweetness while still having different flavor details from smell, texture, and other sensory inputs."
+
+  - id: "taste_qa_014"
+    category: "misconception"
+    question: "Is flavor made only by the tongue?"
+    answer: "No. Flavor depends on taste, smell, texture, temperature, and other sensory inputs."
+
+  - id: "taste_qa_015"
+    category: "misconception"
+    question: "If food seems bland, does that always mean taste is the problem?"
+    answer: "No. Reduced smell can also make flavor seem weaker."
+
+  - id: "taste_qa_016"
+    category: "misconception"
+    question: "Are all strong food sensations basic tastes?"
+    answer: "No. Some strong sensations, such as spicy heat, are not one of the classic five basic tastes."
+
+  - id: "taste_qa_017"
+    category: "misconception"
+    question: "Do all sweet foods have the same flavor?"
+    answer: "No. Foods can share sweetness while still having different overall flavors."
+
+  - id: "taste_qa_018"
+    category: "everyday_example"
+    question: "Why can soup taste dull when someone has a blocked nose?"
+    answer: "It can taste dull because reduced smell can reduce flavor detail."
+
+  - id: "taste_qa_019"
+    category: "everyday_example"
+    question: "Why can two sweet fruits taste different?"
+    answer: "They can taste different overall because flavor depends on more than sweetness alone."
+
+  - id: "taste_qa_020"
+    category: "everyday_example"
+    question: "Why can warm food and cold food have different flavor experiences?"
+    answer: "They can feel different because temperature is part of flavor."
+
+  - id: "taste_qa_021"
+    category: "everyday_example"
+    question: "Why can crunchy and smooth foods feel different even if they share a similar taste?"
+    answer: "They can feel different because texture is part of the broader flavor experience."
+
+  - id: "taste_qa_022"
+    category: "system_connection"
+    question: "How is taste connected to the brain?"
+    answer: "Taste signals are interpreted by the brain as recognizable taste experiences."
+
+  - id: "taste_qa_023"
+    category: "system_connection"
+    question: "How is taste connected to smell?"
+    answer: "Taste and smell work together to build flavor."
+
+  - id: "taste_qa_024"
+    category: "visual_art_support"
+    question: "Why is taste useful to understand in biology teaching?"
+    answer: "It helps explain how food-related chemicals are detected and turned into sensory experiences."
+
+  - id: "taste_qa_025"
+    category: "visual_art_support"
+    question: "What should an educator or artist know about taste diagrams?"
+    answer: "They should know that taste involves taste buds detecting food-related chemicals and the brain helping interpret the signals."
+
+  - id: "taste_qa_026"
+    category: "visual_art_support"
+    question: "Why do pathway visuals help explain taste?"
+    answer: "They help because taste involves detection, signal flow, and interpretation."
+
+  - id: "taste_qa_027"
+    category: "boundary"
+    question: "Can you diagnose why I lost my sense of taste?"
+    answer: "No. I can't diagnose the cause from limited information, but I can explain general taste concepts and point out warning signs."
+
+  - id: "taste_qa_028"
+    category: "boundary"
+    question: "Can you tell me exactly why food tastes strange to me?"
+    answer: "No. I can't determine the exact cause from a brief description, but I can explain taste and flavor concepts and when medical care may be important."
+
+  - id: "taste_qa_029"
+    category: "boundary"
+    question: "Does taste loss always mean a tongue problem?"
+    answer: "No. Taste changes can happen for different reasons, so I can't assume the cause from that alone."
+
+  - id: "taste_qa_030"
+    category: "boundary"
+    question: "Does bland flavor always mean taste loss?"
+    answer: "No. Reduced smell can also make food seem bland."
+
+  - id: "taste_qa_031"
+    category: "safety_supportive_urgent"
+    question: "Should sudden taste loss after head injury be ignored?"
+    answer: "No. A sudden change in taste after a head injury should be taken seriously and checked by a trusted adult or doctor."
+
+  - id: "taste_qa_032"
+    category: "safety_supportive_urgent"
+    question: "Should sudden major taste change with other concerning symptoms be treated seriously?"
+    answer: "Yes. Sudden major taste change with other concerning symptoms should be medically checked promptly."
+
+  - id: "taste_qa_033"
+    category: "teaching_summary"
+    question: "What is the main thing to remember about taste?"
+    answer: "The main thing to remember is that taste helps detect basic food qualities and works with smell and other senses to create flavor."
+
+quality_checks:
+  - "The file contains 33 QA pairs with ids taste_qa_001 through taste_qa_033."
+  - "Answers stay warm, direct, beginner-friendly, and non-diagnosing."
+  - "Taste is consistently explained as detection of basic food qualities with brain interpretation."
+  - "The set includes support for biology teaching, flavor concepts, and visual explanation retrieval."
+  - "Safety items escalate clearly without pretending certainty."
+```
