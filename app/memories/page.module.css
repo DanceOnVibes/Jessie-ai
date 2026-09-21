@@ -149,7 +149,8 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.6rem;
+  gap: 1.8rem;
+  margin-bottom: 4rem;
 }
 
 .card {
@@ -202,6 +203,11 @@
   font-size: 0.98rem;
 }
 
+.knowledgeSection {
+  margin-top: 1.5rem;
+  padding-bottom: 5rem;
+}
+
 @media (max-width: 768px) {
   .page {
     padding: 3rem 1rem 4.5rem;
@@ -225,5 +231,10 @@
 
   .cardImage {
     height: 280px;
+  }
+
+  .knowledgeSection {
+    margin-top: 1rem;
+    padding-bottom: 4rem;
   }
 }

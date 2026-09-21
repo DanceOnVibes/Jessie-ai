@@ -1,4 +1,4 @@
-import { KnowledgeItem } from "@/lib/jessie-core/knowledge-storage";
+import type { KnowledgeItem } from "@/lib/jessie-core/knowledge-types";
 import { MemoryCard } from "./memory-card";
 
 type MemoryGridProps = {

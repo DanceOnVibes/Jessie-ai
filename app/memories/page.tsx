@@ -132,12 +132,12 @@ export default function MemoriesPage() {
           <p className={styles.smallLabel}>Jessie’s knowledge</p>
           <h2 className={styles.timelineTitle}>What Jessie knows</h2>
           <p className={styles.timelineText}>
-            A growing collection of gentle, structured knowledge Jessie can draw
-            from — spanning biology, art, and privacy.
+            A gentle library of ideas, principles, and things Jessie can speak
+            about with care — spanning biology, art, memory, and privacy.
           </p>
         </section>
 
-        <section>
+        <section className={styles.knowledgeSection}>
           <MemoryGrid items={knowledgeItems} />
         </section>
       </div>

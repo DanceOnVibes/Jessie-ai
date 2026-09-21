@@ -1,4 +1,4 @@
-import { KnowledgeItem } from "@/lib/jessie-core/knowledge-storage";
+import type { KnowledgeItem } from "@/lib/jessie-core/knowledge-types";
 
 type MemoryCardProps = {
   item: KnowledgeItem;
@@ -41,7 +41,7 @@ export function MemoryCard({ item }: MemoryCardProps) {
 
         {item.tags?.length > 0 && (
           <div className="mt-6 flex flex-wrap gap-2.5">
-            {item.tags.map((tag) => (
+            item.tags.map((tag: string) => (
               <span
                 key={tag}
                 className="rounded-full border border-[#f3e3e8] bg-white/78 px-3.5 py-1.5 text-[12px] tracking-[0.01em] text-[#7e6069] shadow-[0_4px_14px_rgba(122,92,102,0.06)] backdrop-blur-md"

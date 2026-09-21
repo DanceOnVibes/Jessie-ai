@@ -37,3 +37,15 @@ export function getPublicKnowledgeByDomain(
       item.safetyLevel !== "restricted"
   );
 }
+
+export function getPrivateKnowledge(): KnowledgeItem[] {
+  return ALL_KNOWLEDGE.filter((item) => item.audience === "private");
+}
+
+export function getPrivateKnowledgeByDomain(
+  domain: KnowledgeDomain
+): KnowledgeItem[] {
+  return ALL_KNOWLEDGE.filter(
+    (item) => item.domain === domain && item.audience === "private"
+  );
+}
