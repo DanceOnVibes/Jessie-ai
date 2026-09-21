@@ -17,11 +17,11 @@ export function MemoryCard({ item }: MemoryCardProps) {
       <div className="relative z-10">
         <div className="mb-5 flex items-start justify-between gap-3">
           <span className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#a06f7d]">
-            {item.category}
+            {item.domain}
           </span>
 
           <span className="rounded-full border border-[#f3dfe6] bg-white/80 px-3.5 py-1 text-[11px] font-medium text-[#946672] shadow-[0_6px_18px_rgba(140,105,116,0.08)] backdrop-blur-md">
-            {item.sensitivity}
+            {item.safetyLevel}
           </span>
         </div>
 
@@ -36,17 +36,17 @@ export function MemoryCard({ item }: MemoryCardProps) {
         <div className="mb-5 h-px w-full bg-gradient-to-r from-[#f3dde4] via-[#ead3db] to-transparent" />
 
         <p className="text-[0.98rem] leading-8 text-[#5f4c54]">
-          {item.content}
+          {item.simple}
         </p>
 
-        {item.tags?.length > 0 && (
+        {item.keyTerms?.length > 0 && (
           <div className="mt-6 flex flex-wrap gap-2.5">
-            item.tags.map((tag: string) => (
+            {item.keyTerms.map((term: string) => (
               <span
-                key={tag}
+                key={term}
                 className="rounded-full border border-[#f3e3e8] bg-white/78 px-3.5 py-1.5 text-[12px] tracking-[0.01em] text-[#7e6069] shadow-[0_4px_14px_rgba(122,92,102,0.06)] backdrop-blur-md"
               >
-                {tag}
+                {term}
               </span>
             ))}
           </div>

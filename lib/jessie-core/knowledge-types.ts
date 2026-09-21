@@ -2,7 +2,7 @@ export type KnowledgeDomain = "biology" | "art" | "privacy";
 
 export type KnowledgeDepth = "simple" | "curious" | "deep";
 
-export type KnowledgeAudience = "public" | "professional";
+export type KnowledgeAudience = "public" | "professional" | "private";
 
 export type KnowledgeSafetyLevel =
   | "general"
