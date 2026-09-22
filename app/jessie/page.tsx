@@ -1,3 +1,4 @@
+// app/jessie/page.tsx
 "use client";
 
 import Link from "next/link";
@@ -58,19 +59,19 @@ export default function JessiePage() {
           <div className="hero-glow glow-3" />
 
           <div className="hero-content">
-            <div className="hero-pill">From Jessie’s World</div>
+            <div className="hero-pill">From Jessie's World</div>
             <h1>
               Build a dreamy
               <span>prompt that feels magical</span>
             </h1>
             <p>
-              Step into Jessie’s studio to shape ideas into a cleaner, stronger
+              Step into Jessie's studio to shape ideas into a cleaner, stronger
               final prompt with a soft, elegant creative touch.
             </p>
 
             <div className="hero-links">
               <Link href="/" className="hero-link-primary">
-                Back to Jessie’s World
+                Back to Jessie's World
               </Link>
               <Link href="/memories" className="hero-link-secondary">
                 Explore Memories
@@ -81,7 +82,6 @@ export default function JessiePage() {
               <span>Dreamy UI</span>
               <span>Prompt crafting</span>
               <span>Gentle guidance</span>
-              <span>Premium toggle</span>
             </div>
           </div>
         </section>
@@ -136,9 +136,13 @@ export default function JessiePage() {
               </div>
 
               <div>
-                <label className="field-label">Access</label>
+                <label className="field-label" htmlFor="premium-toggle">
+                  Access
+                </label>
                 <button
                   type="button"
+                  id="premium-toggle"
+                  aria-pressed={premium}
                   className={`access-btn ${premium ? "premium-on" : ""} ${
                     buttonHovered === "premium" ? "btn-hovered" : ""
                   }`}
@@ -202,7 +206,7 @@ export default function JessiePage() {
                 <div>
                   <h2>Your result will appear here</h2>
                   <p>
-                    Once Jessie finishes, you’ll see the summary, the final
+                    Once Jessie finishes, you'll see the summary, the final
                     prompt, and a little explanation of why it works.
                   </p>
                 </div>
@@ -228,14 +232,14 @@ export default function JessiePage() {
                   <div>
                     <h2>
                       {response.success
-                        ? response.result?.title || "Jessie’s response"
+                        ? response.result?.title || "Jessie's response"
                         : "Something went wrong"}
                     </h2>
                     <p>
                       {response.success
                         ? response.result?.summary ||
                           "Jessie created a result for your request."
-                        : "Jessie couldn’t complete that request this time."}
+                        : "Jessie couldn't complete that request this time."}
                     </p>
                   </div>
 
@@ -932,198 +936,85 @@ export default function JessiePage() {
           padding: 18px;
           background: linear-gradient(180deg, #fffdfc, #fff9f1);
           border: 1px solid rgba(133, 101, 91, 0.14);
-          box-shadow: inset 0 1px 0 rgba(255,255,255,0.7);
-          animation: fadeUp 0.35s ease;
         }
 
         .final-prompt-top {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          gap: 12px;
-          margin-bottom: 12px;
+          margin-bottom: 10px;
         }
 
         .final-prompt-top strong {
-          color: #4e373f;
+          color: #3c2830;
           font-size: 1rem;
         }
 
         .final-prompt-box {
-          padding: 16px;
-          border-radius: 16px;
-          background: #fff;
-          border: 1px solid rgba(130, 98, 88, 0.12);
           white-space: pre-wrap;
-          line-height: 1.8;
-          color: #3d2a31;
+          color: #5b454c;
+          line-height: 1.75;
           font-size: 0.98rem;
         }
 
         .error-box {
           padding: 16px;
           border-radius: 18px;
-          background: #fff2f2;
+          background: #fff0f0;
           border: 1px solid rgba(180,35,24,0.12);
-          color: #b42318;
-          line-height: 1.7;
-          font-size: 1rem;
-          animation: fadeUp 0.35s ease;
+          color: #8a2418;
         }
 
         .page-footer {
           text-align: center;
-          color: #907982;
           margin-top: 28px;
-          font-size: 0.95rem;
+          color: #8a7580;
+          font-size: 0.9rem;
         }
 
-        @media (max-width: 900px) {
-          .dream-page {
-            padding: 20px 14px 40px;
-          }
+        @keyframes gradientShift {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
 
-          .hero-card {
-            border-radius: 24px;
-            padding: 24px 18px;
-          }
+        @keyframes floatOrb {
+          0%, 100% { transform: translateY(0) translateX(0); }
+          50% { transform: translateY(-18px) translateX(10px); }
+        }
 
-          .hero-content h1 {
-            font-size: 2.35rem;
-            line-height: 0.98;
-          }
+        @keyframes drift {
+          0%, 100% { transform: translateY(0) rotate(0deg); }
+          50% { transform: translateY(-14px) rotate(8deg); }
+        }
 
-          .hero-content p {
-            font-size: 0.98rem;
-          }
+        @keyframes twinkle {
+          0%, 100% { opacity: 0.5; }
+          50% { opacity: 0.8; }
+        }
 
+        @keyframes floatGlow {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-6px); }
+        }
+
+        @keyframes fadeUp {
+          from { opacity: 0; transform: translateY(8px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+
+        @media (max-width: 880px) {
           .content-grid {
             grid-template-columns: 1fr;
           }
 
-          .panel {
-            border-radius: 22px;
-            padding: 18px;
-          }
-
-          .panel-heading h2,
-          .empty-state h2,
-          .response-header h2 {
-            font-size: 1.4rem;
-          }
-
-          textarea {
-            min-height: 180px;
-            padding: 15px 14px;
-            font-size: 0.95rem;
-          }
-
-          select,
-          .access-btn {
-            padding: 13px 14px;
-            font-size: 0.95rem;
-          }
-
           .two-col {
             grid-template-columns: 1fr;
-          }
-
-          .action-row {
-            flex-direction: column;
-          }
-
-          .primary-btn,
-          .secondary-btn,
-          .copy-btn {
-            width: 100%;
-          }
-
-          .response-panel {
-            min-height: auto;
-          }
-
-          .response-header,
-          .final-prompt-top {
-            flex-direction: column;
-            align-items: stretch;
-          }
-
-          .page-footer {
-            font-size: 0.88rem;
-          }
-        }
-
-        @keyframes fadeIn {
-          from {
-            opacity: 0;
-          }
-          to {
-            opacity: 1;
-          }
-        }
-
-        @keyframes fadeUp {
-          from {
-            opacity: 0;
-            transform: translateY(10px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-
-        @keyframes floatGlow {
-          0%,
-          100% {
-            transform: translateY(0px);
-            box-shadow: 0 12px 28px rgba(162, 120, 145, 0.16);
-          }
-          50% {
-            transform: translateY(-5px);
-            box-shadow: 0 18px 34px rgba(162, 120, 145, 0.22);
-          }
-        }
-
-        @keyframes gradientShift {
-          0% {
-            background-position: 0% 50%;
-          }
-          50% {
-            background-position: 100% 50%;
-          }
-          100% {
-            background-position: 0% 50%;
-          }
-        }
-
-        @keyframes floatOrb {
-          0%,
-          100% {
-            transform: translateY(0px) translateX(0px);
-          }
-          50% {
-            transform: translateY(-20px) translateX(12px);
-          }
-        }
-
-        @keyframes drift {
-          0%,
-          100% {
-            transform: translateY(0px) rotate(0deg);
-          }
-          50% {
-            transform: translateY(-14px) rotate(8deg);
-          }
-        }
-
-        @keyframes twinkle {
-          0%,
-          100% {
-            opacity: 0.45;
-          }
-          50% {
-            opacity: 0.8;
           }
         }
       `}</style>

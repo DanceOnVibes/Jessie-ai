@@ -1,9 +1,9 @@
+// app/jessie/useJessie.ts
 "use client";
 
 import { useMemo, useState } from "react";
 
 export type JessieResult = {
-  mode?: string;
   title?: string;
   summary?: string;
   final_prompt?: string;
@@ -47,6 +47,14 @@ export function useJessie() {
           premium,
         }),
       });
+
+      if (!res.ok) {
+        setResponse({
+          success: false,
+          error: `Jessie's server returned an error (${res.status}).`,
+        });
+        return;
+      }
 
       const data = await res.json();
       setResponse(data);
