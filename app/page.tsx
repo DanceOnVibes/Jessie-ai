@@ -100,7 +100,7 @@ export default function HomePage() {
           }}
         >
           <Image
-            src="/jessie-main.jpg"
+            src="/images/jessie-main.jpg"
             alt="Featured memory of Jessie"
             width={700}
             height={900}
