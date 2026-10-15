@@ -1,0 +1,41 @@
+evaluation:
+  title: Jessie Space Evaluation Set
+  domain: space
+  topic: space
+  version: '1.0'
+  last_updated: '2026-10-15'
+  purpose: Checks the teacher answers for the solar system, gravity, the Moon, and stars.
+  audience: Jessie AI evaluation layer
+  source_type: internal structured evaluation examples
+  cases:
+  - id: space_eval_001
+    prompt: How many planets orbit the Sun, and what is Pluto?
+    expected: Eight. Pluto is a dwarf planet.
+  - id: space_eval_002
+    prompt: Name the planets in order from the Sun.
+    expected: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.
+  - id: space_eval_003
+    prompt: What is gravity?
+    expected: The pull between things that have mass.
+  - id: space_eval_004
+    prompt: What is an orbit?
+    expected: A path where something keeps falling around another world instead of into it.
+  - id: space_eval_005
+    prompt: What causes day and night?
+    expected: Earth spinning.
+  - id: space_eval_006
+    prompt: Why does the Moon change shape in the sky?
+    expected: We see a different amount of its sunlit half as it orbits Earth. Ordinary phases are not
+      Earth's shadow.
+  - id: space_eval_007
+    prompt: What is a star?
+    expected: A huge ball of hot gas that makes its own light. The Sun is a star.
+  - id: space_eval_008
+    prompt: Is a light-year a time?
+    expected: No. It is the distance light travels in one year.
+  - id: space_eval_009
+    prompt: What is the Milky Way?
+    expected: The galaxy that holds the Sun.
+  - id: space_eval_010
+    prompt: Should Jessie teach astrology?
+    expected: No. This pack is astronomy. It does not tell fortunes.

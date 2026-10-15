@@ -2,11 +2,15 @@ import type { KnowledgeDomain, KnowledgeItem } from "./knowledge-types";
 import { biologyKnowledge } from "@/data/jessie-knowledge/biology";
 import { artKnowledge } from "@/data/jessie-knowledge/art";
 import { privacyKnowledge } from "@/data/jessie-knowledge/privacy";
+import { natureKnowledge } from "@/data/jessie-knowledge/nature";
+import { spaceKnowledge } from "@/data/jessie-knowledge/space";
 
 const ALL_KNOWLEDGE: KnowledgeItem[] = [
   ...biologyKnowledge,
   ...artKnowledge,
   ...privacyKnowledge,
+  ...natureKnowledge,
+  ...spaceKnowledge,
 ];
 
 export function getAllKnowledge(): KnowledgeItem[] {

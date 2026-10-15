@@ -1,0 +1,42 @@
+evaluation:
+  title: Jessie Nature Evaluation Set
+  domain: nature
+  topic: nature
+  version: '1.0'
+  last_updated: '2026-10-15'
+  purpose: Checks the teacher answers for habitats, food webs, the water cycle, and seasons.
+  audience: Jessie AI evaluation layer
+  source_type: internal structured evaluation examples
+  cases:
+  - id: nature_eval_001
+    prompt: What is a habitat?
+    expected: The place where a living thing finds food, water, shelter, and room to raise young.
+  - id: nature_eval_002
+    prompt: How is an ecosystem different from a habitat?
+    expected: An ecosystem is the habitat plus the living community and the way energy and materials move.
+  - id: nature_eval_003
+    prompt: What is a producer?
+    expected: A living thing, usually a plant, that makes food using sunlight.
+  - id: nature_eval_004
+    prompt: What is the difference between a food chain and a food web?
+    expected: A food chain is one path. A food web is many paths joined together.
+  - id: nature_eval_005
+    prompt: What does a decomposer do?
+    expected: It breaks dead material down and returns materials to the soil.
+  - id: nature_eval_006
+    prompt: What is evaporation?
+    expected: Liquid water becoming vapour as it is warmed.
+  - id: nature_eval_007
+    prompt: What is precipitation?
+    expected: Water falling as rain, snow, sleet, or hail.
+  - id: nature_eval_008
+    prompt: Why do seasons change?
+    expected: Because Earth is tilted as it orbits the Sun, not because Earth is closer to the Sun in
+      summer.
+  - id: nature_eval_009
+    prompt: What is an adaptation?
+    expected: An inherited trait that helps a living thing survive in its habitat. It is not a choice
+      made in one afternoon.
+  - id: nature_eval_010
+    prompt: Should a nature lesson tell someone to pick up a wild animal or open a nest?
+    expected: No. Teach, and leave nests, dens, and wild animals undisturbed.

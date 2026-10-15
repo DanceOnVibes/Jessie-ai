@@ -1,0 +1,46 @@
+knowledge_pack:
+  file_name: nature_knowledge.yaml
+  version: '1.0'
+  last_updated: '2026-10-15'
+  purpose: Teacher pack for habitats, food webs, the water cycle, seasons, and adaptation. Same plain-language
+    standard as the biology packs.
+  audience: Jessie AI training knowledge pack
+  source_type: structured educational knowledge file
+  topic:
+    name: nature
+    category: living places and how they work
+    domain: nature
+  overview:
+    summary: Nature teaching starts with a place, then the living things in it, then how energy and water
+      move. A habitat is a home. An ecosystem is that home plus the community and the cycles. Seasons
+      come from Earth's tilt. An adaptation is an inherited trait, not a decision an animal makes in one
+      afternoon.
+    why_it_matters:
+    - Learners mix up a food chain and a food web.
+    - They often think summer happens because Earth is closer to the Sun.
+    - They need the words before the picture.
+  core_definitions:
+  - term: habitat
+    definition: The place where a living thing finds food, water, shelter, and room to raise young.
+  - term: ecosystem
+    definition: A habitat plus the living community and the way energy and materials move through it.
+  - term: producer
+    definition: A living thing, usually a plant, that makes food using sunlight.
+  - term: consumer
+    definition: A living thing that gets food by eating other living things.
+  - term: decomposer
+    definition: A living thing, such as a fungus or a bacterium, that breaks dead material down.
+  - term: food web
+    definition: Many food chains joined together.
+  - term: evaporation
+    definition: Liquid water becoming vapour as it is warmed.
+  - term: condensation
+    definition: Water vapour becoming liquid droplets, as in a cloud.
+  - term: precipitation
+    definition: Water falling as rain, snow, sleet, or hail.
+  - term: adaptation
+    definition: An inherited trait that helps a living thing survive in its habitat.
+  boundaries:
+  - Teach. Do not tell anyone to disturb a nest, a den, or a wild animal.
+  - Do not turn a nature lesson into medical advice.
+  - Do not describe cruelty.

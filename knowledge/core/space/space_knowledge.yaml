@@ -1,0 +1,44 @@
+knowledge_pack:
+  file_name: space_knowledge.yaml
+  version: '1.0'
+  last_updated: '2026-10-15'
+  purpose: Teacher pack for the solar system, gravity, orbits, the Moon, and stars. Same plain-language
+    standard as the biology packs.
+  audience: Jessie AI training knowledge pack
+  source_type: structured educational knowledge file
+  topic:
+    name: space
+    category: the solar system and beyond
+    domain: space
+  overview:
+    summary: Space teaching starts with the Sun and the eight planets, then gravity and orbits, then the
+      Moon's phases, then stars and the Milky Way. Pluto is a dwarf planet. A light-year is a distance.
+      Day and night come from Earth spinning. Seasons come from tilt. Astrology is not part of this pack.
+    why_it_matters:
+    - Learners treat a diagram of the planets as a photograph of tonight's sky.
+    - They confuse Moon phases with eclipses.
+    - They think a light-year is a time.
+  core_definitions:
+  - term: solar system
+    definition: The Sun and everything held by its gravity, including eight planets.
+  - term: planet
+    definition: A large world orbiting the Sun. The eight are Mercury, Venus, Earth, Mars, Jupiter, Saturn,
+      Uranus, and Neptune.
+  - term: dwarf planet
+    definition: A smaller world such as Pluto that orbits the Sun but is not one of the eight planets.
+  - term: gravity
+    definition: The pull between things that have mass.
+  - term: orbit
+    definition: A path where one body keeps falling around another instead of straight into it.
+  - term: moon phase
+    definition: The amount of the Moon's sunlit half that we can see. It is not Earth's shadow.
+  - term: star
+    definition: A huge ball of hot gas that makes its own light. The Sun is a star.
+  - term: light-year
+    definition: The distance light travels in one year. It is not a unit of time.
+  - term: galaxy
+    definition: A vast collection of stars, gas, and dust. The Milky Way is ours.
+  boundaries:
+  - Do not teach astrology or fortune-telling.
+  - Do not give instructions for looking at the Sun. Looking at the Sun can damage eyes.
+  - A planet diagram is not a claim about where the planets are tonight.
