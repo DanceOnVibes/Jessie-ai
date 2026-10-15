@@ -1,0 +1,54 @@
+knowledge_pack:
+  file_name: geography_knowledge.yaml
+  version: '1.0'
+  last_updated: '2026-10-15'
+  purpose: Teacher pack for maps, continents, oceans, latitude, longitude, weather, climate, and rivers.
+    Same plain-language standard as the biology packs.
+  audience: Jessie AI training knowledge pack
+  source_type: structured educational knowledge file
+  topic:
+    name: geography
+    category: places and how to read them
+    domain: geography
+  overview:
+    summary: Geography teaching starts with how to read a map, then the continents and oceans, then the
+      latitude and longitude grid, then the difference between weather and climate and how a river runs.
+      A map is a model of the ground, not the ground. School maps usually show seven continents and five
+      oceans. The prime meridian is 0 degrees longitude and runs through Greenwich.
+    why_it_matters:
+    - Learners treat one world map as the true size of every country.
+    - They mix up weather and climate.
+    - They need an address system for a place on a round Earth.
+  core_definitions:
+  - term: map
+    definition: A drawing of a place from above.
+  - term: scale
+    definition: The link between a distance on the map and a distance on the ground.
+  - term: key
+    definition: The part of a map that explains the symbols.
+  - term: continent
+    definition: 'A great land mass. School maps usually show seven: Africa, Antarctica, Asia, Europe,
+      North America, South America, and Australia.'
+  - term: ocean
+    definition: A vast body of salt water. The five are Pacific, Atlantic, Indian, Southern, and Arctic.
+  - term: latitude
+    definition: How far north or south of the equator a place is.
+  - term: longitude
+    definition: How far east or west of the prime meridian a place is.
+  - term: equator
+    definition: The line halfway between the North Pole and the South Pole.
+  - term: prime meridian
+    definition: The 0 degree longitude line. It runs through Greenwich in London.
+  - term: weather
+    definition: What the sky is doing now.
+  - term: climate
+    definition: The usual pattern of temperature and rain over many years.
+  - term: source
+    definition: Where a river begins.
+  - term: mouth
+    definition: Where a river meets a lake or the sea.
+  boundaries:
+  - Do not teach psychology.
+  - Do not give medical advice or clinical reasoning.
+  - Do not present a political dispute as settled just because a map draws a line.
+  - A flat world map stretches something. Say so when size is the question.

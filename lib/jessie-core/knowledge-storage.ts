@@ -4,6 +4,7 @@ import { artKnowledge } from "@/data/jessie-knowledge/art";
 import { privacyKnowledge } from "@/data/jessie-knowledge/privacy";
 import { natureKnowledge } from "@/data/jessie-knowledge/nature";
 import { spaceKnowledge } from "@/data/jessie-knowledge/space";
+import { geographyKnowledge } from "@/data/jessie-knowledge/geography";
 
 const ALL_KNOWLEDGE: KnowledgeItem[] = [
   ...biologyKnowledge,
@@ -11,6 +12,7 @@ const ALL_KNOWLEDGE: KnowledgeItem[] = [
   ...privacyKnowledge,
   ...natureKnowledge,
   ...spaceKnowledge,
+  ...geographyKnowledge,
 ];
 
 export function getAllKnowledge(): KnowledgeItem[] {

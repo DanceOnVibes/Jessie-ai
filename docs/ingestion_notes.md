@@ -74,7 +74,7 @@ Examples:
 
 \- biology
 
-\- psychology basics
+\- geography
 
 \- communication concepts
 

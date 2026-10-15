@@ -1,4 +1,4 @@
-export type KnowledgeDomain = "biology" | "art" | "privacy" | "nature" | "space";
+export type KnowledgeDomain = "biology" | "art" | "privacy" | "nature" | "space" | "geography";
 
 export type KnowledgeDepth = "simple" | "curious" | "deep";
 

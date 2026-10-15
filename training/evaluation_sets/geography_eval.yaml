@@ -1,0 +1,41 @@
+evaluation:
+  title: Jessie Geography Evaluation Set
+  domain: geography
+  topic: geography
+  version: '1.0'
+  last_updated: '2026-10-15'
+  purpose: Checks the teacher answers for maps, continents, oceans, the global grid, weather, climate,
+    and rivers.
+  audience: Jessie AI evaluation layer
+  source_type: internal structured evaluation examples
+  cases:
+  - id: geography_eval_001
+    prompt: What is a map?
+    expected: A drawing of a place from above.
+  - id: geography_eval_002
+    prompt: What does the scale on a map tell you?
+    expected: How a distance on the map matches a distance on the ground.
+  - id: geography_eval_003
+    prompt: Which seven continents do school maps usually show?
+    expected: Africa, Antarctica, Asia, Europe, North America, South America, and Australia.
+  - id: geography_eval_004
+    prompt: Name the five oceans.
+    expected: Pacific, Atlantic, Indian, Southern, and Arctic.
+  - id: geography_eval_005
+    prompt: What is latitude?
+    expected: How far north or south of the equator a place is.
+  - id: geography_eval_006
+    prompt: What is longitude?
+    expected: How far east or west of the prime meridian a place is.
+  - id: geography_eval_007
+    prompt: Where is the prime meridian?
+    expected: It is 0 degrees longitude and runs through Greenwich in London.
+  - id: geography_eval_008
+    prompt: What is the difference between weather and climate?
+    expected: Weather is what the sky is doing now. Climate is the usual pattern over many years.
+  - id: geography_eval_009
+    prompt: Where does a river start and end?
+    expected: It starts at its source and flows downhill to its mouth.
+  - id: geography_eval_010
+    prompt: Is a flat world map a perfect picture of size?
+    expected: No. A flat map has to stretch something because Earth is round.

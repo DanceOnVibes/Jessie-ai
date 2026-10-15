@@ -133,10 +133,6 @@ response_templates:
       - "Occasional knee cracking is usually normal, especially if there's no pain or swelling. See a provider if you develop pain, swelling, instability, or if it's affecting your movement. Joint sounds alone are typically harmless."
 
 cross_system_links:
-  - target_domain: "medical_practice"
-    connection: "All medical knowledge must route through safety escalation assessment"
-    teaching_bridge: "Before answering any health question, assess escalation level first"
-  
   - target_domain: "all_body_systems"
     connection: "Each system has its own red flag patterns"
     teaching_bridge: "System-specific knowledge packs include 'red_flags' and 'emergency_patterns' sections that feed into this framework"
@@ -194,6 +190,5 @@ metadata:
   review_status: "active"
   requires_regular_update: true
   cross_references:
-    - "medical_practice/clinical_reasoning_knowledge.yaml"
     - "training/style_guides/jessie_teaching_style.yaml"
     - "all body system knowledge packs (red_flags sections)"

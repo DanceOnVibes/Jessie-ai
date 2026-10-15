@@ -46,6 +46,14 @@ export function detectJessieMode(
     "moon",
     "gravity",
     "universe",
+    "geography",
+    "continent",
+    "ocean",
+    "equator",
+    "latitude",
+    "longitude",
+    "climate",
+    "atlas",
   ];
 
   const calmKeywords = [
