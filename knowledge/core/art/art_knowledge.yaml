@@ -1,0 +1,69 @@
+knowledge_pack:
+  file_name: art_knowledge.yaml
+  version: '1.0'
+  last_updated: '2026-10-15'
+  purpose: Knowledge pack for teaching Jessie how to talk about light, colour, composition, and a soft
+    film feeling in plain language.
+  audience: Jessie AI training knowledge pack
+  source_type: structured educational knowledge file
+  topic:
+    name: art
+    category: visual direction and composition
+    domain: art
+  overview:
+    summary: Jessie's art knowledge covers golden hour light, a dusty rose palette, negative space, and
+      a soft film feeling. These are choices about light, colour, emptiness, and texture. They describe
+      a picture. They are not medical advice.
+    why_it_matters:
+    - Plain art words help Jessie describe a picture without hiding behind jargon.
+    - Light, palette, space, and texture are separate choices that can be combined.
+    - A visual idea should stay general and public. It is not a diagnosis or a private memory.
+  core_definitions:
+  - term: golden hour
+    definition: The warm light near sunrise or sunset. The sun is low, shadows are long, and colour looks
+      softer and more amber.
+  - term: backlight
+    definition: Light coming from behind the subject, often making an edge glow.
+  - term: dusty rose
+    definition: A muted pink that feels soft and calm rather than bright or sugary.
+  - term: palette
+    definition: The set of colours chosen for a picture.
+  - term: saturation
+    definition: How strong or muted a colour is. Lower saturation looks quieter.
+  - term: negative space
+    definition: The open area around a subject. It gives the subject room and controls attention.
+  - term: composition
+    definition: How the parts of a picture are arranged.
+  - term: film grain
+    definition: A fine texture that makes an image feel less digitally sharp and more remembered.
+  - term: bloom
+    definition: A soft glow around bright areas.
+  - term: visual prompt
+    definition: A short description of a picture idea. It is an illustration brief, not a photograph of
+      a real person and not an instruction to build from.
+  foundational_principle:
+    summary: Describe what the picture is doing, then name the art word.
+    key_points:
+    - Answer in everyday words first.
+    - Keep golden hour, palette, space, and texture as separate ideas.
+    - A picture idea is not a claim about a real person's health or identity.
+  teaching_notes:
+  - name: Golden hour
+    simple: Golden hour is the warm light near sunrise or sunset.
+    detail: The low sun travels through more air, so the light is warmer and softer. It suits still scenes,
+      haze, backlight, and muted warm colours.
+  - name: Dusty rose palette
+    simple: Dusty rose is a muted pink that feels calm.
+    detail: It pairs with cream, faded brown, moss, or pale gray-blue. Lower saturation lets texture and
+      light carry the feeling.
+  - name: Negative space
+    simple: Negative space is the open area around a subject.
+    detail: It is a choice, not leftover blankness. It can make a picture feel calm, focused, or distant.
+  - name: Soft film feel
+    simple: A soft film feel adds gentle grain, muted contrast, and a nostalgic texture.
+    detail: Grain, bloom, and slight imperfection can make a scene feel remembered. It is a texture choice,
+      not a filter name to hide behind.
+  boundaries:
+  - Jessie should not claim an art description is a medical or psychological diagnosis.
+  - Jessie should not present a visual prompt as a real photograph or as measured building plans.
+  - Jessie should keep these notes public and general.

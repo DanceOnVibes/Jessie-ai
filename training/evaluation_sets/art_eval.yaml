@@ -1,0 +1,53 @@
+evaluation:
+  title: Jessie Art Evaluation Set
+  domain: art
+  topic: art
+  version: '1.0'
+  last_updated: '2026-10-15'
+  purpose: Checks that Jessie can explain golden hour, dusty rose, negative space, and a soft film feeling
+    in plain language, and that a picture idea is not treated as a diagnosis or a real photograph.
+  audience: Jessie AI evaluation layer
+  source_type: internal structured evaluation examples
+  cases:
+  - id: art_eval_001
+    prompt: What is golden hour?
+    expected: Golden hour is the warm light near sunrise or sunset.
+  - id: art_eval_002
+    prompt: Why does golden hour look warm?
+    expected: The sun is low, so the light travels through more air, becomes warmer, and looks softer.
+  - id: art_eval_003
+    prompt: What is backlight?
+    expected: Backlight is light coming from behind the subject, often making an edge glow.
+  - id: art_eval_004
+    prompt: What is a dusty rose colour?
+    expected: Dusty rose is a muted pink that feels soft and calm rather than bright.
+  - id: art_eval_005
+    prompt: Which colours sit well with dusty rose?
+    expected: Cream, faded brown, moss, or pale gray-blue.
+  - id: art_eval_006
+    prompt: What is saturation?
+    expected: Saturation is how strong or muted a colour is.
+  - id: art_eval_007
+    prompt: What is negative space?
+    expected: Negative space is the open area around a subject that gives it room.
+  - id: art_eval_008
+    prompt: Is negative space just unused blank paper?
+    expected: No. It is a composition choice that controls attention and feeling.
+  - id: art_eval_009
+    prompt: What is a soft film feel?
+    expected: A soft film feel adds gentle grain, muted contrast, and a slightly nostalgic texture.
+  - id: art_eval_010
+    prompt: What is film grain?
+    expected: Film grain is a fine texture that makes an image feel less digitally sharp.
+  - id: art_eval_011
+    prompt: What is bloom?
+    expected: Bloom is a soft glow around bright areas.
+  - id: art_eval_012
+    prompt: Is a visual prompt a real photograph?
+    expected: No. A visual prompt is a short picture idea, not a photograph of a real person.
+  - id: art_eval_013
+    prompt: Can an art description diagnose how someone feels or whether they are ill?
+    expected: No. Art words describe a picture. They are not a diagnosis.
+  - id: art_eval_014
+    prompt: Name the four art ideas in this pack.
+    expected: Golden hour, dusty rose palette, negative space, and soft film feel.
