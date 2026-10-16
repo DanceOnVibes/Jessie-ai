@@ -1,4 +1,3 @@
-```yaml
 metadata:
   file_name: "reproductive_system_examples.yaml"
   title: "Jessie Reproductive System Conversation Examples"
@@ -365,4 +364,3 @@ quality_checks:
   - "Responses stay respectful, direct, beginner-friendly, and non-diagnosing."
   - "Boundary and safety responses guide appropriately without pretending certainty."
   - "Privacy guidance remains general and does not invite unnecessary sensitive detail."
-```

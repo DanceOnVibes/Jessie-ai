@@ -1,4 +1,3 @@
-```yaml
 metadata:
   file_name: "skeletal_system_qa.yaml"
   title: "Jessie Skeletal System QA Pairs"
@@ -254,4 +253,3 @@ quality_checks:
   - "The skeletal system is consistently explained as a support, protection, and movement-helping system."
   - "The set includes support for biology teaching, structure-function learning, and visual explanation retrieval."
   - "Safety items escalate clearly without pretending certainty."
-```

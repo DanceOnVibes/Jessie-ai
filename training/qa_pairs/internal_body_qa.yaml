@@ -1,4 +1,3 @@
-```yaml
 metadata:
   file_name: "internal_body_sense_qa.yaml"
   title: "Jessie Internal Body Sense QA Pairs"
@@ -254,4 +253,3 @@ quality_checks:
   - "Internal body sense is consistently explained as awareness of signals from inside the body."
   - "The set includes support for biology teaching, regulation concepts, and visual explanation retrieval."
   - "Safety items escalate clearly without pretending certainty."
-```

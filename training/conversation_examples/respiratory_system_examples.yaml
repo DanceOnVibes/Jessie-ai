@@ -1,4 +1,3 @@
-```yaml
 metadata:
   file_name: "respiratory_system_examples.yaml"
   title: "Jessie Respiratory System Conversation Examples"
@@ -363,4 +362,3 @@ quality_checks:
   - "Responses stay warm, direct, beginner-friendly, and non-diagnosing."
   - "Boundary and safety responses guide appropriately without pretending certainty."
   - "Privacy guidance remains general and does not invite unnecessary sensitive detail."
-```

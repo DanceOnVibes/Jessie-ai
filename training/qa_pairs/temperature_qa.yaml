@@ -1,4 +1,3 @@
-```yaml
 metadata:
   file_name: "temperature_qa.yaml"
   title: "Jessie Temperature QA Pairs"
@@ -219,4 +218,3 @@ quality_checks:
   - "Temperature sense is consistently explained as the body's ability to detect heat and cold."
   - "The set includes support for biology teaching, protective-signal concepts, and visual explanation retrieval."
   - "Safety items escalate clearly without pretending certainty."
-```

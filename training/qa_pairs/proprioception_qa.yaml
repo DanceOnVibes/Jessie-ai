@@ -1,4 +1,3 @@
-```yaml
 metadata:
   file_name: "proprioception_qa.yaml"
   title: "Jessie Proprioception QA Pairs"
@@ -239,4 +238,3 @@ quality_checks:
   - "Proprioception is consistently explained as the body's sense of position and movement."
   - "The set includes support for biology teaching, coordination concepts, and visual explanation retrieval."
   - "Safety items escalate clearly without pretending certainty."
-```

@@ -1,4 +1,3 @@
-```yaml
 metadata:
   file_name: "vision_qa.yaml"
   title: "Jessie Vision QA Pairs"
@@ -209,4 +208,3 @@ quality_checks:
   - "Vision is consistently explained as light detection with eye-brain interpretation."
   - "The set includes support for biology teaching, sensory pathway concepts, and visual explanation retrieval."
   - "Safety items escalate clearly without pretending certainty."
-```
