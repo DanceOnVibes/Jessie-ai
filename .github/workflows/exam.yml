@@ -1,0 +1,48 @@
+# Jessie's exam. Run by hand from the Actions tab ("Run workflow").
+# Needs repository secrets GOOGLE_VERTEX_SA_KEY and GOOGLE_CLOUD_PROJECT.
+# The default sample costs about £0.25; a full run needs the owner's approval.
+name: Exam
+
+on:
+  workflow_dispatch:
+    inputs:
+      per_set:
+        description: Questions per subject (the teacher-rules set always runs in full)
+        default: "3"
+      max_gbp:
+        description: Spending limit in pounds
+        default: "0.50"
+
+permissions:
+  contents: read
+
+jobs:
+  exam:
+    runs-on: ubuntu-latest
+    env:
+      GOOGLE_VERTEX_SA_KEY: ${{ secrets.GOOGLE_VERTEX_SA_KEY }}
+      GOOGLE_CLOUD_PROJECT: ${{ secrets.GOOGLE_CLOUD_PROJECT }}
+      GOOGLE_VERTEX_LOCATION: europe-west2
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Start Jessie
+        run: |
+          npm start -- -p 3000 > server.log 2>&1 &
+          for i in $(seq 1 30); do curl -sf http://localhost:3000/api/jessie > /dev/null && break; sleep 2; done
+          curl -s http://localhost:3000/api/jessie
+      - name: Run the exam
+        run: node scripts/run-exam.mjs --base http://localhost:3000 --per-set "${{ inputs.per_set }}" --max-gbp "${{ inputs.max_gbp }}"
+      - name: Summary
+        if: always()
+        run: test -f exam-report.md && cat exam-report.md >> "$GITHUB_STEP_SUMMARY" || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: exam-report
+          path: exam-report.*
