@@ -1,23 +1,37 @@
 knowledge_pack:
   file_name: space_knowledge.yaml
-  version: '1.0'
-  last_updated: '2026-10-15'
-  purpose: Teacher pack for the solar system, gravity, orbits, the Moon, and stars. Same plain-language
-    standard as the biology packs.
+  version: '2.0'
+  last_updated: '2026-10-17'
+  status: DRAFT for owner review. Expanded from version 1.0 (2026-10-15); every fact needs a check against the
+    sources listed below before this pack goes live.
+  purpose: Teacher pack for the Sun, the planets, the Moon, stars, galaxies, black holes, and space
+    exploration. Covers the England national curriculum (Year 5 Earth and space, Key Stage 3 space
+    physics) and lets curious learners go further at their own pace.
   audience: Jessie AI training knowledge pack
   source_type: structured educational knowledge file
   topic:
     name: space
-    category: the solar system and beyond
+    category: the universe and our place in it
     domain: space
   overview:
     summary: Space teaching starts with the Sun and the eight planets, then gravity and orbits, then the
-      Moon's phases, then stars and the Milky Way. Pluto is a dwarf planet. A light-year is a distance.
-      Day and night come from Earth spinning. Seasons come from tilt. Astrology is not part of this pack.
+      Moon's phases, then stars and the Milky Way, then other galaxies and black holes. Pluto is a dwarf
+      planet. A light-year is a distance. Day and night come from Earth spinning. Seasons come from tilt.
+      Astrology is not part of this pack.
     why_it_matters:
     - Learners treat a diagram of the planets as a photograph of tonight's sky.
     - They confuse Moon phases with eclipses.
     - They think a light-year is a time.
+    - They think summer happens because Earth is closer to the Sun. Earth is actually closest to the Sun
+      in early January.
+    - They think the Moon makes its own light. It reflects sunlight.
+    - They think there is no gravity on the International Space Station. Astronauts float because they
+      are falling around Earth all the time.
+    - They think a black hole is a hole you can see, or a cosmic vacuum cleaner that sucks everything in.
+    - They think the stars in a constellation are close together. Most are far apart and only line up
+      from where we stand.
+    - Diagrams cannot show real sizes and real distances at the same time. Say so when scale is the
+      question.
   core_definitions:
   - term: solar system
     definition: The Sun and everything held by its gravity, including eight planets.
@@ -26,19 +40,270 @@ knowledge_pack:
       Uranus, and Neptune.
   - term: dwarf planet
     definition: A smaller world such as Pluto that orbits the Sun but is not one of the eight planets.
+  - term: moon
+    definition: A natural object that orbits a planet. Earth has one Moon.
   - term: gravity
     definition: The pull between things that have mass.
   - term: orbit
     definition: A path where one body keeps falling around another instead of straight into it.
   - term: moon phase
     definition: The amount of the Moon's sunlit half that we can see. It is not Earth's shadow.
+  - term: eclipse
+    definition: When one object blocks light from another. In a solar eclipse the Moon blocks the Sun. In
+      a lunar eclipse Earth's shadow falls on the Moon.
   - term: star
     definition: A huge ball of hot gas that makes its own light. The Sun is a star.
+  - term: constellation
+    definition: A pattern of stars that people have named, such as Orion or the Plough.
   - term: light-year
-    definition: The distance light travels in one year. It is not a unit of time.
+    definition: The distance light travels in one year, about 9.5 trillion kilometres. It is not a unit of
+      time.
   - term: galaxy
     definition: A vast collection of stars, gas, and dust. The Milky Way is ours.
+  - term: nebula
+    definition: A cloud of gas and dust in space. Some nebulae are places where new stars are born.
+  - term: black hole
+    definition: A place where gravity is so strong that nothing, not even light, can escape once it is
+      close enough.
+  - term: event horizon
+    definition: The edge around a black hole. Past it, nothing can get back out.
+  - term: comet
+    definition: A small icy body that grows a glowing head and tail when it comes near the Sun.
+  - term: asteroid
+    definition: A rocky or metal object, smaller than a planet, that orbits the Sun.
+  - term: meteor
+    definition: The streak of light when a small piece of rock burns up in Earth's air. People call it a
+      shooting star, but it is not a star.
+  - term: meteorite
+    definition: A piece of space rock that survives the fall and lands on the ground.
+  - term: exoplanet
+    definition: A planet that orbits a star other than the Sun.
+  - term: astronaut
+    definition: A person trained to travel and work in space.
+  - term: telescope
+    definition: An instrument that collects light so that we can see faint and distant objects.
+
+  teaching_levels:
+    note: Every topic has three depths. Start simple. Go curious next. Give the deep account only when the
+      learner asks or clearly wants more. A young learner may ask for deep; let them.
+    the_sun:
+      simple: The Sun is a star. It is the closest star to us, and it gives Earth light and warmth.
+      curious: The Sun is a giant ball of hot gas, mostly hydrogen and helium. Deep inside, hydrogen is
+        squeezed into helium, and that releases huge amounts of energy. Sunlight takes about 8 minutes to
+        reach Earth.
+      deep: The Sun is about 4.6 billion years old and roughly halfway through its life. About 109 Earths
+        would fit across it. The surface is around 5,500 degrees Celsius and the core around 15 million
+        degrees Celsius. In about 5 billion years it will swell into a red giant, then shrink to a white
+        dwarf.
+    the_planets:
+      simple: Eight planets travel around the Sun. In order from the Sun they are Mercury, Venus, Earth,
+        Mars, Jupiter, Saturn, Uranus, and Neptune.
+      curious: The four inner planets are small and rocky. The four outer planets are giants. Jupiter and
+        Saturn are mostly gas, and Uranus and Neptune are mostly icy materials. The giants are far from the
+        Sun and very cold.
+      deep: The planets formed about 4.6 billion years ago from a spinning disc of gas and dust around the
+        young Sun. Near the Sun it was too hot for ice, so rocky planets formed there. Further out, ice
+        helped giant planets grow large enough to pull in gas.
+    the_moon:
+      simple: The Moon travels around Earth. It does not make its own light. It shines because sunlight
+        bounces off it.
+      curious: The Moon goes around Earth about once a month. As it moves, we see different amounts of its
+        sunlit side. Those are the phases, from new Moon to full Moon and back. We always see the same face
+        of the Moon.
+      deep: The Moon is about 384,400 kilometres away on average. It takes about 27 days to orbit Earth,
+        but about 29.5 days to go from one new Moon to the next, because Earth is also moving around the
+        Sun. It spins exactly once per orbit, which is why one side always faces us. Its gravity is the
+        main cause of ocean tides.
+    day_night_and_seasons:
+      simple: Earth spins round once a day. The side facing the Sun has day. The side facing away has
+        night.
+      curious: Earth's spin axis is tilted. For part of the year our half of Earth leans towards the Sun,
+        so days are longer and sunlight is more direct. That is summer.
+      deep: The tilt is about 23.5 degrees. It is the tilt, not the distance, that makes seasons. Earth is
+        closest to the Sun in early January, during winter in the UK. When it is summer in the northern
+        half of the world, it is winter in the southern half.
+    gravity_and_orbits:
+      simple: Gravity pulls things towards each other. It keeps our feet on the ground and keeps the Moon
+        near Earth.
+      curious: An orbit is falling sideways. The Moon is falling towards Earth all the time, but it is also
+        moving sideways so fast that it keeps missing.
+      deep: The more mass something has, the stronger its pull, and the pull gets weaker with distance.
+        Astronauts on the International Space Station float because they and the station are falling
+        around Earth together, not because gravity has disappeared.
+    stars_and_their_lives:
+      simple: Stars are suns. They look tiny because they are very, very far away.
+      curious: Stars are born in clouds of gas and dust called nebulae. They shine for millions or billions
+        of years, and they come in different colours. Blue stars are hotter than red ones.
+      deep: A star like the Sun ends as a red giant, then puffs off its outer layers and leaves a small,
+        hot core called a white dwarf. A star many times heavier than the Sun ends in a huge explosion
+        called a supernova and leaves a neutron star or a black hole. Many atoms in our bodies were made
+        inside stars long ago.
+    the_milky_way:
+      simple: The Milky Way is our galaxy. It is a giant family of stars, and the Sun is one of them.
+      curious: The Milky Way is shaped like a spiral with arms. From a very dark place you can see it as a
+        pale band across the night sky. That band is the light of countless distant stars.
+      deep: The Milky Way is about 100,000 light-years across and holds somewhere between 100 billion and
+        400 billion stars. The Sun is about 26,000 light-years from the centre, where a supermassive black
+        hole called Sagittarius A* sits. It is about 4 million times the mass of the Sun.
+    andromeda:
+      simple: Andromeda is our nearest big neighbour galaxy. It is a spiral of stars, a bit like the Milky
+        Way.
+      curious: Andromeda is about 2.5 million light-years away. The light we see from it tonight set off
+        before there were any humans. On a very dark night it is one of the most distant things you can see
+        without a telescope.
+      deep: Andromeda is bigger than the Milky Way and holds about a trillion stars. It is moving towards
+        us at about 110 kilometres per second. Astronomers used to say the two galaxies
+        would merge in about 4 to 5 billion years. A 2025 study using newer measurements found it is closer
+        to a 50:50 chance within the next 10 billion years. Either way, stars are so far apart that they
+        would almost never crash into each other.
+    black_holes:
+      simple: A black hole is a place where gravity pulls so hard that not even light can escape.
+      curious: Many black holes form when a giant star runs out of fuel and its core collapses. We cannot
+        see a black hole itself, but we can see the glowing gas swirling around it and the way it pulls on
+        nearby stars.
+      deep: The edge of no return is called the event horizon. A black hole does not suck in everything
+        like a vacuum cleaner. Far away, its gravity acts like any other object of the same mass. The first
+        picture of a black hole's shadow, in the galaxy M87, was shown in 2019 by the Event Horizon
+        Telescope. A picture of Sagittarius A*, at the centre of our own galaxy, followed in 2022. In 2015
+        scientists first detected gravitational waves, ripples in space made when two black holes merged.
+    the_scale_of_space:
+      simple: Space is so big that even light, the fastest thing there is, takes years to travel between
+        stars.
+      curious: Light from the Moon takes just over 1 second to reach us. From the Sun it takes about 8
+        minutes. From the nearest star after the Sun, Proxima Centauri, it takes about 4 years.
+      deep: The observable universe is about 13.8 billion years old, which is how long light has had to
+        travel to us since the Big Bang. Because space itself has been stretching, the most distant things
+        we can see are now much further away than 13.8 billion light-years.
+    looking_back_in_time:
+      simple: When we look at the stars, we see them as they were when their light set off, not as they are
+        now. Looking far into space is looking back in time.
+      curious: A light-year is how far light travels in one year. So if a star is 100 light-years away, its
+        light has been travelling for 100 years. We see that star as it was 100 years ago. If it changed
+        last week, nobody on Earth could know for another 100 years.
+      deep: In 1987 astronomers saw a supernova, a star exploding, in a small galaxy next to ours called
+        the Large Magellanic Cloud. That galaxy is about 168,000 light-years away, so the star really
+        exploded about 168,000 years earlier, long before anyone on Earth had telescopes. The light of
+        Andromeda that reaches us tonight left it about 2.5 million years ago. The James Webb Space
+        Telescope sees galaxies whose light set off more than 13 billion years ago, so it shows them as
+        they were when the universe was young.
+      key_idea: The further away something is, the older the light we see from it. A light-year measures
+        distance, but because light takes time to travel, distance in space is also a way of looking into
+        the past.
+    exoplanets:
+      simple: Other stars have planets too. We call them exoplanets.
+      curious: Astronomers find exoplanets by watching a star dim slightly when a planet passes in front of
+        it, or wobble as a planet tugs on it.
+      deep: More than 6,000 exoplanets had been confirmed by 2025. Some are giant planets very close to
+        their stars. Some are rocky planets in the zone where liquid water could exist. No life has been
+        found beyond Earth so far.
+    space_exploration:
+      simple: People have built rockets, satellites, and space stations to explore space. Twelve astronauts
+        have walked on the Moon.
+      curious: In 1957 the first satellite, Sputnik 1, went into orbit. In 1961 Yuri Gagarin became the
+        first person in space. In 1969 Neil Armstrong and Buzz Aldrin walked on the Moon during Apollo 11.
+      deep: Helen Sharman became the first British astronaut in 1991, and Tim Peake lived on the
+        International Space Station in 2015 and 2016. People have lived on the station continuously since
+        2000. Voyager 1, launched in 1977, is the most distant human-made object and entered interstellar
+        space in 2012. The James Webb Space Telescope, launched in 2021, looks at the early universe in
+        infrared light.
+
+  the_planets_one_by_one:
+    mercury:
+      - Closest planet to the Sun and the smallest planet.
+      - No real atmosphere to hold heat, so days are scorching and nights are freezing.
+      - A year on Mercury lasts about 88 Earth days.
+    venus:
+      - Second from the Sun and the hottest planet, at around 465 degrees Celsius, because its thick
+        carbon dioxide atmosphere traps heat.
+      - Often the brightest planet in our sky, sometimes called the morning star or evening star, although
+        it is not a star.
+      - Spins very slowly and in the opposite direction to most planets.
+    earth:
+      - Third from the Sun and the only place where life is known to exist.
+      - About 71 per cent of the surface is covered by water.
+      - One spin takes about 24 hours. One orbit takes about 365 and a quarter days, which is why we add a
+        leap day every four years.
+    mars:
+      - Fourth from the Sun. Its red colour comes from iron oxide, which is rust, in its dust.
+      - Home to Olympus Mons, the largest known volcano in the solar system.
+      - Has two small moons, Phobos and Deimos, and has been explored by robotic rovers.
+    jupiter:
+      - Fifth from the Sun and the largest planet. More than 1,000 Earths could fit inside it.
+      - The Great Red Spot is a storm bigger than Earth that has lasted for centuries.
+      - Has dozens of moons, including Ganymede, the largest moon in the solar system.
+    saturn:
+      - Sixth from the Sun, famous for its bright rings made of ice and rock.
+      - Less dense than water on average.
+      - Has the most known moons of any planet, more than 270 by 2025, and the count keeps changing as new
+        ones are found. Its largest moon, Titan, has a thick atmosphere and lakes of liquid methane.
+    uranus:
+      - Seventh from the Sun. It is tipped over on its side, so it rolls around the Sun.
+      - An ice giant with a blue-green colour from methane gas.
+      - Discovered by William Herschel in 1781, while he was living in Bath.
+    neptune:
+      - Eighth and furthest planet from the Sun.
+      - Has the fastest winds measured on any planet.
+      - Was found in 1846 after mathematicians predicted where it should be from the way it pulled on
+        Uranus.
+
+  common_questions_jessie_should_handle:
+  - question: Why is Pluto not a planet any more?
+    answer: In 2006 astronomers agreed a definition of a planet. Pluto orbits the Sun and is round, but it
+      shares its part of space with many other icy objects, so it was called a dwarf planet instead.
+  - question: Could we fall into a black hole?
+    answer: No. The nearest known black holes are thousands of light-years away. Earth is safe.
+  - question: Is the Sun going to explode?
+    answer: No. The Sun is not heavy enough to explode as a supernova. In about 5 billion years it will
+      swell into a red giant and then become a white dwarf.
+  - question: Why can we see the Moon in the daytime?
+    answer: The Moon is bright enough to see whenever it is above the horizon and not too close to the
+      Sun in the sky. It is in the sky in daylight for part of most days.
+  - question: Are there aliens?
+    answer: Nobody knows yet. No life has been found beyond Earth, but scientists are searching on Mars,
+      on icy moons, and on exoplanets. It is fine to say it is an open question.
+  - question: What is at the edge of the universe?
+    answer: As far as we know, the universe has no edge you could visit. We can only see as far as light
+      has had time to travel to us since the Big Bang. Scientists are still working on the bigger
+      question, and it is honest to say we do not know.
+
+  story_starters:
+  - Imagine you are a beam of sunlight leaving the Sun. In just over 8 minutes, you will splash onto
+    Earth.
+  - Picture yourself standing on Mars. The sky is a dusty butterscotch colour, and the Sun looks smaller
+    than at home.
+  - Imagine you could fly at the speed of light. Even so, the journey to Andromeda would take 2.5 million
+    years.
+  - Imagine you open a letter that was posted 168,000 years ago. That is what it is like to see the
+    light of a star that exploded far across space.
+  - Imagine you are a tiny speck of dust in a cloud between the stars. Gravity starts to pull the cloud
+    together, and something new is about to be born.
+
+  picture_guidance:
+  - A picture of the solar system is a diagram. Say that real distances are far too big to fit, so the
+    picture squeezes them.
+  - Do not let an AI picture carry labels, numbers, or names. The app adds those from this pack.
+  - Black hole pictures show the glowing ring of gas around it, not the black hole itself.
+
+  curriculum_links:
+    year_5: The Sun, Earth, and Moon as approximately spherical bodies; how Earth and the other planets
+      move around the Sun; how the Moon moves around Earth; day and night.
+    key_stage_3: Gravity and weight; the solar system; the Milky Way and other galaxies; the light-year as
+      a unit of distance; seasons and Earth's tilt.
+    beyond: Black holes, Andromeda, exoplanets, the life of stars, and gravitational waves are offered to
+      curious learners at any age.
+
   boundaries:
   - Do not teach astrology or fortune-telling.
-  - Do not give instructions for looking at the Sun. Looking at the Sun can damage eyes.
+  - Never suggest looking at the Sun, not even with sunglasses. Looking at the Sun can damage eyes. For
+    eclipses, tell the learner to ask an adult or a local astronomy society about safe ways to watch.
   - A planet diagram is not a claim about where the planets are tonight.
+  - Numbers that keep changing, such as moon counts and exoplanet totals, are given with a year and the
+    words "and counting".
+  - When science does not know yet, say so plainly.
+
+  sources_to_check:
+  - NASA Science, solar system and universe pages (science.nasa.gov)
+  - European Space Agency (esa.int)
+  - Royal Museums Greenwich, Royal Observatory (rmg.co.uk)
+  - Event Horizon Telescope collaboration (eventhorizontelescope.org)
+  - National curriculum in England, science programmes of study, Year 5 and Key Stage 3 (gov.uk)

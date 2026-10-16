@@ -2,8 +2,8 @@ evaluation:
   title: Jessie Space Evaluation Set
   domain: space
   topic: space
-  version: '1.0'
-  last_updated: '2026-10-15'
+  version: '2.0'
+  last_updated: '2026-10-17'
   purpose: Checks the teacher answers for the solar system, gravity, the Moon, and stars.
   audience: Jessie AI evaluation layer
   source_type: internal structured evaluation examples
@@ -39,3 +39,226 @@ evaluation:
   - id: space_eval_010
     prompt: Should Jessie teach astrology?
     expected: No. This pack is astronomy. It does not tell fortunes.
+  - id: space_eval_011
+    prompt: Which planet is closest to the Sun?
+    expected: Mercury.
+  - id: space_eval_012
+    prompt: Which planet is the hottest, and why?
+    expected: Venus, because its thick carbon dioxide atmosphere traps heat.
+  - id: space_eval_013
+    prompt: Which is the largest planet?
+    expected: Jupiter.
+  - id: space_eval_014
+    prompt: What is the Great Red Spot?
+    expected: A giant storm on Jupiter, bigger than Earth, that has lasted for centuries.
+  - id: space_eval_015
+    prompt: What are Saturn's rings made of?
+    expected: Mostly ice, with some rock and dust.
+  - id: space_eval_016
+    prompt: Why is Mars red?
+    expected: Its dust contains iron oxide, which is rust.
+  - id: space_eval_017
+    prompt: What is Olympus Mons?
+    expected: A volcano on Mars, the largest known volcano in the solar system.
+  - id: space_eval_018
+    prompt: Which planet is tipped on its side?
+    expected: Uranus.
+  - id: space_eval_019
+    prompt: How was Neptune discovered?
+    expected: Mathematicians predicted where it should be from how it pulled on Uranus, and it was found
+      there in 1846.
+  - id: space_eval_020
+    prompt: Who discovered Uranus?
+    expected: William Herschel, in 1781.
+  - id: space_eval_021
+    prompt: Which planet has the most known moons?
+    expected: Saturn, with more than 270 known by 2025, and the count keeps changing.
+  - id: space_eval_022
+    prompt: What is the largest moon in the solar system?
+    expected: Ganymede, a moon of Jupiter.
+  - id: space_eval_023
+    prompt: Does the Moon make its own light?
+    expected: No. It reflects sunlight.
+  - id: space_eval_024
+    prompt: How long does sunlight take to reach Earth?
+    expected: About 8 minutes.
+  - id: space_eval_025
+    prompt: How long does light from the Moon take to reach Earth?
+    expected: Just over 1 second.
+  - id: space_eval_026
+    prompt: What is the Sun made of?
+    expected: Mostly hydrogen and helium gas.
+  - id: space_eval_027
+    prompt: How old is the Sun?
+    expected: About 4.6 billion years old.
+  - id: space_eval_028
+    prompt: Will the Sun explode as a supernova?
+    expected: No. It is not heavy enough. In about 5 billion years it will become a red giant, then a
+      white dwarf.
+  - id: space_eval_029
+    prompt: Why do we always see the same side of the Moon?
+    expected: The Moon spins exactly once for each orbit of Earth, so the same side always faces us.
+  - id: space_eval_030
+    prompt: What causes ocean tides?
+    expected: Mainly the pull of the Moon's gravity, with help from the Sun.
+  - id: space_eval_031
+    prompt: What is a solar eclipse?
+    expected: When the Moon passes between the Sun and Earth and blocks the Sun's light.
+  - id: space_eval_032
+    prompt: What is a lunar eclipse?
+    expected: When Earth's shadow falls on the Moon.
+  - id: space_eval_033
+    prompt: Is it safe to look at the Sun during an eclipse with sunglasses?
+    expected: No. Never look at the Sun, even with sunglasses. Ask an adult or an astronomy society about
+      safe ways to watch.
+  - id: space_eval_034
+    prompt: What causes the seasons?
+    expected: Earth's tilted axis. Not how close Earth is to the Sun.
+  - id: space_eval_035
+    prompt: When is Earth closest to the Sun?
+    expected: In early January, which is winter in the UK.
+  - id: space_eval_036
+    prompt: Why do astronauts float on the International Space Station?
+    expected: They and the station are falling around Earth together. Gravity has not disappeared.
+  - id: space_eval_037
+    prompt: What is a nebula?
+    expected: A cloud of gas and dust in space, where new stars can be born.
+  - id: space_eval_038
+    prompt: Why do some stars look blue and others red?
+    expected: Their colour shows their temperature. Blue stars are hotter than red stars.
+  - id: space_eval_039
+    prompt: What happens at the end of a star like the Sun?
+    expected: It swells into a red giant, then leaves behind a small hot core called a white dwarf.
+  - id: space_eval_040
+    prompt: What is a supernova?
+    expected: The huge explosion at the end of a very heavy star's life.
+  - id: space_eval_041
+    prompt: What is a black hole?
+    expected: A place where gravity is so strong that nothing, not even light, can escape once it gets
+      close enough.
+  - id: space_eval_042
+    prompt: How do most black holes form?
+    expected: When a giant star runs out of fuel and its core collapses.
+  - id: space_eval_043
+    prompt: What is the event horizon?
+    expected: The edge around a black hole. Past it, nothing can get back out.
+  - id: space_eval_044
+    prompt: Does a black hole suck in everything like a vacuum cleaner?
+    expected: No. Far away, its gravity acts like any other object of the same mass.
+  - id: space_eval_045
+    prompt: When was the first picture of a black hole shown?
+    expected: In 2019, of the black hole in the galaxy M87, by the Event Horizon Telescope.
+  - id: space_eval_046
+    prompt: What is at the centre of the Milky Way?
+    expected: A supermassive black hole called Sagittarius A*.
+  - id: space_eval_047
+    prompt: Could Earth fall into a black hole?
+    expected: No. The nearest known black holes are thousands of light-years away.
+  - id: space_eval_048
+    prompt: How big is the Milky Way?
+    expected: About 100,000 light-years across.
+  - id: space_eval_049
+    prompt: What is Andromeda?
+    expected: Our nearest big neighbour galaxy, a spiral galaxy about 2.5 million light-years away.
+  - id: space_eval_050
+    prompt: Can you see Andromeda without a telescope?
+    expected: Yes, on a very dark night, as a faint smudge. It is one of the most distant things you can
+      see with your eyes alone.
+  - id: space_eval_051
+    prompt: Will Andromeda and the Milky Way crash?
+    expected: They may merge billions of years from now. Recent studies give about a 50:50 chance within
+      10 billion years. Stars would almost never hit each other.
+  - id: space_eval_052
+    prompt: If a star is 100 light-years away, when did the light we see leave it?
+    expected: About 100 years ago. We see the star as it was then.
+  - id: space_eval_053
+    prompt: Why is looking far into space like looking back in time?
+    expected: Light takes time to travel, so the further away something is, the older the light we see
+      from it.
+  - id: space_eval_054
+    prompt: In 1987 astronomers saw a supernova 168,000 light-years away. When did the star really explode?
+    expected: About 168,000 years earlier.
+  - id: space_eval_055
+    prompt: What is the nearest star to Earth after the Sun?
+    expected: Proxima Centauri, about 4 light-years away.
+  - id: space_eval_056
+    prompt: How far is a light-year in kilometres?
+    expected: About 9.5 trillion kilometres.
+  - id: space_eval_057
+    prompt: How old is the universe?
+    expected: About 13.8 billion years.
+  - id: space_eval_058
+    prompt: What is an exoplanet?
+    expected: A planet that orbits a star other than the Sun.
+  - id: space_eval_059
+    prompt: How do astronomers find exoplanets?
+    expected: By seeing a star dim when a planet passes in front of it, or wobble as a planet tugs on
+      it.
+  - id: space_eval_060
+    prompt: Has life been found on other planets?
+    expected: No. Scientists are searching, but no life has been found beyond Earth so far.
+  - id: space_eval_061
+    prompt: Are there aliens?
+    expected: Nobody knows yet. It is an open question, and scientists are searching.
+  - id: space_eval_062
+    prompt: What is a meteor?
+    expected: The streak of light when a small piece of space rock burns up in Earth's air.
+  - id: space_eval_063
+    prompt: What is the difference between a meteor and a meteorite?
+    expected: A meteor burns up in the air. A meteorite is a piece that survives and lands on the ground.
+  - id: space_eval_064
+    prompt: What is a comet?
+    expected: A small icy body that grows a glowing head and tail when it comes near the Sun.
+  - id: space_eval_065
+    prompt: What is an asteroid?
+    expected: A rocky or metal object, smaller than a planet, that orbits the Sun.
+  - id: space_eval_066
+    prompt: Is a shooting star a star?
+    expected: No. It is a meteor, a small piece of rock burning up in Earth's air.
+  - id: space_eval_067
+    prompt: What is a constellation?
+    expected: A named pattern of stars, such as Orion. The stars are usually far apart and only line up
+      from where we stand.
+  - id: space_eval_068
+    prompt: Who was the first person in space?
+    expected: Yuri Gagarin, in 1961.
+  - id: space_eval_069
+    prompt: Who were the first people to walk on the Moon?
+    expected: Neil Armstrong and Buzz Aldrin, on Apollo 11 in 1969.
+  - id: space_eval_070
+    prompt: How many people have walked on the Moon?
+    expected: Twelve.
+  - id: space_eval_071
+    prompt: Who was the first British astronaut?
+    expected: Helen Sharman, in 1991.
+  - id: space_eval_072
+    prompt: Which British astronaut lived on the International Space Station?
+    expected: Tim Peake, in 2015 and 2016.
+  - id: space_eval_073
+    prompt: What was the first satellite?
+    expected: Sputnik 1, launched in 1957.
+  - id: space_eval_074
+    prompt: What is the most distant human-made object?
+    expected: Voyager 1, launched in 1977.
+  - id: space_eval_075
+    prompt: What does the James Webb Space Telescope do?
+    expected: It looks at very distant galaxies and the early universe using infrared light.
+  - id: space_eval_076
+    prompt: Why is Pluto not a planet any more?
+    expected: In 2006 astronomers decided it is a dwarf planet because it shares its part of space with
+      many other icy objects.
+  - id: space_eval_077
+    prompt: Is a planet diagram a picture of where the planets are tonight?
+    expected: No. It is a diagram, and real distances are far too big to fit.
+  - id: space_eval_078
+    prompt: What is at the edge of the universe?
+    expected: We do not know. We can only see as far as light has had time to reach us, and it is honest
+      to say science has not answered this yet.
+  - id: space_eval_079
+    prompt: What are gravitational waves?
+    expected: Ripples in space, first detected in 2015, made when two black holes merged.
+  - id: space_eval_080
+    prompt: Can you tell my future from the stars?
+    expected: No. Jessie teaches astronomy, the science of space. Astrology and fortune-telling are not
+      part of it.
+  status: DRAFT for owner review

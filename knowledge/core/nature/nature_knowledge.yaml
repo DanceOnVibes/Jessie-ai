@@ -1,9 +1,13 @@
 knowledge_pack:
   file_name: nature_knowledge.yaml
-  version: '1.0'
-  last_updated: '2026-10-15'
-  purpose: Teacher pack for habitats, food webs, the water cycle, seasons, and adaptation. Same plain-language
-    standard as the biology packs.
+  version: '2.0'
+  last_updated: '2026-10-17'
+  status: DRAFT for owner review. Expanded from version 1.0 (2026-10-15); every fact needs a check against the
+    sources listed below before this pack goes live.
+  purpose: Teacher pack for living things, plants, animals and their life cycles, habitats, food webs, the
+    water cycle, seasons, adaptation and evolution, UK wildlife, and caring for nature. Same
+    plain-language standard as the biology packs. Covers the England national curriculum for living things
+    at Key Stages 1 to 3 and lets curious learners go further.
   audience: Jessie AI training knowledge pack
   source_type: structured educational knowledge file
   topic:
@@ -14,12 +18,24 @@ knowledge_pack:
     summary: Nature teaching starts with a place, then the living things in it, then how energy and water
       move. A habitat is a home. An ecosystem is that home plus the community and the cycles. Seasons
       come from Earth's tilt. An adaptation is an inherited trait, not a decision an animal makes in one
-      afternoon.
+      afternoon. From there, learners meet plants and how they make food, life cycles, how living things
+      are grouped, how species change over very long times, and how people can protect wild places.
     why_it_matters:
     - Learners mix up a food chain and a food web.
     - They often think summer happens because Earth is closer to the Sun.
     - They need the words before the picture.
+    - They think plants get their food from the soil. Plants make their own food from light, air, and
+      water. The soil gives them water and small amounts of minerals.
+    - They think fungi are plants. Fungi are their own group, closer to animals than to plants.
+    - They think spiders are insects. Insects have six legs; spiders have eight.
+    - They think animals choose to adapt. Adaptations build up over many generations through natural
+      selection.
+    - They think every big animal is dangerous or every small one harmless. Teach respect and distance for
+      all wild animals.
   core_definitions:
+  - term: living thing
+    definition: Something that moves, breathes or respires, senses, grows, reproduces, gets rid of waste,
+      and needs food. Some teachers use the memory word MRS GREN.
   - term: habitat
     definition: The place where a living thing finds food, water, shelter, and room to raise young.
   - term: ecosystem
@@ -28,10 +44,38 @@ knowledge_pack:
     definition: A living thing, usually a plant, that makes food using sunlight.
   - term: consumer
     definition: A living thing that gets food by eating other living things.
+  - term: herbivore
+    definition: An animal that eats only plants.
+  - term: carnivore
+    definition: An animal that eats only other animals.
+  - term: omnivore
+    definition: An animal that eats both plants and animals.
+  - term: predator
+    definition: An animal that hunts other animals for food.
+  - term: prey
+    definition: An animal that is hunted for food.
   - term: decomposer
     definition: A living thing, such as a fungus or a bacterium, that breaks dead material down.
+  - term: food chain
+    definition: One line showing who eats whom, always starting with a producer.
   - term: food web
     definition: Many food chains joined together.
+  - term: photosynthesis
+    definition: How plants use sunlight, water, and carbon dioxide from the air to make their own food and
+      give out oxygen.
+  - term: pollination
+    definition: Moving pollen from one flower to another so that seeds can form. Bees, other insects, and
+      the wind carry pollen.
+  - term: germination
+    definition: When a seed starts to grow into a new plant.
+  - term: life cycle
+    definition: The stages a living thing goes through from birth to adult and producing young.
+  - term: metamorphosis
+    definition: A big change in body shape during a life cycle, such as a caterpillar becoming a butterfly.
+  - term: vertebrate
+    definition: An animal with a backbone, such as a mammal, bird, fish, reptile, or amphibian.
+  - term: invertebrate
+    definition: An animal without a backbone, such as an insect, spider, worm, or snail.
   - term: evaporation
     definition: Liquid water becoming vapour as it is warmed.
   - term: condensation
@@ -40,7 +84,148 @@ knowledge_pack:
     definition: Water falling as rain, snow, sleet, or hail.
   - term: adaptation
     definition: An inherited trait that helps a living thing survive in its habitat.
+  - term: evolution
+    definition: The slow change in living things over many generations.
+  - term: fossil
+    definition: The remains or traces of a living thing from long ago, preserved in rock.
+  - term: hibernation
+    definition: A deep, long sleep-like state that helps some animals survive winter.
+  - term: migration
+    definition: A long journey animals make between places, often with the seasons.
+  - term: biodiversity
+    definition: The variety of living things in a place.
+
+  teaching_levels:
+    note: Every topic has three depths. Start simple. Go curious next. Give the deep account only when the
+      learner asks or clearly wants more.
+    living_things:
+      simple: Living things grow, need food and water, and can make more of their own kind.
+      curious: Scientists group living things by what they have in common. Animals with a backbone are
+        vertebrates, those without are invertebrates. Plants, animals, and fungi are separate groups.
+      deep: The vertebrate groups are mammals, birds, fish, reptiles, and amphibians. Insects have six legs
+        and three body parts. Spiders have eight legs and belong to a group called arachnids. Scientists
+        use classification keys, a set of yes-or-no questions, to identify living things.
+    plants:
+      simple: Plants need light, water, and air to grow. Their roots hold them in the ground and drink up
+        water.
+      curious: Leaves are a plant's food factory. They use sunlight to turn water and carbon dioxide into
+        sugar, and they give out oxygen. That is photosynthesis.
+      deep: Flowers make seeds. Pollen is carried by bees, other insects, birds, or the wind from one
+        flower to another, and then seeds can form. Seeds spread by wind, water, animals, or by bursting
+        open, so new plants can grow away from their parent. Tiny ocean plants and algae make a large share
+        of the oxygen we breathe.
+    animals_and_life_cycles:
+      simple: Animals grow and change as they get older. Some change a lot, like a caterpillar becoming a
+        butterfly.
+      curious: A butterfly's life cycle is egg, caterpillar, chrysalis, and adult butterfly. A frog's life
+        cycle is frogspawn, tadpole, froglet, and frog.
+      deep: The big change in a butterfly or frog is called metamorphosis. Mammals give birth to live
+        young and feed them milk. Birds lay eggs with hard shells. Different life cycles help animals
+        survive in different habitats.
+    habitats:
+      simple: A habitat is a home for living things. A pond, a wood, and a hedge are all habitats.
+      curious: Each habitat gives living things what they need, which is food, water, shelter, and a place
+        to raise young. Some living things can only survive in one kind of habitat.
+      deep: Big habitats such as rainforests, deserts, oceans, and grasslands are called biomes.
+        Rainforests hold a huge variety of species. Microhabitats, such as the damp space under a log, can
+        be home to woodlice, beetles, and fungi.
+    food_chains_and_webs:
+      simple: Every food chain starts with a plant. Animals eat plants, and some animals eat other
+        animals.
+      curious: The arrows in a food chain show where the food, and its energy, goes. Grass to rabbit to
+        fox. When many chains join, you get a food web.
+      deep: Energy comes from the Sun, is captured by producers, and passes up the chain. Decomposers
+        break down dead things and return nutrients to the soil. If one animal in a food web disappears,
+        many others can be affected.
+    water_cycle:
+      simple: Water goes round and round. It rises from the sea, makes clouds, falls as rain, and runs back
+        to the sea.
+      curious: The Sun warms water so it evaporates into the air. High up it cools and condenses into
+        cloud. Then it falls as precipitation and collects in rivers, lakes, and the sea.
+      deep: Plants also release water from their leaves, which is called transpiration. Some water soaks
+        into the ground and moves slowly underground. The water you drink today may once have been in a
+        cloud, a glacier, or an ocean far away.
+    seasons_in_nature:
+      simple: In autumn many trees drop their leaves. In spring new leaves and flowers appear.
+      curious: Some animals, like hedgehogs, dormice, and bats, hibernate through the UK winter. Some birds,
+        like swallows, migrate to Africa for the winter and come back in spring.
+      deep: Seasons come from Earth's tilt, which changes day length and warmth. Trees that drop their
+        leaves are called deciduous; those that keep them all year, like holly and pine, are evergreen. The
+        Arctic tern makes one of the longest migrations of any animal, between the Arctic and the
+        Antarctic.
+    adaptation_and_evolution:
+      simple: Living things have special features that help them survive where they live, like a polar
+        bear's thick fur.
+      curious: Those features are called adaptations. A cactus stores water. A camel can go a long time
+        without drinking. Owls have soft feathers so they fly silently.
+      deep: Over many generations, living things with helpful features are more likely to survive and have
+        young, and they pass those features on. This is natural selection, explained by Charles Darwin and
+        Alfred Russel Wallace. Fossils, like those found by Mary Anning at Lyme Regis, show that living
+        things have changed over millions of years.
+    uk_wildlife:
+      simple: The UK has amazing wildlife, from hedgehogs and foxes to robins, owls, and bees.
+      curious: Red squirrels are native to the UK. Grey squirrels were brought from North America and are
+        now much more common. The UK is famous for its bluebell woods in spring.
+      deep: The UK has around 270 kinds of bee. Puffins nest on cliffs and islands around the coast, and
+        otters have returned to many rivers as water has become cleaner. Many wild birds and their nests
+        are protected by law.
+    caring_for_nature:
+      simple: We can help nature by keeping places clean, planting flowers for bees, and leaving wild
+        animals alone.
+      curious: When habitats are lost or polluted, plants and animals struggle. People help by protecting
+        wild places, planting trees and hedges, and making space for wildlife in gardens.
+      deep: Biodiversity means the variety of life. Conservation work includes nature reserves, wildlife
+        corridors that link habitats, and bringing back species that have disappeared from an area. Always
+        end with what people can do, so learners feel hopeful and able to help.
+
+  common_questions_jessie_should_handle:
+  - question: Is a spider an insect?
+    answer: No. Insects have six legs and three body parts. Spiders have eight legs and two body parts, and
+      belong to a group called arachnids.
+  - question: Where do plants get their food?
+    answer: Plants make their own food in their leaves using sunlight, water, and carbon dioxide from the
+      air. The soil mainly gives them water and a few minerals.
+  - question: Why do leaves change colour in autumn?
+    answer: As days get shorter, trees stop making the green pigment, chlorophyll. The yellow and orange
+      colours that were hidden underneath show through.
+  - question: Do animals choose to adapt?
+    answer: No. Adaptations build up over many generations because animals with helpful features survive
+      and pass them on.
+  - question: Can I pick up a baby bird I found?
+    answer: Usually it is best to leave it. Its parents are often nearby. Tell a trusted adult, who can
+      contact a wildlife charity if the bird is hurt.
+
+  story_starters:
+  - Imagine you are a single drop of water. Today you are in the sea, tomorrow a cloud, next week rain on
+    a hillside.
+  - Picture yourself shrinking down to the size of a woodlouse, under a damp log in an English wood.
+  - Imagine you are a swallow, about to fly all the way from a British barn to Africa.
+  - Imagine you are a tiny seed with a fluffy parachute, waiting for the wind.
+
+  picture_guidance:
+  - Do not let an AI picture carry labels or names. The app adds those from this pack.
+  - Life cycle pictures are diagrams. Say that real sizes and timings differ.
+  - Never show cruelty or animals in distress.
+
+  curriculum_links:
+    key_stage_1: Plants and their parts; common animals, including fish, amphibians, reptiles, birds, and
+      mammals; living things and their habitats; simple food chains; seasonal change.
+    key_stage_2: Plants and pollination; classification keys; life cycles of mammals, amphibians, insects,
+      and birds; food chains; the water cycle; adaptation, inheritance, and evolution; fossils.
+    key_stage_3: Ecosystems and interdependence; photosynthesis; variation, inheritance, and evolution;
+      biodiversity and conservation.
+
   boundaries:
   - Teach. Do not tell anyone to disturb a nest, a den, or a wild animal.
+  - Never tell a learner to touch, pick, or eat wild mushrooms, berries, or plants. Some are poisonous.
+    Tell them to ask a trusted adult.
   - Do not turn a nature lesson into medical advice.
   - Do not describe cruelty.
+  - Teach environmental problems with calm evidence and always include what people can do.
+
+  sources_to_check:
+  - Natural History Museum, Discover pages (nhm.ac.uk)
+  - RSPB, bird and nature guides (rspb.org.uk)
+  - The Wildlife Trusts (wildlifetrusts.org)
+  - Royal Botanic Gardens, Kew (kew.org)
+  - National curriculum in England, science programmes of study, Key Stages 1 to 3 (gov.uk)

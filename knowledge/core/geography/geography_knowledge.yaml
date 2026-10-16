@@ -1,9 +1,13 @@
 knowledge_pack:
   file_name: geography_knowledge.yaml
-  version: '1.0'
-  last_updated: '2026-10-15'
-  purpose: Teacher pack for maps, continents, oceans, latitude, longitude, weather, climate, and rivers.
-    Same plain-language standard as the biology packs.
+  version: '2.0'
+  last_updated: '2026-10-17'
+  status: DRAFT for owner review. Expanded from version 1.0 (2026-10-15); every fact needs a check against the
+    sources listed below before this pack goes live.
+  purpose: Teacher pack for maps, continents, oceans, the United Kingdom, latitude and longitude, weather and
+    climate, rivers, mountains, volcanoes and earthquakes, and how people live in places. Same
+    plain-language standard as the biology packs. Covers the England national curriculum for geography at
+    Key Stages 1 to 3 and lets curious learners go further.
   audience: Jessie AI training knowledge pack
   source_type: structured educational knowledge file
   topic:
@@ -13,12 +17,23 @@ knowledge_pack:
   overview:
     summary: Geography teaching starts with how to read a map, then the continents and oceans, then the
       latitude and longitude grid, then the difference between weather and climate and how a river runs.
-      A map is a model of the ground, not the ground. School maps usually show seven continents and five
-      oceans. The prime meridian is 0 degrees longitude and runs through Greenwich.
+      It then moves to how the Earth's surface is shaped, by rivers, ice, volcanoes, and moving plates, and
+      to how people live, travel, and use land. A map is a model of the ground, not the ground. School maps
+      usually show seven continents and five oceans. The prime meridian is 0 degrees longitude and runs
+      through Greenwich.
     why_it_matters:
-    - Learners treat one world map as the true size of every country.
+    - Learners treat one world map as the true size of every country. On many world maps Greenland looks
+      as big as Africa, but Africa is about 14 times larger.
     - They mix up weather and climate.
     - They need an address system for a place on a round Earth.
+    - They mix up the United Kingdom, Great Britain, and England.
+    - They think the equator is hot because it is closer to the Sun. It is hot because sunlight hits it
+      more directly.
+    - They think rivers flow south or downwards on a map. Rivers flow downhill, in any compass direction.
+    - They think volcanoes and earthquakes happen anywhere at random. Most happen near the edges of
+      tectonic plates.
+    - They think a desert must be hot. Antarctica is the largest desert because it gets so little rain or
+      snow.
   core_definitions:
   - term: map
     definition: A drawing of a place from above.
@@ -26,29 +41,218 @@ knowledge_pack:
     definition: The link between a distance on the map and a distance on the ground.
   - term: key
     definition: The part of a map that explains the symbols.
+  - term: compass points
+    definition: North, east, south, and west, with north-east, south-east, south-west, and north-west in
+      between.
+  - term: grid reference
+    definition: A set of numbers that points to a square, or a spot, on a map with a grid. Read along the
+      bottom first, then up the side.
+  - term: contour line
+    definition: A line on a map that joins places of the same height. Lines close together mean steep
+      ground.
   - term: continent
     definition: 'A great land mass. School maps usually show seven: Africa, Antarctica, Asia, Europe,
       North America, South America, and Australia.'
   - term: ocean
     definition: A vast body of salt water. The five are Pacific, Atlantic, Indian, Southern, and Arctic.
+  - term: country
+    definition: An area of land with its own government and borders.
+  - term: capital city
+    definition: The city where a country's government is based.
   - term: latitude
     definition: How far north or south of the equator a place is.
   - term: longitude
     definition: How far east or west of the prime meridian a place is.
   - term: equator
     definition: The line halfway between the North Pole and the South Pole.
+  - term: hemisphere
+    definition: Half of the Earth. The equator splits it into the northern and southern hemispheres.
   - term: prime meridian
     definition: The 0 degree longitude line. It runs through Greenwich in London.
+  - term: time zone
+    definition: A region of the world that uses the same clock time.
   - term: weather
     definition: What the sky is doing now.
   - term: climate
     definition: The usual pattern of temperature and rain over many years.
+  - term: biome
+    definition: A large area with a similar climate, plants, and animals, such as a rainforest, a desert,
+      or tundra.
   - term: source
     definition: Where a river begins.
   - term: mouth
     definition: Where a river meets a lake or the sea.
+  - term: tributary
+    definition: A smaller river or stream that joins a bigger one.
+  - term: meander
+    definition: A big bend in a river.
+  - term: tectonic plate
+    definition: One of the giant moving pieces that Earth's outer layer is broken into.
+  - term: volcano
+    definition: An opening in Earth's crust where hot melted rock, ash, and gases come out.
+  - term: earthquake
+    definition: A sudden shaking of the ground, usually when rocks slip along a crack called a fault.
+  - term: settlement
+    definition: A place where people live, from a tiny hamlet to a huge city.
+
+  teaching_levels:
+    note: Every topic has three depths. Start simple. Go curious next. Give the deep account only when the
+      learner asks or clearly wants more.
+    reading_maps:
+      simple: A map shows a place from above, like a bird would see it. The key tells you what the symbols
+        mean.
+      curious: The scale tells you how far things really are. A compass rose shows north. Grid squares let
+        you find a place quickly, and a grid reference is like an address for that square.
+      deep: Ordnance Survey maps use four-figure grid references for a square and six-figure grid
+        references for a point inside it. Contour lines show height, and when they bunch close together the
+        ground is steep. Every flat map of the round Earth stretches something. The Mercator map keeps
+        shapes right for sailors but makes places near the poles look much too big.
+    continents_and_oceans:
+      simple: The world has seven continents and five oceans. Most of Earth's surface is ocean.
+      curious: Asia is the biggest continent and has the most people. The Pacific is the biggest and
+        deepest ocean. It is bigger than all the land on Earth put together.
+      deep: About 71 per cent of Earth's surface is covered by water. Some countries count continents
+        differently, for example joining Europe and Asia into Eurasia, so seven is a common school model
+        rather than a rule of nature.
+    the_united_kingdom:
+      simple: The United Kingdom is made of four countries. England, Scotland, Wales, and Northern Ireland.
+      curious: The capitals are London for England and for the whole UK, Edinburgh for Scotland, Cardiff
+        for Wales, and Belfast for Northern Ireland. Great Britain is the big island with England,
+        Scotland, and Wales on it.
+      deep: The highest mountain in the UK is Ben Nevis in Scotland, at about 1,345 metres. The highest in
+        Wales is Yr Wyddfa, also called Snowdon, at about 1,085 metres, and the highest in England is
+        Scafell Pike, at about 978 metres. The longest river is the River Severn, at about 350 kilometres,
+        just ahead of the Thames. The largest lake in the UK by area is Lough Neagh in Northern Ireland.
+        The Republic of Ireland, with its capital Dublin, is a separate country that shares the island of
+        Ireland with Northern Ireland.
+    latitude_and_longitude:
+      simple: Imaginary lines on a globe help us find any place on Earth, like the lines on squared paper.
+      curious: Lines of latitude run east to west and tell you how far north or south you are. Lines of
+        longitude run from pole to pole and tell you how far east or west you are.
+      deep: The equator is 0 degrees latitude and the poles are 90 degrees. The prime meridian through
+        Greenwich is 0 degrees longitude. The Tropic of Cancer and the Tropic of Capricorn mark the
+        furthest north and south that the Sun can be directly overhead. The Arctic and Antarctic Circles
+        mark where there is at least one day a year when the Sun does not set, and one when it does not
+        rise.
+    time_zones:
+      simple: When it is morning in London, it is night-time in Australia, because Earth spins.
+      curious: The world is divided into time zones so that midday is roughly when the Sun is highest. The
+        UK uses Greenwich Mean Time in winter and British Summer Time, one hour ahead, in summer.
+      deep: Earth turns 360 degrees in about 24 hours, so each hour of time difference is roughly 15
+        degrees of longitude. Some countries choose time zones for convenience, so the lines are wiggly
+        rather than straight.
+    weather_and_climate:
+      simple: Weather is what is happening outside today. Climate is what the weather is usually like in a
+        place over many years.
+      curious: The UK has a mild, wet climate because the Atlantic Ocean and winds from the west bring
+        damp air. Places near the equator are hot all year because sunlight hits them more directly.
+      deep: The main climate zones are tropical, dry, temperate, cold, and polar. Climate zones shape the
+        biomes, such as rainforest, desert, grassland, and tundra. Weather is measured with thermometers,
+        rain gauges, and wind vanes, and forecasters such as the Met Office use computer models to predict
+        it.
+    climate_change:
+      simple: Earth is slowly getting warmer. People can help by using less energy and caring for nature.
+      curious: Burning coal, oil, and gas releases carbon dioxide, which traps heat in the air like a
+        blanket. Scientists have measured that the world has warmed, and that people are the main cause.
+      deep: Warming changes rainfall, melts ice, and raises sea levels. Many countries are switching to
+        wind, solar, and other cleaner energy. Teach the evidence calmly and end with what people are doing
+        to help, so learners feel able to act rather than afraid.
+    rivers:
+      simple: A river begins at its source, often in hills, and flows downhill to its mouth at the sea or a
+        lake.
+      curious: Smaller streams called tributaries join along the way. Near its source a river is narrow and
+        fast. Further down it gets wider and slower and makes big bends called meanders.
+      deep: Rivers wear away land in some places and drop sand and mud in others. A meander can be cut off
+        to leave an oxbow lake. Some rivers end in a delta, where they split into many channels, or an
+        estuary, where fresh water meets the sea. The Nile and the Amazon are the longest rivers in the
+        world, and which one is longer depends on how they are measured.
+    mountains_volcanoes_and_earthquakes:
+      simple: Earth's outer layer is cracked into giant pieces called plates. They move very slowly, about
+        as fast as your fingernails grow.
+      curious: Where plates push together, mountains can rise. Where they pull apart or slide past each
+        other, the ground can shake in an earthquake, and melted rock can rise up through volcanoes.
+      deep: Earth has layers, a thin crust, a hot rocky mantle, a liquid outer core, and a solid inner
+        core. The Himalayas, with Mount Everest at about 8,849 metres, formed when India pushed into Asia.
+        Many volcanoes and earthquakes happen around the edge of the Pacific Ocean, an area called the
+        Ring of Fire. Edinburgh Castle stands on the remains of a volcano that went extinct about 350
+        million years ago.
+    coasts_and_ice:
+      simple: Waves shape the coast. They can wear cliffs away and build beaches.
+      curious: Waves wear away soft rock faster than hard rock, making bays and headlands. Long ago, during
+        the ice ages, glaciers carved deep valleys in places such as the Lake District and the Scottish
+        Highlands.
+      deep: Coastal features include caves, arches, stacks, spits, and sand dunes. A glacier is a slow
+        river of ice. It scrapes the land into U-shaped valleys and leaves behind rocks and clay when it
+        melts.
+    people_and_places:
+      simple: People live in settlements, from tiny hamlets to villages, towns, and cities.
+      curious: People often settle near water, flat land, good soil, and transport routes. Cities grow when
+        people move there for work and services.
+      deep: Today more than half of the world's people live in towns and cities. Geographers study where
+        people live, how they earn a living, how goods are traded around the world, and how places are
+        connected. India has the largest population of any country, and Russia is the largest country by
+        area.
+
+  world_facts_with_care:
+  - fact: The highest mountain above sea level is Mount Everest, about 8,849 metres, on the border of Nepal
+      and China.
+  - fact: The largest ocean is the Pacific.
+  - fact: The largest hot desert is the Sahara. The largest desert of all is Antarctica.
+  - fact: The largest country by area is Russia.
+  - fact: India has the largest population, having passed China in 2023.
+  - fact: There are about 195 countries in the world, 193 members of the United Nations plus two observer
+      states. Say "about", because the count depends on who is counting.
+
+  common_questions_jessie_should_handle:
+  - question: Is the UK the same as Great Britain?
+    answer: No. Great Britain is the island with England, Scotland, and Wales. The United Kingdom adds
+      Northern Ireland.
+  - question: Why is it hot at the equator and cold at the poles?
+    answer: At the equator sunlight hits the ground almost straight on, so its energy is concentrated. Near
+      the poles it arrives at a low slant and spreads out over a bigger area.
+  - question: Can an earthquake happen in the UK?
+    answer: Yes, small ones happen, but most are too weak to feel. The UK is far from the edge of a plate,
+      so strong earthquakes are rare.
+  - question: Why do maps make Greenland look so big?
+    answer: Many world maps stretch places near the poles to keep shapes right. Greenland is actually
+      about 14 times smaller than Africa.
+
+  story_starters:
+  - Imagine you are a raindrop landing on a Welsh mountain. Follow the stream down, past villages and
+    fields, all the way to the sea.
+  - Picture yourself standing on Edinburgh Castle rock. Millions of years ago, it was a fiery volcano.
+  - Imagine you could fly along the equator. The Sun is high above you every day of the year.
+  - Imagine you are a map maker with only a pencil and a compass. How would you show a hill?
+
+  picture_guidance:
+  - Do not let an AI picture draw borders, country names, or labels. The app adds those from this pack.
+  - A picture of the Earth's layers is a diagram, not a photograph. Say so.
+  - Show the world map's stretching when size is the question.
+
+  curriculum_links:
+    key_stage_1: The seven continents and five oceans; the four countries of the UK and their capitals;
+      seasonal and daily weather; hot and cold places; four compass directions; simple maps and aerial
+      photos.
+    key_stage_2: Locating countries; latitude, longitude, the hemispheres, the tropics, and time zones;
+      climate zones and biomes; rivers, mountains, volcanoes, earthquakes, and the water cycle; eight
+      compass points; four- and six-figure grid references; Ordnance Survey maps.
+    key_stage_3: Plate tectonics; weather and climate, including change; glaciation, rivers, and coasts;
+      population and cities; trade and development; natural resources.
+
   boundaries:
   - Do not teach psychology.
   - Do not give medical advice or clinical reasoning.
-  - Do not present a political dispute as settled just because a map draws a line.
+  - Do not present a political dispute as settled just because a map draws a line. Where borders or names
+    are disputed, say that people disagree and describe it fairly.
   - A flat world map stretches something. Say so when size is the question.
+  - Never describe any country or people with stereotypes. Teach places with respect.
+  - Teach climate change with evidence and calm, and always include what people can do.
+  - Numbers that change, such as populations and the count of countries, are given with "about" and a
+    year.
+
+  sources_to_check:
+  - Ordnance Survey, map reading guides (ordnancesurvey.co.uk)
+  - Met Office, weather and climate learning pages (metoffice.gov.uk)
+  - Royal Geographical Society (rgs.org)
+  - British Geological Survey, earthquakes and volcanoes (bgs.ac.uk)
+  - National curriculum in England, geography programmes of study, Key Stages 1 to 3 (gov.uk)

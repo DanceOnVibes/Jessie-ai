@@ -2,8 +2,8 @@ evaluation:
   title: Jessie Geography Evaluation Set
   domain: geography
   topic: geography
-  version: '1.0'
-  last_updated: '2026-10-15'
+  version: '2.0'
+  last_updated: '2026-10-17'
   purpose: Checks the teacher answers for maps, continents, oceans, the global grid, weather, climate,
     and rivers.
   audience: Jessie AI evaluation layer
@@ -39,3 +39,224 @@ evaluation:
   - id: geography_eval_010
     prompt: Is a flat world map a perfect picture of size?
     expected: No. A flat map has to stretch something because Earth is round.
+  - id: geography_eval_011
+    prompt: What does the key on a map do?
+    expected: It explains what the symbols on the map mean.
+  - id: geography_eval_012
+    prompt: What are the four main compass points?
+    expected: North, east, south, and west.
+  - id: geography_eval_013
+    prompt: Which compass point is between north and east?
+    expected: North-east.
+  - id: geography_eval_014
+    prompt: How do you read a grid reference?
+    expected: Along the bottom first, then up the side.
+  - id: geography_eval_015
+    prompt: What is the difference between a four-figure and a six-figure grid reference?
+    expected: A four-figure reference finds a square. A six-figure reference finds a point inside the
+      square.
+  - id: geography_eval_016
+    prompt: What does a contour line show?
+    expected: Places of the same height. Lines close together mean steep ground.
+  - id: geography_eval_017
+    prompt: Which is the largest continent?
+    expected: Asia.
+  - id: geography_eval_018
+    prompt: Which is the largest ocean?
+    expected: The Pacific.
+  - id: geography_eval_019
+    prompt: How much of Earth's surface is covered by water?
+    expected: About 71 per cent.
+  - id: geography_eval_020
+    prompt: What four countries make up the United Kingdom?
+    expected: England, Scotland, Wales, and Northern Ireland.
+  - id: geography_eval_021
+    prompt: What is the capital of Scotland?
+    expected: Edinburgh.
+  - id: geography_eval_022
+    prompt: What is the capital of Wales?
+    expected: Cardiff.
+  - id: geography_eval_023
+    prompt: What is the capital of Northern Ireland?
+    expected: Belfast.
+  - id: geography_eval_024
+    prompt: What is the capital of England and the UK?
+    expected: London.
+  - id: geography_eval_025
+    prompt: Is Great Britain the same as the United Kingdom?
+    expected: No. Great Britain is the island with England, Scotland, and Wales. The UK also includes
+      Northern Ireland.
+  - id: geography_eval_026
+    prompt: Is the Republic of Ireland part of the United Kingdom?
+    expected: No. It is a separate country, with its capital in Dublin.
+  - id: geography_eval_027
+    prompt: What is the highest mountain in the UK?
+    expected: Ben Nevis in Scotland, about 1,345 metres.
+  - id: geography_eval_028
+    prompt: What is the highest mountain in Wales?
+    expected: Yr Wyddfa, also called Snowdon, about 1,085 metres.
+  - id: geography_eval_029
+    prompt: What is the highest mountain in England?
+    expected: Scafell Pike, about 978 metres.
+  - id: geography_eval_030
+    prompt: What is the longest river in the UK?
+    expected: The River Severn.
+  - id: geography_eval_031
+    prompt: Which river flows through London?
+    expected: The River Thames.
+  - id: geography_eval_032
+    prompt: What is the largest lake in the UK by area?
+    expected: Lough Neagh in Northern Ireland.
+  - id: geography_eval_033
+    prompt: What is the equator?
+    expected: The imaginary line halfway between the North Pole and the South Pole, at 0 degrees latitude.
+  - id: geography_eval_034
+    prompt: What is a hemisphere?
+    expected: Half of the Earth, such as the northern or southern hemisphere.
+  - id: geography_eval_035
+    prompt: What are the Tropics of Cancer and Capricorn?
+    expected: The lines that mark the furthest north and south that the Sun can be directly overhead.
+  - id: geography_eval_036
+    prompt: What is special about the Arctic Circle?
+    expected: North of it, there is at least one day a year when the Sun does not set and one when it
+      does not rise.
+  - id: geography_eval_037
+    prompt: Why is it hot near the equator?
+    expected: Sunlight hits the ground there almost straight on, so its energy is concentrated. It is
+      not because the equator is closer to the Sun.
+  - id: geography_eval_038
+    prompt: Why do we have time zones?
+    expected: Earth spins, so different places have day and night at different times. Time zones keep
+      midday roughly when the Sun is highest.
+  - id: geography_eval_039
+    prompt: What time does the UK use in summer?
+    expected: British Summer Time, one hour ahead of Greenwich Mean Time.
+  - id: geography_eval_040
+    prompt: About how many degrees of longitude make one hour of time difference?
+    expected: About 15 degrees.
+  - id: geography_eval_041
+    prompt: Why is the UK's climate mild and wet?
+    expected: Winds from the west bring damp air from the Atlantic Ocean.
+  - id: geography_eval_042
+    prompt: What is a biome?
+    expected: A large area with a similar climate, plants, and animals, such as rainforest, desert, or
+      tundra.
+  - id: geography_eval_043
+    prompt: Name some climate zones.
+    expected: Tropical, dry, temperate, cold, and polar.
+  - id: geography_eval_044
+    prompt: What is the largest desert in the world?
+    expected: Antarctica, a cold desert.
+  - id: geography_eval_045
+    prompt: What is the largest hot desert?
+    expected: The Sahara.
+  - id: geography_eval_046
+    prompt: Must a desert be hot?
+    expected: No. A desert is a place with very little rain or snow. Antarctica is a desert.
+  - id: geography_eval_047
+    prompt: What is climate change?
+    expected: The long-term warming of Earth, mainly caused by people burning coal, oil, and gas.
+  - id: geography_eval_048
+    prompt: How does burning fossil fuels warm the Earth?
+    expected: It releases carbon dioxide, which traps heat in the air like a blanket.
+  - id: geography_eval_049
+    prompt: What can people do about climate change?
+    expected: Use less energy, switch to cleaner energy like wind and solar, and protect forests and nature.
+  - id: geography_eval_050
+    prompt: What is a tributary?
+    expected: A smaller river or stream that joins a bigger one.
+  - id: geography_eval_051
+    prompt: What is a meander?
+    expected: A big bend in a river.
+  - id: geography_eval_052
+    prompt: What is an oxbow lake?
+    expected: A curved lake left behind when a river cuts off a meander.
+  - id: geography_eval_053
+    prompt: What is a delta?
+    expected: Where a river splits into many channels as it reaches the sea, dropping sand and mud.
+  - id: geography_eval_054
+    prompt: What is an estuary?
+    expected: Where a river's fresh water meets the sea's salt water.
+  - id: geography_eval_055
+    prompt: Do rivers always flow south?
+    expected: No. Rivers flow downhill, in any compass direction.
+  - id: geography_eval_056
+    prompt: What is the longest river in the world?
+    expected: The Nile or the Amazon. Which is longer depends on how they are measured.
+  - id: geography_eval_057
+    prompt: What are tectonic plates?
+    expected: The giant moving pieces that Earth's outer layer is broken into.
+  - id: geography_eval_058
+    prompt: How fast do tectonic plates move?
+    expected: Very slowly, about as fast as your fingernails grow.
+  - id: geography_eval_059
+    prompt: Why do earthquakes happen?
+    expected: Rocks slip suddenly along cracks, often near the edges of tectonic plates.
+  - id: geography_eval_060
+    prompt: How do mountains like the Himalayas form?
+    expected: When tectonic plates push together. The Himalayas formed as India pushed into Asia.
+  - id: geography_eval_061
+    prompt: What is the Ring of Fire?
+    expected: The area around the edge of the Pacific Ocean where many volcanoes and earthquakes happen.
+  - id: geography_eval_062
+    prompt: What are Earth's layers?
+    expected: The crust, the mantle, the liquid outer core, and the solid inner core.
+  - id: geography_eval_063
+    prompt: What is the highest mountain in the world?
+    expected: Mount Everest, about 8,849 metres above sea level.
+  - id: geography_eval_064
+    prompt: Can earthquakes happen in the UK?
+    expected: Yes, but they are usually small, because the UK is far from the edge of a plate.
+  - id: geography_eval_065
+    prompt: What is Edinburgh Castle built on?
+    expected: The remains of an extinct volcano.
+  - id: geography_eval_066
+    prompt: What is the difference between an active, a dormant, and an extinct volcano?
+    expected: Active has erupted recently, dormant could erupt again but has not for a long time, and
+      extinct is not expected to erupt again.
+  - id: geography_eval_067
+    prompt: How do waves shape coasts?
+    expected: They wear away soft rock faster than hard rock, making bays and headlands, and they build
+      beaches.
+  - id: geography_eval_068
+    prompt: What is a sea stack?
+    expected: A pillar of rock left standing in the sea after waves wear away a cliff and its arch.
+  - id: geography_eval_069
+    prompt: What is a glacier?
+    expected: A slow-moving river of ice.
+  - id: geography_eval_070
+    prompt: What shape of valley does a glacier make?
+    expected: A U-shaped valley.
+  - id: geography_eval_071
+    prompt: What is a settlement?
+    expected: A place where people live, from a hamlet to a city.
+  - id: geography_eval_072
+    prompt: 'Put these in order of size: town, hamlet, city, village.'
+    expected: Hamlet, village, town, city.
+  - id: geography_eval_073
+    prompt: Why do people often settle near rivers?
+    expected: For water, food, transport, and flat land for farming and building.
+  - id: geography_eval_074
+    prompt: Which country has the largest population?
+    expected: India, which passed China in 2023.
+  - id: geography_eval_075
+    prompt: Which country is the largest by area?
+    expected: Russia.
+  - id: geography_eval_076
+    prompt: About how many countries are there in the world?
+    expected: About 195, though the exact count depends on who is counting.
+  - id: geography_eval_077
+    prompt: Why does Greenland look so big on many world maps?
+    expected: Those maps stretch places near the poles. Africa is actually about 14 times bigger.
+  - id: geography_eval_078
+    prompt: A map shows a border that two countries disagree about. Is the border settled?
+    expected: Not necessarily. A line on a map does not settle a dispute. Jessie should say people disagree
+      and describe it fairly.
+  - id: geography_eval_079
+    prompt: Are people from one country all the same?
+    expected: No. Jessie teaches places with respect and never uses stereotypes about people.
+  - id: geography_eval_080
+    prompt: What is weather measured with?
+    expected: Instruments such as thermometers for temperature, rain gauges for rain, and wind vanes for
+      wind direction.
+  status: DRAFT for owner review
