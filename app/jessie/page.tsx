@@ -9,15 +9,17 @@ export default function JessiePage() {
   const {
     userInput,
     setUserInput,
-    page,
-    setPage,
-    premium,
-    setPremium,
+    age,
+    setAge,
     response,
     loading,
     copied,
+    speaking,
     canSubmit,
     submit,
+    ask,
+    keepGoing,
+    speak,
     copyPrompt,
     reset,
   } = useJessie();
@@ -61,12 +63,13 @@ export default function JessiePage() {
           <div className="hero-content">
             <div className="hero-pill">From Jessie's World</div>
             <h1>
-              Build a dreamy
-              <span>prompt that feels magical</span>
+              Every question
+              <span>is the start of a story</span>
             </h1>
             <p>
-              Step into Jessie's studio to shape ideas into a cleaner, stronger
-              final prompt with a soft, elegant creative touch.
+              Jessie is an AI teacher. Ask about the stars, the planets, our
+              world, nature, or your amazing body, and she will explain it step
+              by step.
             </p>
 
             <div className="hero-links">
@@ -79,9 +82,9 @@ export default function JessiePage() {
             </div>
 
             <div className="hero-tags">
-              <span>Dreamy UI</span>
-              <span>Prompt crafting</span>
-              <span>Gentle guidance</span>
+              <span>Space</span>
+              <span>Our planet</span>
+              <span>Nature and the body</span>
             </div>
           </div>
         </section>
@@ -95,21 +98,22 @@ export default function JessiePage() {
             <div className="panel-heading">
               <div className="tiny-sparkle">✦</div>
               <div>
-                <h2>Create with Jessie</h2>
+                <h2>Learn with Jessie</h2>
                 <p>
-                  Tell Jessie what you want to make, choose the page type, and
-                  generate a polished final prompt.
+                  Ask Jessie anything about space, our planet, nature, or how
+                  your body works. She will explain it like a story.
                 </p>
               </div>
             </div>
 
             <label className="field-label" htmlFor="jessie-input">
-              Your idea
+              Your question
             </label>
             <textarea
               id="jessie-input"
               className={textareaFocused ? "focused" : ""}
-              placeholder="Describe what you want Jessie to create..."
+              placeholder="For example: Why can we see Andromeda if it is so far away?"
+              maxLength={1000}
               value={userInput}
               onChange={(e) => setUserInput(e.target.value)}
               onFocus={() => setTextareaFocused(true)}
@@ -118,39 +122,42 @@ export default function JessiePage() {
 
             <div className="two-col">
               <div>
-                <label className="field-label" htmlFor="page-select">
-                  Page mode
+                <label className="field-label" htmlFor="age-select">
+                  Learner&apos;s age
                 </label>
                 <select
-                  id="page-select"
+                  id="age-select"
                   className={selectFocused ? "focused" : ""}
-                  value={page}
-                  onChange={(e) => setPage(e.target.value)}
+                  value={age}
+                  onChange={(e) => setAge(e.target.value as typeof age)}
                   onFocus={() => setSelectFocused(true)}
                   onBlur={() => setSelectFocused(false)}
                 >
-                  <option value="create">Create</option>
-                  <option value="refine">Refine</option>
-                  <option value="explore">Explore</option>
+                  <option value="unknown">Choose an age</option>
+                  <option value="under_8">Under 8</option>
+                  <option value="8_to_11">8 to 11</option>
+                  <option value="11_to_14">11 to 14</option>
+                  <option value="14_plus">14 and over</option>
                 </select>
               </div>
 
               <div>
-                <label className="field-label" htmlFor="premium-toggle">
-                  Access
+                <label className="field-label" htmlFor="listen-toggle">
+                  Listen
                 </label>
                 <button
                   type="button"
-                  id="premium-toggle"
-                  aria-pressed={premium}
-                  className={`access-btn ${premium ? "premium-on" : ""} ${
-                    buttonHovered === "premium" ? "btn-hovered" : ""
+                  id="listen-toggle"
+                  aria-pressed={speaking}
+                  disabled={!response?.success}
+                  className={`access-btn ${speaking ? "premium-on" : ""} ${
+                    buttonHovered === "listen" ? "btn-hovered" : ""
                   }`}
-                  onClick={() => setPremium((prev) => !prev)}
-                  onMouseEnter={() => setButtonHovered("premium")}
+                  onClick={speak}
+                  onMouseEnter={() => setButtonHovered("listen")}
                   onMouseLeave={() => setButtonHovered(null)}
                 >
-                  {premium ? "Premium enabled ✨" : "Enable premium"}
+                  {speaking ? "Stop reading" : "Read it to me"}
                 </button>
               </div>
             </div>
@@ -166,7 +173,7 @@ export default function JessiePage() {
                 onMouseEnter={() => setButtonHovered("submit")}
                 onMouseLeave={() => setButtonHovered(null)}
               >
-                {loading ? "Creating..." : "Generate prompt"}
+                {loading ? "Jessie is thinking..." : "Ask Jessie"}
               </button>
 
               <button
@@ -185,8 +192,8 @@ export default function JessiePage() {
             <div className="mini-note">
               <span>☁️</span>
               <p>
-                Tip: the more detail you give Jessie, the more tailored the
-                final prompt will feel.
+                Jessie is an AI, not a person. If anything worries you, tell
+                a trusted adult. Childline is free on 0800 1111.
               </p>
             </div>
           </section>
@@ -204,25 +211,25 @@ export default function JessiePage() {
               <div className="empty-state">
                 <div className="sparkle-icon">✧</div>
                 <div>
-                  <h2>Your result will appear here</h2>
+                  <h2>Jessie&apos;s answer will appear here</h2>
                   <p>
-                    Once Jessie finishes, you'll see the summary, the final
-                    prompt, and a little explanation of why it works.
+                    Jessie explains things step by step, starting simple and
+                    going deeper whenever you want.
                   </p>
                 </div>
 
                 <div className="feature-list">
                   <div className="feature-item">
                     <span>✦</span>
-                    <span>Clear final prompt formatting</span>
+                    <span>Space, planet Earth, nature, and the human body</span>
                   </div>
                   <div className="feature-item">
                     <span>✦</span>
-                    <span>Readable summaries and title ideas</span>
+                    <span>Simple first, deeper when you are curious</span>
                   </div>
                   <div className="feature-item">
                     <span>✦</span>
-                    <span>Easy copy button for the final prompt</span>
+                    <span>A question at the end to check your thinking</span>
                   </div>
                 </div>
               </div>
@@ -233,13 +240,12 @@ export default function JessiePage() {
                     <h2>
                       {response.success
                         ? response.result?.title || "Jessie's response"
-                        : "Something went wrong"}
+                        : "Jessie is resting"}
                     </h2>
-                    <p>
+                    <p style={{ whiteSpace: "pre-line" }}>
                       {response.success
-                        ? response.result?.summary ||
-                          "Jessie created a result for your request."
-                        : "Jessie couldn't complete that request this time."}
+                        ? response.result?.summary || ""
+                        : "Jessie couldn't answer this time."}
                     </p>
                   </div>
 
@@ -257,7 +263,7 @@ export default function JessiePage() {
                     {response.result?.final_prompt ? (
                       <div className="final-prompt-card">
                         <div className="final-prompt-top">
-                          <strong>Final prompt</strong>
+                          <strong>Picture idea</strong>
                           <button
                             type="button"
                             className={`copy-btn ${copied ? "copied" : ""} ${
@@ -279,11 +285,32 @@ export default function JessiePage() {
                     {response.result?.why_this_works ? (
                       <div className="final-prompt-card">
                         <div className="final-prompt-top">
-                          <strong>Why this works</strong>
+                          <strong>Your turn</strong>
                         </div>
                         <div className="final-prompt-box">
                           {response.result.why_this_works}
                         </div>
+                      </div>
+                    ) : null}
+
+                    {response.result?.safety_level === "none" || !response.result?.safety_level ? (
+                      <div className="final-prompt-card">
+                        <div className="final-prompt-top">
+                          <strong>Keep going</strong>
+                          {response.result?.level ? <span className="level-tag">{response.result.level === "deep" ? "Deep" : response.result.level === "curious" ? "Curious" : "Simple"}</span> : null}
+                        </div>
+                        <div className="keep-row">
+                          <button type="button" className="secondary-btn" disabled={loading || response.result?.level === "deep"} onClick={() => keepGoing("deeper")}>Go deeper</button>
+                          <button type="button" className="secondary-btn" disabled={loading} onClick={() => keepGoing("story")}>Tell it as a story</button>
+                          <button type="button" className="secondary-btn" disabled={loading} onClick={() => keepGoing("quiz")}>Quiz me</button>
+                        </div>
+                        {response.result?.follow_ups?.length ? (
+                          <div className="keep-row">
+                            {response.result.follow_ups.map((q) => (
+                              <button key={q} type="button" className="follow-chip" disabled={loading} onClick={() => void ask(q, "explain")}>{q}</button>
+                            ))}
+                          </div>
+                        ) : null}
                       </div>
                     ) : null}
                   </div>
@@ -303,6 +330,37 @@ export default function JessiePage() {
       </div>
 
       <style jsx>{`
+        .keep-row {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+          margin-top: 10px;
+        }
+        .keep-row .secondary-btn {
+          min-height: 44px;
+        }
+        .follow-chip {
+          min-height: 44px;
+          padding: 8px 14px;
+          border-radius: 999px;
+          border: 1px solid rgba(124, 92, 255, 0.35);
+          background: rgba(255, 255, 255, 0.7);
+          font: inherit;
+          font-size: 0.92rem;
+          text-align: left;
+          cursor: pointer;
+        }
+        .follow-chip:disabled,
+        .keep-row .secondary-btn:disabled {
+          opacity: 0.5;
+          cursor: default;
+        }
+        .level-tag {
+          font-size: 0.75rem;
+          padding: 2px 10px;
+          border-radius: 999px;
+          background: rgba(124, 92, 255, 0.12);
+        }
         .dream-page {
           min-height: 100vh;
           position: relative;

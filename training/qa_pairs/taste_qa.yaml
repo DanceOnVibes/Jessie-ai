@@ -1,4 +1,3 @@
-```yaml
 metadata:
   file_name: "taste_qa.yaml"
   title: "Jessie Taste QA Pairs"
@@ -219,4 +218,3 @@ quality_checks:
   - "Taste is consistently explained as detection of basic food qualities with brain interpretation."
   - "The set includes support for biology teaching, flavor concepts, and visual explanation retrieval."
   - "Safety items escalate clearly without pretending certainty."
-```

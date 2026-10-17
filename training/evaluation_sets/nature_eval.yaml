@@ -2,8 +2,8 @@ evaluation:
   title: Jessie Nature Evaluation Set
   domain: nature
   topic: nature
-  version: '1.0'
-  last_updated: '2026-10-15'
+  version: '2.0'
+  last_updated: '2026-10-17'
   purpose: Checks the teacher answers for habitats, food webs, the water cycle, and seasons.
   audience: Jessie AI evaluation layer
   source_type: internal structured evaluation examples
@@ -40,3 +40,225 @@ evaluation:
   - id: nature_eval_010
     prompt: Should a nature lesson tell someone to pick up a wild animal or open a nest?
     expected: No. Teach, and leave nests, dens, and wild animals undisturbed.
+  - id: nature_eval_011
+    prompt: What do living things need to survive?
+    expected: Food, water, air, and the right conditions, such as shelter and warmth.
+  - id: nature_eval_012
+    prompt: What does MRS GREN help you remember?
+    expected: 'The life processes: movement, respiration, sensitivity, growth, reproduction, excretion,
+      and nutrition.'
+  - id: nature_eval_013
+    prompt: What is a vertebrate?
+    expected: An animal with a backbone.
+  - id: nature_eval_014
+    prompt: Name the five groups of vertebrates.
+    expected: Mammals, birds, fish, reptiles, and amphibians.
+  - id: nature_eval_015
+    prompt: What is an invertebrate?
+    expected: An animal without a backbone, such as an insect, spider, worm, or snail.
+  - id: nature_eval_016
+    prompt: How many legs does an insect have?
+    expected: Six.
+  - id: nature_eval_017
+    prompt: Is a spider an insect?
+    expected: No. Spiders have eight legs and belong to a group called arachnids.
+  - id: nature_eval_018
+    prompt: Are fungi plants?
+    expected: No. Fungi are their own group, and are closer to animals than to plants.
+  - id: nature_eval_019
+    prompt: What is a classification key?
+    expected: A set of yes-or-no questions used to identify a living thing.
+  - id: nature_eval_020
+    prompt: What do plants need to grow?
+    expected: Light, water, air, warmth, and a few minerals from the soil.
+  - id: nature_eval_021
+    prompt: Where do plants get their food?
+    expected: They make it in their leaves using sunlight, water, and carbon dioxide.
+  - id: nature_eval_022
+    prompt: What is photosynthesis?
+    expected: How plants use sunlight, water, and carbon dioxide to make sugar and give out oxygen.
+  - id: nature_eval_023
+    prompt: What gas do plants give out during photosynthesis?
+    expected: Oxygen.
+  - id: nature_eval_024
+    prompt: What do roots do?
+    expected: Hold the plant in the ground and take up water and minerals.
+  - id: nature_eval_025
+    prompt: What is pollination?
+    expected: Moving pollen from one flower to another so that seeds can form.
+  - id: nature_eval_026
+    prompt: Which animals help pollinate flowers?
+    expected: Bees, other insects such as butterflies and hoverflies, and some birds. The wind pollinates
+      some plants.
+  - id: nature_eval_027
+    prompt: How are seeds spread?
+    expected: By wind, water, animals, or by the plant bursting open.
+  - id: nature_eval_028
+    prompt: What is germination?
+    expected: When a seed starts to grow into a new plant.
+  - id: nature_eval_029
+    prompt: What is the life cycle of a butterfly?
+    expected: Egg, caterpillar, chrysalis, and adult butterfly.
+  - id: nature_eval_030
+    prompt: What is the life cycle of a frog?
+    expected: Frogspawn, tadpole, froglet, and frog.
+  - id: nature_eval_031
+    prompt: What is metamorphosis?
+    expected: A big change in body shape during a life cycle, such as a caterpillar becoming a butterfly.
+  - id: nature_eval_032
+    prompt: How do mammals feed their young?
+    expected: With milk.
+  - id: nature_eval_033
+    prompt: How are birds born?
+    expected: They hatch from eggs with hard shells.
+  - id: nature_eval_034
+    prompt: What is a herbivore?
+    expected: An animal that eats only plants.
+  - id: nature_eval_035
+    prompt: What is a carnivore?
+    expected: An animal that eats only other animals.
+  - id: nature_eval_036
+    prompt: What is an omnivore?
+    expected: An animal that eats both plants and animals.
+  - id: nature_eval_037
+    prompt: What is a predator?
+    expected: An animal that hunts other animals for food.
+  - id: nature_eval_038
+    prompt: What is prey?
+    expected: An animal that is hunted for food.
+  - id: nature_eval_039
+    prompt: What does every food chain start with?
+    expected: A producer, usually a plant.
+  - id: nature_eval_040
+    prompt: What do the arrows in a food chain show?
+    expected: Where the food, and its energy, goes.
+  - id: nature_eval_041
+    prompt: Give an example of a simple food chain.
+    expected: Grass to rabbit to fox.
+  - id: nature_eval_042
+    prompt: Where does the energy in a food chain come from?
+    expected: The Sun.
+  - id: nature_eval_043
+    prompt: What happens if one animal disappears from a food web?
+    expected: Many other living things in the web can be affected.
+  - id: nature_eval_044
+    prompt: What is condensation?
+    expected: Water vapour cooling into liquid droplets, as in a cloud.
+  - id: nature_eval_045
+    prompt: Describe the water cycle.
+    expected: Water evaporates, condenses into clouds, falls as precipitation, and collects in rivers,
+      lakes, and the sea.
+  - id: nature_eval_046
+    prompt: What is transpiration?
+    expected: Water released into the air from plant leaves.
+  - id: nature_eval_047
+    prompt: What is a microhabitat?
+    expected: A very small habitat, such as the damp space under a log.
+  - id: nature_eval_048
+    prompt: Name some big habitats, or biomes.
+    expected: Rainforest, desert, ocean, grassland, and tundra.
+  - id: nature_eval_049
+    prompt: Why do many trees lose their leaves in autumn?
+    expected: Shorter, colder days make it hard to keep leaves working, so deciduous trees drop them to
+      save water and energy.
+  - id: nature_eval_050
+    prompt: Why do leaves change colour in autumn?
+    expected: Trees stop making green chlorophyll, so the yellow and orange colours underneath show through.
+  - id: nature_eval_051
+    prompt: What is an evergreen tree?
+    expected: A tree that keeps its leaves all year, such as holly or pine.
+  - id: nature_eval_052
+    prompt: What is hibernation?
+    expected: A deep, long sleep-like state that helps some animals survive winter.
+  - id: nature_eval_053
+    prompt: Which UK animals hibernate?
+    expected: Hedgehogs, dormice, and bats.
+  - id: nature_eval_054
+    prompt: What is migration?
+    expected: A long journey animals make between places, often with the seasons.
+  - id: nature_eval_055
+    prompt: Where do swallows go in winter?
+    expected: They migrate to Africa and return to the UK in spring.
+  - id: nature_eval_056
+    prompt: Which bird makes one of the longest migrations?
+    expected: The Arctic tern, between the Arctic and the Antarctic.
+  - id: nature_eval_057
+    prompt: Give an example of an adaptation.
+    expected: A polar bear's thick fur, a cactus storing water, or an owl's soft feathers for silent flight.
+  - id: nature_eval_058
+    prompt: Do animals choose to adapt?
+    expected: No. Adaptations build up over many generations through natural selection.
+  - id: nature_eval_059
+    prompt: What is natural selection?
+    expected: Living things with helpful features are more likely to survive and have young, and they
+      pass those features on.
+  - id: nature_eval_060
+    prompt: Who explained evolution by natural selection?
+    expected: Charles Darwin and Alfred Russel Wallace.
+  - id: nature_eval_061
+    prompt: What is a fossil?
+    expected: The remains or traces of a living thing from long ago, preserved in rock.
+  - id: nature_eval_062
+    prompt: Who was Mary Anning?
+    expected: A fossil hunter from Lyme Regis whose discoveries helped show that living things have changed
+      over time.
+  - id: nature_eval_063
+    prompt: What is evolution?
+    expected: The slow change in living things over many generations.
+  - id: nature_eval_064
+    prompt: Are red squirrels or grey squirrels native to the UK?
+    expected: Red squirrels. Grey squirrels were brought from North America.
+  - id: nature_eval_065
+    prompt: About how many kinds of bee live in the UK?
+    expected: Around 270.
+  - id: nature_eval_066
+    prompt: Where do puffins nest in the UK?
+    expected: On cliffs and islands around the coast.
+  - id: nature_eval_067
+    prompt: What is biodiversity?
+    expected: The variety of living things in a place.
+  - id: nature_eval_068
+    prompt: Why are some animals and plants in danger?
+    expected: Their habitats are lost or polluted, or the climate changes faster than they can cope with.
+  - id: nature_eval_069
+    prompt: What can people do to help wildlife?
+    expected: Protect wild places, plant flowers for bees, plant trees and hedges, and keep places clean.
+  - id: nature_eval_070
+    prompt: What is a nature reserve?
+    expected: A protected area where wildlife and habitats are looked after.
+  - id: nature_eval_071
+    prompt: What is a wildlife corridor?
+    expected: A strip of habitat, such as a hedge, that links wild places so animals can move between
+      them.
+  - id: nature_eval_072
+    prompt: Can I eat berries I find in the woods?
+    expected: No. Some wild berries are poisonous. Never eat wild berries or mushrooms; ask a trusted
+      adult.
+  - id: nature_eval_073
+    prompt: I found a bird's nest with eggs. Can I take one?
+    expected: No. Leave nests and eggs alone. Wild birds and their nests are protected by law.
+  - id: nature_eval_074
+    prompt: I found a baby bird on the ground. What should I do?
+    expected: Usually leave it, because its parents are often nearby. Tell a trusted adult, who can contact
+      a wildlife charity if it is hurt.
+  - id: nature_eval_075
+    prompt: Can I pick up a hedgehog in my garden?
+    expected: It is best to leave it alone and watch from a distance. Tell a trusted adult if it looks
+      hurt or is out in the daytime.
+  - id: nature_eval_076
+    prompt: Do the oceans help us breathe?
+    expected: Yes. Tiny ocean plants and algae make a large share of the oxygen in the air.
+  - id: nature_eval_077
+    prompt: Why have otters come back to many UK rivers?
+    expected: Many rivers have become cleaner, so otters can find food and shelter again.
+  - id: nature_eval_078
+    prompt: What is a decomposer, and why does it matter?
+    expected: A living thing like a fungus that breaks down dead material and returns nutrients to the
+      soil, so new plants can grow.
+  - id: nature_eval_079
+    prompt: Is a bat a bird?
+    expected: No. A bat is a mammal. It has fur and feeds its young on milk.
+  - id: nature_eval_080
+    prompt: Is a whale a fish?
+    expected: No. A whale is a mammal. It breathes air and feeds its young on milk.
+  status: DRAFT for owner review

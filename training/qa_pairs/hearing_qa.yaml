@@ -1,4 +1,3 @@
-```yaml
 metadata:
   file_name: "hearing_qa.yaml"
   title: "Jessie Hearing QA Pairs"
@@ -274,4 +273,3 @@ quality_checks:
   - "Hearing is consistently explained as an ear-brain partnership."
   - "The set includes support for biology teaching, sound understanding, and visual explanation retrieval."
   - "Safety items escalate clearly without pretending certainty."
-```

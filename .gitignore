@@ -41,3 +41,7 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+
+# built from knowledge/ and rules/ by scripts/build-knowledge.mjs
+/data/jessie-brain.json
+/exam-report.*

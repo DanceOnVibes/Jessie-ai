@@ -3,10 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "node scripts/build-knowledge.mjs",
     "dev": "next dev",
+    "prebuild": "node scripts/build-knowledge.mjs --check",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check:knowledge": "node scripts/build-knowledge.mjs --check",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs",
+    "exam": "node scripts/run-exam.mjs"
   },
   "dependencies": {
     "@ai-sdk/openai": "^4.0.72",

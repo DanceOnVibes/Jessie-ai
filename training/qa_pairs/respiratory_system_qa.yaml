@@ -1,4 +1,3 @@
-```yaml
 metadata:
   file_name: "respiratory_system_qa.yaml"
   title: "Jessie Respiratory System QA Pairs"
@@ -249,4 +248,3 @@ quality_checks:
   - "The respiratory system is consistently explained as an oxygen-in and carbon-dioxide-out system."
   - "The set includes support for biology teaching, structure-function learning, and visual explanation retrieval."
   - "Safety items escalate clearly without pretending certainty."
-```
