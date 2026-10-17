@@ -4,6 +4,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 export type LearnerAge = "under_8" | "8_to_11" | "11_to_14" | "14_plus" | "unknown";
+export type TeachingMode = "explain" | "story" | "quiz" | "deeper";
 
 export type JessieResult = {
   title?: string;
@@ -13,6 +14,9 @@ export type JessieResult = {
   final_prompt?: string;
   /** One short question for the learner. */
   why_this_works?: string;
+  level?: "simple" | "curious" | "deep";
+  /** Questions the learner can tap next. */
+  follow_ups?: string[];
   safety_level?: "none" | "upset" | "hurt" | "danger";
 };
 
@@ -63,9 +67,11 @@ export function useJessie() {
     setSpeaking(false);
   };
 
-  const submit = async () => {
-    const message = userInput.trim();
-    if (!message) return;
+  const submit = async () => ask(userInput.trim(), "explain");
+
+  /** Ask in a given way. Used by the box, the "keep going" buttons and the tap-next questions. */
+  const ask = async (message: string, mode: TeachingMode) => {
+    if (!message || loading) return;
 
     stopSpeaking();
     setLoading(true);
@@ -76,7 +82,7 @@ export function useJessie() {
       const res = await fetch("/api/jessie", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message, age, history: history.slice(-MAX_TURNS) }),
+        body: JSON.stringify({ message, age, mode, history: history.slice(-MAX_TURNS) }),
       });
 
       const data = (await res.json().catch(() => null)) as JessieResponse | null;
@@ -119,6 +125,14 @@ export function useJessie() {
     window.speechSynthesis.speak(utterance);
   };
 
+  /** The same topic, told another way: deeper, as a story, or as a quiz. */
+  const keepGoing = (mode: Exclude<TeachingMode, "explain">) => {
+    const last = [...history].reverse().find((t) => t.role === "user")?.text ?? "";
+    const message =
+      mode === "deeper" ? "Tell me more, a level deeper." : mode === "story" ? "Tell me that as a story." : "Quiz me on this, one question at a time.";
+    void ask(last ? `${message} (We were talking about: ${last.slice(0, 200)})` : message, mode);
+  };
+
   const copyPrompt = async () => {
     if (!response?.result?.final_prompt) return;
     try {
@@ -150,6 +164,8 @@ export function useJessie() {
     speaking,
     canSubmit,
     submit,
+    ask,
+    keepGoing,
     speak,
     copyPrompt,
     reset,

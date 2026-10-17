@@ -8,10 +8,13 @@ import { NextResponse } from "next/server";
 import {
   FALLBACK_ANSWER,
   TEACHER_ANSWER_SCHEMA,
+  TEACHING_MODES,
   brainSummary,
   buildTeacherPrompt,
+  cleanFollowUps,
   type LearnerAge,
   type TeacherAnswer,
+  type TeachingMode,
 } from "@/lib/jessie-core/teacher";
 import { vertexConfigured, vertexGenerate, type VertexTurn } from "@/lib/jessie-core/vertex.server";
 
@@ -30,6 +33,8 @@ const BLOCKED_ANSWER: TeacherAnswer = {
     "That's not something Jessie can help with. How about a question about space, our planet, nature, or how the body works? If something is worrying you, please tell a trusted adult. You can talk to Childline free on 0800 1111, and in an emergency an adult should call 999.",
   check_question: "",
   picture_idea: "",
+  level: "simple",
+  follow_ups: [],
   safety_level: "none",
 };
 
@@ -57,6 +62,8 @@ function asResult(a: TeacherAnswer) {
     summary: a.answer,
     why_this_works: a.check_question || undefined,
     final_prompt: a.picture_idea || undefined,
+    level: a.level,
+    follow_ups: a.follow_ups,
     safety_level: a.safety_level,
   };
 }
@@ -80,12 +87,16 @@ function parseAnswer(text: string): TeacherAnswer | null {
     const data = JSON.parse(text) as Partial<TeacherAnswer>;
     if (typeof data.answer !== "string" || !data.answer.trim()) return null;
     const level = data.safety_level;
+    const safety_level = level === "upset" || level === "hurt" || level === "danger" ? level : "none";
+    const depth = data.level === "curious" || data.level === "deep" ? data.level : "simple";
     return {
       title: typeof data.title === "string" && data.title.trim() ? data.title.trim().slice(0, 120) : "Jessie explains",
       answer: data.answer.trim(),
       check_question: typeof data.check_question === "string" ? data.check_question.trim() : "",
-      picture_idea: typeof data.picture_idea === "string" ? data.picture_idea.trim() : "",
-      safety_level: level === "upset" || level === "hurt" || level === "danger" ? level : "none",
+      picture_idea: safety_level === "none" && typeof data.picture_idea === "string" ? data.picture_idea.trim() : "",
+      level: depth,
+      follow_ups: cleanFollowUps(data.follow_ups, safety_level),
+      safety_level,
     };
   } catch {
     return null;
@@ -116,6 +127,7 @@ export async function POST(req: Request) {
     );
   }
   const age = AGES.includes(body.age as LearnerAge) ? (body.age as LearnerAge) : "unknown";
+  const mode: TeachingMode = TEACHING_MODES.includes(body.mode as TeachingMode) ? (body.mode as TeachingMode) : "explain";
 
   const caller = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
   if (rateLimited(caller)) {
@@ -129,13 +141,15 @@ export async function POST(req: Request) {
     return NextResponse.json({ success: true, result: asResult(FALLBACK_ANSWER) }, { status: 503 });
   }
 
-  const { system, sources } = buildTeacherPrompt(message, age);
+  const history = cleanHistory(body.history);
+  const previousQuestion = [...history].reverse().find((t) => t.role === "user")?.text;
+  const { system, sources } = buildTeacherPrompt(message, age, { mode, ...(previousQuestion ? { previousQuestion } : {}) });
   const result = await vertexGenerate({
     system,
     prompt: message,
-    history: cleanHistory(body.history),
+    history,
     jsonSchema: TEACHER_ANSWER_SCHEMA as unknown as Record<string, unknown>,
-    maxOutputTokens: 1200,
+    maxOutputTokens: mode === "story" || mode === "deeper" ? 1600 : 1200,
     temperature: 0.4,
   });
 
@@ -147,6 +161,7 @@ export async function POST(req: Request) {
     costUsd: Number(result.usage.costUsd.toFixed(6)),
     ms: result.usage.durationMs,
     sections: sources.length,
+    mode,
   });
 
   if (!result.ok) {

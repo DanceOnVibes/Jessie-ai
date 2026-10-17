@@ -52,3 +52,20 @@ test("space, geography and nature each have 80 exam questions", () => {
     assert.equal(ev.cases.length, 80, t);
   }
 });
+
+test("exam questions that ask for a teaching mode use a real one", () => {
+  const modes = new Set(["explain", "story", "quiz", "deeper"]);
+  const withMode = rulesExam.cases.filter((c) => c.mode !== undefined);
+  assert.ok(withMode.length >= 4);
+  for (const c of withMode) assert.ok(modes.has(c.mode), `${c.id}: ${c.mode}`);
+  assert.ok(withMode.some((c) => c.rule === "ST5"), "a safety message must beat story mode");
+});
+
+test("every answer carries tap-next questions, and safety answers never do", () => {
+  const teacher = fs.readFileSync("lib/jessie-core/teacher.ts", "utf8");
+  assert.match(teacher, /follow_ups: \{ type: "array"/);
+  assert.match(teacher, /if \(safetyLevel !== "none" \|\| !Array\.isArray\(raw\)\) return \[\];/);
+  assert.match(teacher, /ignore the mode: follow the safeguarding pack/);
+  const route = fs.readFileSync("app/api/jessie/route.ts", "utf8");
+  assert.match(route, /cleanFollowUps\(data\.follow_ups, safety_level\)/);
+});

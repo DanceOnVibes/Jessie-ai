@@ -142,10 +142,11 @@ for (const item of plan) {
     const res = await fetch(`${BASE}/api/jessie`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ message: item.prompt, age: AGE }),
+      body: JSON.stringify({ message: item.prompt, age: AGE, ...(item.mode ? { mode: item.mode } : {}) }),
     });
     const data = await res.json();
     answer = [data.result?.title, data.result?.summary, data.result?.why_this_works].filter(Boolean).join("\n");
+    if (data.result?.follow_ups?.length) answer += `\n(Tap next: ${data.result.follow_ups.join(" | ")})`;
   } catch (error) {
     answer = `(no answer: ${error.message})`;
   }
@@ -184,3 +185,12 @@ const lines = [
 fs.writeFileSync("exam-report.md", lines.join("\n"));
 fs.writeFileSync("exam-report.json", JSON.stringify({ passed, total: results.length, gbp, bySet, results }, null, 2));
 console.log(lines.slice(0, 3 + Object.keys(bySet).length + 4).join("\n"));
+
+// On GitHub, also show the result where it can be read without downloading anything.
+if (process.env.GITHUB_ACTIONS) {
+  const one = (t) => String(t).replace(/[\r\n%]+/g, " ").slice(0, 900);
+  console.log(`::notice title=Exam::${passed} of ${results.length} passed. Approximate cost £${gbp.toFixed(2)}. ${Object.entries(bySet).map(([s, v]) => `${s} ${v.pass}/${v.total}`).join(", ")}`);
+  for (const r of results.filter((x) => !x.pass).slice(0, 9)) {
+    console.log(`::warning title=Failed ${r.id}${r.rule ? ` (${r.rule})` : ""}::Q: ${one(r.prompt)} — Jessie: ${one(r.answer)} — Why: ${one(r.reason)}`);
+  }
+}

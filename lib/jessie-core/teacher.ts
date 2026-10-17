@@ -8,6 +8,10 @@ import brain from "@/data/jessie-brain.json";
 
 export type LearnerAge = "under_8" | "8_to_11" | "11_to_14" | "14_plus" | "unknown";
 
+/** How the learner wants this answer: the same facts, told differently. */
+export type TeachingMode = "explain" | "story" | "quiz" | "deeper";
+export const TEACHING_MODES: TeachingMode[] = ["explain", "story", "quiz", "deeper"];
+
 export interface BrainChunk {
   pack: string;
   section: string;
@@ -110,8 +114,36 @@ export interface TeacherPrompt {
 }
 
 /** The full instructions for one answer: rules, role, safety, then knowledge. */
-export function buildTeacherPrompt(question: string, age: LearnerAge = "unknown"): TeacherPrompt {
-  const knowledge = findKnowledge(question);
+const MODE_GUIDE: Record<TeachingMode, string> = {
+  explain:
+    "Explain at the right level for this learner. Start simple; if they have already had the simple version in this conversation, move to the curious level.",
+  story:
+    "Tell it as a short story the learner is inside (\"Imagine you are...\"), three to six short paragraphs, warm and full of wonder. Every fact in the story must be true and from the knowledge sections. Say clearly which parts are imagination. End with the real facts in one or two plain sentences.",
+  quiz:
+    "Quiz mode. If the learner has just answered one of your questions, first say kindly whether it was right, and explain the right answer in two or three sentences. Then ask exactly ONE new question about the topic, with three short options labelled A, B and C. Do not give its answer. Put the question and options in check_question and keep answer short.",
+  deeper:
+    "Go one level deeper than the last answer in this conversation (simple to curious, curious to deep). Add one new idea, a real number or comparison from the knowledge sections, and why scientists think it is true. Do not repeat what was already said.",
+};
+
+export interface TeacherPromptOptions {
+  mode?: TeachingMode;
+  /** The learner's previous question, so short follow-ups ("why?") still find the right knowledge. */
+  previousQuestion?: string;
+}
+
+/** Words to search the packs with: the question, plus the last question when this one is short. */
+export function retrievalText(question: string, previousQuestion?: string): string {
+  const own = tokens(question);
+  return own.length < 4 && previousQuestion ? `${question} ${previousQuestion}` : question;
+}
+
+export function buildTeacherPrompt(
+  question: string,
+  age: LearnerAge = "unknown",
+  options: TeacherPromptOptions = {},
+): TeacherPrompt {
+  const mode = options.mode ?? "explain";
+  const knowledge = findKnowledge(retrievalText(question, options.previousQuestion));
   const knowledgeText =
     knowledge.length > 0
       ? knowledge.map((c) => `[${c.section}]\n${c.text}`).join("\n\n")
@@ -129,9 +161,12 @@ export function buildTeacherPrompt(question: string, age: LearnerAge = "unknown"
     "=== KNOWLEDGE PACK SECTIONS FOR THIS QUESTION ===",
     "Use these sections first. You may add well-established school science, but never contradict them and never invent facts. Text marked DRAFT is still being reviewed, so stay close to its wording.",
     knowledgeText,
+    "=== THIS ANSWER ===",
+    MODE_GUIDE[mode],
+    "If the message is a safety concern, ignore the mode: follow the safeguarding pack, plainly, with no story and no quiz.",
     "=== HOW TO ANSWER ===",
     "Write for reading and for listening aloud. British spelling. No markdown tables, no emojis, no symbols that cannot be read aloud.",
-    "Return JSON with: title (a short title), answer (the teaching answer, using the storyteller rules where they help), check_question (one short question for the learner, or an empty string for safety answers), picture_idea (a short child-safe illustration idea with no words or labels in the picture, or an empty string), and safety_level (one of: none, upset, hurt, danger).",
+    "Return JSON with: title (a short title), answer (the teaching answer, using the storyteller rules where they help), check_question (one short question for the learner, or an empty string for safety answers), picture_idea (a short child-safe illustration idea with no words or labels in the picture, or an empty string), level (simple, curious or deep: the level you taught at), follow_ups (two or three short questions, in the learner's own voice, that they could tap next to keep exploring this topic, each answerable from the knowledge sections; an empty list for safety answers), and safety_level (one of: none, upset, hurt, danger).",
   ].join("\n\n");
 
   return { system, sources: knowledge.map((c) => c.section) };
@@ -145,9 +180,11 @@ export const TEACHER_ANSWER_SCHEMA = {
     answer: { type: "string" },
     check_question: { type: "string" },
     picture_idea: { type: "string" },
+    level: { type: "string", enum: ["simple", "curious", "deep"] },
+    follow_ups: { type: "array", items: { type: "string" }, maxItems: 3 },
     safety_level: { type: "string", enum: ["none", "upset", "hurt", "danger"] },
   },
-  required: ["title", "answer", "check_question", "picture_idea", "safety_level"],
+  required: ["title", "answer", "check_question", "picture_idea", "level", "follow_ups", "safety_level"],
 } as const;
 
 export interface TeacherAnswer {
@@ -155,6 +192,8 @@ export interface TeacherAnswer {
   answer: string;
   check_question: string;
   picture_idea: string;
+  level: "simple" | "curious" | "deep";
+  follow_ups: string[];
   safety_level: "none" | "upset" | "hurt" | "danger";
 }
 
@@ -165,8 +204,26 @@ export const FALLBACK_ANSWER: TeacherAnswer = {
     "Jessie can't answer just now. Please try again in a little while. If something is worrying you, tell a trusted adult. In an emergency, an adult should call 999. You can talk to Childline free on 0800 1111.",
   check_question: "",
   picture_idea: "",
+  level: "simple",
+  follow_ups: [],
   safety_level: "none",
 };
+
+/** Keep tap-next questions short, unique and few; none at all after a safety answer. */
+export function cleanFollowUps(raw: unknown, safetyLevel: TeacherAnswer["safety_level"]): string[] {
+  if (safetyLevel !== "none" || !Array.isArray(raw)) return [];
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const item of raw) {
+    if (typeof item !== "string") continue;
+    const text = item.replace(/\s+/g, " ").trim();
+    if (text.length < 4 || text.length > 90 || seen.has(text.toLowerCase())) continue;
+    seen.add(text.toLowerCase());
+    out.push(text);
+    if (out.length === 3) break;
+  }
+  return out;
+}
 
 export function brainSummary() {
   return {

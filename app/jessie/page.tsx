@@ -17,6 +17,8 @@ export default function JessiePage() {
     speaking,
     canSubmit,
     submit,
+    ask,
+    keepGoing,
     speak,
     copyPrompt,
     reset,
@@ -290,6 +292,27 @@ export default function JessiePage() {
                         </div>
                       </div>
                     ) : null}
+
+                    {response.result?.safety_level === "none" || !response.result?.safety_level ? (
+                      <div className="final-prompt-card">
+                        <div className="final-prompt-top">
+                          <strong>Keep going</strong>
+                          {response.result?.level ? <span className="level-tag">{response.result.level === "deep" ? "Deep" : response.result.level === "curious" ? "Curious" : "Simple"}</span> : null}
+                        </div>
+                        <div className="keep-row">
+                          <button type="button" className="secondary-btn" disabled={loading || response.result?.level === "deep"} onClick={() => keepGoing("deeper")}>Go deeper</button>
+                          <button type="button" className="secondary-btn" disabled={loading} onClick={() => keepGoing("story")}>Tell it as a story</button>
+                          <button type="button" className="secondary-btn" disabled={loading} onClick={() => keepGoing("quiz")}>Quiz me</button>
+                        </div>
+                        {response.result?.follow_ups?.length ? (
+                          <div className="keep-row">
+                            {response.result.follow_ups.map((q) => (
+                              <button key={q} type="button" className="follow-chip" disabled={loading} onClick={() => void ask(q, "explain")}>{q}</button>
+                            ))}
+                          </div>
+                        ) : null}
+                      </div>
+                    ) : null}
                   </div>
                 ) : (
                   <div className="error-box">
@@ -307,6 +330,37 @@ export default function JessiePage() {
       </div>
 
       <style jsx>{`
+        .keep-row {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+          margin-top: 10px;
+        }
+        .keep-row .secondary-btn {
+          min-height: 44px;
+        }
+        .follow-chip {
+          min-height: 44px;
+          padding: 8px 14px;
+          border-radius: 999px;
+          border: 1px solid rgba(124, 92, 255, 0.35);
+          background: rgba(255, 255, 255, 0.7);
+          font: inherit;
+          font-size: 0.92rem;
+          text-align: left;
+          cursor: pointer;
+        }
+        .follow-chip:disabled,
+        .keep-row .secondary-btn:disabled {
+          opacity: 0.5;
+          cursor: default;
+        }
+        .level-tag {
+          font-size: 0.75rem;
+          padding: 2px 10px;
+          border-radius: 999px;
+          background: rgba(124, 92, 255, 0.12);
+        }
         .dream-page {
           min-height: 100vh;
           position: relative;
