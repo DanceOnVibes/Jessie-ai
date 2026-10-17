@@ -127,6 +127,29 @@ const plan = sets.flatMap(({ file, ev }) =>
   sample(ev.cases ?? [], file.startsWith("teacher_rules") ? Infinity : PER_SET).map((c) => ({ set: file.replace(/_eval\.yaml$/, ""), ...c })),
 );
 
+// Say plainly why an exam cannot run, without ever printing a secret.
+const missing = ["GOOGLE_VERTEX_SA_KEY", "GOOGLE_CLOUD_PROJECT"].filter((name) => !(process.env[name] ?? "").trim());
+if (missing.length) {
+  console.log(`::error title=Exam cannot run::Missing repository secret(s): ${missing.join(", ")}. Add them under Settings > Secrets and variables > Actions.`);
+  process.exit(1);
+}
+try {
+  const health = await (await fetch(`${BASE}/api/jessie`)).json();
+  if (!health.modelConfigured) {
+    console.log("::error title=Exam cannot run::Jessie started without her Google settings, so she cannot answer.");
+    process.exit(1);
+  }
+} catch (error) {
+  console.log(`::error title=Exam cannot run::Jessie did not start (${String(error?.message ?? error).slice(0, 200)}).`);
+  process.exit(1);
+}
+try {
+  await accessToken();
+} catch (error) {
+  console.log(`::error title=Exam cannot run::Google sign-in for marking failed (${String(error?.message ?? error).slice(0, 100)}). Check the service-account key secret.`);
+  process.exit(1);
+}
+
 console.log(`Exam: ${plan.length} questions from ${sets.length} sets against ${BASE} (limit £${MAX_GBP.toFixed(2)})`);
 
 const results = [];
